@@ -1,5 +1,6 @@
 import React from "react";
 import Row from "../components/Row";
+import "../styles/DisplayPhones.scss";
 
 class CurrentPhones extends React.Component {
   constructor(props) {

@@ -1,12 +1,15 @@
 # Jphones
 
+Jphones phone specs. Site to compare phones and pick the best one for purchase.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Author: Jaye Rose
 
 ## Links & Resources
 
 * [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
 
 ## Available Scripts
 
