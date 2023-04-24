@@ -1,0 +1,98 @@
+// Scroll animation code from https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
+$scrollAnimation: calc(var(--scroll) * -1s);
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.gadgets360cdn.com/large/Best_phones_2018_cover_ndtv_1545054680573.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+}
+
+// scroll animation below source: https://css-tricks.com/books/greatest-css-tricks/scroll-animation/ 
+#hero-1 {
+  left: 50%;
+  top: 40%;
+
+  & h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: #ffce00;
+    animation: reduce 0.5s ease-in;
+    animation-play-state: paused;
+    animation-delay: $scrollAnimation;
+    animation-fill-mode: forwards;
+  }
+}
+
+#hero-2 {
+  left: 30%;
+  top: 65%;
+  font-style: italic;
+  animation: slideIn 0.5s ease-out 0s 1;
+  animation-play-state: paused;
+  animation-delay: $scrollAnimation;
+  animation-fill-mode: both;
+}
+
+// Makes the hero text smaller on smaller screens
+@media screen and (max-width: 640px) {
+  #hero-1 h1 {
+    font-size: 4rem;
+  }
+}
+
+// Makes the header text slide in from the left on page load.
+// Source: https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// Makes the title get bigger as the page scrolls
+@keyframes reduce {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+// Music streaming sites links on home page
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  & img {
+    margin: 20px;
+    height: 76.8px;
+    min-width: 72px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+    transition: transform 0.7s;
+  }
+
+  & img:hover {
+    transform: scale(1.4); // makes the links become larger when hovered over
+  }
+}

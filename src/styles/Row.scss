@@ -1,0 +1,46 @@
+h2 {
+  text-transform: capitalize;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0;
+}
+
+/* Adds scrollbar when the content in .scrollbar is too long to fit in page */
+.scrollbar {
+  overflow: auto;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .scrollbar {
+    overflow: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #282828;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d3d3d;
+}

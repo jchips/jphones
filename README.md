@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Jphones
+
+## Author: Jaye Rose
+
+## Links & Resources
+
+* [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

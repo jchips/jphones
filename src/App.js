@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './styles/index.scss';
+// import './styles/Header.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import DisplayOptionsForm from "./components/DisplayOptionsForm"
+import pixelData from "./json/pixel-data.json"
+import samsungData from "./json/samsung-data.json"
+import CurrentPhones from "./pages/CurrentPhones";
+import Apple from "./pages/Apple";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      displayAllPhones: false,
+      // data: [pixelData, samsungData]
+      data: [{name: 'pixel', rowData: pixelData}, {name: 'samsung', rowData: samsungData}]
+    }
+  }
+
+  display = (page) => {
+    this.setState({displayAllPhones: page !== 'currentPhones' ? true : false})
+  }
+  render() {
+    return(
+      <>
+        <DisplayOptionsForm display={this.display}/>
+        {this.state.displayAllPhones ? <Apple pixelData={this.state.data}/> : <CurrentPhones pixelData={this.state.data}/>}
+      </>
+    )
+  }
 }
 
 export default App;

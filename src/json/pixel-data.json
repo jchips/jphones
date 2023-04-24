@@ -1,0 +1,496 @@
+[
+  {
+    "Name": "Pixel 6 Pro",
+    "id": "pixel-6-pro",
+    "Img": "phones-img/pixel-6-pro.png",
+    "Brand": "Google",
+    "OS": "Android 12",
+    "Year": 2021,
+    "Colors": ["Sorta Sunny", "Cloudy White", "Stormy Black"],
+    "Prices": ["128 GB: $900", "256 GB: $1000", "512 GB: $1100"],
+    "UI": "Stock Android 12",
+    "Display": "6.7 in; 1440x3120 px, Curved QHD+ OLED",
+    "Build": "Gorilla Glass Victus (curved)",
+    "Size" :"6.50 x 3.0 x 0.40 in",
+    "rearCameras": "Primary: 50 MP, Ultrawide: 12 MP, Telephoto: 48 MP",
+    "frontCameras": "11.1 MP",
+    "Ram": "12 GB",
+    "Battery": "5003 mAh",
+    "Charging": "30W, 12W wireless, 23W Pixel stand",
+    "Capacity": "128 / 256 / 512 GB",
+    "Released": "Oct. 28, 2021 (US)",
+    "phoneFeatures": [ "120 Hz refresh rate", "Wireless charging", "UFS 3.1 storage", "Gaming Mode", "Extra dim mode", 
+    "Stereo speakers", "Mute camera and mic option", "Battery Share (Reverse wireless charging)", 
+    "Optical in-display fingerprint scanner", "IP68 water/dust resistant"],
+    "cameraFeatures": [
+      "Magic eraser", "Face Unblur", "4K video @ 60fps", "Eliminate color from backgrounds option"
+    ],
+    "cameraPros": [
+      "Speech Enhancement", "Has an ultrawide camera (unlike predecessors)"
+    ],
+    "cameraCons": [
+      "No macro camera", "Ultrawide isn't very wide", "Camera isn't very consistent", "Slight color shift when going from ultrawide to other lenses"
+    ], 
+    "Pros": [
+      "Doesn't rock back and forth on a table", "\"Really good\" haptics ~ Multiple reviewers", "\"Sound is more full & punchier than the Pixel 6\" ~ Thao Huynh"
+    ],
+    "Cons": [
+      "No face ID", "Thick bezels", "Slight color shift on curved edges", "Some apps just crash ~ ASBYT, Nov 2021", 
+      "Minor bugs ~ Tech Spurt, July 2022", "Fingerprint magnet + camera bump collects dirt", "Does not come with charger ITB",
+      "Battery is subpar ~ MKBHD & SuperSaf", "Fingerprint reader is slow & doesn't work well ~ Multiple reviewers",
+      "\"My P6 Pro has become so buggy since launch that I can no longer recommend it\" ~ MKBHD, Jan 2022"
+    ],
+    "Approbations": [
+      "\"My favorite Pixels ever (Pixel 6s')\" ~ MKBHD", 
+      "\"By far the smoothest experience you will ever get on an Android phone rn\" ~ Sam Beckman, Nov 2021"
+    ]
+  },
+  {
+    "Name": "Pixel 6",
+    "id": "pixel-6",
+    "Img": "phones-img/pixel-6.png",
+    "Brand": "Google",
+    "OS": "Android 12",
+    "Year": 2021,
+    "Colors": ["Sorta Seaform", "Kinda Coral", "Stormy Black"],
+    "Prices": ["128GB: $600", "256GB: $700"],
+    "UI": "Stock Android 12",
+    "Display": "6.4 in; 1080x2400 px, FHD+ OLED",
+    "Build": "Gorilla Glass Victus / Gorilla Glass 6, aluminum frame",
+    "Size": "6.20 x 2.90 x 0.40 in",
+    "rearCameras": "Primary: 50 MP, Ultrawide: 12 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "4614 mAh",
+    "Charging": "30W, 21W Pixel Stand 2",
+    "Capacity": "128 / 256 GB",
+    "Released": "Oct. 25, 2021 (US)",
+    "phoneFeatures": [
+      "90 Hz refresh rate", "Wireless charging", "UFS 3.1 storage", "Gaming Mode", "Mute camera and mic option",
+      "Battery Share (Reverse wireless charging)", "In-display fingerprint scanner", "IP68 water/dust resistant"
+    ],
+    "cameraFeatures":[
+      "Magic eraser", "Face Unblur", "4K video @ 60fps"
+    ],
+    "cameraPros":[
+      "Has an ultrawide camera (unlike predecessors)"
+    ],
+    "cameraCons":[
+      "Ultrawide isn't very wide", "No macro or telephoto camera", "Only 7x digital zoom (Pro has 20x)",
+      "No 4K selfie video (like the Pro has)"
+    ],
+    "Pros":[
+      "Doesn't rock back and forth on a table", "\"Really good\" haptics ~ MKBHD", "\"Battery life is wonderful\" ~ Tech Spurt, Oct 2021"
+    ],
+    "Cons":[
+      "No face ID", "Thick bezels","Fingerprint magnet", "No charger ITB", "Battery is subpar ~ MKBHD & SuperSaf", 
+      "Camera bump collects dirt", "Fingerprint reader is slow ~ Multiple reviewers", "Fingerprint reader doesn't work well with damp fingers"
+    ],
+    "Approbations":[
+      "\"My favorite Pixels ever (Pixel 6s')\" ~ MKBHD"
+    ]
+  },
+  {
+    "Name": "Pixel 6a",
+    "id": "pixel-6a",
+    "Img": "phones-img/pixel-6a.png",
+    "Brand": "Google",
+    "OS": "Android 12",
+    "Year": 2022,
+    "Colors": ["Charcoal", "Chalk", "Sage"],
+    "Prices": ["128GB: $450"],
+    "UI": "Stock Android 12",
+    "Display": "6.1 in; 1080x2400 px, FHD+ OLED",
+    "Build": "Gorilla Glass 3 / curved plastic, aluminum frame",
+    "Size": "6.0 x 2.8 x 0.35 in",
+    "rearCameras": "Primary: 12.2 MP, Ultrawide: 12 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "4410 mAh",
+    "Charging": "18W",
+    "Capacity": "128 GB",
+    "Released": "July 28, 2022 (US)",
+    "phoneFeatures": [
+      "5G", "Wifi 6E", "UFS 3.1 storage", "Stereo speakers", "One-handed mode", "IP67 water/dust resistant",
+      "In-display fingerprint sensor", "At least 5yrs of Google updates"
+    ],
+    "cameraFeatures":[
+      "Magic eraser", "Face Unblur", "4K video @ 60fps"
+    ],
+    "cameraPros":[
+      "Rear camera doesn't protrude as much as predecessors"
+    ],
+    "cameraCons":[
+      "No telephoto"
+    ],
+    "Pros":[
+      "\"Best you can buy in the US at its price class\" ~ MrMobile"
+    ],
+    "Cons":[
+      "No charger ITB", "No wireless charging", "Lower IP rating", "Downgraded Gorilla Glass 3",
+      "Only 60Hz refresh rate", "Heats up fast ~ Tech Spurt", "Fast charging isn't very fast ~ Tech Spurt",
+      "Poor battery life ~ MrMobile"
+    ],
+    "Approbations":[]
+  },
+  {
+    "Name": "Pixel 5",
+    "id": "pixel-5",
+    "Img": "phones-img/pixel-5.png",
+    "Brand": "Google",
+    "OS": "Android 11",
+    "Year": 2020,
+    "Colors": ["Just Black", "Sorta Sage"],
+    "Prices": ["128GB: $700"],
+    "UI": "Stock Android 11",
+    "Display": "6.0 in; 1080x2400 px, OLED",
+    "Build": "Gorilla Glass 6 / Aluminum, aluminum frame",
+    "Size": "5.70 x 2.77 x 0.31 in",
+    "rearCameras": "Primary: 12.2 MP, Ultrawide: 16 MP",
+    "frontCameras": "8 MP",
+    "Ram": "8 GB",
+    "Battery": "4080 mAh",
+    "Charging": "18W",
+    "Capacity": "128 GB",
+    "Released": "Oct. 15, 2020 (US)",
+    "phoneFeatures": [
+      "5G", "90 Hz refresh rate", "UFS 2.1 storage", "Wireless charging & Reverse wireless charging", 
+      "Fingerprint scanner", "Water/dust resistant"
+    ],
+    "cameraFeatures":[
+      "HDR10+", "4K video @ 60fps", "Eliminate color from backgrounds option", "Refocus photos option",
+      "Option to add in light that was never there"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "Same sensor as Pixels 4, 3 & 2 (4yr old hardware)"
+    ],
+    "Pros":[
+      "None recorded"
+    ],
+    "Cons":[
+      "No face ID", "Kinda weak firing speakers", "No Wifi 6 support", "No Radar motion sensor (like the Pixel 4s had)",
+      "No more squeeze for assistant"
+    ],
+    "Approbations":[]
+  },  
+  {
+    "Name": "Pixel 5a",
+    "id": "pixel-5a",
+    "Img": "phones-img/pixel-5a.png",
+    "Brand": "Google",
+    "OS": "Android 11",
+    "Year": 2021,
+    "Colors": ["Mostly Black"],
+    "Prices": ["128GB: $450"],
+    "UI": "Stock Android 11",
+    "Display": "6.34 in; 1080x2400 px, FHD+ OLED",
+    "Build": "Gorilla Glass 6 / Plastic, aluminum (Matte)",
+    "Size": "6.1 x 2.9 x 0.3 in",
+    "rearCameras": "Primary: 12.2 MP, Ultrawide: 16 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "4680 mAh",
+    "Charging": "18W fast",
+    "Capacity": "128 GB",
+    "Released": "Aug. 26, 2021 (US)",
+    "phoneFeatures": [
+      "Sub-6 5G", "Fingerprint scanner", "IP67 water/dust resistant", "Recorder that transcribes audio"
+    ],
+    "cameraFeatures":[
+      "4K @ 60fps", "No telephoto camera"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "In lowlight, front camera gets noisy ~ Engadget, Aug 2021", "Same sensor as Pixels 4, 3 & 2 (4yr old hardware)"
+    ],
+    "Pros":[
+      "Only $450", "Has a headphone jack", "Comes with 18W charger ITB", "Has waterproofing (unlike Pixel 4a)"
+    ],
+    "Cons":[
+      "No wireless charging", "Have to buy it unlocked or with Google-Fi carrier", "Color is more like \"Definitely Green\" ~ Flossy Carter",
+      "\"The Pixel 5a is almost aggressively boring\" ~ Engadget, Aug 2021"
+    ],
+    "Approbations":[
+      "\"If you don't care about wireless charge or face unlock, this is the perfect midrange Android phone\" ~ Flossy Carter, Aug 2021",
+      "\"Everything about this phone is clean\" ~ Flossy Carter"
+    ]
+  },
+  {
+    "Name": "Pixel 4XL",
+    "id": "pixel-4xl",
+    "Img": "phones-img/pixel-4xl.png",
+    "Brand": "Google",
+    "OS": "Android 10",
+    "Year": 2019,
+    "Colors": ["Just Black", "Clearly White", "Oh So Orange"],
+    "Prices": ["64GB: $900", "128GB: $1000"],
+    "UI": "Stock Android 10 (Vanilla)",
+    "Display": "6.3 in; 1440x3040 px, QHD+ OLED",
+    "Build": "Gorilla Glass 5, matte black frame (Matte)",
+    "Size": "6.31 x 2.96 x 0.32 in",
+    "rearCameras": "Primary: 12.2 MP, Ultrawide: 16 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "3700 mAh",
+    "Charging": "18W fast, 5W wireless",
+    "Capacity": "64 / 128 GB",
+    "Released": "Oct. 24, 2019 (US)",
+    "phoneFeatures": [
+      "3D face ID", "90 Hz refresh rate", "Dual speakers", "10W wireless charging w/ Google's wireless charger",
+      "Uses Radar- Motion sensor air gestures for skipping music, accepting/denying calls + other cool things",
+      "Voice memo app that records your voice into text notes and search for things you said"
+    ],
+    "cameraFeatures":[
+      "Astro photography", "2x optical zoom", "HDR+ live view", "Dual exposure controls"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "Same sensor as Pixels 3 & 2", "Group selfie cam is taken out", "No ultrawide camera unlike competition", 
+      "No more wide portrait photos", "No 4k @ 60fps (4k @ 30fps)"
+    ],
+    "Pros":[
+      "One step unlock", "Secure Face ID", "Simpler and smarter software", "Smarter and faster Google Assistant", 
+      "\"Great haptics\" ~ Mrwhosetheboss, Oct. 2019", "\"Fastest facial unlocking in any smartphone\" ~ Google",
+      "Pixel 4s are first devices with Radar sensors (spatial awareness)"
+    ],
+    "Cons":[
+      "Battery life is wack", "Lots of bezels; big forehead", "Needless square camera bump", "No longer has unlimited photo storage at original quality", 
+      "No fingerprint IDs (unlike other current phones)", "No longer has dual front-firing speakers, now a single front firing", 
+      "New motion sensing feature doesn't work very well; not very consistent", "Has fast video rendering, but it uses all the phones ram", 
+      "Doesn't feel very premium", "Face unlock doesn't work with angles or PayPal and unlocks even when your eyes are closed"
+    ], 
+    "Approbations":[]
+  },
+  {
+    "Name": "Pixel 4",
+    "id": "pixel-4",
+    "Img": "phones-img/pixel-4.png",
+    "Brand": "Google",
+    "OS": "Android 10",
+    "Year": 2019,
+    "Colors": ["Just Black", "Clearly White", "Oh So Orange"],
+    "Prices": ["64 GB: $800", "128 GB: $900"],
+    "UI": "Stock Android 10 (Vanilla)",
+    "Display": "5.7 in; 1080x2280 px, FHD+ OLED",
+    "Build": "Gorilla Glass 5, Matte back | Black Matte frame",
+    "Size": "5.79 x 2.71 x 0.32 in",
+    "rearCameras": "Primary: 12.2 MP, Ultrawide: 16 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "2800 mAh",
+    "Charging": "18W fast, 5W wireless",
+    "Capacity": "64 / 128 GB",
+    "Released": "Oct. 24, 2019 (US)",
+    "phoneFeatures": [
+      "3D face ID", "90 Hz refresh rate", "Dual speakers", "10W wireless charging w/ Google's wireless charger", 
+      "Uses Radar- Motion sensor air gestures for skipping music, accepting/denying calls + other cool things",
+      "Voice memo app that records your voice into text notes and search for things you said"
+    ],
+    "cameraFeatures":[
+      "Astro photography", "2x optical zoom", "HDR+ live view", "Dual exposure controls"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "Same sensor as Pixels 3 & 2", "Group selfie cam is taken out", "No ultrawide camera unlike competition", 
+      "No more wide portrait photos", "No 4k @ 60fps (4k @ 30fps)"
+    ],
+    "Pros":[
+      "One step unlock", "Secure Face ID", "Simpler and smarter software", "Smarter and faster Google Assistant", 
+      "\"Great haptics\" ~ Mrwhosetheboss, Oct. 2019", "\"Fastest facial unlocking in any smartphone\" ~ Google",
+      "Pixel 4s are first devices with Radar sensors (spatial awareness)"
+    ],
+    "Cons":[
+      "Battery life is wack", "Lots of bezels; big forehead", "Needless square camera bump", "No longer has unlimited photo storage at original quality", 
+      "No fingerprint IDs (unlike other current phones)", "No longer has dual front-firing speakers, now a single front firing", 
+      "New motion sensing feature doesn't work very well; not very consistent", "Has fast video rendering, but it uses all the phones ram", 
+      "Doesn't feel very premium", "Face unlock doesn't work with angles or PayPal and unlocks even when your eyes are closed"
+    ],
+    "Approbations":[]
+  },
+  {
+    "Name": "Pixel 4a",
+    "id": "pixel-4a",
+    "Img": "phones-img/pixel-4a.png",
+    "Brand": "Google",
+    "OS": "Android 10",
+    "Year": 2020,
+    "Colors": ["Just Black", "Barely Blue"],
+    "Prices": ["128 GB: $350"],
+    "UI": "Stock Andriod 10 (Vanilla)",
+    "Display": "5.81 in; 1080x2340 px, FHD+ OLED",
+    "Build": "Gorilla Glass 3 / Polycarbonate (plastic)",
+    "Size": "5.7 x 2.7 x 0.3 in",
+    "rearCameras": "12 MP",
+    "frontCameras": "8 MP",
+    "Ram": "6 GB",
+    "Battery": "3140 mAh",
+    "Charging": "18W fast",
+    "Capacity": "128 GB",
+    "Released": "Aug. 20th, 2020 (US)",
+    "phoneFeatures": [
+      "Bedtime mode", "Stereo speakers", "Fingerprint scanner"
+    ],
+    "cameraFeatures":[
+      "Super fast autofocus", "4K video @ 30fps"
+    ],
+    "cameraPros":[
+      "Same exact camera tech that's on the Pixel 5", "No \"pointless\" macro-lens this time"
+    ],
+    "cameraCons":[
+      "No ultrawide camera", "No depth sensor"
+    ],
+    "Pros":[
+      "Only $350 (USD)", "Very good photos (no surprise)", "“Battery is great” ~ MKBHD", "Very lightweight",
+      "Has a headphone jack (unlike Pixel 4 & 4XL)", "Back doesn’t get much scratches or fingerprints (plastic)",
+      "Fixed the \"too-much-bezels\" problem"
+    ],
+    "Cons":[
+      "No 5G support", "Phone is bendy ~ Marques Brownlee", "No IP certification (not water/dust resistant)",
+      "No face ID (unlike Pixel 4 & 4XL)", "No radar sensors (?)", "No wireless charging (unlike Pixel 4 & 4XL)",
+      "60 Hz refresh rate (unlike other current phones)", "Auto brightness isn’t bright enough ~ Tech Spurt, Dec 2020",
+      "Got rid of squeezable sides to activate Google Assistant or anything else",
+      "“Performance is not that great—it’s not smooth or fast feeling” ~ MKBHD",
+      "You can get phones that look and feel much more premium for the same price",
+      "Probably the budget phone that will show its age the fastest out of 2020 budget phones ~ Dave2D, Aug 2020",
+      "“Speaker puts out as much power as a sparrow’s bowel movement” ~ Tech Spurt, Dec 2020",
+      "“Screen quality isn’t great & there’s color distortion when you move the phone slightly” ~ 6 Months Later"
+    ],
+    "Approbations":[
+      "“Budget camera king” ~ Mr. Mobile", "\"Nightsight on Pixel really can’t be beat” ~ Tech Spurt", "\"King of lowlight” ~ Mr. Mobile"
+    ]
+  },
+  {
+    "Name": "Pixel 3XL",
+    "id": "pixel-3xl",
+    "Img": "phones-img/pixel-3xl.png",
+    "Brand": "Google",
+    "OS": "Android P",
+    "Year": 2018,
+    "Colors": ["Just Black", "Clearly White", "Not Pink"],
+    "Prices": ["64 GB: $900 USD", "128 GB: $1,000 USD"],
+    "UI": "Stock Android 9 (Vanilla)",
+    "Display": "6.3 in; 1440x2960 px, QHD+ OLED",
+    "Build": "Gorilla (soft touch) Glass 5 | Painted metal frame + hybrid coating",
+    "Size": "6.22 x 3.02 x 0.31 in",
+    "rearCameras": "12.2 MP",
+    "frontCameras": "Primary: 8 MP, 8 MP",
+    "Ram": "4 GB",
+    "Battery": "3430 mAh",
+    "Charging": "",
+    "Capacity": "64 / 128 GB",
+    "Released": "Oct. 18, 2018 (US)",
+    "phoneFeatures": [
+      "Playmoji", "Fingerprint scanner", "Front firing stereo speakers", "Google Assistant phone call screening",
+      "Unlimited cloud storage for photos and videos"
+    ],
+    "cameraFeatures":[
+      "Portrait mode and Night Sight"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "None recorded"
+    ],
+    "Pros":[
+      "USB Type-C earphones ITB", "Dongle is ITB (3.5mm to USB type-C)", "The notch can be disabled in developer settings", "Has Digital Wellbeing unlike previous models", 
+      "Pixel 3s are the only flagships with front firing speakers"
+    ],
+    "Cons":[
+      "Notch is short and fat", "Doesn't look very premium", "Build feels like plastic (although it's glass), scratches easily", "Gestures are annoying on Andriod P (not very fluid or intuitive)"   
+    ],
+    "Approbations":[]
+  },
+  {
+    "Name": "Pixel 3",
+    "id": "pixel-3",
+    "Img": "phones-img/pixel-3.webp",
+    "Brand": "Google",
+    "OS": "Android P",
+    "Year": 2018,
+    "Colors": ["Just Black", "Clearly White", "Not Pink"],
+    "Prices": ["64 GB: $800", "128 GB: $900"],
+    "UI": "Stock Android 9 (Vanilla)",
+    "Display": "5.5 in; 1080x2160 px, FHD+ OLED",
+    "Build": "Gorilla Glass 5, Aluminum frame + hybrid coating",
+    "Size": "5.7 x 2.7 x 0.3 in",
+    "rearCameras": "12.2 MP",
+    "frontCameras": "8 MP",
+    "Ram": "4 GB",
+    "Battery": "2915 mAh",
+    "Charging": "",
+    "Capacity": "64 / 128 GB",
+    "Released": "Oct. 18, 2018 (US)",
+    "phoneFeatures": [
+      "Playmoji", "Fingerprint scanner", "Dual front firing speakers"
+    ],
+    "cameraFeatures":[
+      "Portrait mode"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "None recorded"
+    ],
+    "Pros":[
+      "No notch (unlike Pixel 3XL)", "USB Type-C earphones ITB", "Dongle is ITB (3.5mm to USB type-C)",
+      "Pixel 3s are only flagships with front firing speakers",
+      "Has Digital Wellbeing (unlike previous models)", "Runner-up of best compact phone of 2018 (after iPhone XS)"
+    ],
+    "Cons":[
+      "Build feels like plastic (although it's glass), scratches easily", "Gestures are annoying on Andriod P (not very fluid or intuitive)"
+    ],
+    "Approbations":[]
+  },
+  {
+    "Name": "Pixel 3a",
+    "id": "pixel-3a",
+    "Img": "phones-img/pixel-3a.png",
+    "Brand": "Google",
+    "OS": "Android P",
+    "Year": 2019,
+    "Colors": ["Just Black", "Clearly White", "Purple-ish"],
+    "Prices": ["64 GB: $400"],
+    "UI": "Stock Android 9 (Vanilla)",
+    "Display": "5.6 in; 1080x2220 px, FHD+ OLED",
+    "Build": "Polycarbonate back (plastic)",
+    "Size": "6.0 x 2.8 x 0.3 in",
+    "rearCameras": "12.2 MP",
+    "frontCameras": "8 MP",
+    "Ram": "4 GB",
+    "Battery": "3000 mAh",
+    "Charging": "",
+    "Capacity": "64 GB",
+    "Released": "May 8th, 2019 (US)",
+    "phoneFeatures": [
+      "Headphone jack (on the top)", "Front firing stereo speaker"
+    ],
+    "cameraFeatures":[
+      "None recorded"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "None recorded"
+    ],
+    "Pros":[
+      "Officially on about every US Carrier (unlike past Pixels)", "Camera is about the same as flagship Pixels (really good)"
+    ],
+    "Cons":[
+      "No IP rating", "No wireless charging", "Very little storage space", "Single front facing camera rather than two (unlike Pixel 3/3XL)",
+      "Processor is noticably not as good as Pixel flagships"
+    ],
+    "Approbations":[]
+  }
+]
