@@ -1,8 +1,8 @@
 [
   {
-    "Name": "Galaxy S22 Ultra",
-    "Tag": "s22-ultra",
-    "Img": "phones-img/galaxy-s22-ultra.png",
+    "name": "Galaxy S22 Ultra",
+    "id": "s22-ultra",
+    "img": "/assets/imgs/galaxys/galaxy-s22-ultra.png",
     "Brand": "Samsung",
     "OS": "Android 12",
     "Year": 2022,
@@ -12,25 +12,25 @@
     "Display": "6.8 in; 1440x3088 px, Curved QHD+ Dynamic AMOLED 2X",
     "Build": "Curved Gorilla Glass Victus+ (Matte)",
     "Size": "6.43 x 3.07 x 0.35 in",
-    "Rear cameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
-    "Front cameras": "40MP",
+    "rearCameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
+    "frontCameras": "40MP",
     "Ram": "8 / 12 GB",
     "Battery": "5000 mAh",
     "Charging": "45W, 15W wireless, 4.5 PowerShare",
     "Capacity": "128 / 256 / 512 / 1 TB",
     "Released": "Feb. 25, 2022 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "Wifi 6E", "Built-in S Pen", "Improved brightness", "Boxier design like a Galaxy Note", "More efficient adaptive refresh rate",
       "S Pen has much lower latency than past S Pens (2.8)"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "Auto FPS", "Auto framing", "58% wider OIS", "RAW camera app", "8K video @ 24fps", "Laser auto focus",
       "3x and 10x optical zoom", "Periscope camera", "12-bit HDR recording (64x more colors then previously)"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "None recorded"
     ],
     "Pros":[
@@ -42,9 +42,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Galaxy S22+",
-    "Tag": "galaxy-s22-plus",
-    "Img": "phones-img/galaxy-s22-plus.png",
+    "name": "Galaxy S22+",
+    "id": "galaxy-s22-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s22-plus.png",
     "Brand": "Samsung",
     "OS": "Android 12",
     "Year": 2022,
@@ -54,24 +54,24 @@
     "Display": "6.6 in; 1080x2340px, FHD+ Dynamic AMOLED",
     "Build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
     "Size": "6.20 x 2.98 x 0.30 in",
-    "Rear cameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
-    "Front cameras": "10MP",
+    "rearCameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
+    "frontCameras": "10MP",
     "Ram": "8 GB",
     "Battery": "4500 mAh",
     "Charging": "45W, 15W wireless, 4.5 PowerShare",
     "Capacity": "128 / 256 GB",
     "Released": "Feb. 25, 2022 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "Wifi 6E", "Improved brightness", "Flatter edges than the S21s", "More efficient adaptive refresh rate"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "Auto FPS", "Auto framing", "58% wider OIS", "RAW camera app", "8K video @ 24fps", "Laser auto focus",
       "3x and 10x optical zoom", "12-bit HDR recording (64x more colors then previously)"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "None recorded"
     ],
     "Pros":[
@@ -83,9 +83,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Galaxy S22",
-    "Tag": "galaxy-s22",
-    "Img": "phones-img/galaxy-s22.png",
+    "name": "Galaxy S22",
+    "id": "galaxy-s22",
+    "img": "/assets/imgs/galaxys/galaxy-s22.png",
     "Brand": "Samsung",
     "OS": "Android 12",
     "Year": 2022,
@@ -95,24 +95,24 @@
     "Display": "6.1 in; 1080x2340 px, FHD+ Dynamic AMOLED",
     "Build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
     "Size": "5.75 x 2.78 x 0.30 in",
-    "Rear cameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
-    "Front cameras": "10MP",
+    "rearCameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
+    "frontCameras": "10MP",
     "Ram": "8 GB",
     "Battery": "3700 mAh",
     "Charging": "25W, 15W wireless, 4.5 PowerShare",
     "Capacity": "128 / 256 GB",
     "Released": "Feb. 25, 2022 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "Wifi 6E", "Improved brightness", "Flatter edges than the S21s", "More efficient adaptive refresh rate"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "Auto FPS", "Auto framing", "58% wider OIS", "RAW camera app", "8K video @ 24fps", "Laser auto focus",
       "3x and 10x optical zoom", "12-bit HDR recording (64x more colors then previously)"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "None recorded"
     ],
     "Pros":[
@@ -124,9 +124,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Galaxy S21 Ultra",
-    "Tag": "s21-ultra",
-    "Img": "phones-img/galaxy-s21-ultra.png",
+    "name": "Galaxy S21 Ultra",
+    "id": "s21-ultra",
+    "img": "/assets/imgs/galaxys/galaxy-s21-ultra.png",
     "Brand": "Samsung",
     "OS": "Android 11",
     "Year": 2021,
@@ -136,26 +136,26 @@
     "Display": "6.8 in; 1440x3200 px, Curved WQHD+ Dynamic AMOLED 2x",
     "Build": "Gorilla Glass Victus (Matte), aluminum frame",
     "Size": "6.5 x 2.98 x 0.35 in",
-    "Rear cameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
-    "Front cameras": "40MP",
+    "rearCameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
+    "frontCameras": "40MP",
     "Ram": "12 / 16 GB",
     "Battery": "5000 mAh",
     "Charging": "25W fast, 15W wireless",
     "Capacity": "128 / 256 / 512 GB",
     "Released": "Jan. 29, 2021 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "HyperFast WiFi 6E", "Bluetooth 5.2 support", "Google Discover feed", "S-pen functionality (not included)"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "100x zoom, lock zoom, 3x & 10x optical zoom", "Laser autofocus", "Smart-Iso", "2 telephoto cameras",
       "Single take camera", "8K @ 24 fps, 4K @ 60 fps (video)", "64x richer color, 3x wider dynamic range",
       "Dual Pixel autofocus in ultrawide (macro camera)", "Vlogger view & director’s view modes"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "Fixed focus problems from S20 Ultra", "Improved in lowlight", "Clean photos up to 30x zoom",
       "4K @ 60 fps across all cameras"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "No OIS on ultrawide camera"
     ],
     "Pros":[
@@ -177,9 +177,9 @@
     ]
   },
   {
-    "Name": "Galaxy S21+",
-    "Tag": "galaxy-s21-plus",
-    "Img": "phones-img/galaxy-s21-plus.png",
+    "name": "Galaxy S21+",
+    "id": "galaxy-s21-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s21-plus.png",
     "Brand": "Samsung",
     "OS": "Android 11",
     "Year": 2021,
@@ -192,24 +192,24 @@
     "Display": "6.7 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
     "Build": "Gorilla Glass Victus (Frosted Matte), Aluminum frame",
     "Size": "6.36 x 2.98 x 0.31 in",
-    "Rear cameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
-    "Front cameras": "10MP",
+    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
+    "frontCameras": "10MP",
     "Ram": "8 GB",
     "Battery": "4800 mAh",
     "Charging": "25W fast, 15W wireless",
     "Capacity": "128 / 256 GB",
     "Released": "Jan. 28, 2021 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "Bluetooth 5.2 support", "Google Discover feed"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "30x space zoom, lock zoom, 3x optical zoom", "Smart-Iso", "Single take camera", "8K @ 24 fps, 4K @ 60 fps (video)",
       "Vlogger view & director's view modes", "64x richer color, 3x wider dynamic range"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "Improved in lowlight", "Clean photos up to 30x zoom"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
     "Pros":[
@@ -224,9 +224,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Galaxy S21",
-    "Tag": "galaxy-s21",
-    "Img": "phones-img/galaxy-s21.png",
+    "name": "Galaxy S21",
+    "id": "galaxy-s21",
+    "img": "/assets/imgs/galaxys/galaxy-s21.png",
     "Brand": "Samsung",
     "OS": "Android 11",
     "Year": 2021,
@@ -236,24 +236,24 @@
     "Display": "6.2 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
     "Build": "Gorilla Glass / Glastic (Frosted Matte), Aluminum frame",
     "Size": "5.97 x 2.80 x 0.31 in",
-    "Rear cameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
-    "Front cameras": "10MP",
+    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
+    "frontCameras": "10MP",
     "Ram": "8 GB",
     "Battery": "4000 mAh",
     "Charging": "25W fast, 15W wireless",
     "Capacity": "128 / 256 GB",
     "Released": "Jan. 29, 2021 (US)",
-    "Phone Features": [
+    "phoneFeatures": [
       "Bluetooth 5.2 support", "Google Discover feed"
     ],
-    "Camera Features":[
+    "cameraFeatures":[
       "30x space zoom, lock zoom, 3x optical zoom", "Smart-Iso", "Single take camera", "8K @ 24 fps, 4K @ 60 fps (video)",
       "Vlogger view & director's view modes", "64x richer color, 3x wider dynamic range"
     ],
-    "Camera Pros":[
+    "cameraPros":[
       "Improved in lowlight", "Clean photos up to 30x zoom"
     ],
-    "Camera Cons":[
+    "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
     "Pros":[

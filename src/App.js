@@ -1,12 +1,11 @@
 import React from "react";
 import './styles/index.scss';
-// import './styles/Header.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DisplayOptionsForm from "./components/DisplayOptionsForm"
-import pixelData from "./json/pixel-data.json"
-import samsungData from "./json/samsung-data.json"
+import DisplayOptionsForm from "./components/DisplayOptionsForm";
+import pixelData from "./json/pixel-data.json";
+import samsungData from "./json/samsung-data.json";
 import CurrentPhones from "./pages/CurrentPhones";
-import Apple from "./pages/Apple";
+import AllPhones from "./pages/AllPhones";
 
 class App extends React.Component {
   constructor(props) {
@@ -25,7 +24,7 @@ class App extends React.Component {
     return(
       <>
         <DisplayOptionsForm display={this.display}/>
-        {this.state.displayAllPhones ? <Apple pixelData={this.state.data}/> : <CurrentPhones pixelData={this.state.data}/>}
+        {this.state.displayAllPhones ? <AllPhones data={this.state.data}/> : <CurrentPhones data={this.state.data}/>}
       </>
     )
   }

@@ -1,8 +1,8 @@
 [
   {
-    "Name": "Pixel 6 Pro",
+    "name": "Pixel 6 Pro",
     "id": "pixel-6-pro",
-    "Img": "phones-img/pixel-6-pro.png",
+    "img": "/assets/imgs/pixels/pixel-6-pro.png",
     "Brand": "Google",
     "OS": "Android 12",
     "Year": 2021,
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "Name": "Pixel 6",
+    "name": "Pixel 6",
     "id": "pixel-6",
-    "Img": "phones-img/pixel-6.png",
+    "img": "/assets/imgs/pixels/pixel-6.png",
     "Brand": "Google",
     "OS": "Android 12",
     "Year": 2021,
@@ -91,9 +91,9 @@
     ]
   },
   {
-    "Name": "Pixel 6a",
+    "name": "Pixel 6a",
     "id": "pixel-6a",
-    "Img": "phones-img/pixel-6a.png",
+    "img": "/assets/imgs/pixels/pixel-6a.png",
     "Brand": "Google",
     "OS": "Android 12",
     "Year": 2022,
@@ -134,9 +134,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Pixel 5",
+    "name": "Pixel 5",
     "id": "pixel-5",
-    "Img": "phones-img/pixel-5.png",
+    "img": "/assets/imgs/pixels/pixel-5.png",
     "Brand": "Google",
     "OS": "Android 11",
     "Year": 2020,
@@ -177,9 +177,9 @@
     "Approbations":[]
   },  
   {
-    "Name": "Pixel 5a",
+    "name": "Pixel 5a",
     "id": "pixel-5a",
-    "Img": "phones-img/pixel-5a.png",
+    "img": "/assets/imgs/pixels/pixel-5a.png",
     "Brand": "Google",
     "OS": "Android 11",
     "Year": 2021,
@@ -221,9 +221,9 @@
     ]
   },
   {
-    "Name": "Pixel 4XL",
+    "name": "Pixel 4XL",
     "id": "pixel-4xl",
-    "Img": "phones-img/pixel-4xl.png",
+    "img": "/assets/imgs/pixels/pixel-4xl.png",
     "Brand": "Google",
     "OS": "Android 10",
     "Year": 2019,
@@ -269,9 +269,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Pixel 4",
+    "name": "Pixel 4",
     "id": "pixel-4",
-    "Img": "phones-img/pixel-4.png",
+    "img": "/assets/imgs/pixels/pixel-4.png",
     "Brand": "Google",
     "OS": "Android 10",
     "Year": 2019,
@@ -317,9 +317,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Pixel 4a",
+    "name": "Pixel 4a",
     "id": "pixel-4a",
-    "Img": "phones-img/pixel-4a.png",
+    "img": "/assets/imgs/pixels/pixel-4a.png",
     "Brand": "Google",
     "OS": "Android 10",
     "Year": 2020,
@@ -369,9 +369,9 @@
     ]
   },
   {
-    "Name": "Pixel 3XL",
+    "name": "Pixel 3XL",
     "id": "pixel-3xl",
-    "Img": "phones-img/pixel-3xl.png",
+    "img": "/assets/imgs/pixels/pixel-3xl.png",
     "Brand": "Google",
     "OS": "Android P",
     "Year": 2018,
@@ -411,9 +411,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Pixel 3",
+    "name": "Pixel 3",
     "id": "pixel-3",
-    "Img": "phones-img/pixel-3.webp",
+    "img": "/assets/imgs/pixels/pixel-3.webp",
     "Brand": "Google",
     "OS": "Android P",
     "Year": 2018,
@@ -453,9 +453,9 @@
     "Approbations":[]
   },
   {
-    "Name": "Pixel 3a",
+    "name": "Pixel 3a",
     "id": "pixel-3a",
-    "Img": "phones-img/pixel-3a.png",
+    "img": "/assets/imgs/pixels/pixel-3a.png",
     "Brand": "Google",
     "OS": "Android P",
     "Year": 2019,

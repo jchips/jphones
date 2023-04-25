@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
+import "../styles/MyNavbar.scss";
 
 class MyNavbar extends React.Component {
   render() {
@@ -8,7 +9,8 @@ class MyNavbar extends React.Component {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-            <Nav>
+          <Navbar.Brand href="/">J. Phones.com</Navbar.Brand>
+            <Nav activeKey={window.location.pathname}>
               <Nav.Link href='/'>Home</Nav.Link>
               {/* <Nav.Link href="/apple">Apple</Nav.Link> */}
               <NavDropdown title="Companies" id="basic-nav-dropdown">
