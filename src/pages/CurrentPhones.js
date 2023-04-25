@@ -1,5 +1,5 @@
 import React from "react";
-import Row from "../components/Row";
+import Row from "../components/sub-components/Row";
 import "../styles/DisplayPhones.scss";
 
 class CurrentPhones extends React.Component {
@@ -17,17 +17,18 @@ class CurrentPhones extends React.Component {
    * @returns {Array} - An array of the current phones.
    */
   determineData = (row) => {
-    let dataArray = this.props.pixelData.filter(rowData => rowData.name.includes(row));
+    let dataArray = this.props.data.filter(rowData => rowData.name.includes(row));
     return dataArray[0].rowData.filter(phone => parseInt(phone.Year) >= 2021);
   }
 
   render() {
     return(
       <>
-        {this.state.rows.map(row => 
-          <section>
+        {/* Creates a row with a scroll thing for each row */}
+        {this.state.rows.map((row, index) => 
+          <section key={index}>
             <h2>{row} phones</h2>
-            <Row pixelData={this.determineData(row)}/>
+            <Row data={this.determineData(row)}/>
           </section>
         )}
       </>
