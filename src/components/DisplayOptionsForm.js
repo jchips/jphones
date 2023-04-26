@@ -29,9 +29,11 @@ class DisplayOptionsForm extends React.Component {
       <section className='display-phones-options'>
         <form onSubmit={this.handleSubmit}>
           <legend>Display options:</legend>
-          <label><input type="radio" name="displayPhones" value="currentPhones" defaultChecked={true} /> Current phones</label>
-          <label><input type="radio" name="displayPhones" value="allPhones" /> All phones</label>
-          <Button type="submit" variant="primary">Display</Button>
+          <div>
+            <label><input type="radio" name="displayPhones" value="currentPhones" defaultChecked={true} /> Current phones</label>
+            <label><input type="radio" name="displayPhones" value="allPhones" /> All phones</label>
+            <Button type="submit" variant="primary">Display</Button>
+          </div>
         </form>
       </section>
     );

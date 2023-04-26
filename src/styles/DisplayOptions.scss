@@ -25,6 +25,11 @@ form {
     color: $theme-blue;
   }
 
+  & div {
+    display: flex;
+    align-items: center;
+  }
+
   & label,
   & button {
     margin: 10px;
@@ -32,5 +37,6 @@ form {
 
   & .btn {
     padding: 4px 6px;
+    background-color: $theme-blue;
   }
 }

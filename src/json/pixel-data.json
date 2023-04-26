@@ -35,10 +35,10 @@
     "cameraCons": [
       "No macro camera", "Ultrawide isn't very wide", "Camera isn't very consistent", "Slight color shift when going from ultrawide to other lenses"
     ], 
-    "Pros": [
+    "pros": [
       "Doesn't rock back and forth on a table", "\"Really good\" haptics ~ Multiple reviewers", "\"Sound is more full & punchier than the Pixel 6\" ~ Thao Huynh"
     ],
-    "Cons": [
+    "cons": [
       "No face ID", "Thick bezels", "Slight color shift on curved edges", "Some apps just crash ~ ASBYT, Nov 2021", 
       "Minor bugs ~ Tech Spurt, July 2022", "Fingerprint magnet + camera bump collects dirt", "Does not come with charger ITB",
       "Battery is subpar ~ MKBHD & SuperSaf", "Fingerprint reader is slow & doesn't work well ~ Multiple reviewers",
@@ -87,10 +87,10 @@
       "Ultrawide isn't very wide", "No macro or telephoto camera", "Only 7x digital zoom (Pro has 20x)",
       "No 4K selfie video (like the Pro has)"
     ],
-    "Pros":[
+    "pros":[
       "Doesn't rock back and forth on a table", "\"Really good\" haptics ~ MKBHD", "\"Battery life is wonderful\" ~ Tech Spurt, Oct 2021"
     ],
-    "Cons":[
+    "cons":[
       "No face ID", "Thick bezels","Fingerprint magnet", "No charger ITB", "Battery is subpar ~ MKBHD & SuperSaf", 
       "Camera bump collects dirt", "Fingerprint reader is slow ~ Multiple reviewers", "Fingerprint reader doesn't work well with damp fingers"
     ],
@@ -135,10 +135,10 @@
     "cameraCons":[
       "No telephoto"
     ],
-    "Pros":[
+    "pros":[
       "\"Best you can buy in the US at its price class\" ~ MrMobile"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB", "No wireless charging", "Lower IP rating", "Downgraded Gorilla Glass 3",
       "Only 60Hz refresh rate", "Heats up fast ~ Tech Spurt", "Fast charging isn't very fast ~ Tech Spurt",
       "Poor battery life ~ MrMobile"
@@ -151,7 +151,10 @@
     "brand": "Google",
     "os": "Android 11",
     "year": 2020,
-    "colors": ["Just Black", "Sorta Sage"],
+    "colors":[
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Sorta Sage", "tag": "sorta-sage"}
+    ],
     "Prices": ["128GB: $700"],
     "ui": "Stock Android 11",
     "display": "6.0 in; 1080x2400 px, OLED",
@@ -178,10 +181,10 @@
     "cameraCons":[
       "Same sensor as Pixels 4, 3 & 2 (4yr old hardware)"
     ],
-    "Pros":[
+    "pros":[
       "None recorded"
     ],
-    "Cons":[
+    "cons":[
       "No face ID", "Kinda weak firing speakers", "No Wifi 6 support", "No Radar motion sensor (like the Pixel 4s had)",
       "No more squeeze for assistant"
     ]
@@ -193,7 +196,7 @@
     "brand": "Google",
     "os": "Android 11",
     "year": 2021,
-    "colors": ["Mostly Black"],
+    "colors": [{"color": "Mostly Black", "tag": "mostly-black"}],
     "Prices": ["128GB: $450"],
     "ui": "Stock Android 11",
     "display": "6.34 in; 1080x2400 px, FHD+ OLED",
@@ -218,10 +221,10 @@
     "cameraCons":[
       "In lowlight, front camera gets noisy ~ Engadget, Aug 2021", "Same sensor as Pixels 4, 3 & 2 (4yr old hardware)"
     ],
-    "Pros":[
+    "pros":[
       "Only $450", "Has a headphone jack", "Comes with 18W charger ITB", "Has waterproofing (unlike Pixel 4a)"
     ],
-    "Cons":[
+    "cons":[
       "No wireless charging", "Have to buy it unlocked or with Google-Fi carrier", "Color is more like \"Definitely Green\" ~ Flossy Carter",
       "\"The Pixel 5a is almost aggressively boring\" ~ Engadget, Aug 2021"
     ],
@@ -237,7 +240,11 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2019,
-    "colors": ["Just Black", "Clearly White", "Oh So Orange"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Clearly White", "tag": "clearly-white"},
+      {"color": "Oh So Orange", "tag": "oh-so-orange"}
+    ],
     "Prices": ["64GB: $900", "128GB: $1000"],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "6.3 in; 1440x3040 px, QHD+ OLED",
@@ -265,12 +272,12 @@
       "Same sensor as Pixels 3 & 2", "Group selfie cam is taken out", "No ultrawide camera unlike competition", 
       "No more wide portrait photos", "No 4k @ 60fps (4k @ 30fps)"
     ],
-    "Pros":[
+    "pros":[
       "One step unlock", "Secure Face ID", "Simpler and smarter software", "Smarter and faster Google Assistant", 
       "\"Great haptics\" ~ Mrwhosetheboss, Oct. 2019", "\"Fastest facial unlocking in any smartphone\" ~ Google",
       "Pixel 4s are first devices with Radar sensors (spatial awareness)"
     ],
-    "Cons":[
+    "cons":[
       "Battery life is wack", "Lots of bezels; big forehead", "Needless square camera bump", "No longer has unlimited photo storage at original quality", 
       "No fingerprint IDs (unlike other current phones)", "No longer has dual front-firing speakers, now a single front firing", 
       "New motion sensing feature doesn't work very well; not very consistent", "Has fast video rendering, but it uses all the phones ram", 
@@ -284,7 +291,11 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2019,
-    "colors": ["Just Black", "Clearly White", "Oh So Orange"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Clearly White", "tag": "clearly-white"},
+      {"color": "Oh So Orange", "tag": "oh-so-orange"}
+    ],
     "Prices": ["64 GB: $800", "128 GB: $900"],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "5.7 in; 1080x2280 px, FHD+ OLED",
@@ -312,12 +323,12 @@
       "Same sensor as Pixels 3 & 2", "Group selfie cam is taken out", "No ultrawide camera unlike competition", 
       "No more wide portrait photos", "No 4k @ 60fps (4k @ 30fps)"
     ],
-    "Pros":[
+    "pros":[
       "One step unlock", "Secure Face ID", "Simpler and smarter software", "Smarter and faster Google Assistant", 
       "\"Great haptics\" ~ Mrwhosetheboss, Oct. 2019", "\"Fastest facial unlocking in any smartphone\" ~ Google",
       "Pixel 4s are first devices with Radar sensors (spatial awareness)"
     ],
-    "Cons":[
+    "cons":[
       "Battery life is wack", "Lots of bezels; big forehead", "Needless square camera bump", "No longer has unlimited photo storage at original quality", 
       "No fingerprint IDs (unlike other current phones)", "No longer has dual front-firing speakers, now a single front firing", 
       "New motion sensing feature doesn't work very well; not very consistent", "Has fast video rendering, but it uses all the phones ram", 
@@ -331,7 +342,10 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2020,
-    "colors": ["Just Black", "Barely Blue"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Barely Blue", "tag": "barely-blue"}
+    ],
     "Prices": ["128 GB: $350"],
     "ui": "Stock Andriod 10 (Vanilla)",
     "display": "5.81 in; 1080x2340 px, FHD+ OLED",
@@ -356,12 +370,12 @@
     "cameraCons":[
       "No ultrawide camera", "No depth sensor"
     ],
-    "Pros":[
+    "pros":[
       "Only $350 (USD)", "Very good photos (no surprise)", "“Battery is great” ~ MKBHD", "Very lightweight",
       "Has a headphone jack (unlike Pixel 4 & 4XL)", "Back doesn’t get much scratches or fingerprints (plastic)",
       "Fixed the \"too-much-bezels\" problem"
     ],
-    "Cons":[
+    "cons":[
       "No 5G support", "Phone is bendy ~ Marques Brownlee", "No IP certification (not water/dust resistant)",
       "No face ID (unlike Pixel 4 & 4XL)", "No radar sensors (?)", "No wireless charging (unlike Pixel 4 & 4XL)",
       "60 Hz refresh rate (unlike other current phones)", "Auto brightness isn’t bright enough ~ Tech Spurt, Dec 2020",
@@ -383,7 +397,11 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2018,
-    "colors": ["Just Black", "Clearly White", "Not Pink"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Clearly White", "tag": "clearly-white"},
+      {"color": "Not Pink", "tag": "not-pink"}
+    ],
     "Prices": ["64 GB: $900 USD", "128 GB: $1,000 USD"],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "6.3 in; 1440x2960 px, QHD+ OLED",
@@ -409,11 +427,11 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "USB Type-C earphones ITB", "Dongle is ITB (3.5mm to USB type-C)", "The notch can be disabled in developer settings", "Has Digital Wellbeing unlike previous models", 
       "Pixel 3s are the only flagships with front firing speakers"
     ],
-    "Cons":[
+    "cons":[
       "Notch is short and fat", "Doesn't look very premium", "Build feels like plastic (although it's glass), scratches easily", "Gestures are annoying on Andriod P (not very fluid or intuitive)"   
     ]
   },
@@ -424,7 +442,11 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2018,
-    "colors": ["Just Black", "Clearly White", "Not Pink"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Clearly White", "tag": "clearly-white"},
+      {"color": "Not Pink", "tag": "not-pink"}
+    ],
     "Prices": ["64 GB: $800", "128 GB: $900"],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "5.5 in; 1080x2160 px, FHD+ OLED",
@@ -449,12 +471,12 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "No notch (unlike Pixel 3XL)", "USB Type-C earphones ITB", "Dongle is ITB (3.5mm to USB type-C)",
       "Pixel 3s are only flagships with front firing speakers",
       "Has Digital Wellbeing (unlike previous models)", "Runner-up of best compact phone of 2018 (after iPhone XS)"
     ],
-    "Cons":[
+    "cons":[
       "Build feels like plastic (although it's glass), scratches easily", "Gestures are annoying on Andriod P (not very fluid or intuitive)"
     ]
   },
@@ -465,7 +487,11 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2019,
-    "colors": ["Just Black", "Clearly White", "Purple-ish"],
+    "colors": [
+      {"color": "Just Black", "tag": "just-black"},
+      {"color": "Clearly White", "tag": "clearly-white"},
+      {"color": "Purple-ish", "tag": "purple-ish"}
+    ],
     "Prices": ["64 GB: $400"],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "5.6 in; 1080x2220 px, FHD+ OLED",
@@ -490,10 +516,10 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "Officially on about every US Carrier (unlike past Pixels)", "Camera is about the same as flagship Pixels (really good)"
     ],
-    "Cons":[
+    "cons":[
       "No IP rating", "No wireless charging", "Very little storage space", "Single front facing camera rather than two (unlike Pixel 3/3XL)",
       "Processor is noticably not as good as Pixel flagships"
     ]

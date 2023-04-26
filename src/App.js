@@ -1,6 +1,5 @@
 import React from "react";
 import './styles/index.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import DisplayOptionsForm from "./components/DisplayOptionsForm";
 import pixelData from "./json/pixel-data.json";
 import samsungData from "./json/samsung-data.json";

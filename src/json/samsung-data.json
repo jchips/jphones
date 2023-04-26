@@ -41,10 +41,10 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised", "Faster charging than predecessors"
     ],
-    "Cons":[
+    "cons":[
       "Camera protudes", "Camera bumps collect a lot of dust"
     ]
   },
@@ -55,7 +55,16 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
-    "colors": ["Phantom Black, White", "Pink Gold", "Green", "Sky Blue", "Cream", "Graphite", "Violet"],
+    "colors": [
+      {"color":"Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Pink Gold", "tag": "pink-gold"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Sky Blue", "tag": "sky-blue"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Graphite", "tag": "samsung-graphite"},
+      {"color": "Violet", "tag": "samsung-violet"}
+    ],
     "Prices": ["128 GB:  $1000", "256 GB: $1200"],
     "ui": "One UI 4.1",
     "display": "6.6 in; 1080x2340px, FHD+ Dynamic AMOLED",
@@ -81,10 +90,10 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised", "Faster charging than predecessors"
     ],
-    "Cons":[
+    "cons":[
       "Display is not curved (like past Samsung phones)"
     ]
   },
@@ -95,7 +104,16 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
-    "colors": ["Phantom Black, White", "Pink Gold", "Green", "Sky Blue", "Cream", "Graphite", "Violet"],
+    "colors": [
+      {"color":"Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Pink Gold", "tag": "pink-gold"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Sky Blue", "tag": "sky-blue"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Graphite", "tag": "samsung-graphite"},
+      {"color": "Violet", "tag": "samsung-violet"}
+    ],
     "Prices": ["128 GB:  $800", "256 GB: $1000"],
     "ui": "One UI 4.1",
     "display": "6.1 in; 1080x2340 px, FHD+ Dynamic AMOLED",
@@ -121,10 +139,10 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised"
     ],
-    "Cons":[
+    "cons":[
       "Display is not curved (like past Samsung phones)"
     ]
   },
@@ -135,7 +153,13 @@
     "brand": "Samsung",
     "os": "Android 11",
     "year": 2021,
-    "colors": ["Phantom Black", "Phantom Titanium", "Phantom Navy", "Phantom Silver", "Phantom Brown"],
+    "colors": [
+      {"color": "Phantom Black", "tag":"phantom-black"},
+      {"color": "Phantom Titanium", "tag": "phantom-titanium"},
+      {"color": "Phantom Navy", "tag": "phantom-navy"},
+      {"color": "Phantom Silver", "tag": "phantom-silver"},
+      {"color": "Phantom Brown", "tag": "phantom-brown"}
+    ],
     "Prices": ["128 GB: $1200", "256 GB: $1250", "512 GB: $1380"],
     "ui": "One Ui 3.1",
     "display": "6.8 in; 1440x3200 px, Curved WQHD+ Dynamic AMOLED 2x",
@@ -163,12 +187,12 @@
     "cameraCons":[
       "No OIS on ultrawide camera"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20 Ultra was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs (and brighter than the S21 & S21+)",
       "Has 120 Hz w/ Quad HD resolution (unlike S20s)", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
@@ -189,8 +213,11 @@
     "os": "Android 11",
     "year": 2021,
     "colors": [
-      "Phantom Black", "Phantom Silver", "Phantom Violet", "Phantom Red (exclusive offer)", 
-      "Phantom Gold (exclusive offer)"
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom Silver", "tag": "phantom-silver"},
+      {"color": "Phantom Violet", "tag": "phantom-violet"},
+      {"color": "Phantom Red (exclusive offer)", "tag": "phantom-red"},
+      {"color": "Phantom Gold (exclusive offer)", "tag": "phantom-gold"}
     ],
     "Prices": ["128 GB: $1000", "512 GB: $1050"],
     "ui": "One Ui 3.1",
@@ -217,11 +244,11 @@
     "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20+ was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
@@ -234,7 +261,12 @@
     "brand": "Samsung",
     "os": "Android 11",
     "year": 2021,
-    "colors": ["Phantom Gray", "Phantom White", "Phantom Violet", "Phantom Pink"],
+    "colors": [
+      {"color": "Phantom Gray", "tag": "phantom-gray"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Phantom Violet", "tag": "phantom-violet"},
+      {"color": "Phantom Pink", "tag": "phantom-pink"}
+    ],
     "Prices": ["128 GB: $800", "256 GB: $850"],
     "ui": "One Ui 3.1",
     "display": "6.2 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
@@ -260,11 +292,11 @@
     "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20 was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
