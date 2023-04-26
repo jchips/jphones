@@ -12,7 +12,7 @@ class MyNavbar extends React.Component {
           <Navbar.Brand href="/">J. Phones.com</Navbar.Brand>
             <Nav activeKey={window.location.pathname}>
               <Nav.Link href='/'>Home</Nav.Link>
-              {/* <Nav.Link href="/apple">Apple</Nav.Link> */}
+              <Nav.Link href="/about">About</Nav.Link>
               <NavDropdown title="Companies" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/apple">Apple</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

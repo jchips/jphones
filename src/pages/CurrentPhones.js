@@ -27,7 +27,9 @@ class CurrentPhones extends React.Component {
         {/* Creates a row with a scroll thing for each row */}
         {this.state.rows.map((row, index) => 
           <section key={index}>
-            <h2>{row} phones</h2>
+            <div className="row-header">
+              <h2>{row} phones</h2><img src={`assets/imgs/logos/${row}-logo.webp`} alt={`${row} logo`}/>
+            </div>
             <Row data={this.determineData(row)}/>
           </section>
         )}

@@ -1,6 +1,15 @@
+@import 'colors';
+@import 'phone.colors';
+// @import 'reset';
+
+ul {
+  padding: 0;
+}
+
 .carousel {
   background-size: 100% 100%;
   // border: 3px groove (rgba(0, 0, 0, 0.6));
+  padding: 0 25px;
   border-radius: 20px;
   /* opacity: 0.8; */
   /* font-family: "Gill Sans MT", sans-serif; */
@@ -21,15 +30,20 @@
     padding: 10px;
   }
 
+  & h3 {
+    // color: $theme-blue;
+    margin-top: 20px;
+  }
+
   & h5 {
-    color: #3992ff;
+    color: $theme-blue;
     font-size: 1rem;
     // font-style: italic;
   }
 
   & .img-container {
     // background-color: #f0f0f0;
-    background-color: #f7f7f7;
+    background-color: $very-light-gray;
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
@@ -43,6 +57,24 @@
     // background-color: #f0f0f0;
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
   }
+
+  & .cameras-slide p,
+  & .phone-specs-slide p {
+    color: $bootstrap-blue;
+  }
+
+  & span {
+    font-weight: 600;
+    color: black;
+  }
+}
+
+hr {
+  margin: 0.5rem 20px;
+}
+
+h6 {
+  margin-top: 15px;
 }
 
 // @media screen and (max-width: 640px) {
@@ -51,3 +83,101 @@
 //     max-width: 320px;
 //   }
 // }
+
+p {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+// .display, 
+// .colors {
+//   border: 1px dotted $theme-blue;
+//   padding: 5px;
+//   margin: 5px;
+//   border-radius: 10px;
+// }
+
+.display,
+.colors,
+.cameras {
+  background-color: $very-light-gray;
+  padding: 5px;
+  border-radius: 10px;
+  // border: 1px dotted $theme-blue;
+  margin: 5px 10px;
+}
+
+.colors {
+  padding-bottom: 10px;
+  // height: 200px;
+  // overflow-y: auto;
+
+  & ul {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+  }
+
+  & .phone-color li {
+    text-align: left;
+  }
+}
+
+.color {
+  padding: 10px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.phone-color {
+ display: flex;
+//  justify-content: center;
+ align-items: center;
+
+ & * {
+  margin-right: 10px;
+ }
+}
+
+.approbations {
+  height: 300px;
+  // padding: 10px 2px;
+  margin: 0 15px;
+  overflow-y: auto;
+  // background-color: $very-light-gray;
+  border-radius: 15px;
+
+  & ul {
+    // text-align: left;
+    margin-bottom: 0;
+    // padding-left: 20px;
+    padding: 10px;
+    list-style-type: none;
+  
+    & li {
+      margin-bottom: 5px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px dotted $theme-blue;
+      background-color: $very-light-gray;
+    }
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  // height: fit-content;
+  height: 100px;
+  margin: auto;
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-control-prev {
+  visibility: visible;
+}

@@ -1,7 +1,7 @@
 // Form code from React.dev - https://react.dev/reference/react-dom/components/input
 import React from 'react';
-import '../styles/DisplayOptions.scss';
 import { Button } from 'react-bootstrap';
+import '../styles/DisplayOptions.scss';
 
 class DisplayOptionsForm extends React.Component {
   handleSubmit = (e) => {
@@ -31,7 +31,7 @@ class DisplayOptionsForm extends React.Component {
           <legend>Display options:</legend>
           <label><input type="radio" name="displayPhones" value="currentPhones" defaultChecked={true} /> Current phones</label>
           <label><input type="radio" name="displayPhones" value="allPhones" /> All phones</label>
-          <Button type="submit" variant="secondary">Display phones</Button>
+          <Button type="submit" variant="primary">Display</Button>
         </form>
       </section>
     );

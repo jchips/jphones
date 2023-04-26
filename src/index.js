@@ -8,6 +8,7 @@ import {
 import App from './App';
 import Header from "./components/Header";
 import MyNavbar from "./components/MyNavbar";
+import About from './pages/About';
 import Apple from "./pages/Apple";
 
 const Routing = () => {
@@ -19,6 +20,7 @@ const Routing = () => {
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/apple" element={<Apple />} />
+          <Route path='/about' element={<About/>} />
         </Routes>
       {/* </div> */}
     </BrowserRouter>

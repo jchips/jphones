@@ -1,34 +1,36 @@
+@import "colors";
+
 .display-phones-options {
   display: flex;
   align-items: center;
   text-align: center;
   padding: 15px 0;
+  background-color: $light-gray;
   border-radius: 5px;
-  // background-color: #bdcad9;
-  // background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
-  width: fit-content;
-  margin: auto auto;
-  margin-top: 20px;
-  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
-  border: 3px outset (rgba(0, 0, 0, 0.6));
-  background-color: #3992ff;
-  color: white;
-}
-
-.display-phones-options h3 {
-  font-weight: bold;
 }
 
 form {
   margin: auto auto;
+  padding: 10px;
+  // color: white;
+  // background-color: $theme-blue;
+  background-color: #fff;
+  border: 3px outset (rgba(0, 0, 0, 0.6));
+  border-radius: 5px;
+  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
 
-  & legend{
+  & legend {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 500;
+    color: $theme-blue;
   }
 
   & label,
   & button {
     margin: 10px;
+  }
+
+  & .btn {
+    padding: 4px 6px;
   }
 }
