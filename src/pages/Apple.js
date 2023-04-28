@@ -3,9 +3,9 @@ import React from "react";
 class Apple extends React.Component {
   render() {
     return(
-      <>
-      <p>Apple</p>
-      </>
+      <div className="apple">
+        {/* add accordions */}
+      </div>
     )
   }
 }

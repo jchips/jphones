@@ -1,0 +1,47 @@
+[
+  {
+    "name": "OnePlus 8",
+    "id": "oneplus-8",
+    "img": "phones-img/oneplus-8.png",
+    "brand": "OnePlus",
+    "os": "Android 10",
+    "year": "2020",
+    "colors": ["Glacial Green", "Interstellar Glow", "Onyx Black"],
+    "prices": ["8 / 128 GB: $700", "12 / 256GB: $800"],
+    "ui": "OxygenOS 10.5",
+    "display": "6.55 in; 1080x2400 px, Curved Fluid AMOLED",
+    "build": "Gorilla Glass 5, Curved Matte",
+    "size": "6.31 x 2.87 x 0.31 in",
+    "rearCameras": "main: 48MP, Ultrawide: 16MP, Telephoto: 2MP",
+    "frontCameras": "16MP",
+    "ram": "8 / 12 GB",
+    "battery": "4300 mAh",
+    "charging": "30W fast",
+    "capacity": "128 / 256 GB",
+    "released": "Apr. 21, 2020 (US)",
+    "phoneFeatures": [
+      "5G support", "Dual sim support", "90 Hz refresh rate", "UFS 3.0 Storage", 
+      "Optimized charging (can help protect battery)"
+    ],
+    "cameraFeatures":[
+      "None recorded"
+    ],
+    "cameraPros":[
+      "\"I think OnePlus' daytime photos look crispier than the iPhone 11's\" ~ Mrwhosetheboss (Apr. 2020)"
+    ],
+    "cameraCons":[
+      "Macro camera is not very good", "Same camera hardware as last yr's OnePlus 7T"
+    ],
+    "pros":[
+      "3yrs of promised software updates", "Comes with a clear plastic case ITB", "Smaller camera bump than the OnePlus 8 Pro",
+      "Noticeably lighter weight than the OnePlus 8 Pro", "Uses a high-end chipset (latest Snapdragon, 865)",
+      "\"Better display than the iPhone 11\" ~ Mrwhosetheboss", "Matte finish doesn't get a lot of fingerprints on it"
+    ],
+    "cons":[
+      "None recorded"
+    ], 
+    "approbations": [
+      "\"The most comfortable phone I've ever held\" ~ Mrwhosetheboss (Apr. 2020)"
+    ]
+  }
+]

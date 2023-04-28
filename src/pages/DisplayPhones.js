@@ -2,13 +2,24 @@ import React from "react";
 import Row from "../components/sub-components/Row";
 import "../styles/DisplayPhones.scss";
 
-class CurrentPhones extends React.Component {
+class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
     this.state ={
       // rows: ['pixel', 'samsung', 'apple', 'oneplus', 'huawei', 'budget', 'foldable']
-      rows: ['pixel', 'samsung']
+      rows: ['pixel', 'samsung s']
     }
+  }
+
+  /**
+   * Gets the first word in the title of the row
+   * @param {String} row - The title of the row
+   * @returns {String} - The first word in the title of the row
+   */
+  getRowTitle = (row) => {
+    let array = row.split(" ");
+    console.log('array', array);
+    return array[0];
   }
 
   /**
@@ -23,7 +34,6 @@ class CurrentPhones extends React.Component {
     } else {
       return dataArray[0].rowData.filter(phone => parseInt(phone.year) >= 2021);
     }
-    // return dataArray[0].rowData.filter(phone => parseInt(phone.year) >= 2021);
   }
 
   render() {
@@ -35,9 +45,9 @@ class CurrentPhones extends React.Component {
             {/* Labels row and puts photo next to each title */}
             <div className="row-header">
               <h2>{row} phones</h2>
-              <img src={`assets/imgs/logos/${row}-logo.webp`} alt={`${row} logo`}/>
+              <img src={`assets/imgs/logos/${this.getRowTitle(row)}-logo.webp`} alt={`${this.getRowTitle(row)} logo`}/>
             </div>
-            <Row data={this.determineData(row)}/>
+            <Row data={this.determineData(this.getRowTitle(row))}/>
           </section>
         )}
       </>
@@ -45,4 +55,4 @@ class CurrentPhones extends React.Component {
   }
 }
 
-export default CurrentPhones;
+export default DisplayPhones;

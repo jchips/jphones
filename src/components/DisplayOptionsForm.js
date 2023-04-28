@@ -4,6 +4,8 @@ import { Button } from 'react-bootstrap';
 import '../styles/DisplayOptions.scss';
 
 class DisplayOptionsForm extends React.Component {
+
+  // Handle radio button form submit
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -16,6 +18,10 @@ class DisplayOptionsForm extends React.Component {
     this.setDisplay(formJson);
   }
 
+  /**
+   * Reads what the user selects in the form and then displays the correct phones based on that.
+   * @param {Object} formJson - Object with user's form input data
+   */
   setDisplay = (formJson) => {
     if (formJson.displayPhones === 'currentPhones') {
       this.props.display('currentPhones');

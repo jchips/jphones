@@ -11,7 +11,11 @@
       {"color": "Cloudy White", "tag": "cloudy-white"},
       {"color": "Stormy Black", "tag": "stormy-black"}
     ],
-    "Prices": ["128 GB: $900", "256 GB: $1000", "512 GB: $1100"],
+    "prices": [
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": "256 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1100"}
+    ],
     "ui": "Stock Android 12",
     "display": "6.7 in; 1440x3120 px, Curved QHD+ OLED",
     "build": "Gorilla Glass Victus (curved)",
@@ -61,7 +65,10 @@
       {"color": "Kinda Coral", "tag": "kinda-coral"},
       {"color": "Stormy Black", "tag": "stormy-black"}
     ],
-    "Prices": ["128GB: $600", "256GB: $700"],
+    "prices": [
+      {"storage": "128 GB", "price": "$600"},
+      {"storage": "256 GB", "price": "$700"}
+    ],
     "ui": "Stock Android 12",
     "display": "6.4 in; 1080x2400 px, FHD+ OLED",
     "build": "Gorilla Glass Victus / Gorilla Glass 6, aluminum frame",
@@ -110,7 +117,7 @@
       {"color": "Chalk", "tag": "chalk"},
       {"color": "Sage", "tag": "sage"}
     ],
-    "Prices": ["128GB: $450"],
+    "prices": [{"storage": "128GB", "price" :"$450"}],
     "ui": "Stock Android 12",
     "display": "6.1 in; 1080x2400 px, FHD+ OLED",
     "build": "Gorilla Glass 3 / curved plastic, aluminum frame",
@@ -155,7 +162,7 @@
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Sorta Sage", "tag": "sorta-sage"}
     ],
-    "Prices": ["128GB: $700"],
+    "prices":[{"storage": "128 GB", "price": "$700"}], 
     "ui": "Stock Android 11",
     "display": "6.0 in; 1080x2400 px, OLED",
     "build": "Gorilla Glass 6 / Aluminum, aluminum frame",
@@ -197,7 +204,7 @@
     "os": "Android 11",
     "year": 2021,
     "colors": [{"color": "Mostly Black", "tag": "mostly-black"}],
-    "Prices": ["128GB: $450"],
+    "prices":[{"storage": "128 GB", "price": "$450"}],
     "ui": "Stock Android 11",
     "display": "6.34 in; 1080x2400 px, FHD+ OLED",
     "build": "Gorilla Glass 6 / Plastic, aluminum (Matte)",
@@ -245,7 +252,10 @@
       {"color": "Clearly White", "tag": "clearly-white"},
       {"color": "Oh So Orange", "tag": "oh-so-orange"}
     ],
-    "Prices": ["64GB: $900", "128GB: $1000"],
+    "prices":[
+      {"storage": "64 GB", "price": "$900"},
+      {"storage": "128 GB", "price": "$1000"}
+    ],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "6.3 in; 1440x3040 px, QHD+ OLED",
     "build": "Gorilla Glass 5, matte black frame (Matte)",
@@ -296,7 +306,10 @@
       {"color": "Clearly White", "tag": "clearly-white"},
       {"color": "Oh So Orange", "tag": "oh-so-orange"}
     ],
-    "Prices": ["64 GB: $800", "128 GB: $900"],
+    "prices":[
+      {"storage": "64 GB", "price": "$800"},
+      {"storage": "128 GB", "price": "$900"}
+    ],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "5.7 in; 1080x2280 px, FHD+ OLED",
     "build": "Gorilla Glass 5, Matte back | Black Matte frame",
@@ -346,7 +359,9 @@
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Barely Blue", "tag": "barely-blue"}
     ],
-    "Prices": ["128 GB: $350"],
+    "prices":[
+      {"storage": "128 GB", "price": "$350"}
+    ],
     "ui": "Stock Andriod 10 (Vanilla)",
     "display": "5.81 in; 1080x2340 px, FHD+ OLED",
     "build": "Gorilla Glass 3 / Polycarbonate (plastic)",
@@ -402,7 +417,10 @@
       {"color": "Clearly White", "tag": "clearly-white"},
       {"color": "Not Pink", "tag": "not-pink"}
     ],
-    "Prices": ["64 GB: $900 USD", "128 GB: $1,000 USD"],
+    "prices":[
+      {"storage": "64 GB", "price": "$900"},
+      {"storage": "128 GB", "price": "$1000"}
+    ],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "6.3 in; 1440x2960 px, QHD+ OLED",
     "build": "Gorilla (soft touch) Glass 5 | Painted metal frame + hybrid coating",
@@ -447,7 +465,10 @@
       {"color": "Clearly White", "tag": "clearly-white"},
       {"color": "Not Pink", "tag": "not-pink"}
     ],
-    "Prices": ["64 GB: $800", "128 GB: $900"],
+    "prices":[
+      {"storage": "64 GB", "price": "$800"},
+      {"storage": "128 GB", "price": "$900"}
+    ],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "5.5 in; 1080x2160 px, FHD+ OLED",
     "build": "Gorilla Glass 5, Aluminum frame + hybrid coating",
@@ -492,7 +513,9 @@
       {"color": "Clearly White", "tag": "clearly-white"},
       {"color": "Purple-ish", "tag": "purple-ish"}
     ],
-    "Prices": ["64 GB: $400"],
+    "prices":[
+      {"storage": "64 GB", "price": "$400"}
+    ],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "5.6 in; 1080x2220 px, FHD+ OLED",
     "build": "Polycarbonate back (plastic)",

@@ -4,17 +4,9 @@ import { Carousel } from "react-bootstrap";
 import "../../styles/MiniPhoneCarousel.scss"
 
 class MiniPhoneCarousel extends React.Component {
-  constructor(props) {
-    super(props);
-    // this.tipsy = React.createRef();
-    this.state = {
-      height: 0
-    }
-  }
-  tipsy = createRef(null);
   inputRef = createRef();
-  pros = createRef();
-  cons = createRef();
+  // pros = createRef();
+  // cons = createRef();
 
   /**
    * Adds a vertical scrollbar to element when there are a lot of array items to be displayed.
@@ -29,10 +21,6 @@ class MiniPhoneCarousel extends React.Component {
       ref.current.style.height = height;
     }
   }
-
-  // changeHeight = () => {
-  //   this.setState({height: this.tipsy.current.offsetHeight});
-  // }
 
   render() {
     return(
@@ -56,7 +44,9 @@ class MiniPhoneCarousel extends React.Component {
             <h3>Phone specs</h3>
             <h6 ref={this.tipsy} className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
             <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
-            <p><span>Size: </span>{this.props.phone.size}</p>
+            {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
+            {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
+            {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
             <p><span>Build: </span>{this.props.phone.build}</p><hr/>
             <p><span>Battery: </span>{this.props.phone.battery}</p>
             <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
@@ -68,10 +58,20 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item>
             <h3>Colors & Display</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <div className="display">
-              <h4>Display</h4>
-              <p>{this.props.phone.display}</p>
-            </div>
+            {!this.props.phone.foldable && (
+              <div className="display">
+                <h4>Display</h4>
+                <p>{this.props.phone.display}</p>
+              </div>
+            )}
+            {/* Only display this for foldable phones */}
+            {this.props.phone.foldable && (
+              <div className="display">
+                <h4>Display</h4>
+                <p><span>Open display: </span>{this.props.phone.openDisplay}</p>
+                <p><span>Closed display: </span>{this.props.phone.closedDisplay}</p>
+              </div>
+            )}
             <div ref={this.inputRef} className="colors">
               {/* {this.props.phone.colors.length > 5 && this.overFlow()} */}
               <h4>Colors</h4>
@@ -127,68 +127,53 @@ class MiniPhoneCarousel extends React.Component {
 
           {/* Camera Features */}
           <Carousel.Item className="camera-features">
-            <h3>Camera Features</h3>
+            <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
             <section>
-              <span>Camera Features:</span>
+              {/* <span>Camera Features:</span> */}
               {this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}
             </section>    
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}
-          <Carousel.Item className="camera-pros-cons">
-            <h3>Camera Pros & Cons</h3>
-            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <section>
-              <span>Camera Pros:</span>
-              {this.props.phone.cameraPros.map(pro => <li>{pro}</li>)}
-            </section>
-            <section>
-              <span>Camera Cons:</span>
-              {this.props.phone.cameraCons.map(con => <li>{con}</li>)}
-            </section>
-          </Carousel.Item>
-          
-          {/* Pros and Cons */}
-          <Carousel.Item className="prosAndCons">
-            <h3>Pros and Cons</h3>
-            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <section ref={this.pros}>
-              <h4>Pros</h4>
-              <ul>{this.props.phone.pros.map(pro => <li>{pro}</li>)}</ul>
-            </section>
-            <section ref={this.cons}>
-              <h4>Cons</h4>
-              <ul>{this.props.phone.cons.map(con => <li>{con}</li>)}</ul>
-            </section>
-          </Carousel.Item>
+          {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (
+            <Carousel.Item className="camera-pros-cons">
+              <h3>Cameras - Pros & Cons</h3>
+              <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+              {this.props.phone.cameraPros && (
+                <section>
+                  <span>Camera Pros:</span>
+                  {this.props.phone.cameraPros.map(pro => <li>{pro}</li>)}
+                </section>
+              )}
+              {this.props.phone.cameraCons && (
+                <section>
+                  <span>Camera Cons:</span>
+                  {this.props.phone.cameraCons.map(con => <li>{con}</li>)}
+                </section>
+              )}
+            </Carousel.Item>
+          )}
 
-          {/* Test */}
-          <Carousel.Item className="test">
-            <div className="grid-container">
+          {/* Pros and Cons */}
+          <Carousel.Item className="pros-and-cons-slide">
+            <div className="pros-and-cons">
               <h3>Pros and Cons</h3>
               <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-              <section className="dog">
+              <section className="pros-and-cons-bubble">
                 <h4>Pros</h4>
-                <div id="pros-section" className="cow">
+                <div className="scrollable">
                   <ul>{this.props.phone.pros.map(pro => <li>{pro}</li>)}</ul>
                 </div>
               </section>
-              <section className="dog">
+              <section className="pros-and-cons-bubble">
                 <h4>Cons</h4>
-                <div id="cons-section" className="cow">
+                <div className="scrollable">
                   <ul>{this.props.phone.cons.map(con => <li>{con}</li>)}</ul>
                 </div>
               </section>
             </div>
           </Carousel.Item>
-          
-          {/* Cons */}
-          {/* <Carousel.Item className="cons">
-            <h3>Cons</h3>
-            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {this.props.phone.cons.map(con => <li>{con}</li>)}
-          </Carousel.Item> */}
 
           {/* Approbations */}
           {this.props.phone.approbations && (
@@ -204,16 +189,26 @@ class MiniPhoneCarousel extends React.Component {
               </section>
             </Carousel.Item>
           )}
+
+          {/* Prices */}
+          <Carousel.Item className="prices-slide">
+            <h3>Starting Prices</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <section className="prices">
+              {this.props.phone.prices.map((prices, index) =>
+                <p key={index}><span>{prices.storage}: </span>{prices.price}</p>
+              )}
+            </section>
+            <h6>All prices shown in USD</h6>
+          </Carousel.Item>
         </Carousel>
       </>
     )
   }
   componentDidMount() {
-    // window.addEventListener('load', console.log('pros height:', this.pros.current.clientHeight));
-    console.log('tipsy', this.tipsy.current.offsetHeight);
     this.overFlow(this.props.phone.colors, this.inputRef, 5, '175px');
-    this.overFlow(this.props.phone.pros, this.pros, 4, '150px');
-    this.overFlow(this.props.phone.cons, this.cons, 3, '125px'); // 125px
+    // this.overFlow(this.props.phone.pros, this.pros, 4, '150px');
+    // this.overFlow(this.props.phone.cons, this.cons, 3, '125px'); // 125px
   }
 }
 

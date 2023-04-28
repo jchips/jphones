@@ -59,7 +59,8 @@ ul {
   }
 
   & .cameras-slide p,
-  & .phone-specs-slide p {
+  & .phone-specs-slide p,
+  & .prices-slide p {
     color: $bootstrap-blue;
   }
 
@@ -95,7 +96,8 @@ h4 {
 
 .display,
 .colors,
-.cameras {
+.cameras,
+.prices {
   background-color: $very-light-gray;
   padding: 5px;
   border-radius: 10px;
@@ -138,18 +140,20 @@ h4 {
 
 .features-slide {
   & ul {
-    // text-align: left;
-    text-align: center;
-    list-style-position: inside;
-    // padding: 0 25px;
+    text-align: left;
+    // text-align: center;
+    // list-style-position: inside;
+    padding: 0 25px;
   }
 }
 
 .camera-features,
 .camera-pros-cons {
-  h3 {
-    color: $theme-orange;
-  }
+  // h3 span {
+  //   // color: $theme-blue;
+  //   display: inline-block;
+  //   font-weight: 500;
+  // }
 
   section {
     margin-bottom: 10px;
@@ -165,27 +169,27 @@ h4 {
   }
 }
 
-.prosAndCons {
-  & span {
-    display: block;
-  }
+// .prosAndCons {
+//   & span {
+//     display: block;
+//   }
 
-  & ul {
-    padding-left: 20px;
-    margin-bottom: 5px;
-  }
+//   & ul {
+//     padding-left: 20px;
+//     margin-bottom: 5px;
+//   }
 
-  & li {
-    text-align: left;
-  }
+//   & li {
+//     text-align: left;
+//   }
 
-  & section {
-    margin-bottom: 10px;
-    background-color: $very-light-gray;
-    border-radius: 10px;
-    padding: 5px;
-  }
-}
+//   & section {
+//     margin-bottom: 10px;
+//     background-color: $very-light-gray;
+//     border-radius: 10px;
+//     padding: 5px;
+//   }
+// }
 
 .approbations {
   height: 300px;
@@ -212,6 +216,10 @@ h4 {
   }
 }
 
+.prices p {
+  margin: 10px;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   height: 100px;
@@ -225,57 +233,26 @@ h4 {
   visibility: visible;
 }
 
-// .grid-container {
-//   display: grid;
-//   /* 
-//      Fix the first row's height to 100px and 
-//      fill the rest of the available space 
-//      with the second row: 
-//   */
-//   grid-auto-rows: max-content;
-
-//   & .dog {
-//     // padding: 5px;
-//     // max-height: 150px;
-//     // overflow: auto;
-//     // display: flex;
-//     // flex-direction: column;
-//   }
-
-//   & .cow {
-//   //   flex: 1;
-//   // overflow-y: auto;
-//   max-height: 125px;
-//   display: flex;
-//     flex-direction: column;
-//   }
-
-//   & .cow > * {
-//     flex: 1;
-//     overflow-y: auto;
-//   }
-// }
-
-.grid-container {
+.pros-and-cons {
   display: flex;
   flex-direction: column;
 
-  & .dog {
-    overflow-y: auto;
+  & .pros-and-cons-bubble {
+    // overflow-y: auto;
     margin-bottom: 10px;
     background-color: $very-light-gray;
     border-radius: 10px;
     padding: 5px;
   }
 
-  & .cow {
-    max-height: 100px;
-    // overflow-y: auto;
+  & .scrollable {
+    // max-height: 97px; // 100
+    overflow-y: auto;
   }
 
-  // & .cow ul {
-  //   max-height: 80px;
-  // }
+  & .scrollable ul {
+    max-height: 97px;
+  }
 
   & span {
     display: block;
@@ -297,10 +274,3 @@ h4 {
   //   padding: 5px;
   // }
 }
-
-// #pros-section {
-//   max-height: 125px;
-// }
-// #cons-section {
-//   max-height: 150px;
-// }
