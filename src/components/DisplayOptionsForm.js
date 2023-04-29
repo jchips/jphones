@@ -1,9 +1,11 @@
 // Form code from React.dev - https://react.dev/reference/react-dom/components/input
 import React from 'react';
-import '../styles/DisplayOptions.scss';
 import { Button } from 'react-bootstrap';
+import '../styles/DisplayOptions.scss';
 
 class DisplayOptionsForm extends React.Component {
+
+  // Handle radio button form submit
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -16,6 +18,10 @@ class DisplayOptionsForm extends React.Component {
     this.setDisplay(formJson);
   }
 
+  /**
+   * Reads what the user selects in the form and then displays the correct phones based on that.
+   * @param {Object} formJson - Object with user's form input data
+   */
   setDisplay = (formJson) => {
     if (formJson.displayPhones === 'currentPhones') {
       this.props.display('currentPhones');
@@ -29,9 +35,11 @@ class DisplayOptionsForm extends React.Component {
       <section className='display-phones-options'>
         <form onSubmit={this.handleSubmit}>
           <legend>Display options:</legend>
-          <label><input type="radio" name="displayPhones" value="currentPhones" defaultChecked={true} /> Current phones</label>
-          <label><input type="radio" name="displayPhones" value="allPhones" /> All phones</label>
-          <Button type="submit" variant="secondary">Display phones</Button>
+          <div>
+            <label><input type="radio" name="displayPhones" value="currentPhones" defaultChecked={true} /> Current phones</label>
+            <label><input type="radio" name="displayPhones" value="allPhones" /> All phones</label>
+            <Button type="submit" variant="primary">Display</Button>
+          </div>
         </form>
       </section>
     );

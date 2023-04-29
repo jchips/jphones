@@ -1,32 +1,217 @@
 import React from "react";
+import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
 import "../../styles/MiniPhoneCarousel.scss"
 
 class MiniPhoneCarousel extends React.Component {
+  inputRef = createRef();
+  // pros = createRef();
+  // cons = createRef();
+
+  /**
+   * Adds a vertical scrollbar to element when there are a lot of array items to be displayed.
+   * @param {Object} data - Array of the data that needs to be scrolled. Ex: this.props.phone.colors
+   * @param {Element} ref - Element to add scrollbar to.
+   * @param {Number} num - Number of array items that can be displayed before the scrollbar appears
+   * @param {String} height - The height of the element (needed to be able to add a scrollbar)
+   */
+  overFlow = (data, ref, num, height) => {
+    if (data.length > num) {
+      ref.current.style.overflowY = 'auto';
+      ref.current.style.height = height;
+    }
+  }
+
   render() {
-    console.log()
     return(
       <>
-        <Carousel id={this.props.phone.id} interval={null} indicators={false} variant="dark">
-          <Carousel.Item>
+        <Carousel id={this.props.phone.id} interval={null} indicators={true} variant="dark">
+          <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
-            <h5>{this.props.phone.Brand}/{this.props.phone.OS}</h5>
+            <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
             <div class="img-container">
               <img
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               />
             </div>
+            {/* <p className="released">{this.props.phone.released}</p> */}
+            <h6>{this.props.phone.released}</h6>
           </Carousel.Item>
-          <Carousel.Item>
-            <h2>slide 2</h2>
+
+          {/* Phone specs */}
+          <Carousel.Item className="phone-specs-slide">
+            <h3>Phone specs</h3>
+            <h6 ref={this.tipsy} className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
+            {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
+            {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
+            {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
+            <p><span>Build: </span>{this.props.phone.build}</p><hr/>
+            <p><span>Battery: </span>{this.props.phone.battery}</p>
+            <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
+            <p><span>Ram: </span>{this.props.phone.ram}</p><hr/>
+            <p><span>Capacity: </span>{this.props.phone.capacity}</p>
           </Carousel.Item>
+
+          {/* Colors & Display */}
           <Carousel.Item>
-            <h2>slide 3</h2>
+            <h3>Colors & Display</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            {!this.props.phone.foldable && (
+              <div className="display">
+                <h4>Display</h4>
+                <p>{this.props.phone.display}</p>
+              </div>
+            )}
+            {/* Only display this for foldable phones */}
+            {this.props.phone.foldable && (
+              <div className="display">
+                <h4>Display</h4>
+                <p><span>Open display: </span>{this.props.phone.openDisplay}</p>
+                <p><span>Closed display: </span>{this.props.phone.closedDisplay}</p>
+              </div>
+            )}
+            <div ref={this.inputRef} className="colors">
+              {/* {this.props.phone.colors.length > 5 && this.overFlow()} */}
+              <h4>Colors</h4>
+              <ul>
+                {this.props.phone.colors.map((phoneColor, index) =>
+                  <div className="phone-color" key={index}>
+                    {phoneColor.tag && (
+                      <div className={`color ${phoneColor.tag}`}></div>
+                    )}
+                    <li>{phoneColor.color}</li>
+                  </div>
+                )}
+              </ul>
+            </div>
+          </Carousel.Item>
+          
+          {/* Features */}
+          <Carousel.Item className="features-slide">
+            <h3>Features</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <hr/>
+            <ul>
+              {this.props.phone.phoneFeatures.map(feature =>
+                <li>{feature}</li>
+              )}
+            </ul>
+            <hr/>
+          </Carousel.Item>
+          
+          {/* Cameras */}
+          <Carousel.Item className="cameras-slide">
+            <h3>Cameras</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <div id="rear-cameras" className="cameras">
+              <h4>Rear Cameras:</h4>
+              <p><span>Primary: </span>{this.props.phone.rearCameras.primary}</p>
+              {this.props.phone.rearCameras.ultrawide && (
+                <p><span>Ultrawide: </span> {this.props.phone.rearCameras.ultrawide}</p>
+              )}
+              {this.props.phone.rearCameras.telephoto && (
+                <p><span>Telephoto: </span> {this.props.phone.rearCameras.telephoto}</p>
+              )}
+              {this.props.phone.rearCameras.periscope && (
+                <p><span>Periscope: </span> {this.props.phone.rearCameras.periscope}</p>
+              )}
+            </div>
+            <div id="front-cameras" className="cameras">
+              <h4>Front Camera(s):</h4>
+              <p><span>Primary: </span>{this.props.phone.frontCameras}</p>
+              {this.props.phone.frontCameras.ultrawide && (
+                <p><span>Ultrawide: </span> {this.props.phone.frontCameras.ultrawide}</p>
+              )}
+            </div>
+          </Carousel.Item>
+
+          {/* Camera Features */}
+          <Carousel.Item className="camera-features">
+            <h3>Cameras - Features</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <section>
+              <hr/>
+              <ul>{this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}</ul>
+              <hr/>
+            </section>    
+          </Carousel.Item>
+
+          {/* Camera Pros anc Cons */}
+          {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (
+            <Carousel.Item className="camera-pros-cons">
+              <h3>Cameras - Pros & Cons</h3>
+              <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+              {this.props.phone.cameraPros && (
+                <section>
+                  <span>Camera Pros:</span>
+                  {this.props.phone.cameraPros.map(pro => <li>{pro}</li>)}
+                </section>
+              )}
+              {this.props.phone.cameraCons && (
+                <section>
+                  <span>Camera Cons:</span>
+                  {this.props.phone.cameraCons.map(con => <li>{con}</li>)}
+                </section>
+              )}
+            </Carousel.Item>
+          )}
+
+          {/* Pros and Cons */}
+          <Carousel.Item className="pros-and-cons-slide">
+            <div className="pros-and-cons">
+              <h3>Pros and Cons</h3>
+              <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+              <section className="pros-and-cons-bubble">
+                <h4>Pros</h4>
+                <div className="scrollable">
+                  <ul>{this.props.phone.pros.map(pro => <li>{pro}</li>)}</ul>
+                </div>
+              </section>
+              <section className="pros-and-cons-bubble">
+                <h4>Cons</h4>
+                <div className="scrollable">
+                  <ul>{this.props.phone.cons.map(con => <li>{con}</li>)}</ul>
+                </div>
+              </section>
+            </div>
+          </Carousel.Item>
+
+          {/* Approbations */}
+          {this.props.phone.approbations && (
+            <Carousel.Item>
+              <h3>Approbations</h3>
+              <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+              <section className="approbations">
+                <ul>
+                  {this.props.phone.approbations.map((approbation, index) =>
+                    <li key={index}>{approbation}</li>
+                  )}
+                </ul>
+              </section>
+            </Carousel.Item>
+          )}
+
+          {/* Prices */}
+          <Carousel.Item className="prices-slide">
+            <h3>Starting Prices</h3>
+            <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <section className="prices">
+              {this.props.phone.prices.map((prices, index) =>
+                <p key={index}><span>{prices.storage}: </span>{prices.price}</p>
+              )}
+            </section>
+            <h6>All prices shown in USD</h6>
           </Carousel.Item>
         </Carousel>
       </>
     )
+  }
+  componentDidMount() {
+    this.overFlow(this.props.phone.colors, this.inputRef, 5, '175px');
+    // this.overFlow(this.props.phone.pros, this.pros, 4, '150px');
+    // this.overFlow(this.props.phone.cons, this.cons, 3, '125px'); // 125px
   }
 }
 

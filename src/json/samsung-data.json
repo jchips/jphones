@@ -3,22 +3,35 @@
     "name": "Galaxy S22 Ultra",
     "id": "s22-ultra",
     "img": "/assets/imgs/galaxys/galaxy-s22-ultra.png",
-    "Brand": "Samsung",
-    "OS": "Android 12",
-    "Year": 2022,
-    "Colors": ["Phantom Black, White", "Green", "Red", "Burgundy", "Sky Blue", "Graphite"],
-    "Prices": ["8 / 128 GB: $1200", "12 / 256 GB: $1300", "12 / 512 GB: $1400", "12 / 1 TB: $1600"],
-    "UI": "One UI 4.1",
-    "Display": "6.8 in; 1440x3088 px, Curved QHD+ Dynamic AMOLED 2X",
-    "Build": "Curved Gorilla Glass Victus+ (Matte)",
-    "Size": "6.43 x 3.07 x 0.35 in",
-    "rearCameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
-    "frontCameras": "40MP",
-    "Ram": "8 / 12 GB",
-    "Battery": "5000 mAh",
-    "Charging": "45W, 15W wireless, 4.5 PowerShare",
-    "Capacity": "128 / 256 / 512 / 1 TB",
-    "Released": "Feb. 25, 2022 (US)",
+    "brand": "Samsung",
+    "os": "Android 12",
+    "year": 2022,
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"}, 
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Red", "tag": "samsung-red"},
+      {"color": "Burgundy", "tag": "burgundy"},
+      {"color": "Sky Blue", "tag": "sky-blue"},
+      {"color": "Graphite", "tag": "graphite"}
+    ],
+    "prices":[
+      {"storage": "128 GB (8 GB ram)", "price": "$1200"},
+      {"storage": "256 GB (12 GB ram)", "price": "$1300"},
+      {"storage": "512 GB (12 GB ram)", "price": "$1400"},
+      {"storage": "1 TB (12 GB ram)", "price": "$1600"}
+    ],
+    "ui": "One UI 4.1",
+    "display": "6.8 in; 1440x3088 px, Curved QHD+ Dynamic AMOLED 2X",
+    "build": "Curved Gorilla Glass Victus+ (Matte)",
+    "size": "6.43 x 3.07 x 0.35 in",
+    "rearCameras": {"primary": "108 MP", "ultrawide": "12 MP", "telephoto": "10 MP", "periscope": "10 MP"},
+    "frontCameras": "40 MP",
+    "ram": "8 / 12 GB",
+    "battery": "5000 mAh",
+    "charging": "45W, 15W wireless, 4.5 PowerShare",
+    "capacity": "128 / 256 / 512 / 1 TB",
+    "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
       "Wifi 6E", "Built-in S Pen", "Improved brightness", "Boxier design like a Galaxy Note", "More efficient adaptive refresh rate",
       "S Pen has much lower latency than past S Pens (2.8)"
@@ -33,34 +46,45 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised", "Faster charging than predecessors"
     ],
-    "Cons":[
+    "cons":[
       "Camera protudes", "Camera bumps collect a lot of dust"
-    ],
-    "Approbations":[]
+    ]
   },
   {
     "name": "Galaxy S22+",
     "id": "galaxy-s22-plus",
     "img": "/assets/imgs/galaxys/galaxy-s22-plus.png",
-    "Brand": "Samsung",
-    "OS": "Android 12",
-    "Year": 2022,
-    "Colors": ["Phantom Black, White", "Pink Gold", "Green", "Sky Blue", "Cream", "Graphite", "Violet"],
-    "Prices": ["128 GB:  $1000", "256 GB: $1200"],
-    "UI": "One UI 4.1",
-    "Display": "6.6 in; 1080x2340px, FHD+ Dynamic AMOLED",
-    "Build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
-    "Size": "6.20 x 2.98 x 0.30 in",
-    "rearCameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
+    "brand": "Samsung",
+    "os": "Android 12",
+    "year": 2022,
+    "colors": [
+      {"color":"Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Pink Gold", "tag": "pink-gold"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Sky Blue", "tag": "sky-blue"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Graphite", "tag": "samsung-graphite"},
+      {"color": "Violet", "tag": "samsung-violet"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1200"}
+    ],
+    "ui": "One UI 4.1",
+    "display": "6.6 in; 1080x2340px, FHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
+    "size": "6.20 x 2.98 x 0.30 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide":"12 MP", "telephoto":"10 MP"},
     "frontCameras": "10MP",
-    "Ram": "8 GB",
-    "Battery": "4500 mAh",
-    "Charging": "45W, 15W wireless, 4.5 PowerShare",
-    "Capacity": "128 / 256 GB",
-    "Released": "Feb. 25, 2022 (US)",
+    "ram": "8 GB",
+    "battery": "4500 mAh",
+    "charging": "45W, 15W wireless, 4.5 PowerShare",
+    "capacity": "128 / 256 GB",
+    "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
       "Wifi 6E", "Improved brightness", "Flatter edges than the S21s", "More efficient adaptive refresh rate"
     ],
@@ -74,34 +98,45 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised", "Faster charging than predecessors"
     ],
-    "Cons":[
+    "cons":[
       "Display is not curved (like past Samsung phones)"
-    ], 
-    "Approbations":[]
+    ]
   },
   {
     "name": "Galaxy S22",
     "id": "galaxy-s22",
     "img": "/assets/imgs/galaxys/galaxy-s22.png",
-    "Brand": "Samsung",
-    "OS": "Android 12",
-    "Year": 2022,
-    "Colors": ["Phantom Black, White", "Pink Gold", "Green", "Sky Blue", "Cream", "Graphite", "Violet"],
-    "Prices": ["128 GB:  $800", "256 GB: $1000"],
-    "UI": "One UI 4.1",
-    "Display": "6.1 in; 1080x2340 px, FHD+ Dynamic AMOLED",
-    "Build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
-    "Size": "5.75 x 2.78 x 0.30 in",
-    "rearCameras": "Main: 50MP, Ultrawide: 12MP, Telephoto: 10MP",
-    "frontCameras": "10MP",
-    "Ram": "8 GB",
-    "Battery": "3700 mAh",
-    "Charging": "25W, 15W wireless, 4.5 PowerShare",
-    "Capacity": "128 / 256 GB",
-    "Released": "Feb. 25, 2022 (US)",
+    "brand": "Samsung",
+    "os": "Android 12",
+    "year": 2022,
+    "colors": [
+      {"color":"Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Pink Gold", "tag": "pink-gold"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Sky Blue", "tag": "sky-blue"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Graphite", "tag": "samsung-graphite"},
+      {"color": "Violet", "tag": "samsung-violet"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$1000"}
+    ],
+    "ui": "One UI 4.1",
+    "display": "6.1 in; 1080x2340 px, FHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass Victus+ (Matte), Armor aluminum frame",
+    "size": "5.75 x 2.78 x 0.30 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide":"12 MP", "telephoto":"10 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "3700 mAh",
+    "charging": "25W, 15W wireless, 4.5 PowerShare",
+    "capacity": "128 / 256 GB",
+    "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
       "Wifi 6E", "Improved brightness", "Flatter edges than the S21s", "More efficient adaptive refresh rate"
     ],
@@ -115,34 +150,43 @@
     "cameraCons":[
       "None recorded"
     ],
-    "Pros":[
+    "pros":[
       "4yrs of Samsung updates promised"
     ],
-    "Cons":[
+    "cons":[
       "Display is not curved (like past Samsung phones)"
-    ],
-    "Approbations":[]
+    ]
   },
   {
     "name": "Galaxy S21 Ultra",
     "id": "s21-ultra",
     "img": "/assets/imgs/galaxys/galaxy-s21-ultra.png",
-    "Brand": "Samsung",
-    "OS": "Android 11",
-    "Year": 2021,
-    "Colors": ["Phantom Black", "Phantom Titanium", "Phantom Navy", "Phantom Silver", "Phantom Brown"],
-    "Prices": ["128 GB: $1200", "256 GB: $1250", "512 GB: $1380"],
-    "UI": "One Ui 3.1",
-    "Display": "6.8 in; 1440x3200 px, Curved WQHD+ Dynamic AMOLED 2x",
-    "Build": "Gorilla Glass Victus (Matte), aluminum frame",
-    "Size": "6.5 x 2.98 x 0.35 in",
-    "rearCameras": "Main: 108MP, Ultrawide: 12MP, Telephoto: 10MP, Periscope: 10MP",
-    "frontCameras": "40MP",
-    "Ram": "12 / 16 GB",
-    "Battery": "5000 mAh",
-    "Charging": "25W fast, 15W wireless",
-    "Capacity": "128 / 256 / 512 GB",
-    "Released": "Jan. 29, 2021 (US)",
+    "brand": "Samsung",
+    "os": "Android 11",
+    "year": 2021,
+    "colors": [
+      {"color": "Phantom Black", "tag":"phantom-black"},
+      {"color": "Phantom Titanium", "tag": "phantom-titanium"},
+      {"color": "Phantom Navy", "tag": "phantom-navy"},
+      {"color": "Phantom Silver", "tag": "phantom-silver"},
+      {"color": "Phantom Brown", "tag": "phantom-brown"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1200"},
+      {"storage": "256 GB", "price": "$1250"},
+      {"storage": "512 GB", "price": "$1380"}
+    ],
+    "ui": "One Ui 3.1",
+    "display": "6.8 in; 1440x3200 px, Curved WQHD+ Dynamic AMOLED 2x",
+    "build": "Gorilla Glass Victus (Matte), aluminum frame",
+    "size": "6.5 x 2.98 x 0.35 in",
+    "rearCameras": {"primary":"108 MP", "ultrawide":"12 MP", "telephoto":"10 MP", "periscope":"10 MP"},
+    "frontCameras": "40 MP",
+    "ram": "12 / 16 GB",
+    "battery": "5000 mAh",
+    "charging": "25W fast, 15W wireless",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Jan. 29, 2021 (USA)",
     "phoneFeatures": [
       "HyperFast WiFi 6E", "Bluetooth 5.2 support", "Google Discover feed", "S-pen functionality (not included)"
     ],
@@ -158,17 +202,17 @@
     "cameraCons":[
       "No OIS on ultrawide camera"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20 Ultra was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs (and brighter than the S21 & S21+)",
       "Has 120 Hz w/ Quad HD resolution (unlike S20s)", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
     ],
-    "Approbations":[
+    "approbations":[
       "“All day battery” ~ ASBYT, Feb, 2021",
       "“Best screen on any phone” ~ The Tech Chap" ,"“Best phone in the world right now” ~ The Tech Chap", 
       "“Best Android phone right now” ~ ASBYT, Feb 2021", "“Best display on the market” ~ ASBYT, Feb 2021",
@@ -180,25 +224,31 @@
     "name": "Galaxy S21+",
     "id": "galaxy-s21-plus",
     "img": "/assets/imgs/galaxys/galaxy-s21-plus.png",
-    "Brand": "Samsung",
-    "OS": "Android 11",
-    "Year": 2021,
-    "Colors": [
-      "Phantom Black", "Phantom Silver", "Phantom Violet", "Phantom Red (exclusive offer)", 
-      "Phantom Gold (exclusive offer)"
+    "brand": "Samsung",
+    "os": "Android 11",
+    "year": 2021,
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom Silver", "tag": "phantom-silver"},
+      {"color": "Phantom Violet", "tag": "phantom-violet"},
+      {"color": "Phantom Red (exclusive offer)", "tag": "phantom-red"},
+      {"color": "Phantom Gold (exclusive offer)", "tag": "phantom-gold"}
     ],
-    "Prices": ["128 GB: $1000", "512 GB: $1050"],
-    "UI": "One Ui 3.1",
-    "Display": "6.7 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
-    "Build": "Gorilla Glass Victus (Frosted Matte), Aluminum frame",
-    "Size": "6.36 x 2.98 x 0.31 in",
-    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
-    "frontCameras": "10MP",
-    "Ram": "8 GB",
-    "Battery": "4800 mAh",
-    "Charging": "25W fast, 15W wireless",
-    "Capacity": "128 / 256 GB",
-    "Released": "Jan. 28, 2021 (US)",
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1050"}
+    ],
+    "ui": "One Ui 3.1",
+    "display": "6.7 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
+    "build": "Gorilla Glass Victus (Frosted Matte), Aluminum frame",
+    "size": "6.36 x 2.98 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide":"12 MP", "telephoto":"64 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "4800 mAh",
+    "charging": "25W fast, 15W wireless",
+    "capacity": "128 / 256 GB",
+    "released": "Jan. 28, 2021 (USA)",
     "phoneFeatures": [
       "Bluetooth 5.2 support", "Google Discover feed"
     ],
@@ -212,37 +262,44 @@
     "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20+ was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
-    ],
-    "Approbations":[]
+    ]
   },
   {
     "name": "Galaxy S21",
     "id": "galaxy-s21",
     "img": "/assets/imgs/galaxys/galaxy-s21.png",
-    "Brand": "Samsung",
-    "OS": "Android 11",
-    "Year": 2021,
-    "Colors": ["Phantom Gray", "Phantom White", "Phantom Violet", "Phantom Pink"],
-    "Prices": ["128 GB: $800", "256 GB: $850"],
-    "UI": "One Ui 3.1",
-    "Display": "6.2 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
-    "Build": "Gorilla Glass / Glastic (Frosted Matte), Aluminum frame",
-    "Size": "5.97 x 2.80 x 0.31 in",
-    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
-    "frontCameras": "10MP",
-    "Ram": "8 GB",
-    "Battery": "4000 mAh",
-    "Charging": "25W fast, 15W wireless",
-    "Capacity": "128 / 256 GB",
-    "Released": "Jan. 29, 2021 (US)",
+    "brand": "Samsung",
+    "os": "Android 11",
+    "year": 2021,
+    "colors": [
+      {"color": "Phantom Gray", "tag": "phantom-gray"},
+      {"color": "Phantom White", "tag": "phantom-white"},
+      {"color": "Phantom Violet", "tag": "phantom-violet"},
+      {"color": "Phantom Pink", "tag": "phantom-pink"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$850"}
+    ],
+    "ui": "One Ui 3.1",
+    "display": "6.2 in; 1080x2400 px, FHD+ Dynamic AMOLED 2x",
+    "build": "Gorilla Glass / Glastic (Frosted Matte), Aluminum frame",
+    "size": "5.97 x 2.80 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide":"12 MP", "telephoto":"64 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "4000 mAh",
+    "charging": "25W fast, 15W wireless",
+    "capacity": "128 / 256 GB",
+    "released": "Jan. 29, 2021 (USA)",
     "phoneFeatures": [
       "Bluetooth 5.2 support", "Google Discover feed"
     ],
@@ -256,17 +313,513 @@
     "cameraCons":[
       "No OIS on ultrawide camera", "4K video @ 30fps on telephoto camera (vs the S21 Ultra's 60fps)"
     ],
-    "Pros":[
+    "pros":[
       "$200 cheaper than S20 was", "Pre-order comes with free Galaxy Buds Pro", "Exynos & Snapdragon chip disparity is fixed",
       "25% more nits of brightness than past Samsungs", "Ultrasonic fingerprint scanner faster and larger than past Samsungs"
     ],
-    "Cons":[
+    "cons":[
       "No charger ITB (unlike past Samsungs)", "No SD card support (unlike past Samsungs)", "No AKG earbuds ITB (unlike past Samsungs)",
       "Camera protrudes even more than S20 Ultra", "No MST for Samsung Pay anymore", "Samsung only updates phone for 3 years",
       "Snapdragon chip camera is a bit better than Exynos variants"
+    ]
+  },
+  {
+    "name": "Galaxy S21 FE",
+    "id": "galaxy-s21-fe",
+    "img": "/assets/imgs/galaxys/galaxy-s21-fe.png",
+    "brand": "Samsung",
+    "os": "Android 12",
+    "year": 2022,
+    "colors": [
+      {"color": "Olive", "tag": "olive"},
+      {"color": "Graphite", "tag": "samsung-graphite"},
+      {"color": "Lavender", "tag": "samsung-lavender"},
+      {"color": "White", "tag": "samsung-white"}
     ],
-    "Approbations": [
-
+    "prices":[
+      {"storage": "128 GB", "price": "$700"},
+      {"storage": "256 GB", "price": "$800"}
+    ],
+    "ui": "One UI 4",
+    "display": "6.4 in; 1080x2340 px; FHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass / Glastic (Matte), Aluminum frame",
+    "size": "6.13 x 2.93 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "8 MP"},
+    "frontCameras": "32 MP",
+    "ram": "6 / 8 GB",
+    "battery": "4500 mAh",
+    "charging": "20W, 15W wireless",
+    "capacity": "128 / 256 GB",
+    "released": "Jan. 11, 2022 (USA)",
+    "phoneFeatures": [
+      "5G support", "120 Hz refresh rate", "Extra dim mode", "In-display fingerprint scanner" 
+    ],
+    "cameraFeatures":[
+      "3x optical zoom", "30x space zoom"
+    ],
+    "cameraPros":[
+      "Photos don't look any worse than the flagship S21 phones"
+    ],
+    "cameraCons":[
+      "No 8K video"
+    ],
+    "pros":[
+      "Good deals if you preorder the phone (gift cards, credit, etc.)"
+    ],
+    "cons":[
+      "No expandable storage (unlike predecessors)", "No charger ITB", "Fingerprint sensor is not ultrasonic (unlike flagship S21s)",
+      "Price is higher than previous year's FE"
+    ]
+  },
+  {
+    "name": "Galaxy S20 Ultra",
+    "id": "galaxy-s20-ultra",
+    "img": "/assets/imgs/galaxys/galaxy-s20-ultra.png",
+    "brand": "Samsung",
+    "os": "Android 10",
+    "year": 2020,
+    "colors": [
+      {"color": "Cosmic Gray", "tag": "cosmic-gray"},
+      {"color": "Cosmic Black", "tag": "cosmic-black"},
+      {"color": "Cosmic White", "tag": "cosmic-white"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1400"},
+      {"storage": "512 GB", "price": "$1600"}
+    ],
+    "ui": "One UI 2",
+    "display": "6.9 in; 1400x3200 px; Curved QHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass 6, Aluminum frame",
+    "size": "6.57 x 2.99 x 0.35 in",
+    "rearCameras": {"primary": "108 MP", "ultrawide": "48 MP", "telephoto": "12 MP"},
+    "frontCameras": "40 MP",
+    "ram": "12 GB",
+    "battery": "5000 mAh",
+    "charging": "25W, 45W fast, 15W PowerShare",
+    "capacity": "128 / 512 GB + MicroSD up to 1 TB",
+    "released": "Mar. 6, 2020 (USA)",
+    "phoneFeatures": [
+      "5G support", "Infinity-O display", "120 Hz refresh rate", "UFS 3.0 storage", "Battery health - moniters battery to see when time for replacement"
+    ],
+    "cameraFeatures":[
+      "ToF camera", "Pro video mode", "10x optical zoom", "4K video @ 120 fps", "8K video recording", "100x space zoom", "3x hybrid zoom",
+      "Smart Selfie Angle (for wider selfies)", "Super steady OIS (supposedly best in class)"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "Many users reported their camera having a focusing issue -- Samsung can't seem to fix this"
+    ],
+    "pros":[
+      "No Bixby button", "Pre-order comes with free Galaxy Buds+ ITB", "In-display fingerprint sensor takes up 25% of screen size, is faster ans is more secure",
+      "New battery protection modules that take up less space in the phone", "No waterfall display like the Note 10s (too curved)",
+      "Even smaller hole punch than the Note 10s"
+    ],
+    "cons":[
+      "120 Hz only for FHD not 2K", "Fingerprint sensor is a bit picky"
+    ]
+  },
+  {
+    "name": "Galaxy S20+",
+    "id": "galaxy-s20-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s20-plus.png",
+    "brand": "Samsung",
+    "os": "Android 10",
+    "year": 2020,
+    "colors": [
+      {"color": "Cosmic Gray", "tag": "cosmic-gray"},
+      {"color": "Cosmic Black", "tag": "cosmic-black"},
+      {"color": "Cloud Blue", "tag": "cloud-blue"},
+      {"color": "Aura Blue", "tag": "aura-blue"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1350"}
+    ],
+    "ui": "One UI 2",
+    "display": "6.7 in; 1400x3200 px, Curved QHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass 6, Aluminum frame",
+    "size": "6.38 x 2.91 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "64 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 / 12 GB",
+    "battery": "4500 mAh",
+    "charging": "25W",
+    "capacity": "128 / 256 / 512 GB + MicroSD up to 1 TB",
+    "released": "Mar. 6, 2020 (USA)",
+    "phoneFeatures": [
+      "5G support", "Infinity-O display", "120 Hz refresh rate", "UFS 3.0 storage", "Battery health - moniters battery to see when time for replacement"
+    ],
+    "cameraFeatures":[
+      "ToF camera", "Pro video mode", "4K video @ 120 fps", "8K video recording", "30x space zoom",
+      "3x hybrid & optical zoom", "Smart Selfie Angle (wider selfies)",
+      "Super steady OIS (supposedly best in class)"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "No 10x optical zoom unlike S20 Ultra", "Doesn't have recording in 8K like S20 Ultra"
+    ],
+    "pros":[
+      "No Bixby button", "Pre-order comes with free Galaxy Buds+ ITB", "In-display fingerprint sensor takes up 25% of screen size, is faster and is more secure",
+      "New battery protection modules that take up less space in the phone", "No waterfall display like the Note 10s (was too curved)",
+      "Even smaller hole punch than the Note 10s"
+    ],
+    "cons":[
+      "120 Hz refresh only for FHD not 2K", "Fingerprint sensor is a bit picky"
+    ]
+  },
+  {
+    "name": "Galaxy S20",
+    "id": "galaxy-s20",
+    "img": "/assets/imgs/galaxys/galaxy-s20.png",
+    "brand": "Samsung",
+    "os": "Android 10",
+    "year": 2020,
+    "colors": [
+      {"color": "Cosmic Gray", "tag": "cosmic-gray"},
+      {"color": "Cloud Blue", "tag": "cloud-blue"},
+      {"color": "Cloud Pink", "tag": "cloud-pink"},
+      {"color": "Cloud White", "tag": "cloud-white"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"}
+    ],
+    "ui": "One UI 2",
+    "display": "6.2 in; 1440x3200 px, Curved QHD+ Dynamic AMOLED",
+    "build": "Gorilla Glass 6, Aluminum frame",
+    "size": "5.98 x 2.68 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "64 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "4000 mAh",
+    "charging": "25W, 15W PowerShare",
+    "capacity": "128 GB + MicroSD up to 1 TB",
+    "released": "Mar. 6, 2020 (USA)",
+    "phoneFeatures": [
+      "5G support", "Infinity-O display", "120 Hz refresh rate", "UFS 3.0 storage", 
+      "Battery health - moniters battery to see when time for replacement"
+    ],
+    "cameraFeatures":[
+      "ToF camera", "Pro video mode", 
+      "4K video @ 120 fps", "8K video recording", "30x space zoom",
+      "3x hybrid & optical zoom", "Smart Selfie Angle (wider selfies)",
+      "Super steady OIS (supposedly best in class)"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "No 10x optical zoom unlike S20 Ultra", "Doesn't have recording in 8K like S20 Ultra"
+    ],
+    "pros":[
+      "No Bixby button", "In-display fingerprint sensor takes up 25% of screen size, is faster and is more secure",
+      "New battery protection modules that take up less space in the phone", "No waterfall display like the Note 10s (was too curved)",
+      "Even smaller hole punch than the Note 10s"
+    ],
+    "cons":[
+      "120 Hz refresh only for FHD not 2K", "Fingerprint sensor is a bit picky", 
+      "Low-mid band 5G (S20+ & Ultra support millimeter wave 5G)"
+    ]
+  },
+  {
+    "name": "Galaxy S20 FE",
+    "id": "galaxy-s20-fe",
+    "img": "/assets/imgs/galaxys/galaxy-s20-fe.png",
+    "brand": "Samsung",
+    "os": "Android 10",
+    "year": 2020,
+    "colors": [
+      {"color": "Cloud Navy", "tag": "cloud-navy"},
+      {"color": "Cloud Lavender", "tag": "cloud-lavender"},
+      {"color": "Cloud Mint", "tag": "cloud-mint"},
+      {"color": "Cloud Red", "tag": "cloud-red"},
+      {"color": "Cloud White", "tag": "cloud-white"},
+      {"color": "Cloud Orange", "tag": "cloud-orange"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$700"}
+    ],
+    "ui": "One UI 2.5",
+    "display": "Not recorded",
+    "build": "Gorilla Glass 3, Plastic",
+    "size": "6.29 x 2.93 x 0.33 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "8 MP"},
+    "frontCameras": "32 MP",
+    "ram": "6 GB",
+    "battery": "4500 mAh",
+    "charging": "15W, 25W fast",
+    "capacity": "128 GB + MicroSD up to 1 TB",
+    "released": "Oct. 2, 2020 (USA)",
+    "phoneFeatures": [
+      "5G support", "Infinity-O display", "120 Hz refresh rate", "UFS 3.1 storage", 
+      "Dual sim support"
+    ],
+    "cameraFeatures":[
+      "3x optical zoom", "30x space zoom", "4K video @ 60 fps", "Pro video mode"
+    ],
+    "pros":[
+      "No Bixby button", "Comes with pre-installed screen protector"
+    ],
+    "cons":[
+      "Fingerprint sensor is not ultrasonic (it's optical, unlike flagship S20s)", 
+      "In UK, India, and some other countries, it comes with the Exynos 990 chips rather than the Snapdragon, and as a result, has worse performance than the USA Snapdragon variant"
+    ]
+  },
+  {
+    "name": "Galaxy S10+",
+    "id": "galaxy-s10-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s10-plus.png",
+    "brand": "Samsung",
+    "os": "Android P",
+    "year": 2019,
+    "colors": [
+      {"color": "Prism Blue", "tag": "prism-blue"},
+      {"color": "Prism Black", "tag": "prism-black"},
+      {"color": "Prism White", "tag": "prism-white"},
+      {"color": "Flamingo Pink", "tag": "flamingo-pink"},
+      {"color": "Ceramic White (only for 512 GB)", "tag": "ceramic-white"},
+      {"color": "Ceramic Black (only for 512 GB)", "tag": "ceramic-black"},
+      {"color": "Prism Green (not available in USA)", "tag": "prism-green"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1250"},
+      {"storage": "1 TB", "price": "$1600"}
+    ],
+    "ui": "One UI 1.1",
+    "display": "6.4 in; 1440x3040 px, Curved Dynamic AMOLED",
+    "build": "Gorilla Glass 5, 6 | Aluminum frame",
+    "size": "6.20 x 2.92 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": " 16 MP"},
+    "frontCameras": "10 MP, 8 MP",
+    "ram": "8 / 12 GB",
+    "battery": "4100 mAh",
+    "charging": "Not recorded",
+    "capacity": "128 / 512 / 1 TB + MicroSD up to 512 GB",
+    "released": "Mar. 8, 2019 (USA)",
+    "phoneFeatures": [
+      "Headphone jack", "Dual sim support"
+    ],
+    "cameraFeatures":[
+      "RGB Depth front camera", "Super steady video", "4K video on front camera"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "None recorded"
+    ],
+    "pros":[
+      "Has headphone jack (unlike later Samsungs)", "Audio is better than Galaxy S9s - louder and crispier",
+      "Comes with earbuds ITB", "World's first displays to support HDR10+ (the S10s)", "World's first phones to run wifi 6 (the S10s)",
+      "You can hide the punch out pill in settings", "40% less blue light than predecessors",
+      "Bixby button can be remapped to any app", "Comes with a screen protector pre-installed",
+      "International edition comes with clear case ITB"
+    ],
+    "cons":[
+      "Large punch out pill", "No iris ID unlike predecessors", "Reverse wireless charging is slow",
+      "No LED notifications unlike previous models", "Power button is an inconvenient spot (a bit high)"
+    ]
+  },
+  {
+    "name": "Galaxy S10",
+    "id": "galaxy-s10",
+    "img": "/assets/imgs/galaxys/galaxy-s10.png",
+    "brand": "Samsung",
+    "os": "Android P",
+    "year": 2019,
+    "colors": [
+      {"color": "Prism White", "tag": "prism-white"},
+      {"color": "Prism Black", "tag": "prism-black"},
+      {"color": "Prism Blue", "tag": "prism-blue"},
+      {"color": "Flamingo Pink", "tag": "flamingo-pink"},
+      {"color": "Prism Green (not available in USA)", "tag": "prism-green"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": " 512 GB", "price": "$1150"}
+    ],
+    "ui": "One UI 1.1",
+    "display": "6.1 in; 1440x3040 px, Curved Dynamic AMOLED",
+    "build": "Gorilla Glass 5, 6 | Aluminum frame",
+    "size": "5.90 x 2.77 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "16 MP"},
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "3400 mAh",
+    "charging": "15W, 4.5W PowerShare",
+    "capacity": "128 / 256 / 512 GB + MicroSD up to 512 GB",
+    "released": "Mar. 8, 2019 (USA)",
+    "phoneFeatures": [
+      "Headphone jack","Heartrate sensor", "Ultrasonic in-display fingerprint ID", 
+      "Wireless PowerShare (reverse wireless charging)", "Dual sim support", "Wifi 6 (20% faster)"
+    ],
+    "cameraFeatures":[
+      "Night mode", "Ultrawide camera", "Super steady video"
+    ],
+    "pros":[
+      "Has headphone jack (unlike later Samsungs)", "Audio is better than Galaxy S9s - louder and crispier",
+      "Comes with earbuds ITB", "World's first displays to support HDR10+ (the S10s)", "World's first phones to run wifi 6 (the S10s)",
+      "You can hide the punch out hole in settings", "40% less blue light than predecessors",
+      "Bixby button can be remapped to any app", "Comes with a screen protector pre-installed",
+      "International edition comes with clear case ITB"
+    ],
+    "cons":[
+      "Punch out hole", "No iris ID unlike predecessors", "Reverse wireless charging is slow",
+      "No LED notifications unlike previous models", "Power button is an inconvenient spot (a bit high)",
+      "In-screen fingeprint sensor does not work when fingers are wet (like it's supposed to)"
+    ]
+  },
+  {
+    "name": "Galaxy S10e",
+    "id": "galaxy-s10e",
+    "img": "/assets/imgs/galaxys/galaxy-s10e.png",
+    "brand": "Samsung",
+    "os": "Android P",
+    "year": 2019,
+    "colors": [
+      {"color": "Prism White", "tag": "prism-white"},
+      {"color": "Prism Black", "tag": "prism-black"},
+      {"color": "Prism Blue", "tag": "prism-blue"},
+      {"color": "Prism Green (not available in USA)", "tag": "prism-green"},
+      {"color": "Canary Yellow (not available in USA)", "tag": "canary-yellow"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$750"},
+      {"storage": "256 GB", "price": "$850"}
+    ],
+    "ui": "One UI 1.1",
+    "display": "5.8 in; 1080x2280 px, Dynamic AMOLED",
+    "build": "Gorilla Glass 5 | Aluminum frame",
+    "size": "5.60 x 2.75 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "16 MP"},
+    "frontCameras": "10 MP",
+    "ram": "6 / 8 GB",
+    "battery": "3100 mAh",
+    "charging": "Not recorded",
+    "capacity": "128 / 256 GB + MicroSD",
+    "released": "Mar. 8, 2019 (USA)",
+    "phoneFeatures": [
+      "Headphone jack", "Dual sim support", "Wireless PowerShare (reverse wireless charging)"
+    ],
+    "cameraFeatures":[
+      "Night mode"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "No telephoto camera (unlike the flagship S10s)"
+    ],
+    "pros":[
+      "Has headphone jack (unlike later Samsungs)", "Cheaper than flagship S10s",
+      "Comes with earbuds ITB", "World's first displays to support HDR10+ (the S10s)",
+      "You can hide the punch out hole in settings", "40% less blue light than predecessors",
+      "Bixby button can be remapped to any app", "Comes with a screen protector pre-installed",
+      "International edition comes with clear case ITB"
+    ],
+    "cons":[
+      "Punch out hole", "No heartrate sensor (unlike predecessors)", 
+      "More bezels on the edges than other S10s despite hole",
+      "Display is not curved (like past Samsung phones)", "No Iris ID (unlike predecessors)",
+      "No LED notifications (unlike predecessors)", 
+      "Power button and fingerprint scanner is an inconvenient spot (a bit high)"
+    ]
+  },
+  {
+    "name": "Galaxy S9+",
+    "id": "galaxy-s9-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s9-plus.png",
+    "brand": "Samsung",
+    "os": "Android O",
+    "year": 2018,
+    "colors": [
+      {"color": "Midnight Black", "tag": "midnight-black"},
+      {"color": "Coral Blue", "tag": "coral-blue"},
+      {"color": "Polaris Blue", "tag": "polaris-blue"},
+      {"color": "Sunrise Gold", "tag": "sunrise-gold"},
+      {"color": "Lilac Purple", "tag": "lilac-purple"},
+      {"color": "Burgundy Red [not available in USA]", "tag": "burgundy-red"},
+      {"color": "Titanium Grey [not available in USA]", "tag": "titanium-grey"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$840"},
+      {"storage": "128 GB", "price": "$890"},
+      {"storage": "256 GB", "price": "$960"}
+    ],
+    "ui": "Samsung Experience 9.0",
+    "display": "6.2 in; 1440x2960 px, Curved Super AMOLED",
+    "build": "Gorilla Glass 5 | Aluminum frame",
+    "size": "6.22 x 2.91 x 0.33 in",
+    "rearCameras": {"primary": "12 MP"},
+    "frontCameras": "7 MP",
+    "ram": "6 GB",
+    "battery": "3500 mAh",
+    "charging": "Not recorded",
+    "capacity": "64 / 128 / 256 GB + MicroSD up to 400 GB",
+    "released": "Mar. 16, 2018 (USA)",
+    "phoneFeatures": [
+      "Headphone jack", "LED notifications", "Dual camera (unlike S9 single camera)",
+      "Digital zoom up to 10x vs S9 up to 8x"
+    ],
+    "cameraFeatures":[
+      "[Coming soon]"
+    ],
+    "pros":[
+      "Has headphone jack (unlike later Samsungs)"
+    ],
+    "cons":[
+      "[Coming soon]"
+    ]
+  },
+  {
+    "name": "Galaxy S9",
+    "id": "galaxy-s9",
+    "img": "/assets/imgs/galaxys/galaxy-s9.png",
+    "brand": "Samsung",
+    "os": "Android O",
+    "year": 2018,
+    "colors": [
+      {"color": "Midnight Black", "tag": "midnight-black"},
+      {"color": "Coral Blue", "tag": "coral-blue"},
+      {"color": "Lilac Purple", "tag": "lilac-purple"},
+      {"color": "Sunrise Gold", "tag": "sunrise-gold"},
+      {"color": "Titanium Grey [not available in USA]", "tag": "titanium-grey"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": ""},
+      {"storage": "128 GB", "price": ""},
+      {"storage": "256 GB", "price": ""}
+    ],
+    "ui": "Samsung Experience 9.0",
+    "display": "5.8 in; 1440x2960 px, Curved Super AMOLED",
+    "build": "Gorilla Glass 5 | Aluminum frame",
+    "size": "5.81 x 2.70 x 0.33 in",
+    "rearCameras": {"primary": "12 MP"},
+    "frontCameras": "7 MP",
+    "ram": "4 GB",
+    "battery": "3000 mAh",
+    "charging": "Not recorded",
+    "capacity": "64 / 128 / 256 GB + MicroSD up to 400 GB",
+    "released": "",
+    "phoneFeatures": [
+      "Iris ID", "Headphone jack", "Fingerprint scanner", "LED & edge lighting"
+    ],
+    "cameraFeatures":[
+      "[Coming soon]"
+    ],
+    "pros":[
+      "Has headphone jack (unlike later Samsungs)", "Better fingerprint ID placement than S8"
+    ],
+    "cons":[
+      "Not much better than S8 other than fingerprint ID placement and camera improvements",
+      "Doesn't have dual cameras like S9+ or Note 9", "Bad battery life after One UI update"
+    ],
+    "approbations": [
+      "Rated 2nd best smallest phone of 2018 by MKBHD"
     ]
   }
 ]

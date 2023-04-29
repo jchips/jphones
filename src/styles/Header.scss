@@ -1,3 +1,4 @@
+@import 'colors';
 // Scroll animation code from https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
 $scrollAnimation: calc(var(--scroll) * -1s);
 
@@ -28,7 +29,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   & h1 {
     font-size: 4.5rem;
     text-transform: uppercase;
-    color: #ffce00;
+    color: $yellow;
     animation: reduce 0.5s ease-in;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;

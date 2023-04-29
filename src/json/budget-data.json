@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Pixel 6a",
+    "id": "pixel-6a",
+    "img": "phones-img/pixel-6a.png",
+    "brand": "Google",
+    "os": "Android 12",
+    "year": 2022,
+    "colors": ["Charcoal", "Chalk", "Sage"],
+    "prices": ["128 GB: $450"],
+    "ui": "Stock Android 12",
+    "display": "6.1 in; 1080x2400 px, FHD+ OLED",
+    "build": "Gorilla Glass 3 / curved plastic, aluminum frame",
+    "size": "6.0 x 2.8 x 0.35 in",
+    "rearCameras": "Main: 12.2 MP, Ultrawide: 12 MP",
+    "frontCameras": "8 MP",
+    "ram": "6 GB",
+    "battery": "4410 mAh",
+    "charging": "18W",
+    "capacity": "128 GB",
+    "released": "July 28, 2022 (US)",
+    "phoneFeatures": [
+      "5G", "Wifi 6E", "UFS 3.1 storage", "Stereo speakers", "One-handed mode", "IP67 water/dust resistant",
+      "In-display fingerprint sensor", "At least 5yrs of Google updates"
+    ],
+    "cameraFeatures":[
+      "Magic eraser", "Face Unblur", "4K video @ 60fps"
+    ],
+    "cameraPros":[
+      "Rear camera doesn't protrude as much as predecessors"
+    ],
+    "cameraCons":[
+      "No telephoto"
+    ],
+    "pros":[
+      "\"Best you can buy in the US at its price class\" ~ MrMobile"
+    ],
+    "cons":[
+      "No charger ITB", "No wireless charging", "Lower IP rating", "Downgraded Gorilla Glass 3",
+      "Only 60Hz refresh rate", "Heats up fast ~ Tech Spurt", "Fast charging isn't very fast ~ Tech Spurt",
+      "Poor battery life ~ MrMobile"
+    ]
+  },
+  {
+    "name": "iPhone SE (2022)",
+    "id": "iphone-se-2022",
+    "img": "phones-img/iphone-se-2022.png",
+    "brand": "Apple",
+    "os": "IOS 15",
+    "year": 2022,
+    "colors": ["Starlight", "Midnight", "Product Red"],
+    "prices": ["64 GB: $430", "128 GB: $480", "256 GB: $580"],
+    "ui": "IOS 15",
+    "display": "4.7 in; 750x1334 px, IPS LCD Retina",
+    "build": "Glass, aluminum frame (glossy)",
+    "size": "5.45 x 2.65 x 0.29 in",
+    "rearCameras": "Main: 12MP",
+    "frontCameras": "7MP",
+    "ram": "4 GB",
+    "battery": "N/A",
+    "charging": "20W, 7.5W wireless",
+    "capacity": "64 / 128 / 256 GB",
+    "released": "March 18, 2022 (US)",
+    "phoneFeatures": [
+        "Fingerprint scanner", "Latest Apple chipset (A15)", "Physical home button (w/ haptic touch)", "IP67 water/dust resistant"
+    ],
+    "cameraFeatures": [
+      "None recorded"
+    ],
+    "cameraPros": [
+      "None recorded"
+    ],
+    "cameraCons": [
+        "No night mode", "No ultrawide camera"
+    ],
+    "pros": [
+        "No notch", "Uses same chip as latest iPhones (iPhone 13s)"
+    ],
+    "cons": [
+        "Big bezels", "No face ID", "No OLED display", "No Ceramic shield glass", "No MagSafe wireless charging",
+        "Back is a fingerprint magnet", "No Animoji/Memoji built-in", "Poor battery life ~ Tech Spurt",
+        "No ultrawide or telephoto cameras", "\"Worst phone of 2022\" ~ Tech Spurt", "60hz refresh rate (unlike the 128hz refresh on iPhone 13s)",
+        "Less water/dust resistant IP rating than other current iPhones (IP67 vs IP68)"
+    ]
+  }
+]

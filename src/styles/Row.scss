@@ -1,3 +1,4 @@
+@import 'colors';
 h2 {
   text-transform: capitalize;
 }
@@ -23,8 +24,9 @@ h2 {
 
 ::-webkit-scrollbar {
   width: 10px;
-  height: 15px;
-  background-color: black;
+  height: 10px;
+  // background-color: black;
+  background-color: $light-gray;
 }
 
 ::-webkit-scrollbar-thumb {

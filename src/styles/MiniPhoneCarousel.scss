@@ -1,18 +1,22 @@
+@import "colors";
+@import "phone.colors";
+// @import 'reset';
+
+ul {
+  padding: 0;
+}
+
 .carousel {
   background-size: 100% 100%;
   // border: 3px groove (rgba(0, 0, 0, 0.6));
+  padding: 0 25px;
   border-radius: 20px;
-  /* opacity: 0.8; */
   /* font-family: "Gill Sans MT", sans-serif; */
-  /* color: black; */
   text-align: center;
-  // text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
   margin: 0 auto;
-  // box-shadow: 0px 4px rgba(0, 0, 0, 0.6);
-  // -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
-  // box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-  height: 420px; /* height: 415px; */
+  -webkit-box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  height: 430px; /* height: 415px; */
   max-width: 369px;
   font-size: 1rem;
 
@@ -21,15 +25,19 @@
     padding: 10px;
   }
 
+  & h3 {
+    margin-top: 20px;
+  }
+
   & h5 {
-    color: #3992ff;
+    color: $theme-blue;
     font-size: 1rem;
     // font-style: italic;
   }
 
   & .img-container {
     // background-color: #f0f0f0;
-    background-color: #f7f7f7;
+    background-color: $very-light-gray;
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
@@ -43,11 +51,198 @@
     // background-color: #f0f0f0;
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
   }
+
+  & .cameras-slide p,
+  & .phone-specs-slide p,
+  & .prices-slide p {
+    color: $bootstrap-blue;
+  }
+
+  & span {
+    font-weight: 600;
+    color: black;
+  }
 }
 
-// @media screen and (max-width: 640px) {
-//   .carousel {
-//     min-width: 320px;
-//     max-width: 320px;
-//   }
-// }
+.phone-title {
+  margin: 5px auto;
+  // text-decoration: underline;
+  // border-top: 1px dotted black;
+  width: fit-content;
+}
+
+hr {
+  margin: 0.5rem 20px;
+}
+
+h6 {
+  margin-top: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.display,
+.colors,
+.cameras,
+.prices {
+  background-color: $very-light-gray;
+  padding: 5px;
+  border-radius: 10px;
+  // border: 1px dotted $theme-blue;
+  margin: 10px;
+}
+
+.colors {
+  padding-bottom: 10px;
+  // height: 200px;
+  // overflow-y: auto;
+
+  & ul {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+  }
+
+  & .phone-color li {
+    text-align: left;
+  }
+}
+
+.color {
+  padding: 10px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.phone-color {
+  display: flex;
+  //  justify-content: center;
+  align-items: center;
+
+  & * {
+    margin-right: 10px;
+  }
+}
+
+.features-slide,
+.camera-features {
+  padding: 0 5px;
+  & ul {
+    text-align: left;
+    padding: 0 25px;
+  }
+}
+
+.camera-features,
+.camera-pros-cons {
+  // h3 span {
+  //   // color: $theme-blue;
+  //   display: inline-block;
+  //   font-weight: 500;
+  // }
+
+  section {
+    margin-bottom: 10px;
+  }
+
+  & span {
+    display: block;
+  }
+
+  & li,
+  & span {
+    text-align: left;
+  }
+}
+
+.pros-and-cons {
+  display: flex;
+  flex-direction: column;
+
+  & .pros-and-cons-bubble {
+    // overflow-y: auto;
+    margin-bottom: 10px;
+    background-color: $very-light-gray;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  & .scrollable {
+    // max-height: 97px; // 100
+    overflow-y: auto;
+  }
+
+  & .scrollable ul {
+    max-height: 97px;
+  }
+
+  & span {
+    display: block;
+  }
+
+  & ul {
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  & li {
+    text-align: left;
+  }
+
+  // & section {
+  //   margin-bottom: 10px;
+  //   background-color: $very-light-gray;
+  //   border-radius: 10px;
+  //   padding: 5px;
+  // }
+}
+
+.approbations {
+  height: 300px;
+  // padding: 10px 2px;
+  margin: 0 15px;
+  overflow-y: auto;
+  // background-color: $very-light-gray;
+  border-radius: 15px;
+
+  & ul {
+    // text-align: left;
+    margin-bottom: 0;
+    // padding-left: 20px;
+    padding: 10px;
+    list-style-type: none;
+
+    & li {
+      margin-bottom: 5px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px dotted $theme-blue;
+      background-color: $very-light-gray;
+    }
+  }
+}
+
+.prices p {
+  margin: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 100px;
+  margin: auto;
+  visibility: hidden;
+}
+
+// might not work on mobile device
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-control-prev {
+  visibility: visible;
+}

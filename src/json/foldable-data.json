@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Galaxy Z Fold 3",
+    "id": "z-fold-3",
+    "foldable": true,
+    "img": "phones-img/z-fold-3.png",
+    "brand": "Samsung",
+    "os": "Android 11",
+    "colors": ["Phantom Black", "Phantom Silver", "Phantom Green"],
+    "prices": [""],
+    "ui": "One UI 3.1?",
+    "openDisplay": "7.6 in; 1768x2208 px, Dynamic AMOLED 2X",
+    "closedDisplay": "6.2 in; 832x2268 px, Dynamic AMOLED 2X",
+    "build": "Gorilla Glass Victus (matte), Armor Aluminum frame",
+    "openSize": "6.23 x 5.04 x 0.25 in",
+    "closedSize": "6.23 x 2.64 x 0.57-0.63 in",
+    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 12MP",
+    "frontCameras": "Main: 10MP, RGB Depth: 4MP",
+    "ram": "12 GB",
+    "battery": "4400 mAh",
+    "charging": "25W, 10W wireless, 4.5W PowerShare",
+    "capacity": "256 / 512 GB",
+    "released": "",
+    "phoneFeatures": [
+      "S-pen support", "120 Hz refresh rate", ""
+    ],
+    "cameraFeatures":[
+
+    ],
+    "cameraPros":[
+      
+    ],
+    "cameraCons":[
+      
+    ],
+    "pros":[
+      
+    ],
+    "cons":[
+      
+    ]
+  },
+  {
+    "name": "Moto RAZR 2020",
+    "id": "moto-razr-2020",
+    "foldable": true,
+    "img": "phones-img/razr-2020.png",
+    "brand": "Motorola",
+    "os": "Android P",
+    "year": 2020,
+    "colors": ["Noir Black"],
+    "prices": ["128 GB: $1500"],
+    "ui": "Custom Motorola UI",
+    "openDisplay": "6.2 in; 876x2142 px; pOLED",
+    "closedDisplay": "2.7 in; 600x800 px; gOLED",
+    "build": "Plastic, Glass frame",
+    "openSize": "6.77 x 2.83 x 0.27 in",
+    "closedSize": "3.70 x 2.83 x 0.55 in",
+    "rearCameras": "16MP",
+    "frontCameras": "5MP",
+    "ram": "6 GB",
+    "battery": "2510 mAh",
+    "charging": "15W",
+    "capacity": "128 GB",
+    "released": "Feb. 6th, 2020 (US)",
+    "phoneFeatures": [
+      "Two screens", "USB Type-C", "Fingerprint scanner", "Tactile home button", "Vertically folding display",
+      "Splash-resistant"
+    ],
+    "cameraFeatures":[
+      "Shake to open camera"
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "No OIS"
+    ],
+    "pros":[
+      "Very thin", "Fits well in pocket", "Comes with earbuds ITB", "Comes with a dongle ITB", "No crease when lying flat",
+      "Comes with a TurboPower charger ITB", "Comes with a speaker stand ITB", "\"Hinge feels premium and solid\" ~ MKBHD",
+      "Same quality for both rear & front camera", "Free unlimited high quality image storage",
+      "Aspect ratio is good", "Doesn't seem to be much of a crease at all when lying flat"
+    ],
+    "cons":[
+      "Very pricey", "Large-ish notch", "Seems fragile", "Low-ish battery", "Big chin & lots of bezels", 
+      "Hinge creaks when folding"
+    ]
+  }
+]
