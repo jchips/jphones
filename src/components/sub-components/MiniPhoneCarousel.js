@@ -92,11 +92,13 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="features-slide">
             <h3>Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
+            <hr/>
             <ul>
               {this.props.phone.phoneFeatures.map(feature =>
                 <li>{feature}</li>
               )}
             </ul>
+            <hr/>
           </Carousel.Item>
           
           {/* Cameras */}
@@ -130,8 +132,9 @@ class MiniPhoneCarousel extends React.Component {
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
             <section>
-              {/* <span>Camera Features:</span> */}
-              {this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}
+              <hr/>
+              <ul>{this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}</ul>
+              <hr/>
             </section>    
           </Carousel.Item>
 

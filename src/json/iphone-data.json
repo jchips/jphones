@@ -6,19 +6,30 @@
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
-    "colors": ["Alpine Green", "Silver", "Gold", "Graphite", "Sierra Blue"],
-    "prices": ["128 GB: $1100", "256 GB: $1200", "512 GB: $1400", "1 TB: $1600"],
+    "colors": [
+      {"color": "Alpine Green", "tag": "alpine-green"},
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Graphite", "tag": "apple-graphite"},
+      {"color": "Sierra Blue", "tag": "sierra-blue"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1100"},
+      {"storage": "256 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1400"},
+      {"storage": "1 TB", "price": "$1600"}
+    ],
     "ui": "IOS 15",
     "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
     "size": "6.33 x 3.07 x 0.30 in",
-    "rearCameras": "Primary: 12MP, Ultrawide: 12MP, Telephoto: 12MP",
-    "frontCameras": "12MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP", "Telephoto": "12 MP"},
+    "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4352 mAh",
     "charging": "20W, 7.5W Qi, 15W MagSafe",
     "capacity": "128 / 256 / 512 / 1 TB",
-    "released": "Sep. 25, 2021 (US)",
+    "released": "Sep. 25, 2021 (USA)",
     "phoneFeatures": [
       "5G", "Wi-Fi 6", "120 Hz refresh rate (ProMotion)"
     ],
@@ -44,19 +55,30 @@
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
-    "colors": ["Alpine Green", "Silver", "Gold", "Graphite", "Sierra Blue"],
-    "prices": ["128 GB: $1000", "256 GB: $1100", "512 GB: $1300", "1 TB: $1500"],
+    "colors": [
+      {"color": "Alpine Green", "tag": "alpine-green"},
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Graphite", "tag": "apple-graphite"},
+      {"color": "Sierra Blue", "tag": "sierra-blue"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$100"},
+      {"storage": "256 GB", "price": "$1100"},
+      {"storage": "512 GB", "price": "$1300"},
+      {"storage": "1 TB", "price": "$1500"}
+    ],
     "ui": "IOS 15",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": "Primary: 12MP, Ultrawide: 12MP, Telephoto: 12MP",
-    "frontCameras": "12MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP", "Telephoto": "12 MP"},
+    "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3095 mAh",
     "charging": "20W, 7.5W Qi, 15W MagSafe",
     "capacity": "128 / 256 / 512 / 1 TB",
-    "released": "Sep. 24, 2021 (US)",
+    "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
       "5G", "Wi-Fi 6", "120 Hz refresh rate (ProMotion)"
     ],
@@ -84,19 +106,30 @@
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
-    "colors": ["Green", "Pink", "Blue", "Midnight", "Starlight", "Product Red"],
-    "prices": ["128 GB: $800", "256 GB: $900", "512 GB: $1100"],
+    "colors": [
+      {"color": "Green", "tag": "apple-green"},
+      {"color": "Pink", "tag": "apple-pink"},
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Midnight", "tag": "midnight"},
+      {"color": "Starlight", "tag": "starlight"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$900"},
+      {"storage": "512 GB", "price": "$1100"}
+    ],
     "ui": "IOS 15",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": "Primary: 12MP, Ultrawide: 12MP",
-    "frontCameras": "12MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3227 mAh",
     "charging": "20W, 7.5W Qi, 15W MagSafe",
     "capacity": "128 / 256 / 512 GB",
-    "released": "Sep. 24, 2021 (US)",
+    "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
       "5G", "Wi-Fi 6"
     ],
@@ -124,19 +157,30 @@
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
-    "colors": ["Green", "Pink", "Blue", "Midnight", "Starlight", "Product Red"],
-    "prices": ["128 GB: $700", "256 GB: $800", "512 GB: $1000"],
+    "colors": [
+      {"color": "Green", "tag": "apple-green"},
+      {"color": "Pink", "tag": "apple-pink"},
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Midnight", "tag": "midnight"},
+      {"color": "Starlight", "tag": "starlight"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$700"},
+      {"storage": "256 GB", "price": "$800"},
+      {"storage": "512 GB", "price": "$1000"}
+    ],
     "ui": "IOS 15",
     "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
     "size": "5.18 x 2.53 x 0.30 in",
-    "rearCameras": "[Primary: 12MP, Ultrawide: 12MP]",
-    "frontCameras": "12MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2,406 mAh",
     "charging": "20W, 7.5W Qi, 15W Magsafe",
     "capacity": "128 / 256 / 512 GB",
-    "released": "Sep. 24, 2021 (US)",
+    "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
       "5G", "Wi-Fi 6"
     ],
@@ -164,19 +208,30 @@
     "brand": "Apple",
     "os": "IOS 14",
     "year": 2020,
-    "colors": ["Purple", "Blue", "Green", "White", "Black", "Product Red"],
-    "prices": ["64 GB: $830", "128 GB: $880", "256 GB: $980"],
+    "colors": [
+      {"color": "Black", "tag": "apple-black"},
+      {"color": "White", "tag": "apple-white"},
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Green", "tag": "apple-green"},
+      {"color": "Purple", "tag": "apple-purple"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$830"},
+      {"storage": "128 GB", "price": "$880"},
+      {"storage": "256 GB", "price": "$980"}
+    ],
     "ui": "IOS 14.1",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
     "size": "5.78 x 2.82 x 0.29 in",
-    "rearCameras": "[Primary: 12MP, Ultrawide: 12MP]",
-    "frontCameras": "8MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "frontCameras": "8 MP",
     "ram": "4 GB",
     "battery": "2815 mAh",
     "charging": "20W fast, 7.5W wireless, 15W MagSafe",
     "capacity": "64 / 128 / 256 GB",
-    "released": "Oct. 23, 2020 (US)",
+    "released": "Oct. 23, 2020 (USA)",
     "phoneFeatures": [
       "5G"
     ],
@@ -190,7 +245,7 @@
     ],
     "cameraCons": [
       "No telephoto camera", "Less digital capability than the 12 Pro Max", "2.5x less optical zoom than the 12 Pro Max",
-      "Some people might feel it’s too saturated"
+      "Some people might feel it's too saturated"
     ],
     "pros": [
       "None recorded"
@@ -212,19 +267,30 @@
     "brand": "Apple",
     "os": "IOS 14",
     "year": 2020,
-    "colors": ["Purple", "Blue", "Green", "White", "Black", "Product Red"],
-    "prices": ["64GB: $730", "128GB: $780", "256GB: $880"],
+    "colors": [
+      {"color": "Black", "tag": "apple-black"},
+      {"color": "White", "tag": "apple-white"},
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Green", "tag": "apple-green"},
+      {"color": "Purple", "tag": "apple-purple"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$730"},
+      {"storage": "128 GB", "price": "$780"},
+      {"storage": "256 GB", "price": "$880"}
+    ],
     "ui": "IOS 14.1",
     "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
-    "size": "",
-    "rearCameras": "Primary: 12 MP, Ultrawide: 12 MP",
+    "size": "5.18 x 2.53 x 0.29 in",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2227 mAh",
     "charging": "20W fast, 7.5W wireless, 12W MagSafe",
     "capacity": "64 / 128 / 256 GB",
-    "released": "Nov. 13, 2020 (US)",
+    "released": "Nov. 13, 2020 (USA)",
     "phoneFeatures": [
       "5G"
     ],
@@ -239,7 +305,7 @@
     ],
     "cameraCons":[
       "No telephoto camera", "2.5x less optical zoom than the 12 Pro Max", "Less digital capability than the 12 Pro Max",
-      "Some people might feel it’s too saturated"
+      "Some people might feel it's too saturated"
     ],
     "pros":[
       "None recorded"
@@ -257,19 +323,28 @@
     "brand": "Apple",
     "os": "IOS 13.1",
     "year": 2019,
-    "colors": ["Green", "White", "Black", "Yellow", "Purple", "Product Red"],
-    "prices": ["64 GB: $700"],
+    "colors": [
+      {"color": "Black", "tag": "apple-black"},
+      {"color": "White", "tag": "apple-white"},
+      {"color": "Yellow", "tag": "apple-blue"},
+      {"color": "Green", "tag": "apple-green"},
+      {"color": "Purple", "tag": "apple-purple"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$700"}
+    ],
     "ui": "IOS 13.1",
     "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD",
     "build": "Gorilla Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
-    "rearCameras": "Primary: 12 MP, Ultrawide: 12 MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3110 mAh",
     "charging": "5W, 18W fast",
     "capacity": "64 / 128 / 256 GB",
-    "released": "Sep. 20, 2019 (US)",
+    "released": "Sep. 20, 2019 (USA)",
     "phoneFeatures": [
       "HDR10", "Improved IP68", "Centered Apple logo"
     ],
