@@ -133,11 +133,13 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="camera-features">
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <section>
+            {/* <section> */}
               <hr/>
-              <ul>{this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}</ul>
+              <section className="scrollable">
+                <ul>{this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}</ul>
+              </section>
               <hr/>
-            </section>    
+            {/* </section>     */}
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}
