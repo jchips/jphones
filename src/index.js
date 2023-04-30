@@ -20,7 +20,7 @@ const Routing = () => {
       {/* <div className="container"> */}
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/pages/apple" element={<Apple />} />
+          <Route path="/apple" element={<Apple />} />
           <Route path='/about' element={<About/>} />
         </Routes>
       {/* </div> */}

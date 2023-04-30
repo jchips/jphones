@@ -135,10 +135,22 @@ h4 {
 .features-slide,
 .camera-features {
   padding: 0 5px;
-  & ul {
+
+  & section {
+    margin-bottom: 0;
+  }
+
+  & .scrollable ul {
     text-align: left;
     padding: 0 25px;
+    max-height: 280px;
+    margin-bottom: 10px;
   }
+}
+
+.scrollable {
+  // max-height: 97px; // 100
+  overflow-y: auto;
 }
 
 .camera-features,
@@ -175,10 +187,10 @@ h4 {
     padding: 5px;
   }
 
-  & .scrollable {
-    // max-height: 97px; // 100
-    overflow-y: auto;
-  }
+  // & .scrollable {
+  //   // max-height: 97px; // 100
+  //   overflow-y: auto;
+  // }
 
   & .scrollable ul {
     max-height: 97px;

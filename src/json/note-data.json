@@ -5,7 +5,12 @@
     "img": "phones-img/note-20-ultra.png",
     "brand": "Samsung",
     "os": "Android 10",
-    "colors": ["Mystic Bronze", "Mystic Black", "Mystic White"],
+    "year": 2020,
+    "colors": [
+      {"color": "Mystic Black", "tag": "mystic-black"},
+      {"color": "Mystic White", "tag": "mystic-white"},
+      {"color": "Mystic Bronze", "tag": "mystic-bronze"}
+    ],
     "prices": ["128 GB: $1250", "512 GB: $1300"],
     "ui": "One UI 2.0",
     "display": "6.9 in; 1440x3088, Curved QHD+ Dynamic AMOLED",
@@ -48,7 +53,13 @@
     "img": "phones-img/note-20.png",
     "brand": "Samsung",
     "os": "Android 10",
-    "colors": ["Mystic Bronze", "Mystic Gray", "Mystic Green", "Mystic Red"],
+    "year": 2020,
+    "colors": [
+      {"color": "Mystic Bronze", "tag": "mystic-bronze"},
+      {"color": "Mystic Gray", "tag": "mystic-gray"},
+      {"color": "Mystic Green", "tag": "mystic-green"},
+      {"color": "Mystic Red", "tag": "mystic-red"}
+    ],
     "prices": ["128 GB: $1000"],
     "ui": "One UI 2.0",
     "display": "6.7 in; 1080x2400 px, FHD Super AMOLED+",
@@ -90,7 +101,13 @@
     "img": "phones-img/note-10-plus.png",
     "brand": "Samsung",
     "os": "Android P",
-    "colors": ["Aura Glow", "Aura Black", "Aura Blue", "Aura White"],
+    "year": 2019,
+    "colors": [
+      {"color": "Aura Black", "tag": "aura-black"},
+      {"color": "Aura White", "tag": "aura-white"},
+      {"color": "Aura Blue", "tag": "aura-blue"},
+      {"color": "Aura Glow", "tag": "aura-glow"}
+    ],
     "prices": ["256 GB: $1100", "512 GB: $1200"],
     "ui": "One UI 1.5",
     "display": "6.8 in; 1440x3040 px, Curved Dynamic QHD+ AMOLED",
@@ -131,8 +148,14 @@
     "img": "phones-img/note-10.png",
     "brand": "Samsung",
     "os": "Android P",
-    "colors": ["Aura Glow", "Aura Black", "Aura White", "Aura Blue", "Aura Pink (not available in the US)",
-      "Aura Red (not available in the US)"
+    "year": 2019,
+    "colors": [
+      {"color": "Aura Black", "tag": "aura-black"},
+      {"color": "Aura White", "tag": "aura-white"},
+      {"color": "Aura Blue", "tag": "aura-blue"},
+      {"color": "Aura Glow", "tag": "aura-glow"},
+      {"color": "Aura Red [not available in USA]", "tag": "aura-red"},
+      {"color": "Aura Pink [not available in USA]", "tag": "aura-pink"}
     ],
     "prices": ["256 GB: $950 USD"],
     "ui": "One UI 1.5",
@@ -176,7 +199,12 @@
     "img": "phones-img/note-10-lite.png",
     "brand": "Samsung",
     "os": "Android 10",
-    "colors": ["Aura Glow", "Aura Black", "Aura Red"],
+    "year": 2020,
+    "colors": [
+      {"color": "Aura Black", "tag": "aura-black"},
+      {"color": "Aura Glow", "tag": "aura-glow"},
+      {"color": "Aura Red", "tag": "aura-red"}
+    ],
     "prices": ["?"],
     "ui": "One UI 2.0",
     "display": "6.7 in; 1080x2400 px; Super AMOLED",
@@ -217,7 +245,13 @@
     "img": "phones-img/note-9.png",
     "brand": "Samsung",
     "os": "Android O",
-    "colors": ["Midnight Black", "Ocean Blue", "Cloud Silver", "Lavender Purple"],
+    "year": 2018,
+    "colors": [
+      {"color": "Midnight Black", "tag": "midnight-black"},
+      {"color": "Ocean Blue", "tag": "ocean-blue"},
+      {"color": "Cloud Silver", "tag": "cloud-silver"},
+      {"color": "Lavender Purple", "tag": "lavender-purple"}
+    ],
     "prices": ["128 GB: $1,000", "512GB: $1,250"],
     "ui": "Samsung Experience 9.5",
     "display": "6.4 in; 1440x2960 px, Curved Super AMOLED",

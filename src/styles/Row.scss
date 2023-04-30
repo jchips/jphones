@@ -22,6 +22,14 @@ h2 {
   // padding-left: 20px;
 }
 
+@media screen and (max-width: 640px) {
+  .scrollbar {
+    overflow: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

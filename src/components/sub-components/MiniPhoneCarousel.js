@@ -1,6 +1,7 @@
 import React from "react";
 import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../styles/MiniPhoneCarousel.scss"
 
 class MiniPhoneCarousel extends React.Component {
@@ -29,8 +30,12 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
-            <div class="img-container">
-              <img
+            <div className="img-container">
+              {/* <img
+                src={this.props.phone.img}
+                alt={this.props.phone.name}
+              /> */}
+              <LazyLoadImage 
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               />
@@ -93,11 +98,13 @@ class MiniPhoneCarousel extends React.Component {
             <h3>Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
             <hr/>
-            <ul>
-              {this.props.phone.phoneFeatures.map(feature =>
-                <li>{feature}</li>
-              )}
-            </ul>
+            <div className="phones-features scrollable">
+              <ul>
+                {this.props.phone.phoneFeatures.map((feature, index) =>
+                  <li key={index}>{feature}</li>
+                )}
+              </ul>
+            </div>
             <hr/>
           </Carousel.Item>
           
@@ -131,11 +138,13 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="camera-features">
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <section>
+            {/* <section> */}
               <hr/>
-              <ul>{this.props.phone.cameraFeatures.map(feature => <li>{feature}</li>)}</ul>
+              <section className="scrollable">
+                <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
+              </section>
               <hr/>
-            </section>    
+            {/* </section>     */}
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}
@@ -146,13 +155,13 @@ class MiniPhoneCarousel extends React.Component {
               {this.props.phone.cameraPros && (
                 <section>
                   <span>Camera Pros:</span>
-                  {this.props.phone.cameraPros.map(pro => <li>{pro}</li>)}
+                  {this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}
                 </section>
               )}
               {this.props.phone.cameraCons && (
                 <section>
                   <span>Camera Cons:</span>
-                  {this.props.phone.cameraCons.map(con => <li>{con}</li>)}
+                  {this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}
                 </section>
               )}
             </Carousel.Item>
@@ -166,13 +175,13 @@ class MiniPhoneCarousel extends React.Component {
               <section className="pros-and-cons-bubble">
                 <h4>Pros</h4>
                 <div className="scrollable">
-                  <ul>{this.props.phone.pros.map(pro => <li>{pro}</li>)}</ul>
+                  <ul>{this.props.phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                 </div>
               </section>
               <section className="pros-and-cons-bubble">
                 <h4>Cons</h4>
                 <div className="scrollable">
-                  <ul>{this.props.phone.cons.map(con => <li>{con}</li>)}</ul>
+                  <ul>{this.props.phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                 </div>
               </section>
             </div>
