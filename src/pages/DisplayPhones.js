@@ -18,17 +18,16 @@ class DisplayPhones extends React.Component {
    */
   getRowTitle = (row) => {
     let array = row.split(" ");
-    console.log('array', array);
     return array[0];
   }
 
   /**
    * Sends only phones for the matching row that are current (released in 2021 or sooner).
    * @param {String} row - The title of the row I want to display phones in.
-   * @returns {Array} - An array of either all the phone or just the current phones.
+   * @returns {Object} - An array of either all the phone or just the current phones.
    */
   determineData = (row) => {
-    let dataArray = this.props.data.filter(rowData => rowData.name.includes(row));
+    let dataArray = this.props.data.filter(rowData => rowData.name.includes(row)); // gets only matching row's data and puts it in new array
     if (this.props.displayAllPhones === true) {
       return dataArray[0].rowData;
     } else {
@@ -43,7 +42,7 @@ class DisplayPhones extends React.Component {
         {this.state.rows.map((row, index) => 
           <section key={index}>
             {/* Labels row and puts photo next to each title */}
-            <div className="row-header">
+            <div id={this.getRowTitle(row)} className="row-header">
               <h2>{row} phones</h2>
               <img src={`assets/imgs/logos/${this.getRowTitle(row)}-logo.webp`} alt={`${this.getRowTitle(row)} logo`}/>
             </div>
