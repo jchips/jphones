@@ -11,6 +11,7 @@ import Header from "./components/Header";
 import MyNavbar from "./components/MyNavbar";
 import About from './pages/About';
 import Apple from "./pages/Apple";
+import Samsung from "./pages/Samsung";
 
 const Routing = () => {
   return (
@@ -20,8 +21,9 @@ const Routing = () => {
       {/* <div className="container"> */}
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/apple" element={<Apple />} />
           <Route path='/about' element={<About/>} />
+          <Route path="/apple" element={<Apple />} />
+          <Route path="/samsung" element={<Samsung/>} />
         </Routes>
       {/* </div> */}
     </BrowserRouter>

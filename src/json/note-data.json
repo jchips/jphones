@@ -6,6 +6,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "note",
     "colors": [
       {"color": "Mystic Black", "tag": "mystic-black"},
       {"color": "Mystic White", "tag": "mystic-white"},
@@ -54,6 +55,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "note",
     "colors": [
       {"color": "Mystic Bronze", "tag": "mystic-bronze"},
       {"color": "Mystic Gray", "tag": "mystic-gray"},
@@ -82,7 +84,7 @@
       "Very good night mode", "Fixed the camera focus issues from the S20 Ultra‼"
     ],
     "cameraCons":[
-      "Super steady stabilization isn’t available in all camera modes"
+      "Super steady stabilization isn't available in all camera modes"
     ],
     "pros":[
       "Very good battery", "Looks nicer than the S20s", "Screen is very readable in sunlight (gets very bright)",
@@ -102,6 +104,7 @@
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
+    "category": "note",
     "colors": [
       {"color": "Aura Black", "tag": "aura-black"},
       {"color": "Aura White", "tag": "aura-white"},
@@ -149,6 +152,7 @@
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
+    "category": "note",
     "colors": [
       {"color": "Aura Black", "tag": "aura-black"},
       {"color": "Aura White", "tag": "aura-white"},
@@ -200,6 +204,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "note",
     "colors": [
       {"color": "Aura Black", "tag": "aura-black"},
       {"color": "Aura Glow", "tag": "aura-glow"},
@@ -246,6 +251,7 @@
     "brand": "Samsung",
     "os": "Android O",
     "year": 2018,
+    "category": "note",
     "colors": [
       {"color": "Midnight Black", "tag": "midnight-black"},
       {"color": "Ocean Blue", "tag": "ocean-blue"},

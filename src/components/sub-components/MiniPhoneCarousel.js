@@ -26,7 +26,7 @@ class MiniPhoneCarousel extends React.Component {
   render() {
     return(
       <>
-        <Carousel id={this.props.phone.id} interval={null} indicators={true} variant="dark">
+        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
           <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
@@ -153,15 +153,19 @@ class MiniPhoneCarousel extends React.Component {
               <h3>Cameras - Pros & Cons</h3>
               <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
               {this.props.phone.cameraPros && (
-                <section>
-                  <span>Camera Pros:</span>
-                  {this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}
+                <section className="pros-and-cons-bubble">
+                  <h4>Camera Pros:</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                  </div>
                 </section>
               )}
               {this.props.phone.cameraCons && (
-                <section>
-                  <span>Camera Cons:</span>
-                  {this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}
+                <section className="pros-and-cons-bubble">
+                  <h4>Camera Cons:</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                  </div>
                 </section>
               )}
             </Carousel.Item>
