@@ -153,15 +153,19 @@ class MiniPhoneCarousel extends React.Component {
               <h3>Cameras - Pros & Cons</h3>
               <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
               {this.props.phone.cameraPros && (
-                <section>
-                  <span>Camera Pros:</span>
-                  <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                <section className="pros-and-cons-bubble">
+                  <h4>Camera Pros:</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                  </div>
                 </section>
               )}
               {this.props.phone.cameraCons && (
-                <section>
-                  <span>Camera Cons:</span>
-                  <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                <section className="pros-and-cons-bubble">
+                  <h4>Camera Cons:</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                  </div>
                 </section>
               )}
             </Carousel.Item>

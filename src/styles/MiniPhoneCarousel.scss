@@ -179,17 +179,31 @@ h4 {
   }
 }
 
+.camera-pros-cons {
+  & .scrollable ul {
+    max-height: 90px;
+  }
+}
+
+.pros-and-cons-bubble {
+  // overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: $very-light-gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .pros-and-cons {
   display: flex;
   flex-direction: column;
 
-  & .pros-and-cons-bubble {
-    // overflow-y: auto;
-    margin-bottom: 10px;
-    background-color: $very-light-gray;
-    border-radius: 10px;
-    padding: 5px;
-  }
+  // & .pros-and-cons-bubble {
+  //   // overflow-y: auto;
+  //   margin-bottom: 10px;
+  //   background-color: $very-light-gray;
+  //   border-radius: 10px;
+  //   padding: 5px;
+  // }
 
   // & .scrollable {
   //   // max-height: 97px; // 100

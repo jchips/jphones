@@ -208,7 +208,123 @@
     "cons": [
       "No charger ITB", "No ProMotion display (has 60 Hz refresh rate)", "A TINY bit thicker and heavier than predecessors"
     ]
-  }, 
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "id": "iphone-12-pro-max",
+    "img": "/assets/imgs/iphones/iphone-12-pro-max.png",
+    "brand": "Apple",
+    "os": "IOS 14.1",
+    "year": 2020,
+    "category": "12",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Graphite", "tag": "apple-graphite"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Pacific Blue", "tag": "pacific-blue"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1100"},
+      {"storage": "256 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1400"}
+    ],
+    "ui": "IOS 14.1",
+    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
+    "build": "Ceramic Shield / glass, stainless steel frame (matte)",
+    "size": "6.33 x 3.07 x 0.29 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "4 GB",
+    "battery": "3587 mAh",
+    "charging": "20W fast, 7.5W wireless, 15W MagSafe",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Nov. 13, 2020 (USA)",
+    "phoneFeatures": [
+      "5G"
+    ],
+    "cameraFeatures":[
+      "Apple ProRAW", "12x digital zoom", "Sensor Shift OIS", "4K HDR video w/ Dolby Vision @ 60fps",
+      "Night mode on ultra-wide cameras", "Night mode on front facing cameras", "Smart HDR 3 (makes photos a little sharper)",
+      "First cameras to support 4K 10-bit HDR with Dolby Vision",
+      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"      
+    ],
+    "cameraPros":[
+      "2.5x higher optical zoom than 12 & 12 Pro", "More digital capability than the 12 & 12 Pro",
+      "Primary camera has a 47% larger sensor than past models"
+    ],
+    "cameraCons":[
+      "Camera is not noticeably better than the 12 or 12 Pro", 
+      "Some social media apps don't support HDR video yet so taking a video in HDR might result in the video looking a bit washed out."
+    ],
+    "pros":[
+      "Coming soon"
+    ],
+    "cons":[
+      "Fingerprint magnet", "Phone can get scratches", "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
+      "Battery is smaller than last year's 11 Pro Max", "Phone no longer comes with power adapter and EarPods ITB",
+      "No 90 or 120 Hz screen refresh rate unlike other current flagships",
+      "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD",
+      "“Basically, the same phone as the 12 Pro outside of the minor camera improvements and bigger price tag). Improvements are not noticeably at all for everyday use for 95% of people”"
+    ],
+    "approbations": ["\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"]
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "id": "iphone-12-pro",
+    "img": "/assets/imgs/iphones/iphone-12-pro.png",
+    "brand": "Apple",
+    "os": "IOS",
+    "year": 2020,
+    "category": "12",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Graphite", "tag": "apple-graphite"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Pacific Blue", "tag": "pacific-blue"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1100"},
+      {"storage": "512 GB", "price": "$1300"}
+    ],
+    "ui": "IOS 14.1",
+    "display": "6.1 in; 1170x2532 px; Super Retina XDR OLED",
+    "build": "Ceramic Shield / glass, stainless steel frame (matte)",
+    "size": "5.78 x 2.82 x 0.30 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "4 GB",
+    "battery": "2815 mAh",
+    "charging": "20W fast, 7.5W wireless, 15W MagSafe",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Oct. 23, 2020 (USA)",
+    "phoneFeatures": [
+      "5G"
+    ],
+    "cameraFeatures":[
+      "Apple ProRAW", "Sensor Shift OIS", "4K HDR video w/ Dolby Vision @ 60fps",
+      "Night mode on ultra-wide cameras", "Night mode on front facing cameras", "Smart HDR 3 (makes photos a little sharper)",
+      "First cameras to support 4K 10-bit HDR with Dolby Vision",
+      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)" 
+    ],
+    "cameraPros":[
+      "None recorded"
+    ],
+    "cameraCons":[
+      "2.5x less optical zoom than the 12 Pro Max", "Less digital capability than the 12 Pro Max",
+      "Some people might feel it's too saturated"
+    ],
+    "pros":[
+      "None recorded"
+    ],
+    "cons":[
+      "Fingerprint magnet", "Phone can get scratches", "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
+      "Battery is smaller than last year's 11 Pro Max", "Phone no longer comes with power adapter and EarPods ITB",
+      "No 90 or 120 Hz screen refresh rate unlike other current flagships",
+      "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD"
+    ],
+    "approbations": ["\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"]
+  },
   {
     "name": "iPhone 12",
     "id": "iphone-12",
@@ -222,7 +338,7 @@
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
       {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Green", "tag": "apple-green"},
+      {"color": "Green", "tag": "apple-light-green"},
       {"color": "Purple", "tag": "apple-purple"},
       {"color": "Product Red", "tag": "product-red"}
     ],
@@ -283,7 +399,7 @@
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
       {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Green", "tag": "apple-green"},
+      {"color": "Green", "tag": "apple-light-green"},
       {"color": "Purple", "tag": "apple-purple"},
       {"color": "Product Red", "tag": "product-red"}
     ],
@@ -329,6 +445,55 @@
     ]
   },
   {
+    "name": "iPhone SE (2020)",
+    "id": "iphone-se-2020",
+    "img": "/assets/imgs/iphones/iphone-se-2020.png",
+    "brand": "Apple",
+    "os": "IOS 13",
+    "year": 2020,
+    "category": "SE",
+    "colors": [
+      {"color": "Black", "tag": "apple-black"},
+      {"color": "White", "tag": "apple-white"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$400"},
+      {"storage": "128 GB", "price": "$450"},
+      {"storage": "256 GB", "price": "$550"}
+    ],
+    "ui": "IOS 13",
+    "display": "4.7 in; 750x1334 px, LCD Retina HD",
+    "build": "Glass / aluminum, aluminum frame (glossy)",
+    "size": "5.45 x 2.65 x 0.29 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "frontCameras": "7 MP",
+    "ram": "3 GB",
+    "battery": "1821 mAh",
+    "charging": "18W fast",
+    "capacity": "64 / 128 / 256 GB",
+    "released": "Apr. 24th 2020 (USA)",
+    "phoneFeatures": [
+      "Wi-Fi 6", "Dual sim support", "IP67 water/dust resistant", "Dolby Atmos speakers",
+      "Centered Apple logo", "Fingerprint ID", "Headphone jack", "latest Apple chipset (A13)",
+      "Physical home button (w/ haptic touch"
+      
+    ],
+    "cameraFeatures":[
+      "Extended dynamic range", "4K video @ 60fps on all cameras"
+    ],
+    "cameraCons":[
+      "No night mode", "No ultrawide camera"
+    ],
+    "pros":[
+      "No notch", "Has headphone jack", "Uses same chip as latest iPhones (iPhone 11s)"
+    ],
+    "cons":[
+      "Big bezels", "No face ID", "No Animoji/Memoji built-in", "Back is a fingerprint magnet",
+      "Lower water/dust resistant IP rating than other current iPhones (IP67 vs IP68)"
+    ]
+  },
+  {
     "name": "iPhone 11",
     "id": "iphone-11",
     "img": "/assets/imgs/iphones/iphone-11.png",
@@ -340,7 +505,7 @@
     "colors": [
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
-      {"color": "Yellow", "tag": "apple-blue"},
+      {"color": "Yellow", "tag": "apple-yellow"},
       {"color": "Green", "tag": "apple-green"},
       {"color": "Purple", "tag": "apple-purple"},
       {"color": "Product Red", "tag": "product-red"}
