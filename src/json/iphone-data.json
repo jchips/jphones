@@ -2,10 +2,12 @@
   {
     "name": "iPhone 13 Pro Max",
     "id": "iphone-13-pro-max",
-    "img": "phones-img/iphone-13-pro-max.png",
+    "img": "/assets/imgs/iphones/iphone-13-pro-max.png",
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
+    "phoneType": "iPhone",
+    "category": "13",
     "colors": [
       {"color": "Alpine Green", "tag": "alpine-green"},
       {"color": "Silver", "tag": "silver"},
@@ -51,10 +53,12 @@
   {
     "name": "iPhone 13 Pro",
     "id": "iphone-13-pro",
-    "img": "phones-img/iphone-13-pro.png",
+    "img": "/assets/imgs/iphones/iphone-13-pro.png",
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
+    "phoneType": "iPhone",
+    "category": "13",
     "colors": [
       {"color": "Alpine Green", "tag": "alpine-green"},
       {"color": "Silver", "tag": "silver"},
@@ -102,10 +106,12 @@
   {
     "name": "iPhone 13",
     "id": "iphone-13",
-    "img": "phones-img/iphone-13.png",
+    "img": "/assets/imgs/iphones/iphone-13.png",
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
+    "phoneType": "iPhone",
+    "category": "13",
     "colors": [
       {"color": "Green", "tag": "apple-green"},
       {"color": "Pink", "tag": "apple-pink"},
@@ -153,10 +159,12 @@
   {
     "name": "iPhone 13 Mini",
     "id": "iphone-13-mini",
-    "img": "phones-img/iphone-13-mini.png",
+    "img": "/assets/imgs/iphones/iphone-13-mini.png",
     "brand": "Apple",
     "os": "IOS 15",
     "year": 2021,
+    "phoneType": "iPhone",
+    "category": "13",
     "colors": [
       {"color": "Green", "tag": "apple-green"},
       {"color": "Pink", "tag": "apple-pink"},
@@ -204,10 +212,12 @@
   {
     "name": "iPhone 12",
     "id": "iphone-12",
-    "img": "phones-img/iphone-12.png",
+    "img": "/assets/imgs/iphones/iphone-12.png",
     "brand": "Apple",
     "os": "IOS 14",
     "year": 2020,
+    "phoneType": "iPhone",
+    "category": "12",
     "colors": [
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
@@ -263,10 +273,12 @@
   {
     "name": "iPhone 12 Mini",
     "id": "iphone-12-mini",
-    "img": "phones-img/iphone-12-mini.png",
+    "img": "/assets/imgs/iphones/iphone-12-mini.png",
     "brand": "Apple",
     "os": "IOS 14",
     "year": 2020,
+    "phoneType": "iPhone",
+    "category": "12",
     "colors": [
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
@@ -319,10 +331,12 @@
   {
     "name": "iPhone 11",
     "id": "iphone-11",
-    "img": "phones-img/iphone-11.png",
+    "img": "/assets/imgs/iphones/iphone-11.png",
     "brand": "Apple",
     "os": "IOS 13.1",
     "year": 2019,
+    "phoneType": "iPhone",
+    "category": "11",
     "colors": [
       {"color": "Black", "tag": "apple-black"},
       {"color": "White", "tag": "apple-white"},
@@ -366,5 +380,51 @@
       "Got rid of the dongle ITB (3.5mm to USB type-C) so now you have to pay an extra $10"
     ],
     "approbations":["Rated best display on a smartphone ~ DisplayMate (but is it?...)"]
+  },
+  {
+    "name": "iPhone XS Max",
+    "id": "iphone-xs-max",
+    "img": "/assets/imgs/iphones/iphone-xs-max.png",
+    "brand": "Apple",
+    "os": "IOS 12",
+    "year": 2018,
+    "phoneType": "iPhone",
+    "category": "x",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Space Grey", "tag": "space-grey"},
+      {"color": "Gold", "tag": "gold"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$1100"},
+      {"storage": "256 GB", "price": "$1250"},
+      {"storage": "512 GB", "price": "$1450"}
+    ],
+    "ui": "IOS 12",
+    "display": "6.5 in; 1242x2688 in; Super Retina HD",
+    "build": "Glass, stainless steel frame",
+    "size": "6.20 x 3.05 x 0.30 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "frontCameras": "7 MP",
+    "ram": "4 GB",
+    "battery": "2658 mAh",
+    "charging": "Not recorded",
+    "capacity": "64 / 256 / 512 GB",
+    "released": "Sep. 21, 2018 (USA)",
+    "phoneFeatures": [
+      "3D Touch", "iCloud for storage, but you have to pay for it separately", "Dual firing speakers"
+    ],
+    "cameraFeatures":[
+      "Coming soon"
+    ],
+    "pros":[
+      "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)", 
+      "Some of the loudest dual firing speakers"
+    ],
+    "cons":[
+      "Slowest fast charging time out of all 2018 flagships", 
+      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
+    ],
+    "approbations":["Rated best display on a phone in 2018 by DisplayMate"]
   }
 ]

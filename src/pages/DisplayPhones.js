@@ -7,7 +7,7 @@ class DisplayPhones extends React.Component {
     super(props);
     this.state ={
       // rows: ['pixel', 'samsung', 'apple', 'oneplus', 'huawei', 'budget', 'foldable']
-      rows: ['pixel', 'samsung s']
+      rows: ['Pixel', 'Samsung S', 'Apple']
     }
   }
 
@@ -43,7 +43,7 @@ class DisplayPhones extends React.Component {
           <section key={index}>
             {/* Labels row and puts photo next to each title */}
             <div id={this.getRowTitle(row)} className="row-header">
-              <h2>{row} phones</h2>
+              <h2>{row} Phones</h2>
               <img src={`assets/imgs/logos/${this.getRowTitle(row)}-logo.webp`} alt={`${this.getRowTitle(row)} logo`}/>
             </div>
             <Row data={this.determineData(this.getRowTitle(row))}/>

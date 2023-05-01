@@ -1,0 +1,78 @@
+@import "colors";
+
+.wide-phone-carousel {
+  border-bottom: 2px solid black;
+}
+
+.wide-phone-carousel .img-container,
+.wide-carousel {
+  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  -webkit-box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+
+  & .img {
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+  }
+}
+
+.wide-carousel {
+  width: 100%;
+  height: 440px;
+
+  & h3 {
+    font-size: 1.2rem;
+  }
+
+  & h5,
+  & h6 {
+    text-align: center;
+  }
+  
+  & h5 {
+    color: $theme-blue;
+    margin: 10px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+
+  & span {
+    font-weight: 500;
+    color: black;
+  }
+
+  & .phone-colors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 85%;
+  }
+
+  #colors-title {
+    margin-right: 7px;
+    font-weight: 600;
+  }
+  
+  & .color {
+    padding: 10px;
+    margin: 0 20px 10px 7px;
+  }
+
+  & .prices {
+    max-width: 260px;
+    text-align: center;
+    margin: auto auto;
+    font-weight: 400;
+    font-size: 13px;
+
+    & p {
+      color: $bootstrap-blue;
+    }
+  }
+}

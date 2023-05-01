@@ -19,7 +19,7 @@ class MyNavbar extends React.Component {
                 <NavDropdown.Item href="#">Google</NavDropdown.Item>
                 <NavDropdown.Item href="#">Huawei</NavDropdown.Item>
                 <NavDropdown.Item href="#">OnePlus</NavDropdown.Item>
-                <NavDropdown.Item href="#">Samsung</NavDropdown.Item>            
+                <NavDropdown.Item href="/samsung">Samsung</NavDropdown.Item>            
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
                   Something else

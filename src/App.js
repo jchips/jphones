@@ -3,6 +3,7 @@ import './styles/index.scss';
 import DisplayOptionsForm from "./components/DisplayOptionsForm";
 import pixelData from "./json/pixel-data.json";
 import samsungData from "./json/samsung-data.json";
+import iphoneData from "./json/iphone-data.json";
 import DisplayPhones from "./pages/DisplayPhones";
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       displayAllPhones: false,
-      data: [{name: 'pixel', rowData: pixelData}, {name: 'samsung', rowData: samsungData}]
+      data: [{name: 'Pixel', rowData: pixelData}, {name: 'Samsung', rowData: samsungData}, {name: 'Apple', rowData: iphoneData}]
     }
   }
 
@@ -26,7 +27,6 @@ class App extends React.Component {
     return(
       <>
         <DisplayOptionsForm display={this.display}/>
-        {/* {this.state.displayAllPhones ? <AllPhones data={this.state.data}/> : <CurrentPhones data={this.state.data}/>} */}
         <DisplayPhones data={this.state.data} displayAllPhones={this.state.displayAllPhones} />
       </>
     )

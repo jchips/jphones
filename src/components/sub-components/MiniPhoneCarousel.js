@@ -26,7 +26,7 @@ class MiniPhoneCarousel extends React.Component {
   render() {
     return(
       <>
-        <Carousel id={this.props.phone.id} interval={null} indicators={true} variant="dark">
+        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
           <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
@@ -155,13 +155,13 @@ class MiniPhoneCarousel extends React.Component {
               {this.props.phone.cameraPros && (
                 <section>
                   <span>Camera Pros:</span>
-                  {this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}
+                  <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                 </section>
               )}
               {this.props.phone.cameraCons && (
                 <section>
                   <span>Camera Cons:</span>
-                  {this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}
+                  <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                 </section>
               )}
             </Carousel.Item>

@@ -6,6 +6,7 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
+    "category": "s22",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"}, 
       {"color": "Phantom White", "tag": "phantom-white"},
@@ -13,7 +14,7 @@
       {"color": "Red", "tag": "samsung-red"},
       {"color": "Burgundy", "tag": "burgundy"},
       {"color": "Sky Blue", "tag": "sky-blue"},
-      {"color": "Graphite", "tag": "graphite"}
+      {"color": "Graphite", "tag": "samsung-graphite"}
     ],
     "prices":[
       {"storage": "128 GB (8 GB ram)", "price": "$1200"},
@@ -60,6 +61,7 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
+    "category": "s22",
     "colors": [
       {"color":"Phantom Black", "tag": "phantom-black"},
       {"color": "Phantom White", "tag": "phantom-white"},
@@ -112,6 +114,7 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
+    "category": "s22",
     "colors": [
       {"color":"Phantom Black", "tag": "phantom-black"},
       {"color": "Phantom White", "tag": "phantom-white"},
@@ -164,6 +167,7 @@
     "brand": "Samsung",
     "os": "Android 11",
     "year": 2021,
+    "category": "s21",
     "colors": [
       {"color": "Phantom Black", "tag":"phantom-black"},
       {"color": "Phantom Titanium", "tag": "phantom-titanium"},
@@ -227,6 +231,7 @@
     "brand": "Samsung",
     "os": "Android 11",
     "year": 2021,
+    "category": "s21",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Phantom Silver", "tag": "phantom-silver"},
@@ -279,6 +284,7 @@
     "brand": "Samsung",
     "os": "Android 11",
     "year": 2021,
+    "category": "s21",
     "colors": [
       {"color": "Phantom Gray", "tag": "phantom-gray"},
       {"color": "Phantom White", "tag": "phantom-white"},
@@ -330,6 +336,7 @@
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
+    "category": "s21",
     "colors": [
       {"color": "Olive", "tag": "olive"},
       {"color": "Graphite", "tag": "samsung-graphite"},
@@ -378,6 +385,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "s20",
     "colors": [
       {"color": "Cosmic Gray", "tag": "cosmic-gray"},
       {"color": "Cosmic Black", "tag": "cosmic-black"},
@@ -427,6 +435,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "s20",
     "colors": [
       {"color": "Cosmic Gray", "tag": "cosmic-gray"},
       {"color": "Cosmic Black", "tag": "cosmic-black"},
@@ -478,6 +487,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "s20",
     "colors": [
       {"color": "Cosmic Gray", "tag": "cosmic-gray"},
       {"color": "Cloud Blue", "tag": "cloud-blue"},
@@ -531,6 +541,7 @@
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
+    "category": "s20",
     "colors": [
       {"color": "Cloud Navy", "tag": "cloud-navy"},
       {"color": "Cloud Lavender", "tag": "cloud-lavender"},
@@ -575,6 +586,7 @@
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
+    "category": "s10",
     "colors": [
       {"color": "Prism Blue", "tag": "prism-blue"},
       {"color": "Prism Black", "tag": "prism-black"},
@@ -631,6 +643,7 @@
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
+    "category": "s10",
     "colors": [
       {"color": "Prism White", "tag": "prism-white"},
       {"color": "Prism Black", "tag": "prism-black"},
@@ -736,6 +749,7 @@
     "brand": "Samsung",
     "os": "Android O",
     "year": 2018,
+    "category": "s9",
     "colors": [
       {"color": "Midnight Black", "tag": "midnight-black"},
       {"color": "Coral Blue", "tag": "coral-blue"},
@@ -782,6 +796,7 @@
     "brand": "Samsung",
     "os": "Android O",
     "year": 2018,
+    "category": "s9",
     "colors": [
       {"color": "Midnight Black", "tag": "midnight-black"},
       {"color": "Coral Blue", "tag": "coral-blue"},
@@ -790,9 +805,9 @@
       {"color": "Titanium Grey [not available in USA]", "tag": "titanium-grey"}
     ],
     "prices":[
-      {"storage": "64 GB", "price": ""},
-      {"storage": "128 GB", "price": ""},
-      {"storage": "256 GB", "price": ""}
+      {"storage": "64 GB", "price": "$720"},
+      {"storage": "128 GB", "price": "$770"},
+      {"storage": "256 GB", "price": "$840"}
     ],
     "ui": "Samsung Experience 9.0",
     "display": "5.8 in; 1440x2960 px, Curved Super AMOLED",
@@ -804,7 +819,7 @@
     "battery": "3000 mAh",
     "charging": "Not recorded",
     "capacity": "64 / 128 / 256 GB + MicroSD up to 400 GB",
-    "released": "",
+    "released": "Mar. 16, 2018 (USA)",
     "phoneFeatures": [
       "Iris ID", "Headphone jack", "Fingerprint scanner", "LED & edge lighting"
     ],
