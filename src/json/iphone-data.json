@@ -25,7 +25,7 @@
     "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
     "size": "6.33 x 3.07 x 0.30 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP", "Telephoto": "12 MP"},
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4352 mAh",
@@ -76,7 +76,7 @@
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP", "Telephoto": "12 MP"},
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3095 mAh",
@@ -129,7 +129,7 @@
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3227 mAh",
@@ -182,7 +182,7 @@
     "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
     "size": "5.18 x 2.53 x 0.30 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2,406 mAh",
@@ -477,7 +477,6 @@
       "Wi-Fi 6", "Dual sim support", "IP67 water/dust resistant", "Dolby Atmos speakers",
       "Centered Apple logo", "Fingerprint ID", "Headphone jack", "latest Apple chipset (A13)",
       "Physical home button (w/ haptic touch"
-      
     ],
     "cameraFeatures":[
       "Extended dynamic range", "4K video @ 60fps on all cameras"
@@ -492,6 +491,113 @@
       "Big bezels", "No face ID", "No Animoji/Memoji built-in", "Back is a fingerprint magnet",
       "Lower water/dust resistant IP rating than other current iPhones (IP67 vs IP68)"
     ]
+  },
+  {
+    "name": "iPhone 11 Pro Max",
+    "id": "iphone-11-pro-max",
+    "img": "/assets/imgs/iphones/iphone-11-pro-max.png",
+    "brand": "Apple",
+    "os": "IOS 13.1",
+    "year": 2019,
+    "category": "11",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Space Grey", "tag": "space-grey"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Midnight Green", "tag": "midnight-green"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$1100"},
+      {"storage": "256 GB", "price": "$1250"},
+      {"storage": "512 GB", "price": "$1450"}
+    ],
+    "ui": "IOS 13.1",
+    "display": "6.5 in; 1242x2688 in; Super Retina XDR OLED",
+    "build": "Glass / Frosted, stainless steel frame",
+    "size": "6.22 x 3.06 x 0.32 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "4 GB",
+    "battery": "3969 mAh",
+    "charging": "5W, 18W fast",
+    "capacity": "64 / 256 / 512 GB",
+    "released": "Sep. 20, 2019 (USA)",
+    "phoneFeatures": [
+      "3D Face ID", "Centered Apple logo", "Dolby Atmos dual stereo speakers", "IP68 water/dust resistant",
+      "All gestures instead of buttons", "iCloud for storage, but you have to pay for it separately"
+    ],
+    "cameraFeatures":[
+      "Night mode", "Zoom in mic", "Extended dynamic range", "4K video @ 60fps on all cameras",
+      "Slofies -- slow motion selfies", "Wider field of view in selfie mode than most phones"
+    ],
+    "cameraCons":["Does not have night mode on ultrawide or front camera"],
+    "pros":[
+      "Comes with earpods ITB", "Best battery life on the market in 2019", "5 more hrs of battery than XS Max",
+      "18W fast charger comes ITB (finally)", "Lightning to USB Type C cable ITB",
+      "Attracts less fingerprints than other phones",
+      "iPhone 11s are most water resistant phones on the market in 2019",
+      "\"Toughest glass on any smartphone\" ~ Apple (but has no certification to prove it)",
+      "Faster Face ID than on previous versions", "Rated best display on a smartphone by DisplayMate (but is it?...)",
+      "Improved camera in dynamic range, detail, volume, wider field of view in selfie, night shots"
+    ],
+    "cons":[
+      "Large notch", "No 3D Touch",
+      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
+    ]
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "id": "iphone-11-pro",
+    "img": "/assets/imgs/iphones/iphone-11-pro.png",
+    "brand": "Apple",
+    "os": "IOS 13.1",
+    "year": 2019,
+    "category": "11",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Space Grey", "tag": "space-grey"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Midnight Green", "tag": "midnight-green"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1150"},
+      {"storage": "512 GB", "price": "$1350"}
+    ],
+    "ui": "IOS 13.1",
+    "display": "5.8 in; 1125x2436 px; Super Retina XDR OLED",
+    "build": "Glass / Frosted, stainless steel frame",
+    "size": "5.67 x 2.81 x 0.32 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "4 GB",
+    "battery": "3046 mAh",
+    "charging": "5W, 18W fast",
+    "capacity": "64 / 256 / 512 GB",
+    "released": "Sep. 20, 2019 (USA)",
+    "phoneFeatures": [
+      "Dolby Atmos speakers", "Improved IP68", "Centered Apple logo"
+    ],
+    "cameraFeatures":[
+      "Night mode", "Extended dynamic range", "Slofies -- Slow motion selfies",
+      "4K video @ 60fps on all cameras", "Wider field of view in selfie mode than most phones"
+    ],
+    "cameraPros":[
+      "Improved camera in dynamic range, detail, volume, wider field of view in selfie, night shots"
+    ],
+    "cameraCons": [
+      "Does not have night mode on ultrawide or front camera"
+    ],
+    "pros":[
+      "Very durable glass", "4 more hrs of battery than XS", "Fast charging comes ITB (finally)",
+      "Comes with lightning to USB Type C cable ITB", "iPhone 11s are most water resistant phones on the market in 2019",
+      "Attracts less fingerprints on back", "Faster Face ID than previous models"
+    ],
+    "cons":[
+      "Large notch", "No 3D Touch",
+      "Got rid of the dongle ITB (3.5mm to USB type C) so now you have to pay an extra $10"
+    ],
+    "approbations":["Rated best display on a smartphone ~ DisplayMate (but is it?...)"]
   },
   {
     "name": "iPhone 11",
@@ -554,7 +660,7 @@
     "os": "IOS 12",
     "year": 2018,
     "phoneType": "iPhone",
-    "category": "x",
+    "category": "XS",
     "colors": [
       {"color": "Silver", "tag": "silver"},
       {"color": "Space Grey", "tag": "space-grey"},
@@ -591,5 +697,168 @@
       "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
     ],
     "approbations":["Rated best display on a phone in 2018 by DisplayMate"]
+  },
+  {
+    "name": "iPhone XS",
+    "id": "iphone-xs",
+    "img": "/assets/imgs/iphones/iphone-xs.png",
+    "brand": "Apple",
+    "os": "IOS 12",
+    "year": 2018,
+    "category": "XS",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Space Grey", "tag": "space-grey"},
+      {"color": "Gold", "tag": "gold"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1150"},
+      {"storage": "512 GB", "price": "$1350"}
+    ],
+    "ui": "IOS 12",
+    "display": "5.8 in; 1125x2436 px, Super Retina HD",
+    "build": "Glass, stainless steel frame",
+    "size": "5.65 x 2.79 x 0.3 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
+    "frontCameras": "7 MP",
+    "ram": "4 GB",
+    "battery": "2658 mAh",
+    "charging": "5W",
+    "capacity": "64 / 256 / 512 GB",
+    "released": "Sep. 21, 2018 (USA)",
+    "phoneFeatures": [
+      "3D Face ID", "3D Touch", "IP68 water/dust resistant", "All gestures instead of buttons"
+    ],
+    "cameraFeatures":[
+      "Portrait mode",
+      "iCloud for storage, but you have to pay for it separately"
+    ],
+    "cameraPros":[
+      "Camera known for having really good dynamic range",
+      "XS and XS Max take the best videos"
+    ],
+    "pros":[
+      "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)",
+      "Some of the loudest dual firing speakers"
+    ],
+    "cons":[
+      "Notch", "Slowest fast charging time out of all 2018 flagships",
+      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10",
+      "Fast charging doesn't come ITB, you have to pay an extra $50",
+      "Camera is very bad in low light"
+    ],
+    "approbations":[
+      "\"Best compact phone of 2018\" ~ Marques Brownlee",
+      "Rated best display on a phone in 2018 by DisplayMate (but was it?...)"
+    ]
+  },
+  {
+    "name": "iPhone XR",
+    "id": "iphone-xr",
+    "img": "/assets/imgs/iphones/iphone-xr.png",
+    "brand": "Apple",
+    "os": "IOS 12",
+    "year": 2018,
+    "category": "XS",
+    "colors": [
+      {"color": "Black", "tag": "apple-black"},
+      {"color": "White", "tag": "apple-white"},
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Yellow", "tag": "apple-yellow"},
+      {"color": "Coral", "tag": "coral"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$750"},
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$900"}
+    ],
+    "ui": "IOS 12",
+    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD screen",
+    "build": "Glass, aluminum frame",
+    "size": "5.94 x 2.98 x 0.33 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "frontCameras": "7 MP",
+    "ram": "3 GB",
+    "battery": "2942 mAh",
+    "charging": "Not recorded",
+    "capacity": "64 / 128 / 256 GB",
+    "released": "Oct. 26, 2018 (USA)",
+    "phoneFeatures": [
+      "3D Face unlock",
+      "Animoji and Memoji",
+      "IP67 water/dust resistant"
+    ],
+    "cameraFeatures":[
+      "Coming soon"
+    ],
+    "cameraCons":[
+      "Doesn't have dual cameras like the XS'"
+    ],
+    "pros":[
+      "Largest iPhone battery life in 2018"
+    ],
+    "cons":[
+      "Large notch",
+      "Lots of bezels",
+      "LED screen as opposed to AMOLED like the XS'",
+      "Doesn't have 3D Touch like the XS'",
+      "Doesn't have the durable glass back that the XS' have",
+      "Slowest fast charging time out of all 2018 flagships",
+      "Phone has a lot of bugs ~ Jon Rettinger"
+    ],
+    "approbations":[
+      "Best single camera'd phone of 2018",
+      "\"Won 2nd best phone battery life of 2018\" ~ MKBHD (after Huawei Mate 20 Pro)"
+    ]
+  },
+  {
+    "name": "iPhone X",
+    "id": "iphone-x",
+    "img": "/assets/imgs/iphones/iphone-x.png",
+    "brand": "Apple",
+    "os": "IOS 11",
+    "year": 2017,
+    "category": "X",
+    "colors": [
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Space Grey", "tag": "space-grey"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1150"}
+    ],
+    "ui": "IOS 11",
+    "display": "5.8 in; 1125x2436 px, Super AMOLED",
+    "build": "Glass, stainless steel frame",
+    "size": "5.65 x 2.79 x 0.3 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
+    "frontCameras": "7 MP",
+    "ram": "3 GB",
+    "battery": "2716 mAh",
+    "charging": "5W",
+    "capacity": "64 / 256 GB",
+    "released": "Nov. 3, 2017 (USA)",
+    "phoneFeatures": [
+      "3D Face unlock", "3D Touch", "World clock", "Animoji and Memoji", "IP67 water/dust resistant",
+      "All gestures instead of buttons"
+    ],
+    "cameraFeatures":[
+      "Smart HDR", "Portrait mode"
+    ],
+    "cameraCons":[
+      "Camera is very bad in low light"
+    ],
+    "pros":[
+      "Coming soon"
+    ],
+    "cons":[
+      "Notch", "Face ID is slower than touch ID", "No reachabilty like previous models",
+      "Fast charging doesn't come ITB, you have to pay an extra $50"
+    ],
+    "approbations": [
+      "Rated best display on a phone in 2017 by DisplayMate (but was it?...)"
+    ]
   }
 ]
