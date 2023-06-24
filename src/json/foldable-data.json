@@ -6,15 +6,22 @@
     "img": "phones-img/z-fold-3.png",
     "brand": "Samsung",
     "os": "Android 11",
-    "colors": ["Phantom Black", "Phantom Silver", "Phantom Green"],
-    "prices": [""],
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"}, 
+      {"color": "Phantom Silver", "tag": "phantom-silver"}, 
+      {"color": "Phantom Green", "tag": "phantom-green"}
+    ],
+    "prices": [
+      {"storage": "256 GB", "price": "Not recorded"},
+      {"storage": "512 GB", "price": "Not recorded"}
+    ],
     "ui": "One UI 3.1?",
     "openDisplay": "7.6 in; 1768x2208 px, Dynamic AMOLED 2X",
     "closedDisplay": "6.2 in; 832x2268 px, Dynamic AMOLED 2X",
     "build": "Gorilla Glass Victus (matte), Armor Aluminum frame",
     "openSize": "6.23 x 5.04 x 0.25 in",
     "closedSize": "6.23 x 2.64 x 0.57-0.63 in",
-    "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 12MP",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "Main: 10MP, RGB Depth: 4MP",
     "ram": "12 GB",
     "battery": "4400 mAh",

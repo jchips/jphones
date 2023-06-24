@@ -5,7 +5,7 @@ import "../styles/Brands.scss";
 
 class Apple extends React.Component {
   render() {
-    let versions = ['13', '12', '11', 'X'];
+    let versions = ['13', '12', '11', 'XS', 'X'];
     return(
       <div className="apple">
         {versions.map((version, index) => 
