@@ -111,18 +111,21 @@
       {"color": "Aura Blue", "tag": "aura-blue"},
       {"color": "Aura Glow", "tag": "aura-glow"}
     ],
-    "prices": ["256 GB: $1100", "512 GB: $1200"],
+    "prices": [
+      {"storage": "256 GB", "price": "$1100"},
+      {"storage": "512 GB", "price": "$1200"}
+    ],
     "ui": "One UI 1.5",
     "display": "6.8 in; 1440x3040 px, Curved Dynamic QHD+ AMOLED",
     "build": "Gorilla Glass 6, Metal frame",
     "size": "6.39 x 3.04 x 0.31 in",
-    "rearCameras": "Primary: 12MP, Ultrawide: 12MP, Telephoto: 16MP",
-    "frontCameras": "10MP",
+    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP", "Telephoto": "16 MP"},
+    "frontCameras": "10 MP",
     "ram": "12 GB",
     "battery": "4300 mAh",
     "charging": "25W fast, 45W super fast",
     "capacity": "256 / 512 GB + MicroSD up to 1 TB",
-    "released": "Aug. 23, 2019 (US)",
+    "released": "Aug. 23, 2019 (USA)",
     "phoneFeatures": [
       "5G variant", "S pen w/ air actions", "Gestures option", "HDR10+", "UFS 3.0 storage", "Wireless PowerShare [15W]",
       "Ultrasonic in-display fingerprint ID", "45W super fast charging", "Auto filters out high energy blue light"

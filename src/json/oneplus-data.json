@@ -43,7 +43,7 @@
       "Shutter lag"
     ],
     "pros":[
-      "Comes with Warp Change 65 charger ITB", "IP68 rating unlike predeccessors", "Wireless charging unlike past model",
+      "Comes with Warp Charge 65 charger ITB", "IP68 rating unlike predeccessors", "Wireless charging unlike past model",
       "Great haptics ~ MKBHD"
     ],
     "cons":[
@@ -152,6 +152,7 @@
     "brand": "OnePlus",
     "os": "Android 10",
     "year": 2020,
+    "category": "8",
     "colors": [
       {"color": "Glacial Green", "tag": "glacial-green"},
       {"color": "Interstellar Glow", "tag": "interstellar-glow"},
@@ -180,7 +181,7 @@
       "None recorded"
     ],
     "cameraPros":[
-      "\"I think OnePlus' daytime photos look crispier than the iPhone 11's\" ~ Mrwhosetheboss (Apr. 2020)"
+      "\"I think OnePlus' daytime photos look crispier than the iPhone 11's\" ~ Mrwhosetheboss, Apr. 2020"
     ],
     "cameraCons":[
       "Macro camera is not very good", "Same camera hardware as last yr's OnePlus 7T"
@@ -194,7 +195,7 @@
       "None recorded"
     ], 
     "approbations": [
-      "\"The most comfortable phone I've ever held\" ~ Mrwhosetheboss (Apr. 2020)"
+      "\"The most comfortable phone I've ever held\" ~ Mrwhosetheboss, Apr. 2020"
     ]
   },
   {
@@ -231,7 +232,7 @@
       "Full-screen display", "Pop-up front camera"
     ],
     "cameraFeatures":[
-      "OIS", "3x zoom", "4K video @ 60 fps", "Nightscape works on ultrawide"
+      "Hybrid stabilization (uses OIS and electronic stabilization)", "3x zoom", "4K video @ 60 fps", "Nightscape works on ultrawide", "Quieter pop-up camera then OnePlus 7 Pro"
     ],
     "cameraPros":[
       "Cleaner and more true to light photos than 7 Pro"
@@ -247,7 +248,7 @@
       "None recorded"
     ],
     "approbations":[
-      "\"Fastest feeling smartphone I've ever used\" ~ MrWhoseTheBoss"
+      "\"Fastest feeling smartphone I've ever used\" ~ MrWhoseTheBoss, Oct. 2019"
     ]
   },
   {
@@ -304,7 +305,7 @@
     "colors": [
       {"color": "Almond", "tag": "almond"},
       {"color": "Nebula Blue", "tag": "nebula-blue"},
-      {"color": "Mirror Gray", "tag": "mirror-gray"}
+      {"color": "Mirror Grey", "tag": "mirror-grey"}
     ],
     "prices":[
       {"storage": "128 GB (6 GB ram)", "price": "$670"},
@@ -422,7 +423,7 @@
     "battery": "3300 mAh",
     "charging": "Not recorded",
     "capacity": "64 / 128 / 256 GB",
-    "released": "",
+    "released": "May 21, 2018 (USA)",
     "phoneFeatures": [
       "Headphone jack", "LED notifications"
     ],

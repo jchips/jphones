@@ -81,22 +81,29 @@
     }
   }
 
-  .phone-specs-slide,
-  .features-slide,
-  .cameras-slide,
-  .camera-features {
+  .slide {
     padding: 0 64px;
   }
 
-  & .phone-specs-slide {
+  .phone-specs-slide {
     text-align: center;
+    padding: 0 84px;
   }
 
-  & .phone-specs-slide p {
+  .phone-specs-slide p {
     color: $bootstrap-blue;
+    margin: 0;
   }
 
   .cameras-slide {
+    text-align: center;
+  }
+
+  .pros-and-cons-bubble {
+    padding: 10px 20px;
+  }
+
+  .pros-and-cons-bubble h4 {
     text-align: center;
   }
 }

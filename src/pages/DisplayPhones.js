@@ -5,7 +5,7 @@ import "../styles/DisplayPhones.scss";
 class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
-    this.state ={
+    this.state = {
       // rows: ['pixel', 'samsung', 'apple', 'oneplus', 'huawei', 'budget', 'foldable']
       rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus']
     }
