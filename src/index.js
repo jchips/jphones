@@ -12,6 +12,7 @@ import MyNavbar from "./components/MyNavbar";
 import About from './pages/About';
 import Apple from "./pages/Apple";
 import Samsung from "./pages/Samsung";
+import OnePlus from './pages/OnePlus';
 
 const Routing = () => {
   return (
@@ -20,10 +21,11 @@ const Routing = () => {
       <MyNavbar/>
       {/* <div className="container"> */}
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path='/' element={<App />} />
           <Route path='/about' element={<About/>} />
-          <Route path="/apple" element={<Apple />} />
-          <Route path="/samsung" element={<Samsung/>} />
+          <Route path='/apple' element={<Apple />} />
+          <Route path='/oneplus' element={<OnePlus/>}/>
+          <Route path='/samsung' element={<Samsung/>} />
         </Routes>
       {/* </div> */}
     </BrowserRouter>

@@ -1,15 +1,22 @@
 # Jphones
 
 Jphones phone specs. Site to compare phones and pick the best one for purchase.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Author: Jaye Rose
 
+## Changelog
+
+- 06-25-2023 (0.1.0) - Added OnePlus phones and brand carousels
+
 ## Links & Resources
 
-* [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
+- [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
 
-* [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
+- [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
+
+- [Lazy loading images](https://www.npmjs.com/package/react-lazy-load-image-component)
 
 ## Available Scripts
 
