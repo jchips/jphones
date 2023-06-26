@@ -12,7 +12,7 @@ class Apple extends React.Component {
         <h2>iPhones</h2>
         <Container>
           <Carousel className='brand-carousel' interval={null} variant='dark'>
-            <Carousel.Item className="brand-img">
+            <Carousel.Item className="brand-img text-center">
               <img src="./assets/imgs/iphones.png" alt="iPhones" />
             </Carousel.Item>
             <Carousel.Item className="features-slide">

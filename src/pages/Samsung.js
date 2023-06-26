@@ -18,7 +18,7 @@ class Samsung extends Component {
             </Col> */}
             {/* <Col > */}
               <Carousel className='brand-carousel' interval={null} variant='dark'>
-                <Carousel.Item className='brand-img'>
+                <Carousel.Item className='brand-img text-center'>
                   <img src='/assets/imgs/samsungs.png' alt='Samsung phones' />
                 </Carousel.Item>
                 <Carousel.Item className='slide features-slide'>

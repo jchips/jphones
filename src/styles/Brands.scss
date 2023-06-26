@@ -1,11 +1,14 @@
 @import 'colors';
 
-.brand-img img {
-  height: 400px;
-  width: 400px;
-  object-fit: fill;
-  margin: auto 25%;
+.brand-img {
+  img {
+    height: 400px;
+    width: 400px;
+    object-fit: fill;
+    // margin: auto 25%;
+  }
 }
+
 
 .brand-carousel {
   padding: 0 95px;
