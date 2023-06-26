@@ -12,7 +12,7 @@ class OnePlus extends Component {
         <h2>OnePlus Phones</h2>
         <Container>
           <Carousel className='brand-carousel' interval={null} variant='dark'>
-            <Carousel.Item className='brand-img'>
+            <Carousel.Item className='brand-img text-center'>
               <img src='./assets/imgs/oneplus.png' alt='OnePlus phones' />
             </Carousel.Item>
             <Carousel.Item>
