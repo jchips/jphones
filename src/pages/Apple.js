@@ -6,7 +6,7 @@ import { Carousel, Container, ListGroup } from "react-bootstrap";
 
 class Apple extends React.Component {
   render() {
-    let versions = ['13', '12', '11', 'XS', 'X'];
+    let versions = ['13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <div className="apple">
         <h2>iPhones</h2>
@@ -28,9 +28,9 @@ class Apple extends React.Component {
                   <ListGroup.Item>Wireless charging & fast charging</ListGroup.Item>
                   <ListGroup.Item>iMessage & FaceTime</ListGroup.Item>
                   <ListGroup.Item>Silent & ring physical switch</ListGroup.Item>
-                  <ListGroup.Item>Animoji/Memoji <i>[exceptions: SE (2020), 8 Plus and older]</i></ListGroup.Item>
-                  <ListGroup.Item>3D Face ID <i>[exceptions: SE (2020), 8 Plus and older]</i></ListGroup.Item>
-                  <ListGroup.Item>IP68 water/dust resistant <i>[exceptions: SE (2020), XR, 8 Plus and older]</i></ListGroup.Item>
+                  <ListGroup.Item>Animoji/Memoji <i>[exceptions: SE (2022 & 2020), 8 Plus and older]</i></ListGroup.Item>
+                  <ListGroup.Item>3D Face ID <i>[exceptions: SE (2022 & 2020), 8 Plus and older]</i></ListGroup.Item>
+                  <ListGroup.Item>IP68 water/dust resistant <i>[exceptions: SE (2022 & 2020), XR, 8 Plus and older]</i></ListGroup.Item>
                 </ListGroup>
               </div>
             </Carousel.Item>
@@ -38,8 +38,8 @@ class Apple extends React.Component {
               <h3>Camera Features</h3>
               <ListGroup variant="flush">
                 <ListGroup.Item>4K video @ 60fps on all cameras</ListGroup.Item>
-                <ListGroup.Item>Night mode <i>[exceptions: SE (2020), XR, 8 Plus and older]</i></ListGroup.Item>
-                <ListGroup.Item>Ultrawide camera <i>[exceptions: SE (2020), XR, 8 Plus and older]</i></ListGroup.Item>
+                <ListGroup.Item>Night mode <i>[exceptions: SE (2022 & 2020), XR, 8 Plus and older]</i></ListGroup.Item>
+                <ListGroup.Item>Ultrawide camera <i>[exceptions: SE (2022 & 2020), XR, 8 Plus and older]</i></ListGroup.Item>
               </ListGroup>
               <br />
               <h3>Camera Pros</h3>
@@ -73,7 +73,7 @@ class Apple extends React.Component {
                       <li>Two-step face unlock</li>
                       <li>Face ID doesn't work when phone is flat on table?</li>
                       <li>Doesn't use common charger (Lightning port instead of USB Type C)</li>
-                      <li>Large notch <i>[exceptions: SE (2020), 8 Plus and older]</i></li>
+                      <li>Large notch <i>[exceptions: SE (2022 & 2020), 8 Plus and older]</i></li>
                       <li>Transferring files between computer and phone is complicated because of Apple being proprietary</li>
                       <li>Google Assistant and Google Maps are better than Siri and Apple Maps</li>
                       <li>Slowest charging in the industry</li>

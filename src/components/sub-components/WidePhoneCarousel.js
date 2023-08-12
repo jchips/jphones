@@ -40,12 +40,12 @@ class WidePhoneCarousel extends Component {
               <h2>{this.props.phone.name}</h2>
               <ListGroup variant='flush'>
                 <ListGroup.Item><p><span>UI: </span>{this.props.phone.ui}</p></ListGroup.Item>
-                <ListGroup.Item>{!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}</ListGroup.Item>
-                {this.props.phone.foldable && (<ListGroup.Item><p><span>Open size: </span>{this.props.phone.openSize}</p></ListGroup.Item>)}
-                {this.props.phone.foldable && (<ListGroup.Item><p><span>Closed size: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
-                <ListGroup.Item>{!this.props.phone.foldable && (<p><span>Display: </span>{this.props.phone.display}</p>)}</ListGroup.Item>
-                {this.props.phone.foldable && (<ListGroup.Item><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
-                {this.props.phone.foldable && (<ListGroup.Item><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
+                {!this.props.phone.foldable && (<ListGroup.Item><p><span>Size: </span>{this.props.phone.size}</p></ListGroup.Item>)}
+                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Size: </span><span className="foldable">Unfolded: </span>{this.props.phone.openSize}<span className="foldable">, Folded: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
+                {/* {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed size: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)} */}
+                {!this.props.phone.foldable && (<ListGroup.Item><p><span>Display: </span>{this.props.phone.display}</p></ListGroup.Item>)}
+                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
+                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
                 <ListGroup.Item><p><span>Build: </span>{this.props.phone.build}</p></ListGroup.Item>
                 <ListGroup.Item>
                   <p><span>Battery: </span>{this.props.phone.battery}</p>

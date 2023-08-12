@@ -12,8 +12,8 @@
       {"color": "Morning Mist", "tag": "morning-mist"}
     ],
     "prices":[
-      {"storage": "128 (8 GB ram)", "price": "$970"},
-      {"storage": "256 (12 GB ram)", "price": "$1070"}
+      {"storage": "128 GB (8 GB ram)", "price": "$970"},
+      {"storage": "256 GB (12 GB ram)", "price": "$1070"}
     ],
     "ui": "OxygenOS 11",
     "display": "6.7 in; 1440x3216 px, Fluid AMOLED QHD+",

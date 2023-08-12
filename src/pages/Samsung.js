@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Carousel, ListGroup } from 'react-bootstrap';
 import samsungData from "../json/samsung-data.json";
 import noteData from "../json/note-data.json";
+import foldableData from "../json/foldable-data.json";
 import VariantsAccordion from "../components/VariantsAccordion";
 import "../styles/Brands.scss";
 
@@ -34,9 +35,9 @@ class Samsung extends Component {
                       <ListGroup.Item>Samsung Themes & Goodlock</ListGroup.Item>
                       <ListGroup.Item>Samsung DeX</ListGroup.Item>
                       <ListGroup.Item>WiFi 6 support <i>[exceptions: Note 9 and older]</i></ListGroup.Item>
-                      <ListGroup.Item>Ultrasonic in-display fingerprint scanner & Face ID <i>[Note 9 & older have physical fingerprint ID]</i></ListGroup.Item>
+                      <ListGroup.Item>Ultrasonic in-display fingerprint scanner & Face ID <i>[exceptions: Note 9 & older have physical fingerprint ID]</i></ListGroup.Item>
                       <ListGroup.Item>Wireless Powershare <i>[exceptions: Note 10 Lite, Note 9 and older]</i></ListGroup.Item>
-                      <ListGroup.Item>Dolby Atmos duel stereo speakers <i>[exception: Note 10 Lite]</i></ListGroup.Item>
+                      <ListGroup.Item>Dolby Atmos dual stereo speakers <i>[exception: Note 10 Lite]</i></ListGroup.Item>
                       <ListGroup.Item>Expandable microSD storage up to at least 512 GB <i>[exceptions: A80 and every phone after S21s]</i></ListGroup.Item>
                       <ListGroup.Item>Multitasking / one-handed mode / pop-up view / secure folder / clipboard</ListGroup.Item>
                       <ListGroup.Item>Ultra-Power Saving Mode / Quick Camera Launch / AOD / Quick Share</ListGroup.Item>
@@ -85,7 +86,8 @@ class Samsung extends Component {
         {sPhones.map((version, index) =>
           <VariantsAccordion data={samsungData} category={version} key={index} />
         )}
-        <VariantsAccordion data={noteData} category="note"></VariantsAccordion>
+        <VariantsAccordion data={foldableData} category="foldable" />
+        <VariantsAccordion data={noteData} category="note" />
       </div>
     );
   }
