@@ -60,7 +60,7 @@ class WidePhoneCarousel extends Component {
             <Carousel.Item className='slide features-slide'>
               <h2>{this.props.phone.name}</h2>
               <h3>Features</h3>
-              <hr />
+              {/* <hr /> */}
               <div className="phones-features scrollable">
                 <ul>
                   {this.props.phone.phoneFeatures.map((feature, index) =>
@@ -68,7 +68,7 @@ class WidePhoneCarousel extends Component {
                   )}
                 </ul>
               </div>
-              <hr />
+              {/* <hr /> */}
             </Carousel.Item>
 
             <Carousel.Item className='slide cameras-slide'>
@@ -99,11 +99,11 @@ class WidePhoneCarousel extends Component {
             <Carousel.Item className="slide camera-features">
               <h2>{this.props.phone.name}</h2>
               <h3>Cameras - Features</h3>
-              <hr/>
+              {/* <hr/> */}
               <section className="scrollable">
                 <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
               </section>
-              <hr/>
+              {/* <hr/> */}
             </Carousel.Item>
 
             {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (

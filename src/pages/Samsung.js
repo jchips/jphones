@@ -86,7 +86,7 @@ class Samsung extends Component {
         {sPhones.map((version, index) =>
           <VariantsAccordion data={samsungData} category={version} key={index} />
         )}
-        <VariantsAccordion data={foldableData} category="foldable" />
+        <VariantsAccordion data={foldableData} category="z fold" />
         <VariantsAccordion data={noteData} category="note" />
       </div>
     );

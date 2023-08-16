@@ -5,6 +5,7 @@ import pixelData from "./json/pixel-data.json";
 import samsungData from "./json/samsung-data.json";
 import iphoneData from "./json/iphone-data.json";
 import oneplusData from "./json/oneplus-data.json";
+import foldableData from "./json/foldable-data.json";
 import DisplayPhones from "./pages/DisplayPhones";
 
 class App extends React.Component {
@@ -12,8 +13,13 @@ class App extends React.Component {
     super(props);
     this.state = {
       displayAllPhones: false,
-      data: [{name: 'Pixel', rowData: pixelData}, {name: 'Samsung', rowData: samsungData}, {name: 'Apple', rowData: iphoneData},
-      {name: 'OnePlus', rowData: oneplusData}]
+      data: [
+        {name: 'Pixel', rowData: pixelData},
+        {name: 'Samsung', rowData: samsungData},
+        {name: 'Apple', rowData: iphoneData},
+        {name: 'OnePlus', rowData: oneplusData},
+        {name: 'Foldable', rowData: foldableData}
+      ]
     }
   }
 

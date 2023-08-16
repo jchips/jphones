@@ -88,6 +88,10 @@ h4 {
   margin-top: 5px;
 }
 
+// .foldable {
+//   font-weight: 400;
+// }
+
 .display,
 .colors,
 .cameras,
@@ -132,6 +136,12 @@ h4 {
   }
 }
 
+.phone-specs-slide {
+  .scrollable {
+    max-height: 322px;
+  }
+}
+
 .features-slide,
 .camera-features {
   padding: 0 5px;
@@ -145,6 +155,11 @@ h4 {
     padding: 0 25px;
     max-height: 280px;
     margin-bottom: 10px;
+  }
+
+  li {
+    padding: 4px;
+    list-style-type: none;
   }
 }
 

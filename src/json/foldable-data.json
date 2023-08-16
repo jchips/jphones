@@ -3,11 +3,11 @@
     "name": "Galaxy Z Fold 5",
     "id": "galaxy-z-fold-5",
     "foldable": true,
-    "img": "/assets/imgs/samsung/galaxy-z-fold-5.png",
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-5.png",
     "brand": "Samsung",
     "os": "Android 13",
     "year": 2023,
-    "category": "foldable",
+    "category": "z fold",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Gray", "tag": "samsung-gray"},
@@ -36,7 +36,7 @@
     "phoneFeatures": [
       "Face ID",
       "Always On Display",
-      "Fingerprint scanner",
+      "Ultrasonic in-display fingerprint scanner",
       "120 Hz refresh rate",
       "IPX8 water resistant",
       "Foldable tablet/phone",
@@ -77,14 +77,74 @@
     ]
   },
   {
+    "name": "Pixel Fold",
+    "id": "pixel-fold",
+    "foldable": true,
+    "img": "/assets/imgs/pixels/pixel-fold.png",
+    "brand": "Google",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "fold",
+    "colors": [
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Porcelain", "tag": "porcelain"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1800"},
+      {"storage": "512 GB", "price": "$1920"}
+    ],
+    "ui": "Stock Android 13",
+    "openDisplay": "7.6 in; 1840x2208 px, FHD+ OLED",
+	  "closedDisplay": "5.8 in; 1080x2092 px, FHD+ OLED",
+    "build": "Gorilla Glass Victus / plastic front (unfolded), aluminum frame, stainless steel hinge (glossy)",
+    "openSize": "6.2 x 5.5 x 0.2 in",
+	  "closedSize": "5.5 x 3.1 x 0.5 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "10.8 MP", "telephoto": "10.8 MP"},
+    "frontCameras": "9.5 MP (folded), 8 MP (unfolded)",
+    "ram": "12 GB",
+    "battery": "4821 mAh",
+    "charging": "30W, wireless",
+    "capacity": "256 / 512 GB",
+    "released": "June 27, 2023 (USA)",
+    "phoneFeatures": [
+      "Face ID",
+      "Always On Display",
+      "120 Hz refresh rate",
+      "Optical in-display fingerprint scanner",
+      "HDR support",
+      "IPX8 water resistant",
+      "Stereo speakers",
+      "Multitasking option",
+      "VPN by Google One"
+    ],
+    "cameraFeatures":[
+      "Photo Unblur",
+      "Night Sight",
+      "Magic Eraser",
+      "4K video @ up to 60 fps",
+      "Can take selfies photos with rear camera"
+    ],
+    "pros":[
+      "\"Can be folded at least 200,000 times\"",
+      "Comes with pre-installed screen protector"
+    ],
+    "cons":[
+      "No stylus",
+      "Large bezels",
+      "Not dust resistant",
+      "Isn't completely flat when unfolded",
+      "Puts all apps in landscape mode automatically when you use tablet mode, and a lot of Android apps aren’t optimized for landscape viewing, so it won’t be fullscreen"
+    ]
+  },
+  {
     "name": "Galaxy Z Fold 4",
     "id": "galaxy-z-fold-4",
     "foldable": true,
-    "img": "/assets/imgs/samsung/galaxy-z-fold-4.png",
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-4.png",
     "brand": "Samsung",
     "os": "Android 12",
     "year": 2022,
-    "category": "foldable",
+    "category": "z fold",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Graygreen", "tag": "graygreen"},
@@ -156,9 +216,11 @@
     "name": "Galaxy Z Fold 3",
     "id": "z-fold-3",
     "foldable": true,
-    "img": "phones-img/z-fold-3.png",
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-3.png",
     "brand": "Samsung",
     "os": "Android 11",
+    "year": 2021,
+    "category": "z fold",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"}, 
       {"color": "Phantom Silver", "tag": "phantom-silver"}, 
@@ -180,7 +242,7 @@
     "battery": "4400 mAh",
     "charging": "25W, 10W wireless, 4.5W PowerShare",
     "capacity": "256 / 512 GB",
-    "released": "",
+    "released": "Aug. 27, 2021 (USA)",
     "phoneFeatures": [
       "S-pen support", "120 Hz refresh rate", ""
     ],
@@ -191,7 +253,7 @@
       "Can take selfies photos with rear camera"
     ],
     "pros":[
-      
+      "None recorded"
     ],
     "cons":[
       "S-pen doesn’t work on the outer display"

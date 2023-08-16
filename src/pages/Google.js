@@ -5,7 +5,7 @@ import { Container, Carousel, ListGroup } from 'react-bootstrap';
 
 class Google extends Component {
   render() {
-    let versions = [7, 6, 5, 4, 3];
+    let versions = ['7', '6', '5', '4', '3'];
     return (
       <div className='google'>
         <h2>Pixels</h2>

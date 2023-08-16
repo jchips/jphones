@@ -7,7 +7,7 @@ class DisplayPhones extends React.Component {
     super(props);
     this.state = {
       // rows: ['pixel', 'samsung', 'apple', 'oneplus', 'huawei', 'budget', 'foldable']
-      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus']
+      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable']
     }
   }
 
