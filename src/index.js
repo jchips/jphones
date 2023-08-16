@@ -13,6 +13,7 @@ import About from './pages/About';
 import Apple from "./pages/Apple";
 import Samsung from "./pages/Samsung";
 import OnePlus from './pages/OnePlus';
+import Google from './pages/Google';
 
 const Routing = () => {
   return (
@@ -24,6 +25,7 @@ const Routing = () => {
           <Route path='/' element={<App />} />
           <Route path='/about' element={<About/>} />
           <Route path='/apple' element={<Apple />} />
+          <Route path='/google' element={<Google />}/>
           <Route path='/oneplus' element={<OnePlus/>}/>
           <Route path='/samsung' element={<Samsung/>} />
         </Routes>

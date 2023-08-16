@@ -48,15 +48,17 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="phone-specs-slide">
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
-            {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
-            {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
-            {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
-            <p><span>Build: </span>{this.props.phone.build}</p><hr/>
-            <p><span>Battery: </span>{this.props.phone.battery}</p>
-            <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
-            <p><span>Ram: </span>{this.props.phone.ram}</p><hr/>
-            <p><span>Capacity: </span>{this.props.phone.capacity}</p>
+            <div class="scrollable">
+              <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
+              {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
+              {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
+              {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
+              <p><span>Build: </span>{this.props.phone.build}</p><hr/>
+              <p><span>Battery: </span>{this.props.phone.battery}</p>
+              <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
+              <p><span>Ram: </span>{this.props.phone.ram}</p><hr/>
+              <p><span>Capacity: </span>{this.props.phone.capacity}</p>
+            </div>
           </Carousel.Item>
 
           {/* Colors & Display */}

@@ -1,5 +1,70 @@
 [
   {
+    "name": "iPhone SE (2022)",
+    "id": "iphone-se-2022",
+    "img": "/assets/imgs/iphones/iphone-se-2022.png",
+    "brand": "Apple",
+    "os": "IOS 15",
+    "year": 2022,
+    "category": "SE",
+    "colors": [
+      {"color": "Midnight", "tag": "midnight"},
+      {"color": "Starlight", "tag": "starlight"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "64 GB", "price": "$430"},
+      {"storage": "128 GB", "price": "$480"},
+      {"storage": "256 GB", "price": "$580"}
+    ],
+    "ui": "IOS 15",
+    "display": "4.7 in; 750x1334 px, Retina HD",
+    "build": "Glass, aluminum frame",
+    "size": "5.45 x 2.65 x 0.29 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "frontCameras": "7 MP",
+    "ram": "4 GB",
+    "battery": "2018 mAh",
+    "charging": "20W",
+    "capacity": "64 / 128 / 256 GB",
+    "released": "Mar. 18, 2022 (USA)",
+    "phoneFeatures": [
+      "5G",
+      "IP67 water/dust resistant",
+      "Fingerprint scanner",
+      "Uses Apple’s latest processor"
+    ],
+    "cameraFeatures":[
+      "OIS",
+      "4K video @ up to 60 fps",
+      "Smart HDR 4 for photos",
+      "Deep Fusion",
+      "Photographic Styles"
+    ],
+    "cameraPros":[
+      "Improved battery life from iPhone SE (2020)",
+      "Low light video is less noisy than iPhone SE (2020)"
+    ],
+    "cameraCons":[
+      "No ultrawide camera",
+      "No telephoto camera",
+      "No Night mode (unlike current iPhone flagships)",
+      "4K video @ up to 60 fps",
+      "No ProRaw (unlike current iPhone flagships)",
+      "No Cinematic video mode (unlike current iPhone flagships)",
+      "No ProRes video (unlike current iPhone flagships)"
+    ],
+    "pros":[
+      "Cheapest iPhone on the market in 2022"
+    ],
+    "cons":[
+      "No Face ID (unlike iPhone flagships)",
+      "Low base storage option",
+      "No charger ITB",
+      "Not compatible with MagSafe wireless charging"
+    ]
+  },
+  {
     "name": "iPhone 13 Pro Max",
     "id": "iphone-13-pro-max",
     "img": "/assets/imgs/iphones/iphone-13-pro-max.png",

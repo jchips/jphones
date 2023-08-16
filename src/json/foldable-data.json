@@ -1,11 +1,226 @@
 [
   {
+    "name": "Galaxy Z Fold 5",
+    "id": "galaxy-z-fold-5",
+    "foldable": true,
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-5.png",
+    "brand": "Samsung",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "z fold",
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Gray", "tag": "samsung-gray"},
+      {"color": "Blue", "tag": "samsung-blue"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Icy Blue", "tag": "icy-blue"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1800"},
+      {"storage": "512 GB", "price": "$1920"},
+      {"storage": "1 TB", "price": "$2160"}
+    ],
+    "ui": "One UI 5.1.1",
+    "openDisplay": "7.6 in; 1812x2176 px, Dynamic AMOLED 2X",
+    "closedDisplay": "6.2 in; 904x2316 px, Dynamic AMOLED 2X",
+    "build": "Gorilla Glass Victus 2, Armor aluminum (matte)",
+    "openSize": "6.1 x 5.11 x 0.24 in",
+    "closedSize": "6.1 x 2.64 x 0.53 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
+    "frontCameras": "10 MP (folded), 4 MP (unfolded)",
+    "ram": "12 GB",
+    "battery": "4400 mAh",
+    "charging": "25W fast, 10W wireless, 4.5W Powershare",
+    "capacity": "256 / 512 / 1 TB",
+    "released": "Aug. 11, 2023 (USA)",
+    "phoneFeatures": [
+      "Face ID",
+      "Always On Display",
+      "Ultrasonic in-display fingerprint scanner",
+      "120 Hz refresh rate",
+      "IPX8 water resistant",
+      "Foldable tablet/phone",
+      "Wireless Powershare",
+      "Flex mode (Infinity Flex Display)",
+      "Dolby Atmos Dual Stereo speakers"
+    ],
+    "cameraFeatures":[
+      "8K video @ 30 fps",
+      "Brighter low light images",
+      "30x Space zoom",
+      "Can take selfies photos with rear camera"
+    ],
+    "cameraPros":[
+      "Can take selfies photos with rear camera"
+    ],
+    "pros":[
+      "Turns into tablet",
+      "Very thin bezels",
+      "One-handed smartphone",
+      "Brighter screen than Z Fold 4",
+      "Lighter + thinner than Z Fold 4",
+      "S-Pen support on tablet screen",
+      "No gap when phone is folded (unlike the Z Fold 4)",
+      "Pre-installed screen protector in tablet mode",
+      "A little easier to unfold than on Z Fold 4",
+      "Improved battery life from Z Fold 4",
+      "Wider outer and inner display than Z Fold 4",
+      "Better cases than Z Fold 4 (makes things less bulky)"
+    ],
+    "cons":[
+      "Doesn't come with S-pen",
+      "S-pen doesn’t work on the outer display",
+      "Not dust resistant",
+      "Narrower phone screen than regular smartphones",
+      "Narrower hinge than Z Fold 4",
+      "Does not include pre-installed screen protector (unlike Z Fold 3 and 2)"
+    ]
+  },
+  {
+    "name": "Pixel Fold",
+    "id": "pixel-fold",
+    "foldable": true,
+    "img": "/assets/imgs/pixels/pixel-fold.png",
+    "brand": "Google",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "fold",
+    "colors": [
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Porcelain", "tag": "porcelain"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1800"},
+      {"storage": "512 GB", "price": "$1920"}
+    ],
+    "ui": "Stock Android 13",
+    "openDisplay": "7.6 in; 1840x2208 px, FHD+ OLED",
+	  "closedDisplay": "5.8 in; 1080x2092 px, FHD+ OLED",
+    "build": "Gorilla Glass Victus / plastic front (unfolded), aluminum frame, stainless steel hinge (glossy)",
+    "openSize": "6.2 x 5.5 x 0.2 in",
+	  "closedSize": "5.5 x 3.1 x 0.5 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "10.8 MP", "telephoto": "10.8 MP"},
+    "frontCameras": "9.5 MP (folded), 8 MP (unfolded)",
+    "ram": "12 GB",
+    "battery": "4821 mAh",
+    "charging": "30W, wireless",
+    "capacity": "256 / 512 GB",
+    "released": "June 27, 2023 (USA)",
+    "phoneFeatures": [
+      "Face ID",
+      "Always On Display",
+      "120 Hz refresh rate",
+      "Optical in-display fingerprint scanner",
+      "HDR support",
+      "IPX8 water resistant",
+      "Stereo speakers",
+      "Multitasking option",
+      "VPN by Google One"
+    ],
+    "cameraFeatures":[
+      "Photo Unblur",
+      "Night Sight",
+      "Magic Eraser",
+      "4K video @ up to 60 fps",
+      "Can take selfies photos with rear camera"
+    ],
+    "pros":[
+      "\"Can be folded at least 200,000 times\"",
+      "Comes with pre-installed screen protector"
+    ],
+    "cons":[
+      "No stylus",
+      "Large bezels",
+      "Not dust resistant",
+      "Isn't completely flat when unfolded",
+      "Puts all apps in landscape mode automatically when you use tablet mode, and a lot of Android apps aren’t optimized for landscape viewing, so it won’t be fullscreen"
+    ]
+  },
+  {
+    "name": "Galaxy Z Fold 4",
+    "id": "galaxy-z-fold-4",
+    "foldable": true,
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-4.png",
+    "brand": "Samsung",
+    "os": "Android 12",
+    "year": 2022,
+    "category": "z fold",
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Graygreen", "tag": "graygreen"},
+      {"color": "Beige", "tag": "beige"},
+      {"color": "Burgundy", "tag": "burgundy"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1800"},
+      {"storage": "512 GB", "price": "$1920"},
+      {"storage": "1 TB", "price": "$2160"}
+    ],
+    "ui": "One UI 4",
+    "openDisplay": "7.6 in; 1768x2208 px, Dynamic AMOLED 2X",
+    "closedDisplay": "6.2 in; 904x2316 px, Dynamic AMOLED 2X",
+    "build": "Gorilla Glass Victus +, metal frame and hinge (matte)",
+    "openSize": "6.11 x 5.12 x 0.25 in",
+    "closedSize": "6.11 in x 2.64 x 0.56 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
+    "frontCameras": "10 MP (folded), 4 MP (unfolded)",
+    "ram": "12 GB",
+    "battery": "4400 mAh",
+    "charging": "25W, 10W wireless, 4.5W PowerShare",
+    "capacity": "256 / 512 / 1 TB",
+    "released": "Aug. 25, 2022 (USA)",
+    "phoneFeatures": [
+      "Face ID",
+      "120 Hz refresh rate",
+      "IPX8 water resistant",
+      "Foldable tablet/phone",
+      "Fingerprint scanner",
+      "Wireless Powershare",
+      "Dolby Atmos Dual Stereo speakers",
+      "Flex mode (Infinity Flex Display)",
+      "Can be folded at least 200,000 times"
+    ],
+    "cameraFeatures":[
+      "8K video @ 24 fps",
+      "4K video @ 60 fps",
+      "Space zoom",
+      "Brighter low light images",
+      "Can take selfies photos with rear camera"
+    ],
+    "cameraPros": [
+      "Can take selfies photos with rear camera"
+    ],
+    "pros":[
+      "S-Pen support on tablet screen",
+      "Turns into tablet",
+      "Lighter than Z Fold 3",
+      "Pre-installed screen protector in tablet mode",
+      "Improved bass (audio) from Z Fold 3",
+      "One-handed smartphone",
+      "Very thin bezels",
+      "Wider outer and inner display than Z Fold 3"
+    ],
+    "cons":[
+      "Doesn't come with S-pen ITB",
+      "S-pen doesn’t work on the outer display",
+      "Lighter than the Z Fold 3",
+      "Narrower phone screen than regular smartphones",
+      "Narrower hinge than Z Fold 3",
+      "Does not include pre-installed screen protector on outer display (unlike Z Fold 3 and 2)"
+    ],
+    "approbations": [
+      "“My personal device of choice” ~ Shane Symonds"
+    ]
+  },
+  {
     "name": "Galaxy Z Fold 3",
     "id": "z-fold-3",
     "foldable": true,
-    "img": "phones-img/z-fold-3.png",
+    "img": "/assets/imgs/galaxys/galaxy-z-fold-3.png",
     "brand": "Samsung",
     "os": "Android 11",
+    "year": 2021,
+    "category": "z fold",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"}, 
       {"color": "Phantom Silver", "tag": "phantom-silver"}, 
@@ -27,26 +242,24 @@
     "battery": "4400 mAh",
     "charging": "25W, 10W wireless, 4.5W PowerShare",
     "capacity": "256 / 512 GB",
-    "released": "",
+    "released": "Aug. 27, 2021 (USA)",
     "phoneFeatures": [
       "S-pen support", "120 Hz refresh rate", ""
     ],
     "cameraFeatures":[
-
+      "Can take selfies photos with rear camera"
     ],
     "cameraPros":[
-      
-    ],
-    "cameraCons":[
-      
+      "Can take selfies photos with rear camera"
     ],
     "pros":[
-      
+      "None recorded"
     ],
     "cons":[
-      
+      "S-pen doesn’t work on the outer display"
     ]
   },
+
   {
     "name": "Moto RAZR 2020",
     "id": "moto-razr-2020",

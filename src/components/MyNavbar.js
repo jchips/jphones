@@ -16,7 +16,7 @@ class MyNavbar extends React.Component {
               <NavDropdown title="Companies" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/apple">Apple</NavDropdown.Item>
                 <NavDropdown.Item href="#">Asus</NavDropdown.Item>
-                <NavDropdown.Item href="#">Google</NavDropdown.Item>
+                <NavDropdown.Item href="/google">Google</NavDropdown.Item>
                 <NavDropdown.Item href="#">Huawei</NavDropdown.Item>
                 <NavDropdown.Item href="/oneplus">OnePlus</NavDropdown.Item>
                 <NavDropdown.Item href="/samsung">Samsung</NavDropdown.Item>            

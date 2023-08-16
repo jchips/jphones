@@ -1,11 +1,210 @@
 [
   {
+    "name": "Pixel 7 Pro",
+    "id": "pixel-7-pro",
+    "img": "/assets/imgs/pixels/pixel-7-pro.png",
+    "brand": "Google",
+    "os": "Android 13",
+    "year": 2022,
+    "category": "7",
+    "colors": [
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Hazel", "tag": "hazel"},
+      {"color": "Snow", "tag": "snow"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": "256 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1100"}
+    ],
+    "ui": "Stock Android 13",
+    "display": "6.7 in; 1440 x 3120 px, QHD+ LTPO OLED (curved)",
+    "build": "Gorilla Glass Victus, aluminum frame (glossy)",
+    "size": "6.41 x 3.02 x 0.35 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "48 MP"},
+    "frontCameras": "10.8 MP",
+    "ram": "12 GB",
+    "battery": "5000 mAh",
+    "charging": "23W fast, 23W fast wireless, Battery Share",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Oct. 13, 2022 (USA)",
+    "phoneFeatures": [
+      "5G",
+      "Face ID",
+      "Optical in-display fingerprint scanner",
+      "120 Hz refresh rate",
+      "HDR support",
+      "Stereo speakers",
+      "Wireless charging",
+      "Theme icon settings",
+      "VPN by Google One",
+      "IP68 water/dust resistant",
+      "Voice recorder transcripts",
+      "3yrs of OS updates, 5yrs of security patches"
+    ],
+    "cameraFeatures":[
+      "Macro Focus",
+      "Photo Unblur",
+      "Night Sight",
+      "Magic Eraser",
+      "5x Optical zoom",
+      "4K video @ up to 60 fps"
+    ],
+    "cameraCons":[
+      "Minor shutter lag"
+    ],
+    "pros":[
+      "Less bezels than Pixel 7 & 7a",
+      "Slightly brighter screen than Pixel 7 & 7a",
+      "Higher refresh rate than Pixel 7 & 7a"
+    ],
+    "cons":[
+      "No charger ITB",
+      "Fingerprint scanner doesn’t work very well",
+      "Blocks installing some apps that aren’t in the Play Store"
+    ],
+    "approbations":[
+      "“Phone of the year (2022)” ~ Many professional reviewers"
+    ]
+  },
+  {
+    "name": "Pixel 7",
+    "id": "pixel-7",
+    "img": "/assets/imgs/pixels/pixel-7.png",
+    "brand": "Google",
+    "os": "Android 13",
+    "year": 2022,
+    "category": "7",
+    "colors": [
+      {"color": "Lemongrass", "tag": "lemongrass"},
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Snow", "tag": "snow"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$600"},
+      {"storage": "256 GB", "price": "$700"}
+    ],
+    "ui": "Stock Android 13",
+    "display": "6.3 in; 1080 x 2400 px, FHD+ OLED",
+    "build": "Gorilla Glass Victus, aluminum frame (glossy)",
+    "size": "6.1 x 2.9 x 0.3 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP"},
+    "frontCameras": "10.8 MP",
+    "ram": "8 GB",
+    "battery": "4355 mAh",
+    "charging": "21W fast, 20W fast wireless, Battery Share",
+    "capacity": "128 / 256 GB",
+    "released": "Oct. 13, 2022 (USA)",
+    "phoneFeatures": [
+      "5G",
+      "Face ID",
+      "Wireless charging",
+      "90 Hz refresh rate",
+      "Optical in-display fingerprint scanner",
+      "Battery Share",
+      "HDR support",
+      "Theme icon settings",
+      "IP68 water/dust resistant",
+      "Voice recorder transcripts",
+      "Stereo speakers",
+      "VPN by Google One",
+      "3yrs of OS updates, 5yrs of security patches"
+    ],
+    "cameraFeatures":[
+      "Photo Unblur",
+      "Night Sight",
+      "Magic Eraser",
+      "Auto focus",
+      "4K video @ up to 60 fps"
+    ],
+    "cameraPros":[
+      "Upgraded auto focus"
+    ],
+    "cameraCons":[
+      "Shutter lag",
+      "No telephoto camera (unlike Pixel 7 Pro)",
+      "“HDR videos seem overexposed in a lot of situations” ~ 6 Months Later"
+    ],
+    "pros":[
+      "None recorded"
+    ],
+    "cons":[
+      "No charger ITB",
+      "Face Unlock isn’t that great",
+      "Fingerprint sensor doesn’t work very well",
+      "Many users reported fast battery draining issue",
+      "Blocks installing some apps that aren’t in the Play Store"
+    ]
+  },
+  {
+    "name": "Pixel 7a",
+    "id": "pixel-7a",
+    "img": "/assets/imgs/pixels/pixel-7a.png",
+    "brand": "Google",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "7",
+    "colors": [
+      {"color": "Charcoal", "tag": "charcoal"},
+      {"color": "Sea", "tag": "sea"},
+      {"color": "Snow", "tag": "snow"},
+      {"color": "Coral (Google exclusive)", "tag": "coral"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$500"}
+    ],
+    "ui": "Stock Android 13",
+    "display": "6.1 in; 1080x2400 px, FHD+ OLED",
+    "build": "Gorilla Glass 3, aluminum frame (glossy)",
+    "size": "6.0 x 2.8 x 0.4 in",
+    "rearCameras": {"primary": "64 MP", "ultrawide": "13 MP"},
+    "frontCameras": "13 MP",
+    "ram": "8 GB",
+    "battery": "4385 mAh",
+    "charging": "18W fast, 7.5W wireless",
+    "capacity": "128 GB",
+    "released": "May 10, 2023 (USA)",
+    "phoneFeatures": [
+      "5G",
+      "Face Unlock",
+      "Optical in-display fingerprint scanner",
+      "Wireless charging",
+      "VPN by Google One",
+      "90 Hz refresh rate",
+      "HDR support",
+      "IP67 water/dust resistant",
+      "Stereo speakers",
+      "3yrs of OS updates, 5yrs of security patches"
+    ],
+    "cameraFeatures":[
+      "Photo Unblur",
+      "Night Sight",
+      "Magic Eraser",
+      "4K video @ up to 60 fps"
+    ],
+    "cameraCons":[
+      "No telephoto camera"
+    ],
+    "pros":[
+      "Better battery than Pixel 6a",
+      "Supports wireless charging (unlike Pixel 6a)"
+    ],
+    "cons":[
+      "Large bezels",
+      "Not very great battery life",
+      "No charger ITB",
+      "No Battery Share (unlike Pixel 7 & 7 Pro)",
+      "Blocks installing some apps that aren’t in the Play Store"
+    ]
+  },
+  {
     "name": "Pixel 6 Pro",
     "id": "pixel-6-pro",
     "img": "/assets/imgs/pixels/pixel-6-pro.png",
     "brand": "Google",
     "os": "Android 12",
     "year": 2021,
+    "category": "6",
     "colors": [
       {"color": "Sorta Sunny", "tag": "sorta-sunny"},
       {"color": "Cloudy White", "tag": "cloudy-white"},
@@ -19,7 +218,7 @@
     "ui": "Stock Android 12",
     "display": "6.7 in; 1440x3120 px, Curved QHD+ OLED",
     "build": "Gorilla Glass Victus (curved)",
-    "size" :"6.50 x 3.0 x 0.40 in",
+    "size": "6.50 x 3.0 x 0.40 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "48 MP"},
     "frontCameras": "11.1 MP",
     "ram": "12 GB",
@@ -60,6 +259,7 @@
     "brand": "Google",
     "os": "Android 12",
     "year": 2021,
+    "category": "6",
     "colors": [
       {"color": "Sorta Seaform", "tag": "sorta-seaform"},
       {"color": "Kinda Coral", "tag": "kinda-coral"},
@@ -112,6 +312,7 @@
     "brand": "Google",
     "os": "Android 12",
     "year": 2022,
+    "category": "6",
     "colors": [
       {"color": "Charcoal", "tag": "charcoal"},
       {"color": "Chalk", "tag": "chalk"},
@@ -146,8 +347,8 @@
       "\"Best you can buy in the US at its price class\" ~ MrMobile"
     ],
     "cons":[
-      "No charger ITB", "No wireless charging", "Lower IP rating", "Downgraded Gorilla Glass 3",
-      "Only 60Hz refresh rate", "Heats up fast ~ Tech Spurt", "Fast charging isn't very fast ~ Tech Spurt",
+      "No charger ITB", "No wireless charging", "Lower IP rating than Pixel 6 & 6 Pro", "Downgraded Gorilla Glass 3",
+      "Only 60 Hz refresh rate", "Heats up fast ~ Tech Spurt", "Fast charging isn't very fast ~ Tech Spurt",
       "Poor battery life ~ MrMobile"
     ]
   },
@@ -158,6 +359,7 @@
     "brand": "Google",
     "os": "Android 11",
     "year": 2020,
+    "category": "5",
     "colors":[
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Sorta Sage", "tag": "sorta-sage"}
@@ -203,6 +405,7 @@
     "brand": "Google",
     "os": "Android 11",
     "year": 2021,
+    "category": "5",
     "colors": [{"color": "Mostly Black", "tag": "mostly-black"}],
     "prices":[{"storage": "128 GB", "price": "$450"}],
     "ui": "Stock Android 11",
@@ -247,6 +450,7 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2019,
+    "category": "4",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Clearly White", "tag": "clearly-white"},
@@ -301,6 +505,7 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2019,
+    "category": "4",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Clearly White", "tag": "clearly-white"},
@@ -355,6 +560,7 @@
     "brand": "Google",
     "os": "Android 10",
     "year": 2020,
+    "category": "4",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Barely Blue", "tag": "barely-blue"}
@@ -412,6 +618,7 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2018,
+    "category": "3",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Clearly White", "tag": "clearly-white"},
@@ -460,6 +667,7 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2018,
+    "category": "3",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Clearly White", "tag": "clearly-white"},
@@ -508,6 +716,7 @@
     "brand": "Google",
     "os": "Android P",
     "year": 2019,
+    "category": "3",
     "colors": [
       {"color": "Just Black", "tag": "just-black"},
       {"color": "Clearly White", "tag": "clearly-white"},

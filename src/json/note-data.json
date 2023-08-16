@@ -2,7 +2,7 @@
   {
     "name": "Galaxy Note 20 Ultra",
     "id": "note-20-ultra",
-    "img": "phones-img/note-20-ultra.png",
+    "img": "/assets/imgs/notes/note-20-ultra.png",
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
@@ -12,7 +12,10 @@
       {"color": "Mystic White", "tag": "mystic-white"},
       {"color": "Mystic Bronze", "tag": "mystic-bronze"}
     ],
-    "prices": ["128 GB: $1250", "512 GB: $1300"],
+    "prices": [
+      {"storage": "128 GB", "price": "$1300"},
+      {"storage": "512 GB", "price": "$1450"}
+    ],
     "ui": "One UI 2.0",
     "display": "6.9 in; 1440x3088, Curved QHD+ Dynamic AMOLED",
     "build": "Gorilla Glass Victus",
@@ -22,8 +25,8 @@
     "ram": "12 GB",
     "battery": "4500 mAh",
     "charging": "25W fast, 45W super fast",
-    "capacity": "128 / 512 GB + up to 1TB of micro SD storage",
-    "released": "Aug. 21, 2020 (US)",
+    "capacity": "128 / 256 / 512 GB + up to 1TB of micro SD storage",
+    "released": "Aug. 21, 2020 (USA)",
     "phoneFeatures": [
       "5G support", "S-pen", "Infinity-O display", "Same stylus tricks as the Tab S6", 
       "80% latency improvement for the S-pen over the Note 10 (you can feel it)"
@@ -51,7 +54,7 @@
   {
     "name": "Galaxy Note 20",
     "id": "note-20",
-    "img": "phones-img/note-20.png",
+    "img": "/assets/imgs/notes/note-20.png",
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
@@ -62,18 +65,20 @@
       {"color": "Mystic Green", "tag": "mystic-green"},
       {"color": "Mystic Red", "tag": "mystic-red"}
     ],
-    "prices": ["128 GB: $1000"],
+    "prices": [
+      {"storage": "256 GB", "price": "$1000"}
+    ],
     "ui": "One UI 2.0",
     "display": "6.7 in; 1080x2400 px, FHD Super AMOLED+",
     "build": "Polycarbonate (plastic) back",
     "size": "6.36 x 2.96 x 0.33 in",
     "rearCameras": "Main: 12MP, Ultrawide: 12MP, Telephoto: 64MP",
     "frontCameras": "10MP",
-    "ram": "12 GB",
+    "ram": "8 GB",
     "battery": "4300 mAh",
     "charging": "25W fast, 45W super fast",
     "capacity": "128 GB",
-    "released": "Aug. 21, 2020 (US)",
+    "released": "Aug. 21, 2020 (USA)",
     "phoneFeatures": [
       "5G support", "S-pen", "Same stylus tricks as the Tab S6", "80% latency improvement for the S-pen over the Note 10 (you can feel it)"
     ],
@@ -100,7 +105,7 @@
   {
     "name": "Galaxy Note 10+",
     "id": "note-10-plus",
-    "img": "phones-img/note-10-plus.png",
+    "img": "/assets/imgs/notes/note-10-plus.png",
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
@@ -151,7 +156,7 @@
   {
     "name": "Galaxy Note 10",
     "id": "galaxy-note-10",
-    "img": "phones-img/note-10.png",
+    "img": "/assets/imgs/notes/note-10.png",
     "brand": "Samsung",
     "os": "Android P",
     "year": 2019,
@@ -164,7 +169,9 @@
       {"color": "Aura Red [not available in USA]", "tag": "aura-red"},
       {"color": "Aura Pink [not available in USA]", "tag": "aura-pink"}
     ],
-    "prices": ["256 GB: $950 USD"],
+    "prices": [
+      {"storage": "256 GB", "price": "$950"}
+    ],
     "ui": "One UI 1.5",
     "display": "6.3 in; 1080x2280 px, Curved Dynamic AMOLED QHD+",
     "build": "Gorilla Glass 6, Metal frame",
@@ -175,7 +182,7 @@
     "battery": "3600 mAh",
     "charging": "25W fast, 45W super fast",
     "capacity": "256 GB",
-    "released": "Aug. 23, 2019",
+    "released": "Aug. 23, 2019 (USA)",
     "phoneFeatures": [
       "Iris ID", "S pen w/ air actions", "Gestures option", "HDR10+", "UFS 3.0 storage", "Wireless PowerShare [15W]",
       "Ultrasonic in-display fingerprint ID", "45W super fast charging"
@@ -203,7 +210,7 @@
   {
     "name": "Galaxy Note 10 Lite",
     "id": "note-10-lite",
-    "img": "phones-img/note-10-lite.png",
+    "img": "/assets/imgs/notes/note-10-lite.png",
     "brand": "Samsung",
     "os": "Android 10",
     "year": 2020,
@@ -213,7 +220,7 @@
       {"color": "Aura Glow", "tag": "aura-glow"},
       {"color": "Aura Red", "tag": "aura-red"}
     ],
-    "prices": ["?"],
+    "prices": [{"storage": "128 GB", "price": "~ $507"}],
     "ui": "One UI 2.0",
     "display": "6.7 in; 1080x2400 px; Super AMOLED",
     "build": "Glastic",
@@ -224,7 +231,7 @@
     "battery": "4500 mAh",
     "charging": "25W fast, 45W super fast",
     "capacity": "128 GB + MicroSD",
-    "released": "Jan. 2020",
+    "released": "Jan. 2020 (USA)",
     "phoneFeatures": [
       "S Pen", "Headphone jack", "In-display optical fingerprint ID", "45W super fast charging"
     ],
@@ -250,7 +257,7 @@
   {
     "name": "Galaxy Note 9",
     "id": "note-9",
-    "img": "phones-img/note-9.png",
+    "img": "/assets/imgs/notes/note-9.png",
     "brand": "Samsung",
     "os": "Android O",
     "year": 2018,
@@ -261,7 +268,10 @@
       {"color": "Cloud Silver", "tag": "cloud-silver"},
       {"color": "Lavender Purple", "tag": "lavender-purple"}
     ],
-    "prices": ["128 GB: $1,000", "512GB: $1,250"],
+    "prices": [
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1250"}
+    ],
     "ui": "Samsung Experience 9.5",
     "display": "6.4 in; 1440x2960 px, Curved Super AMOLED",
     "build": "Gorilla Glass 5, aluminum frame",
@@ -272,7 +282,7 @@
     "battery": "4000 mAh",
     "charging": "",
     "capacity": "128 / 512 GB + MicroSD",
-    "released": "Aug. 24, 2018",
+    "released": "Aug. 24, 2018 (USA)",
     "phoneFeatures": [
       "Iris ID", "S Pen (yellow)", "Headphone jack", "LED notifications", "Heart rate monitor", "Fortnite on Android",
       "Scheduled messaging"
