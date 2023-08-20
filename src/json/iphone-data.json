@@ -1,4 +1,251 @@
-[
+[ 
+  {
+    "name": "iPhone 14 Pro Max",
+    "id": "iphone-14-pro-max",
+    "img": "/assets/imgs/iphones/iphone-14-pro-max.png",
+    "brand": "Apple",
+    "os": "IOS 16",
+    "year": 2022,
+    "category": "14",
+    "colors": [
+      {"color": "Space Black", "tag": "space-black"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Deep Purple", "tag": "deep-purple"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1100"},
+      {"storage": "256 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1400"},
+      {"storage": "1 TB", "price": "$1600"}
+    ],
+    "ui": "IOS 16",
+    "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "size": "6.33 x 3.05 x 0.31 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "4323 mAh",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
+    "capacity": "128 / 256 / 512 / 1 TB",
+    "released": "Sep. 16, 2022 (USA)",
+    "phoneFeatures": [
+      "5G",
+      "Dynamic Island",
+      "Always-On Display",
+      "HDR Support",
+      "120 Hz refresh rate (ProMotion)",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "3x optical zoom",
+      "Apple ProRaw",
+      "Deep Fusion",
+      "Sensor Shift OIS",
+      "Night mode on all cameras",
+      "Cinematic video mode",
+      "Smart HDR 4 for photos",
+      "Photographic Styles",
+      "ProRes video and action mode",
+      "Adaptive True Tone flash",
+      "Macro video recording"
+    ],
+    "pros":[
+      "Highest brightness ever recorded on a smartphone (2000 nits)"
+    ],
+    "cons":[
+      "No charger ITB"
+    ]
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "id": "iphone-14-pro",
+    "img": "/assets/imgs/iphones/iphone-14-pro.png",
+    "brand": "Apple",
+    "os": "IOS 16",
+    "year": 2022,
+    "category": "14",
+    "colors": [
+      {"color": "Space Black", "tag": "space-black"},
+      {"color": "Gold", "tag": "gold"},
+      {"color": "Silver", "tag": "silver"},
+      {"color": "Deep Purple", "tag": "deep-purple"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1100"},
+      {"storage": "512 GB", "price": "$1300"},
+      {"storage": "1 TB", "price": "$1500"}
+    ],
+    "ui": "IOS 16",
+    "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "size": "5.81 x 2.81 x 0.31 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "3200 mAh",
+    "charging": "20W, 15W MagSafe, 7.5 wireless",
+    "capacity": " 128 / 256 / 512 / 1 TB",
+    "released": "Sep. 16, 2022 (USA)",
+    "phoneFeatures": [
+      "Dynamic Island",
+      "HDR10",
+      "Always-On Display",
+      "120 Hz refresh rate (ProMotion)",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "3x optical zoom",
+      "Apple ProRaw",
+      "Deep Fusion",
+      "Sensor Shift OIS",
+      "Night mode on all cameras",
+      "Cinematic video mode",
+      "Smart HDR 4 for photos",
+      "Photographic Styles",
+      "ProRes video and Action mode",
+      "Adaptive True Tone flash",
+      "Macro video recording"
+    ],
+    "pros":[
+      "Highest brightness ever recorded on a smartphone (2000 nits)",
+      "Same features as iPhone 14 Pro Max, but smaller size"
+    ],
+    "cons":[
+      "No charger ITB"
+    ]
+  },
+  {
+    "name": "iPhone 14 Plus",
+    "id": "iphone-14-plus",
+    "img": "/assets/imgs/iphones/iphone-14-plus.png",
+    "brand": "Apple",
+    "os": "IOS 16",
+    "year": 2022,
+    "category": "14",
+    "colors": [
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Purple", "tag": "apple-purple"},
+      {"color": "Yellow", "tag": "apple-yellow"},
+      {"color": "Midnight", "tag": "midnight"},
+      {"color": "Starlight", "tag": "starlight"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": "256 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1200"}
+    ],
+    "ui": "IOS 16",
+    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, aluminum frame",
+    "size": "6.33 x 3.07 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "4323 mAh",
+    "charging": "20W, 15W MagSafe, 7.5 wireless",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Sep. 16, 2022 (USA)",
+    "phoneFeatures": [
+      "HDR10",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "Action mode",
+      "Sensor Shift OIS",
+      "Deep Fusion",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "Smart HDR 4 for photos",
+      "Auto focus on selfie camera",
+      "4K video @ up to 60 fps"
+    ],
+    "cameraCons":[
+      "No telephoto photo",
+      "No auto focus on ultrawide camera",
+      "No Macro video recording (unlike iPhone 14 Pro & Pro Max)",
+      "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
+      "No Apple ProRaw (unlike iPhone 14 Pro & Pro Max)"
+    ],
+    "pros":[
+      "Just an iPhone 14 that’s bigger (same features)",
+      "Same size as the iPhone 14 Pro Max",
+      "Lighter weight than the iPhone 14 Pro Max"
+    ],
+    "cons":[
+      "No charger ITB",
+      "Same chipset as the iPhone 13s (old chipset)",
+      "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
+      "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
+      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro & Pro Max"
+    ]
+  },
+  {
+    "name": "iPhone 14",
+    "id": "iphone-14",
+    "img": "/assets/imgs/iphones/iphone-14.png",
+    "brand": "Apple",
+    "os": "IOS 16",
+    "year": 2022,
+    "category": "14",
+    "colors": [
+      {"color": "Blue", "tag": "apple-blue"},
+      {"color": "Purple", "tag": "apple-purple"},
+      {"color": "Yellow", "tag": "apple-yellow"},
+      {"color": "Midnight", "tag": "midnight"},
+      {"color": "Starlight", "tag": "starlight"},
+      {"color": "Product Red", "tag": "product-red"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$900"},
+      {"storage": "512 GB", "price": "$1100"}
+    ],
+    "ui": "IOS 16",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, aluminum frame (Matte)",
+    "size": "5.78 x 2.82 x 0.31 in",
+    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "3279 mAh",
+    "charging": "20W, 7.5 wireless, 15 MagSafe",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Sep. 16, 2022 (USA)",
+    "phoneFeatures": [
+      "HDR10",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "Sensor Shift OIS",
+      "Deep Fusion",
+      "Action mode",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "Smart HDR 4 for photos",
+      "Auto focus on selfie camera",
+      "4K video @ up to 60 fps"
+    ],
+    "cameraCons":[
+      "No telephoto photo",
+      "No auto focus on ultrawide camera",
+      "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
+      "No Apple ProRaw (unlike iPhone 14 Pro & Pro Max)"
+    ],
+    "pros":[
+      "None recorded"
+    ],
+    "cons":[
+      "No charger ITB",
+      "No Always-On display (unlike iPhone 14 Pro and Pro Max)",
+      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro & Pro Max",
+      "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
+      "Same chipset as the iPhone 13s (old chipset)"
+    ]
+  },
   {
     "name": "iPhone SE (2022)",
     "id": "iphone-se-2022",
