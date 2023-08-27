@@ -10,6 +10,7 @@ class MiniPhoneCarousel extends React.Component {
   // cons = createRef();
 
   /**
+   * TODO: Could probably make this more efficient
    * Adds a vertical scrollbar to element when there are a lot of array items to be displayed.
    * @param {Object} data - Array of the data that needs to be scrolled. Ex: this.props.phone.colors
    * @param {Element} ref - Element to add scrollbar to.
@@ -17,9 +18,12 @@ class MiniPhoneCarousel extends React.Component {
    * @param {String} height - The height of the element (needed to be able to add a scrollbar)
    */
   overFlow = (data, ref, num, height) => {
-    if (data.length > num) {
+    if (data.length > num & !this.props.phone.foldable) {
       ref.current.style.overflowY = 'auto';
       ref.current.style.height = height;
+    } else if (data.length > 4 & this.props.phone.foldable) {
+      ref.current.style.overflowY = 'auto';
+      ref.current.style.height = '140px';
     }
   }
 
@@ -99,7 +103,7 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="features-slide">
             <h3>Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <hr/>
+            {/* <hr/> */}
             <div className="phones-features scrollable">
               <ul>
                 {this.props.phone.phoneFeatures.map((feature, index) =>
@@ -107,7 +111,7 @@ class MiniPhoneCarousel extends React.Component {
                 )}
               </ul>
             </div>
-            <hr/>
+            {/* <hr/> */}
           </Carousel.Item>
           
           {/* Cameras */}
@@ -140,13 +144,11 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="camera-features">
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {/* <section> */}
-              <hr/>
-              <section className="scrollable">
-                <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
-              </section>
-              <hr/>
-            {/* </section>     */}
+            {/* <hr/> */}
+            <section className="scrollable">
+              <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
+            </section>
+            {/* <hr/> */}
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}

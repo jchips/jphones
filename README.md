@@ -8,8 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 08-26-2023 (0.2.2) - Added Oneplus 10s and 11.
+- 08-19-2023 (0.2.1) - Added iPhone 14s.
 - 08-15-2023 (0.2.0) - Added Z Fold phones and Pixel 7s. Minor UI changes.
-- 06-25-2023 (0.1.0) - Added OnePlus phones and brand carousels
+- 06-25-2023 (0.1.0) - Added OnePlus phones and brand carousels.
 
 ## Links & Resources
 
