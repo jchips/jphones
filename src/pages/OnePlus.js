@@ -22,7 +22,7 @@ class OnePlus extends Component {
                   <ListGroup.Item>30 Warp Charge</ListGroup.Item>
                   <ListGroup.Item>Dual sim</ListGroup.Item>
                   <ListGroup.Item>HDR10+</ListGroup.Item>
-                  <ListGroup.Item>Mute switch</ListGroup.Item>
+                  <ListGroup.Item>Mute switch <i>[exception: OnePlus 10T]</i></ListGroup.Item>
                   <ListGroup.Item>Google Assistant</ListGroup.Item>
                   <ListGroup.Item>Gestures or buttons option</ListGroup.Item>
                   <ListGroup.Item>Water/dust resistant</ListGroup.Item>

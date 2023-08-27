@@ -1,5 +1,199 @@
 [
   {
+    "name": "OnePlus 11",
+    "id": "oneplus-11",
+    "img": "/assets/imgs/oneplus/oneplus-11.png",
+    "brand": "OnePlus",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "11",
+    "colors": [
+      {"color": "Titan Black (Matte)", "tag": "titan-black"},
+      {"color": "Eternal Green (Glossy)", "tag": "eternal-green"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$700"},
+      {"storage": "256 GB", "price": "$800"}
+    ],
+    "ui": "OxygenOS 13",
+    "display": "6.7 in; 1440x3216 px, QHD+ LPTO 3 Fluid AMOLED",
+    "build": "Gorilla Glass 5 / Gorilla Glass Victus, aluminum frame",
+    "size": "6.42 x 2.92 x 0.33 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "48 MP"},
+    "frontCameras": "16 MP",
+    "ram": "8 GB",
+    "battery": "5000 mAh",
+    "charging": "80/100W SUPERVOOC",
+    "capacity": "128 / 256 GB",
+    "released": "Jan. 9, 2023 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "WiFi 7",
+      "Always On Display",
+      "IP64 splash/dust resistant",
+      "Strong haptic motor",
+      "Dolby vision",
+      "Adaptive 120 Hz refresh rate",
+      "Optical in-display fingerprint scanner"
+    ],
+    "cameraFeatures":[
+      "OIS",
+      "Portrait camera with 2x optical zoom",
+      "Macro mode",
+      "Shutter lag",
+      "4K video @ 60 fps",
+      "8K video @ 24 fps"
+    ],
+    "cameraCons":[
+      "Front camera doesn't have auto focus",
+      "Just 1080p video on the front camera"
+    ],
+    "pros":[
+      "Comes with charger ITB",
+      "Comes with pre-installed screen protector",
+      "4yrs of OS updates and 5yrs of security updates",
+      "\"Really impressed by the battery life\" ~ The Tech Chap, Feb. 2023"
+    ],
+    "cons":[
+      "No wireless charging",
+      "No case ITB (unlike predecessors)"
+    ],
+    "approbations":[
+      "“OnePlus is back!” ~ MKBHD, Feb. 2023"
+    ]
+  },
+  {
+    "name": "OnePlus 10 Pro",
+    "id": "oneplus-10-pro",
+    "img": "/assets/imgs/oneplus/oneplus-10-pro.png",
+    "brand": "OnePlus",
+    "os": "Android 12",
+    "year": 2022,
+    "category": "10",
+    "colors": [
+      {"color": "Volcanic Black", "tag": "volcanic-black"},
+      {"color": "Emerald Forest", "tag": "emerald-forest"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": "256 GB", "price": "$970"}
+    ],
+    "ui": "OxygenOS 12.1",
+    "display": "6.7 in; 1440 x 3216px, Curved QHD+ LTPO 2 Fluid AMOLED",
+    "build": "Curved Gorilla Glass Victus (Matte), aluminum frame",
+    "size": "6.42 x 2.91 x 0.34 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "50 MP", "telephoto": "8 MP"},
+    "frontCameras": "32 MP",
+    "ram": "8 / 12 GB",
+    "battery": "5000 mAh",
+    "charging": "80W fast, 65W SUPERVOOC, 50W Warp Charge",
+    "capacity": "128 / 256 GB",
+    "released": "Apr. 14, 2022 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "Game Focus mode",
+      "Adaptive 120 Hz refresh rate",
+      "LTPO display to save battery",
+      "Optical in-display fingerprint scanner",
+      "Wireless charging",
+      "Reverse wireless charging"
+    ],
+    "cameraFeatures":[
+      "4K video @ 120 fps",
+      "8K video @ 24 fps",
+      "Fisheye mode"
+    ],
+    "cameraPros":[
+      "Ultrawide camera has a 150-degree field-of-view"
+    ],
+    "cameraCons":[
+      "No 4K video on front camera",
+      "\"Would not pick for the selfie (front) camera; images are really flat with not great dynamic range\" ~ SuperSaf"
+    ],
+    "pros":[
+      "Comes with charger ITB",
+      "Lower starting price than OnePlus 9 Pro had"
+    ],
+    "cons":[
+      "No 5G with AT&T",
+      "No IP rating unless you buy a carrier version"
+    ],
+    "approbations":[
+      "\"The best camera phone the company has ever produced\" ~ Tom's Guide",
+      "\"The OnePlus 10 Pro is my new favorite Android phone.\" ~ Tom's Guide"
+    ] 
+  },
+  {
+    "name": "OnePlus 10T",
+    "id": "oneplus-10t",
+    "img": "/assets/imgs/oneplus/oneplus-10t.png",
+    "brand": "OnePlus",
+    "os": "Android 12",
+    "year": 2022,
+    "category": "10",
+    "colors": [
+      {"color": "Moonstone Black (Matte)", "tag": "moonstone-black"},
+      {"color": "Jade Green (Glossy)", "tag": "jade-green"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$650"},
+      {"storage": "256 GB", "price": "$750"}
+    ],
+    "ui": "OxygenOS 12.1",
+    "display": "6.7 in; 1080 x 2412 px, FHD+ AMOLED",
+    "build": "Gorilla Glass 5, plastic frame",
+    "size": "6.4 x 3.0 x 0.34 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "8 MP"},
+    "frontCameras": "16 MP",
+    "ram": "8 / 16 GB",
+    "battery": "4800 mAh",
+    "charging": "150W SUPERVOOC",
+    "capacity": "128 / 256 GB",
+    "released": "Aug. 6, 2022 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "WiFi 6",
+      "Game Focus mode",
+      "Bluetooth 5.3",
+      "2D Face ID",
+      "Adaptive 120 Hz refresh rate",
+      "3yrs of Android OS updates",
+      "Optical in-display fingerprint scanner",
+      "More powerful chip than the OnePlus 10 Pro"
+    ],
+    "cameraFeatures":[
+      "2 MP Macro camera",
+      "OIS",
+      "4K video @ 60 fps"
+    ],
+    "cameraCons":[
+      "No optical zoom",
+      "No telephoto camera",
+      "No 4K on front or ultrawide camera",
+      "\"Would not pick for the selfie (front) camera; images are really flat with not great dynamic range\" ~ SuperSaf"
+    ],
+    "pros":[
+      "Comes with charger ITB",
+      "Super fast charging",
+      "Excellent haptics ~ Phone Arena",
+      "Brighter screen than OnePlus 10 Pro",
+      "Phone stays cooler than 10 Pro when playing games"
+    ],
+    "cons":[
+      "No IP rating",
+      "No headphone jack",
+      "No LTPO panel",
+      "No alert slider (unlike predecessors)",
+      "No wireless charging or reverse wireless charging",
+      "“Bust of the year” ~ MKBHD, Dec. 2022",
+      "“Most pointless phone of 2022” ~ CNET, Aug. 2022",
+      "“Ultrawide camera is soo much worse than the OnePlus 10 Pro” ~ Dave2D, Aug. 2022"
+    ],
+    "approbations":[
+      "\"Fastest OnePlus phone ever…but not by much\" ~ The Tech Chap"
+    ]
+  },
+  {
     "name": "OnePlus 9 Pro",
     "id": "oneplus-9-pro",
     "img": "/assets/imgs/oneplus/oneplus-9-pro.png",
@@ -16,7 +210,7 @@
       {"storage": "256 GB (12 GB ram)", "price": "$1070"}
     ],
     "ui": "OxygenOS 11",
-    "display": "6.7 in; 1440x3216 px, Fluid AMOLED QHD+",
+    "display": "6.7 in; 1440x3216 px, QHD+ Fluid AMOLED",
     "build": "3D Corning Gorilla Glass curved, aluminum frame",
     "size": "6.43 x 2.90 x 0.34 in",
     "rearCameras": {"primary": "48 MP", "ultrawide": "50 MP", "telephoto": "8 MP"},
@@ -27,12 +221,12 @@
     "capacity": "128 / 256 GB",
     "released": "Mar. 30, 2021 (USA)",
     "phoneFeatures": [
-      "5G support", "Warp charge 65T", "IP68 water/dust resistant", "120 Hz refresh rate", "wireless charging",
+      "5G support", "Warp charge 65T", "IP68 water/dust resistant", "120 Hz refresh rate", "Wireless charging",
       "Bitmoji AOD (coming soon?)", "Hyper Touch", "Adaptive display", "Motion graphics smoothing", "Improved haptics",
       "Reverse wireless charging"
     ],
     "cameraFeatures":[
-      "2 MP Monochrome rear camera", "Video Nightscape", "Tilt-shift mode", "8K video @ 30fps", "4K video @ 120fps",
+      "2 MP Monochrome rear camera", "Video Nightscape", "Tilt-shift mode", "8K video @ 30fps", "4K video @ 120 fps",
       "8K shooting on ultrawide camera (as well as primary)"
     ],
     "cameraPros":[
@@ -79,7 +273,7 @@
     "capacity": "128 / 256 GB",
     "released": "Mar. 30, 2021 (USA)",
     "phoneFeatures": [
-      "120 Hz refresh rate", "wireless charging", "Bitmoji AOD (coming soon?)", "Improved haptics"
+      "120 Hz refresh rate", "Wireless charging", "Bitmoji AOD (coming soon?)", "Improved haptics"
     ],
     "cameraFeatures":[
       "2 MP Monochrome rear camera", "Video Nightscape", "Tilt-shift mode", "8K video @ 30fps", "4K video @ 120fps",
@@ -141,7 +335,7 @@
       "Feels quicker than competition Pixel 5"
     ],
     "cons":[
-      "No IP rating (although it is apparently water resistant)", "no wireless charging",
+      "No IP rating (although it is apparently water resistant)", "No wireless charging",
       "8 GB ram / 128 GB option only available in the UK"
     ]
   },
@@ -381,7 +575,7 @@
     "capacity": "128 / 256 GB",
     "released": "Nov. 6, 2018 (USA)",
     "phoneFeatures": [
-      "In-screen optical fingerprint ID", "Curved edges on the back for nice handling"
+      "Optical in-display fingerprint scanner", "Curved edges on the back for nice handling"
     ],
     "cameraFeatures":[
       "None recorded"
