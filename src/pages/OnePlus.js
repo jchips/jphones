@@ -6,7 +6,7 @@ import "../styles/Brands.scss";
 
 class OnePlus extends Component {
   render() {
-    let versions = ['10', '9', '8', '7', '6'];
+    let versions = ['11', '10', '9', '8', '7', '6'];
     return (
       <div className='oneplus'>
         <h2>OnePlus Phones</h2>

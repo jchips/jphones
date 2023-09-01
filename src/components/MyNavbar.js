@@ -15,15 +15,15 @@ class MyNavbar extends React.Component {
               <Nav.Link href="/about">About</Nav.Link>
               <NavDropdown title="Companies" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/apple">Apple</NavDropdown.Item>
-                <NavDropdown.Item href="#">Asus</NavDropdown.Item>
+                <NavDropdown.Item href="/asus">Asus</NavDropdown.Item>
                 <NavDropdown.Item href="/google">Google</NavDropdown.Item>
                 <NavDropdown.Item href="#">Huawei</NavDropdown.Item>
                 <NavDropdown.Item href="/oneplus">OnePlus</NavDropdown.Item>
                 <NavDropdown.Item href="/samsung">Samsung</NavDropdown.Item>            
-                <NavDropdown.Divider />
+                {/* <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
                   Something else
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
