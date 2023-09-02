@@ -11,6 +11,7 @@ import Header from "./components/Header";
 import MyNavbar from "./components/MyNavbar";
 import About from './pages/About';
 import Apple from "./pages/Apple";
+import Asus from "./pages/Asus";
 import Samsung from "./pages/Samsung";
 import OnePlus from './pages/OnePlus';
 import Google from './pages/Google';
@@ -25,6 +26,7 @@ const Routing = () => {
           <Route path='/' element={<App />} />
           <Route path='/about' element={<About/>} />
           <Route path='/apple' element={<Apple />} />
+          <Route path='/asus' element={<Asus />} />
           <Route path='/google' element={<Google />}/>
           <Route path='/oneplus' element={<OnePlus/>}/>
           <Route path='/samsung' element={<Samsung/>} />

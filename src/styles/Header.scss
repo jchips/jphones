@@ -50,7 +50,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
 // Makes the hero text smaller on smaller screens
 @media screen and (max-width: 640px) {
   #hero-1 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 

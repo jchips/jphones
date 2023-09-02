@@ -6,7 +6,7 @@ import { Carousel, Container, ListGroup } from "react-bootstrap";
 
 class Apple extends React.Component {
   render() {
-    let versions = ['13', '12', '11', 'XS', 'X', 'SE'];
+    let versions = ['14', '13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <div className="apple">
         <h2>iPhones</h2>
