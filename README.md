@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 09-07-2023 (1.0.0) - Added latest Samsung phones.
 - 08-26-2023 (0.2.2) - Added Oneplus 10s and 11.
 - 08-19-2023 (0.2.1) - Added iPhone 14s.
 - 08-15-2023 (0.2.0) - Added Z Fold phones and Pixel 7s. Minor UI changes.
