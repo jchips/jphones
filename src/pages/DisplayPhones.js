@@ -31,7 +31,7 @@ class DisplayPhones extends React.Component {
     if (this.props.displayAllPhones === true) {
       return dataArray[0].rowData;
     } else {
-      return dataArray[0].rowData.filter(phone => parseInt(phone.year) >= 2021);
+      return dataArray[0].rowData.filter(phone => parseInt(phone.year) >= 2022);
     }
   }
 
