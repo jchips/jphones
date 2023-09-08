@@ -8,7 +8,7 @@ import "../styles/Brands.scss";
 
 class Samsung extends Component {
   render() {
-    let sPhones = ['s22', 's21', 's20', 's10', 's9'];
+    let sPhones = ['s23', 's22', 's21', 's20', 's10', 's9'];
     return (
       <div className='samsung'>
         <h2>Samsung Phones</h2>

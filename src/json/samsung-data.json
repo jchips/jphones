@@ -1,5 +1,195 @@
 [
   {
+    "name": "Galaxy S23 Ultra",
+    "id": "galaxy-23-ultra",
+    "img": "/assets/imgs/galaxys/galaxy-s23-ultra.png",
+    "brand": "Samsung",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "s23",
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Lavender", "tag": "samsung-lavender"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Lime (exclusive offer)", "tag": "lime"},
+      {"color": "Graphite (exclusive offer)", "tag": "samsung-graphite"},
+      {"color": "Sky Blue (exclusive offer)", "tag": "sky-blue"},
+      {"color": "Red (exclusive offer)", "tag": "samsung-red"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1380"},
+      {"storage": "1 TB", "price": "$1620"}
+    ],
+    "ui": "One UI 5.1",
+    "display": "6.8 in; 1440 x 3088 px, QHD+ LTPO 3 Dynamic AMOLED 2X",
+    "build": "Curved Gorilla Glass Victus 2 (Matte), Armor aluminum frame",
+    "size": "6.43 x 3.07 x 0.35 in",
+    "rearCameras": {"primary": "200 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
+    "frontCameras": "12 MP",
+    "ram": "8 / 12 GB",
+    "battery": "5000 mAh",
+    "charging": "45W fast, 15W wireless, 4.5W Powershare",
+    "capacity": "256 / 512 / 1 TB",
+    "released": "Feb. 17, 2023 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "Wifi 6E",
+      "Built-in S Pen",
+      "Bixby Routines",
+      "Bluetooth 5.3 support",
+      "120 Hz adaptive refresh rate",
+      "Advanced Vision booster (tweak the color and contrast of display more effective)"
+    ],
+    "cameraFeatures":[
+      "Optical zoom up to 10x, Digital zoom up to 100x",
+      "Additional 10 MP Periscope camera",
+      "Expert RAW app (for editing videos)",
+      "Laser auto focus",
+      "Astrophoto and Astral Hyperlapse",
+      "8K video @ 30fps",
+      "Adaptive Video Digital Image Stabilization",
+      "Super HDR functionality on front camera",
+      "Portrait video",
+      "Super Steady in QHD"
+    ],
+    "cameraPros":[
+      "The highest camera resolution on a phone",
+      "Improved low light images"
+    ],
+    "pros":[
+      "Made with 22% recycled glass"
+    ],
+    "cons":[
+      "None recorded"
+    ]
+  },
+  {
+    "name": "Galaxy S23+",
+    "id": "galaxy-23-plus",
+    "img": "/assets/imgs/galaxys/galaxy-s23-plus.png",
+    "brand": "Samsung",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "s23",
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Lavender", "tag": "samsung-lavender"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Lime (exclusive offer)", "tag": "lime"},
+      {"color": "Graphite (exclusive offer)", "tag": "samsung-graphite"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1120"}
+    ],
+    "ui": "One UI 5.1",
+    "display": "6.6 in; 1080 x 2340 px, FHD+ Dynamic AMOLED 2X",
+    "build": "Gorilla Glass Victus 2, Armor aluminum frame",
+    "size": "6.21 x 3.00 x 0.30 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
+    "frontCameras": "12 MP",
+    "ram": "8 GB",
+    "battery": "4700 mAh",
+    "charging": "45W, 15W wireless, 4.5W Powershare",
+    "capacity": "256 / 512 GB",
+    "released": "Feb. 17, 2023 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "Wifi 6E",
+      "Bixby Routines",
+      "Bluetooth 5.3 support",
+      "120 Hz adaptive refresh rate",
+      "Advanced Vision booster (tweak the color and contrast of display more effective)"
+    ],
+    "cameraFeatures":[
+      "Optical Zoom at 3x, Digital Zoom up to 30x",
+      "Expert RAW app (for editing videos)",
+      "Astrophoto and Astral Hyperlapse",
+      "8K video @ 30fps",
+      "4K video @ 60fps",
+      "Adaptive Video Digital Image Stabilization",
+      "Super HDR functionality on front camera",
+      "Portrait video",
+      "Super Steady in QHD"
+    ],
+    "cameraCons":[
+      "Same exact rear cameras as the Galaxy S22+"
+    ],
+    "pros":[
+      "Slightly larger battery than last year’s Galaxy S22+"
+    ],
+    "cons":[
+      "None recorded"
+    ]
+  },
+  {
+    "name": "Galaxy S23",
+    "id": "galaxy-23",
+    "img": "/assets/imgs/galaxys/galaxy-s23.png",
+    "brand": "Samsung",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "s23",
+    "colors": [
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Lavender", "tag": "samsung-lavender"},
+      {"color": "Cream", "tag": "cream"},
+      {"color": "Green", "tag": "samsung-green"},
+      {"color": "Lime (exclusive offer)", "tag": "lime"},
+      {"color": "Graphite (exclusive offer)", "tag": "samsung-graphite"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$860"}
+    ],
+    "ui": "One UI 5.1",
+    "display": "6.1 in; 1080 x 2340 px, FHD+ Dynamic AMOLED 2X",
+    "build": "Gorilla Glass Victus 2, Armor aluminum frame",
+    "size": "5.76 x 2.79 x 0.30 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
+    "frontCameras": "12 MP",
+    "ram": "8 GB",
+    "battery": "3900 mAh",
+    "charging": "25W fast, 15W wireless, 4.5W Powershare",
+    "capacity": "128 / 256 GB",
+    "released": "Feb. 17, 2023 (USA)",
+    "phoneFeatures": [
+      "5G support",
+      "Wifi 6E",
+      "Bixby Routines",
+      "Bluetooth 5.3 support",
+      "120 Hz adaptive refresh rate",
+      "Advanced Vision booster (tweak the color and contrast of display more effective)"
+    ],
+    "cameraFeatures":[
+      "Optical Zoom at 3x, Digital Zoom up to 30x",
+      "Astrophoto and Astral Hyperlapse",
+      "Expert RAW app (for editing videos)",
+      "8K video @ 30fps",
+      "Adaptive Video Digital Image Stabilization",
+      "Super HDR functionality on front camera",
+      "Portrait video",
+      "Super Steady in QHD"
+    ],
+    "cameraPros":[
+      "Improved OIS"
+    ],
+    "cameraCons":[
+      "Exact same rear cameras as the Galaxy S22"
+    ],
+    "pros":[
+      "More shatter resistant than the Galaxy S22 display",
+      "Slightly larger battery than last year’s Galaxy S22+",
+      "Incredible haptics ~ Sam Beckman, June 2023"
+    ],
+    "cons":[
+      "Battery life is not great"
+    ]
+  },
+  {
     "name": "Galaxy S22 Ultra",
     "id": "s22-ultra",
     "img": "/assets/imgs/galaxys/galaxy-s22-ultra.png",
@@ -23,14 +213,14 @@
       {"storage": "1 TB (12 GB ram)", "price": "$1600"}
     ],
     "ui": "One UI 4.1",
-    "display": "6.8 in; 1440x3088 px, Curved QHD+ Dynamic AMOLED 2X",
+    "display": "6.8 in; 1440 x 3088 px, Curved QHD+ Dynamic AMOLED 2X",
     "build": "Curved Gorilla Glass Victus+ (Matte)",
     "size": "6.43 x 3.07 x 0.35 in",
     "rearCameras": {"primary": "108 MP", "ultrawide": "12 MP", "telephoto": "10 MP", "periscope": "10 MP"},
     "frontCameras": "40 MP",
     "ram": "8 / 12 GB",
     "battery": "5000 mAh",
-    "charging": "45W, 15W wireless, 4.5 PowerShare",
+    "charging": "45W, 15W wireless, 4.5W PowerShare",
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
@@ -42,7 +232,7 @@
       "3x and 10x optical zoom", "Periscope camera", "12-bit HDR recording (64x more colors then previously)"
     ],
     "cameraPros":[
-      "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
+      "\"Surprisingly big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
     "cameraCons":[
       "Same rear camera sensor as Galaxy S21 Ultra"
@@ -87,7 +277,7 @@
     "frontCameras": "10MP",
     "ram": "8 GB",
     "battery": "4500 mAh",
-    "charging": "45W, 15W wireless, 4.5 PowerShare",
+    "charging": "45W, 15W wireless, 4.5W PowerShare",
     "capacity": "128 / 256 GB",
     "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
@@ -98,7 +288,7 @@
       "3x and 10x optical zoom", "12-bit HDR recording (64x more colors then previously)"
     ],
     "cameraPros":[
-      "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
+      "\"Surprisingly big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
     "cameraCons":[
       "None recorded"
@@ -140,7 +330,7 @@
     "frontCameras": "10 MP",
     "ram": "8 GB",
     "battery": "3700 mAh",
-    "charging": "25W, 15W wireless, 4.5 PowerShare",
+    "charging": "25W, 15W wireless, 4.5W PowerShare",
     "capacity": "128 / 256 GB",
     "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
@@ -151,7 +341,7 @@
       "3x and 10x optical zoom", "12-bit HDR recording (64x more colors then previously)"
     ],
     "cameraPros":[
-      "\"Surprising big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
+      "\"Surprisingly big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
     "cameraCons":[
       "None recorded"

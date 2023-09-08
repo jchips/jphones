@@ -15,7 +15,7 @@ class About extends Component {
           <Col>
             <section>
               <h4>Hi! :)</h4>
-              <p>I'm Jaye. I am a phone phone geek, so I decided to make a site for phone shoppers to find the best phone for them.
+              <p>I'm Jaye. I am a phone geek, so I decided to make a site for phone shoppers to find the best phone for them.
                 I'm an entry-level full-stack software developer job-seeking and can be contacted at <a href="mailto:jrosecow@gmail.com">Jrosecow@gmail.com</a>.
                 Check out my website at <a href='https://jrosecow.com' blank="_target">Jrosecow.com</a>.
               </p>

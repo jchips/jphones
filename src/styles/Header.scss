@@ -30,7 +30,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
     font-size: 4.5rem;
     text-transform: uppercase;
     color: $yellow;
-    animation: reduce 0.5s ease-in;
+    animation: reduce 0.2s ease-in;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;
     animation-fill-mode: forwards;
@@ -38,10 +38,10 @@ $scrollAnimation: calc(var(--scroll) * -1s);
 }
 
 #hero-2 {
-  left: 30%;
+  left: 40%;
   top: 65%;
   font-style: italic;
-  animation: slideIn 0.5s ease-out 0s 1;
+  animation: slideIn 0.2s ease-out 0s 1;
   animation-play-state: paused;
   animation-delay: $scrollAnimation;
   animation-fill-mode: both;
@@ -52,6 +52,10 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   #hero-1 h1 {
     font-size: 2rem;
   }
+
+  // #hero-2 h4 {
+  //   left: 50%;
+  // }
 }
 
 // Makes the header text slide in from the left on page load.
