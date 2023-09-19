@@ -17,22 +17,24 @@ class WidePhoneCarousel extends Component {
             <Carousel.Item>
               <h2>{this.props.phone.name}</h2>
               <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
-              <div className='phone-colors'>
-                <p id="colors-title">Colors:</p>
-                {this.props.phone.colors.map(color =>
-                  <div style={{ display: "flex" }}>
-                    <p>{color.color}</p>
-                    <div className={`color ${color.tag}`} key={color.tag}></div>
-                  </div>
-                )}
+              <div className='mobile-scrollable'>
+                <div className='phone-colors'>
+                  <p id="colors-title">Colors:</p>
+                  {this.props.phone.colors.map(color =>
+                    <div style={{ display: "flex" }}>
+                      <p>{color.color}</p>
+                      <div className={`color ${color.tag}`} key={color.tag}></div>
+                    </div>
+                  )}
+                </div>
+                <div className='prices'>
+                  <h3>Starting prices</h3>
+                  {this.props.phone.prices.map((price, index) =>
+                    <p key={index}><span>{price.storage}: </span>{price.price}</p>
+                  )}
+                </div>
+                <h6>Released: {this.props.phone.released}</h6>
               </div>
-              <div className='prices'>
-                <h3>Starting prices</h3>
-                {this.props.phone.prices.map((price, index) =>
-                  <p key={index}><span>{price.storage}: </span>{price.price}</p>
-                )}
-              </div>
-              <h6>Released: {this.props.phone.released}</h6>
             </Carousel.Item>
 
             {/* Phone specs */}
@@ -42,11 +44,11 @@ class WidePhoneCarousel extends Component {
                 <ListGroup variant='flush'>
                   <ListGroup.Item><p><span>UI: </span>{this.props.phone.ui}</p></ListGroup.Item>
                   {!this.props.phone.foldable && (<ListGroup.Item><p><span>Size: </span>{this.props.phone.size}</p></ListGroup.Item>)}
-                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Size: </span><span className="foldable">Unfolded: </span>{this.props.phone.openSize}<span className="foldable">, Folded: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Size: </span><span className="foldable">Unfolded: </span>{this.props.phone.openSize}<span className="foldable">, Folded: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
                   {/* {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed size: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)} */}
                   {!this.props.phone.foldable && (<ListGroup.Item><p><span>Display: </span>{this.props.phone.display}</p></ListGroup.Item>)}
-                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
-                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
                   <ListGroup.Item><p><span>Build: </span>{this.props.phone.build}</p></ListGroup.Item>
                   <ListGroup.Item>
                     <p><span>Battery: </span>{this.props.phone.battery}</p>
@@ -109,62 +111,62 @@ class WidePhoneCarousel extends Component {
             </Carousel.Item>
 
             {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (
-            <Carousel.Item className='slide camera-pros-cons'>
-              <h2>{this.props.phone.name}</h2>
-              <h3>Cameras - Pros & Cons</h3>
-              {this.props.phone.cameraPros && (
-                <section className="pros-and-cons-bubble">
-                  <h4>Camera Pros:</h4>
-                  <div className="scrollable">
-                    <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
-                  </div>
-                </section>
-              )}
-              {this.props.phone.cameraCons && (
-                <section className="pros-and-cons-bubble">
-                  <h4>Camera Cons:</h4>
-                  <div className="scrollable">
-                    <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
-                  </div>
-                </section>
-              )}
-            </Carousel.Item>
+              <Carousel.Item className='slide camera-pros-cons'>
+                <h2>{this.props.phone.name}</h2>
+                <h3>Cameras - Pros & Cons</h3>
+                {this.props.phone.cameraPros && (
+                  <section className="pros-and-cons-bubble">
+                    <h4>Camera Pros:</h4>
+                    <div className="scrollable">
+                      <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                    </div>
+                  </section>
+                )}
+                {this.props.phone.cameraCons && (
+                  <section className="pros-and-cons-bubble">
+                    <h4>Camera Cons:</h4>
+                    <div className="scrollable">
+                      <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                    </div>
+                  </section>
+                )}
+              </Carousel.Item>
             )}
 
             {/* Pros and Cons */}
-          <Carousel.Item className="slide pros-and-cons-slide">
-            <h2>{this.props.phone.name}</h2>
-            <div className="pros-and-cons">
-              <h3>Pros and Cons</h3>
-              <section className="pros-and-cons-bubble">
-                <h4>Pros</h4>
-                <div className="scrollable">
-                  <ul>{this.props.phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
-                </div>
-              </section>
-              <section className="pros-and-cons-bubble">
-                <h4>Cons</h4>
-                <div className="scrollable">
-                  <ul>{this.props.phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
-                </div>
-              </section>
-            </div>
-          </Carousel.Item>
-
-          {/* Approbations */}
-          {this.props.phone.approbations && (
-            <Carousel.Item className='slide'>
+            <Carousel.Item className="slide pros-and-cons-slide">
               <h2>{this.props.phone.name}</h2>
-              <h3>Approbations</h3>
-              <section className="approbations">
-                <ul>
-                  {this.props.phone.approbations.map((approbation, index) =>
-                    <li key={index}>{approbation}</li>
-                  )}
-                </ul>
-              </section>
+              <div className="pros-and-cons">
+                <h3>Pros and Cons</h3>
+                <section className="pros-and-cons-bubble">
+                  <h4>Pros</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                  </div>
+                </section>
+                <section className="pros-and-cons-bubble">
+                  <h4>Cons</h4>
+                  <div className="scrollable">
+                    <ul>{this.props.phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                  </div>
+                </section>
+              </div>
             </Carousel.Item>
-          )}
+
+            {/* Approbations */}
+            {this.props.phone.approbations && (
+              <Carousel.Item className='slide'>
+                <h2>{this.props.phone.name}</h2>
+                <h3>Approbations</h3>
+                <section className="approbations">
+                  <ul>
+                    {this.props.phone.approbations.map((approbation, index) =>
+                      <li key={index}>{approbation}</li>
+                    )}
+                  </ul>
+                </section>
+              </Carousel.Item>
+            )}
           </Carousel>
         </div>
       </div>
