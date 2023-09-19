@@ -11,7 +11,7 @@ class Header extends React.Component {
               <h1>J. Phones.com</h1>
             </div>
             <div id="hero-2" className="hero-text">
-              <h4>Helping you chose your next smartphone!</h4>
+              <h4>Helping you choose your next smartphone!</h4>
             </div>
           </div>
         </header>
