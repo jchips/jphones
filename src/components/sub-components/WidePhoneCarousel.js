@@ -38,22 +38,24 @@ class WidePhoneCarousel extends Component {
             {/* Phone specs */}
             <Carousel.Item className='slide phone-specs-slide'>
               <h2>{this.props.phone.name}</h2>
-              <ListGroup variant='flush'>
-                <ListGroup.Item><p><span>UI: </span>{this.props.phone.ui}</p></ListGroup.Item>
-                {!this.props.phone.foldable && (<ListGroup.Item><p><span>Size: </span>{this.props.phone.size}</p></ListGroup.Item>)}
-                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Size: </span><span className="foldable">Unfolded: </span>{this.props.phone.openSize}<span className="foldable">, Folded: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
-                {/* {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed size: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)} */}
-                {!this.props.phone.foldable && (<ListGroup.Item><p><span>Display: </span>{this.props.phone.display}</p></ListGroup.Item>)}
-                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
-                {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
-                <ListGroup.Item><p><span>Build: </span>{this.props.phone.build}</p></ListGroup.Item>
-                <ListGroup.Item>
-                  <p><span>Battery: </span>{this.props.phone.battery}</p>
-                  <p><span>Charging: </span>{this.props.phone.charging}</p>
-                </ListGroup.Item>
-                <ListGroup.Item><p><span>Ram: </span>{this.props.phone.ram}</p></ListGroup.Item>
-                <ListGroup.Item><p><span>Capacity: </span>{this.props.phone.capacity}</p></ListGroup.Item>
-              </ListGroup>
+              <div className="mobile-scrollable">
+                <ListGroup variant='flush'>
+                  <ListGroup.Item><p><span>UI: </span>{this.props.phone.ui}</p></ListGroup.Item>
+                  {!this.props.phone.foldable && (<ListGroup.Item><p><span>Size: </span>{this.props.phone.size}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Size: </span><span className="foldable">Unfolded: </span>{this.props.phone.openSize}<span className="foldable">, Folded: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)}
+                  {/* {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed size: </span>{this.props.phone.closedSize}</p></ListGroup.Item>)} */}
+                  {!this.props.phone.foldable && (<ListGroup.Item><p><span>Display: </span>{this.props.phone.display}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Open display: </span>{this.props.phone.openDisplay}</p></ListGroup.Item>)}
+                  {this.props.phone.foldable && (<ListGroup.Item style={{padding: "5px"}}><p><span>Closed display: </span>{this.props.phone.closedDisplay}</p></ListGroup.Item>)}
+                  <ListGroup.Item><p><span>Build: </span>{this.props.phone.build}</p></ListGroup.Item>
+                  <ListGroup.Item>
+                    <p><span>Battery: </span>{this.props.phone.battery}</p>
+                    <p><span>Charging: </span>{this.props.phone.charging}</p>
+                  </ListGroup.Item>
+                  <ListGroup.Item><p><span>Ram: </span>{this.props.phone.ram}</p></ListGroup.Item>
+                  <ListGroup.Item><p><span>Capacity: </span>{this.props.phone.capacity}</p></ListGroup.Item>
+                </ListGroup>
+              </div>
             </Carousel.Item>
 
             {/* Features */}

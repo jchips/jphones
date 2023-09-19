@@ -111,3 +111,14 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wide-carousel .slide {
+    padding: 0 20px;
+  }
+
+  .mobile-scrollable {
+    height: 315px;
+    overflow-y: auto;
+  }
+}
