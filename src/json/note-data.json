@@ -2,6 +2,7 @@
   {
     "name": "Galaxy Note 20 Ultra",
     "id": "note-20-ultra",
+    "offName": "Samsung Galaxy Note 20 Ultra",
     "img": "/assets/imgs/notes/note-20-ultra.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -54,6 +55,7 @@
   {
     "name": "Galaxy Note 20",
     "id": "note-20",
+    "offName": "Samsung Galaxy Note 20",
     "img": "/assets/imgs/notes/note-20.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -105,6 +107,7 @@
   {
     "name": "Galaxy Note 10+",
     "id": "note-10-plus",
+    "offName": "Samsung Galaxy Note 10 Plus",
     "img": "/assets/imgs/notes/note-10-plus.png",
     "brand": "Samsung",
     "os": "Android P",
@@ -156,6 +159,7 @@
   {
     "name": "Galaxy Note 10",
     "id": "galaxy-note-10",
+    "offName": "Samsung Galaxy Note 10",
     "img": "/assets/imgs/notes/note-10.png",
     "brand": "Samsung",
     "os": "Android P",
@@ -210,6 +214,7 @@
   {
     "name": "Galaxy Note 10 Lite",
     "id": "note-10-lite",
+    "offName": "Samsung Galaxy Note 10 Lite",
     "img": "/assets/imgs/notes/note-10-lite.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -257,6 +262,7 @@
   {
     "name": "Galaxy Note 9",
     "id": "note-9",
+    "offName": "Samsung Galaxy Note 9",
     "img": "/assets/imgs/notes/note-9.png",
     "brand": "Samsung",
     "os": "Android O",

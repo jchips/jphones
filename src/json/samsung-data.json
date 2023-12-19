@@ -2,6 +2,7 @@
   {
     "name": "Galaxy S23 Ultra",
     "id": "galaxy-23-ultra",
+    "offName": "Samsung Galaxy S23 Ultra",
     "img": "/assets/imgs/galaxys/galaxy-s23-ultra.png",
     "brand": "Samsung",
     "os": "Android 13",
@@ -68,6 +69,7 @@
   {
     "name": "Galaxy S23+",
     "id": "galaxy-23-plus",
+    "offName": "Samsung Galaxy S23 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s23-plus.png",
     "brand": "Samsung",
     "os": "Android 13",
@@ -128,6 +130,7 @@
   {
     "name": "Galaxy S23",
     "id": "galaxy-23",
+    "offName": "Samsung Galaxy S23",
     "img": "/assets/imgs/galaxys/galaxy-s23.png",
     "brand": "Samsung",
     "os": "Android 13",
@@ -192,6 +195,7 @@
   {
     "name": "Galaxy S22 Ultra",
     "id": "s22-ultra",
+    "offName": "Samsung Galaxy S22 Ultra",
     "img": "/assets/imgs/galaxys/galaxy-s22-ultra.png",
     "brand": "Samsung",
     "os": "Android 12",
@@ -250,6 +254,7 @@
   {
     "name": "Galaxy S22+",
     "id": "galaxy-s22-plus",
+    "offName": "Samsung Galaxy S22 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s22-plus.png",
     "brand": "Samsung",
     "os": "Android 12",
@@ -303,6 +308,7 @@
   {
     "name": "Galaxy S22",
     "id": "galaxy-s22",
+    "offName": "Samsung Galaxy S22",
     "img": "/assets/imgs/galaxys/galaxy-s22.png",
     "brand": "Samsung",
     "os": "Android 12",
@@ -356,6 +362,7 @@
   {
     "name": "Galaxy S21 Ultra",
     "id": "s21-ultra",
+    "offName": "Samsung Galaxy S21 Ultra",
     "img": "/assets/imgs/galaxys/galaxy-s21-ultra.png",
     "brand": "Samsung",
     "os": "Android 11",
@@ -420,6 +427,7 @@
   {
     "name": "Galaxy S21+",
     "id": "galaxy-s21-plus",
+    "offName": "Samsung Galaxy S21 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s21-plus.png",
     "brand": "Samsung",
     "os": "Android 11",
@@ -473,6 +481,7 @@
   {
     "name": "Galaxy S21",
     "id": "galaxy-s21",
+    "offName": "Samsung Galaxy S21",
     "img": "/assets/imgs/galaxys/galaxy-s21.png",
     "brand": "Samsung",
     "os": "Android 11",
@@ -525,6 +534,7 @@
   {
     "name": "Galaxy S21 FE",
     "id": "galaxy-s21-fe",
+    "offName": "Samsung Galaxy S21 FE",
     "img": "/assets/imgs/galaxys/galaxy-s21-fe.png",
     "brand": "Samsung",
     "os": "Android 12",
@@ -574,6 +584,7 @@
   {
     "name": "Galaxy S20 Ultra",
     "id": "galaxy-s20-ultra",
+    "offName": "Samsung Galaxy S20 Ultra",
     "img": "/assets/imgs/galaxys/galaxy-s20-ultra.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -624,6 +635,7 @@
   {
     "name": "Galaxy S20+",
     "id": "galaxy-s20-plus",
+    "offName": "Samsung Galaxy S20 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s20-plus.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -676,6 +688,7 @@
   {
     "name": "Galaxy S20",
     "id": "galaxy-s20",
+    "offName": "Samsung Galaxy S20",
     "img": "/assets/imgs/galaxys/galaxy-s20.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -730,6 +743,7 @@
   {
     "name": "Galaxy S20 FE",
     "id": "galaxy-s20-fe",
+    "offName": "Samsung Galaxy S20 FE",
     "img": "/assets/imgs/galaxys/galaxy-s20-fe.png",
     "brand": "Samsung",
     "os": "Android 10",
@@ -775,6 +789,7 @@
   {
     "name": "Galaxy S10+",
     "id": "galaxy-s10-plus",
+    "offName": "Samsung Galaxy S10 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s10-plus.png",
     "brand": "Samsung",
     "os": "Android P",
@@ -832,6 +847,7 @@
   {
     "name": "Galaxy S10",
     "id": "galaxy-s10",
+    "offName": "Samsung Galaxy S10",
     "img": "/assets/imgs/galaxys/galaxy-s10.png",
     "brand": "Samsung",
     "os": "Android P",
@@ -882,6 +898,7 @@
   {
     "name": "Galaxy S10e",
     "id": "galaxy-s10e",
+    "offName": "Samsung Galaxy S10e",
     "img": "/assets/imgs/galaxys/galaxy-s10e.png",
     "brand": "Samsung",
     "os": "Android P",
@@ -938,6 +955,7 @@
   {
     "name": "Galaxy S9+",
     "id": "galaxy-s9-plus",
+    "offName": "Samsung Galaxy S9 Plus",
     "img": "/assets/imgs/galaxys/galaxy-s9-plus.png",
     "brand": "Samsung",
     "os": "Android O",
@@ -985,6 +1003,7 @@
   {
     "name": "Galaxy S9",
     "id": "galaxy-s9",
+    "offName": "Samsung Galaxy S9",
     "img": "/assets/imgs/galaxys/galaxy-s9.png",
     "brand": "Samsung",
     "os": "Android O",
