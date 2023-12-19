@@ -19,6 +19,7 @@ class Apple extends React.Component {
               <h3>Features</h3>
               <div className="brands-scrollable">
                 <ListGroup variant="flush">
+                  <ListGroup.Item>5G (iPhone 12 and later)</ListGroup.Item>
                   <ListGroup.Item>Siri</ListGroup.Item>
                   <ListGroup.Item>Airdrop</ListGroup.Item>
                   <ListGroup.Item>Apple Pay</ListGroup.Item>
@@ -72,7 +73,7 @@ class Apple extends React.Component {
                       <li>No headphone jack</li>
                       <li>Two-step face unlock</li>
                       <li>Face ID doesn't work when phone is flat on table?</li>
-                      <li>Doesn't use common charger (Lightning port instead of USB Type C)</li>
+                      <li>Late to use common cable (most phones have Lightning port instead of USB Type C)</li>
                       <li>Large notch <i>[exceptions: SE (2022 & 2020), 8 Plus and older]</i></li>
                       <li>Transferring files between computer and phone is complicated because of Apple being proprietary</li>
                       <li>Google Assistant and Google Maps are better than Siri and Apple Maps</li>

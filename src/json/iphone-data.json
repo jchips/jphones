@@ -21,7 +21,7 @@
     ],
     "ui": "IOS 16",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.05 x 0.31 in",
     "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
@@ -31,7 +31,6 @@
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 16, 2022 (USA)",
     "phoneFeatures": [
-      "5G",
       "Dynamic Island",
       "Always-On Display",
       "HDR Support",
@@ -49,7 +48,7 @@
       "Photographic Styles",
       "ProRes video and action mode",
       "Adaptive True Tone flash",
-      "Macro video recording"
+      "Macro video recording & photography"
     ],
     "pros":[
       "Highest brightness ever recorded on a smartphone (2000 nits)"
@@ -82,8 +81,8 @@
       {"storage": "1 TB", "price": "$1500"}
     ],
     "ui": "IOS 16",
-    "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "display": "6.1 in; 1179 x 2556 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.81 x 2.81 x 0.31 in",
     "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
@@ -110,7 +109,7 @@
       "Photographic Styles",
       "ProRes video and Action mode",
       "Adaptive True Tone flash",
-      "Macro video recording"
+      "Macro video recording & photography"
     ],
     "pros":[
       "Highest brightness ever recorded on a smartphone (2000 nits)",
@@ -145,7 +144,7 @@
       {"storage": "512 GB", "price": "$1200"}
     ],
     "ui": "IOS 16",
-    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
+    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame",
     "size": "6.33 x 3.07 x 0.31 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
@@ -170,7 +169,7 @@
       "4K video @ up to 60 fps"
     ],
     "cameraCons":[
-      "No telephoto photo",
+      "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No Macro video recording (unlike iPhone 14 Pro & Pro Max)",
       "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
@@ -186,7 +185,7 @@
       "Same chipset as the iPhone 13s (old chipset)",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
       "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
-      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro & Pro Max"
+      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro"
     ]
   },
   {
@@ -211,14 +210,14 @@
       {"storage": "512 GB", "price": "$1100"}
     ],
     "ui": "IOS 16",
-    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame (Matte)",
+    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.31 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3279 mAh",
-    "charging": "20W, 7.5 wireless, 15 MagSafe",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 16, 2022 (USA)",
     "phoneFeatures": [
@@ -236,7 +235,7 @@
       "4K video @ up to 60 fps"
     ],
     "cameraCons":[
-      "No telephoto photo",
+      "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
       "No Apple ProRaw (unlike iPhone 14 Pro & Pro Max)"
@@ -246,8 +245,8 @@
     ],
     "cons":[
       "No charger ITB",
-      "No Always-On display (unlike iPhone 14 Pro and Pro Max)",
-      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro & Pro Max",
+      "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
+      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
       "Same chipset as the iPhone 13s (old chipset)"
     ]
@@ -271,7 +270,7 @@
       {"storage": "256 GB", "price": "$580"}
     ],
     "ui": "IOS 15",
-    "display": "4.7 in; 750x1334 px, Retina HD",
+    "display": "4.7 in; 750 x 1334 px, Retina HD",
     "build": "Glass, aluminum frame",
     "size": "5.45 x 2.65 x 0.29 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
@@ -282,7 +281,6 @@
     "capacity": "64 / 128 / 256 GB",
     "released": "Mar. 18, 2022 (USA)",
     "phoneFeatures": [
-      "5G",
       "IP67 water/dust resistant",
       "Fingerprint scanner",
       "Uses Apple’s latest processor"
@@ -340,18 +338,18 @@
       {"storage": "1 TB", "price": "$1600"}
     ],
     "ui": "IOS 15",
-    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.07 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4352 mAh",
-    "charging": "20W, 7.5W Qi, 15W MagSafe",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 25, 2021 (USA)",
     "phoneFeatures": [
-      "5G", "Wi-Fi 6", "120 Hz refresh rate (ProMotion)"
+      "WiFi 6", "120 Hz refresh rate (ProMotion)"
     ],
     "cameraFeatures": [
       "Night mode on all cameras", "3x optical zoom", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
@@ -391,18 +389,18 @@
       {"storage": "1 TB", "price": "$1500"}
     ],
     "ui": "IOS 15",
-    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3095 mAh",
-    "charging": "20W, 7.5W Qi, 15W MagSafe",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "5G", "Wi-Fi 6", "120 Hz refresh rate (ProMotion)"
+      "WiFi 6", "120 Hz refresh rate (ProMotion)"
     ],
     "cameraFeatures": [
       "Night mode on all cameras", "3x optical zoom", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
@@ -444,18 +442,18 @@
       {"storage": "512 GB", "price": "$1100"}
     ],
     "ui": "IOS 15",
-    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
+    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3227 mAh",
-    "charging": "20W, 7.5W Qi, 15W MagSafe",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "5G", "Wi-Fi 6"
+      "WiFi 6"
     ],
     "cameraFeatures": [
       "Night mode on all cameras", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
@@ -497,18 +495,18 @@
       {"storage": "512 GB", "price": "$1000"}
     ],
     "ui": "IOS 15",
-    "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
+    "display": "5.4 in; 1080 x 2340 px, Super Retina XDR OLED",
+    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.18 x 2.53 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2,406 mAh",
-    "charging": "20W, 7.5W Qi, 15W Magsafe",
+    "charging": "20W, 15W Magsafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "5G", "Wi-Fi 6"
+      "WiFi 6"
     ],
     "cameraFeatures": [
       "Night mode on all cameras", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
@@ -547,14 +545,14 @@
       {"storage": "512 GB", "price": "$1400"}
     ],
     "ui": "IOS 14.1",
-    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
-    "build": "Ceramic Shield / glass, stainless steel frame (matte)",
+    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.07 x 0.29 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3587 mAh",
-    "charging": "20W fast, 7.5W wireless, 15W MagSafe",
+    "charging": "20W fast, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Nov. 13, 2020 (USA)",
     "phoneFeatures": [
@@ -606,14 +604,14 @@
       {"storage": "512 GB", "price": "$1300"}
     ],
     "ui": "IOS 14.1",
-    "display": "6.1 in; 1170x2532 px; Super Retina XDR OLED",
-    "build": "Ceramic Shield / glass, stainless steel frame (matte)",
+    "display": "6.1 in; 1170 x 2532 px; Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2815 mAh",
-    "charging": "20W fast, 7.5W wireless, 15W MagSafe",
+    "charging": "20W fast, 15W MagSafe, 7.5W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Oct. 23, 2020 (USA)",
     "phoneFeatures": [
@@ -666,14 +664,14 @@
       {"storage": "256 GB", "price": "$980"}
     ],
     "ui": "IOS 14.1",
-    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame (Glossy)",
+    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.29 in",
     "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
     "frontCameras": "8 MP",
     "ram": "4 GB",
     "battery": "2815 mAh",
-    "charging": "20W fast, 7.5W wireless, 15W MagSafe",
+    "charging": "20W fast, 15W MagSafe, 7.5W wireless",
     "capacity": "64 / 128 / 256 GB",
     "released": "Oct. 23, 2020 (USA)",
     "phoneFeatures": [
@@ -727,14 +725,14 @@
       {"storage": "256 GB", "price": "$880"}
     ],
     "ui": "IOS 14.1",
-    "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame (Matte)",
+    "display": "5.4 in; 1080 x 2340 px, Super Retina XDR OLED",
+    "build": "Glass / Ceramic Shield, stainless steel frame",
     "size": "5.18 x 2.53 x 0.29 in",
     "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2227 mAh",
-    "charging": "20W fast, 7.5W wireless, 12W MagSafe",
+    "charging": "20W fast, 12W MagSafe, 7.5W wireless",
     "capacity": "64 / 128 / 256 GB",
     "released": "Nov. 13, 2020 (USA)",
     "phoneFeatures": [
@@ -781,8 +779,8 @@
       {"storage": "256 GB", "price": "$550"}
     ],
     "ui": "IOS 13",
-    "display": "4.7 in; 750x1334 px, LCD Retina HD",
-    "build": "Glass / aluminum, aluminum frame (glossy)",
+    "display": "4.7 in; 750 x 1334 px, LCD Retina HD",
+    "build": "Glass (glossy) / aluminum, aluminum frame",
     "size": "5.45 x 2.65 x 0.29 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
     "frontCameras": "7 MP",
@@ -830,7 +828,7 @@
       {"storage": "512 GB", "price": "$1450"}
     ],
     "ui": "IOS 13.1",
-    "display": "6.5 in; 1242x2688 in; Super Retina XDR OLED",
+    "display": "6.5 in; 1242 x 2688 px; Super Retina XDR OLED",
     "build": "Glass / Frosted, stainless steel frame",
     "size": "6.22 x 3.06 x 0.32 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
@@ -883,7 +881,7 @@
       {"storage": "512 GB", "price": "$1350"}
     ],
     "ui": "IOS 13.1",
-    "display": "5.8 in; 1125x2436 px; Super Retina XDR OLED",
+    "display": "5.8 in; 1125 x 2436 px; Super Retina XDR OLED",
     "build": "Glass / Frosted, stainless steel frame",
     "size": "5.67 x 2.81 x 0.32 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
@@ -938,7 +936,7 @@
       {"storage": "64 GB", "price": "$700"}
     ],
     "ui": "IOS 13.1",
-    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD",
+    "display": "6.1 in; 828 x 1792 px, Liquid Retina HD LCD",
     "build": "Gorilla Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
     "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
@@ -990,7 +988,7 @@
       {"storage": "512 GB", "price": "$1450"}
     ],
     "ui": "IOS 12",
-    "display": "6.5 in; 1242x2688 in; Super Retina HD",
+    "display": "6.5 in; 1242 x 2688 px; Super Retina HD",
     "build": "Glass, stainless steel frame",
     "size": "6.20 x 3.05 x 0.30 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
@@ -1035,7 +1033,7 @@
       {"storage": "512 GB", "price": "$1350"}
     ],
     "ui": "IOS 12",
-    "display": "5.8 in; 1125x2436 px, Super Retina HD",
+    "display": "5.8 in; 1125 x 2436 px, Super Retina HD",
     "build": "Glass, stainless steel frame",
     "size": "5.65 x 2.79 x 0.3 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
@@ -1093,7 +1091,7 @@
       {"storage": "256 GB", "price": "$900"}
     ],
     "ui": "IOS 12",
-    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD screen",
+    "display": "6.1 in; 828 x 1792 px, Liquid Retina HD LCD screen",
     "build": "Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
@@ -1148,7 +1146,7 @@
       {"storage": "256 GB", "price": "$1150"}
     ],
     "ui": "IOS 11",
-    "display": "5.8 in; 1125x2436 px, Super AMOLED",
+    "display": "5.8 in; 1125 x 2436 px, Super AMOLED",
     "build": "Glass, stainless steel frame",
     "size": "5.65 x 2.79 x 0.3 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
