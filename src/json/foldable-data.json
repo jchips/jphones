@@ -2,6 +2,7 @@
   {
     "name": "Galaxy Z Fold 5",
     "id": "galaxy-z-fold-5",
+    "offName": "Samsung Galaxy Z Fold 5",
     "foldable": true,
     "img": "/assets/imgs/galaxys/galaxy-z-fold-5.png",
     "brand": "Samsung",
@@ -80,6 +81,7 @@
   {
     "name": "Pixel Fold",
     "id": "pixel-fold",
+    "offName": "Google Pixel Fold",
     "foldable": true,
     "img": "/assets/imgs/pixels/pixel-fold.png",
     "brand": "Google",
@@ -140,6 +142,7 @@
   {
     "name": "Galaxy Z Fold 4",
     "id": "galaxy-z-fold-4",
+    "offName": "Samsung Galaxy Z Fold 4",
     "foldable": true,
     "img": "/assets/imgs/galaxys/galaxy-z-fold-4.png",
     "brand": "Samsung",
@@ -216,6 +219,7 @@
   {
     "name": "Galaxy Z Fold 3",
     "id": "z-fold-3",
+    "offName": "Samsung Galaxy Z Fold 3",
     "foldable": true,
     "img": "/assets/imgs/galaxys/galaxy-z-fold-3.png",
     "brand": "Samsung",
@@ -264,6 +268,7 @@
   {
     "name": "Moto RAZR 2020",
     "id": "moto-razr-2020",
+    "offName": "Motorola Moto RAZR 2020",
     "foldable": true,
     "img": "phones-img/razr-2020.png",
     "brand": "Motorola",

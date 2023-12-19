@@ -9,7 +9,7 @@ class MyNavbar extends React.Component {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-          <Navbar.Brand href="/">J. Phones.com</Navbar.Brand>
+          <Navbar.Brand href="/">jPhones.com</Navbar.Brand>
             <Nav activeKey={window.location.pathname}>
               <Nav.Link href='/'>Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>

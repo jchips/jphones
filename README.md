@@ -2,12 +2,16 @@
 
 Jphones phone specs. Site to compare phones and pick the best one for purchase.
 
+Live site: <https://jphones.netlify.app/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Author: Jaye Rose
+## Author: Jelani R
 
 ## Changelog
 
+- 12-19-2023 (2.0.0) - Added a search bar on the main page.
+- 12-18-2023 (1.0.2) - Minor edits/updates.
 - 09-18-2023 (1.0.1) - Added improvements to mobile browswer view.
 - 09-07-2023 (1.0.0) - Added latest Samsung phones.
 - 08-26-2023 (0.2.2) - Added Oneplus 10s and 11.
@@ -22,6 +26,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
 
 - [Lazy loading images](https://www.npmjs.com/package/react-lazy-load-image-component)
+
+- [React Icons (Search icon)](https://react-icons.github.io/react-icons/)
+
+- [Search bar CSS from Ahmad Emran](https://codepen.io/ahmadbassamemran/pen/rNjMXqg)
 
 ## Available Scripts
 

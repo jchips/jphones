@@ -22,10 +22,10 @@ class About extends Component {
               <p>This site is to compare phones and pick the best one for purchase.</p>
               <Accordion>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>J. Phones Glossary</Accordion.Header>
+                  <Accordion.Header>jPhones Glossary</Accordion.Header>
                   <Accordion.Body>
                     {abbreviations.map(abbr => 
-                      <p><span>{abbr.abbr}: </span>{abbr.expl}</p>
+                      <p key={abbr.abbr}><span>{abbr.abbr}: </span>{abbr.expl}</p>
                     )}
                   </Accordion.Body>
                 </Accordion.Item>

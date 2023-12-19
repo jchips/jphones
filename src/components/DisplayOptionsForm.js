@@ -1,6 +1,9 @@
 // Form code from React.dev - https://react.dev/reference/react-dom/components/input
+// Search icon from React Icons - https://react-icons.github.io/react-icons/
+// Search bar CSS from Ahmad Emran - https://codepen.io/ahmadbassamemran/pen/rNjMXqg
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { FaSearch } from "react-icons/fa";
 import '../styles/DisplayOptions.scss';
 
 class DisplayOptionsForm extends React.Component {
@@ -13,21 +16,30 @@ class DisplayOptionsForm extends React.Component {
     const form = e.target;
     const formData = new FormData(form);
 
-    const formJson = Object.fromEntries(formData.entries());
-    console.log(formJson); // delete later
-    this.setDisplay(formJson);
+    const selectedOption = Object.fromEntries(formData.entries());
+    this.setDisplay(selectedOption);
   }
 
   /**
    * Reads what the user selects in the form and then displays the correct phones based on that.
-   * @param {Object} formJson - Object with user's form input data
+   * @param {Object} selectedOption - Object with user's form input data.
    */
-  setDisplay = (formJson) => {
-    if (formJson.displayPhones === 'currentPhones') {
+  setDisplay = (selectedOption) => {
+    if (selectedOption.displayPhones === 'currentPhones') {
       this.props.display('currentPhones');
     } else {
       this.props.display('allPhones');
     }
+  }
+
+  /**
+   * Updates the search every time the user enters a new character into the search bar.
+   * @param {Event} e - The input event.
+   */
+  updateSearch = (e) => {
+    e.preventDefault(); // prevent instant refresh
+    let searchValue = e.target.value.toLowerCase();
+    this.props.setSearch(searchValue);
   }
 
   render () {
@@ -41,6 +53,10 @@ class DisplayOptionsForm extends React.Component {
             <Button type="submit" variant="primary">Display</Button>
           </div>
         </form>
+        <div className="search-box">
+          <button className="btn-search"><FaSearch /></button>
+          <input type="text" className="input-search" placeholder="Type to Search..." onChange={this.updateSearch}/>
+        </div>
       </section>
     );
   }

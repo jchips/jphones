@@ -2,6 +2,7 @@
   {
     "name": "OnePlus 11",
     "id": "oneplus-11",
+    "offName": "OnePlus 11",
     "img": "/assets/imgs/oneplus/oneplus-11.png",
     "brand": "OnePlus",
     "os": "Android 13",
@@ -65,6 +66,7 @@
   {
     "name": "OnePlus 10 Pro",
     "id": "oneplus-10-pro",
+    "offName": "OnePlus 10 Pro",
     "img": "/assets/imgs/oneplus/oneplus-10-pro.png",
     "brand": "OnePlus",
     "os": "Android 12",
@@ -126,6 +128,7 @@
   {
     "name": "OnePlus 10T",
     "id": "oneplus-10t",
+    "offName": "OnePlus 10T",
     "img": "/assets/imgs/oneplus/oneplus-10t.png",
     "brand": "OnePlus",
     "os": "Android 12",
@@ -196,6 +199,7 @@
   {
     "name": "OnePlus 9 Pro",
     "id": "oneplus-9-pro",
+    "offName": "OnePlus 9 Pro",
     "img": "/assets/imgs/oneplus/oneplus-9-pro.png",
     "brand": "OnePlus",
     "os": "Android 11",
@@ -248,6 +252,7 @@
   {
     "name": "OnePlus 9",
     "id": "oneplus-9",
+    "offName": "OnePlus 9",
     "img": "/assets/imgs/oneplus/oneplus-8.png",
     "brand": "OnePlus",
     "os": "Android 11",
@@ -295,6 +300,7 @@
   {
     "name": "OnePlus 8T",
     "id": "oneplus-8t",
+    "offName": "OnePlus 8T",
     "img": "/assets/imgs/oneplus/oneplus-8t.png",
     "brand": "OnePlus",
     "os": "Android 11",
@@ -342,6 +348,7 @@
   {
     "name": "OnePlus 8",
     "id": "oneplus-8",
+    "offName": "OnePlus 8",
     "img": "assets/imgs/oneplus/oneplus-8.png",
     "brand": "OnePlus",
     "os": "Android 10",
@@ -395,6 +402,7 @@
   {
     "name": "OnePlus 7T Pro",
     "id": "oneplus-7t-pro",
+    "offName": "OnePlus 7T Pro",
     "img": "/assets/imgs/oneplus/oneplus-7t-pro.png",
     "brand": "OnePlus",
     "os": "Android 10",
@@ -448,6 +456,7 @@
   {
     "name": "OnePlus 7T",
     "id": "oneplus-7t",
+    "offName": "OnePlus 7T",
     "img": "/assets/imgs/oneplus/oneplus-7t.png",
     "brand": "OnePlus",
     "os": "Android 10",
@@ -491,6 +500,7 @@
   {
     "name": "OnePlus 7 Pro",
     "id": "oneplus-7-pro",
+    "offName": "OnePlus 7 Pro",
     "img": "/assets/imgs/oneplus/oneplus-7-pro.png",
     "brand": "OnePlus",
     "os": "Android P",
@@ -546,6 +556,7 @@
   {
     "name": "OnePlus 6T",
     "id": "oneplus-6t",
+    "offName": "OnePlus 6T",
     "img": "/assets/imgs/oneplus/oneplus-6t.png",
     "brand": "OnePlus",
     "os": "Android P",
@@ -591,6 +602,7 @@
   {
     "name": "OnePlus 6",
     "id": "oneplus-6",
+    "offName": "OnePlus 6",
     "img": "/assets/imgs/oneplus/oneplus-6.png",
     "brand": "OnePlus",
     "os": "Android O",

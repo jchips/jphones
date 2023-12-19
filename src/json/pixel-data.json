@@ -2,6 +2,7 @@
   {
     "name": "Pixel 7 Pro",
     "id": "pixel-7-pro",
+    "offName": "Google Pixel 7 Pro",
     "img": "/assets/imgs/pixels/pixel-7-pro.png",
     "brand": "Google",
     "os": "Android 13",
@@ -70,6 +71,7 @@
   {
     "name": "Pixel 7",
     "id": "pixel-7",
+    "offName": "Google Pixel 7",
     "img": "/assets/imgs/pixels/pixel-7.png",
     "brand": "Google",
     "os": "Android 13",
@@ -142,6 +144,7 @@
   {
     "name": "Pixel 7a",
     "id": "pixel-7a",
+    "offName": "Google Pixel 7a",
     "img": "/assets/imgs/pixels/pixel-7a.png",
     "brand": "Google",
     "os": "Android 13",
@@ -203,6 +206,7 @@
   {
     "name": "Pixel 6 Pro",
     "id": "pixel-6-pro",
+    "offName": "Google Pixel 6 Pro",
     "img": "/assets/imgs/pixels/pixel-6-pro.png",
     "brand": "Google",
     "os": "Android 12",
@@ -258,6 +262,7 @@
   {
     "name": "Pixel 6",
     "id": "pixel-6",
+    "offName": "Google Pixel 6",
     "img": "/assets/imgs/pixels/pixel-6.png",
     "brand": "Google",
     "os": "Android 12",
@@ -311,6 +316,7 @@
   {
     "name": "Pixel 6a",
     "id": "pixel-6a",
+    "offName": "Google Pixel 6a",
     "img": "/assets/imgs/pixels/pixel-6a.png",
     "brand": "Google",
     "os": "Android 12",
@@ -358,6 +364,7 @@
   {
     "name": "Pixel 5",
     "id": "pixel-5",
+    "offName": "Google Pixel 5",
     "img": "/assets/imgs/pixels/pixel-5.png",
     "brand": "Google",
     "os": "Android 11",
@@ -404,6 +411,7 @@
   {
     "name": "Pixel 5a",
     "id": "pixel-5a",
+    "offName": "Google Pixel 5a",
     "img": "/assets/imgs/pixels/pixel-5a.png",
     "brand": "Google",
     "os": "Android 11",
@@ -449,6 +457,7 @@
   {
     "name": "Pixel 4XL",
     "id": "pixel-4xl",
+    "offName": "Google Pixel 4XL",
     "img": "/assets/imgs/pixels/pixel-4xl.png",
     "brand": "Google",
     "os": "Android 10",
@@ -504,6 +513,7 @@
   {
     "name": "Pixel 4",
     "id": "pixel-4",
+    "offName": "Google Pixel 4",
     "img": "/assets/imgs/pixels/pixel-4.png",
     "brand": "Google",
     "os": "Android 10",
@@ -559,6 +569,7 @@
   {
     "name": "Pixel 4a",
     "id": "pixel-4a",
+    "offName": "Google Pixel 4a",
     "img": "/assets/imgs/pixels/pixel-4a.png",
     "brand": "Google",
     "os": "Android 10",
@@ -617,6 +628,7 @@
   {
     "name": "Pixel 3XL",
     "id": "pixel-3xl",
+    "offName": "Google Pixel 3XL",
     "img": "/assets/imgs/pixels/pixel-3xl.png",
     "brand": "Google",
     "os": "Android P",
@@ -666,6 +678,7 @@
   {
     "name": "Pixel 3",
     "id": "pixel-3",
+    "offName": "Google Pixel 3",
     "img": "/assets/imgs/pixels/pixel-3.webp",
     "brand": "Google",
     "os": "Android P",
@@ -715,6 +728,7 @@
   {
     "name": "Pixel 3a",
     "id": "pixel-3a",
+    "offName": "Google Pixel 3a",
     "img": "/assets/imgs/pixels/pixel-3a.png",
     "brand": "Google",
     "os": "Android P",

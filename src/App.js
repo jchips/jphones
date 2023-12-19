@@ -19,23 +19,32 @@ class App extends React.Component {
         {name: 'Apple', rowData: iphoneData},
         {name: 'OnePlus', rowData: oneplusData},
         {name: 'Foldable', rowData: foldableData}
-      ]
+      ],
+      searchValue: ''
     }
   }
 
   /**
    * Sets the displayAllPhones state to true or false depending on which display the user wants to see.
-   * @param {String} page - whichever radio button value the user selects (from DisplayOptionsForm.js)
+   * @param {String} selectedOption - whichever radio button value the user selects (from DisplayOptionsForm.js).
    */
-  display = (page) => {
-    this.setState({displayAllPhones: page !== 'currentPhones' ? true : false})
+  setDisplay = (selectedOption) => {
+    this.setState({displayAllPhones: selectedOption !== 'currentPhones' ? true : false})
+  }
+
+  /**
+   * 
+   * @param {String} searchValue - The phone the user searched for (in lower case) - (from DisplayOptionsForm.js).
+   */
+  setSearch = (searchValue) => {
+    this.setState({searchValue});
   }
 
   render() {
     return(
       <>
-        <DisplayOptionsForm display={this.display}/>
-        <DisplayPhones data={this.state.data} displayAllPhones={this.state.displayAllPhones} />
+        <DisplayOptionsForm display={this.setDisplay} setSearch={this.setSearch}/>
+        <DisplayPhones data={this.state.data} displayAllPhones={this.state.displayAllPhones} searchValue={this.state.searchValue}/>
       </>
     )
   }
