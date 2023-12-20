@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 12-20-2023 (2.0.1) - Added iPhone 15s and Pixel 8s.
 - 12-19-2023 (2.0.0) - Added a search bar on the main page.
 - 12-18-2023 (1.0.2) - Minor edits/updates.
 - 09-18-2023 (1.0.1) - Added improvements to mobile browswer view.

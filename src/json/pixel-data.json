@@ -1,4 +1,181 @@
-[
+[ 
+  {
+    "name": "Pixel 8 Pro",
+    "id": "pixel-8-pro",
+    "offName": "Google Pixel 8 Pro", 
+    "img": "/assets/imgs/pixels/pixel-8-pro.png",
+    "brand": "Google",
+    "os": "Android 14",
+    "year": 2023,
+    "category": "8",
+    "colors": [
+      {"color": "Bay", "tag": "bay"},
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Porcelain", "tag": "porcelain"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1060"},
+      {"storage": "512 GB", "price": "$1180"},
+      {"storage": "1 TB", "price": "$1400"}
+    ],
+    "ui": "Stock Android 14",
+    "display": "6.7 in; 1344 x 2992 px, Super Actua LTPO OLED",
+    "build": "Gorilla Glass Victus 2 (matte), aluminum frame",
+    "size": "6.40 x 3.01 x 0.35 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "48 MP", "telephoto": "48 MP"},
+    "frontCameras": "10.5 MP",
+    "ram": "12 GB",
+    "battery": "5050 mAh",
+    "charging": "30W fast, 23W Google Pixel Stand (wireless), 12W wireless",
+    "capacity": "128 / 256 / 512 / 1 TB",
+    "released": "Oct. 12, 2023 (USA)",
+    "phoneFeatures": [
+      "Adaptive 120 Hz refresh rate",
+      "Battery Share (reverse wireless charging)",
+      "Face ID",
+      "Optical in-display fingerprint sensor",
+      "Wireless charging",
+      "Theme icon settings",
+      "VPN by Google One",
+      "IP68 water/dust resistant",
+      "Temperature sensor",
+      "Very intelligent AI built-in",
+      "UFS 3.1 storage",
+      "HDR support",
+      "Stereo speakers",
+      "7yrs of OS and security updates promised by Google"
+    ],
+    "cameraFeatures":[
+      "5x optical zoom, 2x optical-quality zoom, Super Res Zoom up to 30x",
+      "LDAF (laser detect auto focus) sensor",
+      "High-resolution photography mode",
+      "Ultra HDR",
+      "Macro Focus",
+      "Photo Unblur",
+      "Motion Mode",
+      "Video Boost and Night Sight Video (coming soon)",
+      "Magic Eraser and Audio Magic Eraser",
+      "Magic Editor",
+      "Best Take",
+      "Astro photography",
+      "Blur cinematic videos @ 1080p",
+      "4K video @ up to 60fps",
+      "Auto focus on front camera",
+      "Optical + electronic image stabilization on main rear cam and telephoto"
+    ],
+    "cameraPros":[
+      "Auto focus on front camera (unlike Pixel 8)",
+      "High-resolution photography mode (unlike Pixel 8)",
+      "Has Video Boost and Night Sight Video (unlike Pixel 8)",
+      "Better than Pixel 7 Pro"
+    ],
+    "cameraCons":[
+      "Can not zoom in more than 3x with Portrait Mode",
+      "Slow motion does switch to telephoto camera when you zoom in",
+      "No Blur cinematic videos on front camera",
+      "Transition between lenses is laggy",
+      "Stabilization is very bipolar",
+      "Photo/cloud editing speed is slow",
+      "“The Pixel 8 & 8 Pro cameras need a lot of work (bugs)” ~ Mrwhosetheboss, Oct. 2023"
+    ],
+    "pros":[
+      "Significantly brighter screen than Pixel 7 models",
+      "Haptic and animations are top-class ~ Mrwhosetheboss, Oct. 2023",
+      "Battery life is a little better than the Pixel 7 models",
+      "More secure Face Unlock than previously",
+      "Had very good Black Friday deals",
+      "Could get the Pixel Watch 2 for free with the purchase of Pixel 8 Pro at release"
+    ],
+    "cons":[
+      "Price increased from Pixel 7 Pro (most expensive Pixel ever made)",
+      "Phone has a lot of bugs, and gets hot and then laggy",
+      "Temperature sensor is not very precise"
+    ]
+  },
+  {
+    "name": "Pixel 8",
+    "id": "pixel-8",
+    "offName": "Google Pixel 8", 
+    "img": "/assets/imgs/pixels/pixel-8.png",
+    "brand": "Google",
+    "os": "Android 14",
+    "year": 2023,
+    "category": "8",
+    "colors": [
+      {"color": "Hazel", "tag": "hazel"},
+      {"color": "Obsidian", "tag": "obsidian"},
+      {"color": "Rose", "tag": "rose"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$700"},
+      {"storage": "256 GB", "price": "$760"}
+    ],
+    "ui": "Stock Android 14",
+    "display": "6.2 in; 1080 x 2400 px, Actua OLED",
+    "build": "Gorilla Glass Victus (glossy), aluminum frame",
+    "size": "5.93 x 2.79 x 0.35 in",
+    "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP"},
+    "frontCameras": "10.5 MP",
+    "ram": "8 GB",
+    "battery": "4575 mAh",
+    "charging": "27W fast, 18W wireless",
+    "capacity": "128 GB / 256 GB",
+    "released": "Oct. 12, 2023 (USA)",
+    "phoneFeatures": [
+      "Adaptive 120 Hz refresh rate",
+      "Battery Share (reverse wireless charging)",
+      "Face ID",
+      "Optical in-display fingerprint sensor",
+      "Wireless charging",
+      "Theme icon settings",
+      "VPN by Google One",
+      "IP68 water/dust resistant",
+      "Very intelligent AI built-in",
+      "UFS 3.1 storage",
+      "HDR support",
+      "Stereo speakers",
+      "7yrs of OS and security updates promised by Google"
+    ],
+    "cameraFeatures":[
+      "2x optical-quality zoom",
+      "LDAF (laser detect auto focus) sensor",
+      "Ultra HDR",
+      "Macro Focus",
+      "Photo Unblur",
+      "Motion Mode",
+      "Magic Eraser and Audio Magic Eraser",
+      "Magic Editor",
+      "Best Take",
+      "Astro photography",
+      "Blur cinematic videos @ 1080p",
+      "4K video @ up to 60fps",
+      "Optical + electronic image stabilization on main rear cam"
+    ],
+    "cameraCons":[
+      "No telephoto camera (unlike Pixel 8 Pro)",
+      "No high-resolution photography mode (unlike Pixel 8 Pro)",
+      "No auto focus on front camera (unlike Pixel 8 Pro)",
+      "Can not zoom in more than 3x with Portrait Mode",
+      "Slow motion does switch to telephoto camera when you zoom in",
+      "No Blur cinematic videos on front camera",
+      "Transition between lenses is laggy",
+      "Stabilization is very bipolar",
+      "Photo/cloud editing speed is slow",
+      "“The Pixel 8 & 8 Pro cameras need a lot of work (bugs)” ~ Mrwhosetheboss, Oct. 2023"
+    ],
+    "pros":[
+      "Significantly brighter screen than Pixel 7 models",
+      "A lot more comfortable to hold than Pixel 7 models",
+      "Haptic and animations are top-class ~ Mrwhosetheboss, Oct. 2023",
+      "Battery life is a little better than the Pixel 7 models",
+      "More secure Face Unlock than previously",
+      "Had very good Black Friday deals"
+    ],
+    "cons":[
+      "Phone has a lot of bugs, and gets hot and then laggy"
+    ]
+  },
   {
     "name": "Pixel 7 Pro",
     "id": "pixel-7-pro",
@@ -26,13 +203,14 @@
     "frontCameras": "10.8 MP",
     "ram": "12 GB",
     "battery": "5000 mAh",
-    "charging": "23W fast, 23W fast wireless, Battery Share",
+    "charging": "23W fast, 23W fast wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Oct. 13, 2022 (USA)",
     "phoneFeatures": [
       "5G",
       "Face ID",
-      "Optical in-display fingerprint scanner",
+      "Battery Share (reverse wireless charging)",
+      "Optical in-display fingerprint sensor",
       "120 Hz refresh rate",
       "HDR support",
       "Stereo speakers",
@@ -50,8 +228,8 @@
       "Magic Eraser",
       "Motion Mode",
       "LDAF (laser detect auto focus) sensor",
-      "5x Optical zoom",
-      "4K video @ up to 60 fps",
+      "5x optical zoom",
+      "4K video @ up to 60fps",
       "Optical + electronic image stabilization on main rear cam"
     ],
     "cameraCons":[
@@ -64,7 +242,7 @@
     ],
     "cons":[
       "No charger ITB",
-      "Fingerprint scanner doesn’t work very well",
+      "Fingerprint sensor doesn’t work very well",
       "Blocks installing some apps that aren’t in the Play Store"
     ],
     "approbations":[
@@ -97,7 +275,7 @@
     "frontCameras": "10.8 MP",
     "ram": "8 GB",
     "battery": "4355 mAh",
-    "charging": "21W fast, 20W fast wireless, Battery Share",
+    "charging": "21W fast, 20W fast wireless",
     "capacity": "128 / 256 GB",
     "released": "Oct. 13, 2022 (USA)",
     "phoneFeatures": [
@@ -105,8 +283,8 @@
       "Face ID",
       "Wireless charging",
       "90 Hz refresh rate",
-      "Optical in-display fingerprint scanner",
-      "Battery Share",
+      "Optical in-display fingerprint sensor",
+      "Battery Share (reverse wireless charging)",
       "HDR support",
       "Theme icon settings",
       "IP68 water/dust resistant",
@@ -121,7 +299,7 @@
       "Magic Eraser",
       "Motion Mode",
       "LDAF (laser detect auto focus) sensor",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Optical + electronic image stabilization on main rear cam"
     ],
     "cameraPros":[
@@ -177,8 +355,8 @@
     "released": "May 10, 2023 (USA)",
     "phoneFeatures": [
       "5G",
-      "Face Unlock",
-      "Optical in-display fingerprint scanner",
+      "Face ID",
+      "Optical in-display fingerprint sensor",
       "Wireless charging",
       "VPN by Google One",
       "90 Hz refresh rate",
@@ -191,7 +369,7 @@
       "Photo Unblur",
       "Night Sight",
       "Magic Eraser",
-      "4K video @ up to 60 fps"
+      "4K video @ up to 60fps"
     ],
     "cameraCons":[
       "No telephoto camera"
@@ -242,10 +420,10 @@
     "capacity": "128 / 256 / 512 GB",
     "released": "Oct. 28, 2021 (USA)",
     "phoneFeatures": [ "120 Hz refresh rate", "Wireless charging", "UFS 3.1 storage", "Gaming Mode", "Extra dim mode", 
-    "Stereo speakers", "Mute camera and mic option", "Battery Share (Reverse wireless charging)", 
-    "Optical in-display fingerprint scanner", "IP68 water/dust resistant"],
+    "Stereo speakers", "Mute camera and mic option", "Battery Share (reverse wireless charging)", 
+    "Optical in-display fingerprint sensor", "IP68 water/dust resistant"],
     "cameraFeatures": [
-      "Magic eraser", "Face Unblur", "4K video @ 60fps", "Eliminate color from backgrounds option"
+      "Magic Eraser", "Face Unblur", "4K video @ 60fps", "Eliminate color from backgrounds option"
     ],
     "cameraPros": [
       "Speech Enhancement", "Has an ultrawide camera (unlike predecessors)"
@@ -298,10 +476,10 @@
     "released": "Oct. 25, 2021 (USA)",
     "phoneFeatures": [
       "90 Hz refresh rate", "Wireless charging", "UFS 3.1 storage", "Gaming Mode", "Mute camera and mic option",
-      "Battery Share (Reverse wireless charging)", "In-display fingerprint scanner", "IP68 water/dust resistant"
+      "Battery Share (reverse wireless charging)", "Optical in-display fingerprint sensor", "IP68 water/dust resistant"
     ],
     "cameraFeatures":[
-      "Magic eraser", "Face Unblur", "4K video @ 60fps"
+      "Magic Eraser", "Face Unblur", "4K video @ 60fps"
     ],
     "cameraPros":[
       "Has an ultrawide camera (unlike predecessors)"
@@ -349,16 +527,16 @@
     "released": "July 28, 2022 (USA)",
     "phoneFeatures": [
       "5G", "Wifi 6E", "UFS 3.1 storage", "Stereo speakers", "One-handed mode", "IP67 water/dust resistant",
-      "In-display fingerprint sensor", "At least 5yrs of Google updates"
+      "Optical in-display fingerprint sensor", "At least 5yrs of Google updates"
     ],
     "cameraFeatures":[
-      "Magic eraser", "Face Unblur", "4K video @ 60fps"
+      "Magic Eraser", "Face Unblur", "4K video @ 60fps"
     ],
     "cameraPros":[
       "Rear camera doesn't protrude as much as predecessors"
     ],
     "cameraCons":[
-      "No telephoto"
+      "No telephoto camera"
     ],
     "pros":[
       "\"Best you can buy in the US at its price class\" ~ MrMobile"
@@ -396,7 +574,7 @@
     "released": "Oct. 15, 2020 (USA)",
     "phoneFeatures": [
       "5G", "90 Hz refresh rate", "UFS 2.1 storage", "Wireless charging & Reverse wireless charging", 
-      "Fingerprint scanner", "Water/dust resistant"
+      "Fingerprint sensor", "Water/dust resistant"
     ],
     "cameraFeatures":[
       "HDR10+", "4K video @ 60fps", "Eliminate color from backgrounds option", "Refocus photos option",
@@ -439,10 +617,10 @@
     "capacity": "128 GB",
     "released": "Aug. 26, 2021 (USA)",
     "phoneFeatures": [
-      "Sub-6 5G", "Fingerprint scanner", "IP67 water/dust resistant", "Recorder that transcribes audio"
+      "Sub-6 5G", "Fingerprint sensor", "IP67 water/dust resistant", "Recorder that transcribes audio"
     ],
     "cameraFeatures":[
-      "4K @ 60fps", "No telephoto camera"
+      "4K video @ 60fps", "No telephoto camera"
     ],
     "cameraPros":[
       "None recorded"
@@ -480,7 +658,7 @@
       {"storage": "64 GB", "price": "$900"},
       {"storage": "128 GB", "price": "$1000"}
     ],
-    "ui": "Stock Android 10 (Vanilla)",
+    "ui": "Stock Android 10",
     "display": "6.3 in; 1440x3040 px, QHD+ OLED",
     "build": "Gorilla Glass 5 (Matte), matte black frame",
     "size": "6.31 x 2.96 x 0.32 in",
@@ -488,11 +666,11 @@
     "frontCameras": "8 MP",
     "ram": "6 GB",
     "battery": "3700 mAh",
-    "charging": "18W fast, 5W wireless",
+    "charging": "18W fast, 10W Google Pixel Stand (wireless), 5W wireless",
     "capacity": "64 / 128 GB",
     "released": "Oct. 24, 2019 (USA)",
     "phoneFeatures": [
-      "3D face ID", "90 Hz refresh rate", "Dual speakers", "10W wireless charging w/ Google's wireless charger",
+      "3D face ID", "90 Hz refresh rate", "Dual speakers", "Wireless charging",
       "Uses Radar- Motion sensor air gestures for skipping music, accepting/denying calls + other cool things",
       "Voice memo app that records your voice into text notes and search for things you said"
     ],
@@ -536,7 +714,7 @@
       {"storage": "64 GB", "price": "$800"},
       {"storage": "128 GB", "price": "$900"}
     ],
-    "ui": "Stock Android 10 (Vanilla)",
+    "ui": "Stock Android 10",
     "display": "5.7 in; 1080x2280 px, FHD+ OLED",
     "build": "Gorilla Glass 5 (matte), matte black aluminum frame",
     "size": "5.79 x 2.71 x 0.32 in",
@@ -590,7 +768,7 @@
     "prices":[
       {"storage": "128 GB", "price": "$350"}
     ],
-    "ui": "Stock Andriod 10 (Vanilla)",
+    "ui": "Stock Andriod 10",
     "display": "5.81 in; 1080x2340 px, FHD+ OLED",
     "build": "Gorilla Glass 3 / Polycarbonate (plastic)",
     "size": "5.7 x 2.7 x 0.3 in",
@@ -602,7 +780,7 @@
     "capacity": "128 GB",
     "released": "Aug. 20th, 2020 (USA)",
     "phoneFeatures": [
-      "Bedtime mode", "Stereo speakers", "Fingerprint scanner"
+      "Bedtime mode", "Stereo speakers", "Fingerprint sensor"
     ],
     "cameraFeatures":[
       "Super fast autofocus", "4K video @ 30fps"
@@ -651,7 +829,7 @@
       {"storage": "64 GB", "price": "$900"},
       {"storage": "128 GB", "price": "$1000"}
     ],
-    "ui": "Stock Android 9 (Vanilla)",
+    "ui": "Stock Android 9",
     "display": "6.3 in; 1440x2960 px, QHD+ OLED",
     "build": "Gorilla (soft touch) Glass 5, painted metal frame + hybrid coating",
     "size": "6.22 x 3.02 x 0.31 in",
@@ -663,7 +841,7 @@
     "capacity": "64 / 128 GB",
     "released": "Oct. 18, 2018 (USA)",
     "phoneFeatures": [
-      "Playmoji", "Fingerprint scanner", "Front firing stereo speakers", "Google Assistant phone call screening",
+      "Playmoji", "Fingerprint sensor", "Front firing stereo speakers", "Google Assistant phone call screening",
       "Unlimited cloud storage for photos and videos"
     ],
     "cameraFeatures":[
@@ -701,7 +879,7 @@
       {"storage": "64 GB", "price": "$800"},
       {"storage": "128 GB", "price": "$900"}
     ],
-    "ui": "Stock Android 9 (Vanilla)",
+    "ui": "Stock Android 9",
     "display": "5.5 in; 1080x2160 px, FHD+ OLED",
     "build": "Gorilla Glass 5, aluminum frame + hybrid coating",
     "size": "5.7 x 2.7 x 0.3 in",
@@ -713,7 +891,7 @@
     "capacity": "64 / 128 GB",
     "released": "Oct. 18, 2018 (USA)",
     "phoneFeatures": [
-      "Playmoji", "Fingerprint scanner", "Dual front firing speakers"
+      "Playmoji", "Fingerprint sensor", "Dual front firing speakers"
     ],
     "cameraFeatures":[
       "Portrait mode"
@@ -750,7 +928,7 @@
     "prices":[
       {"storage": "64 GB", "price": "$400"}
     ],
-    "ui": "Stock Android 9 (Vanilla)",
+    "ui": "Stock Android 9",
     "display": "5.6 in; 1080x2220 px, FHD+ OLED",
     "build": "Polycarbonate back (plastic)",
     "size": "6.0 x 2.8 x 0.3 in",

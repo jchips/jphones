@@ -69,7 +69,8 @@
     "cons":[
       "No dedicated Ring/Silent switch",
       "Not very fast charging despite using USB Type C with USB 3.0",
-      "Customizable Action Button is not very reachable"
+      "Customizable Action Button is not very reachable",
+      "No support for physical sim cards in the USA, only eSim"
     ],
     "approbations":[
       "Best Phone Camera of 2023 ~ Mrwhosetheboss, Nov. 2023",
@@ -144,7 +145,8 @@
     "cons":[
       "No dedicated Ring/Silent switch",
       "Not very fast charging despite using USB Type C with USB 3.0",
-      "Customizable Action Button is not very reachable"
+      "Customizable Action Button is not very reachable",
+      "No support for physical sim cards in the USA, only eSim"
     ]
   },
   {
@@ -160,7 +162,7 @@
       {"color": "Blue", "tag": "apple-light-blue"},
       {"color": "Pink", "tag": "apple-light-pink"},
       {"color": "Yellow", "tag": "apple-light-yellow"},
-      {"color": "Green", "tag": "apple-light-pink"},
+      {"color": "Green", "tag": "apple-15-green"},
       {"color": "Black", "tag": "apple-15-black"}
     ],
     "prices":[
@@ -215,10 +217,11 @@
     ],
     "cons":[
       "No ProMotion display (has 60 Hz refresh rate)",
-      "No Customization Action Button (unlike iPhone 15 Pro & Pro Max",
+      "No Customization Action Button (unlike iPhone 15 Pro & Pro Max)",
       "Charges slower than iPhone 15 Pro & Pro Max",
       "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
-      "No Always-On display (unlike iPhone 15 Pro Max & Pro)"
+      "No Always-On display (unlike iPhone 15 Pro Max & Pro)",
+      "No support for physical sim cards in the USA, only eSim"
     ]
   },
   {
@@ -234,7 +237,7 @@
       {"color": "Blue", "tag": "apple-light-blue"},
       {"color": "Pink", "tag": "apple-light-pink"},
       {"color": "Yellow", "tag": "apple-light-yellow"},
-      {"color": "Green", "tag": "apple-light-pink"},
+      {"color": "Green", "tag": "apple-15-green"},
       {"color": "Black", "tag": "apple-15-black"}
     ],
     "prices":[
@@ -292,7 +295,8 @@
       "No Customization Action Button (unlike iPhone 15 Pro & Pro Max",
       "Charges slower than iPhone 15 Pro & Pro Max",
       "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
-      "No Always-On display (unlike iPhone 15 Pro Max & Pro)"
+      "No Always-On display (unlike iPhone 15 Pro Max & Pro)",
+      "No support for physical sim cards in the USA, only eSim"
     ]
   },
   {
@@ -351,7 +355,8 @@
       "Highest brightness ever recorded on a smartphone (2000 nits)"
     ],
     "cons":[
-      "No charger ITB"
+      "No charger ITB",
+      "No support for physical sim cards in the USA, only eSim"
     ],
     "approbations": [
       "\"Best camera system of the year\" ~ MKBHD, Dec. 2022"
@@ -414,7 +419,8 @@
       "Same features as iPhone 14 Pro Max, but smaller size"
     ],
     "cons":[
-      "No charger ITB"
+      "No charger ITB",
+      "No support for physical sim cards in the USA, only eSim"
     ],
     "approbations":[
       "\"Best camera system of the year\" ~ MKBHD, Dec. 2022"
@@ -484,7 +490,8 @@
       "Same chipset as the iPhone 13s (old chipset)",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
       "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
-      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro"
+      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro",
+      "No support for physical sim cards in the USA, only eSim"
     ]
   },
   {
@@ -548,7 +555,8 @@
       "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
       "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
-      "Same chipset as the iPhone 13s (old chipset)"
+      "Same chipset as the iPhone 13s (old chipset)",
+      "No support for physical sim cards in the USA, only eSim"
     ]
   },
   {

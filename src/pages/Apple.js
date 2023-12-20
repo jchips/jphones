@@ -6,7 +6,7 @@ import { Carousel, Container, ListGroup } from "react-bootstrap";
 
 class Apple extends React.Component {
   render() {
-    let versions = ['14', '13', '12', '11', 'XS', 'X', 'SE'];
+    let versions = ['15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <div className="apple">
         <h2>iPhones</h2>
@@ -73,8 +73,9 @@ class Apple extends React.Component {
                       <li>No headphone jack</li>
                       <li>Two-step face unlock</li>
                       <li>Face ID doesn't work when phone is flat on table?</li>
+                      <li>No more charger ITB ever since iPhone 11 models</li>
                       <li>Late to use common cable (most phones have Lightning port instead of USB Type C)</li>
-                      <li>Large notch <i>[exceptions: SE (2022 & 2020), 8 Plus and older]</i></li>
+                      <li>Large notch <i>[exceptions: all 15 models, 14 Pros, SE (2022 & 2020), 8 Plus and older]</i></li>
                       <li>Transferring files between computer and phone is complicated because of Apple being proprietary</li>
                       <li>Google Assistant and Google Maps are better than Siri and Apple Maps</li>
                       <li>Slowest charging in the industry</li>

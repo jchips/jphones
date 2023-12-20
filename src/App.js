@@ -33,7 +33,7 @@ class App extends React.Component {
   }
 
   /**
-   * 
+   * Sets the searchValue state to whatever the user searched for.
    * @param {String} searchValue - The phone the user searched for (in lower case) - (from DisplayOptionsForm.js).
    */
   setSearch = (searchValue) => {
