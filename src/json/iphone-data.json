@@ -1,5 +1,301 @@
 [ 
   {
+    "name": "iPhone 15 Pro Max",
+    "id": "iphone-15-pro-max",
+    "offName": "Apple iPhone 15 Pro Max", 
+    "img": "/assets/imgs/iphones/iphone-15-pro-max.png",
+    "brand": "Apple",
+    "os": "IOS 17",
+    "year": 2023,
+    "category": "15",
+    "colors": [
+      {"color": "Natural Titanium", "tag": "natural-titanium"},
+      {"color": "Black Titanium", "tag": "black-titanium"},
+      {"color": "White Titanium", "tag": "white-titanium"},
+      {"color": "Blue Titanium", "tag": "blue-titanium"}
+    ],
+    "prices":[
+      {"storage": "256 GB", "price": "$1200"},
+      {"storage": "512 GB", "price": "$1400"},
+      {"storage": "1 TB", "price": "$1600"}
+    ],
+    "ui": "IOS 17",
+    "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, titanium frame",
+    "size": "6.29 x 3.02 x 0.32 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "8 GB",
+    "battery": "4422 mAh",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
+    "capacity": "256 / 512 / 1 TB",
+    "released": "Sep. 22, 2023 (USA)",
+    "phoneFeatures": [
+      "WiFi 6E",
+      "USB Type C, USB 3.0",
+      "Dynamic Island",
+      "120 Hz refresh rate (ProMotion)",
+      "Always-On Display",
+      "Customizable Action Button",
+      "Emergency SOS by satellite",
+      "Narrower screen than iPhone 14 Pro Max",
+      "Voice isolation for phone calls that erases background noise"
+    ],
+    "cameraFeatures":[
+      "5x optical zoom, 25x digital zoom",
+      "ProRes recording with 4K video @ 60 fps",
+      "Apple ProRAW",
+      "Deep Fusion",
+      "Sensor Shift OIS",
+      "Night mode on all cameras",
+      "Cinematic video mode",
+      "Smart HDR 5 (photos)",
+      "Photographic Styles",
+      "4K video @ up to 60 fps",
+      "Action mode",
+      "Adaptive True Tone flash",
+      "Macro video recording & photography",
+      "Default rear cam photos are 24 MP"
+    ],
+    "cameraPros": [
+      "Considered best phone camera of 2023 by Mrwhosetheboss (popular tech reviewer)",
+      "“Has the best video on any smartphone” ~ SuperSaf, Nov. 2023"
+    ],
+    "pros":[
+      "Weighs lighter than iPhone 14 Pro Max",
+      "Feels very good in the hand (softer, more rounded, lighter, more premium than previous iPhones) ~ Professional reviewers",
+      "A bit faster and more powerful than iPhone 15 & 15 Plus (A17 Pro chip vs A16)"
+    ],
+    "cons":[
+      "No dedicated Ring/Silent switch",
+      "Not very fast charging despite using USB Type C with USB 3.0",
+      "Customizable Action Button is not very reachable"
+    ],
+    "approbations":[
+      "Best Phone Camera of 2023 ~ Mrwhosetheboss, Nov. 2023",
+      "Tied for Best Flagship of 2023 (with Galaxy S23 Ultra) ~ Mrwhosetheboss, Nov. 2023",
+      "“Has the best video on any smartphone” ~ SuperSaf, Nov. 2023"
+    ]
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "id": "iphone-15-pro",
+    "offName": "Apple iPhone 15 Pro", 
+    "img": "/assets/imgs/iphones/iphone-15-pro.png",
+    "brand": "Apple",
+    "os": "IOS 17",
+    "year": 2023,
+    "category": "15",
+    "colors": [
+      {"color": "Natural Titanium", "tag": "natural-titanium"},
+      {"color": "Black Titanium", "tag": "black-titanium"},
+      {"color": "White Titanium", "tag": "white-titanium"},
+      {"color": "Blue Titanium", "tag": "blue-titanium"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$1000"},
+      {"storage": "256 GB", "price": "$1100"},
+      {"storage": "512 GB", "price": "$1300"},
+      {"storage": "1 TB", "price": "$1500"}
+    ],
+    "ui": "IOS 17",
+    "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, titanium frame",
+    "size": "5.77 x 2.78 x 0.32 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "8 GB",
+    "battery": "3274 mAh",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
+    "capacity": "128 / 256 / 512 / 1 TB",
+    "released": "Sep. 22, 2023 (USA)",
+    "phoneFeatures": [
+      "WiFi 6E",
+      "USB Type C, USB 3.0",
+      "Dynamic Island",
+      "120 Hz refresh rate (ProMotion)",
+      "Always-On Display",
+      "Customizable Action Button",
+      "Emergency SOS by satellite",
+      "Narrower screen than iPhone 14 Pro",
+      "Voice isolation for phone calls that erases background noise"
+    ],
+    "cameraFeatures":[
+      "3x optical zoom, 15x digital zoom",
+      "ProRes recording with 4K video @ 60 fps",
+      "Apple ProRAW",
+      "Deep Fusion",
+      "Sensor Shift OIS",
+      "Night mode on all cameras",
+      "Cinematic video mode",
+      "Smart HDR 5 (photos)",
+      "Photographic Styles",
+      "4K video @ up to 60 fps",
+      "Action mode",
+      "Adaptive True Tone flash",
+      "Macro video recording & photography",
+      "Default rear cam photos are 24 MP"
+    ],
+    "pros":[
+      "Weighs lighter than iPhone 14 Pro",
+      "Feels very good in the hand (softer, more rounded, lighter, more premium than previous iPhones) ~ Professional reviewers",
+      "A bit faster and more powerful than iPhone 15 & 15 Plus (A17 Pro chip vs A16)"
+    ],
+    "cons":[
+      "No dedicated Ring/Silent switch",
+      "Not very fast charging despite using USB Type C with USB 3.0",
+      "Customizable Action Button is not very reachable"
+    ]
+  },
+  {
+    "name": "iPhone 15 Plus",
+    "id": "iphone-15-plus",
+    "offName": "Apple iPhone 15 Plus", 
+    "img": "/assets/imgs/iphones/iphone-15-plus.png",
+    "brand": "Apple",
+    "os": "IOS 17",
+    "year": 2023,
+    "category": "15",
+    "colors": [
+      {"color": "Blue", "tag": "apple-light-blue"},
+      {"color": "Pink", "tag": "apple-light-pink"},
+      {"color": "Yellow", "tag": "apple-light-yellow"},
+      {"color": "Green", "tag": "apple-light-pink"},
+      {"color": "Black", "tag": "apple-15-black"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$900"},
+      {"storage": "256 GB", "price": "$1000"},
+      {"storage": "512 GB", "price": "$1200"}
+    ],
+    "ui": "IOS 17",
+    "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, aluminum frame",
+    "size": "6.33 x 3.06 x 0.31 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "4383 mAh",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Sep. 22, 2023 (USA)",
+    "phoneFeatures": [
+      "USB Type C, USB 2.0",
+      "Dynamic Island",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "2x optical zoom",
+      "Sensor Shift OIS",
+      "Deep Fusion",
+      "Cinematic video mode",
+      "Smart HDR 5 (photos)",
+      "Photographic Styles",
+      "Night mode on all cameras (except portrait shots)",
+      "Auto focus on selfie camera",
+      "4K video @ up to 60 fps",
+      "Action mode",
+      "Default rear cam photos are 24 MP"
+    ],
+    "cameraPros":[
+      "“Better camera than the iPhone 14 Pro & Pro Max” ~ Mrwhosetheboss, Sep. 2023"
+    ],
+    "cameraCons":[
+      "No telephoto camera",
+      "No auto focus on ultrawide camera",
+      "No Macro video recording (unlike iPhone 15 Pro & Pro Max)",
+      "No ProRes video (unlike iPhone 15 Pro & Pro Max)",
+      "No Apple ProRaw (unlike iPhone 15 Pro & Pro Max)"
+    ],
+    "pros":[
+      "Lighter weight than previous iPhones",
+      "Brighter screen than iPhone 14 Plus", 
+      "Feels very good in the hand (softer, more rounded, lighter, more premium than previous iPhones) ~ Professional reviewers",
+      "Very good battery life ~ Mrwhosetheboss, Sep. 2023"
+    ],
+    "cons":[
+      "No ProMotion display (has 60 Hz refresh rate)",
+      "No Customization Action Button (unlike iPhone 15 Pro & Pro Max",
+      "Charges slower than iPhone 15 Pro & Pro Max",
+      "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
+      "No Always-On display (unlike iPhone 15 Pro Max & Pro)"
+    ]
+  },
+  {
+    "name": "iPhone 15",
+    "id": "iphone-15",
+    "offName": "Apple iPhone 15", 
+    "img": "/assets/imgs/iphones/iphone-15.png",
+    "brand": "Apple",
+    "os": "IOS 17",
+    "year": 2023,
+    "category": "15",
+    "colors": [
+      {"color": "Blue", "tag": "apple-light-blue"},
+      {"color": "Pink", "tag": "apple-light-pink"},
+      {"color": "Yellow", "tag": "apple-light-yellow"},
+      {"color": "Green", "tag": "apple-light-pink"},
+      {"color": "Black", "tag": "apple-15-black"}
+    ],
+    "prices":[
+      {"storage": "128 GB", "price": "$800"},
+      {"storage": "256 GB", "price": "$900"},
+      {"storage": "512 GB", "price": "$1100"}
+    ],
+    "ui": "IOS 17",
+    "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
+    "build": "Glass (matte) / Ceramic Shield, aluminum frame",
+    "size": "5.81 x 2.82 x 0.31 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP"},
+    "frontCameras": "12 MP",
+    "ram": "6 GB",
+    "battery": "3349 mAh",
+    "charging": "20W, 15W MagSafe, 7.5W wireless",
+    "capacity": "128 / 256 / 512 GB",
+    "released": "Sep. 22, 2023 (USA)",
+    "phoneFeatures": [
+      "USB Type C, USB 2.0",
+      "Dynamic Island",
+      "Emergency SOS by satellite"
+    ],
+    "cameraFeatures":[
+      "2x optical zoom",
+      "Sensor Shift OIS",
+      "Deep Fusion",
+      "Cinematic video mode",
+      "Smart HDR 5 (photos)",
+      "Photographic Styles",
+      "Night mode on all cameras (except portrait shots)",
+      "Auto focus on selfie camera",
+      "4K video @ up to 60 fps",
+      "Action mode",
+      "Default rear cam photos are 24 MP"
+    ],
+    "cameraPros":[
+      "“Better camera than the iPhone 14 Pro & Pro Max” ~ Mrwhosetheboss, Sep. 2023"
+    ],
+    "cameraCons":[
+      "No telephoto camera",
+      "No auto focus on ultrawide camera",
+      "No Macro video recording (unlike iPhone 15 Pro & Pro Max)",
+      "No ProRes video (unlike iPhone 15 Pro & Pro Max)",
+      "No Apple ProRaw (unlike iPhone 15 Pro & Pro Max)"
+    ],
+    "pros":[
+      "Thinner bezels than iPhone 14",
+      "Brighter screen than iPhone 14", 
+      "Feels very good in the hand (softer, more rounded, lighter, more premium than previous iPhones) ~ Professional reviewers",
+      "“Better battery life than any base iPhone I’ve used before” ~ Mrwhosetheboss, Sep. 2023"
+    ],
+    "cons":[
+      "No ProMotion display (has 60 Hz refresh rate)",
+      "No Customization Action Button (unlike iPhone 15 Pro & Pro Max",
+      "Charges slower than iPhone 15 Pro & Pro Max",
+      "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
+      "No Always-On display (unlike iPhone 15 Pro Max & Pro)"
+    ]
+  },
+  {
     "name": "iPhone 14 Pro Max",
     "id": "iphone-14-pro-max",
     "offName": "Apple iPhone 14 Pro Max",
@@ -47,7 +343,7 @@
       "Cinematic video mode",
       "Smart HDR 4 for photos",
       "Photographic Styles",
-      "ProRes video and action mode",
+      "ProRes video and Action mode",
       "Adaptive True Tone flash",
       "Macro video recording & photography"
     ],
@@ -804,7 +1100,7 @@
     "capacity": "64 / 128 / 256 GB",
     "released": "Apr. 24th 2020 (USA)",
     "phoneFeatures": [
-      "Wi-Fi 6", "Dual sim support", "IP67 water/dust resistant", "Dolby Atmos speakers",
+      "WiFi 6", "Dual sim support", "IP67 water/dust resistant", "Dolby Atmos speakers",
       "Centered Apple logo", "Fingerprint ID", "Headphone jack", "latest Apple chipset (A13)",
       "Physical home button (w/ haptic touch"
     ],

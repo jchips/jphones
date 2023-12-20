@@ -22,9 +22,10 @@ class Google extends Component {
                  <ListGroup.Item>Google Assistant</ListGroup.Item>
                  <ListGroup.Item>Gestures or buttons option</ListGroup.Item>
                  <ListGroup.Item>Fast Charging</ListGroup.Item>
-                 <ListGroup.Item>Always on Display</ListGroup.Item>
+                 <ListGroup.Item>Always-on Display</ListGroup.Item>
                  <ListGroup.Item>Google Lens - Identifies things in front of the camera</ListGroup.Item>
                  <ListGroup.Item>Unlimited high quality storage with Google Photos</ListGroup.Item>
+                 <ListGroup.Item>Call Screening - Google Assistant answers calls for you and shows you the call transcript</ListGroup.Item>
                  <ListGroup.Item>Now Playing - Tells you what song is playing in the background w/o you having to ask</ListGroup.Item>
                  <ListGroup.Item>Live caption / call screening / Hold For Me</ListGroup.Item>
                 </ListGroup>
