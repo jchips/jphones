@@ -20,7 +20,7 @@
     ],
     "ui": "Stock Android 13",
     "display": "6.7 in; 1440 x 3120 px, QHD+ LTPO OLED (curved)",
-    "build": "Gorilla Glass Victus, aluminum frame (glossy)",
+    "build": "Gorilla Glass Victus (glossy), aluminum frame",
     "size": "6.41 x 3.02 x 0.35 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "48 MP"},
     "frontCameras": "10.8 MP",
@@ -48,8 +48,11 @@
       "Photo Unblur",
       "Night Sight",
       "Magic Eraser",
+      "Motion Mode",
+      "LDAF (laser detect auto focus) sensor",
       "5x Optical zoom",
-      "4K video @ up to 60 fps"
+      "4K video @ up to 60 fps",
+      "Optical + electronic image stabilization on main rear cam"
     ],
     "cameraCons":[
       "Minor shutter lag"
@@ -88,7 +91,7 @@
     ],
     "ui": "Stock Android 13",
     "display": "6.3 in; 1080 x 2400 px, FHD+ OLED",
-    "build": "Gorilla Glass Victus, aluminum frame (glossy)",
+    "build": "Gorilla Glass Victus (glossy), aluminum frame",
     "size": "6.1 x 2.9 x 0.3 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP"},
     "frontCameras": "10.8 MP",
@@ -116,8 +119,10 @@
       "Photo Unblur",
       "Night Sight",
       "Magic Eraser",
-      "Auto focus",
-      "4K video @ up to 60 fps"
+      "Motion Mode",
+      "LDAF (laser detect auto focus) sensor",
+      "4K video @ up to 60 fps",
+      "Optical + electronic image stabilization on main rear cam"
     ],
     "cameraPros":[
       "Upgraded auto focus"
@@ -161,7 +166,7 @@
     ],
     "ui": "Stock Android 13",
     "display": "6.1 in; 1080x2400 px, FHD+ OLED",
-    "build": "Gorilla Glass 3, aluminum frame (glossy)",
+    "build": "Gorilla Glass 3 (glossy), aluminum frame",
     "size": "6.0 x 2.8 x 0.4 in",
     "rearCameras": {"primary": "64 MP", "ultrawide": "13 MP"},
     "frontCameras": "13 MP",
@@ -201,6 +206,9 @@
       "No charger ITB",
       "No Battery Share (unlike Pixel 7 & 7 Pro)",
       "Blocks installing some apps that aren’t in the Play Store"
+    ],
+    "approbations":[
+      "Best Midrange Phone of 2023 ~ Mrwhosetheboss, Nov. 2023 & Tech Spurt, Dec. 2023"
     ]
   },
   {
@@ -421,7 +429,7 @@
     "prices":[{"storage": "128 GB", "price": "$450"}],
     "ui": "Stock Android 11",
     "display": "6.34 in; 1080x2400 px, FHD+ OLED",
-    "build": "Gorilla Glass 6 / Plastic, aluminum (Matte)",
+    "build": "Gorilla Glass 6 / Plastic (Matte), aluminum",
     "size": "6.1 x 2.9 x 0.3 in",
     "rearCameras": {"primary": "12.2 MP", "ultrawide": "16 MP"},
     "frontCameras": "8 MP",
@@ -474,7 +482,7 @@
     ],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "6.3 in; 1440x3040 px, QHD+ OLED",
-    "build": "Gorilla Glass 5, matte black frame (Matte)",
+    "build": "Gorilla Glass 5 (Matte), matte black frame",
     "size": "6.31 x 2.96 x 0.32 in",
     "rearCameras": {"primary":"12.2 MP", "ultrawide":"16 MP"},
     "frontCameras": "8 MP",
@@ -530,7 +538,7 @@
     ],
     "ui": "Stock Android 10 (Vanilla)",
     "display": "5.7 in; 1080x2280 px, FHD+ OLED",
-    "build": "Gorilla Glass 5, Matte back | Black Matte frame",
+    "build": "Gorilla Glass 5 (matte), matte black aluminum frame",
     "size": "5.79 x 2.71 x 0.32 in",
     "rearCameras":{"primary":"12 MP", "ultrawide":"16 MP"},
     "frontCameras": "8 MP",
@@ -645,7 +653,7 @@
     ],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "6.3 in; 1440x2960 px, QHD+ OLED",
-    "build": "Gorilla (soft touch) Glass 5 | Painted metal frame + hybrid coating",
+    "build": "Gorilla (soft touch) Glass 5, painted metal frame + hybrid coating",
     "size": "6.22 x 3.02 x 0.31 in",
     "rearCameras": {"primary": "12.2 MP"},
     "frontCameras": "Primary: 8 MP, 8 MP",
@@ -695,7 +703,7 @@
     ],
     "ui": "Stock Android 9 (Vanilla)",
     "display": "5.5 in; 1080x2160 px, FHD+ OLED",
-    "build": "Gorilla Glass 5, Aluminum frame + hybrid coating",
+    "build": "Gorilla Glass 5, aluminum frame + hybrid coating",
     "size": "5.7 x 2.7 x 0.3 in",
     "rearCameras": {"primary":"12.2 MP"},
     "frontCameras": "8 MP",
