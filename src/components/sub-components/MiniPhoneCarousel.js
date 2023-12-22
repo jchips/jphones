@@ -2,30 +2,30 @@ import React from "react";
 import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "../../styles/MiniPhoneCarousel.scss"
+import "../../styles/MiniPhoneCarousel.scss";
 
 class MiniPhoneCarousel extends React.Component {
-   constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       disableSwipe: false
     }
-   }
+  }
 
   inputRef = createRef();
   // pros = createRef();
   // cons = createRef();
 
-  handleTouchMove = (e) => {
+  handleTouch = () => {
     // Prevent swipe on the first slide during the move
-    e.preventDefault();
+    return this.state.disableSwipe;
   };
 
-  // handleSlide = (index) => {
-  //   // Check if it's the first slide
-  //   console.log('index', index); // delete later
-  //   this.setState({disableSwipe: index === 0});
-  // };
+  handleSlide = (index) => {
+    // Check if it's the first slide
+    console.log('index', index); // delete later
+    this.setState({disableSwipe: index === 0});
+  };
 
   // handleTouchStart = (e) => {
   //   // Prevent swipe on the first slide
@@ -54,9 +54,11 @@ class MiniPhoneCarousel extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <>
-        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
+        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark"
+          onSlide={this.handleSlide}
+          touch={this.handleTouch}>
           <Carousel.Item className="first-slide" onTouchMove={this.handleTouchMove}>
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
@@ -65,7 +67,7 @@ class MiniPhoneCarousel extends React.Component {
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               /> */}
-              <LazyLoadImage 
+              <LazyLoadImage
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               />
@@ -79,14 +81,14 @@ class MiniPhoneCarousel extends React.Component {
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
             <div class="scrollable">
-              <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
+              <p><span>UI: </span>{this.props.phone.ui}</p><hr />
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
               {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
               {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
-              <p><span>Build: </span>{this.props.phone.build}</p><hr/>
+              <p><span>Build: </span>{this.props.phone.build}</p><hr />
               <p><span>Battery: </span>{this.props.phone.battery}</p>
-              <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
-              <p><span>Ram: </span>{this.props.phone.ram}</p><hr/>
+              <p><span>Charging: </span>{this.props.phone.charging}</p><hr />
+              <p><span>Ram: </span>{this.props.phone.ram}</p><hr />
               <p><span>Capacity: </span>{this.props.phone.capacity}</p>
             </div>
           </Carousel.Item>
@@ -124,7 +126,7 @@ class MiniPhoneCarousel extends React.Component {
               </ul>
             </div>
           </Carousel.Item>
-          
+
           {/* Features */}
           <Carousel.Item className="features-slide">
             <h3>Features</h3>
@@ -139,7 +141,7 @@ class MiniPhoneCarousel extends React.Component {
             </div>
             {/* <hr/> */}
           </Carousel.Item>
-          
+
           {/* Cameras */}
           <Carousel.Item className="cameras-slide">
             <h3>Cameras</h3>
