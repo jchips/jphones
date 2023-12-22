@@ -1,5 +1,94 @@
 [
   {
+    "name": "OnePlus Open",
+    "id": "oneplus-open",
+    "offName": "OnePlus Open",
+    "foldable": true,
+    "img": "/assets/imgs/oneplus/oneplus-open.png",
+    "brand": "OnePlus",
+    "os": "Android 13",
+    "year": 2023,
+    "category": "open",
+    "colors": [
+      {"color": "Emerald Dusk", "tag": "emerald-dusk"},
+      {"color": "Voyager Black", "tag": "voyager-black"}
+    ],
+    "prices":[
+      {"storage": "512 GB", "price": "$1700"}
+    ],
+    "ui": "Oxygen OS 13.2",
+    "openDisplay": "7.82 in; 2268x2440 px, Flexi-fluid AMOLED LTPO 3.0",
+    "closedDisplay": "6.31 in; 1116x2484 px, Super Fluid AMOLED LTPO 3.0",
+    "build": "Glass or eco leather / Ceramic Shield (folded), plastic (unfolded), aluminum frame",
+    "openSize": "6.04 x 5.63 x 0.23 in",
+    "closedSize": "6.04 x 2.89 x 0.46 in",
+    "rearCameras": {"primary": "48 MP", "ultrawide": "48 MP", "telephoto": "64 MP"},
+    "frontCameras": "32 MP (folded), 20 MP (unfolded)",
+    "ram": "16 GB",
+    "battery": "4805 mAh",
+    "charging": "67W SUPERVOOC",
+    "capacity": "512 GB",
+    "released": "Oct. 26, 2023 (USA)",
+    "phoneFeatures": [
+      "WiFi 7",
+      "Face ID",
+      "Alert Slider",
+      "Fingerprint sensor",
+      "120 Hz adaptive refresh rate",
+      "UFS 4.0 Storage",
+      "Triple speakers",
+      "IPX4 splash resistant",
+      "Canvas-style Multitasking",
+      "4yrs of Android updates",
+      "Supports the OPPO Pen on both inner and outer screen",
+      "Folded screen is the same size as a regular OnePlus flagship"
+    ],
+    "cameraFeatures":[
+      "3X optical zoom, 6X in-sensor zoom, 20x digital zoom, up to 120x Ultra Res (digital) Zoom",
+      "Nightscape",
+      "4K video @ 30/60fps",
+      "Auto focus on all rear cameras",
+      "XPan - Takes super wide, very cinematic looking shots",
+      "Optical + electronic image stabilization on main & telephoto cameras"
+    ],
+    "cameraPros":[
+      "Can take selfies photos with rear camera",
+      "“One of the nicest shutter experiences I've had in recent memory” ~ Mrwhosetheboss, Oct. 2023"
+    ],
+    "cameraCons":[
+      "The 120x zoom is really not “ultra res”",
+      "Easily to get blurry photos (sensitive to movement)",
+      "Video gets overexposed easily on front cameras",
+      "Camera lenses fog up sometimes in cold weather",
+      "“Camera doesn't live up to it's potential” ~ Mrwhosetheboss, Oct. 2023"
+    ],
+    "pros":[
+      "Case included ITB",
+      "Very good battery life",
+      "Very minimal crease",
+      "“Best hinge I've ever seen” - Mrwhosetheboss, Oct. 2023",
+      "Alert slider is back (after being away)",
+      "Some apps can drag and drop while multitasking",
+      "Same weight as iPhone 14 Pro Max (240g)",
+      "One of the brightest displays out there right now (peak 2800 nits)",
+      "Screen protector pre-installed on both inner and outer screens",
+      "“Best set of speakers on a foldable” ~ Mrwhosetheboss, Oct. 2023"
+    ],
+    "cons":[
+      "No wireless charging",
+      "Does get a little buggy",
+      "Alert slider is a little high",
+      "Fingerprint sensor isn't very reliable",
+      "Not as water resistant as Samsung Z Fold 5 (can't do full immersion)",
+      "Left bezels aren't quite symmetrical with all the others"
+    ],
+    "approbations":[
+      "Best Smartphone of 2023 ~ Tech Spurt, Dec. 2023",
+      "Best Foldable of 2023 ~ Mrwhosetheboss, Nov. 2023 & Tech Spurt, Dec. 2023",
+      "“No foldable has ever made as much sense to me as this one here” ~ Mrwhosetheboss, Oct. 2023"
+    ]
+  },
+  {
     "name": "Galaxy Z Fold 5",
     "id": "galaxy-z-fold-5",
     "offName": "Samsung Galaxy Z Fold 5",
@@ -25,8 +114,8 @@
     "openDisplay": "7.6 in; 1812x2176 px, Dynamic AMOLED 2X",
     "closedDisplay": "6.2 in; 904x2316 px, Dynamic AMOLED 2X",
     "build": "Gorilla Glass Victus 2, Armor aluminum (Matte)",
-    "openSize": "6.1 x 5.11 x 0.24 in",
-    "closedSize": "6.1 x 2.64 x 0.53 in",
+    "openSize": "6.10 x 5.11 x 0.24 in",
+    "closedSize": "6.10 x 2.64 x 0.53 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
     "frontCameras": "10 MP (folded), 4 MP (unfolded)",
     "ram": "12 GB",
@@ -41,13 +130,12 @@
       "Ultrasonic in-display fingerprint scanner",
       "120 Hz refresh rate",
       "IPX8 water resistant",
-      "Foldable tablet/phone",
       "Wireless Powershare",
       "Flex mode (Infinity Flex Display)",
       "Dolby Atmos Dual Stereo speakers"
     ],
     "cameraFeatures":[
-      "8K video @ 30 fps",
+      "8K video @ 30fps",
       "Brighter low light images",
       "30x Space zoom",
       "Can take selfies photos with rear camera"
@@ -70,7 +158,7 @@
       "Better cases than Z Fold 4 (makes things less bulky)"
     ],
     "cons":[
-      "Doesn't come with S-pen",
+      "Doesn't come with S-pen ITB",
       "S-pen doesn’t work on the outer display",
       "Not dust resistant",
       "Narrower phone screen than regular smartphones",
@@ -87,7 +175,7 @@
     "brand": "Google",
     "os": "Android 13",
     "year": 2023,
-    "category": "fold",
+    "category": "pixel fold",
     "colors": [
       {"color": "Obsidian", "tag": "obsidian"},
       {"color": "Porcelain", "tag": "porcelain"}
@@ -124,7 +212,10 @@
       "Photo Unblur",
       "Night Sight",
       "Magic Eraser",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
+      "Can take selfies photos with rear camera"
+    ],
+    "cameraPros":[
       "Can take selfies photos with rear camera"
     ],
     "pros":[
@@ -136,6 +227,7 @@
       "Large bezels",
       "Not dust resistant",
       "Isn't completely flat when unfolded",
+      "One of the worst phones from 2023 according to Mrwhosetheboss (popular tech reviewer)",
       "Puts all apps in landscape mode automatically when you use tablet mode, and a lot of Android apps aren’t optimized for landscape viewing, so it won’t be fullscreen"
     ]
   },
@@ -186,7 +278,7 @@
     ],
     "cameraFeatures":[
       "8K video @ 24 fps",
-      "4K video @ 60 fps",
+      "4K video @ 60fps",
       "Space zoom",
       "Brighter low light images",
       "Can take selfies photos with rear camera"

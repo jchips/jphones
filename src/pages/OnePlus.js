@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Carousel, ListGroup } from 'react-bootstrap';
 import oneplusData from '../json/oneplus-data.json';
+import foldableData from '../json/foldable-data.json';
 import VariantsAccordion from "../components/VariantsAccordion";
 import "../styles/Brands.scss";
 
@@ -61,6 +62,7 @@ class OnePlus extends Component {
         {versions.map((version, index) =>
           <VariantsAccordion data={oneplusData} category={version} key={index} />
         )}
+        <VariantsAccordion data={foldableData} category={"open"} />
       </div>
     );
   }
