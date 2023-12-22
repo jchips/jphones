@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import pixelData from '../json/pixel-data.json';
 import foldableData from "../json/foldable-data.json";
-import VariantsAccordion from '../components/VariantsAccordion';
+import ModelAccordion from '../components/ModelAccordian';
 import { Container, Carousel, ListGroup } from 'react-bootstrap';
 
 class Google extends Component {
@@ -81,9 +81,9 @@ class Google extends Component {
           </Carousel>
         </Container>
         {versions.map((version, index) => 
-          <VariantsAccordion data={pixelData} category={version} key={index}/>
+          <ModelAccordion data={pixelData} category={version} key={index}/>
         )}
-        <VariantsAccordion data={foldableData} category="pixel fold" />
+        <ModelAccordion data={foldableData} category="fold" />
       </div>
     );
   }

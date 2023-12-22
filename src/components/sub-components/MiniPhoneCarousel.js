@@ -5,9 +5,28 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../styles/MiniPhoneCarousel.scss"
 
 class MiniPhoneCarousel extends React.Component {
+   constructor(props) {
+    super(props);
+    this.state = {
+      disableSwipe: false
+    }
+   }
+
   inputRef = createRef();
   // pros = createRef();
   // cons = createRef();
+
+  // handleSlide = (index) => {
+  //   // Check if it's the first slide
+  //   this.setState({disableSwipe: index === 0});
+  // };
+
+  handleTouchStart = (e) => {
+    // Prevent swipe on the first slide
+    // if (this.state.disableSwipe) {
+      e.preventDefault();
+    // }
+  };
 
   /**
    * TODO: Could probably make this more efficient
@@ -31,7 +50,7 @@ class MiniPhoneCarousel extends React.Component {
     return(
       <>
         <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
-          <Carousel.Item className="first-slide">
+          <Carousel.Item className="first-slide" onTouchStart={this.handleTouchStart}>
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
             <div className="img-container">
