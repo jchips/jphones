@@ -16,16 +16,18 @@ class MiniPhoneCarousel extends React.Component {
   // pros = createRef();
   // cons = createRef();
 
-  // handleSlide = (index) => {
-  //   // Check if it's the first slide
-  //   this.setState({disableSwipe: index === 0});
-  // };
+  handleSlide = (index) => {
+    // Check if it's the first slide
+    console.log('index', index); // delete later
+    this.setState({disableSwipe: index === 0});
+  };
 
   handleTouchStart = (e) => {
     // Prevent swipe on the first slide
-    // if (this.state.disableSwipe) {
+    if (this.state.disableSwipe) {
+      console.log('e', e); // delete later
       e.preventDefault();
-    // }
+    }
   };
 
   /**
@@ -49,8 +51,8 @@ class MiniPhoneCarousel extends React.Component {
   render() {
     return(
       <>
-        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
-          <Carousel.Item className="first-slide" onTouchStart={this.handleTouchStart}>
+        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark" onSlide={this.handleSlide} onTouchStart={this.handleTouchStart}>
+          <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
             <div className="img-container">
