@@ -16,19 +16,24 @@ class MiniPhoneCarousel extends React.Component {
   // pros = createRef();
   // cons = createRef();
 
-  handleSlide = (index) => {
-    // Check if it's the first slide
-    console.log('index', index); // delete later
-    this.setState({disableSwipe: index === 0});
+  handleTouchMove = (e) => {
+    // Prevent swipe on the first slide during the move
+    e.preventDefault();
   };
 
-  handleTouchStart = (e) => {
-    // Prevent swipe on the first slide
-    if (this.state.disableSwipe) {
-      console.log('e', e); // delete later
-      e.preventDefault();
-    }
-  };
+  // handleSlide = (index) => {
+  //   // Check if it's the first slide
+  //   console.log('index', index); // delete later
+  //   this.setState({disableSwipe: index === 0});
+  // };
+
+  // handleTouchStart = (e) => {
+  //   // Prevent swipe on the first slide
+  //   if (this.state.disableSwipe) {
+  //     console.log('e', e); // delete later
+  //     e.preventDefault();
+  //   }
+  // };
 
   /**
    * TODO: Could probably make this more efficient
@@ -51,8 +56,8 @@ class MiniPhoneCarousel extends React.Component {
   render() {
     return(
       <>
-        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark" onSlide={this.handleSlide} onTouchStart={this.handleTouchStart}>
-          <Carousel.Item className="first-slide">
+        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
+          <Carousel.Item className="first-slide" onTouchMove={this.handleTouchMove}>
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
             <div className="img-container">
