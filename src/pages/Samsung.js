@@ -3,7 +3,7 @@ import { Container, Carousel, ListGroup } from 'react-bootstrap';
 import samsungData from "../json/samsung-data.json";
 import noteData from "../json/note-data.json";
 import foldableData from "../json/foldable-data.json";
-import VariantsAccordion from "../components/VariantsAccordion";
+import ModelAccordion from "../components/ModelAccordian";
 import "../styles/Brands.scss";
 
 class Samsung extends Component {
@@ -77,10 +77,10 @@ class Samsung extends Component {
           </Carousel>
         </Container>
         {sPhones.map((version, index) =>
-          <VariantsAccordion data={samsungData} category={version} key={index} />
+          <ModelAccordion data={samsungData} category={version} key={index} />
         )}
-        <VariantsAccordion data={foldableData} category="z fold" />
-        <VariantsAccordion data={noteData} category="note" />
+        <ModelAccordion data={foldableData} category="z fold" />
+        <ModelAccordion data={noteData} category="note" />
       </div>
     );
   }

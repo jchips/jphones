@@ -2,7 +2,7 @@ import React from "react";
 import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "../../styles/MiniPhoneCarousel.scss"
+import "../../styles/MiniPhoneCarousel.scss";
 
 class MiniPhoneCarousel extends React.Component {
   constructor(props) {
@@ -42,7 +42,7 @@ class MiniPhoneCarousel extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <>
         <Carousel 
           id={this.props.phone.id}
@@ -61,12 +61,11 @@ class MiniPhoneCarousel extends React.Component {
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               /> */}
-              <LazyLoadImage 
+              <LazyLoadImage
                 src={this.props.phone.img}
                 alt={this.props.phone.name}
               />
             </div>
-            {/* <p className="released">{this.props.phone.released}</p> */}
             <h6>{this.props.phone.released}</h6>
           </Carousel.Item>
 
@@ -74,15 +73,15 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="phone-specs-slide">
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <div className="scrollable">
-              <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
+            <div classNameName="scrollable">
+              <p><span>UI: </span>{this.props.phone.ui}</p><hr />
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
               {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
               {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
-              <p><span>Build: </span>{this.props.phone.build}</p><hr/>
+              <p><span>Build: </span>{this.props.phone.build}</p><hr />
               <p><span>Battery: </span>{this.props.phone.battery}</p>
-              <p><span>Charging: </span>{this.props.phone.charging}</p><hr/>
-              <p><span>Ram: </span>{this.props.phone.ram}</p><hr/>
+              <p><span>Charging: </span>{this.props.phone.charging}</p><hr />
+              <p><span>Ram: </span>{this.props.phone.ram}</p><hr />
               <p><span>Capacity: </span>{this.props.phone.capacity}</p>
             </div>
           </Carousel.Item>
@@ -106,7 +105,6 @@ class MiniPhoneCarousel extends React.Component {
               </div>
             )}
             <div ref={this.inputRef} className="colors">
-              {/* {this.props.phone.colors.length > 5 && this.overFlow()} */}
               <h4>Colors</h4>
               <ul>
                 {this.props.phone.colors.map((phoneColor, index) =>
@@ -120,12 +118,11 @@ class MiniPhoneCarousel extends React.Component {
               </ul>
             </div>
           </Carousel.Item>
-          
+
           {/* Features */}
           <Carousel.Item className="features-slide">
             <h3>Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {/* <hr/> */}
             <div className="phones-features scrollable">
               <ul>
                 {this.props.phone.phoneFeatures.map((feature, index) =>
@@ -133,9 +130,8 @@ class MiniPhoneCarousel extends React.Component {
                 )}
               </ul>
             </div>
-            {/* <hr/> */}
           </Carousel.Item>
-          
+
           {/* Cameras */}
           <Carousel.Item className="cameras-slide">
             <h3>Cameras</h3>
@@ -166,11 +162,9 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="camera-features">
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {/* <hr/> */}
             <section className="scrollable">
               <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
             </section>
-            {/* <hr/> */}
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}

@@ -175,7 +175,7 @@
     "brand": "Google",
     "os": "Android 13",
     "year": 2023,
-    "category": "pixel fold",
+    "category": "fold",
     "colors": [
       {"color": "Obsidian", "tag": "obsidian"},
       {"color": "Porcelain", "tag": "porcelain"}
@@ -187,7 +187,7 @@
     "ui": "Stock Android 13",
     "openDisplay": "7.6 in; 1840x2208 px, FHD+ OLED",
 	  "closedDisplay": "5.8 in; 1080x2092 px, FHD+ OLED",
-    "build": "Gorilla Glass Victus / plastic front (unfolded), aluminum frame, stainless steel hinge (Glossy)",
+    "build": "Gorilla Glass Victus (glossy) / plastic front (unfolded), aluminum frame, stainless steel hinge",
     "openSize": "6.2 x 5.5 x 0.2 in",
 	  "closedSize": "5.5 x 3.1 x 0.5 in",
     "rearCameras": {"primary": "48 MP", "ultrawide": "10.8 MP", "telephoto": "10.8 MP"},

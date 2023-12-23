@@ -1,6 +1,6 @@
 import React from "react";
 import iphoneData from "../json/iphone-data.json";
-import VariantsAccordion from "../components/VariantsAccordion";
+import ModelAccordion from "../components/ModelAccordian";
 import "../styles/Brands.scss";
 import { Carousel, Container, ListGroup } from "react-bootstrap";
 
@@ -87,7 +87,7 @@ class Apple extends React.Component {
           </Carousel>
         </Container>
         {versions.map((version, index) =>
-          <VariantsAccordion data={iphoneData} category={version} key={index} />
+          <ModelAccordion data={iphoneData} category={version} key={index} />
         )}
       </div>
     )
