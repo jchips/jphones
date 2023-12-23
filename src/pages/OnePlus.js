@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Container, Carousel, ListGroup } from 'react-bootstrap';
 import oneplusData from '../json/oneplus-data.json';
 import foldableData from '../json/foldable-data.json';
-import VariantsAccordion from "../components/VariantsAccordion";
+import ModelAccordion from "../components/ModelAccordian";
 import "../styles/Brands.scss";
 
 class OnePlus extends Component {
   render() {
-    let versions = ['11', '10', '9', '8', '7', '6'];
+    let models = ['11', '10', '9', '8', '7', '6'];
     return (
       <div className='oneplus'>
         <h2>OnePlus Phones</h2>
@@ -59,10 +59,10 @@ class OnePlus extends Component {
             </Carousel.Item>
           </Carousel>
         </Container>
-        {versions.map((version, index) =>
-          <VariantsAccordion data={oneplusData} category={version} key={index} />
+        {models.map((model, index) =>
+          <ModelAccordion data={oneplusData} category={model} key={index} />
         )}
-        <VariantsAccordion data={foldableData} category={"open"} />
+        <ModelAccordion data={foldableData} category={"open"} />
       </div>
     );
   }
