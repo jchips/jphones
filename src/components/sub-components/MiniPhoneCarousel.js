@@ -73,7 +73,7 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="phone-specs-slide">
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <div classNameName="scrollable">
+            <div className="scrollable">
               <p><span>UI: </span>{this.props.phone.ui}</p><hr />
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
               {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
