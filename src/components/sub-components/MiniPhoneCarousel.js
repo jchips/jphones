@@ -38,7 +38,7 @@ class MiniPhoneCarousel extends React.Component {
     return (
       <>
         <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
-          <Carousel.Item className="first-slide" data-bs-touch="false">
+          <Carousel.Item className="first-slide" touch="false">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
             <div className="img-container">
@@ -51,7 +51,6 @@ class MiniPhoneCarousel extends React.Component {
                 alt={this.props.phone.name}
               />
             </div>
-            {/* <p className="released">{this.props.phone.released}</p> */}
             <h6>{this.props.phone.released}</h6>
           </Carousel.Item>
 
@@ -59,7 +58,7 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="phone-specs-slide">
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <div class="scrollable">
+            <div className="scrollable">
               <p><span>UI: </span>{this.props.phone.ui}</p><hr />
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
               {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
@@ -91,7 +90,6 @@ class MiniPhoneCarousel extends React.Component {
               </div>
             )}
             <div ref={this.inputRef} className="colors">
-              {/* {this.props.phone.colors.length > 5 && this.overFlow()} */}
               <h4>Colors</h4>
               <ul>
                 {this.props.phone.colors.map((phoneColor, index) =>
@@ -110,7 +108,6 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="features-slide">
             <h3>Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {/* <hr/> */}
             <div className="phones-features scrollable">
               <ul>
                 {this.props.phone.phoneFeatures.map((feature, index) =>
@@ -118,7 +115,6 @@ class MiniPhoneCarousel extends React.Component {
                 )}
               </ul>
             </div>
-            {/* <hr/> */}
           </Carousel.Item>
 
           {/* Cameras */}
@@ -151,11 +147,9 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="camera-features">
             <h3>Cameras - Features</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            {/* <hr/> */}
             <section className="scrollable">
               <ul>{this.props.phone.cameraFeatures.map((feature, index) => <li key={index}>{feature}</li>)}</ul>
             </section>
-            {/* <hr/> */}
           </Carousel.Item>
 
           {/* Camera Pros anc Cons */}

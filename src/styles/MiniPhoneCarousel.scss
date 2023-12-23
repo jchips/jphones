@@ -52,15 +52,20 @@ ul {
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
   }
 
-  & .cameras-slide p,
-  & .phone-specs-slide p,
-  & .prices-slide p {
+  .cameras-slide p,
+  .phone-specs-slide p,
+  .prices-slide p,
+  .display p {
     color: $bootstrap-blue;
   }
 
   & span {
     font-weight: 600;
     color: black;
+  }
+
+  .display p {
+    padding: 0 10px;
   }
 }
 
