@@ -33,6 +33,11 @@ class MiniPhoneCarousel extends React.Component {
     }
   }
 
+  /**
+   * Disables touchscreen swipe ability only on the first slide of every carousel because of the
+   * swiping going crazy while scrolling on mobile screens.
+   * @param {Event} index - The index of whichever carousel slide the user is on.
+   */
   enableSwipe = (index) => {
     if(index === 0) {
       this.setState({enableSwipe: false});
@@ -167,7 +172,8 @@ class MiniPhoneCarousel extends React.Component {
             </section>
           </Carousel.Item>
 
-          {/* Camera Pros anc Cons */}
+          {/* Camera Pros anc Cons. */}
+          {/* Only displays if phone has either camera pros or camera cons. */}
           {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (
             <Carousel.Item className="camera-pros-cons">
               <h3>Cameras - Pros & Cons</h3>
