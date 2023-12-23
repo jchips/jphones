@@ -181,7 +181,8 @@ class MiniPhoneCarousel extends React.Component {
               {this.props.phone.cameraPros && (
                 <section className="pros-and-cons-bubble">
                   <h4>Camera Pros:</h4>
-                  <div className="scrollable">
+                  {/* If there are no camera cons, then make the scrollable div length longer */}
+                  <div className={this.props.phone.cameraCons ? "scrollable" : "scrollable-long"}>
                     <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                   </div>
                 </section>
@@ -189,7 +190,8 @@ class MiniPhoneCarousel extends React.Component {
               {this.props.phone.cameraCons && (
                 <section className="pros-and-cons-bubble">
                   <h4>Camera Cons:</h4>
-                  <div className="scrollable">
+                  {/* If there are no camera pros, then make the scrollable div length longer */}
+                  <div className={this.props.phone.cameraPros ? "scrollable" : "scrollable-long"}>
                     <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                   </div>
                 </section>
