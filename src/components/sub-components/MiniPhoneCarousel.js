@@ -18,6 +18,7 @@ class MiniPhoneCarousel extends React.Component {
 
   handleTouch = () => {
     // Prevent swipe on the first slide during the move
+    console.log('disableSwipe', this.state.disableSwipe); // delete later
     return this.state.disableSwipe;
   };
 
@@ -26,14 +27,6 @@ class MiniPhoneCarousel extends React.Component {
     console.log('index', index); // delete later
     this.setState({disableSwipe: index === 0});
   };
-
-  // handleTouchStart = (e) => {
-  //   // Prevent swipe on the first slide
-  //   if (this.state.disableSwipe) {
-  //     console.log('e', e); // delete later
-  //     e.preventDefault();
-  //   }
-  // };
 
   /**
    * TODO: Could probably make this more efficient
