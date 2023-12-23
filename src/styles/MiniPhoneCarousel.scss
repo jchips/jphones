@@ -1,6 +1,5 @@
 @import "colors";
 @import "phone.colors";
-// @import 'reset';
 
 ul {
   padding: 0;
@@ -8,10 +7,8 @@ ul {
 
 .mini-carousel {
   background-size: 100% 100%;
-  // border: 3px groove (rgba(0, 0, 0, 0.6));
   padding: 0 25px;
   border-radius: 20px;
-  /* font-family: "Gill Sans MT", sans-serif; */
   text-align: center;
   margin: 0 auto;
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
@@ -36,7 +33,6 @@ ul {
   }
 
   & .img-container {
-    // background-color: #f0f0f0;
     background-color: $very-light-gray;
     width: fit-content;
     padding: 10px;
@@ -47,8 +43,6 @@ ul {
   & img {
     height: 192px;
     width: 180px;
-    // border-radius: 20px;
-    // background-color: #f0f0f0;
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
   }
 
@@ -71,8 +65,6 @@ ul {
 
 .phone-title {
   margin: 5px auto;
-  // text-decoration: underline;
-  // border-top: 1px dotted black;
   width: fit-content;
 }
 
@@ -104,14 +96,11 @@ h4 {
   background-color: $very-light-gray;
   padding: 5px;
   border-radius: 10px;
-  // border: 1px dotted $theme-blue;
   margin: 10px;
 }
 
 .colors {
   padding-bottom: 10px;
-  // height: 200px;
-  // overflow-y: auto;
 
   & ul {
     list-style-type: none;
@@ -124,6 +113,7 @@ h4 {
   }
 }
 
+// The individual colors each phone model comes in displayed
 .color {
   padding: 10px;
   border-radius: 100%;
@@ -133,7 +123,6 @@ h4 {
 
 .phone-color {
   display: flex;
-  //  justify-content: center;
   align-items: center;
 
   & * {
@@ -179,16 +168,16 @@ h4 {
     margin-bottom: 10px;
   }
 
-  & span {
+  span {
     display: block;
   }
 
-  & ul {
+  ul {
     padding-left: 25px;
   }
 
-  & li,
-  & span {
+  li,
+  span {
     text-align: left;
   }
 }
@@ -197,10 +186,13 @@ h4 {
   .scrollable ul {
     max-height: 90px;
   }
+  .scrollable-long ul {
+    overflow-y: auto;
+    max-height: 240px;
+  }
 }
 
 .pros-and-cons-bubble {
-  // overflow-y: auto;
   margin-bottom: 10px;
   background-color: $very-light-gray;
   border-radius: 10px;
@@ -261,7 +253,7 @@ h4 {
   visibility: hidden;
 }
 
-// might not work on mobile device
+// Displays carousel controls when you hover over or touch (touchscreen) a carousel
 .carousel:hover .carousel-control-next,
 .carousel:hover .carousel-control-prev {
   visibility: visible;

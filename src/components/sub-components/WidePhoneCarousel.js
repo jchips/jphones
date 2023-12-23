@@ -74,7 +74,8 @@ class WidePhoneCarousel extends Component {
               </div>
               {/* <hr /> */}
             </Carousel.Item>
-
+            
+            {/* Cameras */}
             <Carousel.Item className='slide cameras-slide'>
               <h2>{this.props.phone.name}</h2>
               <h3>Cameras</h3>
@@ -100,6 +101,7 @@ class WidePhoneCarousel extends Component {
               </div>
             </Carousel.Item>
 
+            {/* Camera Features */}
             <Carousel.Item className="slide camera-features">
               <h2>{this.props.phone.name}</h2>
               <h3>Cameras - Features</h3>
@@ -110,6 +112,8 @@ class WidePhoneCarousel extends Component {
               {/* <hr/> */}
             </Carousel.Item>
 
+            {/* Camera pros and cons */}
+            {/* Only displays if phone has either camera pros or camera cons. */}
             {(this.props.phone.cameraPros || this.props.phone.cameraCons) && (
               <Carousel.Item className='slide camera-pros-cons'>
                 <h2>{this.props.phone.name}</h2>
@@ -117,7 +121,8 @@ class WidePhoneCarousel extends Component {
                 {this.props.phone.cameraPros && (
                   <section className="pros-and-cons-bubble">
                     <h4>Camera Pros:</h4>
-                    <div className="scrollable">
+                    {/* If there are no camera cons, then make the scrollable div length longer */}
+                    <div className={this.props.phone.cameraPros ? "scrollable" : "scrollable-long"}>
                       <ul>{this.props.phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                     </div>
                   </section>
@@ -125,7 +130,8 @@ class WidePhoneCarousel extends Component {
                 {this.props.phone.cameraCons && (
                   <section className="pros-and-cons-bubble">
                     <h4>Camera Cons:</h4>
-                    <div className="scrollable">
+                    {/* If there are no camera pros, then make the scrollable div length longer */}
+                    <div className={this.props.phone.cameraPros ? "scrollable" : "scrollable-long"}>
                       <ul>{this.props.phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                     </div>
                   </section>
