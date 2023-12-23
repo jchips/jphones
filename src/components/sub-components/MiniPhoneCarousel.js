@@ -5,6 +5,12 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../styles/MiniPhoneCarousel.scss"
 
 class MiniPhoneCarousel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      enableSwipe: false
+    }
+  }
   inputRef = createRef();
   // pros = createRef();
   // cons = createRef();
@@ -27,10 +33,26 @@ class MiniPhoneCarousel extends React.Component {
     }
   }
 
+  enableSwipe = (index) => {
+    if(index === 0) {
+      this.setState({enableSwipe: false});
+    } else {
+      this.setState({enableSwipe: true});
+    }
+  }
+
   render() {
     return(
       <>
-        <Carousel id={this.props.phone.id} className="mini-carousel" interval={null} indicators={true} variant="dark">
+        <Carousel 
+          id={this.props.phone.id}
+          className="mini-carousel"
+          interval={null}
+          indicators={true}
+          variant="dark"
+          touch={this.state.enableSwipe}
+          onSlide={this.enableSwipe}
+        >
           <Carousel.Item className="first-slide">
             <h2>{this.props.phone.name}</h2>
             <h5>{this.props.phone.brand}/{this.props.phone.os}</h5>
@@ -52,7 +74,7 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item className="phone-specs-slide">
             <h3>Phone specs</h3>
             <h6 className="phone-title">&mdash; {this.props.phone.name} &mdash;</h6>
-            <div class="scrollable">
+            <div className="scrollable">
               <p><span>UI: </span>{this.props.phone.ui}</p><hr/>
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
               {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
