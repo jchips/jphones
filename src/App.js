@@ -45,6 +45,13 @@ class App extends React.Component {
       <>
         <DisplayOptionsForm display={this.setDisplay} setSearch={this.setSearch}/>
         <DisplayPhones data={this.state.data} displayAllPhones={this.state.displayAllPhones} searchValue={this.state.searchValue}/>
+        <section class="company-links">
+          {/* Google */}<a href="https://store.google.com/us/category/phones" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/pixel-logo.webp" alt="Google logo" /></a>
+          {/* Apple */}<a href="https://www.apple.com/iphone/" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/apple-logo.webp" alt="Apple logo" /></a>
+          {/* Samsung */}<a href="https://www.samsung.com/us/mobile/phones/all-phones/" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/samsung-logo.webp" alt="Samsung logo" /></a>
+          {/* OnePlus */}<a href="https://www.oneplus.com" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/oneplus-logo.webp" alt="OnePlus logo" /></a>
+          {/* Asus */}<a href="https://www.asus.com/us/Phone/" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/asus-logo.webp" alt="Asus logo" style={{height:40}}/></a>
+        </section>
       </>
     )
   }

@@ -27,7 +27,7 @@
     "frontCameras": "10.5 MP",
     "ram": "12 GB",
     "battery": "5050 mAh",
-    "charging": "30W fast, 23W Google Pixel Stand (wireless), 12W wireless",
+    "charging": "30W fast, 23W Pixel Stand (wireless), 12W wireless",
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Oct. 12, 2023 (USA)",
     "phoneFeatures": [
@@ -66,9 +66,9 @@
     ],
     "cameraPros":[
       "Better camera than Pixel 7 Pro",
-      "Auto focus on front camera (unlike Pixel 8)",
-      "High-resolution photography mode (unlike Pixel 8)",
-      "Has Video Boost and Night Sight Video (unlike Pixel 8)"
+      "Auto focus on front camera",
+      "High-resolution photography mode",
+      "Has Video Boost and Night Sight Video"
     ],
     "cameraCons":[
       "Can not zoom in more than 3x in Portrait Mode",
@@ -119,7 +119,7 @@
     "frontCameras": "10.5 MP",
     "ram": "8 GB",
     "battery": "4575 mAh",
-    "charging": "27W fast, 18W wireless",
+    "charging": "27W fast, 18W Pixel Stand (fast wireless), 12W wireless",
     "capacity": "128 GB / 256 GB",
     "released": "Oct. 12, 2023 (USA)",
     "phoneFeatures": [
@@ -203,7 +203,7 @@
     "frontCameras": "10.8 MP",
     "ram": "12 GB",
     "battery": "5000 mAh",
-    "charging": "23W fast, 23W fast wireless",
+    "charging": "23W fast, 23W Pixel Stand (fast wireless), 12W wireless",
     "capacity": "128 / 256 / 512 GB",
     "released": "Oct. 13, 2022 (USA)",
     "phoneFeatures": [
@@ -275,7 +275,7 @@
     "frontCameras": "10.8 MP",
     "ram": "8 GB",
     "battery": "4355 mAh",
-    "charging": "21W fast, 20W fast wireless",
+    "charging": "21W fast, 20W Pixel Stand (fast wireless), 12W wireless",
     "capacity": "128 / 256 GB",
     "released": "Oct. 13, 2022 (USA)",
     "phoneFeatures": [
@@ -350,7 +350,7 @@
     "frontCameras": "13 MP",
     "ram": "8 GB",
     "battery": "4385 mAh",
-    "charging": "18W fast, 7.5W wireless",
+    "charging": "18W fast, 7.5W Pixel Stand (wireless), 5W wireless",
     "capacity": "128 GB",
     "released": "May 10, 2023 (USA)",
     "phoneFeatures": [
@@ -569,7 +569,7 @@
     "frontCameras": "8 MP",
     "ram": "8 GB",
     "battery": "4080 mAh",
-    "charging": "18W",
+    "charging": "18W fast, 10W Pixel Stand (wireless), 12W wireless",
     "capacity": "128 GB",
     "released": "Oct. 15, 2020 (USA)",
     "phoneFeatures": [
@@ -666,7 +666,7 @@
     "frontCameras": "8 MP",
     "ram": "6 GB",
     "battery": "3700 mAh",
-    "charging": "18W fast, 10W Google Pixel Stand (wireless), 5W wireless",
+    "charging": "18W fast, 10W Pixel Stand (wireless), 11W wireless",
     "capacity": "64 / 128 GB",
     "released": "Oct. 24, 2019 (USA)",
     "phoneFeatures": [
@@ -722,7 +722,7 @@
     "frontCameras": "8 MP",
     "ram": "6 GB",
     "battery": "2800 mAh",
-    "charging": "18W fast, 5W wireless",
+    "charging": "18W fast, 10W Pixel Stand (wireless), 11W wireless",
     "capacity": "64 / 128 GB",
     "released": "Oct. 24, 2019 (USA)",
     "phoneFeatures": [
@@ -837,7 +837,7 @@
     "frontCameras": "Primary: 8 MP, 8 MP",
     "ram": "4 GB",
     "battery": "3430 mAh",
-    "charging": "",
+    "charging": "18W fast, 10W Pixel Stand (wireless), 5W wireless",
     "capacity": "64 / 128 GB",
     "released": "Oct. 18, 2018 (USA)",
     "phoneFeatures": [
@@ -887,7 +887,7 @@
     "frontCameras": "8 MP",
     "ram": "4 GB",
     "battery": "2915 mAh",
-    "charging": "",
+    "charging": "18W fast, 10W Pixel Stand (wireless), 5W wireless",
     "capacity": "64 / 128 GB",
     "released": "Oct. 18, 2018 (USA)",
     "phoneFeatures": [
@@ -936,7 +936,7 @@
     "frontCameras": "8 MP",
     "ram": "4 GB",
     "battery": "3000 mAh",
-    "charging": "",
+    "charging": "18W fast",
     "capacity": "64 GB",
     "released": "May 8th, 2019 (USA)",
     "phoneFeatures": [

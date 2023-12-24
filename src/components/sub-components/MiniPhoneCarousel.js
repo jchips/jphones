@@ -81,8 +81,8 @@ class MiniPhoneCarousel extends React.Component {
             <div className="scrollable">
               <p><span>UI: </span>{this.props.phone.ui}</p><hr />
               {!this.props.phone.foldable && (<p><span>Size: </span>{this.props.phone.size}</p>)}
-              {this.props.phone.foldable && (<p><span>Open size: </span>{this.props.phone.openSize}</p>)}
-              {this.props.phone.foldable && (<p><span>Closed size: </span>{this.props.phone.closedSize}</p>)}
+              {this.props.phone.foldable && (<p><span>Unfolded size: </span>{this.props.phone.openSize}</p>)}
+              {this.props.phone.foldable && (<p><span>Folded size: </span>{this.props.phone.closedSize}</p>)}
               <p><span>Build: </span>{this.props.phone.build}</p><hr />
               <p><span>Battery: </span>{this.props.phone.battery}</p>
               <p><span>Charging: </span>{this.props.phone.charging}</p><hr />
@@ -105,8 +105,8 @@ class MiniPhoneCarousel extends React.Component {
             {this.props.phone.foldable && (
               <div className="display">
                 <h4>Display</h4>
-                <p><span>Open display: </span>{this.props.phone.openDisplay}</p>
-                <p><span>Closed display: </span>{this.props.phone.closedDisplay}</p>
+                <p><span>Unfolded: </span>{this.props.phone.openDisplay}</p>
+                <p><span>Folded: </span>{this.props.phone.closedDisplay}</p>
               </div>
             )}
             <div ref={this.inputRef} className="colors">
