@@ -183,9 +183,14 @@ h4 {
 }
 
 .camera-pros-cons {
+  ul {
+    font-size: 0.9rem;
+  }
+
   .scrollable ul {
     max-height: 90px;
   }
+
   .scrollable-long ul {
     overflow-y: auto;
     max-height: 240px;
@@ -203,20 +208,21 @@ h4 {
   display: flex;
   flex-direction: column;
 
-  & .scrollable ul {
+  .scrollable ul {
     max-height: 97px;
   }
 
-  & span {
+  span {
     display: block;
   }
 
-  & ul {
+  ul {
     padding-left: 20px;
     margin-bottom: 5px;
+    font-size: 0.9rem;
   }
 
-  & li {
+  li {
     text-align: left;
   }
 }

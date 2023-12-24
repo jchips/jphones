@@ -40,16 +40,16 @@
       "IPX4 splash resistant",
       "Canvas-style Multitasking",
       "4yrs of Android updates",
-      "Supports the OPPO Pen on both inner and outer screen",
+      "Supports the OPPO Pen on both inner and outer displays",
       "Folded screen is the same size as a regular OnePlus flagship"
     ],
     "cameraFeatures":[
       "3X optical zoom, 6X in-sensor zoom, 20x digital zoom, up to 120x Ultra Res (digital) Zoom",
-      "Nightscape",
       "4K video @ 30/60fps",
       "Auto focus on all rear cameras",
       "XPan - Takes super wide, very cinematic looking shots",
-      "Optical + electronic image stabilization on main & telephoto cameras"
+      "Optical + electronic image stabilization on main & telephoto cameras",
+      "Can take selfies photos with rear camera"
     ],
     "cameraPros":[
       "Can take selfies photos with rear camera",
@@ -79,6 +79,7 @@
       "Does get a little buggy",
       "Alert slider is a little high",
       "Fingerprint sensor isn't very reliable",
+      "Not dust resistant",
       "Not as water resistant as Samsung Z Fold 5 (can't do full immersion)",
       "Left bezels aren't quite symmetrical with all the others"
     ],
@@ -188,7 +189,7 @@
     "openDisplay": "7.6 in; 1840x2208 px, FHD+ OLED",
 	  "closedDisplay": "5.8 in; 1080x2092 px, FHD+ OLED",
     "build": "Gorilla Glass Victus (glossy) / plastic front (unfolded), aluminum frame, stainless steel hinge",
-    "openSize": "6.2 x 5.5 x 0.2 in",
+    "openSize": "5.5 x 6.2 x 0.2 in",
 	  "closedSize": "5.5 x 3.1 x 0.5 in",
     "rearCameras": {"primary": "48 MP", "ultrawide": "10.8 MP", "telephoto": "10.8 MP"},
     "frontCameras": "9.5 MP (folded), 8 MP (unfolded)",
@@ -210,7 +211,6 @@
     ],
     "cameraFeatures":[
       "Photo Unblur",
-      "Night Sight",
       "Magic Eraser",
       "4K video @ up to 60fps",
       "Can take selfies photos with rear camera"

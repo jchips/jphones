@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-- 12-23-2023 (2.0.3) - Disabled the touch screen swiping on carousels' first slide to reduce the carousels going crazy on mobile screens while scrolling. Minor improvements.
+- 12-23-2023 (2.0.3) - Disabled the touch screen swiping on carousels' first slide to reduce the carousels going crazy on mobile screens while scrolling. Added company links at the bottom of main page. Minor improvements.
 - 12-22-2023 (2.0.2) - Added OnePlus Open.
 - 12-20-2023 (2.0.1) - Added iPhone 15s and Pixel 8s.
 - 12-19-2023 (2.0.0) - Added a search bar on the main page.

@@ -14,3 +14,27 @@
     object-fit: contain;
   }
 }
+
+// Phone company links on home page
+.company-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  img {
+    margin: 20px;
+    height: 76.8px;
+    min-width: 72px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+    transition: transform 0.7s;
+  }
+
+  img:hover {
+    transform: scale(1.4); // makes the links become larger when hovered over
+  }
+}
