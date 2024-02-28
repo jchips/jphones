@@ -1,29 +1,54 @@
-[ 
+[
   {
     "name": "iPhone 15 Pro Max",
     "id": "iphone-15-pro-max",
-    "offName": "Apple iPhone 15 Pro Max", 
+    "offName": "Apple iPhone 15 Pro Max",
     "img": "/assets/imgs/iphones/iphone-15-pro-max.png",
     "brand": "Apple",
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
     "colors": [
-      {"color": "Natural Titanium", "tag": "natural-titanium"},
-      {"color": "Black Titanium", "tag": "black-titanium"},
-      {"color": "White Titanium", "tag": "white-titanium"},
-      {"color": "Blue Titanium", "tag": "blue-titanium"}
+      {
+        "color": "Natural Titanium",
+        "tag": "natural-titanium"
+      },
+      {
+        "color": "Black Titanium",
+        "tag": "black-titanium"
+      },
+      {
+        "color": "White Titanium",
+        "tag": "white-titanium"
+      },
+      {
+        "color": "Blue Titanium",
+        "tag": "blue-titanium"
+      }
     ],
-    "prices":[
-      {"storage": "256 GB", "price": "$1200"},
-      {"storage": "512 GB", "price": "$1400"},
-      {"storage": "1 TB", "price": "$1600"}
+    "prices": [
+      {
+        "storage": "256 GB",
+        "price": "$1200"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1400"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1600"
+      }
     ],
     "ui": "IOS 17",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, titanium frame",
     "size": "6.29 x 3.02 x 0.32 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "8 GB",
     "battery": "4422 mAh",
@@ -31,19 +56,19 @@
     "capacity": "256 / 512 / 1 TB",
     "released": "Sep. 22, 2023 (USA)",
     "phoneFeatures": [
-      "WiFi 6E",
-      "USB Type C, USB 3.0",
+      "Wi-Fi 6E",
+      "USB Type-C, USB 3.0",
       "Dynamic Island",
-      "120 Hz refresh rate (ProMotion)",
+      "120Hz refresh rate (ProMotion)",
       "Always-On Display",
       "Customizable Action Button",
       "Emergency SOS by satellite",
       "Narrower screen than iPhone 14 Pro Max",
       "Voice isolation for phone calls that erases background noise"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "5x optical zoom, 25x digital zoom",
-      "ProRes recording with 4K video @ 60 fps",
+      "ProRes recording with 4K video @ 60fps",
       "Apple ProRAW",
       "Deep Fusion",
       "Sensor Shift OIS",
@@ -51,28 +76,29 @@
       "Cinematic video mode",
       "Smart HDR 5 (photos)",
       "Photographic Styles",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Action mode",
       "Adaptive True Tone flash",
       "Macro video recording & photography",
-      "Default rear cam photos are 24 MP"
+      "Default rear cam photos are 24 MP",
+      "Can turn any regular photo into a portrait photo (because depth info is now included)"
     ],
     "cameraPros": [
       "\"Best phone camera of 2023\" ~ Mrwhosetheboss, Nov. 2023",
       "\"Has the best video on any smartphone\" ~ SuperSaf, Nov. 2023"
     ],
-    "pros":[
+    "pros": [
       "Weighs lighter than iPhone 14 Pro Max",
       "Feels very good in the hand (softer, more rounded, lighter, more premium feeling than previous iPhones)",
       "A bit faster and more powerful than iPhone 15 & 15 Plus (A17 Pro chip vs A16)"
     ],
-    "cons":[
+    "cons": [
       "No dedicated Ring/Silent switch",
-      "Not very fast charging despite using USB Type C with USB 3.0",
+      "Not very fast charging despite using USB Type-C with USB 3.0",
       "Customizable Action Button is not very reachable",
       "No support for physical sim cards in the USA, only eSim"
     ],
-    "approbations":[
+    "approbations": [
       "Best Phone Camera of 2023 ~ Mrwhosetheboss, Nov. 2023",
       "Tied for Best Flagship of 2023 (with Galaxy S23 Ultra) ~ Mrwhosetheboss, Nov. 2023",
       "“Has the best video on any smartphone” ~ SuperSaf, Nov. 2023"
@@ -81,29 +107,57 @@
   {
     "name": "iPhone 15 Pro",
     "id": "iphone-15-pro",
-    "offName": "Apple iPhone 15 Pro", 
+    "offName": "Apple iPhone 15 Pro",
     "img": "/assets/imgs/iphones/iphone-15-pro.png",
     "brand": "Apple",
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
     "colors": [
-      {"color": "Natural Titanium", "tag": "natural-titanium"},
-      {"color": "Black Titanium", "tag": "black-titanium"},
-      {"color": "White Titanium", "tag": "white-titanium"},
-      {"color": "Blue Titanium", "tag": "blue-titanium"}
+      {
+        "color": "Natural Titanium",
+        "tag": "natural-titanium"
+      },
+      {
+        "color": "Black Titanium",
+        "tag": "black-titanium"
+      },
+      {
+        "color": "White Titanium",
+        "tag": "white-titanium"
+      },
+      {
+        "color": "Blue Titanium",
+        "tag": "blue-titanium"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1100"},
-      {"storage": "512 GB", "price": "$1300"},
-      {"storage": "1 TB", "price": "$1500"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1300"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1500"
+      }
     ],
     "ui": "IOS 17",
     "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, titanium frame",
     "size": "5.77 x 2.78 x 0.32 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "8 GB",
     "battery": "3274 mAh",
@@ -111,19 +165,19 @@
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 22, 2023 (USA)",
     "phoneFeatures": [
-      "WiFi 6E",
-      "USB Type C, USB 3.0",
+      "Wi-Fi 6E",
+      "USB Type-C, USB 3.0",
       "Dynamic Island",
-      "120 Hz refresh rate (ProMotion)",
+      "120Hz refresh rate (ProMotion)",
       "Always-On Display",
       "Customizable Action Button",
       "Emergency SOS by satellite",
       "Narrower screen than iPhone 14 Pro",
       "Voice isolation for phone calls that erases background noise"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "3x optical zoom, 15x digital zoom",
-      "ProRes recording with 4K video @ 60 fps",
+      "ProRes recording with 4K video @ 60fps",
       "Apple ProRAW",
       "Deep Fusion",
       "Sensor Shift OIS",
@@ -131,20 +185,21 @@
       "Cinematic video mode",
       "Smart HDR 5 (photos)",
       "Photographic Styles",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Action mode",
       "Adaptive True Tone flash",
       "Macro video recording & photography",
-      "Default rear cam photos are 24 MP"
+      "Default rear cam photos are 24 MP",
+      "Can turn any regular photo into a portrait photo (because depth info is now included)"
     ],
-    "pros":[
+    "pros": [
       "Weighs lighter than iPhone 14 Pro",
       "Feels very good in the hand (softer, more rounded, lighter, more premium feeling than previous iPhones)",
       "A bit faster and more powerful than iPhone 15 & 15 Plus (A17 Pro chip vs A16)"
     ],
-    "cons":[
+    "cons": [
       "No dedicated Ring/Silent switch",
-      "Not very fast charging despite using USB Type C with USB 3.0",
+      "Not very fast charging despite using USB Type-C with USB 3.0",
       "Customizable Action Button is not very reachable",
       "No support for physical sim cards in the USA, only eSim"
     ]
@@ -152,29 +207,56 @@
   {
     "name": "iPhone 15 Plus",
     "id": "iphone-15-plus",
-    "offName": "Apple iPhone 15 Plus", 
+    "offName": "Apple iPhone 15 Plus",
     "img": "/assets/imgs/iphones/iphone-15-plus.png",
     "brand": "Apple",
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
     "colors": [
-      {"color": "Blue", "tag": "apple-light-blue"},
-      {"color": "Pink", "tag": "apple-light-pink"},
-      {"color": "Yellow", "tag": "apple-light-yellow"},
-      {"color": "Green", "tag": "apple-15-green"},
-      {"color": "Black", "tag": "apple-15-black"}
+      {
+        "color": "Blue",
+        "tag": "apple-light-blue"
+      },
+      {
+        "color": "Pink",
+        "tag": "apple-light-pink"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-light-yellow"
+      },
+      {
+        "color": "Green",
+        "tag": "apple-15-green"
+      },
+      {
+        "color": "Black",
+        "tag": "apple-15-black"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$900"},
-      {"storage": "256 GB", "price": "$1000"},
-      {"storage": "512 GB", "price": "$1200"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1200"
+      }
     ],
     "ui": "IOS 17",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, aluminum frame",
     "size": "6.33 x 3.06 x 0.31 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4383 mAh",
@@ -182,11 +264,11 @@
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 22, 2023 (USA)",
     "phoneFeatures": [
-      "USB Type C, USB 2.0",
+      "USB Type-C, USB 2.0",
       "Dynamic Island",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "2x optical zoom",
       "Sensor Shift OIS",
       "Deep Fusion",
@@ -195,28 +277,29 @@
       "Photographic Styles",
       "Night mode on all cameras (except portrait shots)",
       "Auto focus on selfie camera",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Action mode",
-      "Default rear cam photos are 24 MP"
+      "Default rear cam photos are 24 MP",
+      "Can turn any regular photo into a portrait photo (because depth info is now included)"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "“Better camera than the iPhone 14 Pro & Pro Max” ~ Mrwhosetheboss, Sep. 2023"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No Macro video recording (unlike iPhone 15 Pro & Pro Max)",
       "No ProRes video (unlike iPhone 15 Pro & Pro Max)",
       "No Apple ProRaw (unlike iPhone 15 Pro & Pro Max)"
     ],
-    "pros":[
+    "pros": [
       "Lighter weight than previous iPhones",
-      "Brighter screen than iPhone 14 Plus", 
+      "Brighter screen than iPhone 14 Plus",
       "Feels very good in the hand (softer, more rounded, lighter, more premium feeling than previous iPhones)",
       "Very good battery life ~ Mrwhosetheboss, Sep. 2023"
     ],
-    "cons":[
-      "No ProMotion display (has 60 Hz refresh rate)",
+    "cons": [
+      "No ProMotion display (has 60Hz refresh rate)",
       "No Customization Action Button (unlike iPhone 15 Pro & Pro Max)",
       "Charges slower than iPhone 15 Pro & Pro Max",
       "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
@@ -227,29 +310,56 @@
   {
     "name": "iPhone 15",
     "id": "iphone-15",
-    "offName": "Apple iPhone 15", 
+    "offName": "Apple iPhone 15",
     "img": "/assets/imgs/iphones/iphone-15.png",
     "brand": "Apple",
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
     "colors": [
-      {"color": "Blue", "tag": "apple-light-blue"},
-      {"color": "Pink", "tag": "apple-light-pink"},
-      {"color": "Yellow", "tag": "apple-light-yellow"},
-      {"color": "Green", "tag": "apple-15-green"},
-      {"color": "Black", "tag": "apple-15-black"}
+      {
+        "color": "Blue",
+        "tag": "apple-light-blue"
+      },
+      {
+        "color": "Pink",
+        "tag": "apple-light-pink"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-light-yellow"
+      },
+      {
+        "color": "Green",
+        "tag": "apple-15-green"
+      },
+      {
+        "color": "Black",
+        "tag": "apple-15-black"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$800"},
-      {"storage": "256 GB", "price": "$900"},
-      {"storage": "512 GB", "price": "$1100"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1100"
+      }
     ],
     "ui": "IOS 17",
     "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, aluminum frame",
     "size": "5.81 x 2.82 x 0.31 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3349 mAh",
@@ -257,11 +367,11 @@
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 22, 2023 (USA)",
     "phoneFeatures": [
-      "USB Type C, USB 2.0",
+      "USB Type-C, USB 2.0",
       "Dynamic Island",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "2x optical zoom",
       "Sensor Shift OIS",
       "Deep Fusion",
@@ -270,28 +380,29 @@
       "Photographic Styles",
       "Night mode on all cameras (except portrait shots)",
       "Auto focus on selfie camera",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Action mode",
-      "Default rear cam photos are 24 MP"
+      "Default rear cam photos are 24 MP",
+      "Can turn any regular photo into a portrait photo (because depth info is now included)"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "“Better camera than the iPhone 14 Pro & Pro Max” ~ Mrwhosetheboss, Sep. 2023"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No Macro video recording (unlike iPhone 15 Pro & Pro Max)",
       "No ProRes video (unlike iPhone 15 Pro & Pro Max)",
       "No Apple ProRaw (unlike iPhone 15 Pro & Pro Max)"
     ],
-    "pros":[
+    "pros": [
       "Thinner bezels than iPhone 14",
-      "Brighter screen than iPhone 14", 
+      "Brighter screen than iPhone 14",
       "Feels very good in the hand (softer, more rounded, lighter, more premium feeling than previous iPhones)",
       "“Better battery life than any base iPhone I’ve used before” ~ Mrwhosetheboss, Sep. 2023"
     ],
-    "cons":[
-      "No ProMotion display (has 60 Hz refresh rate)",
+    "cons": [
+      "No ProMotion display (has 60Hz refresh rate)",
       "No Customization Action Button (unlike iPhone 15 Pro & Pro Max",
       "Charges slower than iPhone 15 Pro & Pro Max",
       "Does not use the new A17 Pro chip (not as fast as iPhone 15 Pro & Pro Max)",
@@ -309,22 +420,50 @@
     "year": 2022,
     "category": "14",
     "colors": [
-      {"color": "Space Black", "tag": "space-black"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Deep Purple", "tag": "deep-purple"}
+      {
+        "color": "Space Black",
+        "tag": "space-black"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Deep Purple",
+        "tag": "deep-purple"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1100"},
-      {"storage": "256 GB", "price": "$1200"},
-      {"storage": "512 GB", "price": "$1400"},
-      {"storage": "1 TB", "price": "$1600"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1200"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1400"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1600"
+      }
     ],
     "ui": "IOS 16",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.05 x 0.31 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4323 mAh",
@@ -335,10 +474,10 @@
       "Dynamic Island",
       "Always-On Display",
       "HDR Support",
-      "120 Hz refresh rate (ProMotion)",
+      "120Hz refresh rate (ProMotion)",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "3x optical zoom",
       "Apple ProRaw",
       "Deep Fusion",
@@ -351,10 +490,10 @@
       "Adaptive True Tone flash",
       "Macro video recording & photography"
     ],
-    "pros":[
+    "pros": [
       "Highest brightness ever recorded on a smartphone (2000 nits)"
     ],
-    "cons":[
+    "cons": [
       "No charger ITB",
       "No support for physical sim cards in the USA, only eSim"
     ],
@@ -372,22 +511,50 @@
     "year": 2022,
     "category": "14",
     "colors": [
-      {"color": "Space Black", "tag": "space-black"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Deep Purple", "tag": "deep-purple"}
+      {
+        "color": "Space Black",
+        "tag": "space-black"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Deep Purple",
+        "tag": "deep-purple"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1100"},
-      {"storage": "512 GB", "price": "$1300"},
-      {"storage": "1 TB", "price": "$1500"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1300"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1500"
+      }
     ],
     "ui": "IOS 16",
     "display": "6.1 in; 1179 x 2556 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.81 x 2.81 x 0.31 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3200 mAh",
@@ -398,10 +565,10 @@
       "Dynamic Island",
       "HDR10",
       "Always-On Display",
-      "120 Hz refresh rate (ProMotion)",
+      "120Hz refresh rate (ProMotion)",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "3x optical zoom",
       "Apple ProRaw",
       "Deep Fusion",
@@ -414,15 +581,15 @@
       "Adaptive True Tone flash",
       "Macro video recording & photography"
     ],
-    "pros":[
+    "pros": [
       "Highest brightness ever recorded on a smartphone (2000 nits)",
       "Same features as iPhone 14 Pro Max, but smaller size"
     ],
-    "cons":[
+    "cons": [
       "No charger ITB",
       "No support for physical sim cards in the USA, only eSim"
     ],
-    "approbations":[
+    "approbations": [
       "\"Best camera system of the year\" ~ MKBHD, Dec. 2022"
     ]
   },
@@ -436,23 +603,53 @@
     "year": 2022,
     "category": "14",
     "colors": [
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Purple", "tag": "apple-purple"},
-      {"color": "Yellow", "tag": "apple-yellow"},
-      {"color": "Midnight", "tag": "midnight"},
-      {"color": "Starlight", "tag": "starlight"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Purple",
+        "tag": "apple-purple"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-yellow"
+      },
+      {
+        "color": "Midnight",
+        "tag": "midnight"
+      },
+      {
+        "color": "Starlight",
+        "tag": "starlight"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$900"},
-      {"storage": "256 GB", "price": "$1000"},
-      {"storage": "512 GB", "price": "$1200"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1200"
+      }
     ],
     "ui": "IOS 16",
     "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame",
     "size": "6.33 x 3.07 x 0.31 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4323 mAh",
@@ -463,7 +660,7 @@
       "HDR10",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "Action mode",
       "Sensor Shift OIS",
       "Deep Fusion",
@@ -471,26 +668,26 @@
       "Photographic Styles",
       "Smart HDR 4 for photos",
       "Auto focus on selfie camera",
-      "4K video @ up to 60 fps"
+      "4K video @ up to 60fps"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No Macro video recording (unlike iPhone 14 Pro & Pro Max)",
       "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
       "No Apple ProRaw (unlike iPhone 14 Pro & Pro Max)"
     ],
-    "pros":[
+    "pros": [
       "Just an iPhone 14 that’s bigger (same features)",
       "Same size as the iPhone 14 Pro Max",
       "Lighter weight than the iPhone 14 Pro Max"
     ],
-    "cons":[
+    "cons": [
       "No charger ITB",
       "Same chipset as the iPhone 13s (old chipset)",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
       "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
-      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro",
+      "60Hz refresh rate rather than 120Hz like the iPhone 14 Pro Max & Pro",
       "No support for physical sim cards in the USA, only eSim"
     ]
   },
@@ -504,23 +701,53 @@
     "year": 2022,
     "category": "14",
     "colors": [
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Purple", "tag": "apple-purple"},
-      {"color": "Yellow", "tag": "apple-yellow"},
-      {"color": "Midnight", "tag": "midnight"},
-      {"color": "Starlight", "tag": "starlight"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Purple",
+        "tag": "apple-purple"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-yellow"
+      },
+      {
+        "color": "Midnight",
+        "tag": "midnight"
+      },
+      {
+        "color": "Starlight",
+        "tag": "starlight"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$800"},
-      {"storage": "256 GB", "price": "$900"},
-      {"storage": "512 GB", "price": "$1100"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1100"
+      }
     ],
     "ui": "IOS 16",
     "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.31 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3279 mAh",
@@ -531,7 +758,7 @@
       "HDR10",
       "Emergency SOS by satellite"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "Sensor Shift OIS",
       "Deep Fusion",
       "Action mode",
@@ -539,21 +766,21 @@
       "Photographic Styles",
       "Smart HDR 4 for photos",
       "Auto focus on selfie camera",
-      "4K video @ up to 60 fps"
+      "4K video @ up to 60fps"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No telephoto camera",
       "No auto focus on ultrawide camera",
       "No ProRes video (unlike iPhone 14 Pro & Pro Max)",
       "No Apple ProRaw (unlike iPhone 14 Pro & Pro Max)"
     ],
-    "pros":[
+    "pros": [
       "None recorded"
     ],
-    "cons":[
+    "cons": [
       "No charger ITB",
       "No Always-On display (unlike iPhone 14 Pro Max & Pro)",
-      "60 Hz refresh rate rather than 120 Hz like the iPhone 14 Pro Max & Pro",
+      "60Hz refresh rate rather than 120Hz like the iPhone 14 Pro Max & Pro",
       "No Dynamic Island (unlike iPhone 14 Pro Max & Pro)",
       "Same chipset as the iPhone 13s (old chipset)",
       "No support for physical sim cards in the USA, only eSim"
@@ -569,20 +796,41 @@
     "year": 2022,
     "category": "SE",
     "colors": [
-      {"color": "Midnight", "tag": "midnight"},
-      {"color": "Starlight", "tag": "starlight"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Midnight",
+        "tag": "midnight"
+      },
+      {
+        "color": "Starlight",
+        "tag": "starlight"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$430"},
-      {"storage": "128 GB", "price": "$480"},
-      {"storage": "256 GB", "price": "$580"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$430"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$480"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$580"
+      }
     ],
     "ui": "IOS 15",
     "display": "4.7 in; 750 x 1334 px, Retina HD",
     "build": "Glass, aluminum frame",
     "size": "5.45 x 2.65 x 0.29 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "N/A"
+    },
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "2018 mAh",
@@ -594,30 +842,30 @@
       "Fingerprint scanner",
       "Uses Apple’s latest processor"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "OIS",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "Smart HDR 4 for photos",
       "Deep Fusion",
       "Photographic Styles"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Improved battery life from iPhone SE (2020)",
       "Low light video is less noisy than iPhone SE (2020)"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No ultrawide camera",
       "No telephoto camera",
       "No Night mode (unlike current iPhone flagships)",
-      "4K video @ up to 60 fps",
+      "4K video @ up to 60fps",
       "No ProRaw (unlike current iPhone flagships)",
       "No Cinematic video mode (unlike current iPhone flagships)",
       "No ProRes video (unlike current iPhone flagships)"
     ],
-    "pros":[
+    "pros": [
       "Cheapest iPhone on the market in 2022"
     ],
-    "cons":[
+    "cons": [
       "No Face ID (unlike iPhone flagships)",
       "Low base storage option",
       "No charger ITB",
@@ -635,23 +883,54 @@
     "phoneType": "iPhone",
     "category": "13",
     "colors": [
-      {"color": "Alpine Green", "tag": "alpine-green"},
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Graphite", "tag": "apple-graphite"},
-      {"color": "Sierra Blue", "tag": "sierra-blue"}
+      {
+        "color": "Alpine Green",
+        "tag": "alpine-green"
+      },
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Graphite",
+        "tag": "apple-graphite"
+      },
+      {
+        "color": "Sierra Blue",
+        "tag": "sierra-blue"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1100"},
-      {"storage": "256 GB", "price": "$1200"},
-      {"storage": "512 GB", "price": "$1400"},
-      {"storage": "1 TB", "price": "$1600"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1200"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1400"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1600"
+      }
     ],
     "ui": "IOS 15",
-    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
+    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.07 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "4352 mAh",
@@ -659,11 +938,20 @@
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 25, 2021 (USA)",
     "phoneFeatures": [
-      "WiFi 6", "120 Hz refresh rate (ProMotion)"
+      "Wi-Fi 6",
+      "120Hz refresh rate (ProMotion)"
     ],
     "cameraFeatures": [
-      "Night mode on all cameras", "3x optical zoom", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
-      "Sensor Shift OIS", "Cinematic video mode", "Photographic Styles", "4K video @ 60fps on all cameras"
+      "Night mode on all cameras",
+      "3x optical zoom",
+      "Ultrawide camera",
+      "Smart HDR 3",
+      "Deep Fusion",
+      "Apple ProRAW",
+      "Sensor Shift OIS",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "4K video @ 60fps on all cameras"
     ],
     "cameraPros": [
       "None recorded"
@@ -672,10 +960,14 @@
       "Cinematic Mode can only film at 1080p"
     ],
     "pros": [
-      "Notch is finally (20%) smaller", "28% brighter screen than iPhone 12s"
+      "Notch is finally (20%) smaller",
+      "28% brighter screen than iPhone 12s"
     ],
-    "cons": ["No charger ITB", "A TINY bit thicker and heavier than predecessors"]
-  }, 
+    "cons": [
+      "No charger ITB",
+      "A TINY bit thicker and heavier than predecessors"
+    ]
+  },
   {
     "name": "iPhone 13 Pro",
     "id": "iphone-13-pro",
@@ -687,23 +979,54 @@
     "phoneType": "iPhone",
     "category": "13",
     "colors": [
-      {"color": "Alpine Green", "tag": "alpine-green"},
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Graphite", "tag": "apple-graphite"},
-      {"color": "Sierra Blue", "tag": "sierra-blue"}
+      {
+        "color": "Alpine Green",
+        "tag": "alpine-green"
+      },
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Graphite",
+        "tag": "apple-graphite"
+      },
+      {
+        "color": "Sierra Blue",
+        "tag": "sierra-blue"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$100"},
-      {"storage": "256 GB", "price": "$1100"},
-      {"storage": "512 GB", "price": "$1300"},
-      {"storage": "1 TB", "price": "$1500"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1300"
+      },
+      {
+        "storage": "1 TB",
+        "price": "$1500"
+      }
     ],
     "ui": "IOS 15",
-    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "6 GB",
     "battery": "3095 mAh",
@@ -711,11 +1034,20 @@
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "WiFi 6", "120 Hz refresh rate (ProMotion)"
+      "Wi-Fi 6",
+      "120Hz refresh rate (ProMotion)"
     ],
     "cameraFeatures": [
-      "Night mode on all cameras", "3x optical zoom", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
-      "Sensor Shift OIS", "Cinematic video mode", "Photographic Styles", "4K video @ 60fps on all cameras"
+      "Night mode on all cameras",
+      "3x optical zoom",
+      "Ultrawide camera",
+      "Smart HDR 3",
+      "Deep Fusion",
+      "Apple ProRAW",
+      "Sensor Shift OIS",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "4K video @ 60fps on all cameras"
     ],
     "cameraPros": [
       "None recorded"
@@ -724,12 +1056,14 @@
       "Cinematic Mode can only film at 1080p"
     ],
     "pros": [
-      "Notch is finally (20%) smaller", "28% brighter screen than iPhone 12s"
+      "Notch is finally (20%) smaller",
+      "28% brighter screen than iPhone 12s"
     ],
     "cons": [
-      "No charger ITB", "A TINY bit thicker and heavier than predecessors"
+      "No charger ITB",
+      "A TINY bit thicker and heavier than predecessors"
     ]
-  }, 
+  },
   {
     "name": "iPhone 13",
     "id": "iphone-13",
@@ -741,23 +1075,53 @@
     "phoneType": "iPhone",
     "category": "13",
     "colors": [
-      {"color": "Green", "tag": "apple-green"},
-      {"color": "Pink", "tag": "apple-pink"},
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Midnight", "tag": "midnight"},
-      {"color": "Starlight", "tag": "starlight"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Green",
+        "tag": "apple-green"
+      },
+      {
+        "color": "Pink",
+        "tag": "apple-pink"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Midnight",
+        "tag": "midnight"
+      },
+      {
+        "color": "Starlight",
+        "tag": "starlight"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$800"},
-      {"storage": "256 GB", "price": "$900"},
-      {"storage": "512 GB", "price": "$1100"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1100"
+      }
     ],
     "ui": "IOS 15",
-    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3227 mAh",
@@ -765,11 +1129,18 @@
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "WiFi 6"
+      "Wi-Fi 6"
     ],
     "cameraFeatures": [
-      "Night mode on all cameras", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
-      "Sensor Shift OIS", "Cinematic video mode", "Photographic Styles", "4K video @ 60fps on all cameras"
+      "Night mode on all cameras",
+      "Ultrawide camera",
+      "Smart HDR 3",
+      "Deep Fusion",
+      "Apple ProRAW",
+      "Sensor Shift OIS",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "4K video @ 60fps on all cameras"
     ],
     "cameraPros": [
       "None recorded"
@@ -778,12 +1149,15 @@
       "Cinematic Mode can only film at 1080p"
     ],
     "pros": [
-      "Notch is finally (20%) smaller", "28% brighter screen than iPhone 12s"
+      "Notch is finally (20%) smaller",
+      "28% brighter screen than iPhone 12s"
     ],
     "cons": [
-      "No charger ITB", "No ProMotion display (has 60 Hz refresh rate)", "A TINY bit thicker and heavier than predecessors"
+      "No charger ITB",
+      "No ProMotion display (has 60Hz refresh rate)",
+      "A TINY bit thicker and heavier than predecessors"
     ]
-  }, 
+  },
   {
     "name": "iPhone 13 Mini",
     "id": "iphone-13-mini",
@@ -795,23 +1169,53 @@
     "phoneType": "iPhone",
     "category": "13",
     "colors": [
-      {"color": "Green", "tag": "apple-green"},
-      {"color": "Pink", "tag": "apple-pink"},
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Midnight", "tag": "midnight"},
-      {"color": "Starlight", "tag": "starlight"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Green",
+        "tag": "apple-green"
+      },
+      {
+        "color": "Pink",
+        "tag": "apple-pink"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Midnight",
+        "tag": "midnight"
+      },
+      {
+        "color": "Starlight",
+        "tag": "starlight"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$700"},
-      {"storage": "256 GB", "price": "$800"},
-      {"storage": "512 GB", "price": "$1000"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$700"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1000"
+      }
     ],
     "ui": "IOS 15",
-    "display": "5.4 in; 1080 x 2340 px, Super Retina XDR OLED",
+    "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
     "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.18 x 2.53 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2,406 mAh",
@@ -819,11 +1223,18 @@
     "capacity": "128 / 256 / 512 GB",
     "released": "Sep. 24, 2021 (USA)",
     "phoneFeatures": [
-      "WiFi 6"
+      "Wi-Fi 6"
     ],
     "cameraFeatures": [
-      "Night mode on all cameras", "Ultrawide camera", "Smart HDR 3", "Deep Fusion", "Apple ProRAW",
-      "Sensor Shift OIS", "Cinematic video mode", "Photographic Styles", "4K video @ 60fps on all cameras"
+      "Night mode on all cameras",
+      "Ultrawide camera",
+      "Smart HDR 3",
+      "Deep Fusion",
+      "Apple ProRAW",
+      "Sensor Shift OIS",
+      "Cinematic video mode",
+      "Photographic Styles",
+      "4K video @ 60fps on all cameras"
     ],
     "cameraPros": [
       "Apple is known for having very good dynamic range"
@@ -832,10 +1243,13 @@
       "Cinematic Mode can only film at 1080p"
     ],
     "pros": [
-      "Notch is finally (20%) smaller", "28% brighter screen than iPhone 12s"
+      "Notch is finally (20%) smaller",
+      "28% brighter screen than iPhone 12s"
     ],
     "cons": [
-      "No charger ITB", "No ProMotion display (has 60 Hz refresh rate)", "A TINY bit thicker and heavier than predecessors"
+      "No charger ITB",
+      "No ProMotion display (has 60Hz refresh rate)",
+      "A TINY bit thicker and heavier than predecessors"
     ]
   },
   {
@@ -848,21 +1262,46 @@
     "year": 2020,
     "category": "12",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Graphite", "tag": "apple-graphite"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Pacific Blue", "tag": "pacific-blue"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Graphite",
+        "tag": "apple-graphite"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Pacific Blue",
+        "tag": "pacific-blue"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1100"},
-      {"storage": "256 GB", "price": "$1200"},
-      {"storage": "512 GB", "price": "$1400"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1200"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1400"
+      }
     ],
     "ui": "IOS 14.1",
-    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
+    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "6.33 x 3.07 x 0.29 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3587 mAh",
@@ -872,31 +1311,42 @@
     "phoneFeatures": [
       "5G"
     ],
-    "cameraFeatures":[
-      "Apple ProRAW", "12x digital zoom", "Sensor Shift OIS", "4K HDR video w/ Dolby Vision @ 60fps",
-      "Night mode on ultra-wide cameras", "Night mode on front facing cameras", "Smart HDR 3 (makes photos a little sharper)",
+    "cameraFeatures": [
+      "Apple ProRAW",
+      "12x digital zoom",
+      "Sensor Shift OIS",
+      "4K HDR video w/ Dolby Vision @ 60fps",
+      "Night mode on ultra-wide cameras",
+      "Night mode on front facing cameras",
+      "Smart HDR 3 (makes photos a little sharper)",
       "First cameras to support 4K 10-bit HDR with Dolby Vision",
-      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"      
+      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
-    "cameraPros":[
-      "2.5x higher optical zoom than 12 & 12 Pro", "More digital capability than the 12 & 12 Pro",
+    "cameraPros": [
+      "2.5x higher optical zoom than 12 & 12 Pro",
+      "More digital capability than the 12 & 12 Pro",
       "Primary camera has a 47% larger sensor than past models"
     ],
-    "cameraCons":[
-      "Camera is not noticeably better than the 12 or 12 Pro", 
+    "cameraCons": [
+      "Camera is not noticeably better than the 12 or 12 Pro",
       "Some social media apps don't support HDR video yet so taking a video in HDR might result in the video looking a bit washed out."
     ],
-    "pros":[
+    "pros": [
       "Coming soon"
     ],
-    "cons":[
-      "Fingerprint magnet", "Phone can get scratches", "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
-      "Battery is smaller than last year's 11 Pro Max", "Phone no longer comes with power adapter and EarPods ITB",
-      "No 90 or 120 Hz screen refresh rate unlike other current flagships",
+    "cons": [
+      "Fingerprint magnet",
+      "Phone can get scratches",
+      "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
+      "Battery is smaller than last year's 11 Pro Max",
+      "Phone no longer comes with power adapter and EarPods ITB",
+      "No 90 or 120Hz screen refresh rate unlike other current flagships",
       "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD",
       "“Basically, the same phone as the 12 Pro outside of the minor camera improvements and bigger price tag). Improvements are not noticeably at all for everyday use for 95% of people”"
     ],
-    "approbations": ["\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"]
+    "approbations": [
+      "\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"
+    ]
   },
   {
     "name": "iPhone 12 Pro",
@@ -908,21 +1358,46 @@
     "year": 2020,
     "category": "12",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Graphite", "tag": "apple-graphite"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Pacific Blue", "tag": "pacific-blue"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Graphite",
+        "tag": "apple-graphite"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Pacific Blue",
+        "tag": "pacific-blue"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1100"},
-      {"storage": "512 GB", "price": "$1300"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1300"
+      }
     ],
     "ui": "IOS 14.1",
-    "display": "6.1 in; 1170 x 2532 px; Super Retina XDR OLED",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2815 mAh",
@@ -932,29 +1407,39 @@
     "phoneFeatures": [
       "5G"
     ],
-    "cameraFeatures":[
-      "Apple ProRAW", "Sensor Shift OIS", "4K HDR video w/ Dolby Vision @ 60fps",
-      "Night mode on ultra-wide cameras", "Night mode on front facing cameras", "Smart HDR 3 (makes photos a little sharper)",
+    "cameraFeatures": [
+      "Apple ProRAW",
+      "Sensor Shift OIS",
+      "4K HDR video w/ Dolby Vision @ 60fps",
+      "Night mode on ultra-wide cameras",
+      "Night mode on front facing cameras",
+      "Smart HDR 3 (makes photos a little sharper)",
       "First cameras to support 4K 10-bit HDR with Dolby Vision",
-      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)" 
+      "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "None recorded"
     ],
-    "cameraCons":[
-      "2.5x less optical zoom than the 12 Pro Max", "Less digital capability than the 12 Pro Max",
+    "cameraCons": [
+      "2.5x less optical zoom than the 12 Pro Max",
+      "Less digital capability than the 12 Pro Max",
       "Some people might feel it's too saturated"
     ],
-    "pros":[
+    "pros": [
       "None recorded"
     ],
-    "cons":[
-      "Fingerprint magnet", "Phone can get scratches", "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
-      "Battery is smaller than last year's 11 Pro Max", "Phone no longer comes with power adapter and EarPods ITB",
-      "No 90 or 120 Hz screen refresh rate unlike other current flagships",
+    "cons": [
+      "Fingerprint magnet",
+      "Phone can get scratches",
+      "“So wide that it's uncomfortable to hold in one hand” ~ ASBYT",
+      "Battery is smaller than last year's 11 Pro Max",
+      "Phone no longer comes with power adapter and EarPods ITB",
+      "No 90 or 120Hz screen refresh rate unlike other current flagships",
       "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD"
     ],
-    "approbations": ["\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"]
+    "approbations": [
+      "\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020"
+    ]
   },
   {
     "name": "iPhone 12",
@@ -967,23 +1452,53 @@
     "phoneType": "iPhone",
     "category": "12",
     "colors": [
-      {"color": "Black", "tag": "apple-black"},
-      {"color": "White", "tag": "apple-white"},
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Green", "tag": "apple-light-green"},
-      {"color": "Purple", "tag": "apple-purple"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Green",
+        "tag": "apple-light-green"
+      },
+      {
+        "color": "Purple",
+        "tag": "apple-purple"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$830"},
-      {"storage": "128 GB", "price": "$880"},
-      {"storage": "256 GB", "price": "$980"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$830"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$880"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$980"
+      }
     ],
     "ui": "IOS 14.1",
-    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
     "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
     "size": "5.78 x 2.82 x 0.29 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "rearCameras": {
+      "Primary": "12 MP",
+      "Ultrawide": "12 MP"
+    },
     "frontCameras": "8 MP",
     "ram": "4 GB",
     "battery": "2815 mAh",
@@ -994,30 +1509,38 @@
       "5G"
     ],
     "cameraFeatures": [
-      "Apple ProRAW", "10x digital zoom", "4K HDR w/ Dolby Vision @ 30fps", "Night mode on all cameras",
-      "Smart HDR 3 (makes photos a little sharper)", "First cameras to support 4K 10-bit HDR with Dolby Vision",
+      "Apple ProRAW",
+      "10x digital zoom",
+      "4K HDR w/ Dolby Vision @ 30fps",
+      "Night mode on all cameras",
+      "Smart HDR 3 (makes photos a little sharper)",
+      "First cameras to support 4K 10-bit HDR with Dolby Vision",
       "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
     "cameraPros": [
-      "Night mode on all camera unlike predecessors", "Apple is known for having very good dynamic range"
+      "Night mode on all camera unlike predecessors",
+      "Apple is known for having very good dynamic range"
     ],
     "cameraCons": [
-      "No telephoto camera", "Less digital capability than the 12 Pro Max", "2.5x less optical zoom than the 12 Pro Max",
+      "No telephoto camera",
+      "Less digital capability than the 12 Pro Max",
+      "2.5x less optical zoom than the 12 Pro Max",
       "Some people might feel it's too saturated"
     ],
     "pros": [
       "None recorded"
     ],
     "cons": [
-      "Fingerprint magnet", "No 90 or 120 Hz screen refresh rate unlike other current flagships",
+      "Fingerprint magnet",
+      "No 90 or 120Hz screen refresh rate unlike other current flagships",
       "Phone no longer comes with power adapter and EarPods ITB",
       "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD"
-    ], 
+    ],
     "approbations": [
       "\"iPhones record the best quality video than any other smartphone and Apple has now taken it even further\" ~ SuperSaf, Oct 2020",
       "\"My favorite iPhone ever\" ~ MKBHD, Oct 2020"
     ]
-  }, 
+  },
   {
     "name": "iPhone 12 Mini",
     "id": "iphone-12-mini",
@@ -1029,23 +1552,53 @@
     "phoneType": "iPhone",
     "category": "12",
     "colors": [
-      {"color": "Black", "tag": "apple-black"},
-      {"color": "White", "tag": "apple-white"},
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Green", "tag": "apple-light-green"},
-      {"color": "Purple", "tag": "apple-purple"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Green",
+        "tag": "apple-light-green"
+      },
+      {
+        "color": "Purple",
+        "tag": "apple-purple"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$730"},
-      {"storage": "128 GB", "price": "$780"},
-      {"storage": "256 GB", "price": "$880"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$730"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$780"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$880"
+      }
     ],
     "ui": "IOS 14.1",
-    "display": "5.4 in; 1080 x 2340 px, Super Retina XDR OLED",
+    "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
     "build": "Glass / Ceramic Shield, stainless steel frame",
     "size": "5.18 x 2.53 x 0.29 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "rearCameras": {
+      "Primary": "12 MP",
+      "Ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "2227 mAh",
@@ -1055,24 +1608,33 @@
     "phoneFeatures": [
       "5G"
     ],
-    "cameraFeatures":[
-      "ProRAW for RAW format photos", "4K HDR w/ Dolby Vision @ 30fps", "Smart HDR 3 (makes photos a little sharper)",
-      "First \"cameras\" to support 4K 10-bit HDR with Dolby Vision", "Night mode on front facing cameras", 
-      "Night mode on ultra-wide cameras", "10x digital zoom", "New sensor shift stabilization?", 
+    "cameraFeatures": [
+      "ProRAW for RAW format photos",
+      "4K HDR w/ Dolby Vision @ 30fps",
+      "Smart HDR 3 (makes photos a little sharper)",
+      "First \"cameras\" to support 4K 10-bit HDR with Dolby Vision",
+      "Night mode on front facing cameras",
+      "Night mode on ultra-wide cameras",
+      "10x digital zoom",
+      "New sensor shift stabilization?",
       "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Night mode on ultra-wide cameras (unliked past iPhones)"
     ],
-    "cameraCons":[
-      "No telephoto camera", "2.5x less optical zoom than the 12 Pro Max", "Less digital capability than the 12 Pro Max",
+    "cameraCons": [
+      "No telephoto camera",
+      "2.5x less optical zoom than the 12 Pro Max",
+      "Less digital capability than the 12 Pro Max",
       "Some people might feel it's too saturated"
     ],
-    "pros":[
+    "pros": [
       "None recorded"
     ],
-    "cons":[
-      "No 90 or 120 Hz screen refresh rate unlike other current flagships", "Phone can get scratches", "Fingerprint magnet",
+    "cons": [
+      "No 90 or 120Hz screen refresh rate unlike other current flagships",
+      "Phone can get scratches",
+      "Fingerprint magnet",
       "Supposed to be shatter resistant due to Ceramic shield, but it's really not any more than before ~ MKBHD",
       "Phone no longer comes with power adapter and EarPods ITB"
     ]
@@ -1087,20 +1649,40 @@
     "year": 2020,
     "category": "SE",
     "colors": [
-      {"color": "Black", "tag": "apple-black"},
-      {"color": "White", "tag": "apple-white"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$400"},
-      {"storage": "128 GB", "price": "$450"},
-      {"storage": "256 GB", "price": "$550"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$400"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$450"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$550"
+      }
     ],
     "ui": "IOS 13",
-    "display": "4.7 in; 750 x 1334 px, LCD Retina HD",
+    "display": "4.7 in; 750x1334 px, LCD Retina HD",
     "build": "Glass (glossy) / aluminum, aluminum frame",
     "size": "5.45 x 2.65 x 0.29 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "rearCameras": {
+      "primary": "12 MP"
+    },
     "frontCameras": "7 MP",
     "ram": "3 GB",
     "battery": "1821 mAh",
@@ -1108,21 +1690,34 @@
     "capacity": "64 / 128 / 256 GB",
     "released": "Apr. 24th 2020 (USA)",
     "phoneFeatures": [
-      "WiFi 6", "Dual sim support", "IP67 water/dust resistant", "Dolby Atmos speakers",
-      "Centered Apple logo", "Fingerprint ID", "Headphone jack", "latest Apple chipset (A13)",
+      "Wi-Fi 6",
+      "Dual sim support",
+      "IP67 water/dust resistant",
+      "Dolby Atmos speakers",
+      "Centered Apple logo",
+      "Fingerprint ID",
+      "Headphone jack",
+      "latest Apple chipset (A13)",
       "Physical home button (w/ haptic touch"
     ],
-    "cameraFeatures":[
-      "Extended dynamic range", "4K video @ 60fps on all cameras"
+    "cameraFeatures": [
+      "Extended dynamic range",
+      "4K video @ 60fps on all cameras"
     ],
-    "cameraCons":[
-      "No night mode", "No ultrawide camera"
+    "cameraCons": [
+      "No night mode",
+      "No ultrawide camera"
     ],
-    "pros":[
-      "No notch", "Has headphone jack", "Uses same chip as latest iPhones (iPhone 11s)"
+    "pros": [
+      "No notch",
+      "Has headphone jack",
+      "Uses same chip as latest iPhones (iPhone 11s)"
     ],
-    "cons":[
-      "Big bezels", "No face ID", "No Animoji/Memoji built-in", "Back is a fingerprint magnet",
+    "cons": [
+      "Big bezels",
+      "No face ID",
+      "No Animoji/Memoji built-in",
+      "Back is a fingerprint magnet",
       "Lower water/dust resistant IP rating than other current iPhones (IP67 vs IP68)"
     ]
   },
@@ -1136,21 +1731,46 @@
     "year": 2019,
     "category": "11",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Space Grey", "tag": "space-grey"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Midnight Green", "tag": "midnight-green"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Space Grey",
+        "tag": "space-grey"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Midnight Green",
+        "tag": "midnight-green"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$1100"},
-      {"storage": "256 GB", "price": "$1250"},
-      {"storage": "512 GB", "price": "$1450"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1250"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1450"
+      }
     ],
     "ui": "IOS 13.1",
-    "display": "6.5 in; 1242 x 2688 px; Super Retina XDR OLED",
+    "display": "6.5 in; 1242x2688 px, Super Retina XDR OLED",
     "build": "Glass / Frosted, stainless steel frame",
     "size": "6.22 x 3.06 x 0.32 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3969 mAh",
@@ -1158,25 +1778,40 @@
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 20, 2019 (USA)",
     "phoneFeatures": [
-      "3D Face ID", "Centered Apple logo", "Dolby Atmos dual stereo speakers", "IP68 water/dust resistant",
-      "All gestures instead of buttons", "iCloud for storage, but you have to pay for it separately"
+      "3D Face ID",
+      "Centered Apple logo",
+      "Dolby Atmos dual stereo speakers",
+      "IP68 water/dust resistant",
+      "All gestures instead of buttons",
+      "iCloud for storage, but you have to pay for it separately"
     ],
-    "cameraFeatures":[
-      "Night mode", "Zoom in mic", "Extended dynamic range", "4K video @ 60fps on all cameras",
-      "Slofies -- slow motion selfies", "Wider field of view in selfie mode than most phones"
+    "cameraFeatures": [
+      "Night mode",
+      "Zoom in mic",
+      "Extended dynamic range",
+      "4K video @ 60fps on all cameras",
+      "Slofies -- slow motion selfies",
+      "Wider field of view in selfie mode than most phones"
     ],
-    "cameraCons":["Does not have night mode on ultrawide or front camera"],
-    "pros":[
-      "Comes with earpods ITB", "Best battery life on the market in 2019", "5 more hrs of battery than XS Max",
-      "18W fast charger comes ITB (finally)", "Lightning to USB Type C cable ITB",
+    "cameraCons": [
+      "Does not have night mode on ultrawide or front camera"
+    ],
+    "pros": [
+      "Comes with earpods ITB",
+      "Best battery life on the market in 2019",
+      "5 more hrs of battery than XS Max",
+      "18W fast charger comes ITB (finally)",
+      "Lightning to USB Type C cable ITB",
       "Attracts less fingerprints than other phones",
       "iPhone 11s are most water resistant phones on the market in 2019",
       "\"Toughest glass on any smartphone\" ~ Apple (but has no certification to prove it)",
-      "Faster Face ID than on previous versions", "Rated best display on a smartphone by DisplayMate (but is it?...)",
+      "Faster Face ID than on previous versions",
+      "Rated best display on a smartphone by DisplayMate (but is it?...)",
       "Improved camera in dynamic range, detail, volume, wider field of view in selfie, night shots"
     ],
-    "cons":[
-      "Large notch", "No 3D Touch",
+    "cons": [
+      "Large notch",
+      "No 3D Touch",
       "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
     ]
   },
@@ -1190,21 +1825,46 @@
     "year": 2019,
     "category": "11",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Space Grey", "tag": "space-grey"},
-      {"color": "Gold", "tag": "gold"},
-      {"color": "Midnight Green", "tag": "midnight-green"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Space Grey",
+        "tag": "space-grey"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      },
+      {
+        "color": "Midnight Green",
+        "tag": "midnight-green"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1150"},
-      {"storage": "512 GB", "price": "$1350"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1150"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1350"
+      }
     ],
     "ui": "IOS 13.1",
-    "display": "5.8 in; 1125 x 2436 px; Super Retina XDR OLED",
+    "display": "5.8 in; 1125x2436 px, Super Retina XDR OLED",
     "build": "Glass / Frosted, stainless steel frame",
     "size": "5.67 x 2.81 x 0.32 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3046 mAh",
@@ -1212,28 +1872,40 @@
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 20, 2019 (USA)",
     "phoneFeatures": [
-      "Dolby Atmos speakers", "Improved IP68", "Centered Apple logo"
+      "Dolby Atmos speakers",
+      "Improved IP68",
+      "Centered Apple logo"
     ],
-    "cameraFeatures":[
-      "Night mode", "Extended dynamic range", "Slofies -- Slow motion selfies",
-      "4K video @ 60fps on all cameras", "Wider field of view in selfie mode than most phones"
+    "cameraFeatures": [
+      "Night mode",
+      "Extended dynamic range",
+      "Slofies -- Slow motion selfies",
+      "4K video @ 60fps on all cameras",
+      "Wider field of view in selfie mode than most phones"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Improved camera in dynamic range, detail, volume, wider field of view in selfie, night shots"
     ],
     "cameraCons": [
       "Does not have night mode on ultrawide or front camera"
     ],
-    "pros":[
-      "Very durable glass", "4 more hrs of battery than XS", "Fast charging comes ITB (finally)",
-      "Comes with lightning to USB Type C cable ITB", "iPhone 11s are most water resistant phones on the market in 2019",
-      "Attracts less fingerprints on back", "Faster Face ID than previous models"
+    "pros": [
+      "Very durable glass",
+      "4 more hrs of battery than XS",
+      "Fast charging comes ITB (finally)",
+      "Comes with lightning to USB Type C cable ITB",
+      "iPhone 11s are most water resistant phones on the market in 2019",
+      "Attracts less fingerprints on back",
+      "Faster Face ID than previous models"
     ],
-    "cons":[
-      "Large notch", "No 3D Touch",
+    "cons": [
+      "Large notch",
+      "No 3D Touch",
       "Got rid of the dongle ITB (3.5mm to USB type C) so now you have to pay an extra $10"
     ],
-    "approbations":["Rated best display on a smartphone ~ DisplayMate (but is it?...)"]
+    "approbations": [
+      "Rated best display on a smartphone ~ DisplayMate (but is it?...)"
+    ]
   },
   {
     "name": "iPhone 11",
@@ -1246,21 +1918,45 @@
     "phoneType": "iPhone",
     "category": "11",
     "colors": [
-      {"color": "Black", "tag": "apple-black"},
-      {"color": "White", "tag": "apple-white"},
-      {"color": "Yellow", "tag": "apple-yellow"},
-      {"color": "Green", "tag": "apple-green"},
-      {"color": "Purple", "tag": "apple-purple"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-yellow"
+      },
+      {
+        "color": "Green",
+        "tag": "apple-green"
+      },
+      {
+        "color": "Purple",
+        "tag": "apple-purple"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$700"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$700"
+      }
     ],
     "ui": "IOS 13.1",
-    "display": "6.1 in; 828 x 1792 px, Liquid Retina HD LCD",
+    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD",
     "build": "Gorilla Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
-    "rearCameras": {"Primary": "12 MP", "Ultrawide": "12 MP"},
+    "rearCameras": {
+      "Primary": "12 MP",
+      "Ultrawide": "12 MP"
+    },
     "frontCameras": "12 MP",
     "ram": "4 GB",
     "battery": "3110 mAh",
@@ -1268,52 +1964,84 @@
     "capacity": "64 / 128 / 256 GB",
     "released": "Sep. 20, 2019 (USA)",
     "phoneFeatures": [
-      "HDR10", "Improved IP68", "Centered Apple logo"
+      "HDR10",
+      "Improved IP68",
+      "Centered Apple logo"
     ],
-    "cameraFeatures":[
-      "Extended dynamic range", "Slofies -- Slow motion selfies", "Portrait mode on animals & objects",
+    "cameraFeatures": [
+      "Extended dynamic range",
+      "Slofies -- Slow motion selfies",
+      "Portrait mode on animals & objects",
       "Wider field of view in selfie mode than most phones"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Improved camera in dynamic range, detail, volume, wider field of view in selfie, night shots"
     ],
-    "cameraCons":[
-      "No telephoto camera (2x optical zoom)", "Does not have night mode on ultrawide or front camera"
+    "cameraCons": [
+      "No telephoto camera (2x optical zoom)",
+      "Does not have night mode on ultrawide or front camera"
     ],
-    "pros":[
-      "Better battery than XR by 1 hr", "Better speakers than iPhone XR", "iPhone 11s are most water resistant phones on the market in 2019"
+    "pros": [
+      "Better battery than XR by 1 hr",
+      "Better speakers than iPhone XR",
+      "iPhone 11s are most water resistant phones on the market in 2019"
     ],
-    "cons":[
-      "No 3D touch", "Don't have frosted back that other iPhone 11s have", "Fast charging not included ITB unlike other iPhone 11s", 
+    "cons": [
+      "No 3D touch",
+      "Don't have frosted back that other iPhone 11s have",
+      "Fast charging not included ITB unlike other iPhone 11s",
       "Got rid of the dongle ITB (3.5mm to USB type-C) so now you have to pay an extra $10"
     ],
-    "approbations":["Rated best display on a smartphone ~ DisplayMate (but is it?...)"]
+    "approbations": [
+      "Rated best display on a smartphone ~ DisplayMate (but is it?...)"
+    ]
   },
   {
     "name": "iPhone XS Max",
     "id": "iphone-xs-max",
     "offName": "Apple iPhone XS Max",
-    "img": "/assets/imgs/iphones/iphone-xs-max.png",
+    "img": "https://i.ibb.co/Hg5v04m/iphone-xs-max.png",
     "brand": "Apple",
     "os": "IOS 12",
     "year": 2018,
     "phoneType": "iPhone",
     "category": "XS",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Space Grey", "tag": "space-grey"},
-      {"color": "Gold", "tag": "gold"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Space Gray",
+        "tag": "space-gray"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$1100"},
-      {"storage": "256 GB", "price": "$1250"},
-      {"storage": "512 GB", "price": "$1450"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$1100"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1250"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1450"
+      }
     ],
     "ui": "IOS 12",
-    "display": "6.5 in; 1242 x 2688 px; Super Retina HD",
+    "display": "6.5 in; 1242x2688 px, Super Retina HD",
     "build": "Glass, stainless steel frame",
     "size": "6.20 x 3.05 x 0.30 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
+    },
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "2658 mAh",
@@ -1321,20 +2049,24 @@
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 21, 2018 (USA)",
     "phoneFeatures": [
-      "3D Touch", "iCloud for storage, but you have to pay for it separately", "Dual firing speakers"
+      "3D Touch",
+      "iCloud for storage, but you have to pay for it separately",
+      "Dual firing speakers"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "Coming soon"
     ],
-    "pros":[
-      "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)", 
+    "pros": [
+      "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)",
       "Some of the loudest dual firing speakers"
     ],
-    "cons":[
-      "Slowest fast charging time out of all 2018 flagships", 
+    "cons": [
+      "Slowest fast charging time out of all 2018 flagships",
       "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
     ],
-    "approbations":["Rated best display on a phone in 2018 by DisplayMate"]
+    "approbations": [
+      "Rated best display on a phone in 2018 by DisplayMate"
+    ]
   },
   {
     "name": "iPhone XS",
@@ -1346,20 +2078,41 @@
     "year": 2018,
     "category": "XS",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Space Grey", "tag": "space-grey"},
-      {"color": "Gold", "tag": "gold"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Space Grey",
+        "tag": "space-grey"
+      },
+      {
+        "color": "Gold",
+        "tag": "gold"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1150"},
-      {"storage": "512 GB", "price": "$1350"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1150"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$1350"
+      }
     ],
     "ui": "IOS 12",
-    "display": "5.8 in; 1125 x 2436 px, Super Retina HD",
+    "display": "5.8 in; 1125x2436 px, Super Retina HD",
     "build": "Glass, stainless steel frame",
     "size": "5.65 x 2.79 x 0.3 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "2658 mAh",
@@ -1367,28 +2120,32 @@
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 21, 2018 (USA)",
     "phoneFeatures": [
-      "3D Face ID", "3D Touch", "IP68 water/dust resistant", "All gestures instead of buttons"
+      "3D Face ID",
+      "3D Touch",
+      "IP68 water/dust resistant",
+      "All gestures instead of buttons"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "Portrait mode",
       "iCloud for storage, but you have to pay for it separately"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Camera known for having really good dynamic range",
       "XS and XS Max take the best videos"
     ],
-    "pros":[
+    "pros": [
       "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)",
       "Some of the loudest dual firing speakers"
     ],
-    "cons":[
-      "Notch", "Slowest fast charging time out of all 2018 flagships",
+    "cons": [
+      "Notch",
+      "Slowest fast charging time out of all 2018 flagships",
       "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10",
       "Fast charging doesn't come ITB, you have to pay an extra $50",
       "Camera is very bad in low light"
     ],
-    "approbations":[
-      "\"Best compact phone of 2018\" ~ Marques Brownlee",
+    "approbations": [
+      "Best Compact Phone of 2018 ~ MKBHD, Dec. 2018",
       "Rated best display on a phone in 2018 by DisplayMate (but was it?...)"
     ]
   },
@@ -1402,23 +2159,53 @@
     "year": 2018,
     "category": "XS",
     "colors": [
-      {"color": "Black", "tag": "apple-black"},
-      {"color": "White", "tag": "apple-white"},
-      {"color": "Blue", "tag": "apple-blue"},
-      {"color": "Yellow", "tag": "apple-yellow"},
-      {"color": "Coral", "tag": "coral"},
-      {"color": "Product Red", "tag": "product-red"}
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-yellow"
+      },
+      {
+        "color": "Coral",
+        "tag": "coral"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$750"},
-      {"storage": "128 GB", "price": "$800"},
-      {"storage": "256 GB", "price": "$900"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$750"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$900"
+      }
     ],
     "ui": "IOS 12",
-    "display": "6.1 in; 828 x 1792 px, Liquid Retina HD LCD screen",
+    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD screen",
     "build": "Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "ultrawide": "N/A"
+    },
     "frontCameras": "7 MP",
     "ram": "3 GB",
     "battery": "2942 mAh",
@@ -1430,16 +2217,16 @@
       "Animoji and Memoji",
       "IP67 water/dust resistant"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "Coming soon"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "Doesn't have dual cameras like the XS'"
     ],
-    "pros":[
+    "pros": [
       "Largest iPhone battery life in 2018"
     ],
-    "cons":[
+    "cons": [
       "Large notch",
       "Lots of bezels",
       "LED screen as opposed to AMOLED like the XS'",
@@ -1448,9 +2235,9 @@
       "Slowest fast charging time out of all 2018 flagships",
       "Phone has a lot of bugs ~ Jon Rettinger"
     ],
-    "approbations":[
+    "approbations": [
       "Best single camera'd phone of 2018",
-      "\"Won 2nd best phone battery life of 2018\" ~ MKBHD (after Huawei Mate 20 Pro)"
+      "Won 2nd Best Phone Battery Life award of 2018 ~ MKBHD (after Huawei Mate 20 Pro)"
     ]
   },
   {
@@ -1463,18 +2250,33 @@
     "year": 2017,
     "category": "X",
     "colors": [
-      {"color": "Silver", "tag": "silver"},
-      {"color": "Space Grey", "tag": "space-grey"}
+      {
+        "color": "Silver",
+        "tag": "silver"
+      },
+      {
+        "color": "Space Grey",
+        "tag": "space-grey"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$1000"},
-      {"storage": "256 GB", "price": "$1150"}
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$1000"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$1150"
+      }
     ],
     "ui": "IOS 11",
-    "display": "5.8 in; 1125 x 2436 px, Super AMOLED",
+    "display": "5.8 in; 1125x2436 px, Super AMOLED",
     "build": "Glass, stainless steel frame",
     "size": "5.65 x 2.79 x 0.3 in",
-    "rearCameras": {"primary": "12 MP", "ultrawide": "N/A", "telephoto": "12 MP"},
+    "rearCameras": {
+      "primary": "12 MP",
+      "telephoto": "12 MP"
+    },
     "frontCameras": "7 MP",
     "ram": "3 GB",
     "battery": "2716 mAh",
@@ -1482,20 +2284,27 @@
     "capacity": "64 / 256 GB",
     "released": "Nov. 3, 2017 (USA)",
     "phoneFeatures": [
-      "3D Face unlock", "3D Touch", "World clock", "Animoji and Memoji", "IP67 water/dust resistant",
+      "3D Face unlock",
+      "3D Touch",
+      "World clock",
+      "Animoji and Memoji",
+      "IP67 water/dust resistant",
       "All gestures instead of buttons"
     ],
-    "cameraFeatures":[
-      "Smart HDR", "Portrait mode"
+    "cameraFeatures": [
+      "Smart HDR",
+      "Portrait mode"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "Camera is very bad in low light"
     ],
-    "pros":[
-      "Coming soon"
+    "pros": [
+      "None recorded"
     ],
-    "cons":[
-      "Notch", "Face ID is slower than touch ID", "No reachabilty like previous models",
+    "cons": [
+      "Notch",
+      "Face ID is slower than touch ID",
+      "No reachabilty like previous models",
       "Fast charging doesn't come ITB, you have to pay an extra $50"
     ],
     "approbations": [

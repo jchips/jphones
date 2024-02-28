@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 2-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.
 - 12-23-2023 (2.0.3) - Disabled the touch screen swiping on carousels' first slide to reduce the carousels going crazy on mobile screens while scrolling. Added company links at the bottom of main page. Minor improvements.
 - 12-22-2023 (2.0.2) - Added OnePlus Open.
 - 12-20-2023 (2.0.1) - Added iPhone 15s and Pixel 8s.
@@ -33,6 +34,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [React Icons (Search icon)](https://react-icons.github.io/react-icons/)
 
 - [Search bar CSS from Ahmad Emran](https://codepen.io/ahmadbassamemran/pen/rNjMXqg)
+
+- [HTML React Parser](https://www.npmjs.com/package/html-react-parser)
 
 ## Available Scripts
 

@@ -21,16 +21,16 @@ class About extends Component {
               </p>
               <p>This site is to compare phones and pick the best one for purchase.</p>
               <br></br>
-              <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger swiping on touchscreens for 
+              <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger swiping on touchscreens for
                 each phones' first carousel slide ONLY because while scrolling, any carousel you accidentally
-                touched would start moving. To view phone carousel info on a mobile screen, (1) press 
-                the phone's carousel, (2) then use the arrows. After the first slide, you should be able to 
+                touched would start moving. To view phone carousel info on a mobile screen, (1) tap
+                the phone's carousel, (2) then use the arrows that appear. After the first slide, you should be able to
                 finger swipe through the rest of the phone's carousel.</p>
               <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>jPhones Glossary</Accordion.Header>
                   <Accordion.Body>
-                    {abbreviations.map(abbr => 
+                    {abbreviations.map(abbr =>
                       <p key={abbr.abbr}><span>{abbr.abbr}: </span>{abbr.expl}</p>
                     )}
                   </Accordion.Body>

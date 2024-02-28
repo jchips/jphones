@@ -20,6 +20,17 @@
     height: 360px;
     overflow-y: auto;
   }
+
+  .side-note {
+    font-size: small;
+    font-style: italic;
+    display: inline;
+    color: #777;
+  }
+
+  .scrollable ul {
+    max-height: 108px;
+  }
 }
 
 .accordion {
