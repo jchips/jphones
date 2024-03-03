@@ -1,0 +1,178 @@
+{
+  "pixel": {
+    "name": "Pixel phones",
+    "id": "google-pixels",
+    "img": "/assets/imgs/pixels.png",
+    "phoneFeatures": [
+      "Google Pay",
+      "Google Assistant",
+      "Gestures or buttons option",
+      "Fast Charging",
+      "Always-on Display",
+      "One-handed mode",
+      "Wireless charging <span class='side-note'>exceptions: Pixel 5a, 4a, and 3a</span>",
+      "Google Lens - Identifies things in front of the camera",
+      "Unlimited high quality storage with Google Photos",
+      "Call Screening - Google Assistant answers calls for you and shows you the call transcript",
+      "Now Playing - Tells you what song is playing in the background w/o you having to ask",
+      "Live caption / call screening / Hold For Me / Nearby Share"
+    ],
+    "cameraFeatures": [
+      "Night Sight",
+      "Optical Image Stabilization (OIS)"
+    ],
+    "cameraPros": [
+      "Portrait photos are super sharp because of Google's amazing software"
+    ],
+    "cameraCons": [
+      "All photos look contrast-y (cool hue color temperature) [but not bad!!]"
+    ],
+    "pros": [
+      "Guaranteed 3yrs of OS updates <span class='side-note'>*Pixel 8 models guarantee 7yrs of OS updates</span>",
+      "Back tends to get less fingerprints than other phones",
+      "Known for their very good cameras (picture taking)",
+      "Fastest Android OS updates on the market",
+      "Google Assistant is widely known as the best AI assistant in any phone"
+    ],
+    "cons": [
+      "No headphone jack <span class='side-note'>exceptions: Pixel 4a & 3a</span>"
+    ]
+  },
+  "galaxy": {
+    "name": "Samsung phones",
+    "id": "samsung-galaxys",
+    "img": "/assets/imgs/samsungs.png",
+    "phoneFeatures": [
+      "Samsung Pay",
+      "Face ID",
+      "Gestures or buttons option",
+      "Samsung TV Plus (free TV)",
+      "IP68 water/dust resistant",
+      "Wireless charging & fast charging",
+      "Google Assistant & Bixby",
+      "Samsung Themes & Goodlock",
+      "Samsung DeX",
+      "Dual sim support",
+      "Always-on Display",
+      "Wi-Fi 6 support <span class='side-note'>exceptions: Note 9 and older</span>",
+      "Offers 5G support/variants for all phones <span class='side-note'>starting with S10 / Note 10 models. Exceptions: S10e & Note 10 Lite</span>",
+      "Ultrasonic in-display fingerprint sensor <span class='side-note'>exceptions: All Z Fold's, Note 9 and older have physical fingerprint sensor</span>",
+      "Wireless Powershare <span class='side-note'>exceptions: Note 10 Lite, Note 9 and older</span>",
+      "Dolby Atmos dual stereo speakers <span class='side-note'>exception: Note 10 Lite</span>",
+      "Multitasking / one-handed mode / pop-up view / secure folder / clipboard",
+      "Ultra-Power Saving Mode / Quick Camera Launch / AOD / Quick Share",
+      "Edge Panel features (smart select, create a gif...)"
+    ],
+    "cameraFeatures": [
+      "Night mode",
+      "Ultrawide camera",
+      "HDR10+"
+    ],
+    "pros": [
+      "USB Type-C cable comes ITB",
+      "Very good-looking-- vivid, sharp displays",
+      "Have a lot of good deals for pre-orders and new releases, so you can get them for cheaper",
+      "Guaranteed 4yrs of updates starting with Galaxy S22 models <span class='side-note'>S24 models guarantee 7yrs of OS updates</span>"
+    ],
+    "cons": [
+      "Updates can be slow to arrive",
+      "No headphone jack <span class='side-note'>exceptions: Note 10 Lite, S10 models and older</span>",
+      "Face ID isn't the most secure if someone wanted really REALLY wanted to get into your phone",
+      "No charger (power adapter) or AKG earbuds ITB anymore <span class='side-note'>ever since the Galaxy S20 / Note 20 models</span>",
+      "No expandable microSD card storage anymore <span class='side-note'>ever since Galaxy S20 / Note 20 models</span>"
+    ]
+  },
+  "iphone": {
+    "name": "iPhones",
+    "id": "apple-iphones",
+    "img": "/assets/imgs/iphones.png",
+    "phoneFeatures": [
+      "5G support (iPhone 12 and later)",
+      "Siri",
+      "Airdrop",
+      "Apple Pay",
+      "True tone display",
+      "Tap-to-top",
+      "Duel stereo speakers",
+      "Wireless charging & fast charging",
+      "iMessage & FaceTime",
+      "Silent & ring physical switch",
+      "One-handed mode",
+      "Animoji/Memoji <span class='side-note'>exceptions: SE models, 8 Plus and older</span>",
+      "3D Face ID <span class='side-note'>exceptions: SE models, 8 Plus and older</span>",
+      "IP68 water/dust resistant <span class='side-note'>exceptions: SE (2022 & 2020), XR, 8 Plus and older</span>"
+    ],
+    "cameraFeatures": [
+      "4K video @ 60fps on all cameras",
+      "Night mode <span class='side-note'>exceptions: SE models, XR, 8 Plus and older</span>",
+      "Ultrawide camera <span class='side-note'>exceptions: SE models, XR, 8 Plus and older</span>"
+    ],
+    "cameraPros": [
+      "Known for taking the best videos on a smartphone camera",
+      "Known for having very good dynamic range"
+    ],
+    "cameraCons": [
+      "Known for over darkening people with darker skin"
+    ],
+    "pros": [
+      "Best app optimization on a smartphone",
+      "Very good for running games",
+      "Considered the smoothest running phones-- minimal bugs in software",
+      "Apple Watch is the best smartwatch on the market",
+      "Updates phones for at least 5yrs"
+    ],
+    "cons": [
+      "Very limited customization",
+      "No headphone jack",
+      "Two-step face unlock",
+      "No expandable microSD card storage",
+      "Face ID doesn't work when phone is flat on table?",
+      "No charger (power adapter) or EarPods ITB anymore since the iPhone 11 models",
+      "iPhone 14 models and older all use Lightning port rather than USB Type-C",
+      "Large notch <span class='side-note'>exceptions: all 15 models, 14 Pros, SE (2022 & 2020), 8 Plus and older</span>",
+      "Transferring files between computer and phone is complicated because of Apple being proprietary",
+      "Google Assistant and Google Maps are better than Siri and Apple Maps",
+      "Slowest charging in the industry"
+    ]
+  },
+  "oneplus": {
+    "name": "OnePlus phones",
+    "id": "oneplus-phones",
+    "img": "/assets/imgs/oneplus.png",
+    "phoneFeatures": [
+      "Dual sim support",
+      "HDR10+",
+      "Mute switch <span class='side-note'>exception: OnePlus 10T</span>",
+      "Google Assistant",
+      "Gestures or buttons option",
+      "Water/dust resistant",
+      "Face ID / Optical fingerprint sensor",
+      "Dolby Atmos duel stereo speakers",
+      "5G support (OnePlus 7 Pro 5G and later)",
+      "Quick Launch apps with fingerprint sensor <span class='side-note'>starting with the 6T McLaren Edition</span>",
+      "Quick camera launch / Fnatic Gaming Mode / Reading Mode / Battery Saving Mode / One-handed mode / Zen Space (locks you out of your phone for 20min)",
+      "OxygenOS comes with a lot of customization options including accent colors and fonts"
+    ],
+    "cameraFeatures": [
+      "Nightscape",
+      "Super Macro Mode for upclose photos <span class='side-note'>starting with the 7 Pro</span>",
+      "Super Stable Mode (video stabilization) <span class='side-note'>starting with the 7 Pro</span>"
+    ],
+    "cameraCons": [
+      "Cameras aren't quite as advanced as other well-known flagships (Samsung, Apple, Google)"
+    ],
+    "pros": [
+      "Known for very good battery life",
+      "Fastest charging in the industry",
+      "Known for being super fast feeling phones",
+      "Lots of customization options in settings",
+      "Fast charger and clear case comes ITB, and screen protector comes pre-installed"
+    ],
+    "cons": [
+      "No expandable microSD card storage",
+      "No headphone jack <span class='side-note'>exceptions: OnePlus 6 and older</span>",
+      "Face ID isn't the most secure if someone wanted really REALLY wanted to get into your phone",
+      "Aren't known for being very consistent (you never know what to expect with the next OnePlus phone"
+    ]
+  }
+}

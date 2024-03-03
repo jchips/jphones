@@ -17,8 +17,8 @@
       {"storage": "512 GB", "price": "$1700"}
     ],
     "ui": "Oxygen OS 13.2",
-    "openDisplay": "7.82 in; 2268x2440 px, Flexi-fluid AMOLED LTPO 3.0",
-    "closedDisplay": "6.31 in; 1116x2484 px, Super Fluid AMOLED LTPO 3.0",
+    "openDisplay": "7.82 in; 2268x2440 px, Flexi-fluid AMOLED with LTPO 3.0",
+    "closedDisplay": "6.31 in; 1116x2484 px, Super Fluid AMOLED with LTPO 3.0",
     "build": "Glass or eco leather / Ceramic Shield (folded), plastic (unfolded), aluminum frame",
     "openSize": "6.04 x 5.63 x 0.23 in",
     "closedSize": "6.04 x 2.89 x 0.46 in",
@@ -34,12 +34,12 @@
       "Face ID",
       "Alert Slider",
       "Fingerprint sensor",
-      "120 Hz adaptive refresh rate",
+      "120Hz adaptive refresh rate",
       "UFS 4.0 Storage",
+      "IR Blaster",
       "Triple speakers",
       "IPX4 splash resistant",
       "Canvas-style Multitasking",
-      "4yrs of Android updates",
       "Supports the OPPO Pen on both inner and outer displays",
       "Folded screen is the same size as a regular OnePlus flagship"
     ],
@@ -70,6 +70,7 @@
       "Alert slider is back (after being away)",
       "Some apps can drag and drop while multitasking",
       "Same weight as iPhone 14 Pro Max (240g)",
+      "Guaranteed 4yrs of OS updates",
       "One of the brightest displays out there right now (peak 2800 nits)",
       "Screen protector pre-installed on both inner and outer screens",
       "“Best set of speakers on a foldable” ~ Mrwhosetheboss, Oct. 2023"
@@ -114,26 +115,28 @@
     "ui": "One UI 5.1.1",
     "openDisplay": "7.6 in; 1812x2176 px, Dynamic AMOLED 2X",
     "closedDisplay": "6.2 in; 904x2316 px, Dynamic AMOLED 2X",
-    "build": "Gorilla Glass Victus 2, Armor aluminum (Matte)",
+    "build": "Gorilla Glass Victus 2, Armor aluminum (matte)",
     "openSize": "6.10 x 5.11 x 0.24 in",
     "closedSize": "6.10 x 2.64 x 0.53 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
     "frontCameras": "10 MP (folded), 4 MP (unfolded)",
     "ram": "12 GB",
     "battery": "4400 mAh",
-    "charging": "25W fast, 10W wireless, 4.5W Powershare",
+    "charging": "25W fast, 10W wireless",
     "capacity": "256 / 512 / 1 TB",
     "released": "Aug. 11, 2023 (USA)",
     "phoneFeatures": [
       "Face ID",
       "Always On Display",
       "Bixby Routines",
-      "Ultrasonic in-display fingerprint scanner",
-      "120 Hz refresh rate",
+      "Ultrasonic in-display fingerprint sensor",
+      "120Hz adaptive refresh rate",
+      "IR Blaster",
       "IPX8 water resistant",
       "Wireless Powershare",
       "Flex mode (Infinity Flex Display)",
-      "Dolby Atmos Dual Stereo speakers"
+      "Dolby Atmos Dual Stereo speakers",
+      "S Pen functionality (pen not included)"
     ],
     "cameraFeatures":[
       "8K video @ 30fps",
@@ -144,13 +147,16 @@
     "cameraPros":[
       "Can take selfies photos with rear camera"
     ],
+    "cameraCons": [
+      "None recorded"
+    ],
     "pros":[
       "Turns into tablet",
       "Very thin bezels",
       "One-handed smartphone",
       "Brighter screen than Z Fold 4",
       "Lighter + thinner than Z Fold 4",
-      "S-Pen support on tablet screen",
+      "S Pen support on tablet screen",
       "No gap when phone is folded (unlike the Z Fold 4)",
       "Pre-installed screen protector in tablet mode",
       "A little easier to unfold than on Z Fold 4",
@@ -159,8 +165,8 @@
       "Better cases than Z Fold 4 (makes things less bulky)"
     ],
     "cons":[
-      "Doesn't come with S-pen ITB",
-      "S-pen doesn’t work on the outer display",
+      "Doesn't come with S Pen ITB",
+      "S Pen doesn’t work on the outer display",
       "Not dust resistant",
       "Narrower phone screen than regular smartphones",
       "Narrower hinge than Z Fold 4",
@@ -201,8 +207,8 @@
     "phoneFeatures": [
       "Face ID",
       "Always On Display",
-      "120 Hz refresh rate",
-      "Optical in-display fingerprint scanner",
+      "120Hz refresh rate",
+      "Optical in-display fingerprint sensor",
       "HDR support",
       "IPX8 water resistant",
       "Stereo speakers",
@@ -217,6 +223,9 @@
     ],
     "cameraPros":[
       "Can take selfies photos with rear camera"
+    ],
+    "cameraCons": [
+      "None recorded"
     ],
     "pros":[
       "\"Can be folded at least 200,000 times\"",
@@ -255,7 +264,7 @@
     "ui": "One UI 4",
     "openDisplay": "7.6 in; 1768x2208 px, Dynamic AMOLED 2X",
     "closedDisplay": "6.2 in; 904x2316 px, Dynamic AMOLED 2X",
-    "build": "Gorilla Glass Victus +, metal frame and hinge (Matte)",
+    "build": "Gorilla Glass Victus +, metal frame and hinge (matte)",
     "openSize": "6.11 x 5.12 x 0.25 in",
     "closedSize": "6.11 in x 2.64 x 0.56 in",
     "rearCameras": {"primary": "50 MP", "ultrawide": "12 MP", "telephoto": "10 MP"},
@@ -267,17 +276,18 @@
     "released": "Aug. 25, 2022 (USA)",
     "phoneFeatures": [
       "Face ID",
-      "120 Hz refresh rate",
+      "120Hz adaptive refresh rate",
       "IPX8 water resistant",
       "Foldable tablet/phone",
-      "Fingerprint scanner",
+      "Fingerprint sensor",
       "Wireless Powershare",
       "Dolby Atmos Dual Stereo speakers",
       "Flex mode (Infinity Flex Display)",
-      "Can be folded at least 200,000 times"
+      "Can be folded at least 200,000 times",
+      "S Pen functionality (pen not included)"
     ],
     "cameraFeatures":[
-      "8K video @ 24 fps",
+      "8K video @ 24fps",
       "4K video @ 60fps",
       "Space zoom",
       "Brighter low light images",
@@ -286,8 +296,11 @@
     "cameraPros": [
       "Can take selfies photos with rear camera"
     ],
+    "cameraCons": [
+      "None recorded"
+    ],
     "pros":[
-      "S-Pen support on tablet screen",
+      "S Pen support on tablet screen",
       "Turns into tablet",
       "Lighter than Z Fold 3",
       "Pre-installed screen protector in tablet mode",
@@ -297,8 +310,8 @@
       "Wider outer and inner display than Z Fold 3"
     ],
     "cons":[
-      "Doesn't come with S-pen ITB",
-      "S-pen doesn’t work on the outer display",
+      "Doesn't come with S Pen ITB",
+      "S Pen doesn’t work on the outer display",
       "Lighter than the Z Fold 3",
       "Narrower phone screen than regular smartphones",
       "Narrower hinge than Z Fold 3",
@@ -319,41 +332,56 @@
     "year": 2021,
     "category": "z fold",
     "colors": [
-      {"color": "Phantom Black", "tag": "phantom-black"}, 
-      {"color": "Phantom Silver", "tag": "phantom-silver"}, 
+      {"color": "Phantom Black", "tag": "phantom-black"},
+      {"color": "Phantom Silver", "tag": "phantom-silver"},
       {"color": "Phantom Green", "tag": "phantom-green"}
     ],
     "prices": [
-      {"storage": "256 GB", "price": "Not recorded"},
-      {"storage": "512 GB", "price": "Not recorded"}
+      {"storage": "256 GB", "price": "$1800"},
+      {"storage": "512 GB", "price": "$1900"}
     ],
-    "ui": "One UI 3.1?",
+    "ui": "One UI 3.1",
     "openDisplay": "7.6 in; 1768x2208 px, Dynamic AMOLED 2X",
     "closedDisplay": "6.2 in; 832x2268 px, Dynamic AMOLED 2X",
     "build": "Gorilla Glass Victus (matte), Armor Aluminum frame",
     "openSize": "6.23 x 5.04 x 0.25 in",
     "closedSize": "6.23 x 2.64 x 0.57-0.63 in",
     "rearCameras": {"primary": "12 MP", "ultrawide": "12 MP", "telephoto": "12 MP"},
-    "frontCameras": "Main: 10MP, RGB Depth: 4MP",
+    "frontCameras": "Main: 10 MP, RGB Depth: 4 MP",
     "ram": "12 GB",
     "battery": "4400 mAh",
     "charging": "25W, 10W wireless, 4.5W PowerShare",
     "capacity": "256 / 512 GB",
     "released": "Aug. 27, 2021 (USA)",
     "phoneFeatures": [
-      "S-pen support", "120 Hz refresh rate", ""
+      "S Pen functionality (pen not included)",
+      "120Hz adaptive refresh rate",
+      "IPX8 water resistance",
+      "Under-screen camera (that's almost invisible)"
     ],
     "cameraFeatures":[
-      "Can take selfies photos with rear camera"
+      "Can take selfies photos with rear camera",
+      "Super Clear Glass lenses"
     ],
     "cameraPros":[
       "Can take selfies photos with rear camera"
     ],
+    "cameraCons": [
+      "No 8K video",
+      "S22 Ultra has better camera than the Z Fold 3 despite coming out the same year"
+    ],
     "pros":[
-      "None recorded"
+      "Preorder and get $200 of Samsung credit",
+      "First foldable to have IPX8 water resistance (along with the Flip 3)",
+      "Aluminum frame is 10% stronger than before",
+      "Cover screen is 60% stronger than before",
+      "Lighter and thinner than Fold 2"
     ],
     "cons":[
-      "S-pen doesn’t work on the outer display"
+      "S Pen doesn’t work on the outer display",
+      "Crease isn't any more subtle",
+      "Narrow device",
+      "Battery life isn't great ~ MKBHD"
     ]
   },
 
@@ -362,34 +390,35 @@
     "id": "moto-razr-2020",
     "offName": "Motorola Moto RAZR 2020",
     "foldable": true,
-    "img": "phones-img/razr-2020.png",
+    "img": "/assets/imgs/motos/moto-rarz-2020.png",
     "brand": "Motorola",
-    "os": "Android P",
+    "os": "Android Pie (9.0)",
     "year": 2020,
-    "colors": ["Noir Black"],
-    "prices": ["128 GB: $1500"],
+    "colors": [{"color": "Noir Black", "tag": "noir-black"}],
+    "prices": [{
+      "storage": "128 GB", "price": "$1500"
+    }],
     "ui": "Custom Motorola UI",
-    "openDisplay": "6.2 in; 876x2142 px; pOLED",
-    "closedDisplay": "2.7 in; 600x800 px; gOLED",
-    "build": "Plastic, Glass frame",
+    "openDisplay": "6.2 in; 876x2142 px, pOLED",
+    "closedDisplay": "2.7 in; 600x800 px, gOLED",
+    "build": "Plastic, glass frame",
     "openSize": "6.77 x 2.83 x 0.27 in",
     "closedSize": "3.70 x 2.83 x 0.55 in",
-    "rearCameras": "16MP",
-    "frontCameras": "5MP",
+    "rearCameras": {
+      "primary": "16 MP"
+    },
+    "frontCameras": "5 MP",
     "ram": "6 GB",
     "battery": "2510 mAh",
     "charging": "15W",
     "capacity": "128 GB",
     "released": "Feb. 6th, 2020 (US)",
     "phoneFeatures": [
-      "Two screens", "USB Type-C", "Fingerprint scanner", "Tactile home button", "Vertically folding display",
+      "Two screens", "USB Type-C", "Fingerprint sensor", "Tactile home button", "Vertically folding display",
       "Splash-resistant"
     ],
     "cameraFeatures":[
       "Shake to open camera"
-    ],
-    "cameraPros":[
-      "None recorded"
     ],
     "cameraCons":[
       "No OIS"
@@ -401,7 +430,7 @@
       "Aspect ratio is good", "Doesn't seem to be much of a crease at all when lying flat"
     ],
     "cons":[
-      "Very pricey", "Large-ish notch", "Seems fragile", "Low-ish battery", "Big chin & lots of bezels", 
+      "Very pricey", "Large-ish notch", "Seems fragile", "Low-ish battery", "Big chin & lots of bezels",
       "Hinge creaks when folding"
     ]
   }

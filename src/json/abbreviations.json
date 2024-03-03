@@ -4,15 +4,71 @@
     "expl": "Always On Display - a feature the latest phones have where the phone always has something displaying"
   },
   {
+    "abbr": "build",
+    "expl": "What the phone was built with - listed as front (screen) / back. If there's no '/', this means the build is the same for front and back"
+  },
+  {
+    "abbr": "fps",
+    "expl": "Frames per second (unit)"
+  },
+  {
+    "abbr": "GB",
+    "expl": "Gigabytes (unit)"
+  },
+  {
+    "abbr": "Glastic",
+    "expl": "Plastic that looks and feels like glass (Samsung product)"
+  },
+  {
+    "abbr": "Hz",
+    "expl": "Hertz (unit)"
+  },
+  {
+    "abbr": "ID",
+    "expl": "Identification (method of getting into your phone)"
+  },
+  {
     "abbr": "ITB",
     "expl": "In the box - what comes in the box when the phone is delivered"
   },
   {
-    "abbr": "fps",
-    "expl": "Frames per second"
+    "abbr": "mAh",
+    "expl": "Milli-amp hours (unit)"
+  },
+  {
+    "abbr": "models",
+    "expl": "Models are the phones in groupings. The Galaxy S23, S23+, and S23 Ultra are all Galaxy S23 models (or Galaxy S23s)"
+  },
+  {
+    "abbr": "MP",
+    "expl": "Megapixels (unit)"
   },
   {
     "abbr": "OIS",
     "expl": "Optical Image Stabilization - Stabilizes your phone's camera while taking video so video is not as shaky"
+  },
+  {
+    "abbr": "OS",
+    "expl": "Operating system"
+  },
+  {
+    "abbr": "px",
+    "expl": "Pixels (unit)"
+  },
+  {
+    "abbr": "ToF",
+    "expl": "Time of flight depth sensor (for a camera)"
+  },
+  {
+    "abbr": "TB",
+    "expl": "Terabytes (unit)"
+  },
+  {
+    "abbr": "W",
+    "expl": "Watts (unit)"
+  },
+  {
+    "abbr": "yrs",
+    "expl": "Years"
   }
 ]

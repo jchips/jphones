@@ -1,5 +1,165 @@
 [
   {
+    "name": "OnePlus 12",
+    "id": "oneplus-12",
+    "offName": "OnePlus 12",
+    "img": "/assets/imgs/oneplus/oneplus-12.png",
+    "brand": "OnePlus",
+    "os": "Android 14",
+    "year": 2024,
+    "category": "12",
+    "colors": [
+      {
+        "color": "Silky Black",
+        "tag": "silky-black"
+      },
+      {
+        "color": "Flowy Emerald",
+        "tag": "flowy-emerald"
+      }
+    ],
+    "prices": [
+      {
+        "storage": "256 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "512 GB",
+        "price": "$900"
+      }
+    ],
+    "ui": "OxygenOS 14",
+    "display": "6.82 in; 1440x3168 px, QHD+ ProXDR AMOLED with LTPO 3.0",
+    "build": "Gorilla Glass Victus 2 / Gorilla Glass 5 (matte, curved), aluminum frame",
+    "size": "6.47 x 2.98 x 0.36 in",
+    "rearCameras": {
+      "primary": "50 MP",
+      "ultrawide": "48 MP",
+      "telephoto": "64 MP"
+    },
+    "frontCameras": "32 MP",
+    "ram": "12 / 16 GB",
+    "battery": "5400 mAh",
+    "charging": "80W SUPERVOOC, 50W AIRVOOC",
+    "capacity": "256 / 512 GB",
+    "released": "Feb. 6, 2024 (USA)",
+    "phoneFeatures": [
+      "120Hz adaptive refresh rate",
+      "Face ID",
+      "Wireless charging",
+      "Wi-Fi 7",
+      "IR Blaster",
+      "Aqua Touch (makes the phone work better when wet)",
+      "IP65 water/dust resistant",
+      "Optical in-display fingerprint sensor",
+      "Reverse wireless charging"
+    ],
+    "cameraFeatures": [
+      "3x optical zoom, 6x in-sensor zoom",
+      "8K video @ 24fps",
+      "4K video @ up to 60fps",
+      "OIS",
+      "Tilt-shift mode",
+      "Ultra Steady video at 1080p, 60fps",
+      "Pro Mode at 4K, 30fps",
+      "Slo-mo video at 1080p, 240/480fps"
+    ],
+    "cameraPros": [
+      "Camera hardware is a big upgrade from the OnePlus 11"
+    ],
+    "cameraCons": [
+      "Shutter lag",
+      "“Cameras aren’t the specialty for this phone, but they are not bad” ~ Mrwhosetheboss, Jan. 2024"
+    ],
+    "pros": [
+      "Pre-order comes with free 50W AIRVOOC charger",
+      "Biggest battery on any non-gaming phone",
+      "Guaranteed 4yrs of OS updates",
+      "Pre-installed screen protector",
+      "Comes with 80W SUPERVOOC charger (power adapter) ITB (100W in UK)"
+    ],
+    "cons": [
+      "None recorded"
+    ],
+    "approbations": [
+      "“Fastest Android experience I’ve used to date” ~ ASBYT and Mrwhosetheboss, Jan. 2024",
+      "“The software on this OnePlus 12 is one of the most thoughtful, useful Android skins I’ve been on” ~ Mrwhosetheboss, Jan. 2024"
+    ]
+  },
+  {
+    "name": "OnePlus 12R",
+    "id": "oneplus-12r",
+    "offName": "OnePlus 12R",
+    "img": "/assets/imgs/oneplus/oneplus-12r.png",
+    "brand": "OnePlus",
+    "os": "Android 14",
+    "year": 2024,
+    "category": "12",
+    "colors": [
+      {
+        "color": "Iron Gray",
+        "tag": "iron-gray"
+      },
+      {
+        "color": "Cool Blue",
+        "tag": "cool-blue"
+      }
+    ],
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$500"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$600"
+      }
+    ],
+    "ui": "OxygenOS 14",
+    "display": "6.78 in; 1264x2780 px, ProXDR AMOLED with LTPO 4.0",
+    "build": "Gorilla Glass Victus 2, aluminum alloy frame (matte)",
+    "size": "6.43 x 2.96 x 0.35 in",
+    "rearCameras": {
+      "primary": "50 MP",
+      "ultrawide": "8 MP"
+    },
+    "frontCameras": "16 MP",
+    "ram": "8 / 16 GB",
+    "battery": "5500 mAh",
+    "charging": "80W SUPERVOOC",
+    "capacity": "128 / 256 GB",
+    "released": "Feb. 13, 2024 (USA)",
+    "phoneFeatures": [
+      "120Hz adaptive refresh rate",
+      "IP65 water/dust resistant",
+      "Optical in-display fingerprint sensor"
+    ],
+    "cameraFeatures": [
+      "2 MP Macro camera",
+      "XPan mode",
+      "OIS",
+      "4k video @ up to 60fps",
+      "Super Slow Motion (1080p video @ 120fps)"
+    ],
+    "cameraCons": [
+      "No telephoto camera",
+      "No autofocus on ultrawide camera",
+      "Macro camera is a waste of glass ~ Tech Spurt, Feb. 2024"
+    ],
+    "pros": [
+      "Pre-installed screen protector",
+      "The 12R is excellent at battery life ~ 9to5Google, Feb. 2024",
+      "Guaranteed 3yrs of OS updates and 4yrs of security updates",
+      "“You really can’t point to other companies/brand (in the USA) that actually go toe-to-toe with this performance” ~ SomeGadgetGuy, Feb. 2024"
+    ],
+    "cons": [
+      "No wireless charging"
+    ],
+    "approbations": [
+      "REALLY good performance ~ SomeGadgetGuy, Feb. 2024"
+    ]
+  },
+  {
     "name": "OnePlus 11",
     "id": "oneplus-11",
     "offName": "OnePlus 11",
@@ -9,18 +169,33 @@
     "year": 2023,
     "category": "11",
     "colors": [
-      {"color": "Titan Black (Matte)", "tag": "titan-black"},
-      {"color": "Eternal Green (Glossy)", "tag": "eternal-green"}
+      {
+        "color": "Titan Black (matte)",
+        "tag": "titan-black"
+      },
+      {
+        "color": "Eternal Green (glossy)",
+        "tag": "eternal-green"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$700"},
-      {"storage": "256 GB", "price": "$800"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$700"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$800"
+      }
     ],
     "ui": "OxygenOS 13",
-    "display": "6.7 in; 1440x3216 px, QHD+ LPTO 3 Fluid AMOLED",
+    "display": "6.7 in; 1440x3216 px, QHD+ Fluid AMOLED with LPTO 3.0",
     "build": "Gorilla Glass 5 / Gorilla Glass Victus, aluminum frame",
     "size": "6.42 x 2.92 x 0.33 in",
-    "rearCameras": {"primary": "50 MP", "ultrawide": "48 MP"},
+    "rearCameras": {
+      "primary": "50 MP",
+      "ultrawide": "48 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 GB",
     "battery": "5000 mAh",
@@ -28,38 +203,40 @@
     "capacity": "128 / 256 GB",
     "released": "Jan. 9, 2023 (USA)",
     "phoneFeatures": [
-      "5G support",
-      "WiFi 7",
+      "Wi-Fi 7",
       "Always On Display",
       "IP64 splash/dust resistant",
       "Strong haptic motor",
       "Dolby vision",
-      "Adaptive 120 Hz refresh rate",
-      "Optical in-display fingerprint scanner"
+      "120Hz adaptive refresh rate",
+      "Optical in-display fingerprint sensor"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "OIS",
       "Portrait camera with 2x optical zoom",
       "Macro mode",
-      "Shutter lag",
-      "4K video @ 60 fps",
-      "8K video @ 24 fps"
+      "XPan mode",
+      "4K video @ 60fps",
+      "8K video @ 24fps",
+      "Tilt-shift mode",
+      "Pro mode for video"
     ],
-    "cameraCons":[
+    "cameraCons": [
+      "Shutter lag",
       "Front camera doesn't have auto focus",
       "Just 1080p video on the front camera"
     ],
-    "pros":[
+    "pros": [
       "Comes with charger ITB",
       "Comes with pre-installed screen protector",
       "4yrs of OS updates and 5yrs of security updates",
       "\"Really impressed by the battery life\" ~ The Tech Chap, Feb. 2023"
     ],
-    "cons":[
+    "cons": [
       "No wireless charging",
       "No case ITB (unlike predecessors)"
     ],
-    "approbations":[
+    "approbations": [
       "“OnePlus is back!” ~ MKBHD, Feb. 2023"
     ]
   },
@@ -73,18 +250,34 @@
     "year": 2022,
     "category": "10",
     "colors": [
-      {"color": "Volcanic Black", "tag": "volcanic-black"},
-      {"color": "Emerald Forest", "tag": "emerald-forest"}
+      {
+        "color": "Volcanic Black",
+        "tag": "volcanic-black"
+      },
+      {
+        "color": "Emerald Forest",
+        "tag": "emerald-forest"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$900"},
-      {"storage": "256 GB", "price": "$970"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$900"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$970"
+      }
     ],
     "ui": "OxygenOS 12.1",
-    "display": "6.7 in; 1440 x 3216px, Curved QHD+ LTPO 2 Fluid AMOLED",
-    "build": "Curved Gorilla Glass Victus (Matte), aluminum frame",
+    "display": "6.7 in; 1440x3216px, curved QHD+ Fluid AMOLED with LTPO 2.0",
+    "build": "Gorilla Glass Victus (matte, curved), aluminum frame",
     "size": "6.42 x 2.91 x 0.34 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "50 MP", "telephoto": "8 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "50 MP",
+      "telephoto": "8 MP"
+    },
     "frontCameras": "32 MP",
     "ram": "8 / 12 GB",
     "battery": "5000 mAh",
@@ -92,38 +285,39 @@
     "capacity": "128 / 256 GB",
     "released": "Apr. 14, 2022 (USA)",
     "phoneFeatures": [
-      "5G support",
       "Game Focus mode",
-      "Adaptive 120 Hz refresh rate",
+      "Adaptive 120Hz refresh rate",
       "LTPO display to save battery",
-      "Optical in-display fingerprint scanner",
+      "Optical in-display fingerprint sensor",
       "Wireless charging",
       "Reverse wireless charging"
     ],
-    "cameraFeatures":[
-      "4K video @ 120 fps",
-      "8K video @ 24 fps",
-      "Fisheye mode"
+    "cameraFeatures": [
+      "4K video @ 120fps",
+      "8K video @ 24fps",
+      "Fisheye mode",
+      "Tilt-shift mode",
+      "Pro mode for video"
     ],
-    "cameraPros":[
+    "cameraPros": [
       "Ultrawide camera has a 150-degree field-of-view"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No 4K video on front camera",
       "\"Would not pick for the selfie (front) camera; images are really flat with not great dynamic range\" ~ SuperSaf"
     ],
-    "pros":[
+    "pros": [
       "Comes with charger ITB",
       "Lower starting price than OnePlus 9 Pro had"
     ],
-    "cons":[
+    "cons": [
       "No 5G with AT&T",
-      "No IP rating unless you buy a carrier version"
+      "No IP certification unless you buy a carrier version"
     ],
-    "approbations":[
+    "approbations": [
       "\"The best camera phone the company has ever produced\" ~ Tom's Guide",
       "\"The OnePlus 10 Pro is my new favorite Android phone.\" ~ Tom's Guide"
-    ] 
+    ]
   },
   {
     "name": "OnePlus 10T",
@@ -135,18 +329,33 @@
     "year": 2022,
     "category": "10",
     "colors": [
-      {"color": "Moonstone Black (Matte)", "tag": "moonstone-black"},
-      {"color": "Jade Green (Glossy)", "tag": "jade-green"}
+      {
+        "color": "Moonstone Black (matte)",
+        "tag": "moonstone-black"
+      },
+      {
+        "color": "Jade Green (glossy)",
+        "tag": "jade-green"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB", "price": "$650"},
-      {"storage": "256 GB", "price": "$750"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$650"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$750"
+      }
     ],
     "ui": "OxygenOS 12.1",
-    "display": "6.7 in; 1080 x 2412 px, FHD+ AMOLED",
+    "display": "6.7 in; 1080x2412 px, FHD+ AMOLED",
     "build": "Gorilla Glass 5, plastic frame",
     "size": "6.4 x 3.0 x 0.34 in",
-    "rearCameras": {"primary": "50 MP", "ultrawide": "8 MP"},
+    "rearCameras": {
+      "primary": "50 MP",
+      "ultrawide": "8 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 / 16 GB",
     "battery": "4800 mAh",
@@ -154,36 +363,37 @@
     "capacity": "128 / 256 GB",
     "released": "Aug. 6, 2022 (USA)",
     "phoneFeatures": [
-      "5G support",
-      "WiFi 6",
+      "Wi-Fi 6",
       "Game Focus mode",
       "Bluetooth 5.3",
       "2D Face ID",
-      "Adaptive 120 Hz refresh rate",
+      "120Hz adaptive refresh rate",
       "3yrs of Android OS updates",
-      "Optical in-display fingerprint scanner",
+      "Optical in-display fingerprint sensor",
       "More powerful chip than the OnePlus 10 Pro"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "2 MP Macro camera",
       "OIS",
-      "4K video @ 60 fps"
+      "4K video @ 60fps",
+      "Tilt-shift mode",
+      "Pro mode for video"
     ],
-    "cameraCons":[
+    "cameraCons": [
       "No optical zoom",
       "No telephoto camera",
       "No 4K on front or ultrawide camera",
       "\"Would not pick for the selfie (front) camera; images are really flat with not great dynamic range\" ~ SuperSaf"
     ],
-    "pros":[
+    "pros": [
       "Comes with charger ITB",
       "Super fast charging",
       "Excellent haptics ~ Phone Arena",
       "Brighter screen than OnePlus 10 Pro",
       "Phone stays cooler than 10 Pro when playing games"
     ],
-    "cons":[
-      "No IP rating",
+    "cons": [
+      "No IP certification",
       "No headphone jack",
       "No LTPO panel",
       "No alert slider (unlike predecessors)",
@@ -192,7 +402,7 @@
       "“Most pointless phone of 2022” ~ CNET, Aug. 2022",
       "“Ultrawide camera is soo much worse than the OnePlus 10 Pro” ~ Dave2D, Aug. 2022"
     ],
-    "approbations":[
+    "approbations": [
       "\"Fastest OnePlus phone ever…but not by much\" ~ The Tech Chap"
     ]
   },
@@ -206,18 +416,34 @@
     "year": 2021,
     "category": "9",
     "colors": [
-      {"color": "Pine Green", "tag": "pine-green"},
-      {"color": "Morning Mist", "tag": "morning-mist"}
+      {
+        "color": "Pine Green",
+        "tag": "pine-green"
+      },
+      {
+        "color": "Morning Mist",
+        "tag": "morning-mist"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (8 GB ram)", "price": "$970"},
-      {"storage": "256 GB (12 GB ram)", "price": "$1070"}
+    "prices": [
+      {
+        "storage": "128 GB (8 GB of ram)",
+        "price": "$970"
+      },
+      {
+        "storage": "256 GB (12 GB of ram)",
+        "price": "$1070"
+      }
     ],
     "ui": "OxygenOS 11",
     "display": "6.7 in; 1440x3216 px, QHD+ Fluid AMOLED",
-    "build": "3D Corning Gorilla Glass curved, aluminum frame",
+    "build": "3D Gorilla Glass (curved), aluminum frame",
     "size": "6.43 x 2.90 x 0.34 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "50 MP", "telephoto": "8 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "50 MP",
+      "telephoto": "8 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
     "battery": "4500 mAh",
@@ -225,28 +451,46 @@
     "capacity": "128 / 256 GB",
     "released": "Mar. 30, 2021 (USA)",
     "phoneFeatures": [
-      "5G support", "Warp charge 65T", "IP68 water/dust resistant", "120 Hz refresh rate", "Wireless charging",
-      "Bitmoji AOD (coming soon?)", "Hyper Touch", "Adaptive display", "Motion graphics smoothing", "Improved haptics",
+      "Warp charge 65T",
+      "IP68 water/dust resistant",
+      "120Hz refresh rate",
+      "Wireless charging",
+      "Bitmoji AOD (coming soon?)",
+      "Hyper Touch",
+      "Adaptive display",
+      "Motion graphics smoothing",
+      "Improved haptics",
       "Reverse wireless charging"
     ],
-    "cameraFeatures":[
-      "2 MP Monochrome rear camera", "Video Nightscape", "Tilt-shift mode", "8K video @ 30fps", "4K video @ 120 fps",
+    "cameraFeatures": [
+      "2 MP Monochrome rear camera",
+      "Video Nightscape",
+      "Tilt-shift mode",
+      "XPan mode",
+      "8K video @ 30fps",
+      "4K video @ 120fps",
       "8K shooting on ultrawide camera (as well as primary)"
     ],
-    "cameraPros":[
-      "Better lowlight photos than OnePlus 9", "Better zoom than the OnePlus 9"
+    "cameraPros": [
+      "Better lowlight photos than OnePlus 9",
+      "Better zoom than the OnePlus 9"
     ],
-    "cameraCons":[
-      "\"Front facing cameras are very basic\" ~ SuperSaf, Mar 2021", "Only 1080 on front facing cameras",
-      "Shutter lag"
+    "cameraCons": [
+      "Shutter lag",
+      "Only 1080 on front facing cameras",
+      "\"Front facing cameras are very basic\" ~ SuperSaf, Mar 2021"
     ],
-    "pros":[
-      "Comes with Warp Charge 65 charger ITB", "IP68 rating unlike predeccessors", "Wireless charging unlike past model",
+    "pros": [
+      "Comes with Warp Charge 65 charger ITB",
+      "IP68 water/dust resistant unlike predeccessors",
+      "Wireless charging unlike predecessors",
       "Great haptics ~ MKBHD"
     ],
-    "cons":[
-      "$1000+ price unlike any OnePlus phone before", "Glossy phones are fingerprint magnets",
-      "Fingerprint reader is in bad placement (too low)", "There are a few lags and stutters ~ MKBHD"
+    "cons": [
+      "$1000+ price unlike any OnePlus phone before",
+      "Glossy phones are fingerprint magnets",
+      "Fingerprint reader is in bad placement (too low)",
+      "There are a few lags and stutters ~ MKBHD"
     ]
   },
   {
@@ -259,18 +503,33 @@
     "year": 2021,
     "category": "9",
     "colors": [
-      {"color": "Astral Black", "tag": "astral-black"},
-      {"color": "Winter Mist", "tag": "winter-mist"}
+      {
+        "color": "Astral Black",
+        "tag": "astral-black"
+      },
+      {
+        "color": "Winter Mist",
+        "tag": "winter-mist"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (8 GB of ram)", "price": "$720"},
-      {"storage": "256 GB (12 GB of ram)", "price": "$830"}
+    "prices": [
+      {
+        "storage": "128 GB (8 GB of ram)",
+        "price": "$720"
+      },
+      {
+        "storage": "256 GB (12 GB of ram)",
+        "price": "$830"
+      }
     ],
     "ui": "OxygenOS 11",
-    "display": "6.55 in; 1080x2400 px, Fluid AMOLED FHD+",
-    "build": "3D Corning Gorilla Glass 5",
+    "display": "6.55 in; 1080x2400 px, FHD+ Fluid AMOLED",
+    "build": "3D Gorilla Glass 5",
     "size": "6.43 x 2.90 x 0.34 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "50 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "50 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
     "battery": "4500 mAh",
@@ -278,22 +537,36 @@
     "capacity": "128 / 256 GB",
     "released": "Mar. 30, 2021 (USA)",
     "phoneFeatures": [
-      "120 Hz refresh rate", "Wireless charging", "Bitmoji AOD (coming soon?)", "Improved haptics"
+      "120Hz refresh rate",
+      "Wireless charging",
+      "Bitmoji AOD (coming soon?)",
+      "Improved haptics"
     ],
-    "cameraFeatures":[
-      "2 MP Monochrome rear camera", "Video Nightscape", "Tilt-shift mode", "8K video @ 30fps", "4K video @ 120fps",
+    "cameraFeatures": [
+      "2 MP Monochrome rear camera",
+      "Video Nightscape",
+      "Tilt-shift mode",
+      "XPan mode",
+      "8K video @ 30fps",
+      "4K video @ 120fps",
       "8K shooting on ultrawide camera (as well as primary)"
     ],
-    "cameraCons":[
-      "\"Front cameras are very basic\" ~ SuperSaf Mar 2021", "Only 1080 on front cameras",
+    "cameraCons": [
+      "No telephoto camera",
+      "\"Front cameras are very basic\" ~ SuperSaf Mar 2021",
+      "Only 1080 on front cameras",
       "\"Poor camera zoom\" ~ Android Authority"
     ],
-    "pros":[
-      "Comes with Warp Change 65 charger ITB", "Wireless charging unlike past model", "Great haptics ~ MKBHD"
+    "pros": [
+      "Comes with Warp Change 65 charger ITB",
+      "Wireless charging unlike predecessors",
+      "Great haptics ~ MKBHD"
     ],
-    "cons":[
-      "Glossy phones are fingerprint magnets", "Fingerprint reader is in bad placement (too low)",
-      "No reverse wireless charging", "Wireless charging only in North America and Europe",
+    "cons": [
+      "Glossy phones are fingerprint magnets",
+      "Fingerprint reader is in bad placement (too low)",
+      "No reverse wireless charging",
+      "Wireless charging only in North America and Europe",
       "\"Cheap feeling design\" ~ Android Authority"
     ]
   },
@@ -307,17 +580,29 @@
     "year": 2020,
     "category": "8",
     "colors": [
-      {"color": "Lunar Silver", "tag": "lunar-silver"},
-      {"color": "Aquamarine Green", "tag": "aquamarine-green"}
+      {
+        "color": "Lunar Silver",
+        "tag": "lunar-silver"
+      },
+      {
+        "color": "Aquamarine Green",
+        "tag": "aquamarine-green"
+      }
     ],
-    "prices":[
-      {"storage": "256 GB", "price": "$750"}
+    "prices": [
+      {
+        "storage": "256 GB",
+        "price": "$750"
+      }
     ],
     "ui": "OxygenOS 11",
     "display": "6.55 in; 1080x2400 px, Fluid AMOLED",
-    "build": "Gorilla Glass 5, glossy, aluminum frame",
+    "build": "Gorilla Glass 5 (glossy), aluminum frame",
     "size": "6.33 x 2.92 x 0.33 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "16 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "16 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
     "battery": "4500 mAh",
@@ -325,23 +610,33 @@
     "capacity": "256 GB",
     "released": "Oct. 16, 2020 (USA)",
     "phoneFeatures": [
-      "5G support", "120 Hz refresh rate", "UFS 3.0 Storage", "Always On Display",
+      "5G support",
+      "120Hz refresh rate",
+      "UFS 3.0 Storage",
+      "Always On Display",
       "Optimized charging (can help protect battery)"
     ],
-    "cameraFeatures":[
-      "5 MP Macro and 2 MP Monochrome rear cameras", "4K video @ 60 fps", "Pro photo mode"
+    "cameraFeatures": [
+      "5 MP Macro and 2 MP Monochrome rear cameras",
+      "4K video @ 60fps",
+      "Pro photo mode"
     ],
-    "cameraCons":[
-      "Front camera doesn't have nightscape", "Nightscape photo colors do not look natural",
+    "cameraCons": [
+      "No telephoto camera",
+      "Front camera doesn't have nightscape",
+      "Nightscape photo colors do not look natural",
       "Main camera is identical to the OnePlus 8, Nord, 7T & 7 (2 1/2yr old hardware)"
     ],
-    "pros":[
-      "Uses a high-end chipset (latest Snapdragon, 865)", "3yrs of promised software updates",
-      "Better battery than compeition Pixel 5", "Has a higher refresh rate than the OnePlus 8 (120 Hz vs 90 Hz)",
+    "pros": [
+      "Uses a high-end chipset (latest Snapdragon, 865)",
+      "3yrs of promised software updates",
+      "Better battery than compeition Pixel 5",
+      "Has a higher refresh rate than the OnePlus 8 (120Hz vs 90Hz)",
       "Feels quicker than competition Pixel 5"
     ],
-    "cons":[
-      "No IP rating (although it is apparently water resistant)", "No wireless charging",
+    "cons": [
+      "No IP certification (although it is apparently water resistant)",
+      "No wireless charging",
       "8 GB ram / 128 GB option only available in the UK"
     ]
   },
@@ -355,48 +650,85 @@
     "year": 2020,
     "category": "8",
     "colors": [
-      {"color": "Glacial Green", "tag": "glacial-green"},
-      {"color": "Interstellar Glow", "tag": "interstellar-glow"},
-      {"color": "Onyx Black", "tag": "onyx-black"}
+      {
+        "color": "Glacial Green",
+        "tag": "glacial-green"
+      },
+      {
+        "color": "Interstellar Glow",
+        "tag": "interstellar-glow"
+      },
+      {
+        "color": "Onyx Black",
+        "tag": "onyx-black"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (8 GB of ram)", "price": "$700"},
-      {"storage": "256 GB (12 GB of ram)", "price": "$800"}
+    "prices": [
+      {
+        "storage": "128 GB (8 GB of ram)",
+        "price": "$700"
+      },
+      {
+        "storage": "256 GB (12 GB of ram)",
+        "price": "$800"
+      }
     ],
     "ui": "OxygenOS 10.5",
-    "display": "6.55 in; 1080x2400 px, Curved Fluid AMOLED",
-    "build": "Gorilla Glass 5 / Curved Matte",
+    "display": "6.55 in; 1080x2400 px, curved Fluid AMOLED",
+    "build": "Gorilla Glass 5 (curved), aluminum frame",
     "size": "6.31 x 2.87 x 0.31 in",
-    "rearCameras": {"Primary": "48 MP", "Ultrawide": "16 MP", "Telephoto": "2 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "16 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
     "battery": "4300 mAh",
-    "charging": "30W fast",
+    "charging": "Warp Charge 30T",
     "capacity": "128 / 256 GB",
     "released": "Apr. 21, 2020 (USA)",
     "phoneFeatures": [
-      "5G support", "Dual sim support", "90 Hz refresh rate", "UFS 3.0 Storage", 
-      "Optimized charging (can help protect battery)"
+      "Wi-Fi 6",
+      "90Hz refresh rate",
+      "UFS 3.0 Storage",
+      "Face ID",
+      "Optical in-display fingerprint sensor",
+      "Optimized charging (can help protect battery)",
+      "IP68 water/dust resistant or T-Mobile and Verizon variants",
+      "OnePlus raised their phones from more mid-range to high range with the 8 models"
     ],
-    "cameraFeatures":[
-      "None recorded"
+    "cameraFeatures": [
+      "2 MP Macro camera",
+      "Pro mode for video",
+      "4K video @ 60fps",
+      "Super Stable Mode",
+      "Super Slow Motion (1080p video @ 240fps)"
     ],
-    "cameraPros":[
-      "\"I think OnePlus' daytime photos look crispier than the iPhone 11's\" ~ Mrwhosetheboss, Apr. 2020"
+    "cameraCons": [
+      "Ultrawide isn’t as wide as the 8 Pro",
+      "“Macro camera is not very good” ~ Mrwhosetheboss, Apr. 2020",
+      "“Amazing everything else on the phone, subpar camera” ~ MKBHD, Apr. 2020",
+      "“If you really care about your photos, this isn’t the one for you” ~ Mrmobile, Apr. 2020"
     ],
-    "cameraCons":[
-      "Macro camera is not very good", "Same camera hardware as last yr's OnePlus 7T"
+    "pros": [
+      "Improved haptics",
+      "3yrs of promised software updates",
+      "Comes with a clear plastic case ITB",
+      "Smaller camera bump than the 8 Pro (not listed)",
+      "Noticeably lighter weight than the 8 Pro (not listed)",
+      "Higher max brightness than OnePlus 7",
+      "“This feels CRAZY comfy in my hand” ~ Unbox Therapy, Apr. 2020",
+      "Matte finish doesn't get a lot of fingerprints on it",
+      "The OnePlus 8 has a slightly more luxurious feel than the 8 Pro ~ Unbox Therapy, Apr. 2020"
     ],
-    "pros":[
-      "3yrs of promised software updates", "Comes with a clear plastic case ITB", "Smaller camera bump than the OnePlus 8 Pro",
-      "Noticeably lighter weight than the OnePlus 8 Pro", "Uses a high-end chipset (latest Snapdragon, 865)",
-      "\"Better display than the iPhone 11\" ~ Mrwhosetheboss", "Matte finish doesn't get a lot of fingerprints on it"
+    "cons": [
+      "Only variants being sold from T-Mobile or Verizon have IP68 water/dust resistant",
+      "The OnePlus 8 is not special anymore but it is one of the favorites in its’ price range ~ MKBHD, Apr. 2020",
+      "The Interstellar Glow variants’ back catches more fingerprints than the CIA agent of the month ~ MKBHD, Apr. 2020",
+      "“When you put [the OnePlus 8] in one hand and the 7T in other, it’s really hard to see how OnePlus justifies that $200 premium” ~ MrMobile, Apr. 2020"
     ],
-    "cons":[
-      "None recorded"
-    ], 
     "approbations": [
-      "\"The most comfortable phone I've ever held\" ~ Mrwhosetheboss, Apr. 2020"
+      "\"Pretty much the most comfortable phone I've ever held\" ~ Mrwhosetheboss, Apr. 2020"
     ]
   },
   {
@@ -409,48 +741,88 @@
     "year": 2019,
     "category": "7",
     "colors": [
-      {"color": "Black", "tag": "oneplus-black"},
-      {"color": "Haze Blue", "tag": "haze-blue"},
-      {"color": "Papaya Orange", "tag": "papaya-orange"}
+      {
+        "color": "Black",
+        "tag": "oneplus-black"
+      },
+      {
+        "color": "Haze Blue",
+        "tag": "haze-blue"
+      },
+      {
+        "color": "Papaya Orange",
+        "tag": "papaya-orange"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (6 GB of ram)", "price": "$670"},
-      {"storage": "256 GB (8 GB of ram)", "price": "$700"},
-      {"storage": "256 GB (12 GB of ram)", "price": "$750"}
+    "prices": [
+      {
+        "storage": "128 GB (6 GB of ram)",
+        "price": "$670"
+      },
+      {
+        "storage": "256 GB (8 GB of ram)",
+        "price": "$700"
+      },
+      {
+        "storage": "256 GB (12 GB of ram)",
+        "price": "$750"
+      }
     ],
     "ui": "OxygenOS 10",
-    "display": "6.67 in; px, Curved QHD+ Fluid AMOLED",
-    "build": "Gorilla Glass 6 / 5",
-    "size": "6.4 x 2.99 x 0.35 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "16 MP", "telephoto": "8 MP"},
+    "display": "6.67 in; 1440x3120 px, curved QHD+ Fluid AMOLED",
+    "build": "Gorilla Glass 6 / 5 (matte, curved), aluminum frame",
+    "size": "6.40 x 2.99 x 0.35 in",
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "16 MP",
+      "telephoto": "8 MP"
+    },
     "frontCameras": "16 MP",
-    "ram": "8 / 12 GB",
+    "ram": "8 GB",
     "battery": "4085 mAh",
-    "charging": "30WT warp",
-    "capacity": "256 GB",
+    "charging": "Warp Charge 30T",
+    "capacity": "128 / 256 GB",
     "released": "Oct. 10, 2019",
     "phoneFeatures": [
-      "5G support", "New gestures", "30T Warp charge", "UFS 3.0 Storage", "90 Hz refresh rate",
-      "Full-screen display", "Pop-up front camera"
+      "90Hz refresh rate",
+      "New gestures (Android 10)",
+      "Face ID",
+      "UFS 3.0 Storage",
+      "Full-screen display",
+      "Optical in-display fingerprint sensor"
     ],
-    "cameraFeatures":[
-      "Hybrid stabilization (uses OIS and electronic stabilization)", "3x zoom", "4K video @ 60 fps", "Nightscape works on ultrawide", "Quieter pop-up camera then OnePlus 7 Pro"
+    "cameraFeatures": [
+      "Hybrid stabilization (uses OIS and electronic stabilization)",
+      "3x optical zoom",
+      "OIS",
+      "4K video @ up to 60fps",
+      "Super Macro Mode",
+      "Pop-up front camera",
+      "Nightscape works on ultrawide",
+      "Quieter pop-up camera than 7 Pro"
     ],
-    "cameraPros":[
-      "Cleaner and more true to light photos than 7 Pro"
+    "cameraPros": [
+      "Improved Nightscape",
+      "Cleaner and more true to life photos than 7 Pro",
+      "Pop-up camera is faster than on 7 Pro",
+      "Pop-up camera automatically retracts when the phone falls"
     ],
-    "pros":[
-      "All screen, no notches or holes",
-      "Fingerprint ID is more reliable than past versions", 
+    "cameraCons": [
+      "Cannot film in 4K with ultrawide camera"
+    ],
+    "pros": [
+      "Resists fingerprints",
+      "Full-screen view, no notches or holes",
+      "Fingerprint sensor is more reliable than predecessors",
       "Improved gestures with Android 10",
-      "Pop-up camera is faster than the OnePlus 7 Pro",
-      "Resists fingerprints"
+      "Charges 23% faster than Warp Charge 30"
     ],
-    "cons":[
-      "None recorded"
+    "cons": [
+      "No IP certification (although it is apparently water resistant)"
     ],
-    "approbations":[
-      "\"Fastest feeling smartphone I've ever used\" ~ MrWhoseTheBoss, Oct. 2019"
+    "approbations": [
+      "\"Fastest feeling smartphone I've ever used\" ~ MrWhoseTheBoss, Oct. 2019",
+      "\"OnePlus 7T Pro is the best Android Phone of 2019 in terms of value\" ~ ZONEofTECH, Dec. 2019"
     ]
   },
   {
@@ -463,38 +835,72 @@
     "year": 2019,
     "category": "7",
     "colors": [
-      {"color": "Frosted Silver", "tag": "frosted-silver"},
-      {"color": "Glacier Blue", "tag": "glacier-blue"}
+      {
+        "color": "Frosted Silver",
+        "tag": "frosted-silver"
+      },
+      {
+        "color": "Glacier Blue",
+        "tag": "glacier-blue"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (8 GB of ram)", "price": "$600"}
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$600"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$650"
+      }
     ],
     "ui": "OxygenOS 10",
-    "display": "6.55 in; 1080x2400 px, Fluid AMOLED",
-    "build": "Gorilla Glass 5 / 6 Curved frosted",
+    "display": "6.55 in; 1080x2400 px, FHD+ Fluid AMOLED",
+    "build": "Gorilla Glass 5 (frosted, curved), aluminum frame",
     "size": "6.33 x 2.93 x 0.32 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "16 MP", "telephoto": "12 MP"},
-    "frontCameras": "",
-    "ram": "8 / 12 GB",
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "16 MP",
+      "telephoto": "12 MP"
+    },
+    "frontCameras": "16 MP",
+    "ram": "8 GB",
     "battery": "3800 mAh",
-    "charging": "30 warp",
-    "capacity": "128 GB",
+    "charging": "Warp Charge 30T",
+    "capacity": "128 / 256 GB",
     "released": "Oct. 18, 2019 (USA)",
     "phoneFeatures": [
-      "90 Hz refresh rate", "UFS 3.0 Storage"
+      "90Hz refresh rate",
+      "UFS 3.0 Storage",
+      "Face ID",
+      "Optical in-display fingerprint sensor"
     ],
-    "cameraFeatures":[
-      "4K video @ 60 fps", "Macro view to shoot close ups"
+    "cameraFeatures": [
+      "2x optical zoom",
+      "4K video @ up to 60fps",
+      "Super Macro Mode to shoot close ups",
+      "OIS",
+      "Pro mode for video",
+      "Nightscape works on ultrawide",
+      "Super Slow Motion (1080p video @ 240fps)"
     ],
-    "cameraCons":[
-      "Camera has no 2x telephoto zoom unlike past gens", "Camera has no OIS"
+    "cameraCons": [
+      "Videos aren't great at night",
+      "Cannot film in 4K on the ultrawide camera"
     ],
-    "pros":[
-      "Decent camera (for not being a flagship)", "Bigger speaker than previous gens",
-      "Faster charging than previous gens"
+    "pros": [
+      "Pre-installed screen protector",
+      "Comes with a case ITB",
+      "Charges 23% faster than Warp Charge 30"
     ],
-    "cons":[
-      "\"Gestures are not great\"", "Color tint on screen", "Bezels are a tiny bit thick"
+    "cons": [
+      "Teardrop notch",
+      "No wireless charging",
+      "No IP certification (although it is apparently water resistant)"
+    ],
+    "approbations": [
+      "“My favorite OnePlus device ever” ~ Pocketnow, Apr. 2020",
+      "OnePlus 7T was my favorite Android phone of the year (2019) ~ Pocketnow, Apr. 2020"
     ]
   },
   {
@@ -503,24 +909,46 @@
     "offName": "OnePlus 7 Pro",
     "img": "/assets/imgs/oneplus/oneplus-7-pro.png",
     "brand": "OnePlus",
-    "os": "Android P",
+    "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "7",
     "colors": [
-      {"color": "Almond", "tag": "almond"},
-      {"color": "Nebula Blue", "tag": "nebula-blue"},
-      {"color": "Mirror Grey", "tag": "mirror-grey"}
+      {
+        "color": "Almond",
+        "tag": "almond"
+      },
+      {
+        "color": "Nebula Blue",
+        "tag": "nebula-blue"
+      },
+      {
+        "color": "Mirror Grey",
+        "tag": "mirror-grey"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (6 GB ram)", "price": "$670"},
-      {"storage": "256 GB (8 GB of ram)", "price": "$700"},
-      {"storage": "256 GB (12 GB of ram)", "price": "$750"}
+    "prices": [
+      {
+        "storage": "128 GB (6 GB ram)",
+        "price": "$670"
+      },
+      {
+        "storage": "256 GB (8 GB of ram)",
+        "price": "$700"
+      },
+      {
+        "storage": "256 GB (12 GB of ram)",
+        "price": "$750"
+      }
     ],
     "ui": "OxygenOS 9.5.2",
-    "display": "6.67 in; 1080x3120px, Curved QHD+ Fluid AMOLED",
-    "build": "Gorilla Glass 5, aluminum frame",
+    "display": "6.67 in; 1080x3120px, curved QHD+ Fluid AMOLED",
+    "build": "Gorilla Glass 5 (matte), aluminum frame",
     "size": "6.40 x 2.99 x 0.35 in",
-    "rearCameras": {"primary": "48 MP", "ultrawide": "16 MP", "telephoto": "8 MP"},
+    "rearCameras": {
+      "primary": "48 MP",
+      "ultrawide": "16 MP",
+      "telephoto": "8 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "6 / 8 / 12 GB",
     "battery": "4000 mAh",
@@ -528,30 +956,44 @@
     "capacity": "128 / 256 GB",
     "released": "May 16, 2019 (USA)",
     "phoneFeatures": [
-      "Full-screen display", "Pop-up front camera", "90 Hz refresh rate", "HDR video playback", "UFS 3.0 Storage",
-      "5G option available"
+      "Full-screen display",
+      "Pop-up front camera",
+      "90Hz refresh rate",
+      "HDR video playback",
+      "UFS 3.0 Storage",
+      "5G variant",
+      "Optical in-display fingerprint sensor"
     ],
-    "cameraFeatures":[
+    "cameraFeatures": [
       "3x optical zoom"
     ],
-    "cameraPros":[
-      "Has an ultrawide & telephoto camera (unlike the OnePlus 7)", "Pop-up camera automatically retracts when the phone falls"
+    "cameraPros": [
+      "Has an ultrawide & telephoto camera (unlike the OnePlus 7)",
+      "Pop-up camera automatically retracts when the phone falls"
     ],
-    "cameraCons":[
-      "Ultrawide camera isn't very wide and can't be used in video", "Shutter lag"
+    "cameraCons": [
+      "Ultrawide camera isn't very wide and can't be used in video",
+      "Shutter lag"
     ],
-    "pros":[
-      "All screen, no notches or holes", "\"Fastest smartphone so far\" ~ Like every reviewer",
+    "pros": [
+      "Full-screen, no notches or holes",
+      "\"Fastest smartphone so far\" ~ Like every reviewer",
       "First phone to have 90Hz 1440px OLED display (smooth, buttery display)",
-      "Comes with pre-installed screen protector", "Pop-up camera is very strong so unlikely to break off",
-      "Optical in-screen fingerprint sensor is 30% larger than last year"
+      "Comes with pre-installed screen protector",
+      "Pop-up camera is very strong so unlikely to break off",
+      "Optical in-display fingerprint sensor is 30% larger than the 6T"
     ],
-    "cons":[
-      "Heavy phone", "Pop-up will make phone lose durability", "Protruding rear camera",
-      "More edgy than current Galaxy phones, which creates more glare", "Pop-up camera is rated for 300,000 open and closes"
+    "cons": [
+      "Heavy phone",
+      "Pop-up will make phone lose durability",
+      "Protruding rear camera",
+      "More edgy than current Galaxy phones, which creates more glare",
+      "Pop-up camera is rated for 300,000 open and closes"
     ],
-    "approbations": ["\" One of my favorite smartphones from 2019\" ~ The Tech Chap, July 2019", 
-    "\" The best smartphone overall\" ~ Unbox Therapy, June 2019"]
+    "approbations": [
+      "\" One of my favorite smartphones from 2019\" ~ The Tech Chap, July 2019",
+      "\" The best smartphone overall\" ~ Unbox Therapy, June 2019"
+    ]
   },
   {
     "name": "OnePlus 6T",
@@ -559,44 +1001,101 @@
     "offName": "OnePlus 6T",
     "img": "/assets/imgs/oneplus/oneplus-6t.png",
     "brand": "OnePlus",
-    "os": "Android P",
+    "os": "Android Pie (9.0)",
     "year": 2018,
     "category": "6",
     "colors": [
-      {"color": "Midnight Black", "tag": "midnight-black"},
-      {"color": "Mirror Black", "tag": "mirror-black"},
-      {"color": "Thunder Purple (not available in the US)", "tag": "thunder-purple"}
+      {
+        "color": "Midnight Black",
+        "tag": "midnight-black"
+      },
+      {
+        "color": "Mirror Black",
+        "tag": "mirror-black"
+      },
+      {
+        "color": "Thunder Purple (not available in the US)",
+        "tag": "thunder-purple"
+      }
     ],
-    "prices":[
-      {"storage": "128 GB (6 GB of ram)", "price": "$550"},
-      {"storage": "128 GB (8 GB of ram)", "price": "$580"},
-      {"storage": "256 GB (6 GB of ram)", "price": "$580"},
-      {"storage": "256 GB (8 GB of ram)", "price": "$630"},
-      {"storage": "256 GB (10 GB of ram)", "price": "$700"}
+    "prices": [
+      {
+        "storage": "128 GB (6 GB of ram)",
+        "price": "$550"
+      },
+      {
+        "storage": "128 GB (8 GB of ram)",
+        "price": "$580"
+      },
+      {
+        "storage": "256 GB (6 GB of ram)",
+        "price": "$580"
+      },
+      {
+        "storage": "256 GB (8 GB of ram)",
+        "price": "$630"
+      },
+      {
+        "storage": "256 GB (10 GB of ram)",
+        "price": "$700"
+      }
     ],
-    "ui": "OxygenOS",
+    "ui": "OxygenOS 9",
     "display": "6.41 in; 1080x2340 px, Optic AMOLED",
-    "build": "Gorilla Glass 6, aluminum frame",
+    "build": "Gorilla Glass 6 (curved), aluminum frame",
     "size": "6.20 x 2.94 x 0.32 in",
-    "rearCameras": {"primary": "16 MP", "ultrawide": "N/A", "telephoto": "20 MP"},
+    "rearCameras": {
+      "primary": "16 MP",
+      "secondary": "20 MP"
+    },
     "frontCameras": "16 MP",
-    "ram": "6 / 8 / 12 GB",
+    "ram": "6 / 8 / 10 GB",
     "battery": "3700 mAh",
-    "charging": "Not recorded",
+    "charging": "20W Dash Charge",
     "capacity": "128 / 256 GB",
     "released": "Nov. 6, 2018 (USA)",
     "phoneFeatures": [
-      "Optical in-display fingerprint scanner", "Curved edges on the back for nice handling"
+      "Optical in-display fingerprint sensor",
+      "Water resistant",
+      "Face ID",
+      "Gestures or buttons option",
+      "Decently improved speakers"
     ],
-    "cameraFeatures":[
-      "None recorded"
+    "cameraFeatures": [
+      "4K video @ 60fps for up to 5 minutes",
+      "Continuous super slow motion 480fps video @ 720p that you can shoot for a minute",
+      "Secondary depth camera",
+      "Optical Image Stabilization",
+      "Same exact camera as OnePlus 6"
     ],
-    "pros":[
-      "Smoothest Android phone on the market", "The notch is teardrop so it's not as big as other phone's",
-      "You can get rid of the notch in settings", "Won MVP of 2018 award by Marques Brownlee"
+    "cameraPros": [
+      "Lowlight photos are improved from the 5T",
+      "“Wildly impressive dynamic range” ~ Mrwhosetheboss"
     ],
-    "cons":[
-      "No headphone jack", "Got rid of LED notifications that OnePlus 6 has"
+    "cameraCons": [
+      "Selfie cam overexposes photos a bit",
+      "A bit of shutter lag",
+      "Does not have 2x optical zoom (unlike competition)",
+      "Not as good at retaining focus on small or moving objects ~ Mrwhosetheboss",
+      "Has two rear cameras but neither are telephoto or ultrawide",
+      "Video has focus issues sometimes",
+      "Dynamic range seems to be worse than on the OnePlus 6 ~ Android Police"
+    ],
+    "pros": [
+      "“Battery life has been phenomenal” ~ Android Police, Nov. 2018",
+      "Can get rid of the notch in settings",
+      "Known for being the smoothest Android phone on the market at its time",
+      "The notch is teardrop so it's not as big as other phones'",
+      "Slightly smaller chin than the OnePlus 6"
+    ],
+    "cons": [
+      "No headphone jack (unlike OnePlus 6)",
+      "No LED notifications (unlike OnePlus 6)",
+      "No wireless charging"
+    ],
+    "approbations": [
+      "Won MVP (Smartphone of the Year) award by MKBHD, Dec. 2018",
+      "“Argueably the fastest smartphone” ~ MKBHD, Dec 2018"
     ]
   },
   {
@@ -605,46 +1104,104 @@
     "offName": "OnePlus 6",
     "img": "/assets/imgs/oneplus/oneplus-6.png",
     "brand": "OnePlus",
-    "os": "Android O",
+    "os": "Android Oreo (8.1)",
     "year": 2018,
     "category": "6",
     "colors": [
-      {"color": "Midnight Black", "tag": "midnight-black"},
-      {"color": "Mirror Black", "tag": "mirror-black"},
-      {"color": "Silk White", "tag": "silk-white"},
-      {"color": "Red", "tag": "oneplus-red"}
+      {
+        "color": "Midnight Black",
+        "tag": "midnight-black"
+      },
+      {
+        "color": "Mirror Black",
+        "tag": "mirror-black"
+      },
+      {
+        "color": "Silk White",
+        "tag": "silk-white"
+      },
+      {
+        "color": "Red",
+        "tag": "oneplus-red"
+      }
     ],
-    "prices":[
-      {"storage": "64 GB", "price": "$530"},
-      {"storage": "128 GB", "price": "$580"},
-      {"storage": "256 GB", "price": "$630"}
+    "prices": [
+      {
+        "storage": "64 GB (6 GB of ram)",
+        "price": "$530"
+      },
+      {
+        "storage": "128 GB (8 GB of ram)",
+        "price": "$580"
+      },
+      {
+        "storage": "256 GB (8 GB of ram)",
+        "price": "$630"
+      }
     ],
-    "ui": "OxygenOS",
+    "ui": "OxygenOS 5.1.2",
     "display": "6.28 in; 1080x2280 px, Optic AMOLED",
-    "build": "Corning Gorilla Glass 5, aluminum frame",
+    "build": "Gorilla Glass 5 (frosted, curved), aluminum frame",
     "size": "6.13 x 2.97 x 0.31 in",
-    "rearCameras": {"primary": "16 MP", "ultrawide": "", "telephoto": ""},
+    "rearCameras": {
+      "primary": "16 MP",
+      "secondary": "20 MP"
+    },
     "frontCameras": "16 MP",
     "ram": "6 / 8 GB",
     "battery": "3300 mAh",
-    "charging": "Not recorded",
+    "charging": "20W Dash Charge",
     "capacity": "64 / 128 / 256 GB",
     "released": "May 21, 2018 (USA)",
     "phoneFeatures": [
-      "Headphone jack", "LED notifications"
+      "Headphone jack",
+      "LED notifications",
+      "Water resistant",
+      "Face ID",
+      "Optical fingerprint sensor",
+      "Gestures or buttons option"
     ],
-    "cameraFeatures":[
-      "None recorded"
+    "cameraFeatures": [
+      "4K video @ 60fps for up to 5 minutes",
+      "Continuous super slow motion 480fps video @ 720p that you can shoot for a minute",
+      "Secondary depth camera",
+      "Optical Image Stabilization"
+    ],
+    "cameraPros": [
+      "Lowlight photos are improved from the OnePlus 5 models",
+      "“Wildly impressive dynamic range” ~ Mrwhosetheboss"
     ],
     "cameraCons": [
-      "Selfie cam overexposes photos a bit"
+      "Selfie cam overexposes photos a bit",
+      "A bit of shutter lag",
+      "Does not have 2x optical zoom (unlike competition)",
+      "Not as good at retaining focus on small or moving objects ~ Mrwhosetheboss",
+      "Has two rear cameras but neither are telephoto or ultrawide",
+      "Video has focus issues sometimes"
     ],
-    "pros":[
-      "You can get rid of the notch in settings", "Still has a headphone jack"
+    "pros": [
+      "Still has a headphone jack",
+      "Fast charging (Dash Charge) comes ITB",
+      "Can get rid of the notch in settings",
+      "Comes with case ITB",
+      "“Fantastic value for money” ~ Mrwhosetheboss, May 2018",
+      "Battery life is an A (pretty good) ~ Mrwhosetheboss, May 2018",
+      "“Both the display and camera perform better than they sound” ~ Mrwhosetheboss, May 2018",
+      "“No one else is offering this kind of power at this price” ~ MrMobile, May 2018"
     ],
-    "cons":[
-      "Doesn't have AOD anymore", "Back is very slippery", "Swipe gestures aren't very smooth ~ Marques Brownlee",
-      "No support for Sprint or Verizon"
+    "cons": [
+      "Notch",
+      "No IP certification",
+      "No wireless charging",
+      "Doesn't have AOD anymore",
+      "Back is very slippery, scratches easily, and is a fingerprint magnet",
+      "Speakers are “meh” ~ Mrwhosetheboss, May 2018",
+      "Swipe gestures aren't very smooth ~ MKBHD, May 2018",
+      "No carrier support for Sprint or Verizon",
+      "Price has gone up from the 5T (but is better value for money than the 5T ~ Mrwhosetheboss)"
+    ],
+    "approbations": [
+      "“The fastest Android experience to date” ~ Mrwhosetheboss, May 2018"
     ]
   }
 ]
