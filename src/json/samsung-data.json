@@ -54,7 +54,7 @@
     ],
     "ui": "One UI 6.1",
     "display": "6.8 in; 1440x3120 px, QHD+ Dynamic AMOLED 2X with LTPO 4.0",
-    "build": "Gorilla Glass Armor (curved) / Gorilla Glass Victus 2, titanium frame",
+    "build": "Gorilla Glass Armor / Gorilla Glass Victus 2 (curved), titanium frame",
     "size": "6.39 x 3.11 x 0.34 in",
     "rearCameras": {
       "primary": "200 MP",
@@ -206,9 +206,6 @@
       "Video is improved from predecessors",
       "The screen is so bright that you probably won't have a problem seeing what you’re shooting"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros": [
       "Higher maximum brightness than S23+",
       "Most of the Galaxy AI features are not gimmicks",
@@ -220,7 +217,7 @@
       "Some of the AI features (probably all the good ones) will only be free until the end of 2025"
     ],
     "approbations": [
-      "“This might just be the best Galaxy device to pick up this year” ~ Booredathwork.com, Jan. 2024"
+      "“This might just be the best Galaxy device to pick up this year” ~ Booredatwork.com, Jan. 2024"
     ]
   },
   {
@@ -305,14 +302,12 @@
       "Video is improved from predecessors",
       "The screen is so bright that you probably won't have a problem seeing what you’re shooting"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros": [
       "“Battery life is pretty great” ~ Pocketnow, Feb. 2024",
       "Higher maximum brightness than S23",
       "Most of the Galaxy AI features are not gimmicks",
-      "Guaranteed 7yrs of OS updates"
+      "Guaranteed 7yrs of OS updates",
+      "Thinner bezels than the S23"
     ],
     "cons": [
       "Some of the AI features (probably all the good ones) will only be free until the end of 2025"
@@ -399,7 +394,7 @@
       "Advanced Vision booster (tweak the color and contrast of display more effective)"
     ],
     "cameraFeatures": [
-      "Optical zoom up to 10x, Digital zoom up to 100x",
+      "Optical zoom up to 10x, 100x Space Zoom",
       "Additional 10 MP Periscope camera",
       "Expert RAW app (for editing videos)",
       "Laser auto focus",
@@ -608,6 +603,98 @@
     ]
   },
   {
+    "name": "Galaxy S23 FE",
+    "id": "galaxy-s23-fe",
+    "offName": "Samsung Galaxy S23 FE",
+    "img": "/assets/imgs/galaxys/galaxy-s23-fe.png",
+    "brand": "Samsung",
+    "os": "Android 14",
+    "year": 2023,
+    "category": "s23",
+    "colors": [
+      {
+        "color": "Mint",
+        "tag": "mint"
+      },
+      {
+        "color": "Graphite",
+        "tag": "samsung-graphite-2023"
+      },
+      {
+        "color": "Cream",
+        "tag": "samsung-cream-2023"
+      },
+      {
+        "color": "Purple",
+        "tag": "samsung-purple"
+      },
+      {
+        "color": "Indigo (exclusive offer)",
+        "tag": "samsung-indigo"
+      },
+      {
+        "color": "Tangerine (exclusive offer)",
+        "tag": "tangerine"
+      }
+    ],
+    "prices": [
+      {
+        "storage": "128 GB",
+        "price": "$600"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$660"
+      }
+    ],
+    "ui": "One UI 5.1",
+    "display": "6.4 in; 1080x2340 px, FHD+ Dynamic AMOLED 2X",
+    "build": "Gorilla Glass 5 (glossy), aluminum frame",
+    "size": "6.22 x 3.01 x 0.32 in",
+    "rearCameras": {
+      "primary": "50 MP",
+      "ultrawide": "12 MP",
+      "telephoto": "8 MP"
+    },
+    "frontCameras": "10 MP",
+    "ram": "8 GB",
+    "battery": "4500 mAh",
+    "charging": "25W fast but typically stays at 15W",
+    "capacity": "128 / 256 GB",
+    "released": "Oct. 26, 2023 (USA)",
+    "phoneFeatures": [
+      "Wi-Fi 6E",
+      "120Hz adaptive refresh rate",
+      "Face ID",
+      "Optical in-display fingerprint sensor"
+    ],
+    "cameraFeatures": [
+      "3x optical zoom, 30x digital zoom",
+      "OIS",
+      "4K video @ up to 60fps",
+      "8K video @ 24fps"
+    ],
+    "cameraCons": [
+      "Pictures aren’t at a flagship level (but it’s not a flagship phone)",
+      "Quality of telephoto camera isn’t that great",
+      "“Selfie cam is less than stellar” ~ Tech Spurt, Dec. 2023"
+    ],
+    "pros": [
+      "100% recycled aluminum frame",
+      "Maximum brightness is brighter than the S23",
+      "Guaranteed 4yrs of OS updates and 5yrs of security updates",
+      "It feels just as fast as the flagship S23 models ~ Mark Spurrell, Nov. 2023",
+      "When you actually use this phone for a little while, you realize what you thought was a negative is actually just fine” ~ Mark Spurrell, Nov. 2023"
+    ],
+    "cons": [
+      "No LTPO display",
+      "A bit of a large chin",
+      "Large bezels (even larger than the S21 FE)",
+      "Fingerprint sensor is not ultrasonic (unlike flagship S23 models)",
+      "“Samsung failed to make the S23 FE a phone that their tech fans would want” ~ Mark Spurrell, Nov. 2023"
+    ]
+  },
+  {
     "name": "Galaxy S22 Ultra",
     "id": "s22-ultra",
     "offName": "Samsung Galaxy S22 Ultra",
@@ -677,7 +764,7 @@
     "frontCameras": "40 MP",
     "ram": "8 / 12 GB",
     "battery": "5000 mAh",
-    "charging": "45W, 15W wireless, 4.5W PowerShare",
+    "charging": "45W, 15W wireless",
     "capacity": "128 / 256 / 512 / 1 TB",
     "released": "Feb. 25, 2022 (USA)",
     "phoneFeatures": [
@@ -696,6 +783,7 @@
       "8K video @ 24fps",
       "Laser auto focus",
       "3x and 10x optical zoom",
+      "100x Space Zoom",
       "Periscope camera",
       "12-bit HDR recording (64x more colors then previously)"
     ],
@@ -804,9 +892,6 @@
     "cameraPros": [
       "\"Surprisingly big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros": [
       "Guaranteed 4yrs of OS and security updates",
       "Faster charging than predecessor models"
@@ -901,9 +986,6 @@
     ],
     "cameraPros": [
       "\"Surprisingly big improvement considering how the hardware looks\" ~ Mrwhosetheboss"
-    ],
-    "cameraCons": [
-      "None recorded"
     ],
     "pros": [
       "Guaranteed 4yrs of OS and security updates"
@@ -1087,7 +1169,7 @@
       "Google Discover feed"
     ],
     "cameraFeatures": [
-      "30x space zoom, lock zoom, 3x optical zoom",
+      "30x Space Zoom, lock zoom, 3x optical zoom",
       "Smart-Iso",
       "Single take camera",
       "8K video @ 24fps, 4K video @ 60fps",
@@ -1176,7 +1258,7 @@
       "Google Discover feed"
     ],
     "cameraFeatures": [
-      "30x space zoom, lock zoom, 3x optical zoom",
+      "30x Space Zoom, lock zoom, 3x optical zoom",
       "Smart-Iso",
       "Single take camera",
       "8K video @ 24fps, 4K video @ 60fps",
@@ -1267,7 +1349,7 @@
     ],
     "cameraFeatures": [
       "3x optical zoom",
-      "30x space zoom"
+      "30x Space Zoom"
     ],
     "cameraPros": [
       "Photos don't look any worse than the flagship S21 variants"
@@ -1279,7 +1361,7 @@
       "Good deals if you preorder the phone (gift cards, credit, etc.)"
     ],
     "cons": [
-      "No expandable storage (unlike predecessors)",
+      "No SD card support (unlike predecessors)",
       "No charger ITB",
       "Fingerprint sensor is not ultrasonic (unlike flagship S21s)",
       "Price is higher than S20 FE"
@@ -1345,13 +1427,10 @@
       "10x optical zoom",
       "4K video @ 120fps",
       "8K video recording",
-      "100x space zoom",
+      "100x Space Zoom",
       "3x hybrid zoom",
       "Smart Selfie Angle (for wider selfies)",
       "Super steady OIS (supposedly best in class)"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "Many users reported their camera having a focusing issue -- Samsung can't seem to fix this"
@@ -1427,6 +1506,7 @@
       "Infinity-O display",
       "120Hz refresh rate",
       "UFS 3.0 storage",
+      "Expandable MicroSD card support",
       "Battery health - moniters battery to see when time for replacement"
     ],
     "cameraFeatures": [
@@ -1434,7 +1514,7 @@
       "Pro video mode",
       "4K video @ 120fps",
       "8K video recording",
-      "30x space zoom",
+      "30x Space Zoom",
       "3x hybrid & optical zoom",
       "Smart Selfie Angle (wider selfies)",
       "Super steady OIS (supposedly best in class)"
@@ -1510,6 +1590,7 @@
       "Infinity-O display",
       "120Hz refresh rate",
       "UFS 3.0 storage",
+      "Expandable MicroSD card support",
       "Battery health - moniters battery to see when time for replacement"
     ],
     "cameraFeatures": [
@@ -1517,7 +1598,7 @@
       "Pro video mode",
       "4K video @ 120fps",
       "8K video recording",
-      "30x space zoom",
+      "30x Space Zoom",
       "3x hybrid & optical zoom",
       "Smart Selfie Angle (wider selfies)",
       "Super steady OIS (supposedly best in class)"
@@ -1583,8 +1664,8 @@
       }
     ],
     "ui": "One UI 2.5",
-    "display": "Not recorded",
-    "build": "Gorilla Glass 3 /  Plastic",
+    "display": "6.5 in; 1080x2400 px, FHD+ Super AMOLED",
+    "build": "Gorilla Glass 3 / Plastic",
     "size": "6.29 x 2.93 x 0.33 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1601,11 +1682,12 @@
       "Infinity-O display",
       "120Hz refresh rate",
       "UFS 3.1 storage",
-      "Dual sim support"
+      "Dual sim support",
+      "Expandable MicroSD card support"
     ],
     "cameraFeatures": [
       "3x optical zoom",
-      "30x space zoom",
+      "30x Space Zoom",
       "4K video @ 60fps",
       "Pro video mode"
     ],
@@ -1683,12 +1765,13 @@
     "frontCameras": "10 MP, 8 MP",
     "ram": "8 / 12 GB",
     "battery": "4100 mAh",
-    "charging": "Not recorded",
+    "charging": "25W fast",
     "capacity": "128 / 512 / 1 TB + MicroSD up to 512 GB",
     "released": "Mar. 8, 2019 (USA)",
     "phoneFeatures": [
       "Headphone jack",
-      "Dual sim support"
+      "Dual sim support",
+      "Expandable MicroSD card support"
     ],
     "cameraFeatures": [
       "RGB Depth front camera",
@@ -1769,14 +1852,14 @@
     "frontCameras": "10 MP",
     "ram": "8 GB",
     "battery": "3400 mAh",
-    "charging": "15W, 4.5W PowerShare",
+    "charging": "15W",
     "capacity": "128 / 256 / 512 GB + MicroSD up to 512 GB",
     "released": "Mar. 8, 2019 (USA)",
     "phoneFeatures": [
       "Headphone jack",
       "Heartrate sensor",
       "Ultrasonic in-display fingerprint ID",
-      "Wireless PowerShare (reverse wireless charging)",
+      "4.5W Wireless PowerShare (reverse wireless charging)",
       "Dual sim support",
       "Wi-Fi 6 (20% faster)"
     ],
@@ -1858,19 +1941,17 @@
     "frontCameras": "10 MP",
     "ram": "6 / 8 GB",
     "battery": "3100 mAh",
-    "charging": "Not recorded",
+    "charging": "15W",
     "capacity": "128 / 256 GB + MicroSD",
     "released": "Mar. 8, 2019 (USA)",
     "phoneFeatures": [
       "Headphone jack",
       "Dual sim support",
+      "Expandable MicroSD card support",
       "Wireless PowerShare (reverse wireless charging)"
     ],
     "cameraFeatures": [
       "Night mode"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "No telephoto camera (unlike the flagship S10s)"
@@ -1960,12 +2041,13 @@
     "frontCameras": "7 MP",
     "ram": "6 GB",
     "battery": "3500 mAh",
-    "charging": "Not recorded",
+    "charging": "15W",
     "capacity": "64 / 128 / 256 GB + MicroSD up to 400 GB",
     "released": "Mar. 16, 2018 (USA)",
     "phoneFeatures": [
       "Headphone jack",
       "LED notifications",
+      "Expandable MicroSD card support",
       "Dual camera (unlike S9 single camera)",
       "Digital zoom up to 10x vs S9 up to 8x"
     ],
@@ -2036,14 +2118,15 @@
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "3000 mAh",
-    "charging": "Not recorded",
+    "charging": "15W",
     "capacity": "64 / 128 / 256 GB + MicroSD up to 400 GB",
     "released": "Mar. 16, 2018 (USA)",
     "phoneFeatures": [
       "Iris ID",
       "Headphone jack",
       "Fingerprint sensor",
-      "LED & edge lighting"
+      "LED & edge lighting",
+      "Expandable MicroSD card support"
     ],
     "cameraFeatures": [
       "[Coming soon]"

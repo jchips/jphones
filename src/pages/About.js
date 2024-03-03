@@ -16,6 +16,9 @@ class About extends Component {
             <section>
               <h4>Hi! :)</h4>
               <p>I'm Jaye. I am a phone geek, so I decided to make a site for phone shoppers to find the best phone for them.
+                I combine official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and
+                Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best
+                information in one place.
                 I'm an entry-level full-stack software developer job-seeking and can be contacted at <a href="mailto:jrosecow@gmail.com">Jrosecow@gmail.com</a>.
                 Check out my website at <a href='https://jrosecow.com' blank="_target">Jrosecow.com</a>.
               </p>

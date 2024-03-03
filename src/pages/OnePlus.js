@@ -9,7 +9,7 @@ import BrandCarousel from '../components/BrandCarousel';
 
 class OnePlus extends Component {
   render() {
-    let models = ['11', '10', '9', '8', '7', '6'];
+    let models = ['12', '11', '10', '9', '8', '7', '6'];
     return (
       <div className='oneplus'>
         <h2>OnePlus Phones</h2>

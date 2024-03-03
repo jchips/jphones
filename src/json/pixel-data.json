@@ -814,9 +814,6 @@
       "Refocus photos option",
       "Option to add in light that was never there"
     ],
-    "cameraPros": [
-      "None recorded"
-    ],
     "cameraCons": [
       "Same sensor as Pixels 4, 3 & 2 (4yr old hardware)"
     ],
@@ -854,7 +851,7 @@
     ],
     "ui": "Stock Android 11",
     "display": "6.34 in; 1080x2400 px, FHD+ OLED",
-    "build": "Gorilla Glass 6 / Plastic (Matte), aluminum",
+    "build": "Gorilla Glass 6 / Plastic (matte), aluminum",
     "size": "6.1 x 2.9 x 0.3 in",
     "rearCameras": {
       "primary": "12.2 MP",
@@ -875,9 +872,6 @@
     "cameraFeatures": [
       "4K video @ 60fps",
       "No telephoto camera"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "In lowlight, front camera gets noisy ~ Engadget, Aug 2021",
@@ -935,7 +929,7 @@
     ],
     "ui": "Stock Android 10",
     "display": "6.3 in; 1440x3040 px, QHD+ OLED",
-    "build": "Gorilla Glass 5 (matte), matte black frame",
+    "build": "Gorilla Glass 5 (matte), black frame (matte)",
     "size": "6.31 x 2.96 x 0.32 in",
     "rearCameras": {
       "primary": "12.2 MP",
@@ -982,7 +976,7 @@
       "Lots of bezels, big forehead",
       "Needless square camera bump",
       "No longer has unlimited photo storage at original quality",
-      "No fingerprint ID (unlike competition)",
+      "No fingerprint sensor (unlike competition)",
       "No longer has dual front-firing speakers, now a single front firing",
       "New motion sensing feature doesn't work very well-- not very consistent",
       "Has fast video rendering, but it uses all the phones ram",
@@ -1027,7 +1021,7 @@
     ],
     "ui": "Stock Android 10",
     "display": "5.7 in; 1080x2280 px, FHD+ OLED",
-    "build": "Gorilla Glass 5 (matte), matte black aluminum frame",
+    "build": "Gorilla Glass 5 (matte), black aluminum frame (matte)",
     "size": "5.79 x 2.71 x 0.32 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1228,7 +1222,7 @@
     ],
     "pros": [
       "USB Type-C earphones ITB",
-      "Dongle is ITB (3.5mm to USB type-C)",
+      "Dongle is ITB (3.5mm to USB Type-C)",
       "The notch can be disabled in developer settings",
       "Has Digital Wellbeing (unlike predecessors)",
       "Pixel 3s are the only flagships with front firing speakers"
@@ -1301,7 +1295,7 @@
     "pros": [
       "No notch (unlike Pixel 3XL)",
       "USB Type-C earbuds ITB",
-      "Dongle is ITB (3.5mm to USB type-C)",
+      "Dongle is ITB (3.5mm to USB Type-C)",
       "Pixel 3s are only flagships with front firing speakers",
       "Has Digital Wellbeing (unlike predecessors)"
     ],

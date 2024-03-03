@@ -42,7 +42,7 @@
     ],
     "ui": "IOS 17",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, titanium frame",
+    "build": "Ceramic Shield / Glass (matte), titanium frame",
     "size": "6.29 x 3.02 x 0.32 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -151,7 +151,7 @@
     ],
     "ui": "IOS 17",
     "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, titanium frame",
+    "build": "Ceramic Shield / Glass (matte), titanium frame",
     "size": "5.77 x 2.78 x 0.32 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -251,7 +251,7 @@
     ],
     "ui": "IOS 17",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, aluminum frame",
+    "build": "Ceramic Shield / Glass (matte), aluminum frame",
     "size": "6.33 x 3.06 x 0.31 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -354,7 +354,7 @@
     ],
     "ui": "IOS 17",
     "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, aluminum frame",
+    "build": "Ceramic Shield / Glass (matte), aluminum frame",
     "size": "5.81 x 2.82 x 0.31 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -457,7 +457,7 @@
     ],
     "ui": "IOS 16",
     "display": "6.7 in; 1290x2796 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "6.33 x 3.05 x 0.31 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -547,8 +547,8 @@
       }
     ],
     "ui": "IOS 16",
-    "display": "6.1 in; 1179 x 2556 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "display": "6.1 in; 1179x2556 px, Super Retina XDR OLED",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "5.81 x 2.81 x 0.31 in",
     "rearCameras": {
       "primary": "48 MP",
@@ -643,8 +643,8 @@
       }
     ],
     "ui": "IOS 16",
-    "display": "6.7 in; 1284 x 2778 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame",
+    "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
+    "build": "Ceramic Shield / Glass, aluminum frame",
     "size": "6.33 x 3.07 x 0.31 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -741,8 +741,8 @@
       }
     ],
     "ui": "IOS 16",
-    "display": "6.1 in; 1170 x 2532 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, aluminum frame",
+    "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
+    "build": "Ceramic Shield / Glass, aluminum frame",
     "size": "5.78 x 2.82 x 0.31 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -824,7 +824,7 @@
       }
     ],
     "ui": "IOS 15",
-    "display": "4.7 in; 750 x 1334 px, Retina HD",
+    "display": "4.7 in; 750x1334 px, Retina HD",
     "build": "Glass, aluminum frame",
     "size": "5.45 x 2.65 x 0.29 in",
     "rearCameras": {
@@ -924,7 +924,7 @@
     ],
     "ui": "IOS 15",
     "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "6.33 x 3.07 x 0.30 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -952,9 +952,6 @@
       "Cinematic video mode",
       "Photographic Styles",
       "4K video @ 60fps on all cameras"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "Cinematic Mode can only film at 1080p"
@@ -1020,7 +1017,7 @@
     ],
     "ui": "IOS 15",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1048,9 +1045,6 @@
       "Cinematic video mode",
       "Photographic Styles",
       "4K video @ 60fps on all cameras"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "Cinematic Mode can only film at 1080p"
@@ -1116,7 +1110,7 @@
     ],
     "ui": "IOS 15",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
+    "build": "Ceramic Shield / Glass (glossy), aluminum frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1141,9 +1135,6 @@
       "Cinematic video mode",
       "Photographic Styles",
       "4K video @ 60fps on all cameras"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "Cinematic Mode can only film at 1080p"
@@ -1210,7 +1201,7 @@
     ],
     "ui": "IOS 15",
     "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
-    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
+    "build": "Ceramic Shield / Glass (glossy), aluminum frame",
     "size": "5.18 x 2.53 x 0.30 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1235,9 +1226,6 @@
       "Cinematic video mode",
       "Photographic Styles",
       "4K video @ 60fps on all cameras"
-    ],
-    "cameraPros": [
-      "Apple is known for having very good dynamic range"
     ],
     "cameraCons": [
       "Cinematic Mode can only film at 1080p"
@@ -1295,7 +1283,7 @@
     ],
     "ui": "IOS 14.1",
     "display": "6.7 in; 1284x2778 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "6.33 x 3.07 x 0.29 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1325,7 +1313,7 @@
     "cameraPros": [
       "2.5x higher optical zoom than 12 & 12 Pro",
       "More digital capability than the 12 & 12 Pro",
-      "Primary camera has a 47% larger sensor than past models"
+      "Primary camera has a 47% larger sensor than predecessors"
     ],
     "cameraCons": [
       "Camera is not noticeably better than the 12 or 12 Pro",
@@ -1391,7 +1379,7 @@
     ],
     "ui": "IOS 14.1",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass (matte) / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass (matte), stainless steel frame",
     "size": "5.78 x 2.82 x 0.30 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1416,9 +1404,6 @@
       "Smart HDR 3 (makes photos a little sharper)",
       "First cameras to support 4K 10-bit HDR with Dolby Vision",
       "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
-    ],
-    "cameraPros": [
-      "None recorded"
     ],
     "cameraCons": [
       "2.5x less optical zoom than the 12 Pro Max",
@@ -1493,11 +1478,11 @@
     ],
     "ui": "IOS 14.1",
     "display": "6.1 in; 1170x2532 px, Super Retina XDR OLED",
-    "build": "Glass (glossy) / Ceramic Shield, aluminum frame",
+    "build": "Ceramic Shield / Glass (glossy), aluminum frame",
     "size": "5.78 x 2.82 x 0.29 in",
     "rearCameras": {
-      "Primary": "12 MP",
-      "Ultrawide": "12 MP"
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
     },
     "frontCameras": "8 MP",
     "ram": "4 GB",
@@ -1518,8 +1503,7 @@
       "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
     "cameraPros": [
-      "Night mode on all camera unlike predecessors",
-      "Apple is known for having very good dynamic range"
+      "Night mode on all camera unlike predecessors"
     ],
     "cameraCons": [
       "No telephoto camera",
@@ -1593,11 +1577,11 @@
     ],
     "ui": "IOS 14.1",
     "display": "5.4 in; 1080x2340 px, Super Retina XDR OLED",
-    "build": "Glass / Ceramic Shield, stainless steel frame",
+    "build": "Ceramic Shield / Glass, stainless steel frame",
     "size": "5.18 x 2.53 x 0.29 in",
     "rearCameras": {
-      "Primary": "12 MP",
-      "Ultrawide": "12 MP"
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
     },
     "frontCameras": "12 MP",
     "ram": "4 GB",
@@ -1620,7 +1604,7 @@
       "LiDAR sensor (for faster autofocus, better portrait mode photos in lowlight, and cool photo and video effects)"
     ],
     "cameraPros": [
-      "Night mode on ultra-wide cameras (unliked past iPhones)"
+      "Night mode on ultra-wide cameras (unlike predecessors)"
     ],
     "cameraCons": [
       "No telephoto camera",
@@ -1695,7 +1679,7 @@
       "IP67 water/dust resistant",
       "Dolby Atmos speakers",
       "Centered Apple logo",
-      "Fingerprint ID",
+      "Fingerprint sensor",
       "Headphone jack",
       "latest Apple chipset (A13)",
       "Physical home button (w/ haptic touch"
@@ -1715,7 +1699,7 @@
     ],
     "cons": [
       "Big bezels",
-      "No face ID",
+      "No Face ID",
       "No Animoji/Memoji built-in",
       "Back is a fingerprint magnet",
       "Lower water/dust resistant IP rating than other current iPhones (IP67 vs IP68)"
@@ -1764,7 +1748,7 @@
     ],
     "ui": "IOS 13.1",
     "display": "6.5 in; 1242x2688 px, Super Retina XDR OLED",
-    "build": "Glass / Frosted, stainless steel frame",
+    "build": "Glass (frosted), stainless steel frame",
     "size": "6.22 x 3.06 x 0.32 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1801,7 +1785,7 @@
       "Best battery life on the market in 2019",
       "5 more hrs of battery than XS Max",
       "18W fast charger comes ITB (finally)",
-      "Lightning to USB Type C cable ITB",
+      "Lightning to USB Type-C cable ITB",
       "Attracts less fingerprints than other phones",
       "iPhone 11s are most water resistant phones on the market in 2019",
       "\"Toughest glass on any smartphone\" ~ Apple (but has no certification to prove it)",
@@ -1812,7 +1796,7 @@
     "cons": [
       "Large notch",
       "No 3D Touch",
-      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
+      "Got rid of the dongle in-the-box (3.5mm to USB Type-C) so now you have to pay an extra $10"
     ]
   },
   {
@@ -1858,7 +1842,7 @@
     ],
     "ui": "IOS 13.1",
     "display": "5.8 in; 1125x2436 px, Super Retina XDR OLED",
-    "build": "Glass / Frosted, stainless steel frame",
+    "build": "Glass (frosted), stainless steel frame",
     "size": "5.67 x 2.81 x 0.32 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -1893,15 +1877,15 @@
       "Very durable glass",
       "4 more hrs of battery than XS",
       "Fast charging comes ITB (finally)",
-      "Comes with lightning to USB Type C cable ITB",
+      "Comes with lightning to USB Type-C cable ITB",
       "iPhone 11s are most water resistant phones on the market in 2019",
       "Attracts less fingerprints on back",
-      "Faster Face ID than previous models"
+      "Faster Face ID than predecessors"
     ],
     "cons": [
       "Large notch",
       "No 3D Touch",
-      "Got rid of the dongle ITB (3.5mm to USB type C) so now you have to pay an extra $10"
+      "Got rid of the dongle in-the-box (3.5mm to USB Type-C) so now you have to pay an extra $10"
     ],
     "approbations": [
       "Rated best display on a smartphone ~ DisplayMate (but is it?...)"
@@ -1951,11 +1935,11 @@
     ],
     "ui": "IOS 13.1",
     "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD",
-    "build": "Gorilla Glass, aluminum frame",
+    "build": "Gorilla Glass, aluminum frame (matte)",
     "size": "5.94 x 2.98 x 0.33 in",
     "rearCameras": {
-      "Primary": "12 MP",
-      "Ultrawide": "12 MP"
+      "primary": "12 MP",
+      "ultrawide": "12 MP"
     },
     "frontCameras": "12 MP",
     "ram": "4 GB",
@@ -1966,7 +1950,8 @@
     "phoneFeatures": [
       "HDR10",
       "Improved IP68",
-      "Centered Apple logo"
+      "Centered Apple logo",
+      "Faster Face ID than predecessors"
     ],
     "cameraFeatures": [
       "Extended dynamic range",
@@ -1988,9 +1973,10 @@
     ],
     "cons": [
       "No 3D touch",
+      "Large bezels",
       "Don't have frosted back that other iPhone 11s have",
       "Fast charging not included ITB unlike other iPhone 11s",
-      "Got rid of the dongle ITB (3.5mm to USB type-C) so now you have to pay an extra $10"
+      "Got rid of the dongle ITB (3.5mm to USB Type-C) so now you have to pay an extra $10"
     ],
     "approbations": [
       "Rated best display on a smartphone ~ DisplayMate (but is it?...)"
@@ -2045,7 +2031,7 @@
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "2658 mAh",
-    "charging": "Not recorded",
+    "charging": "5W, 18W fast",
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 21, 2018 (USA)",
     "phoneFeatures": [
@@ -2062,7 +2048,7 @@
     ],
     "cons": [
       "Slowest fast charging time out of all 2018 flagships",
-      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10"
+      "Got rid of the dongle in-the-box (3.5mm to USB Type-C) so now you have to pay an extra $10"
     ],
     "approbations": [
       "Rated best display on a phone in 2018 by DisplayMate"
@@ -2116,7 +2102,7 @@
     "frontCameras": "7 MP",
     "ram": "4 GB",
     "battery": "2658 mAh",
-    "charging": "5W",
+    "charging": "5W, 18W fast",
     "capacity": "64 / 256 / 512 GB",
     "released": "Sep. 21, 2018 (USA)",
     "phoneFeatures": [
@@ -2140,7 +2126,7 @@
     "cons": [
       "Notch",
       "Slowest fast charging time out of all 2018 flagships",
-      "Got rid of the dongle in-the-box (3.5mm to USB type C) so now you have to pay an extra $10",
+      "Got rid of the dongle in-the-box (3.5mm to USB type-C) so now you have to pay an extra $10",
       "Fast charging doesn't come ITB, you have to pay an extra $50",
       "Camera is very bad in low light"
     ],
@@ -2203,13 +2189,12 @@
     "build": "Glass, aluminum frame",
     "size": "5.94 x 2.98 x 0.33 in",
     "rearCameras": {
-      "primary": "12 MP",
-      "ultrawide": "N/A"
+      "primary": "12 MP"
     },
     "frontCameras": "7 MP",
     "ram": "3 GB",
     "battery": "2942 mAh",
-    "charging": "Not recorded",
+    "charging": "5W, 18W fast",
     "capacity": "64 / 128 / 256 GB",
     "released": "Oct. 26, 2018 (USA)",
     "phoneFeatures": [

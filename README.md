@@ -1,6 +1,6 @@
-# Jphones
+# jPhones
 
-Jphones phone specs. Site to compare phones and pick the best one for purchase.
+jPhones phone specs. I am a phone geek, so I decided to make a site for phone shoppers to compare and find the best phone for them. I combine official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best information in one place.
 
 Live site: <https://jphones.netlify.app/>
 
@@ -10,7 +10,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-- 2-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.
+- 03-02-2024 (2.1.1) - Added OnePlus 12R, filled in some missing data
+- 02-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.
 - 12-23-2023 (2.0.3) - Disabled the touch screen swiping on carousels' first slide to reduce the carousels going crazy on mobile screens while scrolling. Added company links at the bottom of main page. Minor improvements.
 - 12-22-2023 (2.0.2) - Added OnePlus Open.
 - 12-20-2023 (2.0.1) - Added iPhone 15s and Pixel 8s.

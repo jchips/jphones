@@ -48,6 +48,10 @@
     "expl": "Optical Image Stabilization - Stabilizes your phone's camera while taking video so video is not as shaky"
   },
   {
+    "abbr": "OS",
+    "expl": "Operating system"
+  },
+  {
     "abbr": "px",
     "expl": "Pixels (unit)"
   },

@@ -45,12 +45,13 @@
     "ram": "12 GB",
     "battery": "4500 mAh",
     "charging": "25W fast, 45W super fast",
-    "capacity": "128 / 256 / 512 GB + up to 1TB of micro SD storage",
+    "capacity": "128 / 256 / 512 GB + MicroSD up to 1 TB",
     "released": "Aug. 21, 2020 (USA)",
     "phoneFeatures": [
       "Built-in S Pen w/ air actions",
       "Infinity-O display",
       "Same stylus tricks as the Tab S6",
+      "Expandable MicroSD card support",
       "80% latency improvement for the S Pen over the Note 10 (you can feel it)"
     ],
     "cameraFeatures": [
@@ -213,7 +214,7 @@
     ],
     "ui": "One UI 1.5",
     "display": "6.8 in; 1440x3040 px, curved Dynamic QHD+ AMOLED",
-    "build": "Gorilla Glass 6, Metal frame",
+    "build": "Gorilla Glass 6, metal frame",
     "size": "6.39 x 3.04 x 0.31 in",
     "rearCameras": {
       "primary": "12 MP",
@@ -235,20 +236,20 @@
       "Wireless PowerShare (15W)",
       "Ultrasonic in-display fingerprint sensor",
       "45W super fast charging",
+      "Expandable MicroSD card support",
       "Auto filters out high energy blue light"
     ],
     "cameraFeatures": [
+      "2x optical zoom",
       "Zoom in mic",
       "Live focus video",
-      "960fps slow-mo"
+      "960fps slow-mo",
+      "3D ToF camera"
     ],
     "cameraPros": [
       "Improved Super Steady video",
       "Smaller camera cut-out than S10 models",
       "You can record video w/ ultra-wide camera unlike S10 models"
-    ],
-    "cameraCons": [
-      "None recorded"
     ],
     "pros": [
       "No Bixby button",
@@ -257,9 +258,9 @@
       "AKG earbuds come ITB"
     ],
     "cons": [
-      "No iris ID (unlike past Note models)",
-      "No headphone jack (unlike past Note models)",
-      "No heart rate sensor (unlike past Note models)",
+      "No iris ID (unlike predecessors)",
+      "No headphone jack (unlike predecessors)",
+      "No heart rate sensor (unlike predecessors)",
       "45W super fast charger not included ITB",
       "No dongle included ITB",
       "Back is a fingerprint magnet",
@@ -345,7 +346,7 @@
       "You can record video w/ ultra-wide camera unlike S10 models"
     ],
     "cameraCons": [
-      "None recorded"
+      "No 3D ToF camera (unlike Note 10+)"
     ],
     "pros": [
       "No Bixby button",
@@ -357,16 +358,16 @@
     ],
     "cons": [
       "Center punch-out (Infinity-O)",
-      "No headphone jack (unlike past Note models)",
-      "No heart rate sensor (unlike past Note models)",
+      "No headphone jack (unlike predecessors)",
+      "No heart rate sensor (unlike predecessors)",
       "Back is a fingerprint magnet",
       "No dongle included ITB",
       "45W super fast charger not included ITB",
       "Power button is also Bixby button",
       "Not as comfy in hand as Note 10",
       "Fingerprint sensor is higher than usual",
-      "Edges are curved more than past Note models",
-      "No SD card or 3D ToF camera unlike Note 10+"
+      "Edges are curved more than predecessors",
+      "No SD card support (unlike Note 10+)"
     ]
   },
   {
@@ -416,8 +417,9 @@
     "phoneFeatures": [
       "Built-in S Pen",
       "Headphone jack",
-      "In-display optical fingerprint sensor",
-      "45W super fast charging"
+      "Optical in-display fingerprint sensor",
+      "45W super fast charging",
+      "Expandable MicroSD card support"
     ],
     "cameraFeatures": [
       "Night mode"
@@ -501,7 +503,7 @@
     "frontCameras": "8 MP",
     "ram": "6 / 8 GB",
     "battery": "4000 mAh",
-    "charging": "Not recorded",
+    "charging": "15W",
     "capacity": "128 / 512 GB + MicroSD",
     "released": "Aug. 24, 2018 (USA)",
     "phoneFeatures": [
@@ -511,7 +513,8 @@
       "LED notifications",
       "Heart rate monitor",
       "Fortnite on Android",
-      "Scheduled messaging"
+      "Scheduled messaging",
+      "Expandable MicroSD card support"
     ],
     "cameraFeatures": [
       "2x optical zoom"
