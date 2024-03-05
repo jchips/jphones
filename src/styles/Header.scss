@@ -3,11 +3,11 @@
 $scrollAnimation: calc(var(--scroll) * -1s);
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.gadgets360cdn.com/large/Best_phones_2018_cover_ndtv_1545054680573.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjE5MDU2Mi13aWtpbWVkaWEtaW1hZ2Uta3A2YTU1ZzkuanBn.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-position: center;
+  background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -17,20 +17,21 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
-  color: white;
+  color: $theme-blue;
   margin: 0;
 }
 
-// scroll animation below source: https://css-tricks.com/books/greatest-css-tricks/scroll-animation/ 
+// scroll animation below source: https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
 #hero-1 {
   left: 50%;
   top: 40%;
 
   & h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
     text-transform: uppercase;
     color: $yellow;
-    animation: reduce 0.2s ease-in;
+    // color: $theme-blue;
+    animation: reduce 0.1s ease-in;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;
     animation-fill-mode: forwards;
@@ -64,6 +65,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   0% {
     transform: translateX(-50%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -74,6 +76,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(0.5);
   }

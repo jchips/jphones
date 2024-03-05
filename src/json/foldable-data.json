@@ -9,6 +9,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "open",
+    "tier": "flagship",
     "colors": [
       {"color": "Emerald Dusk", "tag": "emerald-dusk"},
       {"color": "Voyager Black", "tag": "voyager-black"}
@@ -100,6 +101,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "z fold",
+    "tier": "flagship",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Gray", "tag": "samsung-gray"},
@@ -147,9 +149,6 @@
     "cameraPros":[
       "Can take selfies photos with rear camera"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros":[
       "Turns into tablet",
       "Very thin bezels",
@@ -183,6 +182,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "fold",
+    "tier": "flagship",
     "colors": [
       {"color": "Obsidian", "tag": "obsidian"},
       {"color": "Porcelain", "tag": "porcelain"}
@@ -224,9 +224,6 @@
     "cameraPros":[
       "Can take selfies photos with rear camera"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros":[
       "\"Can be folded at least 200,000 times\"",
       "Comes with pre-installed screen protector"
@@ -250,6 +247,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "z fold",
+    "tier": "flagship",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Graygreen", "tag": "graygreen"},
@@ -296,9 +294,6 @@
     "cameraPros": [
       "Can take selfies photos with rear camera"
     ],
-    "cameraCons": [
-      "None recorded"
-    ],
     "pros":[
       "S Pen support on tablet screen",
       "Turns into tablet",
@@ -331,6 +326,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "z fold",
+    "tier": "flagship",
     "colors": [
       {"color": "Phantom Black", "tag": "phantom-black"},
       {"color": "Phantom Silver", "tag": "phantom-silver"},

@@ -3,7 +3,8 @@ import { Container } from 'react-bootstrap';
 import BrandCarousel from '../components/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
 import brandData from '../json/brand-data.json';
-import samsungData from '../json/samsung-data.json';
+import samsungSData from '../json/samsung-s-data.json';
+import samsungAData from '../json/samsung-a-data.json';
 import noteData from '../json/note-data.json';
 import foldableData from '../json/foldable-data.json';
 import '../styles/Brands.scss';
@@ -18,8 +19,9 @@ class Samsung extends Component {
           <BrandCarousel brand={brandData.galaxy} />
         </Container>
         {sPhones.map((version, index) =>
-          <ModelAccordion data={samsungData} category={version} key={index} />
+          <ModelAccordion data={samsungSData} category={version} key={index} />
         )}
+        <ModelAccordion data={samsungAData} category='a' />
         <ModelAccordion data={foldableData} category='z fold' />
         <ModelAccordion data={noteData} category='note' />
       </div>

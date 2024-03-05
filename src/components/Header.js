@@ -3,12 +3,12 @@ import '../styles/Header.scss';
 
 class Header extends React.Component {
   render() {
-    return(
+    return (
       <>
         <header>
-          <div className="hero-image" title="photo creds: https://i.gadgets360cdn.com/large/Best_phones_2018_cover_ndtv_1545054680573.jpg">
+          <div className="hero-image">
             <div id="hero-1" className="hero-text">
-              <h1>JPhones.com</h1>
+              <h1>jPhones</h1>
             </div>
             <div id="hero-2" className="hero-text">
               <h4>Helping you choose your next smartphone!</h4>
@@ -19,7 +19,7 @@ class Header extends React.Component {
     )
   }
   componentDidMount() {
-    // Animated the header text on page source. 
+    // Animated the header text on page source.
     // Resource: https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
     window.addEventListener('scroll', () => {
       document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));

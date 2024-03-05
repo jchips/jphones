@@ -95,9 +95,12 @@ class WidePhoneCarousel extends Component {
                 {phone.rearCameras.periscope && (
                   <p><span>Periscope: </span> {phone.rearCameras.periscope}</p>
                 )}
+                {phone.rearCameras.macro && (
+                  <p><span>Macro: </span> {phone.rearCameras.macro}</p>
+                )}
                 {phone.rearCameras.secondary && (
-                <p><span>Secondary: </span> {phone.rearCameras.secondary}</p>
-              )}
+                  <p><span>Secondary: </span> {phone.rearCameras.secondary}</p>
+                )}
               </div>
               <div id="front-cameras" className="cameras">
                 <h4>Front Camera(s):</h4>

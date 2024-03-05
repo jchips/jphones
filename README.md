@@ -10,7 +10,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-- 03-02-2024 (2.1.1) - Added OnePlus 12R, filled in some missing data
+- 03-04-2024 (2.2.1) - Added budget phones category on main page.
+- 03-02-2024 (2.1.1) - Added OnePlus 12R, filled in some missing data.
 - 02-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.
 - 12-23-2023 (2.0.3) - Disabled the touch screen swiping on carousels' first slide to reduce the carousels going crazy on mobile screens while scrolling. Added company links at the bottom of main page. Minor improvements.
 - 12-22-2023 (2.0.2) - Added OnePlus Open.
@@ -37,6 +38,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Search bar CSS from Ahmad Emran](https://codepen.io/ahmadbassamemran/pen/rNjMXqg)
 
 - [HTML React Parser](https://www.npmjs.com/package/html-react-parser)
+
+- [Hero image credits (Wikipedia Commons)](https://www.rawpixel.com/image/3337332/free-photo-image-cc0-cell-phone-creative-commons)
 
 ## Available Scripts
 
