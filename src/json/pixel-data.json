@@ -8,6 +8,7 @@
     "os": "Android 14",
     "year": 2023,
     "category": "8",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Bay",
@@ -127,6 +128,7 @@
     "os": "Android 14",
     "year": 2023,
     "category": "8",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Hazel",
@@ -228,6 +230,7 @@
     "os": "Android 13",
     "year": 2022,
     "category": "7",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Obsidian",
@@ -323,6 +326,7 @@
     "os": "Android 13",
     "year": 2022,
     "category": "7",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Lemongrass",
@@ -416,6 +420,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "7",
+    "tier": "budget",
     "colors": [
       {
         "color": "Charcoal",
@@ -499,6 +504,7 @@
     "os": "Android 12",
     "year": 2021,
     "category": "6",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Sorta Sunny",
@@ -565,7 +571,6 @@
       "Has an ultrawide camera (unlike predecessors)"
     ],
     "cameraCons": [
-      "No macro camera",
       "Ultrawide isn't very wide",
       "Camera isn't very consistent",
       "Slight color shift when going from ultrawide to other lenses"
@@ -601,6 +606,7 @@
     "os": "Android 12",
     "year": 2021,
     "category": "6",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Sorta Seaform",
@@ -659,7 +665,7 @@
     ],
     "cameraCons": [
       "Ultrawide isn't very wide",
-      "No macro or telephoto camera",
+      "No telephoto camera",
       "Only 7x digital zoom (Pro has 20x)",
       "No 4K selfie video (like the Pro has)"
     ],
@@ -691,6 +697,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "6",
+    "tier": "budget",
     "colors": [
       {
         "color": "Charcoal",
@@ -769,6 +776,7 @@
     "os": "Android 11",
     "year": 2020,
     "category": "5",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Just Black",
@@ -837,6 +845,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "5",
+    "tier": "budget",
     "colors": [
       {
         "color": "Mostly Black",
@@ -903,6 +912,7 @@
     "os": "Android 10",
     "year": 2019,
     "category": "4",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Just Black",
@@ -995,6 +1005,7 @@
     "os": "Android 10",
     "year": 2019,
     "category": "4",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Just Black",
@@ -1087,6 +1098,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "4",
+    "tier": "budget",
     "colors": [
       {
         "color": "Just Black",
@@ -1173,6 +1185,7 @@
     "os": "Android Pie (9.0)",
     "year": 2018,
     "category": "3",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Just Black",
@@ -1247,6 +1260,7 @@
     "os": "Android Pie (9.0)",
     "year": 2018,
     "category": "3",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Just Black",
@@ -1318,6 +1332,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "3",
+    "tier": "budget",
     "colors": [
       {
         "color": "Just Black",

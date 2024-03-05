@@ -8,6 +8,7 @@
     "os": "Android 14",
     "year": 2024,
     "category": "12",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silky Black",
@@ -95,6 +96,7 @@
     "os": "Android 14",
     "year": 2024,
     "category": "12",
+    "tier": "budget",
     "colors": [
       {
         "color": "Iron Gray",
@@ -121,7 +123,8 @@
     "size": "6.43 x 2.96 x 0.35 in",
     "rearCameras": {
       "primary": "50 MP",
-      "ultrawide": "8 MP"
+      "ultrawide": "8 MP",
+      "macro": "2 MP"
     },
     "frontCameras": "16 MP",
     "ram": "8 / 16 GB",
@@ -135,7 +138,6 @@
       "Optical in-display fingerprint sensor"
     ],
     "cameraFeatures": [
-      "2 MP Macro camera",
       "XPan mode",
       "OIS",
       "4k video @ up to 60fps",
@@ -168,6 +170,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "11",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Titan Black (matte)",
@@ -249,6 +252,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "10",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Volcanic Black",
@@ -328,6 +332,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "10",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Moonstone Black (matte)",
@@ -354,14 +359,15 @@
     "size": "6.4 x 3.0 x 0.34 in",
     "rearCameras": {
       "primary": "50 MP",
-      "ultrawide": "8 MP"
+      "ultrawide": "8 MP",
+      "macro": "2 MP"
     },
     "frontCameras": "16 MP",
     "ram": "8 / 16 GB",
     "battery": "4800 mAh",
     "charging": "150W SUPERVOOC",
     "capacity": "128 / 256 GB",
-    "released": "Aug. 6, 2022 (USA)",
+    "released": "Sep. 29, 2022 (USA)",
     "phoneFeatures": [
       "Wi-Fi 6",
       "Game Focus mode",
@@ -373,7 +379,6 @@
       "More powerful chip than the OnePlus 10 Pro"
     ],
     "cameraFeatures": [
-      "2 MP Macro camera",
       "OIS",
       "4K video @ 60fps",
       "Tilt-shift mode",
@@ -415,6 +420,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "9",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Pine Green",
@@ -502,6 +508,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "9",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Astral Black",
@@ -579,6 +586,7 @@
     "os": "Android 11",
     "year": 2020,
     "category": "8",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Lunar Silver",
@@ -601,7 +609,8 @@
     "size": "6.33 x 2.92 x 0.33 in",
     "rearCameras": {
       "primary": "48 MP",
-      "ultrawide": "16 MP"
+      "ultrawide": "16 MP",
+      "macro": "5 MP"
     },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
@@ -649,6 +658,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "8",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Glacial Green",
@@ -679,7 +689,8 @@
     "size": "6.31 x 2.87 x 0.31 in",
     "rearCameras": {
       "primary": "48 MP",
-      "ultrawide": "16 MP"
+      "ultrawide": "16 MP",
+      "macro": "2 MP"
     },
     "frontCameras": "16 MP",
     "ram": "8 / 12 GB",
@@ -698,7 +709,6 @@
       "OnePlus raised their phones from more mid-range to high range with the 8 models"
     ],
     "cameraFeatures": [
-      "2 MP Macro camera",
       "Pro mode for video",
       "4K video @ 60fps",
       "Super Stable Mode",
@@ -740,6 +750,7 @@
     "os": "Android 10",
     "year": 2019,
     "category": "7",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Black",
@@ -834,6 +845,7 @@
     "os": "Android 10",
     "year": 2019,
     "category": "7",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Frosted Silver",
@@ -912,6 +924,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "7",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Almond",
@@ -1004,6 +1017,7 @@
     "os": "Android Pie (9.0)",
     "year": 2018,
     "category": "6",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Midnight Black",
@@ -1107,6 +1121,7 @@
     "os": "Android Oreo (8.1)",
     "year": 2018,
     "category": "6",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Midnight Black",

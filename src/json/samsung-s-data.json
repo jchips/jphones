@@ -8,6 +8,7 @@
     "os": "Android 14",
     "year": 2024,
     "category": "s24",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Titanium Black",
@@ -133,6 +134,7 @@
     "os": "Android 14",
     "year": 2024,
     "category": "s24",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Onyx Black",
@@ -229,6 +231,7 @@
     "os": "Android 14",
     "year": 2024,
     "category": "s24",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Onyx Black",
@@ -322,6 +325,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "s23",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -429,6 +433,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "s23",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -518,6 +523,7 @@
     "os": "Android 13",
     "year": 2023,
     "category": "s23",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -611,6 +617,7 @@
     "os": "Android 14",
     "year": 2023,
     "category": "s23",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Mint",
@@ -703,6 +710,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "s22",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -814,6 +822,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "s22",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -909,6 +918,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "s22",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -1003,6 +1013,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "s21",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -1117,6 +1128,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "s21",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Black",
@@ -1210,6 +1222,7 @@
     "os": "Android 11",
     "year": 2021,
     "category": "s21",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Phantom Gray",
@@ -1299,6 +1312,7 @@
     "os": "Android 12",
     "year": 2022,
     "category": "s21",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Olive",
@@ -1376,6 +1390,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "s20",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Cosmic Gray",
@@ -1459,6 +1474,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "s20",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Cosmic Gray",
@@ -1547,6 +1563,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "s20",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Cosmic Gray",
@@ -1631,6 +1648,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "s20",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Cloud Navy",
@@ -1709,6 +1727,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "s10",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Prism Blue",
@@ -1808,6 +1827,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "s10",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Prism White",
@@ -1898,6 +1918,8 @@
     "brand": "Samsung",
     "os": "Android Pie (9.0)",
     "year": 2019,
+    "category": "s10",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Prism White",
@@ -1987,6 +2009,7 @@
     "os": "Android Oreo (8.0)",
     "year": 2018,
     "category": "s9",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Midnight Black",
@@ -2072,6 +2095,7 @@
     "os": "Android Oreo (8.0)",
     "year": 2018,
     "category": "s9",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Midnight Black",

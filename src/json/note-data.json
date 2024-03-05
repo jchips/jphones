@@ -8,6 +8,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "note",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Mystic Black",
@@ -97,6 +98,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "note",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Mystic Bronze",
@@ -184,6 +186,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "note",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Aura Black",
@@ -278,6 +281,7 @@
     "os": "Android Pie (9.0)",
     "year": 2019,
     "category": "note",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Aura Black",
@@ -379,6 +383,7 @@
     "os": "Android 10",
     "year": 2020,
     "category": "note",
+    "tier": "mid-range",
     "colors": [
       {
         "color": "Aura Black",
@@ -396,7 +401,7 @@
     "prices": [
       {
         "storage": "128 GB",
-        "price": "~ $507"
+        "price": "~ $507 (not launched in USA)"
       }
     ],
     "ui": "One UI 2.0",
@@ -438,6 +443,7 @@
       "Earbuds come ITB"
     ],
     "cons": [
+      "Not officially launched in the USA",
       "Flat display",
       "Lots of bezels",
       "No IP rating",
@@ -460,6 +466,7 @@
     "os": "Android Oreo (8.1)",
     "year": 2018,
     "category": "note",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Midnight Black",

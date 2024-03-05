@@ -8,6 +8,7 @@
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Natural Titanium",
@@ -113,6 +114,7 @@
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Natural Titanium",
@@ -213,6 +215,7 @@
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Blue",
@@ -316,6 +319,7 @@
     "os": "IOS 17",
     "year": 2023,
     "category": "15",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Blue",
@@ -419,6 +423,7 @@
     "os": "IOS 16",
     "year": 2022,
     "category": "14",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Space Black",
@@ -510,6 +515,7 @@
     "os": "IOS 16",
     "year": 2022,
     "category": "14",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Space Black",
@@ -602,6 +608,7 @@
     "os": "IOS 16",
     "year": 2022,
     "category": "14",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Blue",
@@ -700,6 +707,7 @@
     "os": "IOS 16",
     "year": 2022,
     "category": "14",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Blue",
@@ -795,6 +803,7 @@
     "os": "IOS 15",
     "year": 2022,
     "category": "SE",
+    "tier": "budget",
     "colors": [
       {
         "color": "Midnight",
@@ -882,6 +891,7 @@
     "year": 2021,
     "phoneType": "iPhone",
     "category": "13",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Alpine Green",
@@ -975,6 +985,7 @@
     "year": 2021,
     "phoneType": "iPhone",
     "category": "13",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Alpine Green",
@@ -1068,6 +1079,7 @@
     "year": 2021,
     "phoneType": "iPhone",
     "category": "13",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Green",
@@ -1159,6 +1171,7 @@
     "year": 2021,
     "phoneType": "iPhone",
     "category": "13",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Green",
@@ -1249,6 +1262,7 @@
     "os": "IOS 14.1",
     "year": 2020,
     "category": "12",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -1345,6 +1359,7 @@
     "os": "IOS",
     "year": 2020,
     "category": "12",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -1436,6 +1451,7 @@
     "year": 2020,
     "phoneType": "iPhone",
     "category": "12",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Black",
@@ -1535,6 +1551,7 @@
     "year": 2020,
     "phoneType": "iPhone",
     "category": "12",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Black",
@@ -1632,6 +1649,7 @@
     "os": "IOS 13",
     "year": 2020,
     "category": "SE",
+    "tier": "budget",
     "colors": [
       {
         "color": "Black",
@@ -1714,6 +1732,7 @@
     "os": "IOS 13.1",
     "year": 2019,
     "category": "11",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -1808,6 +1827,7 @@
     "os": "IOS 13.1",
     "year": 2019,
     "category": "11",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -1901,6 +1921,7 @@
     "year": 2019,
     "phoneType": "iPhone",
     "category": "11",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Black",
@@ -1931,6 +1952,14 @@
       {
         "storage": "64 GB",
         "price": "$700"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$750"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$850"
       }
     ],
     "ui": "IOS 13.1",
@@ -1990,8 +2019,8 @@
     "brand": "Apple",
     "os": "IOS 12",
     "year": 2018,
-    "phoneType": "iPhone",
     "category": "XS",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -2063,6 +2092,7 @@
     "os": "IOS 12",
     "year": 2018,
     "category": "XS",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -2115,10 +2145,6 @@
       "Portrait mode",
       "iCloud for storage, but you have to pay for it separately"
     ],
-    "cameraPros": [
-      "Camera known for having really good dynamic range",
-      "XS and XS Max take the best videos"
-    ],
     "pros": [
       "\"XS and Max has the most duration glass on any smartphone\" ~ Apple (but has no certification to prove it)",
       "Some of the loudest dual firing speakers"
@@ -2136,96 +2162,6 @@
     ]
   },
   {
-    "name": "iPhone XR",
-    "id": "iphone-xr",
-    "offName": "Apple iPhone XR",
-    "img": "/assets/imgs/iphones/iphone-xr.png",
-    "brand": "Apple",
-    "os": "IOS 12",
-    "year": 2018,
-    "category": "XS",
-    "colors": [
-      {
-        "color": "Black",
-        "tag": "apple-black"
-      },
-      {
-        "color": "White",
-        "tag": "apple-white"
-      },
-      {
-        "color": "Blue",
-        "tag": "apple-blue"
-      },
-      {
-        "color": "Yellow",
-        "tag": "apple-yellow"
-      },
-      {
-        "color": "Coral",
-        "tag": "coral"
-      },
-      {
-        "color": "Product Red",
-        "tag": "product-red"
-      }
-    ],
-    "prices": [
-      {
-        "storage": "64 GB",
-        "price": "$750"
-      },
-      {
-        "storage": "128 GB",
-        "price": "$800"
-      },
-      {
-        "storage": "256 GB",
-        "price": "$900"
-      }
-    ],
-    "ui": "IOS 12",
-    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD screen",
-    "build": "Glass, aluminum frame",
-    "size": "5.94 x 2.98 x 0.33 in",
-    "rearCameras": {
-      "primary": "12 MP"
-    },
-    "frontCameras": "7 MP",
-    "ram": "3 GB",
-    "battery": "2942 mAh",
-    "charging": "5W, 18W fast",
-    "capacity": "64 / 128 / 256 GB",
-    "released": "Oct. 26, 2018 (USA)",
-    "phoneFeatures": [
-      "3D Face unlock",
-      "Animoji and Memoji",
-      "IP67 water/dust resistant"
-    ],
-    "cameraFeatures": [
-      "Coming soon"
-    ],
-    "cameraCons": [
-      "Doesn't have dual cameras like the XS'"
-    ],
-    "pros": [
-      "Largest iPhone battery life in 2018"
-    ],
-    "cons": [
-      "Large notch",
-      "Lots of bezels",
-      "LED screen as opposed to AMOLED like the XS'",
-      "Doesn't have 3D Touch like the XS'",
-      "Doesn't have the durable glass back that the XS' have",
-      "Slowest fast charging time out of all 2018 flagships",
-      "Phone has a lot of bugs ~ Jon Rettinger"
-    ],
-    "approbations": [
-      "Best single camera'd phone of 2018",
-      "Won 2nd Best Phone Battery Life award of 2018 ~ MKBHD (after Huawei Mate 20 Pro)"
-    ]
-  },
-  {
     "name": "iPhone X",
     "id": "iphone-x",
     "offName": "Apple iPhone X",
@@ -2234,6 +2170,7 @@
     "os": "IOS 11",
     "year": 2017,
     "category": "X",
+    "tier": "flagship",
     "colors": [
       {
         "color": "Silver",
@@ -2294,6 +2231,97 @@
     ],
     "approbations": [
       "Rated best display on a phone in 2017 by DisplayMate (but was it?...)"
+    ]
+  },
+  {
+    "name": "iPhone XR",
+    "id": "iphone-xr",
+    "offName": "Apple iPhone XR",
+    "img": "/assets/imgs/iphones/iphone-xr.png",
+    "brand": "Apple",
+    "os": "IOS 12",
+    "year": 2018,
+    "category": "X",
+    "tier": "flagship",
+    "colors": [
+      {
+        "color": "Black",
+        "tag": "apple-black"
+      },
+      {
+        "color": "White",
+        "tag": "apple-white"
+      },
+      {
+        "color": "Blue",
+        "tag": "apple-blue"
+      },
+      {
+        "color": "Yellow",
+        "tag": "apple-yellow"
+      },
+      {
+        "color": "Coral",
+        "tag": "coral"
+      },
+      {
+        "color": "Product Red",
+        "tag": "product-red"
+      }
+    ],
+    "prices": [
+      {
+        "storage": "64 GB",
+        "price": "$750"
+      },
+      {
+        "storage": "128 GB",
+        "price": "$800"
+      },
+      {
+        "storage": "256 GB",
+        "price": "$900"
+      }
+    ],
+    "ui": "IOS 12",
+    "display": "6.1 in; 828x1792 px, Liquid Retina HD LCD",
+    "build": "Glass, aluminum frame",
+    "size": "5.94 x 2.98 x 0.33 in",
+    "rearCameras": {
+      "primary": "12 MP"
+    },
+    "frontCameras": "7 MP",
+    "ram": "3 GB",
+    "battery": "2942 mAh",
+    "charging": "5W, 18W fast",
+    "capacity": "64 / 128 / 256 GB",
+    "released": "Oct. 26, 2018 (USA)",
+    "phoneFeatures": [
+      "3D Face unlock",
+      "Animoji and Memoji",
+      "IP67 water/dust resistant"
+    ],
+    "cameraFeatures": [
+      "Coming soon"
+    ],
+    "cameraCons": [
+      "Doesn't have dual cameras like the XS'"
+    ],
+    "pros": [
+      "Largest iPhone battery life in 2018"
+    ],
+    "cons": [
+      "Large notch",
+      "Lots of bezels",
+      "LED screen as opposed to AMOLED like the XS'",
+      "Doesn't have 3D Touch like the XS'",
+      "Doesn't have the durable glass back that the XS' have",
+      "Slowest fast charging time out of all 2018 flagships",
+      "Phone has a lot of bugs ~ Jon Rettinger"
+    ],
+    "approbations": [
+      "Best single camera'd phone of 2018",
+      "Won 2nd Best Phone Battery Life award of 2018 ~ MKBHD (after Huawei Mate 20 Pro)"
     ]
   }
 ]
