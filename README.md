@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 03-05-2024 (3.0.0) - Added an expand modal to make viewing some of the content easier.
 - 03-04-2024 (2.2.1) - Added budget phones category on main page.
 - 03-02-2024 (2.1.1) - Added OnePlus 12R, filled in some missing data.
 - 02-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.

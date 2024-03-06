@@ -30,8 +30,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
     font-size: 5rem;
     text-transform: uppercase;
     color: $yellow;
-    // color: $theme-blue;
-    animation: reduce 0.1s ease-in;
+    animation: reduce 0.1s ease-out;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;
     animation-fill-mode: forwards;
@@ -39,24 +38,41 @@ $scrollAnimation: calc(var(--scroll) * -1s);
 }
 
 #hero-2 {
-  left: 40%;
-  top: 65%;
   font-style: italic;
-  animation: slideIn 0.2s ease-out 0s 1;
-  animation-play-state: paused;
-  animation-delay: $scrollAnimation;
-  animation-fill-mode: both;
 }
 
-// Makes the hero text smaller on smaller screens
+// Customs for big screens (laptops)
+@media screen and (min-width: 641px) {
+  #hero-2 {
+    left: 40%;
+    top: 65%;
+    animation: slideIn 0.2s ease-out 0s 1;
+    animation-play-state: paused;
+    animation-delay: $scrollAnimation;
+    animation-fill-mode: both;
+  }
+}
+
+// Makes the hero text smaller and centers it on smaller screens
 @media screen and (max-width: 640px) {
-  #hero-1 h1 {
-    font-size: 2rem;
+  .hero-image {
+    background-position: 0 60%;
   }
 
-  // #hero-2 h4 {
-  //   left: 50%;
-  // }
+  #hero-1 h1 {
+    font-size: 4rem;
+  }
+
+  #hero-2 {
+    // position: relative;
+    transform: none;
+    animation: none;
+  }
+
+  #hero-2 h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
 
 // Makes the header text slide in from the left on page load.

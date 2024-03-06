@@ -2,21 +2,48 @@ import React from "react";
 import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { HiOutlineArrowsExpand } from "react-icons/hi";
+import ExpandModal from "../ExpandModal/ExpandModal";
 import "../../styles/MiniPhoneCarousel.scss";
 
 class MiniPhoneCarousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      enableSwipe: false
+      enableSwipe: false,
+      showExpandModal: false,
+      expandData: [],
+      expandedBubbleType: null
     }
+    this.colorRef = createRef();
+    this.cameraProRef = createRef();
+    this.cameraConRef = createRef();
+    this.cameraProExpandBtn = createRef();
+    this.cameraConExpandBtn = createRef();
+    this.proRef = createRef();
+    this.conRef = createRef();
+    this.proExpandBtn = createRef();
+    this.conExpandBtn = createRef();
   }
-  inputRef = createRef();
+
+  /**
+   * Displays the expand modal so users can view the content easier.
+   * @param {String} bubble - The type of bubble the focused element is (pro bubble, cons bubble...).
+   * @param {Object[]} data - An array of text (pros or cons) that will be turned to li elements.
+   */
+  handleExpand = (bubble, data) => {
+    this.setState({ expandData: data, showExpandModal: true, expandedBubbleType: bubble });
+  }
+
+  // Closes expand modal
+  handleCloseExpand = () => {
+    this.setState({ showExpandModal: false });
+  }
 
   /**
    * Adds a vertical scrollbar to element when there are a lot of array items to be displayed.
    * TODO: Could probably make this more efficient
-   * @param {Object} data - Array of the data that needs to be scrolled. Ex: this.props.phone.colors
+   * @param {Object[]} data - Array of the data that needs to be scrolled. Ex: this.props.phone.colors
    * @param {Element} ref - Element to add scrollbar to.
    * @param {Number} num - Number of array items that can be displayed before the scrollbar appears
    * @param {String} height - The height of the element (needed to be able to add a scrollbar)
@@ -28,6 +55,24 @@ class MiniPhoneCarousel extends React.Component {
     } else if (data.length > 4 & this.props.phone.foldable) {
       ref.current.style.overflowY = 'auto';
       ref.current.style.height = '140px';
+    }
+  }
+
+  /**
+   * Compares the scrollHeight (total height of element with scroll content added)
+   * and clientHeight (height without counting scroll content). If the scrollHeight
+   * is present, that means there's a scrollbar. If there's a scrollbar, set the visibility
+   * of the expand button to 'visible' so users can expand the content.
+   * @param {Element} ref - A reference to a pros or cons bubble on the page.
+   * @param {Element} expandBtnRef - A reference to a expand button on the page.
+   */
+  checkHeight = (ref, expandBtnRef) => {
+    // console.log(ref && ref.offsetHeight);
+    // console.log(ref && ref.scrollHeight);
+    if (ref && expandBtnRef) {
+      if (ref.scrollHeight > ref.clientHeight) {
+        expandBtnRef.style.visibility = 'visible';
+      }
     }
   }
 
@@ -44,8 +89,18 @@ class MiniPhoneCarousel extends React.Component {
     }
   }
 
+  // happens once componented is mounted
+  componentDidMount() {
+    this.overFlow(this.props.phone.colors, this.colorRef, 5, '175px');
+  }
+
   render() {
     const { phone } = this.props;
+    this.checkHeight(this.conRef.current, this.conExpandBtn.current);
+    this.checkHeight(this.proRef.current, this.proExpandBtn.current);
+    this.checkHeight(this.cameraProRef.current, this.cameraProExpandBtn.current);
+    this.checkHeight(this.cameraConRef.current, this.cameraConExpandBtn.current);
+
     return (
       <>
         <Carousel
@@ -101,7 +156,7 @@ class MiniPhoneCarousel extends React.Component {
                 <p><span>Folded: </span>{phone.closedDisplay}</p>
               </div>
             )}
-            <div ref={this.inputRef} className="colors">
+            <div ref={this.colorRef} className="colors">
               <h4>Colors</h4>
               <ul>
                 {phone.colors.map((phoneColor, index) =>
@@ -170,7 +225,7 @@ class MiniPhoneCarousel extends React.Component {
             </section>
           </Carousel.Item>
 
-          {/* Camera Pros anc Cons. */}
+          {/* Camera Pros and Cons */}
           {/* Only displays if phone has either camera pros or camera cons. */}
           {(phone.cameraPros || phone.cameraCons) && (
             <Carousel.Item className="camera-pros-cons">
@@ -178,18 +233,28 @@ class MiniPhoneCarousel extends React.Component {
               <h6 className="phone-title">&mdash; {phone.name} &mdash;</h6>
               {phone.cameraPros && (
                 <section className="pros-and-cons-bubble">
-                  <h4>Camera Pros:</h4>
+                  <div className="bubble-header">
+                    <h4>Camera Pros:</h4>
+                    <div ref={this.cameraProExpandBtn} className="expand-btn-container">
+                      <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('camera pros', phone.cameraPros)} />
+                    </div>
+                  </div>
                   {/* If there are no camera cons, then make the scrollable div length longer */}
-                  <div className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
+                  <div ref={this.cameraProRef} className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
                     <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                   </div>
                 </section>
               )}
               {phone.cameraCons && (
                 <section className="pros-and-cons-bubble">
-                  <h4>Camera Cons:</h4>
+                  <div className="bubble-header">
+                    <h4>Camera Cons:</h4>
+                    <div ref={this.cameraConExpandBtn} className="expand-btn-container">
+                      <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('camera cons', phone.cameraCons)} />
+                    </div>
+                  </div>
                   {/* If there are no camera pros, then make the scrollable div length longer */}
-                  <div className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
+                  <div ref={this.cameraConRef} className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
                     <ul>{phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                   </div>
                 </section>
@@ -203,14 +268,24 @@ class MiniPhoneCarousel extends React.Component {
               <h3>Pros and Cons</h3>
               <h6 className="phone-title">&mdash; {phone.name} &mdash;</h6>
               <section className="pros-and-cons-bubble">
-                <h4>Pros</h4>
-                <div className="scrollable">
+                <div className="bubble-header">
+                  <h4>Pros</h4>
+                  <div ref={this.proExpandBtn} className="expand-btn-container">
+                    <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('pros', phone.pros)} />
+                  </div>
+                </div>
+                <div ref={this.proRef} className="scrollable">
                   <ul>{phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                 </div>
               </section>
               <section className="pros-and-cons-bubble">
-                <h4>Cons</h4>
-                <div className="scrollable">
+                <div className="bubble-header">
+                  <h4>Cons</h4>
+                  <div ref={this.conExpandBtn} className="expand-btn-container">
+                    <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('cons', phone.cons)} />
+                  </div>
+                </div>
+                <div ref={this.conRef} className="scrollable">
                   <ul>{phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                 </div>
               </section>
@@ -244,11 +319,13 @@ class MiniPhoneCarousel extends React.Component {
             <h6>All prices shown in USD</h6>
           </Carousel.Item>
         </Carousel>
+        <ExpandModal
+          expandData={this.state.expandData}
+          bubble={this.state.expandedBubbleType}
+          showExpandModal={this.state.showExpandModal}
+          handleCloseExpand={this.handleCloseExpand} />
       </>
     )
-  }
-  componentDidMount() {
-    this.overFlow(this.props.phone.colors, this.inputRef, 5, '175px');
   }
 }
 

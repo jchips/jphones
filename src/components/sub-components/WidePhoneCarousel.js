@@ -1,18 +1,77 @@
-import React, { Component } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import React, { Component, createRef } from 'react';
 import { Carousel, ListGroup } from 'react-bootstrap';
-import '../../styles/WidePhoneCarousel.scss'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { HiOutlineArrowsExpand } from "react-icons/hi";
+import ExpandModal from "../ExpandModal/ExpandModal";
+import '../../styles/WidePhoneCarousel.scss';
 
 class WidePhoneCarousel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showExpandModal: false,
+      expandData: [],
+      expandedBubbleType: null
+    }
+    this.cameraProRef = createRef();
+    this.cameraConRef = createRef();
+    this.cameraProExpandBtn = createRef();
+    this.cameraConExpandBtn = createRef();
+    this.proRef = createRef();
+    this.conRef = createRef();
+    this.proExpandBtn = createRef();
+    this.conExpandBtn = createRef();
+    this.checkHeight = this.checkHeight.bind(this);
+  }
+
+  // Closes expand modal
+  handleCloseExpand = () => {
+    this.setState({ showExpandModal: false });
+  }
+
+  // Re-renders the page every carousel slide turn so that this.checkHeight() can update
+  update = () => {
+    this.setState({});
+  }
+
+  /**
+   * Displays the expand modal so users can view the content easier.
+   * @param {String} bubble - The type of bubble the focused element is (pro bubble, cons bubble...).
+   * @param {Object[]} data - An array of text (pros or cons) that will be turned to li elements.
+   */
+  handleExpand = (bubble, data) => {
+    this.setState({ expandData: data, showExpandModal: true, expandedBubbleType: bubble });
+  }
+
+  /**
+   * Compares the scrollHeight (total height of element with scroll content added)
+   * and clientHeight (height without counting scroll content). If the scrollHeight
+   * is present, that means there's a scrollbar. If there's a scrollbar, set the visibility
+   * of the expand button to 'visible' so users can expand the content.
+   * @param {Element} ref - A reference to a pros or cons bubble on the page.
+   * @param {Element} expandBtnRef - A reference to a expand button on the page.
+   */
+  checkHeight = (ref, expandBtnRef) => {
+    if (ref && expandBtnRef) {
+      if (ref.scrollHeight > ref.clientHeight) {
+        expandBtnRef.style.visibility = 'visible';
+      }
+    }
+  }
+
   render() {
     const { phone } = this.props;
+    this.checkHeight(this.conRef.current, this.conExpandBtn.current);
+    this.checkHeight(this.proRef.current, this.proExpandBtn.current);
+    this.checkHeight(this.cameraProRef.current, this.cameraProExpandBtn.current);
+    this.checkHeight(this.cameraConRef.current, this.cameraConExpandBtn.current);
     return (
       <div className='row wide-phone-carousel'>
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-12 img-container">
           <LazyLoadImage className="img img-fluid" src={phone.img} alt={phone.name} />
         </div>
         <div className='col-xl-8 col-lg-8 col-md-8 col-sm-9 col-12'>
-          <Carousel className="wide-carousel" interval={null} indicators={true} variant="dark">
+          <Carousel className="wide-carousel" interval={null} indicators={true} variant="dark" onSlide={this.update}>
 
             {/* First page */}
             <Carousel.Item>
@@ -130,18 +189,28 @@ class WidePhoneCarousel extends Component {
                 <h3>Cameras - Pros & Cons</h3>
                 {phone.cameraPros && (
                   <section className="pros-and-cons-bubble">
-                    <h4>Camera Pros:</h4>
+                    <div className='bubble-header'>
+                      <h4>Camera Pros:</h4>
+                      <div ref={this.cameraProExpandBtn} className="expand-btn-container">
+                        <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('camera pros', phone.cameraPros)} />
+                      </div>
+                    </div>
                     {/* If there are no camera cons, then make the scrollable div length longer */}
-                    <div className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
+                    <div ref={this.cameraProRef} className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
                       <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                     </div>
                   </section>
                 )}
                 {phone.cameraCons && (
                   <section className="pros-and-cons-bubble">
-                    <h4>Camera Cons:</h4>
+                    <div className="bubble-header">
+                      <h4>Camera Cons:</h4>
+                      <div ref={this.cameraConExpandBtn} className="expand-btn-container">
+                        <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('camera cons', phone.cameraCons)} />
+                      </div>
+                    </div>
                     {/* If there are no camera pros, then make the scrollable div length longer */}
-                    <div className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
+                    <div ref={this.cameraConRef} className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
                       <ul>{phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                     </div>
                   </section>
@@ -155,14 +224,24 @@ class WidePhoneCarousel extends Component {
               <div className="pros-and-cons">
                 <h3>Pros and Cons</h3>
                 <section className="pros-and-cons-bubble">
-                  <h4>Pros</h4>
-                  <div className="scrollable">
+                  <div className="bubble-header">
+                    <h4>Pros</h4>
+                    <div ref={this.proExpandBtn} className="expand-btn-container">
+                      <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('pros', phone.pros)} />
+                    </div>
+                  </div>
+                  <div ref={this.proRef} className="scrollable">
                     <ul>{phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
                   </div>
                 </section>
                 <section className="pros-and-cons-bubble">
-                  <h4>Cons</h4>
-                  <div className="scrollable">
+                  <div className='bubble-header'>
+                    <h4>Cons</h4>
+                    <div ref={this.conExpandBtn} className="expand-btn-container">
+                      <HiOutlineArrowsExpand className="expand-btn" onClick={() => this.handleExpand('cons', phone.cons)} />
+                    </div>
+                  </div>
+                  <div ref={this.conRef} className="scrollable">
                     <ul>{phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
                   </div>
                 </section>
@@ -185,6 +264,11 @@ class WidePhoneCarousel extends Component {
             )}
           </Carousel>
         </div>
+        <ExpandModal
+          expandData={this.state.expandData}
+          bubble={this.state.expandedBubbleType}
+          showExpandModal={this.state.showExpandModal}
+          handleCloseExpand={this.handleCloseExpand} />
       </div>
     );
   }
