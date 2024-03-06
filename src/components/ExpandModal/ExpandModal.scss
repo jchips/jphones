@@ -1,0 +1,42 @@
+@import '../../styles/colors';
+
+.modal {
+  .modal-header {
+    display: block;
+    position: relative;
+
+    .btn-close {
+      display: flex;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 18px;
+      margin-right: 10px;
+    }
+  }
+
+  .modal-title {
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  .ul-container {
+    background-color: $very-light-gray;
+    padding: 25px 30px;
+    border-radius: 10px;
+    overflow-y: auto;
+
+    ul {
+      // max-height: 500px;
+      max-height: 75vh;
+    }
+  }
+
+  li {
+    padding: 4px;
+  }
+}
