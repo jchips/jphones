@@ -56,7 +56,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
 // Makes the hero text smaller and centers it on smaller screens
 @media screen and (max-width: 640px) {
   .hero-image {
-    background-position: 0 50%;
+    background-position: 0 60%;
   }
 
   #hero-1 h1 {
