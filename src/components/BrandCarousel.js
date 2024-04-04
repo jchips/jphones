@@ -15,7 +15,7 @@ class BrandCarousel extends Component {
           <div className='brands-scrollable'>
             <ListGroup variant='flush'>
               {brand.phoneFeatures.map(feature => (
-                <ListGroup.Item>{parse(feature)}</ListGroup.Item>
+                <ListGroup.Item key={feature}>{parse(feature)}</ListGroup.Item>
               ))}
             </ListGroup>
           </div>
@@ -24,7 +24,7 @@ class BrandCarousel extends Component {
           <h3>Camera Features</h3>
           <ListGroup variant='flush'>
             {brand.cameraFeatures.map(feature => (
-              <ListGroup.Item>{parse(feature)}</ListGroup.Item>
+              <ListGroup.Item key={feature}>{parse(feature)}</ListGroup.Item>
             ))}
           </ListGroup>
           {brand.cameraPros && (
@@ -33,7 +33,7 @@ class BrandCarousel extends Component {
               <h3>Camera Pros</h3>
               <ListGroup variant="flush">
                 {brand.cameraPros.map(pro => (
-                  <ListGroup.Item>{parse(pro)}</ListGroup.Item>
+                  <ListGroup.Item key={pro}>{parse(pro)}</ListGroup.Item>
                 ))}
               </ListGroup>
             </div>
@@ -44,7 +44,7 @@ class BrandCarousel extends Component {
               <h3>Camera Cons</h3>
               <ListGroup variant="flush">
                 {brand.cameraCons.map(con => (
-                  <ListGroup.Item>{parse(con)}</ListGroup.Item>
+                  <ListGroup.Item key={con}>{parse(con)}</ListGroup.Item>
                 ))}
               </ListGroup>
             </div>)}
@@ -57,7 +57,7 @@ class BrandCarousel extends Component {
               <div className="scrollable">
                 <ul>
                   {brand.pros.map(pro => (
-                    <li>{parse(pro)}</li>
+                    <li key={pro}>{parse(pro)}</li>
                   ))}
                 </ul>
               </div>
@@ -67,7 +67,7 @@ class BrandCarousel extends Component {
               <div className="scrollable">
                 <ul>
                   {brand.cons.map(con => (
-                    <li>{parse(con)}</li>
+                    <li key={con}>{parse(con)}</li>
                   ))}
                 </ul>
               </div>
