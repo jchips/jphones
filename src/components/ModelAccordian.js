@@ -24,7 +24,7 @@ class ModelAccordion extends Component {
             </Accordion.Header>
             <Accordion.Body>
               {categoryData.map((phone) => (
-                <WidePhoneCarousel phone={phone} />
+                <WidePhoneCarousel phone={phone} key={phone.name} />
               ))}
             </Accordion.Body>
           </Accordion.Item>

@@ -81,7 +81,7 @@ class WidePhoneCarousel extends Component {
                 <div className='phone-colors'>
                   <p id="colors-title">Colors:</p>
                   {phone.colors.map(color =>
-                    <div style={{ display: "flex", alignItems: "center" }}>
+                    <div style={{ display: "flex", alignItems: "center" }} key={color.tag}>
                       <p>{color.color}</p>
                       <div className={`color ${color.tag}`} key={color.tag}></div>
                     </div>

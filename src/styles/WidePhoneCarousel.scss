@@ -79,7 +79,15 @@
     p {
       color: $bootstrap-blue;
     }
+  }
 
+  .phone-specs-slide {
+    text-align: center;
+    padding: 0 84px;
+  }
+
+  .phone-specs-slide p {
+    margin: 0;
   }
 
   .features-slide,
@@ -95,15 +103,6 @@
 
   .slide {
     padding: 0 64px;
-  }
-
-  .phone-specs-slide {
-    text-align: center;
-    padding: 0 84px;
-  }
-
-  .phone-specs-slide p {
-    margin: 0;
   }
 
   .cameras-slide {
@@ -129,7 +128,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .wide-carousel .slide {
     padding: 0 20px;
   }

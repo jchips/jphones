@@ -1,28 +1,18 @@
 import React from 'react';
 import './styles/index.scss';
 import DisplayOptionsForm from './components/DisplayOptionsForm';
-import pixelData from './json/pixel-data.json';
-import samsungSData from './json/samsung-s-data.json';
-import samsungAData from './json/samsung-a-data.json';
-import iphoneData from './json/iphone-data.json';
-import oneplusData from './json/oneplus-data.json';
-import foldableData from './json/foldable-data.json';
+import getData from './hooks/getData';
 import DisplayPhones from './pages/DisplayPhones';
+import { Alert } from 'react-bootstrap';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isLoading: true,
+      error: '',
       displayAllPhones: false,
-      data: [
-        { name: 'Pixel', rowData: pixelData },
-        { name: 'Samsung S', rowData: samsungSData },
-        { name: 'Samsung A', rowData: samsungAData },
-        { name: 'Apple', rowData: iphoneData },
-        { name: 'OnePlus', rowData: oneplusData },
-        { name: 'Foldable', rowData: foldableData },
-      ],
+      data: [],
       searchValue: ''
     }
   }
@@ -44,9 +34,9 @@ class App extends React.Component {
   }
 
   // Fetches all the budget phones in the data, sorts them, and adds them to state.
-  getBudgetPhones = () => {
+  getBudgetPhones = (data) => {
     let budgetPhonesArr = [];
-    this.state.data.map(dataFile => {
+    data.map(dataFile => {
       return dataFile.rowData.filter(phone => {
         return phone.tier === 'budget';
       }).map(phone => budgetPhonesArr.push(phone));
@@ -56,16 +46,7 @@ class App extends React.Component {
       const date2 = new Date(this.getReleasedDate(b.released));
       return date2 - date1;
     });
-    this.setState({
-      data: [
-        { name: 'Pixel', rowData: pixelData },
-        { name: 'Samsung S', rowData: samsungSData },
-        { name: 'Apple', rowData: iphoneData },
-        { name: 'OnePlus', rowData: oneplusData },
-        { name: 'Foldable', rowData: foldableData },
-        { name: 'Budget', rowData: budgetPhonesArr }
-      ]
-    });
+    return budgetPhonesArr;
   }
 
   /**
@@ -82,14 +63,37 @@ class App extends React.Component {
   }
 
   // Loads the budget phones to display on page
-  componentDidMount() {
-    this.getBudgetPhones();
-    this.setState({ isLoading: false });
+  async componentDidMount() {
+    try {
+      const rowData = await Promise.all([
+        getData('pixels'),
+        getData('samsung-s'),
+        getData('samsung-a'),
+        getData('iphones'),
+        getData('oneplus'),
+        getData('foldables')
+      ]);
+
+      let data = [
+        { name: 'Pixel', rowData: rowData[0] },
+        { name: 'Samsung S', rowData: rowData[1] },
+        { name: 'Samsung A', rowData: rowData[2] },
+        { name: 'Apple', rowData: rowData[3] },
+        { name: 'OnePlus', rowData: rowData[4] },
+        { name: 'Foldable', rowData: rowData[5] },
+      ];
+      let budgetPhoneData = this.getBudgetPhones(data);
+      this.setState({ data: [...data, { name: 'Budget', rowData: budgetPhoneData }], isLoading: false });
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      this.setState({ error: 'sorry, there has been a server error :( please try again later' });
+    }
   }
 
   render() {
     return (
       <>
+        {this.state.error && <Alert variant='danger' className='m-3'>{this.state.error}</Alert>}
         {!this.state.isLoading && (
           <div>
             <DisplayOptionsForm display={this.setDisplay} setSearch={this.setSearch} />

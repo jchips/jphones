@@ -8,11 +8,11 @@ class Row extends Component {
     return (
       // Creates a column and phone carousel for each phone in the row
       <div className='row scrollbar'>
-          {this.props.data.map((phone, index) =>
-            <Col lg={4} sm={6} key={index}>
-              <MiniPhoneCarousel phone={phone}/>
-            </Col>
-          )}
+        {this.props.data.map((phone, index) =>
+          <Col lg={4} sm={6} key={index}>
+            <MiniPhoneCarousel phone={phone} />
+          </Col>
+        )}
       </div>
     );
   }

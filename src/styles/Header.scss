@@ -3,7 +3,7 @@
 $scrollAnimation: calc(var(--scroll) * -1s);
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjE5MDU2Mi13aWtpbWVkaWEtaW1hZ2Uta3A2YTU1ZzkuanBn.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/assets/imgs/hero.webp');
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -64,7 +64,6 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   }
 
   #hero-2 {
-    // position: relative;
     transform: none;
     animation: none;
   }

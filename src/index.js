@@ -19,27 +19,25 @@ import Google from './pages/Google';
 const Routing = () => {
   return (
     <BrowserRouter>
-      <Header/>
-      <MyNavbar/>
-      {/* <div className="container"> */}
-        <Routes>
-          <Route path='/' element={<App />} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/apple' element={<Apple />} />
-          <Route path='/asus' element={<Asus />} />
-          <Route path='/google' element={<Google />}/>
-          <Route path='/oneplus' element={<OnePlus/>}/>
-          <Route path='/samsung' element={<Samsung/>} />
-        </Routes>
-      {/* </div> */}
+      <Header />
+      <MyNavbar />
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/apple' element={<Apple />} />
+        <Route path='/asus' element={<Asus />} />
+        <Route path='/google' element={<Google />} />
+        <Route path='/oneplus' element={<OnePlus />} />
+        <Route path='/samsung' element={<Samsung />} />
+      </Routes>
     </BrowserRouter>
   )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>  
-    <Routing/>
+  <React.StrictMode>
+    <Routing />
   </React.StrictMode>
 );
 
