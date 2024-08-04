@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Alert, Container } from 'react-bootstrap';
 import BrandCarousel from '../components/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
+import Footer from '../components/Footer/Footer';
 import getData from '../hooks/getData';
 import '../styles/Brands.scss';
 
@@ -54,6 +55,7 @@ class Samsung extends Component {
             <ModelAccordion data={noteData} category='note' />
           </div>
         )}
+        <Footer />
       </>
     );
   }

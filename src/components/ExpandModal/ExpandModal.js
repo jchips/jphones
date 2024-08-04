@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
+import parse from 'html-react-parser';
 import './ExpandModal.scss';
 
 class ExpandModal extends Component {
@@ -30,7 +31,7 @@ class ExpandModal extends Component {
           <div className='ul-container'>
             <ul>
               {expandData.map((li, index) => (
-                <li key={index}>{li}</li>
+                <li key={index}>{parse(li)}</li>
               ))}
             </ul>
           </div>

@@ -2,8 +2,9 @@ import React from 'react';
 import { Alert, Container } from 'react-bootstrap';
 import BrandCarousel from '../components/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
-import '../styles/Brands.scss';
+import Footer from '../components/Footer/Footer';
 import getData from '../hooks/getData';
+import '../styles/Brands.scss';
 
 class Apple extends React.Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class Apple extends React.Component {
             )}
           </div>
         )}
+        <Footer />
       </>
     )
   }

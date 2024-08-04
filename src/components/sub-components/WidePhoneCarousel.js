@@ -2,6 +2,7 @@ import React, { Component, createRef } from 'react';
 import { Carousel, ListGroup } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { HiOutlineArrowsExpand } from "react-icons/hi";
+import parse from 'html-react-parser';
 import ExpandModal from "../ExpandModal/ExpandModal";
 import '../../styles/WidePhoneCarousel.scss';
 
@@ -11,7 +12,8 @@ class WidePhoneCarousel extends Component {
     this.state = {
       showExpandModal: false,
       expandData: [],
-      expandedBubbleType: null
+      expandedBubbleType: null,
+      slides: []
     }
     this.cameraProRef = createRef();
     this.cameraConRef = createRef();
@@ -22,6 +24,22 @@ class WidePhoneCarousel extends Component {
     this.proExpandBtn = createRef();
     this.conExpandBtn = createRef();
     this.checkHeight = this.checkHeight.bind(this);
+  }
+
+  componentDidMount() {
+    const allSlides = ["front", "specs", "features", "cameras", "camera-features", "camera-pros-cons", "pros-cons", "approbations"];
+    const eightSlidesIcons = ["front", "specs", "features", "cameras", "camera-features", "pros-cons"];
+    const noApprobationSlide = ["front", "specs", "features", "cameras", "camera-features", "camera-pros-cons", "pros-cons"];
+    const noCameraTradeOffsSlide = ["front", "specs", "features", "cameras", "camera-features", "pros-cons", "approbations"];
+    if (!this.props.phone.cameraPros && !this.props.phone.cameraCons) {
+      this.setState({ slides: noCameraTradeOffsSlide });
+    } else if (!this.props.phone.approbations) {
+      this.setState({ slides: noApprobationSlide });
+    } else if ((!this.props.phone.cameraPros && !this.props.phone.cameraCons) && !this.props.phone.approbations) {
+      this.setState({ slides: eightSlidesIcons });
+    } else {
+      this.setState({ slides: allSlides });
+    }
   }
 
   // Closes expand modal
@@ -71,7 +89,7 @@ class WidePhoneCarousel extends Component {
           <LazyLoadImage className="img img-fluid" src={phone.img} alt={phone.name} />
         </div>
         <div className='col-xl-8 col-lg-8 col-md-8 col-sm-9 col-12'>
-          <Carousel className="wide-carousel" interval={null} indicators={true} variant="dark" onSlide={this.update}>
+          <Carousel className="wide-carousel" interval={null} indicators={true} indicatorLabels={this.state.slides} variant="dark" onSlide={this.update}>
 
             {/* First page */}
             <Carousel.Item>
@@ -107,13 +125,13 @@ class WidePhoneCarousel extends Component {
                   {phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}>
                     <p>
                       <span>Size: </span>
-                      <span className="foldable">Unfolded: </span>{phone.openSize}
-                      <span className="foldable">, Folded: </span>{phone.closedSize}
+                      <span className="foldable">Main: </span>{phone.openSize}
+                      <span className="foldable">, Cover: </span>{phone.closedSize}
                     </p>
                   </ListGroup.Item>)}
                   {!phone.foldable && (<ListGroup.Item><p><span>Display: </span>{phone.display}</p></ListGroup.Item>)}
-                  {phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Unfolded display: </span>{phone.openDisplay}</p></ListGroup.Item>)}
-                  {phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Folded display: </span>{phone.closedDisplay}</p></ListGroup.Item>)}
+                  {phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Main display: </span>{phone.openDisplay}</p></ListGroup.Item>)}
+                  {phone.foldable && (<ListGroup.Item style={{ padding: "5px" }}><p><span>Cover display: </span>{phone.closedDisplay}</p></ListGroup.Item>)}
                   <ListGroup.Item><p><span>Build: </span>{phone.build}</p></ListGroup.Item>
                   <ListGroup.Item>
                     <p><span>Battery: </span>{phone.battery}</p>
@@ -197,7 +215,7 @@ class WidePhoneCarousel extends Component {
                     </div>
                     {/* If there are no camera cons, then make the scrollable div length longer */}
                     <div ref={this.cameraProRef} className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
-                      <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                      <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
                     </div>
                   </section>
                 )}
@@ -211,7 +229,7 @@ class WidePhoneCarousel extends Component {
                     </div>
                     {/* If there are no camera pros, then make the scrollable div length longer */}
                     <div ref={this.cameraConRef} className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
-                      <ul>{phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                      <ul>{phone.cameraCons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
                     </div>
                   </section>
                 )}
@@ -231,7 +249,7 @@ class WidePhoneCarousel extends Component {
                     </div>
                   </div>
                   <div ref={this.proRef} className="scrollable">
-                    <ul>{phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                    <ul>{phone.pros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
                   </div>
                 </section>
                 <section className="pros-and-cons-bubble">
@@ -242,7 +260,7 @@ class WidePhoneCarousel extends Component {
                     </div>
                   </div>
                   <div ref={this.conRef} className="scrollable">
-                    <ul>{phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                    <ul>{phone.cons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
                   </div>
                 </section>
               </div>
@@ -256,7 +274,7 @@ class WidePhoneCarousel extends Component {
                 <section className="approbations">
                   <ul>
                     {phone.approbations.map((approbation, index) =>
-                      <li key={index}>{approbation}</li>
+                      <li key={index}>{parse(approbation)}</li>
                     )}
                   </ul>
                 </section>

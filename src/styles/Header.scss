@@ -3,11 +3,11 @@
 $scrollAnimation: calc(var(--scroll) * -1s);
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/assets/imgs/hero.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../public/assets/imgs/hero.jpeg');
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-position: 0 30%;
+  background-position: 0 35%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

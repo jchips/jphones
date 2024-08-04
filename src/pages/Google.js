@@ -3,6 +3,7 @@ import { Container, Alert } from 'react-bootstrap';
 import BrandCarousel from '../components/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
 import getData from '../hooks/getData';
+import Footer from '../components/Footer/Footer';
 import '../styles/Brands.scss';
 
 class Google extends Component {
@@ -48,6 +49,7 @@ class Google extends Component {
             <ModelAccordion data={foldableData} category='fold' />
           </div>
         )}
+        <Footer />
       </>
     );
   }
