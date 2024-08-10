@@ -4,6 +4,7 @@ import DisplayOptionsForm from './components/DisplayOptionsForm';
 import getData from './hooks/getData';
 import DisplayPhones from './pages/DisplayPhones';
 import { Alert } from 'react-bootstrap';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -107,6 +108,7 @@ class App extends React.Component {
             </section>
           </div>
         )}
+        <Footer />
       </>
     )
   }

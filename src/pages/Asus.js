@@ -2,6 +2,7 @@ import React from "react";
 // import asusData from "../json/asus-data.json";
 import { Alert } from 'react-bootstrap';
 import ModelAccordion from "../components/ModelAccordian";
+import Footer from '../components/Footer/Footer';
 import getData from '../hooks/getData';
 import "../styles/Brands.scss";
 class Asus extends React.Component {
@@ -38,6 +39,7 @@ class Asus extends React.Component {
             )}
           </div>
         )}
+        <Footer />
       </>
     )
   }

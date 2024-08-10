@@ -41,8 +41,8 @@ ul {
   }
 
   & img {
-    height: 192px;
-    width: 180px;
+    height: 202px; // 192px
+    width: 189px; // 180px
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
   }
 
@@ -248,6 +248,25 @@ h4 {
   }
 }
 
+section {
+  a {
+    color: $note;
+    font-size: 0.8rem;
+    display: inline;
+    text-decoration: none;
+
+    // font-style: italic;
+    &:hover {
+      color: darken($note, 15%);
+      font-weight: 500;
+    }
+  }
+
+
+  &.approbations a {
+    font-style: italic;
+  }
+}
 
 .approbations {
   height: 300px;
@@ -286,3 +305,133 @@ h4 {
 .carousel:hover .carousel-control-prev {
   visibility: visible;
 }
+
+// .carousel-indicators {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 0;
+// }
+
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+}
+
+.carousel-indicators button {
+  margin: 0 5px;
+  background-color: transparent !important; // hides original indicator
+}
+
+.carousel-indicators button::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+
+  button[aria-label] {
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  }
+
+  button[aria-label='front'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/home--v2.png');
+  }
+
+  button[aria-label='specs'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/clipboard.png');
+  }
+
+  button[aria-label='display'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/iphone--v2.png');
+  }
+
+  button[aria-label='features'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/features-list.png');
+  }
+
+  button[aria-label='cameras'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='camera-features'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='camera-pros-cons'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='pros-cons'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/ok--v1.png');
+  }
+
+  button[aria-label='approbations'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/prize.png');
+  }
+
+  button[aria-label='price'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/price-tag-usd.png');
+  }
+}
+
+// .carousel-indicators {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 0;
+
+//   button[aria-label] {
+//     background-size: contain;
+//     width: 17px;
+//     height: 17px;
+//     background-repeat: no-repeat;
+//   }
+
+//   button[aria-label='front'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/home--v1.png');
+//   }
+
+//   button[aria-label='specs'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/clipboard--v1.png');
+//   }
+
+//   button[aria-label='display'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/iphone-x.png');
+//   }
+
+//   button[aria-label='features'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/features-list--v1.png');
+//   }
+
+//   button[aria-label='cameras'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/camera--v1.png');
+//   }
+
+//   button[aria-label='camera-features'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/camera--v1.png');
+//   }
+
+//   button[aria-label='camera-pros-cons'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/camera--v1.png');
+//   }
+
+//   button[aria-label='pros-cons'] {
+//     background-image: url('https://img.icons8.com/windows/32/ok.png');
+//   }
+
+//   button[aria-label='approbations'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/prize.png');
+//   }
+
+//   button[aria-label='price'] {
+//     background-image: url('https://img.icons8.com/fluency-systems-regular/48/average-2.png');
+//   }
+// }

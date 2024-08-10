@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Alert, Container } from 'react-bootstrap';
 import ModelAccordion from '../components/ModelAccordian';
 import BrandCarousel from '../components/BrandCarousel';
+import Footer from '../components/Footer/Footer';
 import getData from '../hooks/getData';
 import '../styles/Brands.scss';
 
@@ -48,6 +49,7 @@ class OnePlus extends Component {
             <ModelAccordion data={foldableData} category={'open'} />
           </div>
         )}
+        <Footer />
       </>
     );
   }

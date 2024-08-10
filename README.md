@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 08-09-2024 (4.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.
 - 04-03-2024 (4.0.0) - Fetches all phone data from my JPhones API.
 - 03-05-2024 (3.0.0) - Added an expand modal to make viewing some of the content easier.
 - 03-04-2024 (2.2.1) - Added budget phones category on main page.
@@ -29,6 +30,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Links & Resources
 
+- [React Bootstrap](https://react-bootstrap.github.io/)
+
 - [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
 
 - [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
@@ -36,6 +39,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Lazy loading images](https://www.npmjs.com/package/react-lazy-load-image-component)
 
 - [React Icons (Search icon)](https://react-icons.github.io/react-icons/)
+
+- [icons8 (carousel indicator and info icons)](https://icons8.com)
 
 - [Search bar CSS from Ahmad Emran](https://codepen.io/ahmadbassamemran/pen/rNjMXqg)
 

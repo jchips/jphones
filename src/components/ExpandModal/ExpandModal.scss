@@ -39,4 +39,17 @@
   li {
     padding: 4px;
   }
+
+  a {
+    color: $note;
+    font-size: 0.8rem;
+    display: inline;
+    text-decoration: none;
+    // font-style: italic;
+
+    &:hover {
+      color: darken($note, 15%);
+      font-weight: 500;
+    }
+  }
 }

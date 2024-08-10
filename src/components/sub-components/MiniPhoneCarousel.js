@@ -3,6 +3,7 @@ import { createRef } from "react";
 import { Carousel } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { HiOutlineArrowsExpand } from "react-icons/hi";
+import parse from 'html-react-parser';
 import ExpandModal from "../ExpandModal/ExpandModal";
 import "../../styles/MiniPhoneCarousel.scss";
 
@@ -13,7 +14,9 @@ class MiniPhoneCarousel extends React.Component {
       enableSwipe: false,
       showExpandModal: false,
       expandData: [],
-      expandedBubbleType: null
+      expandedBubbleType: null,
+      slides: [],
+      // isLoading: true
     }
     this.colorRef = createRef();
     this.cameraProRef = createRef();
@@ -24,6 +27,24 @@ class MiniPhoneCarousel extends React.Component {
     this.conRef = createRef();
     this.proExpandBtn = createRef();
     this.conExpandBtn = createRef();
+  }
+
+  // happens once componented is mounted
+  componentDidMount() {
+    const allSlides = ["front", "specs", "display", "features", "cameras", "camera-features", "camera-pros-cons", "pros-cons", "approbations", "price"];
+    const eightSlidesIcons = ["front", "specs", "display", "features", "cameras", "camera-features", "pros-cons", "price"];
+    const noApprobationSlide = ["front", "specs", "display", "features", "cameras", "camera-features", "camera-pros-cons", "pros-cons", "price"];
+    const noCameraTradeOffsSlide = ["front", "specs", "display", "features", "cameras", "camera-features", "pros-cons", "approbations", "price"];
+    if (!this.props.phone.cameraPros && !this.props.phone.cameraCons && !this.props.phone.approbations) {
+      this.setState({ slides: eightSlidesIcons });
+    } else if (!this.props.phone.cameraPros && !this.props.phone.cameraCons) {
+      this.setState({ slides: noCameraTradeOffsSlide });
+    } else if (!this.props.phone.approbations) {
+      this.setState({ slides: noApprobationSlide });
+    } else {
+      this.setState({ slides: allSlides });
+    }
+    this.overFlow(this.props.phone.colors, this.colorRef, 5, '175px');
   }
 
   /**
@@ -89,17 +110,13 @@ class MiniPhoneCarousel extends React.Component {
     }
   }
 
-  // happens once componented is mounted
-  componentDidMount() {
-    this.overFlow(this.props.phone.colors, this.colorRef, 5, '175px');
-  }
-
   render() {
     const { phone } = this.props;
     this.checkHeight(this.conRef.current, this.conExpandBtn.current);
     this.checkHeight(this.proRef.current, this.proExpandBtn.current);
     this.checkHeight(this.cameraProRef.current, this.cameraProExpandBtn.current);
     this.checkHeight(this.cameraConRef.current, this.cameraConExpandBtn.current);
+    // const slides = [...Array(this.state.slides).keys()];
 
     return (
       <>
@@ -108,6 +125,7 @@ class MiniPhoneCarousel extends React.Component {
           className="mini-carousel"
           interval={null}
           indicators={true}
+          indicatorLabels={this.state.slides}
           variant="dark"
           touch={this.state.enableSwipe}
           onSlide={this.enableSwipe}
@@ -128,8 +146,8 @@ class MiniPhoneCarousel extends React.Component {
             <div className="scrollable">
               <p><span>UI: </span>{phone.ui}</p><hr />
               {!phone.foldable && (<p><span>Size: </span>{phone.size}</p>)}
-              {phone.foldable && (<p><span>Unfolded size: </span>{phone.openSize}</p>)}
-              {phone.foldable && (<p><span>Folded size: </span>{phone.closedSize}</p>)}
+              {phone.foldable && (<p><span>Main size: </span>{phone.openSize}</p>)}
+              {phone.foldable && (<p><span>Cover size: </span>{phone.closedSize}</p>)}
               <p><span>Build: </span>{phone.build}</p><hr />
               <p><span>Battery: </span>{phone.battery}</p>
               <p><span>Charging: </span>{phone.charging}</p><hr />
@@ -142,20 +160,17 @@ class MiniPhoneCarousel extends React.Component {
           <Carousel.Item>
             <h3>Colors & Display</h3>
             <h6 className="phone-title">&mdash; {phone.name} &mdash;</h6>
-            {!phone.foldable && (
-              <div className="display">
-                <h4>Display</h4>
+            <div className="display">
+              <h4>Display</h4>
+              {!phone.foldable ? (
                 <p>{phone.display}</p>
-              </div>
-            )}
-            {/* Only display this for foldable phones */}
-            {phone.foldable && (
-              <div className="display">
-                <h4>Display</h4>
-                <p><span>Unfolded: </span>{phone.openDisplay}</p>
-                <p><span>Folded: </span>{phone.closedDisplay}</p>
-              </div>
-            )}
+              ) :
+                <>
+                  <p><span>Main: </span>{phone.openDisplay}</p>
+                  <p><span>Cover: </span>{phone.closedDisplay}</p>
+                </>
+              }
+            </div>
             <div ref={this.colorRef} className="colors">
               <h4>Colors</h4>
               <ul>
@@ -241,7 +256,7 @@ class MiniPhoneCarousel extends React.Component {
                   </div>
                   {/* If there are no camera cons, then make the scrollable div length longer */}
                   <div ref={this.cameraProRef} className={phone.cameraCons ? "scrollable" : "scrollable-long"}>
-                    <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                    <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
                   </div>
                 </section>
               )}
@@ -255,7 +270,7 @@ class MiniPhoneCarousel extends React.Component {
                   </div>
                   {/* If there are no camera pros, then make the scrollable div length longer */}
                   <div ref={this.cameraConRef} className={phone.cameraPros ? "scrollable" : "scrollable-long"}>
-                    <ul>{phone.cameraCons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                    <ul>{phone.cameraCons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
                   </div>
                 </section>
               )}
@@ -275,7 +290,7 @@ class MiniPhoneCarousel extends React.Component {
                   </div>
                 </div>
                 <div ref={this.proRef} className="scrollable">
-                  <ul>{phone.pros.map((pro, index) => <li key={index}>{pro}</li>)}</ul>
+                  <ul>{phone.pros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
                 </div>
               </section>
               <section className="pros-and-cons-bubble">
@@ -286,7 +301,7 @@ class MiniPhoneCarousel extends React.Component {
                   </div>
                 </div>
                 <div ref={this.conRef} className="scrollable">
-                  <ul>{phone.cons.map((con, index) => <li key={index}>{con}</li>)}</ul>
+                  <ul>{phone.cons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
                 </div>
               </section>
             </div>
@@ -300,7 +315,7 @@ class MiniPhoneCarousel extends React.Component {
               <section className="approbations">
                 <ul>
                   {phone.approbations.map((approbation, index) =>
-                    <li key={index}>{approbation}</li>
+                    <li key={index}>{parse(approbation)}</li>
                   )}
                 </ul>
               </section>

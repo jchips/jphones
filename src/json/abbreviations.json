@@ -8,6 +8,10 @@
     "expl": "What the phone was built with - listed as front (screen) / back. If there's no '/', this means the build is the same for front and back"
   },
   {
+    "abbr": "EIS",
+    "expl": "Electronic image stabilization - Stabilizes your phone's camera while taking video so video is not as shaky"
+  },
+  {
     "abbr": "fps",
     "expl": "Frames per second (unit)"
   },
@@ -36,8 +40,8 @@
     "expl": "Milli-amp hours (unit)"
   },
   {
-    "abbr": "models",
-    "expl": "Models are the phones in groupings. The Galaxy S23, S23+, and S23 Ultra are all Galaxy S23 models (or Galaxy S23s)"
+    "abbr": "model",
+    "expl": "A phone model is an individual phone in a series. For instance, the iPhone 14 Pro is a model from the iPhone 14 series"
   },
   {
     "abbr": "MP",
@@ -54,6 +58,10 @@
   {
     "abbr": "px",
     "expl": "Pixels (unit)"
+  },
+  {
+    "abbr": "series",
+    "expl": "Series are the phones in groupings. The Galaxy S23 FE, S23, S23+, and S23 Ultra are all part of the Galaxy S23 series (or Galaxy S23 models)"
   },
   {
     "abbr": "ToF",
