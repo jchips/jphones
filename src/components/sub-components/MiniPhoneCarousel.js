@@ -35,12 +35,12 @@ class MiniPhoneCarousel extends React.Component {
     const eightSlidesIcons = ["front", "specs", "display", "features", "cameras", "camera-features", "pros-cons", "price"];
     const noApprobationSlide = ["front", "specs", "display", "features", "cameras", "camera-features", "camera-pros-cons", "pros-cons", "price"];
     const noCameraTradeOffsSlide = ["front", "specs", "display", "features", "cameras", "camera-features", "pros-cons", "approbations", "price"];
-    if (!this.props.phone.cameraPros && !this.props.phone.cameraCons) {
+    if (!this.props.phone.cameraPros && !this.props.phone.cameraCons && !this.props.phone.approbations) {
+      this.setState({ slides: eightSlidesIcons });
+    } else if (!this.props.phone.cameraPros && !this.props.phone.cameraCons) {
       this.setState({ slides: noCameraTradeOffsSlide });
     } else if (!this.props.phone.approbations) {
       this.setState({ slides: noApprobationSlide });
-    } else if ((!this.props.phone.cameraPros && !this.props.phone.cameraCons) && !this.props.phone.approbations) {
-      this.setState({ slides: eightSlidesIcons });
     } else {
       this.setState({ slides: allSlides });
     }

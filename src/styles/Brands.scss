@@ -2,17 +2,16 @@
 
 .brand-img {
   img {
-    height: 400px;
-    width: 400px;
-    object-fit: fill;
+    max-height: 390px;
+    max-width: 390px;
+    object-fit: contain;
     // margin: auto 25%;
   }
 }
 
-
 .brand-carousel {
   padding: 0 95px;
-  height: 440px;
+  height: 460px; // 440px
   max-width: 1000px;
   margin: auto auto;
 
@@ -31,6 +30,28 @@
   .scrollable ul {
     max-height: 108px;
   }
+
+  .img-abbr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+
+    * {
+      margin: 3px;
+    }
+
+    img {
+      height: 17px;
+      width: 17px;
+    }
+
+    p {
+      font-size: small;
+      color: $gray-text;
+    }
+  }
 }
 
 .accordion {
@@ -46,7 +67,27 @@
   text-transform: capitalize;
 }
 
+.popover-body {
+  background-color: #e5effc;
+  margin: 10px;
+  border-radius: 5px;
+  color: $gray-text;
+  font-size: smaller;
+
+  a {
+    color: $bootstrap-blue;
+    text-decoration: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .brand-img {
+    img {
+      max-height: 300px;
+      max-width: 300px;
+    }
+  }
+
   .brand-carousel {
     padding: 0 20px;
   }

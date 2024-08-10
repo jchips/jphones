@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
-import { Carousel, ListGroup } from 'react-bootstrap';
+import { Carousel, ListGroup, OverlayTrigger, Popover } from 'react-bootstrap';
 import parse from 'html-react-parser';
 
 class BrandCarousel extends Component {
   render() {
     const { brand } = this.props;
+    const popover = (
+      <Popover id="popover-basic">
+        <Popover.Body>
+          <a href={brand.imgAbbr.source} target='_blank' rel='noreferrer'>{brand.imgAbbr.title}</a>
+          {' '}by {brand.imgAbbr.author} is licensed by{' '}
+          <a href={brand.imgAbbr.licenseLink} target='_blank' rel='noreferrer'>{brand.imgAbbr.license}</a>.
+          <br /><span className='mods'>Modifications: {brand.imgAbbr.mods}</span>.
+        </Popover.Body>
+      </Popover>
+    );
     return (
       <Carousel className='brand-carousel' interval={null} variant='dark'>
         <Carousel.Item className='brand-img text-center'>
           <img src={brand.img} alt={brand.name} />
+          <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+            <section className='img-abbr'>
+              <img src="https://img.icons8.com/fluency-systems-regular/48/777777/info--v1.png" alt="info--v1" />
+              <p>Image attribution</p>
+            </section>
+          </OverlayTrigger>
         </Carousel.Item>
         <Carousel.Item>
           <h3>Features</h3>

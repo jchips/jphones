@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className='footer'>
         <a href='https://www.jrosecow.com' target='_blank' rel='noreferrer'>&copy; Jrosecow</a>
-        <p>Carousel indicator icons by <a href='https://icons8.com' title='icons' target='_blank' rel='noreferrer'>icons8.com</a></p>
+        <p>Icons by <a href='https://icons8.com' title='icons' target='_blank' rel='noreferrer'>icons8.com</a></p>
       </div>
     )
   }

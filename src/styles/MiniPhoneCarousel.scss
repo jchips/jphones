@@ -248,16 +248,23 @@ h4 {
   }
 }
 
-section a {
-  color: $note;
-  font-size: small;
-  display: inline;
-  text-decoration: none;
-  font-style: italic;
+section {
+  a {
+    color: $note;
+    font-size: 0.8rem;
+    display: inline;
+    text-decoration: none;
 
-  &:hover {
-    color: darken($note, 15%);
-    font-weight: 500;
+    // font-style: italic;
+    &:hover {
+      color: darken($note, 15%);
+      font-weight: 500;
+    }
+  }
+
+
+  &.approbations a {
+    font-style: italic;
   }
 }
 

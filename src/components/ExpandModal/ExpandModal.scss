@@ -42,10 +42,10 @@
 
   a {
     color: $note;
-    font-size: small;
+    font-size: 0.8rem;
     display: inline;
     text-decoration: none;
-    font-style: italic;
+    // font-style: italic;
 
     &:hover {
       color: darken($note, 15%);
