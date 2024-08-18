@@ -37,7 +37,7 @@ class Samsung extends Component {
 
   render() {
     let { samsungSData, samsungAData, noteData, foldableData, brandData, isLoading, error } = this.state;
-    let sPhones = ['s24', 's23', 's22', 's21', 's20', 's10', 's9'];
+    let sPhones = ['S24', 'S23', 'S22', 'S21', 'S20', 'S10', 'S9'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
@@ -50,9 +50,10 @@ class Samsung extends Component {
             {sPhones.map((version, index) =>
               <ModelAccordion data={samsungSData} category={version} key={index} />
             )}
-            <ModelAccordion data={samsungAData} category='a' />
-            <ModelAccordion data={foldableData} category='z fold' />
-            <ModelAccordion data={noteData} category='note' />
+            <ModelAccordion data={samsungAData} category='A' />
+            <ModelAccordion data={foldableData} category='Z Fold' />
+            <ModelAccordion data={foldableData} category='Z Flip' />
+            <ModelAccordion data={noteData} category='Note' />
           </div>
         )}
         <Footer />

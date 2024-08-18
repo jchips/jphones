@@ -24,11 +24,11 @@ class About extends Component {
               </p>
               <p>This site is to compare phones and pick the best one for purchase.</p>
               <br></br>
-              <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger swiping on touchscreens for
-                each phones' first carousel slide ONLY because while scrolling, any carousel you accidentally
-                touched would start moving. To view phone carousel info on a mobile screen, (1) tap
-                the phone's carousel, (2) then use the arrows that appear. After the first slide, you should be able to
-                finger swipe through the rest of the phone's carousel.</p>
+              <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger
+                swiping through the carousels on touchscreens because the carousels
+                were overly sensitive to the gesture. To view a phone's carousel
+                info on a mobile screen, (1) tap the phone's carousel, (2) then
+                use the arrows that appear to navigate through the slides.</p>
               <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>jPhones Glossary</Accordion.Header>

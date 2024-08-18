@@ -105,6 +105,7 @@ class App extends React.Component {
               {/* Samsung */}<a href="https://www.samsung.com/us/mobile/phones/all-phones/" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/samsung-logo.webp" alt="Samsung logo" /></a>
               {/* OnePlus */}<a href="https://www.oneplus.com" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/oneplus-logo.webp" alt="OnePlus logo" /></a>
               {/* Asus */}<a href="https://www.asus.com/us/Phone/" target="_blank" rel="noreferrer"><img src="assets/imgs/logos/asus-logo.webp" alt="Asus logo" style={{ height: 40 }} /></a>
+              {/* Nothing */}<a href='https://us.nothing.tech/' target='_blank' rel='noreferrer'><img src="assets/imgs/logos/nothing-logo.webp" alt="Nothing logo" style={{ height: 30 }} /></a>
             </section>
           </div>
         )}

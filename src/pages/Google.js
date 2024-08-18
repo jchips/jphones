@@ -46,7 +46,7 @@ class Google extends Component {
             {versions.map((version, index) =>
               <ModelAccordion data={pixelData} category={version} key={index} />
             )}
-            <ModelAccordion data={foldableData} category='fold' />
+            <ModelAccordion data={foldableData} category='Fold' />
           </div>
         )}
         <Footer />

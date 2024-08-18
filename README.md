@@ -10,9 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-- 08-09-2024 (4.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.
-- 04-03-2024 (4.0.0) - Fetches all phone data from my JPhones API.
-- 03-05-2024 (3.0.0) - Added an expand modal to make viewing some of the content easier.
+- 08-17-2024 (3.1.1) - Disabled swipe for mobile, added Nothing Phones.
+- 08-09-2024 (3.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.
+- 04-03-2024 (3.0.0) - Fetches all phone data from my JPhones API.
+- 03-05-2024 (2.3.0) - Added an expand modal to make viewing some of the content easier.
 - 03-04-2024 (2.2.1) - Added budget phones category on main page.
 - 03-02-2024 (2.1.1) - Added OnePlus 12R, filled in some missing data.
 - 02-28-2024 (2.1.0) - Refactored some code, added abbreviations, continuity improvements, added Galaxy S24s and OnePlus 12.
