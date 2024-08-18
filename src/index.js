@@ -15,6 +15,7 @@ import Asus from "./pages/Asus";
 import Samsung from "./pages/Samsung";
 import OnePlus from './pages/OnePlus';
 import Google from './pages/Google';
+import Nothing from './pages/Nothing';
 
 const Routing = () => {
   return (
@@ -29,6 +30,7 @@ const Routing = () => {
         <Route path='/google' element={<Google />} />
         <Route path='/oneplus' element={<OnePlus />} />
         <Route path='/samsung' element={<Samsung />} />
+        <Route path='/nothing' element={<Nothing />} />
       </Routes>
     </BrowserRouter>
   )

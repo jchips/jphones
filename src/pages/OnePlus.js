@@ -46,7 +46,7 @@ class OnePlus extends Component {
             {models.map((model, index) =>
               <ModelAccordion data={oneplusData} category={model} key={index} />
             )}
-            <ModelAccordion data={foldableData} category={'open'} />
+            <ModelAccordion data={foldableData} category={'Open'} />
           </div>
         )}
         <Footer />

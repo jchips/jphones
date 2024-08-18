@@ -24,14 +24,14 @@
     font-size: small;
     font-style: italic;
     display: inline;
-    color: $note;
+    color: $gray-text;
   }
 
   .scrollable ul {
     max-height: 108px;
   }
 
-  .img-abbr {
+  .img-attr {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,9 +63,9 @@
   margin: 10px;
 }
 
-.accordion-button {
-  text-transform: capitalize;
-}
+// .accordion-button {
+//   text-transform: capitalize;
+// }
 
 .popover-body {
   background-color: #e5effc;

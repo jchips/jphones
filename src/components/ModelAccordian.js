@@ -20,7 +20,7 @@ class ModelAccordion extends Component {
           <Accordion.Item eventKey="0">
             <Accordion.Header>
               {this.props.data[0].foldable ? `${typeOfPhone} ${this.props.category} ` : `${this.props.data[0].name.split(" ")[0]} ${this.props.category} `}
-              phones
+              series
             </Accordion.Header>
             <Accordion.Body>
               {categoryData.map((phone) => (

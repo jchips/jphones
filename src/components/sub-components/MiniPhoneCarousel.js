@@ -16,7 +16,6 @@ class MiniPhoneCarousel extends React.Component {
       expandData: [],
       expandedBubbleType: null,
       slides: [],
-      // isLoading: true
     }
     this.colorRef = createRef();
     this.cameraProRef = createRef();
@@ -98,15 +97,15 @@ class MiniPhoneCarousel extends React.Component {
   }
 
   /**
-   * Disables touchscreen swipe ability only on the first slide of every carousel because of the
-   * swiping going crazy while scrolling on mobile screens.
+   * This function used to disable touchscreen swipe ability only on the first
+   * slide of every carousel because of the swiping going crazy while scrolling
+   * on mobile screens.
+   * Now, it just causes a re-render every slide for the expand modal to work.
    * @param {Event} index - The index of whichever carousel slide the user is on.
    */
   enableSwipe = (index) => {
-    if (index === 0) {
+    if (index) {
       this.setState({ enableSwipe: false });
-    } else {
-      this.setState({ enableSwipe: true });
     }
   }
 

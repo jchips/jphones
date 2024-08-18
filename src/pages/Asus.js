@@ -27,7 +27,7 @@ class Asus extends React.Component {
   }
   render() {
     let { error, isLoading, asusData } = this.state;
-    let versions = ['zenfone'];
+    let versions = ['Zenfone'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
