@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Alert, Container } from 'react-bootstrap';
-import BrandCarousel from '../components/BrandCarousel';
+import { Alert, Container, FormCheck } from 'react-bootstrap';
+import BrandCarousel from '../components/Carousels/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
 import Footer from '../components/Footer/Footer';
-import getData from '../hooks/getData';
-import '../styles/Brands.scss';
+import getData from '../utils/getData';
+import setMMToggle from '../utils/setMMtoggle';
+import '../styles/Company.scss';
 
 class Samsung extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class Samsung extends Component {
       noteData: [],
       foldableData: [],
       brandData: [],
+      mmToggle: false,
       error: '',
       isLoading: true
     }
@@ -42,18 +44,24 @@ class Samsung extends Component {
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className='samsung'>
+          <div className='samsung company'>
             <h2>Samsung Phones</h2>
             <Container>
               <BrandCarousel brand={brandData.galaxy} />
             </Container>
+            <FormCheck
+              type='switch'
+              id='mm-toggle'
+              label='show milimeters'
+              onChange={() => setMMToggle(this)}
+            />
             {sPhones.map((version, index) =>
-              <ModelAccordion data={samsungSData} category={version} key={index} />
+              <ModelAccordion data={samsungSData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={samsungAData} category='A' />
-            <ModelAccordion data={foldableData} category='Z Fold' />
-            <ModelAccordion data={foldableData} category='Z Flip' />
-            <ModelAccordion data={noteData} category='Note' />
+            <ModelAccordion data={samsungAData} category='A' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={foldableData} category='Z Fold' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={foldableData} category='Z Flip' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={noteData} category='Note' mmToggle={this.state.mmToggle} />
           </div>
         )}
         <Footer />

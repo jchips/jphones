@@ -1,10 +1,11 @@
 import React from "react";
-import Row from "../components/sub-components/Row";
-import "../styles/DisplayPhones.scss";
+import Row from "../../components/Row/Row";
+import "./DisplayPhones.scss";
 
 // Props: {
 //   data (from app.js),
 //   searchValue (from app.js),
+//   mmToggle (from app.js),
 //   displayAllPhones (from app.js)
 // }
 
@@ -82,7 +83,7 @@ class DisplayPhones extends React.Component {
             </div>
 
             {/* Display row */}
-            <Row data={this.determineData(row, this.props.searchValue)} />
+            <Row data={this.determineData(row, this.props.searchValue)} mmToggle={this.props.mmToggle} />
           </section>
         )}
       </>

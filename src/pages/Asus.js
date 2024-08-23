@@ -1,15 +1,17 @@
-import React from "react";
-// import asusData from "../json/asus-data.json";
-import { Alert } from 'react-bootstrap';
-import ModelAccordion from "../components/ModelAccordian";
+import React from 'react';
+import { Alert, FormCheck } from 'react-bootstrap';
+import ModelAccordion from '../components/ModelAccordian';
 import Footer from '../components/Footer/Footer';
-import getData from '../hooks/getData';
-import "../styles/Brands.scss";
+import getData from '../utils/getData';
+import setMMToggle from '../utils/setMMtoggle';
+import '../styles/Company.scss';
+
 class Asus extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       asusData: [],
+      mmToggle: false,
       error: '',
       isLoading: true
     }
@@ -25,17 +27,24 @@ class Asus extends React.Component {
       this.setState({ error: 'Sorry, there has been an error fetching Asus data. Please try again later.' })
     }
   }
+
   render() {
     let { error, isLoading, asusData } = this.state;
-    let versions = ['Zenfone'];
+    let series = ['Zenfone'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className="asus">
+          <div className='asus company'>
             <h2>Asus phones</h2>
-            {versions.map((version, index) =>
-              <ModelAccordion data={asusData} category={version} key={index} />
+            <FormCheck
+              type='switch'
+              id='mm-toggle'
+              label='show milimeters'
+              onChange={() => setMMToggle(this)}
+            />
+            {series.map((version, index) =>
+              <ModelAccordion data={asusData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
           </div>
         )}
