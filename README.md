@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-- 08-23-2024 (4.0.0) - Refactored code, separate Display slide for carousels, millimeters toggle, new font, minor improvements
+- 08-25-2024 (4.0.0) - Refactored code, separate Display slide for carousels, millimeters toggle, new font, minor improvements
 - 08-17-2024 (3.1.1) - Disabled swipe for mobile, added Nothing Phones page.
 - 08-09-2024 (3.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.
 - 04-03-2024 (3.0.0) - Fetches all phone data from my JPhones API.

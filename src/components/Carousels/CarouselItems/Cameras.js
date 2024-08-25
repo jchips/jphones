@@ -6,8 +6,8 @@ const Cameras = (props) => {
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Cameras</h3>
-      {carouselType === 'mini' ? (<h6 className="phone-title">&mdash; {phone.name} &mdash;</h6>) : null}
-      <div id="rear-cameras" className="cameras gray-bubble">
+      {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
+      <div id='rear-cameras' className='cameras gray-bubble'>
         <h4>Rear Cameras:</h4>
         <p><span>Primary: </span>{phone.rearCameras.primary}</p>
         {phone.rearCameras.ultrawide && (
@@ -26,7 +26,7 @@ const Cameras = (props) => {
           <p><span>Secondary: </span> {phone.rearCameras.secondary}</p>
         )}
       </div>
-      <div id="front-cameras" className="cameras gray-bubble">
+      <div id='front-cameras' className='cameras gray-bubble'>
         <h4>Front Camera(s):</h4>
         <p><span>Primary: </span>{phone.frontCameras}</p>
         {phone.frontCameras.ultrawide && (

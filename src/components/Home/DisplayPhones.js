@@ -1,6 +1,6 @@
-import React from "react";
-import Row from "../../components/Row/Row";
-import "./DisplayPhones.scss";
+import React from 'react';
+import Row from '../../components/Row/Row';
+import './DisplayPhones.scss';
 
 // Props: {
 //   data (from app.js),
@@ -13,7 +13,7 @@ class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Budget']
+      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
     }
   }
 
@@ -23,7 +23,7 @@ class DisplayPhones extends React.Component {
    * @returns {String} - The first word in the title of the row.
    */
   getLogoTitle = (row) => {
-    let array = row.split(" ");
+    let array = row.split(' ');
     return array[0];
   }
 
@@ -77,7 +77,7 @@ class DisplayPhones extends React.Component {
           <section key={index}>
 
             {/* Labels row and puts photo next to each title */}
-            <div id={row.split(" ").join("-")} className="row-header">
+            <div id={row.split(' ').join('-')} className='row-header'>
               <h2>{row} Phones</h2>
               <img src={`assets/imgs/logos/${this.getLogoTitle(row)}-logo.webp`} alt={`${this.getLogoTitle(row)} logo`} />
             </div>

@@ -77,7 +77,8 @@ class Home extends React.Component {
         getData('samsung-a'),
         getData('iphones'),
         getData('oneplus'),
-        getData('foldables')
+        getData('foldables'),
+        getData('nothing')
       ]);
 
       let data = [
@@ -87,6 +88,7 @@ class Home extends React.Component {
         { name: 'Apple', rowData: rowData[3] },
         { name: 'OnePlus', rowData: rowData[4] },
         { name: 'Foldable', rowData: rowData[5] },
+        { name: 'Nothing', rowData: rowData[6] },
       ];
       let budgetPhoneData = this.getBudgetPhones(data);
       this.setState({ data: [...data, { name: 'Budget', rowData: budgetPhoneData }], isLoading: false });

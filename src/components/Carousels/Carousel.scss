@@ -4,7 +4,7 @@
 
 h4 {
   font-size: 1.2rem;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 h5 {
@@ -119,16 +119,28 @@ section {
   }
 }
 
-.phone-specs-slide {
-  .scrollable {
-    max-height: 319px; // 322px
-  }
-
+.specs-slide {
   @include p-margin-even;
 }
 
 .display {
   @include p-margin-even;
+
+  .foldable-display p {
+    margin: $p-margin-v-small;
+  }
+
+  h5 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .display-size {
+    font-weight: 600;
+    color: $bootstrap-blue;
+  }
 }
 
 .features-slide,
@@ -196,8 +208,8 @@ section {
 }
 
 .pros-and-cons {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 
   .scrollable ul {
     max-height: 97px;

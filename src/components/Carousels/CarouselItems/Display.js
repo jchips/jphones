@@ -1,21 +1,27 @@
 import React from 'react';
 
-const ColorsAndDisplay = (props) => {
+const Display = (props) => {
   const { phone, carouselType } = props;
   return (
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Display</h3>
       {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
-      <div className='display blue-text gray-bubble'>
-        {/* <h4>Display</h4> */}
+      <div className='display blue-text gray-bubble scrollable'>
         {!phone.foldable ? (
-          <p><span>Display: </span>{phone.display}</p>
-        ) :
           <>
-            <p><span>Main display: </span>{phone.openDisplay}</p>
-            <p><span>Cover display: </span>{phone.closedDisplay}</p>
+            <p><span className='display-size'>{phone.display.size}</span>, {phone.display.res}</p>
+            <p>{phone.display.type}</p>
           </>
+        ) :
+          <div className='foldable-display'>
+            <h5 style={{ marginTop: '5px' }}>Main</h5>
+            <p><span className='display-size'>{phone.display.innerSize}</span>, {phone.display.innerRes}</p>
+            <p>{phone.display.innerType}</p><hr />
+            <h5>Cover</h5>
+            <p><span className='display-size'>{phone.display.outerSize}</span>, {phone.display.outerRes}</p>
+            <p>{phone.display.outerType}</p><hr />
+          </div>
         }
         <div>
           <p><span>Aspect ratio: </span>{phone.aspectRatio}</p>
@@ -26,4 +32,4 @@ const ColorsAndDisplay = (props) => {
   );
 };
 
-export default ColorsAndDisplay;
+export default Display;

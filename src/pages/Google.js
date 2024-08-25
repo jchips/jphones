@@ -35,7 +35,7 @@ class Google extends Component {
 
   render() {
     let { error, isLoading, pixelData, brandData, foldableData } = this.state;
-    let series = ['8', '7', '6', '5', '4', '3'];
+    let series = ['9', '8', '7', '6', '5', '4', '3'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}

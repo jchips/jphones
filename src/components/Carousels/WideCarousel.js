@@ -8,7 +8,7 @@ import Display from './CarouselItems/Display';
 import { CameraFeatures, Features } from './CarouselItems/Features';
 import Cameras from './CarouselItems/Cameras';
 import CameraProsCons from './CarouselItems/CameraProsCons';
-import ProsAndCons from './CarouselItems/ProsAndConsItem';
+import ProsAndCons from './CarouselItems/ProsAndCons';
 import Approbations from './CarouselItems/Approbations';
 import './WideCarousel.scss';
 
@@ -91,7 +91,7 @@ class WideCarousel extends Component {
             <Carousel.Item>
               <h2>{phone.name}</h2>
               <h5>{phone.brand} / {phone.os}</h5>
-              <div className='mobile-scrollable'>
+              <div className='wide-first-slide'>
                 <div className='phone-colors'>
                   <p id='colors-title'>Colors:</p>
                   {phone.colors.map(color =>
@@ -112,7 +112,7 @@ class WideCarousel extends Component {
             </Carousel.Item>
 
             {/* Phone specs */}
-            <Carousel.Item className='wide-slide phone-specs-slide blue-text'>
+            <Carousel.Item className='wide-slide specs-slide blue-text'>
               <WideSpecs phone={phone} mmToggle={mmToggle} />
             </Carousel.Item>
 
