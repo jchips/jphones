@@ -1,0 +1,24 @@
+$margin: 10px;
+$borderRadius: 10px;
+$p-margin-v-small: 5px 0;
+
+@mixin side-note {
+  font-size: small;
+  font-style: italic;
+  display: inline;
+  color: $gray-text;
+}
+
+@mixin texture {
+  .texture {
+    color: $gray-text;
+    font-size: small;
+    font-weight: 500;
+  }
+}
+
+@mixin p-margin-even {
+  p {
+    margin: 7px 0; // 5px 0
+  }
+}

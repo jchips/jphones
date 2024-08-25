@@ -1,4 +1,5 @@
-@import "colors";
+@import '../../styles/colors';
+@import '../../styles/default.styles';
 
 .wide-phone-carousel {
   border-bottom: 2px solid black;
@@ -21,8 +22,9 @@
 }
 
 .wide-carousel {
+  @include texture;
   width: 100%;
-  height: 455px; // 450px, 440px
+  height: 455px;
 
   h2 {
     margin-bottom: 5px;
@@ -32,22 +34,19 @@
     font-size: 1.2rem;
   }
 
+  h4 {
+    margin-top: 10px;
+  }
+
   h3,
   h5,
   h6 {
     text-align: center;
   }
 
-  h5 {
-    color: $theme-blue;
-    margin: 5px;
-    margin-bottom: 10px;
-    font-size: 1rem;
-  }
-
   span {
-    font-weight: 500;
     color: black;
+    font-weight: 500;
   }
 
   .phone-colors {
@@ -55,7 +54,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 10px auto;
+    margin: $margin auto;
     width: 85%;
   }
 
@@ -75,19 +74,25 @@
     margin: auto auto;
     font-weight: 400;
     font-size: 13px;
+  }
 
-    p {
-      color: $bootstrap-blue;
+  .wide-first-slide {
+    h3 {
+      margin-top: 10px;
     }
   }
 
-  .phone-specs-slide {
+  .specs-slide {
     text-align: center;
     padding: 0 84px;
+
+    p {
+      margin: 0;
+    }
   }
 
-  .phone-specs-slide p {
-    margin: 0;
+  .display {
+    text-align: center;
   }
 
   .features-slide,
@@ -101,7 +106,7 @@
     font-weight: 400;
   }
 
-  .slide {
+  .wide-slide {
     padding: 0 64px;
   }
 
@@ -109,11 +114,7 @@
     text-align: center;
   }
 
-  .phone-specs-slide p,
-  .cameras-slide p {
-    color: $bootstrap-blue;
-  }
-
+  .display,
   .pros-and-cons-bubble {
     padding: 10px 20px;
   }
@@ -129,17 +130,12 @@
 }
 
 @media screen and (max-width: 900px) {
-  .wide-carousel .slide {
+  .wide-carousel .wide-slide {
     padding: 0 20px;
   }
 
-  .mobile-scrollable {
-    height: 315px;
-    overflow-y: auto;
-  }
-
-  .mobile-color-scrollable {
-    height: 200px;
+  .wide-first-slide {
+    height: 340px;
     overflow-y: auto;
   }
 }

@@ -1,0 +1,107 @@
+@import '../../styles/colors';
+@import '../../styles/default.styles';
+
+.mini-carousel {
+  background-size: 100% 100%;
+  padding: 0 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  -webkit-box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  height: 430px;
+  max-width: 369px;
+  font-size: 1rem;
+
+  & h2,
+  & h5 {
+    padding: 10px;
+  }
+
+  & h3 {
+    margin-top: 20px;
+  }
+
+  & .img-container {
+    background-color: $very-light-gray;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto auto;
+  }
+
+  & img {
+    height: 202px;
+    width: 189px;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
+  }
+
+  & span {
+    color: black;
+    font-weight: 600;
+  }
+
+  .specs-slide {
+    .scrollable {
+      max-height: 319px;
+    }
+  }
+
+  .display-slide {
+    .scrollable {
+      max-height: 319px;
+    }
+  }
+
+  .display {
+    h5 {
+      padding: 0;
+    }
+  }
+
+  .build-slide {
+    display: flex;
+    flex-direction: column;
+    max-height: 320px;
+
+    h4 {
+      margin-top: 5px;
+    }
+
+    .gray-bubble {
+      margin: 5px 10px;
+    }
+
+    .colors {
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+  }
+
+  .build {
+    @include p-margin-even;
+    @include texture;
+  }
+
+  .display p,
+  .build p {
+    padding: 0 10px;
+  }
+
+  .pros-and-cons-container {
+    margin-top: 10px;
+  }
+
+  .prices-slide {
+    .btn {
+      color: #fff;
+      background-color: $theme-blue;
+      border: none;
+      margin-top: 7px;
+    }
+
+    .btn:hover {
+      background-color: darken($theme-blue, 15%);
+    }
+  }
+}

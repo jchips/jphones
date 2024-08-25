@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Accordion } from "react-bootstrap";
-import WidePhoneCarousel from "./sub-components/WidePhoneCarousel";
+import WideCarousel from "./Carousels/WideCarousel";
 
 class ModelAccordion extends Component {
   // filters and returns only phones in the given category
@@ -24,7 +24,7 @@ class ModelAccordion extends Component {
             </Accordion.Header>
             <Accordion.Body>
               {categoryData.map((phone) => (
-                <WidePhoneCarousel phone={phone} key={phone.name} />
+                <WideCarousel phone={phone} key={phone.name} mmToggle={this.props.mmToggle} />
               ))}
             </Accordion.Body>
           </Accordion.Item>

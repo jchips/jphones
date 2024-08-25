@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Alert } from 'react-bootstrap';
-import BrandCarousel from '../components/BrandCarousel';
+import { Container, Alert, FormCheck } from 'react-bootstrap';
+import BrandCarousel from '../components/Carousels/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
-import getData from '../hooks/getData';
 import Footer from '../components/Footer/Footer';
-import '../styles/Brands.scss';
+import getData from '../utils/getData';
+import setMMToggle from '../utils/setMMtoggle';
+import '../styles/Company.scss';
 
 class Google extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Google extends Component {
       pixelData: [],
       brandData: [],
       foldableData: [],
+      mmToggle: false,
       error: '',
       isLoading: true
     }
@@ -33,20 +35,26 @@ class Google extends Component {
 
   render() {
     let { error, isLoading, pixelData, brandData, foldableData } = this.state;
-    let versions = ['8', '7', '6', '5', '4', '3'];
+    let series = ['9', '8', '7', '6', '5', '4', '3'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className='google'>
+          <div className='google company'>
             <h2>Pixels</h2>
             <Container>
               <BrandCarousel brand={brandData.pixel} />
             </Container>
-            {versions.map((version, index) =>
-              <ModelAccordion data={pixelData} category={version} key={index} />
+            <FormCheck
+              type='switch'
+              id='mm-toggle'
+              label='show milimeters'
+              onChange={() => setMMToggle(this)}
+            />
+            {series.map((version, index) =>
+              <ModelAccordion data={pixelData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={foldableData} category='Fold' />
+            <ModelAccordion data={foldableData} category='Fold' mmToggle={this.state.mmToggle} />
           </div>
         )}
         <Footer />

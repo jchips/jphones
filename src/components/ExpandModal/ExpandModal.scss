@@ -1,4 +1,5 @@
 @import '../../styles/colors';
+@import '../../styles/default.styles';
 
 .modal {
   .modal-header {
@@ -27,7 +28,7 @@
   .ul-container {
     background-color: $very-light-gray;
     padding: 20px 30px;
-    border-radius: 10px;
+    border-radius: $borderRadius;
     overflow-y: auto;
 
     ul {
@@ -51,5 +52,9 @@
       color: darken($note, 15%);
       font-weight: 500;
     }
+  }
+
+  .side-note {
+    @include side-note;
   }
 }

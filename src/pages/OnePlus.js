@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Alert, Container } from 'react-bootstrap';
+import { Alert, Container, FormCheck } from 'react-bootstrap';
 import ModelAccordion from '../components/ModelAccordian';
-import BrandCarousel from '../components/BrandCarousel';
+import BrandCarousel from '../components/Carousels/BrandCarousel';
 import Footer from '../components/Footer/Footer';
-import getData from '../hooks/getData';
-import '../styles/Brands.scss';
+import getData from '../utils/getData';
+import setMMToggle from '../utils/setMMtoggle';
+import '../styles/Company.scss';
 
 class OnePlus extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class OnePlus extends Component {
       oneplusData: [],
       brandData: [],
       foldableData: [],
+      mmToggle: false,
       error: '',
       isLoading: true
     }
@@ -33,20 +35,26 @@ class OnePlus extends Component {
 
   render() {
     let { error, isLoading, oneplusData, brandData, foldableData } = this.state;
-    let models = ['12', '11', '10', '9', '8', '7', '6'];
+    let series = ['12', '11', '10', '9', '8', '7', '6'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className='oneplus'>
+          <div className='oneplus company'>
             <h2>OnePlus Phones</h2>
             <Container>
               <BrandCarousel brand={brandData.oneplus} />
             </Container>
-            {models.map((model, index) =>
-              <ModelAccordion data={oneplusData} category={model} key={index} />
+            <FormCheck
+              type='switch'
+              id='mm-toggle'
+              label='show milimeters'
+              onChange={() => setMMToggle(this)}
+            />
+            {series.map((model, index) =>
+              <ModelAccordion data={oneplusData} category={model} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={foldableData} category={'Open'} />
+            <ModelAccordion data={foldableData} mmToggle={this.state.mmToggle} category={'Open'} />
           </div>
         )}
         <Footer />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import MiniPhoneCarousel from './MiniPhoneCarousel';
+import MiniCarousel from '../Carousels/Carousel';
 import { Col } from 'react-bootstrap';
-import "../../styles/Row.scss";
+import "./Row.scss";
 
 class Row extends Component {
   render() {
@@ -10,7 +10,7 @@ class Row extends Component {
       <div className='row scrollbar'>
         {this.props.data.map((phone, index) =>
           <Col lg={4} sm={6} key={index}>
-            <MiniPhoneCarousel phone={phone} />
+            <MiniCarousel phone={phone} mmToggle={this.props.mmToggle} />
           </Col>
         )}
       </div>

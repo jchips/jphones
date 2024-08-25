@@ -1,10 +1,11 @@
 import React from 'react';
-import { Alert, Container } from 'react-bootstrap';
-import BrandCarousel from '../components/BrandCarousel';
+import { Alert, Container, FormCheck } from 'react-bootstrap';
+import BrandCarousel from '../components/Carousels/BrandCarousel';
 import ModelAccordion from '../components/ModelAccordian';
 import Footer from '../components/Footer/Footer';
-import getData from '../hooks/getData';
-import '../styles/Brands.scss';
+import getData from '../utils/getData';
+import setMMToggle from '../utils/setMMtoggle';
+import '../styles/Company.scss';
 
 class Apple extends React.Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class Apple extends React.Component {
     this.state = {
       iPhoneData: [],
       brandData: [],
+      mmToggle: false,
       error: '',
       isLoading: true
     }
@@ -31,18 +33,24 @@ class Apple extends React.Component {
 
   render() {
     let { error, isLoading, iPhoneData, brandData } = this.state;
-    let versions = ['15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
+    let series = ['15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className="apple">
+          <div className="apple company">
             <h2>iPhones</h2>
             <Container>
               <BrandCarousel brand={brandData.iphone} />
             </Container>
-            {versions.map((version, index) =>
-              <ModelAccordion data={iPhoneData} category={version} key={index} />
+            <FormCheck
+              type='switch'
+              id='mm-toggle'
+              label='show milimeters'
+              onChange={() => setMMToggle(this)}
+            />
+            {series.map((version, index) =>
+              <ModelAccordion data={iPhoneData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
           </div>
         )}

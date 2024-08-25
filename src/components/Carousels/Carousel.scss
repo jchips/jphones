@@ -1,0 +1,342 @@
+@import '../../styles/colors';
+@import '../../styles/phone.colors';
+@import '../../styles/default.styles';
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+h5 {
+  color: $theme-blue;
+  font-size: 1rem;
+}
+
+h6 {
+  margin-top: 15px;
+}
+
+hr {
+  margin: 0.5rem 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+p {
+  margin-bottom: $margin;
+}
+
+section {
+  a {
+    color: $note;
+    font-size: 0.8rem;
+    display: inline;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($note, 15%);
+      font-weight: 500;
+    }
+  }
+
+  &.approbations a {
+    font-style: italic;
+  }
+}
+
+.phone-title {
+  margin: 5px auto;
+  width: fit-content;
+}
+
+.blue-text p {
+  color: $bootstrap-blue;
+}
+
+.gray-bubble {
+  background-color: $very-light-gray;
+  padding: 5px;
+  border-radius: $borderRadius;
+  margin: $margin;
+}
+
+.scrollable,
+.scrollable-long {
+  overflow-y: auto;
+}
+
+.bubble-header {
+  position: relative;
+
+  .expand-btn-container {
+    visibility: hidden;
+
+    .expand-btn {
+      display: flex;
+      position: absolute;
+      cursor: pointer;
+      right: 0;
+      top: 0;
+      margin: 1px;
+      margin-right: 5px;
+      min-height: 20px;
+      min-width: 20px;
+      z-index: 4;
+    }
+  }
+}
+
+.colors {
+  padding-bottom: 10px;
+
+  & ul {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+  }
+
+  & .phone-color li {
+    text-align: left;
+  }
+}
+
+// The individual colors each model comes in displayed
+.color {
+  padding: 10px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.phone-color {
+  display: flex;
+  align-items: center;
+
+  & * {
+    margin-right: $margin;
+  }
+}
+
+.specs-slide {
+  @include p-margin-even;
+}
+
+.display {
+  @include p-margin-even;
+
+  .foldable-display p {
+    margin: $p-margin-v-small;
+  }
+
+  h5 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .display-size {
+    font-weight: 600;
+    color: $bootstrap-blue;
+  }
+}
+
+.features-slide,
+.camera-features {
+  padding: 0 5px;
+
+  section {
+    margin-bottom: 0;
+  }
+
+  .scrollable ul {
+    text-align: left;
+    padding: 0 25px;
+    max-height: 280px;
+    margin-bottom: $margin;
+  }
+
+  li {
+    padding: 4px;
+    list-style-type: none;
+  }
+}
+
+.cameras p {
+  margin: $margin 0px;
+}
+
+.camera-features,
+.camera-pros-cons {
+  section {
+    margin-bottom: $margin;
+  }
+
+  span {
+    display: block;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+
+  li,
+  span {
+    text-align: left;
+  }
+}
+
+.camera-pros-cons {
+  ul {
+    font-size: 0.9rem;
+  }
+
+  .scrollable ul {
+    max-height: 90px;
+  }
+
+  .scrollable-long ul {
+    max-height: 240px;
+  }
+}
+
+.pros-and-cons-bubble {
+  margin: 0;
+  margin-bottom: $margin;
+}
+
+.pros-and-cons {
+  // display: flex;
+  // flex-direction: column;
+
+  .scrollable ul {
+    max-height: 97px;
+  }
+
+  span {
+    display: block;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+  li {
+    text-align: left;
+  }
+}
+
+.approbations {
+  height: 300px;
+  margin: 0 15px;
+  overflow-y: auto;
+
+  & ul {
+    margin-bottom: 0;
+    padding: 10px;
+    list-style-type: none;
+
+    & li {
+      margin: 0;
+      margin-bottom: 5px;
+      padding: 10px;
+      border: 1px dotted $theme-blue;
+    }
+  }
+}
+
+.prices p {
+  margin: $margin;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 90px;
+  margin: auto;
+  visibility: hidden;
+}
+
+// Displays carousel controls when you hover over or touch (touchscreen) a carousel
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-control-prev {
+  visibility: visible;
+}
+
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+}
+
+.carousel-indicators button {
+  margin: 0 5px;
+  background-color: transparent !important; // hides original indicator
+}
+
+.carousel-indicators button::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+
+  button[aria-label] {
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  }
+
+  button[aria-label='front'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/home--v2.png');
+  }
+
+  button[aria-label='specs'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/clipboard.png');
+  }
+
+  button[aria-label='display'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/iphone--v2.png');
+  }
+
+  button[aria-label='build'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/wrench--v1.png');
+  }
+
+  button[aria-label='features'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/features-list.png');
+  }
+
+  button[aria-label='cameras'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='camera-features'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='camera-pros-cons'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/camera--v2.png');
+  }
+
+  button[aria-label='pros-cons'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/ok--v1.png');
+  }
+
+  button[aria-label='approbations'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/prize.png');
+  }
+
+  button[aria-label='price'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/price-tag-usd.png');
+  }
+}
