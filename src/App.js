@@ -4,7 +4,7 @@ import {
   Routes, //replaces 'Switch' used till v5
   Route,
 } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './pages';
 import Header from './components/Header/Header';
 import MyNavbar from './components/Navbar/MyNavbar';
 import About from './pages/About/About';

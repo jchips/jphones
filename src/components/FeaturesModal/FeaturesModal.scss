@@ -1,0 +1,40 @@
+@import '../../styles/colors';
+@import '../../styles/default.styles';
+
+.features-slide {
+  img {
+    width: 23px !important;
+    height: 24px !important;
+    filter: none !important;
+    transition: transform 0.5s;
+  }
+
+  img:hover {
+    transform: scale(1.2); // makes the links become larger when hovered over
+  }
+}
+
+.features-modal {
+  max-width: 700px;
+}
+
+.features-check {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // font-size: 0.9rem;
+  }
+
+  span {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features-check {
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

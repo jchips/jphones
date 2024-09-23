@@ -48,6 +48,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [HTML React Parser](https://www.npmjs.com/package/html-react-parser)
 
-- [Hero image credits (Wikipedia Commons)](https://www.rawpixel.com/image/3337332/free-photo-image-cc0-cell-phone-creative-commons)
+- [Hero image credits (by Limon Das on Pexels.com)](https://www.pexels.com/photo/grey-scale-photo-of-person-holding-smartphone-1100447/)
 
 - ['Roboto' Google font by Christian Robertson](https://fonts.google.com/specimen/Roboto?query=Christian+Robertson)

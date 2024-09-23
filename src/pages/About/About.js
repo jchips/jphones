@@ -23,7 +23,8 @@ class About extends Component {
                 <a href="mailto:jrosecow@gmail.com">Jrosecow@gmail.com</a>.
                 Check out my website at <a href='https://jrosecow.com' blank="_target">Jrosecow.com</a>.
               </p>
-              <p>This site is to compare phones and pick the best one for purchase.</p>
+              <p>This site is to compare phones and pick the best one for purchase.
+                It is made in JavaScript with React.</p>
               <br></br>
               <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger
                 swiping through the carousels on touchscreens because the carousels

@@ -5,7 +5,6 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <a href='https://www.jrosecow.com' target='_blank' rel='noreferrer'>&copy; Jrosecow</a>
         <p>Icons by <a href='https://icons8.com' title='icons' target='_blank' rel='noreferrer'>icons8.com</a></p>
       </div>
     )
