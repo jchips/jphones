@@ -52,11 +52,11 @@ class MiniCarousel extends React.Component {
 
   /**
    * Displays the expand modal so users can view the content easier.
-   * @param {String} bubble - The type of bubble the focused element is (pro bubble, cons bubble...).
+   * @param {String} bubbleType - The type of bubble the focused element is (pro bubble, cons bubble...).
    * @param {Object[]} data - An array of text (pros or cons) that will be turned to li elements.
    */
-  handleExpand = (bubble, data) => {
-    this.setState({ expandData: data, showExpandModal: true, expandedBubbleType: bubble });
+  handleExpand = (bubbleType, data) => {
+    this.setState({ expandData: data, showExpandModal: true, expandedBubbleType: bubbleType });
   }
 
   // Closes expand modal

@@ -72,18 +72,32 @@ section {
 
   .expand-btn-container {
     visibility: hidden;
+  }
 
-    .expand-btn {
-      display: flex;
-      position: absolute;
-      cursor: pointer;
-      right: 0;
-      top: 0;
-      margin: 1px;
-      margin-right: 5px;
-      min-height: 20px;
-      min-width: 20px;
-      z-index: 4;
+  .expand-btn,
+  .features-check-btn {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    margin: 1px;
+    margin-right: 5px;
+    min-height: 20px;
+    min-width: 20px;
+    z-index: 4;
+  }
+
+  .features-check-btn {
+    margin-top: 5px;
+    padding: 4px;
+    // background-color: $theme-blue;
+    background-color: $very-light-gray;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: darken($very-light-gray, 3%);
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
     }
   }
 }
@@ -194,7 +208,7 @@ section {
   }
 
   .scrollable ul {
-    max-height: 90px;
+    max-height: 87px; // 90px
   }
 
   .scrollable-long ul {

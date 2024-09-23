@@ -1,9 +1,9 @@
 import React from 'react';
 import { Alert } from 'react-bootstrap';
-import getData from '../../utils/getData';
-import DisplayOptionsForm from './DisplayOptionsForm';
-import DisplayPhones from './DisplayPhones';
-import Footer from '../Footer/Footer';
+import getData from '../utils/getData';
+import DisplayOptionsForm from '../components/Home/DisplayOptionsForm';
+import DisplayPhones from '../components/Home/DisplayPhones';
+import Footer from '../components/Footer/Footer';
 
 class Home extends React.Component {
   constructor(props) {
@@ -121,6 +121,7 @@ class Home extends React.Component {
               {/* OnePlus */}<a href='https://www.oneplus.com' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/oneplus-logo.webp' alt='OnePlus logo' /></a>
               {/* Asus */}<a href='https://www.asus.com/us/Phone/' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/asus-logo.webp' alt='Asus logo' style={{ height: 40 }} /></a>
               {/* Nothing */}<a href='https://us.nothing.tech/' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/nothing-logo.webp' alt='Nothing logo' style={{ height: 30 }} /></a>
+              {/* Motorola */}<a href='https://www.motorola.com/us/' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/motorola-logo.webp' alt='Motorola logo' /></a>
             </section>
           </div>
         )}
