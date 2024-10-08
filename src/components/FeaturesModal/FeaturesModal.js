@@ -19,7 +19,7 @@ class FeaturesModal extends Component {
       'Speakers',
       'IP rating',
       'Curved display',
-      'Curved back',
+      'Curved or rounded back',
       'Headphone jack',
       'Storage type',
       'Expandable storage',
@@ -29,7 +29,7 @@ class FeaturesModal extends Component {
       'Wireless charging',
       'Reverse wireless charging',
       'Multitask split-screen',
-      'OS updates',
+      'Updates',
       'AI',
       'Assistant',
     ];
