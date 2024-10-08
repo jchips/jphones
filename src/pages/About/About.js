@@ -21,7 +21,6 @@ class About extends Component {
                 information in one place.
                 I'm an entry-level full-stack software developer job-seeking and can be contacted at{' '}
                 <a href="mailto:jrosecow@gmail.com">Jrosecow@gmail.com</a>.
-                Check out my website at <a href='https://jrosecow.com' blank="_target">Jrosecow.com</a>.
               </p>
               <p>This site is to compare phones and pick the best one for purchase.
                 It is made in JavaScript with React.</p>
