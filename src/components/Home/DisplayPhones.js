@@ -1,6 +1,5 @@
 import React from 'react';
 import Row from '../Row/Row';
-import rows from '../../json/rows.json';
 import './DisplayPhones.scss';
 
 // Props (from index.js): {
@@ -14,10 +13,8 @@ class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget'],
-      rowsUpdate: rows,
-      showAll: [],
-    }
+      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
+    };
     this.year = 2023;
   }
 
@@ -29,28 +26,80 @@ class DisplayPhones extends React.Component {
   getLogoTitle = (rowTitle) => {
     let array = rowTitle.split(' ');
     return array[0];
-  }
+  };
 
   /**
-   * Returns either all phones in matching row or only phones for the matching row that
-   * are current (released in 2022 or sooner) depending on what the user selected to view.
-   * If the user entered a search, it only returns the phones from above that match
-   * the search.
+   * Returns all phones with applied settings, filters, and search queries.
    * @param {String} rowTitle - The title of the row to display phones in.
    * @param {String} searchValue - The phone the user searched for (in lower case).
-   * @returns {Object[]} - An array of either all the phone or just the current phones.
+   * @returns {Object[]} - An array of either all the phones or just current phones.
    */
   determineData = (rowTitle, searchValue, showAll) => {
-    let dataArray = this.props.data.filter(rowData => rowData.name.includes(rowTitle)); // gets only the matching row's data and puts it in new array
+    const { filters, data } = this.props;
+    let activeFilters = filters.filter((filter) => filter.checked).map((filter) => filter.title);
+    // gets only the matching row's data and puts it in new array
+    let dataArray = data.filter(rowData => rowData.name.includes(rowTitle));
+
+    let rowData = dataArray[0].rowData;
     let search = searchValue.split(' ');
+    if (activeFilters.length) {
+      if (activeFilters.find(filter => filter === 'Foldable')) {
+        rowData = rowData.filter((phone) => phone.foldable);
+      }
+      if (activeFilters.find(filter => filter === '$600 or less')) {
+        rowData = rowData.filter((phone) => {
+          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          return phone.prices && getNum <= 600
+        })
+      }
+      if (activeFilters.find(filter => filter === '>$1000')) {
+        rowData = rowData.filter((phone) => {
+          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          return phone.prices && getNum >= 1000
+        })
+      }
+      rowData = rowData.filter((phone) => activeFilters.includes(this.determinePhoneFilter(phone, rowTitle)))
+    }
     if (this.props.displayAllPhones === true) {
-      return dataArray[0].rowData.filter(phone => this.searchPattern(search).test(phone.offName.toLowerCase()));
+      return rowData.filter((phone) =>
+        this.searchPattern(search).test(phone.offName.toLowerCase())
+      );
     } else if (!this.props.displayAllPhones && showAll) {
-      return dataArray[0].rowData.filter(phone => this.searchPattern(search).test(phone.offName.toLowerCase()));
+      return rowData.filter((phone) =>
+        this.searchPattern(search).test(phone.offName.toLowerCase())
+      );
     } else {
-      return dataArray[0].rowData
-        .filter(phone => parseInt(phone.year) >= this.year)
-        .filter(phone => this.searchPattern(search).test(phone.offName.toLowerCase()));
+      return rowData
+        .filter((phone) => parseInt(phone.year) >= this.year)
+        .filter((phone) =>
+          this.searchPattern(search).test(phone.offName.toLowerCase())
+        );
+    }
+  };
+
+  /**
+   * Determines whether the current filters applies to `phone` based on the
+   * phone's official name.
+   * @param {Object} phone - A phone item.
+   * @param {String} rowTitle - The title of the current row.
+   * @returns {String} - The selected active filter.
+   */
+  determinePhoneFilter = (phone, rowTitle) => {
+    const phoneName = phone.offName;
+    if (phoneName.includes('Samsung')) {
+      return 'Samsung';
+    } else if (phoneName.includes('OnePlus')) {
+      return 'OnePlus';
+    } else if (phoneName.includes('Nothing')) {
+      return 'Nothing';
+    } else if (phoneName.includes('Pixel')) {
+      return 'Pixel';
+    } else if (phoneName.includes('Apple')) {
+      return 'Apple';
+    } else if (phoneName.includes('motorola')) {
+      return 'Motorola';
+    } else {
+      return rowTitle;
     }
   }
 
@@ -75,37 +124,28 @@ class DisplayPhones extends React.Component {
 
     let pattern = new RegExp(`.*(${search.join('.*')}).*`, 'gm');
     return pattern;
-  }
-
-  /**
-   * Changes of the state of the row's display toggle.
-   * @param {Event} e - Toggle event.
-   * @param {String} rowTitle - The title of the row to display phones in.
-   */
-  handleRowDisplay = (e, rowTitle) => {
-    if (e.target.checked) {
-      this.setState({ showAll: [...this.state.showAll, rowTitle] });
-    } else {
-      this.setState({})
-    }
-  }
+  };
 
   render() {
+    const { rows } = this.state;
     return (
       <>
         {/* Creates a row with a scrollbar for each row title in rows[] */}
-        {this.state.rowsUpdate.map((row, index) =>
-          <Row
-            rowTitle={row.title}
-            determineData={this.determineData}
-            getLogoTitle={this.getLogoTitle}
-            searchValue={this.props.searchValue}
-            mmToggle={this.props.mmToggle}
-            index={index}
-          />
-        )}
+        {rows
+          ? rows.map((row, index) => (
+            <Row
+              key={index}
+              rowTitle={row}
+              determineData={this.determineData}
+              getLogoTitle={this.getLogoTitle}
+              searchValue={this.props.searchValue}
+              mmToggle={this.props.mmToggle}
+              index={index}
+            />
+          ))
+          : null}
       </>
-    )
+    );
   }
 }
 

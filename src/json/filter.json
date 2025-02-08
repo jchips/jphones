@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Pixel",
+    "checked": false
+  },
+  {
+    "title": "Samsung",
+    "checked": false
+  },
+  {
+    "title": "Apple",
+    "checked": false
+  },
+  {
+    "title": "OnePlus",
+    "checked": false
+  },
+  {
+    "title": "Foldable",
+    "checked": false
+  },
+  {
+    "title": "Nothing",
+    "checked": false
+  },
+  {
+    "title": "Motorola",
+    "checked": false
+  },
+  {
+    "title": "$600 or less",
+    "checked": false
+  },
+  {
+    "title": ">$1000",
+    "checked": false
+  }
+]
