@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter,
-  Routes, //replaces 'Switch' used till v5
+  Routes,
   Route,
 } from 'react-router-dom';
 import Home from './pages';
