@@ -1,6 +1,6 @@
 # jPhones
 
-jPhones phone specs. I am a phone geek, so I decided to make a site for phone shoppers to compare and find the best phone for them. I combine official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best information in one place. All phone data is from my JPhones API.
+jPhones is a website for phone shoppers to compare phones and find the best phone for their needs. jPhones combines official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best information in one place.
 
 Live site: <https://jphones.netlify.app/>
 
@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
+- 02-07-2025 (4.0.1) - Toggle display for each phone display section on main page.
 - 08-25-2024 (4.0.0) - Refactored code, separate Display slide for carousels, millimeters toggle, new font, minor improvements
 - 08-17-2024 (3.1.1) - Disabled swipe for mobile, added Nothing Phones page.
 - 08-09-2024 (3.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.
