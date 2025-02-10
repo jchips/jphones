@@ -4,12 +4,14 @@ import getData from '../utils/getData';
 import DisplayOptionsForm from '../components/Home/DisplayOptionsForm';
 import DisplayPhones from '../components/Home/DisplayPhones';
 import Footer from '../components/Footer/Footer';
+import filters from '../json/filter.json';
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: [],
+      filters: filters,
       error: '',
       searchValue: '',
       mmToggle: false,
@@ -19,7 +21,7 @@ class Home extends React.Component {
   }
 
   /**
-   * Sets the displayAllPhones state to true or false depending on which display the user wants to see.
+   * Seta the `displayAllPhones state` to true or false depending on which display the user wants to see.
    * @param {String} selectedOption - whichever radio button value the user selects (from DisplayOptionsForm.js).
    */
   setDisplay = (selectedOption) => {
@@ -32,11 +34,19 @@ class Home extends React.Component {
   }
 
   /**
-   * Sets the searchValue state to whatever the user searched for.
+   * Seta the `searchValue` state to whatever the user searched for.
    * @param {String} searchValue - The phone the user searched for (in lower case) - (from DisplayOptionsForm.js).
    */
   setSearch = (searchValue) => {
     this.setState({ searchValue });
+  }
+
+  /**
+   * Sets the `rows` state
+   * @param {Object} filters - the rows
+   */
+  setFilters = (filters) => {
+    this.setState({ filters });
   }
 
   // Fetches all the budget phones in the data, sorts them, and adds them to state.
@@ -105,12 +115,15 @@ class Home extends React.Component {
         {!this.state.isLoading && (
           <div>
             <DisplayOptionsForm
+              filters={this.state.filters}
+              setFilters={this.setFilters}
               setDisplay={this.setDisplay}
               setSearch={this.setSearch}
               setMMToggle={this.setMMToggle}
               displayAllPhones={this.state.displayAllPhones} />
             <DisplayPhones
               data={this.state.data}
+              filters={this.state.filters}
               mmToggle={this.state.mmToggle}
               displayAllPhones={this.state.displayAllPhones}
               searchValue={this.state.searchValue} />

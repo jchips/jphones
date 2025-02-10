@@ -27,12 +27,12 @@ class Row extends Component {
           <img src={`assets/imgs/logos/${getLogoTitle(rowTitle)}-logo.webp`} alt={`${getLogoTitle(rowTitle)} logo`} />
         </div>
 
-        <div class='form-container'>
+        <div className='form-container'>
           <FormCheck
             type='switch'
             id='row-toggle'
             label={`show all ${rowTitle} phones`}
-            onChange={(e) => this.handleRowDisplay(e, rowTitle)}
+            onChange={this.handleRowDisplay}
           />
         </div>
 
