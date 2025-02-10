@@ -123,7 +123,6 @@ class Home extends React.Component {
               displayAllPhones={this.state.displayAllPhones} />
             <DisplayPhones
               data={this.state.data}
-              // rows={this.state.rows}
               filters={this.state.filters}
               mmToggle={this.state.mmToggle}
               displayAllPhones={this.state.displayAllPhones}

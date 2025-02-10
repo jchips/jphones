@@ -14,7 +14,7 @@ Live site: <https://jphones.netlify.app/>
 
 ## Changelog
 
-- 02-07-2025 (4.0.1) - Toggle display for each phone display section on main page.
+- 02-10-2025 (4.0.1) - Added more display options, filters.
 - 08-25-2024 (4.0.0) - Refactored code, separate Display slide for carousels, millimeters toggle, new font, minor improvements
 - 08-17-2024 (3.1.1) - Disabled swipe for mobile, added Nothing Phones page.
 - 08-09-2024 (3.1.0) - Added icons for carousels, styled reviewer quotes, added a page footer.

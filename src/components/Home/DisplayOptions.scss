@@ -22,6 +22,7 @@ form {
   .form-container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   legend {
@@ -33,6 +34,15 @@ form {
   .form-check-label {
     margin: 5px; // 0 5px;
   }
+}
+
+.filters-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $theme-blue;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .form-check {
