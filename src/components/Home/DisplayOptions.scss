@@ -43,6 +43,10 @@ form {
   color: $theme-blue;
   margin: 5px;
   cursor: pointer;
+
+  p {
+    margin-bottom: 5px;
+  }
 }
 
 .form-check {
