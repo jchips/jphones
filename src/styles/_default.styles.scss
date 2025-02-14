@@ -2,6 +2,10 @@ $margin: 10px;
 $borderRadius: 10px;
 $p-margin-v-small: 5px 0;
 
+@mixin largeText {
+  font-size: larger;
+}
+
 @mixin side-note {
   font-size: small;
   font-style: italic;
