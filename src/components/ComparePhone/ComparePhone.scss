@@ -1,0 +1,77 @@
+@import '../../styles/colors';
+@import '../../styles/default.styles';
+
+.compare-phone__container {
+  $boldFont: 500;
+  $regularFont: 400;
+
+  .img__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .release__container {
+    display: flex;
+    justify-content: center;
+
+    span {
+      color: #000;
+      font-weight: $boldFont;
+    }
+  }
+
+  .accordion-body {
+    padding-top: 0 !important;
+    @include p-margin-even;
+  }
+
+  .list-group-item {
+    padding: 5px;
+  }
+
+  .list-item {
+    padding: $margin 15px;
+  }
+
+  .item-title {
+    color: #000;
+    font-weight: $boldFont;
+  }
+
+  .data {
+    font-weight: $boldFont;
+    color: $orange;
+  }
+
+  .color-sqr {
+    width: 25%;
+    border-radius: $borderRadiusSmall;
+  }
+
+  .feature-check-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: $margin;
+
+    &>* {
+      margin: 0 5px;
+    }
+
+    // background-color: $orange;
+  }
+
+  .light-gray-bg {
+    // width: 95%;
+    // margin: $margin;
+    margin: 15px auto;
+    background-color: $very-light-gray;
+    border-radius: $borderRadius;
+
+    .item-title,
+    .data {
+      font-size: 0.9rem;
+    }
+  }
+}

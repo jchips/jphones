@@ -38,7 +38,7 @@ class Apple extends React.Component {
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className="apple company">
+          <div className='apple company'>
             <h2>iPhones</h2>
             <Container>
               <BrandCarousel brand={brandData.iphone} />

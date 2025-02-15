@@ -20,7 +20,7 @@
       }
 
       .selected-phone-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 500;
       }
     }
@@ -30,13 +30,14 @@
       grid-template-columns: 1fr 1fr;
     }
 
-    .accordion {
-      border-width: 0 !important;
-    }
-
     .accordion-body {
       padding: 0;
       padding-top: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+      border-radius: $borderRadiusSmall;
     }
 
     .accordion-header {
@@ -54,12 +55,14 @@
 
       .accordion-button:not(.collapsed) {
         color: #000;
+        border-radius: $borderRadiusSmall;
         background-color: $very-light-gray;
         box-shadow: none;
       }
 
       .form-select {
         margin-bottom: $margin;
+        border-width: 0;
       }
     }
 

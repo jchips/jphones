@@ -5,7 +5,7 @@
     "selected": false,
     "routes": [
       "pixels",
-      "foldables?cate=Fold"
+      "foldables?cat=Fold"
     ]
   },
   {
@@ -15,8 +15,8 @@
     "routes": [
       "samsung-s",
       "samsung-a",
-      "foldables?cate=Z Fold",
-      "foldables?cate=Z Flip",
+      "foldables?cat=Z Fold",
+      "foldables?cat=Z Flip",
       "notes"
     ]
   },
@@ -34,7 +34,7 @@
     "selected": false,
     "routes": [
       "oneplus",
-      "foldables?cate=Open"
+      "foldables?cat=Open"
     ]
   },
   {
@@ -42,7 +42,7 @@
     "name": "Motorola",
     "selected": false,
     "routes": [
-      "foldables?cate=razr"
+      "foldables?cat=razr"
     ]
   },
   {

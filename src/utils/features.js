@@ -1,0 +1,26 @@
+const features = [
+  '5G support',
+  'Wi-Fi',
+  'HDR support',
+  'Always-on display (AOD)',
+  'Mute switch',
+  'Refresh rate',
+  'Speakers',
+  'IP rating',
+  'Curved display',
+  'Curved or rounded back',
+  'Headphone jack',
+  'Storage type',
+  'Expandable storage',
+  'Dual SIM support',
+  'Face unlock',
+  'Fingerprint sensor',
+  'Wireless charging',
+  'Reverse wireless charging',
+  'Multitask split-screen',
+  'Updates',
+  'AI',
+  'Assistant',
+];
+
+export default features;

@@ -20,7 +20,7 @@ class About extends Component {
                 Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best
                 information in one place.
                 I'm an entry-level full-stack software developer job-seeking and can be contacted at{' '}
-                <a href="mailto:jrosecow@gmail.com">Jrosecow@gmail.com</a>.
+                <a href='mailto:jrosecow@gmail.com'>Jrosecow@gmail.com</a>.
               </p>
               <p>This site is to compare phones and pick the best one for purchase.
                 It is made in JavaScript with React.</p>
@@ -31,7 +31,7 @@ class About extends Component {
                 info on a mobile screen, (1) tap the phone's carousel, (2) then
                 use the arrows that appear to navigate through the slides.</p>
               <Accordion>
-                <Accordion.Item eventKey="0">
+                <Accordion.Item eventKey='0'>
                   <Accordion.Header>jPhones Glossary</Accordion.Header>
                   <Accordion.Body>
                     {abbreviations.map(abbr =>

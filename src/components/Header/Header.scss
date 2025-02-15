@@ -29,7 +29,8 @@ $scrollAnimation: calc(var(--scroll) * -1s);
   & h1 {
     font-size: 5rem;
     text-transform: uppercase;
-    color: $yellow;
+    // color: $yellow;
+    color: $orange;
     animation: reduce 0.1s ease-out;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;

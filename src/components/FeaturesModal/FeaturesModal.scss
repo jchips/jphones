@@ -10,7 +10,7 @@
   }
 
   img:hover {
-    transform: scale(1.2); // makes the links become larger when hovered over
+    transform: scale(1.2); // Becomes larger when hovered over
   }
 }
 
@@ -22,7 +22,6 @@
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // font-size: 0.9rem;
   }
 
   span {

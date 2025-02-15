@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Accordion } from "react-bootstrap";
-import WideCarousel from "./Carousels/WideCarousel";
+import React, { Component } from 'react';
+import { Accordion } from 'react-bootstrap';
+import WideCarousel from './Carousels/WideCarousel';
 
 class ModelAccordion extends Component {
   // filters and returns only phones in the given category
@@ -13,13 +13,13 @@ class ModelAccordion extends Component {
 
   render() {
     let categoryData = this.filterData();
-    let typeOfPhone = categoryData[0].name.split(" ")[0];
+    let typeOfPhone = categoryData[0].name.split(' ')[0];
     return (
       <div>
         <Accordion id={this.props.category}>
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey='0'>
             <Accordion.Header>
-              {this.props.data[0].foldable ? `${typeOfPhone} ${this.props.category} ` : `${this.props.data[0].name.split(" ")[0]} ${this.props.category} `}
+              {this.props.data[0].foldable ? `${typeOfPhone} ${this.props.category} ` : `${this.props.data[0].name.split(' ')[0]} ${this.props.category} `}
               series
             </Accordion.Header>
             <Accordion.Body>
