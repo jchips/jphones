@@ -12,7 +12,6 @@ class MyNavbar extends React.Component {
             <Navbar.Brand href='/'>jPhones</Navbar.Brand>
             <Nav activeKey={window.location.pathname}>
               <Nav.Link href='/'>Home</Nav.Link>
-              <Nav.Link href='/about'>About</Nav.Link>
               <Nav.Link href='/compare'>Compare</Nav.Link>
               <NavDropdown title='Companies' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='/apple'>Apple</NavDropdown.Item>
@@ -22,6 +21,7 @@ class MyNavbar extends React.Component {
                 <NavDropdown.Item href='/oneplus'>OnePlus</NavDropdown.Item>
                 <NavDropdown.Item href='/samsung'>Samsung</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href='/about'>About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

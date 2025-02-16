@@ -14,7 +14,7 @@ class CompareDisplay extends Component {
       },
       {
         title: phone.foldable
-          ? 'Main display resolution inner)'
+          ? 'Main display resolution (inner)'
           : 'Display resolution',
         phone_data: phone.foldable ? phone.display.innerRes : phone.display.res,
       },

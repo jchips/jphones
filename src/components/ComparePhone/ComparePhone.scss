@@ -23,6 +23,33 @@
   .accordion-body {
     padding-top: 0 !important;
     @include p-margin-even;
+
+    .accordion {
+      padding: $margin;
+    }
+
+    .accordion-header {
+      button {
+        background-color: $very-light-gray;
+      }
+    }
+
+    a {
+      color: $note;
+      font-size: 0.8rem;
+      display: inline;
+      text-decoration: none;
+
+      &:hover {
+        color: darken($note, 15%);
+        font-weight: 500;
+      }
+    }
+  }
+
+  .no-data {
+    padding: $margin;
+    color: #6a737d;
   }
 
   .list-group-item {
@@ -39,10 +66,15 @@
   }
 
   .data {
-    font-weight: $boldFont;
     color: $orange;
+    font-weight: $boldFont;
 
-    span {
+    .tag {
+      color: $offBlack;
+      font-weight: $regularFont;
+    }
+
+    .sub-data {
       color: $gray-text;
       font-weight: 400;
       font-size: small;
@@ -55,6 +87,7 @@
     border-radius: $borderRadiusSmall;
   }
 
+  .ddBtn,
   .feature-check-btn {
     display: flex;
     justify-content: center;
@@ -65,13 +98,9 @@
     &>* {
       margin: 0 5px;
     }
-
-    // background-color: $orange;
   }
 
   .light-gray-bg {
-    // width: 95%;
-    // margin: $margin;
     margin: 15px auto;
     background-color: $very-light-gray;
     border-radius: $borderRadius;
@@ -83,6 +112,15 @@
     .item-title,
     .data {
       font-size: 0.9rem;
+    }
+  }
+
+  .buy-link {
+    text-align: center;
+
+    &:visited {
+      border: 1px solid #dee2e6; // bootstrap --bs-border-color
+      background-color: #fff;
     }
   }
 }

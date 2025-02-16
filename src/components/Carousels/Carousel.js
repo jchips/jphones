@@ -89,7 +89,7 @@ class MiniCarousel extends React.Component {
           <Carousel.Item className='first-slide'>
             <h2>{phone.name}</h2>
             <h5>{phone.brand} / {phone.os}</h5>
-            <div className='img-container'>
+            <div className='img__container'>
               <LazyLoadImage src={phone.img} alt={phone.name} />
             </div>
             <h6>{phone.released}</h6>

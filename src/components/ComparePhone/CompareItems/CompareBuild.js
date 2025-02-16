@@ -7,7 +7,7 @@ class CompareBuild extends Component {
     const title = 'Build';
     const data = [
       {
-        title: 'Front',
+        title: 'Front (screen)',
         phone_data: phone.build.front,
       },
       {
@@ -27,9 +27,7 @@ class CompareBuild extends Component {
       },
     ];
     return (
-      <div>
-        <HStackCompare phone={phone} title={title} data={data} />
-      </div>
+      <HStackCompare phone={phone} title={title} data={data} />
     );
   }
 }

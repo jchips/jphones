@@ -1,3 +1,5 @@
+@import '../../styles/colors';
+
 #basic-navbar-nav.show,
 .navbar .collapsing {
   padding: 10px;
@@ -5,4 +7,8 @@
 
 a.navbar-brand {
   font-weight: 600;
+}
+
+.nav-link.active {
+  color: $orange !important;
 }

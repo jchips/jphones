@@ -7,9 +7,12 @@ import CompareSpecs from './CompareItems/CompareSpecs';
 import CompareDisplay from './CompareItems/CompareDisplay';
 import CompareColors from './CompareItems/CompareColors';
 import CompareFeatures from './CompareItems/CompareFeatures';
-import './ComparePhone.scss';
 import CompareBuild from './CompareItems/CompareBuild';
 import CompareCameras from './CompareItems/CompareCameras';
+import CompareCamPC from './CompareItems/CompareCamPC';
+import ComparePC from './CompareItems/ComparePC';
+import ComparePrice from './CompareItems/ComparePrice';
+import './ComparePhone.scss';
 
 class ComparePhone extends Component {
   render() {
@@ -29,6 +32,9 @@ class ComparePhone extends Component {
           <CompareFeatures phone={phone} />
           <CompareBuild phone={phone} />
           <CompareCameras phone={phone} />
+          <CompareCamPC phone={phone} />
+          <ComparePC phone={phone} />
+          <ComparePrice phone={phone} />
         </Accordion>
       </Container>
     );
