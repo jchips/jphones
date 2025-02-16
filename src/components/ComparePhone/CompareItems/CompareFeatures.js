@@ -36,7 +36,7 @@ class CompareFeatures extends Component {
 
   render() {
     const { phone } = this.props;
-    const { showFeaturesCheck, showAI } = this.state;
+    const { showFeaturesCheck } = this.state;
     const title = 'Features';
     return (
       <Accordion.Item eventKey={title}>

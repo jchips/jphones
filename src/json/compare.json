@@ -54,8 +54,8 @@
     ]
   },
   {
-    "id": "nothing",
-    "name": "Nothing",
+    "id": "nothing-phone",
+    "name": "Nothing Phone",
     "selected": false,
     "routes": [
       "nothing"

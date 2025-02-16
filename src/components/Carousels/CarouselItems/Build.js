@@ -11,7 +11,6 @@ const Build = (props) => {
       <div className='build-slide'>
         <div className='build blue-text gray-bubble'>
           <h4>Build</h4>
-          {/* <p>{phone.build}</p> */}
           {phone.build ? (
             <>
               <p><span>Front: </span>{phone.build.front}</p>

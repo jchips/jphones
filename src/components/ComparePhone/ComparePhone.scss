@@ -41,6 +41,13 @@
   .data {
     font-weight: $boldFont;
     color: $orange;
+
+    span {
+      color: $gray-text;
+      font-weight: 400;
+      font-size: small;
+      // font-style: italic;
+    }
   }
 
   .color-sqr {
@@ -68,6 +75,10 @@
     margin: 15px auto;
     background-color: $very-light-gray;
     border-radius: $borderRadius;
+
+    .data {
+      color: $bootstrap-blue;
+    }
 
     .item-title,
     .data {

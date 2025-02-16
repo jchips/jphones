@@ -22,6 +22,7 @@ class FeaturesModal extends Component {
 
     return () => window.removeEventListener('resize', handleResize);
   }
+
   render() {
     const {
       featuresCheckData,

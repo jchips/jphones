@@ -8,6 +8,8 @@ import CompareDisplay from './CompareItems/CompareDisplay';
 import CompareColors from './CompareItems/CompareColors';
 import CompareFeatures from './CompareItems/CompareFeatures';
 import './ComparePhone.scss';
+import CompareBuild from './CompareItems/CompareBuild';
+import CompareCameras from './CompareItems/CompareCameras';
 
 class ComparePhone extends Component {
   render() {
@@ -25,6 +27,8 @@ class ComparePhone extends Component {
           <CompareColors phone={phone} />
           <CompareDisplay phone={phone} />
           <CompareFeatures phone={phone} />
+          <CompareBuild phone={phone} />
+          <CompareCameras phone={phone} />
         </Accordion>
       </Container>
     );

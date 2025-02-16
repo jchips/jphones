@@ -19,11 +19,11 @@ class About extends Component {
                 I combine official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and
                 Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best
                 information in one place.
-                I'm an entry-level full-stack software developer job-seeking and can be contacted at{' '}
+                I am a full-stack software developer and can be contacted at{' '}
                 <a href='mailto:jrosecow@gmail.com'>Jrosecow@gmail.com</a>.
               </p>
               <p>This site is to compare phones and pick the best one for purchase.
-                It is made in JavaScript with React.</p>
+                It is made with React, Sass, and Bootstrap.</p>
               <br></br>
               <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger
                 swiping through the carousels on touchscreens because the carousels
