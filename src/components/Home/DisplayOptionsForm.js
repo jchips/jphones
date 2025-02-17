@@ -4,7 +4,7 @@
 import React from 'react';
 import { FormCheck, FormGroup } from 'react-bootstrap';
 import { FaSearch } from 'react-icons/fa';
-import { HiChevronDown, HiChevronUp } from "react-icons/hi";
+import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 import './DisplayOptions.scss';
 
 class DisplayOptionsForm extends React.Component {
@@ -15,7 +15,6 @@ class DisplayOptionsForm extends React.Component {
     };
   }
 
-  // Change filters button state.
   setShowFilters = () => {
     this.setState({ showFilters: !this.state.showFilters });
   }

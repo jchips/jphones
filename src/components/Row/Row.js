@@ -27,6 +27,7 @@ class Row extends Component {
           <img src={`assets/imgs/logos/${getLogoTitle(rowTitle)}-logo.webp`} alt={`${getLogoTitle(rowTitle)} logo`} />
         </div>
 
+        {/* Show all phones toggle */}
         <div className='form-container'>
           <FormCheck
             type='switch'

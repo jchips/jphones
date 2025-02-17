@@ -1,0 +1,85 @@
+@import '../../styles/colors';
+@import '../../styles/default.styles';
+
+.compare {
+  .compare_wrapper {
+    min-height: 100vh;
+
+    h1 {
+      text-align: center;
+    }
+
+    .compare-header {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &>* {
+        margin: 0 5px;
+      }
+
+      .selected-phone-title {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+
+    .radio-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .accordion-body {
+      padding: 0;
+      padding-top: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+      border-radius: $borderRadiusSmall;
+    }
+
+    .accordion-header {
+      color: $bootstrap-blue;
+      font-weight: 500;
+      @include largeText;
+    }
+
+    .groups {
+      margin: 10px;
+
+      .accordion-body {
+        padding-top: 0;
+      }
+
+      .accordion-button:not(.collapsed) {
+        color: #000;
+        border-radius: $borderRadiusSmall;
+        background-color: $very-light-gray;
+        box-shadow: none;
+      }
+
+      .form-select {
+        margin-bottom: $margin;
+        border-width: 0;
+      }
+    }
+
+    .form-check {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 3px;
+      padding: 0;
+
+      &>* {
+        margin: 5px;
+      }
+    }
+
+    .form-check-input {
+      margin: 0;
+    }
+  }
+}

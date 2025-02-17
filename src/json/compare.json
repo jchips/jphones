@@ -1,0 +1,64 @@
+[
+  {
+    "id": "google-pixel",
+    "name": "Google Pixel",
+    "selected": false,
+    "routes": [
+      "pixels",
+      "foldables?cat=Fold"
+    ]
+  },
+  {
+    "id": "samsung-galaxy",
+    "name": "Samsung Galaxy",
+    "selected": false,
+    "routes": [
+      "samsung-s",
+      "samsung-a",
+      "foldables?cat=Z Fold",
+      "foldables?cat=Z Flip",
+      "notes"
+    ]
+  },
+  {
+    "id": "apple-iphone",
+    "name": "Apple iPhone",
+    "selected": false,
+    "routes": [
+      "iphones"
+    ]
+  },
+  {
+    "id": "oneplus",
+    "name": "OnePlus",
+    "selected": false,
+    "routes": [
+      "oneplus",
+      "foldables?cat=Open"
+    ]
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "selected": false,
+    "routes": [
+      "foldables?cat=razr"
+    ]
+  },
+  {
+    "id": "asus",
+    "name": "Asus",
+    "selected": false,
+    "routes": [
+      "asus"
+    ]
+  },
+  {
+    "id": "nothing-phone",
+    "name": "Nothing Phone",
+    "selected": false,
+    "routes": [
+      "nothing"
+    ]
+  }
+]

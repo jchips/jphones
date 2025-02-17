@@ -33,12 +33,12 @@ class Apple extends React.Component {
 
   render() {
     let { error, isLoading, iPhoneData, brandData } = this.state;
-    let series = ['15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
+    let series = ['16', '15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
-          <div className="apple company">
+          <div className='apple company'>
             <h2>iPhones</h2>
             <Container>
               <BrandCarousel brand={brandData.iphone} />

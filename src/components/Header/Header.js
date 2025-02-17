@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Header.scss';
 
 class Header extends React.Component {
@@ -6,11 +6,11 @@ class Header extends React.Component {
     return (
       <>
         <header>
-          <div className="hero-image">
-            <div id="hero-1" className="hero-text">
+          <div className='hero-image'>
+            <div id='hero-1' className='hero-text'>
               <h1>jPhones</h1>
             </div>
-            <div id="hero-2" className="hero-text">
+            <div id='hero-2' className='hero-text'>
               <h2>Helping you choose your next smartphone!</h2>
             </div>
           </div>
