@@ -210,7 +210,7 @@ class CompareCameras extends Component {
                     )}
                     <Stack direction='horizontal'>
                       <div className='p-2 item-title'>
-                        Video recording (rear)
+                        Video recording (rear):
                       </div>
                       {rearCameras.video.map((quality) => (
                         <div className='p-2 data'>{quality}</div>
@@ -218,7 +218,7 @@ class CompareCameras extends Component {
                     </Stack>
                     <Stack direction='horizontal'>
                       <div className='p-2 item-title'>
-                        Video recording (selfie)
+                        Video recording (selfie):
                       </div>
                       {front.video.map((quality) => (
                         <div className='p-2 data'>{quality}</div>

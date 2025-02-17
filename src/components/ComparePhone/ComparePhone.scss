@@ -69,16 +69,16 @@
     color: $orange;
     font-weight: $boldFont;
 
-    .tag {
-      color: $offBlack;
-      font-weight: $regularFont;
-    }
-
+    .tag,
     .sub-data {
       color: $gray-text;
-      font-weight: 400;
+      font-weight: $regularFont;
       font-size: small;
-      // font-style: italic;
+    }
+
+    .tag {
+      color: $orange;
+      font-weight: $boldFont;
     }
   }
 
