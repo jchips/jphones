@@ -15,7 +15,7 @@ class Samsung extends Component {
       samsungAData: [],
       noteData: [],
       foldableData: [],
-      brandData: [],
+      brandData: {},
       mmToggle: false,
       error: '',
       isLoading: true
@@ -28,7 +28,7 @@ class Samsung extends Component {
       let samsungSData = await getData('samsung-s');
       let samsungAData = await getData('samsung-a');
       let noteData = await getData('notes');
-      let brandData = await getData('brand-data');
+      let brandData = await getData('brand-data?cat=galaxy');
       let foldableData = await getData('foldables');
       this.setState({ samsungSData, samsungAData, noteData, foldableData, brandData, isLoading: false });
     } catch (error) {
@@ -47,7 +47,7 @@ class Samsung extends Component {
           <div className='samsung company'>
             <h2>Samsung Phones</h2>
             <Container>
-              <BrandCarousel brand={brandData.galaxy} />
+              <BrandCarousel brand={brandData} />
             </Container>
             <FormCheck
               type='switch'

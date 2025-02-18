@@ -33,39 +33,6 @@ class CompareCameras extends Component {
     const macro = rearCameras?.macro;
     const front = phone?.cameraDetails?.frontCameras;
     const cameraFeatures = phone.cameraFeatures;
-    //   {
-    //     title: 'Primary',
-    //     phone_data: phone.rearCameras.primary,
-    //     sub_data: primary ? `${primary?.mm}mm, ${primary?.aperture}, ${primary?.ois ? 'OIS' : null}, ${primary?.eis ? 'EIS' : null}, ${primary?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    //   {
-    //     title: 'Ultra-wide',
-    //     phone_data: phone.rearCameras.ultrawide,
-    //     sub_data: uw ? `${uw?.mm}mm, ${uw?.aperture}, ${uw?.ois ? 'OIS' : null}, ${uw?.eis ? 'EIS' : null}, ${uw?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    //   {
-    //     title: 'Telephoto',
-    //     phone_data: phone.rearCameras.telephoto,
-    //     paren_data: telephoto ? `${telephoto.opt_zoom}` : null,
-    //     sub_data: telephoto ? `${telephoto?.mm}mm, ${telephoto?.aperture}, ${telephoto?.ois ? 'OIS' : null}, ${telephoto?.eis ? 'EIS' : null}, ${telephoto?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    //   {
-    //     title: 'Periscope',
-    //     phone_data: phone.rearCameras?.periscope,
-    //     paren_data: periscope ? `${periscope.opt_zoom}` : null,
-    //     sub_data: periscope ? `${periscope?.mm}mm, ${periscope?.aperture}, ${periscope?.ois ? 'OIS' : null}, ${periscope?.eis ? 'EIS' : null}, ${periscope?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    //   {
-    //     title: 'Macro',
-    //     phone_data: phone.rearCameras?.macro,
-    //     sub_data: macro ? `${macro?.mm}mm, ${macro?.aperture}, ${macro?.ois ? 'OIS' : null}, ${macro?.eis ? 'EIS' : null}, ${macro?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    //   {
-    //     title: 'Front',
-    //     phone_data: phone.frontCameras,
-    //     sub_data: front ? `${front?.mm}mm, ${front?.aperture}, ${front?.ois ? 'OIS' : null}, ${front?.eis ? 'EIS' : null}, ${front?.pdaf ? 'PDAF' : null}` : null,
-    //   },
-    // ];
     const cameraData = [
       {
         title: 'Primary',
@@ -178,9 +145,9 @@ class CompareCameras extends Component {
                 </Button>
                 {showCameraDetails ? (
                   <div className='light-gray-bg'>
-                    {cameraData.map((item) =>
+                    {cameraData.map((item, index) =>
                       item.phone_data ? (
-                        <ListGroupItem as={'div'} action>
+                        <ListGroupItem as={'div'} key={index} action>
                           <Stack direction='horizontal'>
                             <div className='p-2 item-title'>{item.title}:</div>
                             <div className='p-2 data'>{item.phone_data}</div>
@@ -213,7 +180,7 @@ class CompareCameras extends Component {
                         Video recording (rear):
                       </div>
                       {rearCameras.video.map((quality) => (
-                        <div className='p-2 data'>{quality}</div>
+                        <div className='p-2 data' key={quality}>{quality}</div>
                       ))}
                     </Stack>
                     <Stack direction='horizontal'>
@@ -221,7 +188,7 @@ class CompareCameras extends Component {
                         Video recording (selfie):
                       </div>
                       {front.video.map((quality) => (
-                        <div className='p-2 data'>{quality}</div>
+                        <div className='p-2 data' key={quality}>{quality}</div>
                       ))}
                     </Stack>
                   </div>
@@ -231,9 +198,9 @@ class CompareCameras extends Component {
           ) : null}
           {cameraData ? (
             <ListGroup variant='flush'>
-              {cameraData.map((item) =>
+              {cameraData.map((item, index) =>
                 item.phone_data ? (
-                  <ListGroupItem as={'div'} action>
+                  <ListGroupItem as={'div'} key={index} action>
                     <Stack direction='horizontal'>
                       <div className='p-2 item-title'>{item.title}:</div>
                       <div className='p-2 data'>
@@ -255,8 +222,8 @@ class CompareCameras extends Component {
           ) : null}
           {cameraFeatures ? (
             <ListGroup variant='flush'>
-              {cameraFeatures.map((item) => (
-                <ListGroupItem as={'div'} className='list-item' action>
+              {cameraFeatures.map((item, index) => (
+                <ListGroupItem as={'div'} className='list-item' key={index} action>
                   {item}
                 </ListGroupItem>
               ))}

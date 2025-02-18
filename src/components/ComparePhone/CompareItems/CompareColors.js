@@ -16,7 +16,7 @@ class CompareColors extends Component {
         <Accordion.Body>
           <ListGroup variant='flush'>
             {phone.colors.map(item => (
-              item.color ? <ListGroupItem as={'div'} action>
+              item.color ? <ListGroupItem as={'div'} key={item.color} action>
                 <Stack direction='horizontal'>
                   <div className='p-2 item-title'>{item.color}:</div>
                   <div className={`p-2 ${item.tag} color-sqr`}></div>

@@ -12,7 +12,7 @@ class OnePlus extends Component {
     super(props);
     this.state = {
       oneplusData: [],
-      brandData: [],
+      brandData: {},
       foldableData: [],
       mmToggle: false,
       error: '',
@@ -24,7 +24,7 @@ class OnePlus extends Component {
   async componentDidMount() {
     try {
       let oneplusData = await getData('oneplus');
-      let brandData = await getData('brand-data');
+      let brandData = await getData('brand-data?cat=oneplus');
       let foldableData = await getData('foldables');
       this.setState({ oneplusData, foldableData, brandData, isLoading: false });
     } catch (error) {
@@ -43,7 +43,7 @@ class OnePlus extends Component {
           <div className='oneplus company'>
             <h2>OnePlus Phones</h2>
             <Container>
-              <BrandCarousel brand={brandData.oneplus} />
+              <BrandCarousel brand={brandData} />
             </Container>
             <FormCheck
               type='switch'

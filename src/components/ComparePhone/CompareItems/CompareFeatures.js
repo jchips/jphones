@@ -86,8 +86,8 @@ class CompareFeatures extends Component {
             </>
           ) : null}
           <ListGroup variant='flush'>
-            {phone.phoneFeatures.map((feature) =>
-              <ListGroupItem as={'div'} className='list-item' action>
+            {phone.phoneFeatures.map((feature, index) =>
+              <ListGroupItem as={'div'} className='list-item' key={index} action>
                 {feature}
               </ListGroupItem>
             )}

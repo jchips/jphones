@@ -13,6 +13,7 @@ class Compare extends Component {
       companies: compareOptions,
       selectedPhone: {},
       selectedCompany: {},
+      brandData: {},
       error: '',
       isLoading: false,
     };
@@ -31,7 +32,9 @@ class Compare extends Component {
         return { route, data: res };
       });
       const fetchedData = await Promise.all(promises);
+      const brandData = company.brand ? await getData(`brand-data?cat=${company.brand}`) : null;
       this.setState({ data: [...fetchedData], isLoading: false });
+      this.setState({ brandData });
     } catch (error) {
       console.error('Error fetching data:', error);
       this.setState({ error: 'Failed to fetch phone data' });
@@ -43,7 +46,13 @@ class Compare extends Component {
   };
 
   setSelectedPhone = (value) => {
+    const { index, setPhoneA, setPhoneB } = this.props;
     this.setState({ selectedPhone: value });
+    if (index === 'A') {
+      setPhoneA(value);
+    } else if (index === 'B') {
+      setPhoneB(value);
+    }
   };
 
   setError = (errorMessage) => {
@@ -55,12 +64,13 @@ class Compare extends Component {
   };
 
   render() {
-    const { index } = this.props;
+    const { index, phoneA, phoneB } = this.props;
     const {
       data,
       companies,
       selectedPhone,
       selectedCompany,
+      brandData,
       error,
       isLoading,
     } = this.state;
@@ -114,7 +124,15 @@ class Compare extends Component {
                 {error}
               </Alert>
             )}
-            {selectedPhone.name ? <ComparePhone phone={selectedPhone} /> : null}
+            {selectedPhone.name ? (
+              <ComparePhone
+                phone={selectedPhone}
+                phoneA={phoneA}
+                phoneB={phoneB}
+                brandData={brandData}
+                selectedCompany={selectedCompany}
+              />
+            ) : null}
           </>
         ) : null}
       </div>

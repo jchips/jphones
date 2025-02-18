@@ -8,7 +8,8 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Architecture
 
-- Built with React and React Bootstrap. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Built with React and React Bootstrap.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - Languages used: JavaScript and Sass.
 - Backend uses Nodejs and Express.
 

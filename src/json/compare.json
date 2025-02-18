@@ -2,6 +2,7 @@
   {
     "id": "google-pixel",
     "name": "Google Pixel",
+    "brand": "pixel",
     "selected": false,
     "routes": [
       "pixels",
@@ -11,6 +12,7 @@
   {
     "id": "samsung-galaxy",
     "name": "Samsung Galaxy",
+    "brand": "galaxy",
     "selected": false,
     "routes": [
       "samsung-s",
@@ -23,6 +25,7 @@
   {
     "id": "apple-iphone",
     "name": "Apple iPhone",
+    "brand": "iphone",
     "selected": false,
     "routes": [
       "iphones"
@@ -31,6 +34,7 @@
   {
     "id": "oneplus",
     "name": "OnePlus",
+    "brand": "oneplus",
     "selected": false,
     "routes": [
       "oneplus",
@@ -56,6 +60,7 @@
   {
     "id": "nothing-phone",
     "name": "Nothing Phone",
+    "brand": "nothing",
     "selected": false,
     "routes": [
       "nothing"

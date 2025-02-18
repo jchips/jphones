@@ -8,6 +8,11 @@
   .img__container {
     display: flex;
     justify-content: center;
+
+    img {
+      max-height: 500px;
+      max-width: 100%;
+    }
   }
 
   .release__container {
@@ -44,6 +49,10 @@
         color: darken($note, 15%);
         font-weight: 500;
       }
+    }
+
+    .side-note {
+      @include side-note;
     }
   }
 
