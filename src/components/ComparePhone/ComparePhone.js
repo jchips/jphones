@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import {
-  Accordion,
-  Container,
-} from 'react-bootstrap';
+import { Accordion, Container } from 'react-bootstrap';
+import CompareBrand from './CompareItems/CompareBrand';
 import CompareSpecs from './CompareItems/CompareSpecs';
 import CompareDisplay from './CompareItems/CompareDisplay';
 import CompareColors from './CompareItems/CompareColors';
@@ -16,16 +14,24 @@ import './ComparePhone.scss';
 
 class ComparePhone extends Component {
   render() {
-    const { phone } = this.props;
+    const { phone, phoneA, phoneB, brandData, selectedCompany } = this.props;
     return (
       <Container className='compare-phone__container'>
         <div className='img__container'>
-          <img src={phone.img} alt={phone.offName} height={500} width={500} />
+          <img src={phone.img} alt={phone.offName} />
         </div>
-        <div class='release__container'>
-          <p><span>Released:</span> {phone.released}</p>
+        <div className='release__container'>
+          <p>
+            <span>Released:</span> {phone.released}
+          </p>
         </div>
         <Accordion>
+          {phoneA && phoneB && brandData && phoneA?.brand !== phoneB?.brand && (
+            <CompareBrand
+              brandData={brandData}
+              selectedCompany={selectedCompany}
+            />
+          )}
           <CompareSpecs phone={phone} />
           <CompareColors phone={phone} />
           <CompareDisplay phone={phone} />

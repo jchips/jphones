@@ -12,7 +12,7 @@ class Google extends Component {
     super(props);
     this.state = {
       pixelData: [],
-      brandData: [],
+      brandData: {},
       foldableData: [],
       mmToggle: false,
       error: '',
@@ -24,7 +24,7 @@ class Google extends Component {
   async componentDidMount() {
     try {
       let pixelData = await getData('pixels');
-      let brandData = await getData('brand-data');
+      let brandData = await getData('brand-data?cat=pixel');
       let foldableData = await getData('foldables');
       this.setState({ pixelData, foldableData, brandData, isLoading: false });
     } catch (error) {
@@ -43,7 +43,7 @@ class Google extends Component {
           <div className='google company'>
             <h2>Pixels</h2>
             <Container>
-              <BrandCarousel brand={brandData.pixel} />
+              <BrandCarousel brand={brandData} />
             </Container>
             <FormCheck
               type='switch'

@@ -12,7 +12,7 @@ class Apple extends React.Component {
     super(props);
     this.state = {
       iPhoneData: [],
-      brandData: [],
+      brandData: {},
       mmToggle: false,
       error: '',
       isLoading: true
@@ -23,7 +23,7 @@ class Apple extends React.Component {
   async componentDidMount() {
     try {
       let iPhoneData = await getData('iphones');
-      let brandData = await getData('brand-data');
+      let brandData = await getData('brand-data?cat=iphone');
       this.setState({ iPhoneData, brandData, isLoading: false });
     } catch (error) {
       console.error(error);
@@ -41,7 +41,7 @@ class Apple extends React.Component {
           <div className='apple company'>
             <h2>iPhones</h2>
             <Container>
-              <BrandCarousel brand={brandData.iphone} />
+              <BrandCarousel brand={brandData} />
             </Container>
             <FormCheck
               type='switch'

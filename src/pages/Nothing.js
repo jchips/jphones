@@ -12,7 +12,7 @@ class Nothing extends Component {
     super(props);
     this.state = {
       nothingData: [],
-      brandData: [],
+      brandData: {},
       mmToggle: false,
       error: '',
       isLoading: true
@@ -23,7 +23,7 @@ class Nothing extends Component {
   async componentDidMount() {
     try {
       let nothingData = await getData('nothing');
-      let brandData = await getData('brand-data');
+      let brandData = await getData('brand-data?cat=nothing');
       this.setState({ nothingData, brandData, isLoading: false });
     } catch (error) {
       console.error(error);
@@ -41,7 +41,7 @@ class Nothing extends Component {
           <div className='nothing company'>
             <h2>Nothing Phones</h2>
             <Container>
-              <BrandCarousel brand={brandData.nothing} />
+              <BrandCarousel brand={brandData} />
             </Container>
             <FormCheck
               type='switch'

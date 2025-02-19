@@ -18,8 +18,8 @@ class HStackCompare extends Component {
           )}
           {data ? (
             <ListGroup variant='flush'>
-              {data.map((item) => (
-                <>
+              {data.map((item, index) => (
+                <div key={index}>
                   {item.phone_data ? (
                     <ListGroupItem as={'div'} action>
                       <Stack direction='horizontal'>
@@ -47,14 +47,14 @@ class HStackCompare extends Component {
                       {`✨ Click here to buy the ${phone.name}! ✨`}
                     </ListGroupItem>
                   ) : null}
-                </>
+                </div>
               ))}
             </ListGroup>
           ) : null}
           {listData ? (
             <ListGroup variant='flush'>
               {listData.map((item) => (
-                <ListGroupItem as={'div'} className='list-item' action>
+                <ListGroupItem as={'div'} className='list-item' key={item} action>
                   {parse(item)}
                 </ListGroupItem>
               ))}
