@@ -124,12 +124,21 @@
     }
   }
 
+  @mixin buyLink {
+    border: 1px solid #dee2e6; // bootstrap --bs-border-color
+    background-color: #fff;
+  }
+
   .buy-link {
+    display: block !important;
     text-align: center;
 
     &:visited {
-      border: 1px solid #dee2e6; // bootstrap --bs-border-color
-      background-color: #fff;
+      @include buyLink();
     }
+  }
+
+  .buy-link.active {
+    @include buyLink();
   }
 }

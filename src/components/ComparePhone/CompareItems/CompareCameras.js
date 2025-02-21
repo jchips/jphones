@@ -43,8 +43,9 @@ class CompareCameras extends Component {
         eis: primary?.eis,
         pdaf: primary?.pdaf,
         sub_data: primary
-          ? `${primary?.mm}mm, ${primary?.aperture} ${primary?.ois ? 'OIS' : ''
-          } ${primary?.eis ? 'EIS' : ''} ${primary?.pdaf ? 'PDAF' : ''}`
+          ? `${primary?.mm}mm, ${primary?.aperture} ${primary?.ois && primary?.ois === 'yes' ? 'OIS' : ''
+          } ${primary?.eis && primary?.eis === 'yes' ? 'EIS' : ''} ${primary?.pdaf && primary?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
       {
@@ -56,8 +57,9 @@ class CompareCameras extends Component {
         eis: uw?.eis,
         pdaf: uw?.pdaf,
         sub_data: uw
-          ? `${uw?.mm}mm, ${uw?.aperture} ${uw?.ois ? 'OIS' : ''} ${uw?.eis && uw?.eis ? 'EIS' : ''
-          } ${uw?.pdaf ? 'PDAF' : ''}`
+          ? `${uw?.mm ? `${uw?.mm}mm` : ''}, ${uw?.aperture} ${uw?.ois && uw?.ois === 'yes' ? 'OIS' : ''
+          } ${uw?.eis && uw?.eis === 'yes' && uw?.eis ? 'EIS' : ''} ${uw?.pdaf && uw?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
       {
@@ -71,8 +73,9 @@ class CompareCameras extends Component {
         eis: telephoto?.eis,
         pdaf: telephoto?.pdaf,
         sub_data: telephoto
-          ? `${telephoto?.mm}mm, ${telephoto?.aperture} ${telephoto?.ois ? 'OIS' : ''
-          } ${telephoto?.eis ? 'EIS' : ''} ${telephoto?.pdaf ? 'PDAF' : ''}`
+          ? `${telephoto?.mm}mm, ${telephoto?.aperture} ${telephoto?.ois && telephoto?.ois === 'yes' ? 'OIS' : ''
+          } ${telephoto?.eis && telephoto?.eis === 'yes' ? 'EIS' : ''} ${telephoto?.pdaf && telephoto?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
       {
@@ -86,8 +89,9 @@ class CompareCameras extends Component {
         eis: periscope?.eis,
         pdaf: periscope?.pdaf,
         sub_data: periscope
-          ? `${periscope?.mm}mm, ${periscope?.aperture} ${periscope?.ois ? 'OIS' : ''
-          } ${periscope?.eis ? 'EIS' : ''} ${periscope?.pdaf ? 'PDAF' : ''}`
+          ? `${periscope?.mm ? `${periscope?.mm}mm` : ''}, ${periscope?.aperture} ${periscope?.ois && periscope?.ois === 'yes' ? 'OIS' : ''
+          } ${periscope?.eis && periscope?.eis === 'yes' ? 'EIS' : ''} ${periscope?.pdaf && periscope?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
       {
@@ -99,8 +103,9 @@ class CompareCameras extends Component {
         eis: macro?.eis,
         pdaf: macro?.pdaf,
         sub_data: macro
-          ? `${macro?.mm}mm, ${macro?.aperture} ${macro?.ois ? 'OIS' : ''} ${macro?.eis ? 'EIS' : ''
-          } ${macro?.pdaf ? 'PDAF' : ''}`
+          ? `${macro?.mm}mm, ${macro?.aperture} ${macro?.ois && macro?.ois === 'yes' ? 'OIS' : ''
+          } ${macro?.eis && macro?.eis === 'yes' ? 'EIS' : ''} ${macro?.pdaf && macro?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
       {
@@ -112,8 +117,9 @@ class CompareCameras extends Component {
         eis: front?.eis,
         pdaf: front?.pdaf,
         sub_data: front
-          ? `${front?.mm}mm, ${front?.aperture} ${front?.ois ? 'OIS' : ''} ${front?.eis ? 'EIS' : ''
-          } ${front?.pdaf ? 'PDAF' : ''}`
+          ? `${front?.mm}mm, ${front?.aperture} ${front?.ois && front?.ois === 'yes' ? 'OIS' : ''
+          } ${front?.eis && front?.eis === 'yes' ? 'EIS' : ''} ${front?.pdaf && front?.pdaf === 'yes' ? 'PDAF' : ''
+          }`
           : null,
       },
     ];
@@ -128,8 +134,8 @@ class CompareCameras extends Component {
             <>
               <Container>
                 <Button
-                  className='ddBtn'
-                  variant='light'
+                  className="ddBtn"
+                  variant="light"
                   onClick={() => this.toggleShowCameraDetails()}
                 >
                   {showCameraDetails
@@ -137,58 +143,62 @@ class CompareCameras extends Component {
                     : `Compare camera details`}
                   <div>
                     {showCameraDetails ? (
-                      <HiChevronUp size={20} color='#424242' />
+                      <HiChevronUp size={20} color="#424242" />
                     ) : (
-                      <HiChevronDown size={20} color='#424242' />
+                      <HiChevronDown size={20} color="#424242" />
                     )}
                   </div>
                 </Button>
                 {showCameraDetails ? (
-                  <div className='light-gray-bg'>
+                  <div className="light-gray-bg">
                     {cameraData.map((item, index) =>
                       item.phone_data ? (
                         <ListGroupItem as={'div'} key={index} action>
-                          <Stack direction='horizontal'>
-                            <div className='p-2 item-title'>{item.title}:</div>
-                            <div className='p-2 data'>{item.phone_data}</div>
+                          <Stack direction="horizontal">
+                            <div className="p-2 item-title">{item.title}:</div>
+                            <div className="p-2 data">{item.phone_data}</div>
                             {item.opt_zoom && (
-                              <div className='p-2 data'>{item.opt_zoom}</div>
+                              <div className="p-2 data">{item.opt_zoom}</div>
                             )}
-                            <div className='p-2 data'>
+                            <div className="p-2 data">
                               {item.mm && (
-                                <span className='tag'>{`${item.mm}mm,`}</span>
+                                <span className="tag">{`${item.mm}mm,`}</span>
                               )}{' '}
                               {item.aperture && (
-                                <span className='tag'>{`(${item.aperture})`}</span>
+                                <span className="tag">{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
-                                <span className='tag'>OIS</span>
+                                <span className="tag">OIS</span>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <span className='tag'>EIS</span>
+                                <span className="tag">EIS</span>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
-                                <span className='tag'>PDAF</span>
+                                <span className="tag">PDAF</span>
                               )}
                             </div>
                           </Stack>
                         </ListGroupItem>
                       ) : null
                     )}
-                    <Stack direction='horizontal'>
-                      <div className='p-2 item-title'>
+                    <Stack direction="horizontal">
+                      <div className="p-2 item-title">
                         Video recording (rear):
                       </div>
                       {rearCameras.video.map((quality) => (
-                        <div className='p-2 data' key={quality}>{quality}</div>
+                        <div className="p-2 data" key={quality}>
+                          {quality}
+                        </div>
                       ))}
                     </Stack>
-                    <Stack direction='horizontal'>
-                      <div className='p-2 item-title'>
+                    <Stack direction="horizontal">
+                      <div className="p-2 item-title">
                         Video recording (selfie):
                       </div>
                       {front.video.map((quality) => (
-                        <div className='p-2 data' key={quality}>{quality}</div>
+                        <div className="p-2 data" key={quality}>
+                          {quality}
+                        </div>
                       ))}
                     </Stack>
                   </div>
@@ -197,21 +207,21 @@ class CompareCameras extends Component {
             </>
           ) : null}
           {cameraData ? (
-            <ListGroup variant='flush'>
+            <ListGroup variant="flush">
               {cameraData.map((item, index) =>
                 item.phone_data ? (
                   <ListGroupItem as={'div'} key={index} action>
-                    <Stack direction='horizontal'>
-                      <div className='p-2 item-title'>{item.title}:</div>
-                      <div className='p-2 data'>
+                    <Stack direction="horizontal">
+                      <div className="p-2 item-title">{item.title}:</div>
+                      <div className="p-2 data">
                         {item.phone_data}{' '}
                         {item.paren_data ? (
-                          <span className='sub-data'>
+                          <span className="sub-data">
                             {`(${item.paren_data})`}{' '}
                           </span>
                         ) : null}
                         {item.sub_data ? (
-                          <span className='sub-data'>{`${item.sub_data}`}</span>
+                          <span className="sub-data">{`${item.sub_data}`}</span>
                         ) : null}
                       </div>
                     </Stack>
@@ -221,9 +231,14 @@ class CompareCameras extends Component {
             </ListGroup>
           ) : null}
           {cameraFeatures ? (
-            <ListGroup variant='flush'>
+            <ListGroup variant="flush">
               {cameraFeatures.map((item, index) => (
-                <ListGroupItem as={'div'} className='list-item' key={index} action>
+                <ListGroupItem
+                  as={'div'}
+                  className="list-item"
+                  key={index}
+                  action
+                >
                   {item}
                 </ListGroupItem>
               ))}

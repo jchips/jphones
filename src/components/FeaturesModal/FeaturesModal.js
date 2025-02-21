@@ -48,9 +48,9 @@ class FeaturesModal extends Component {
                 <div key={index}>
                   <p>
                     {value === 'no' ? (
-                      <HiXCircle style={{ color: 'red' }} />
+                      <HiXCircle style={{ color: 'red', marginRight: '3px' }} />
                     ) : (
-                      <HiCheckCircle style={{ color: 'green' }} />
+                      <HiCheckCircle style={{ color: 'green', marginRight: '3px' }} />
                     )}
                     <span>{features[index]}: </span>
                     {value}
