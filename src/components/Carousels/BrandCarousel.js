@@ -1,9 +1,9 @@
 import React, { Component, createRef } from 'react';
 import { Carousel, ListGroup, OverlayTrigger, Popover } from 'react-bootstrap';
-import parse from 'html-react-parser';
 import { HiOutlineArrowsExpand } from 'react-icons/hi';
-import checkHeight from '../../utils/checkHeight';
+import parse from 'html-react-parser';
 import ExpandModal from '../ExpandModal/ExpandModal';
+import checkHeight from '../../utils/checkHeight';
 
 class BrandCarousel extends Component {
   constructor(props) {
@@ -66,8 +66,11 @@ class BrandCarousel extends Component {
             <img src={brand.img} alt={brand.name} />
             <OverlayTrigger trigger='click' placement='top' overlay={popover}>
               <section className='img-attr'>
-                <img src='https://img.icons8.com/fluency-systems-regular/48/777777/info--v1.png' alt='info--v1' title='image details' />
-                {/* <p>Image details</p> */}
+                <img
+                  src='https://img.icons8.com/fluency-systems-regular/48/777777/info--v1.png'
+                  alt='info--v1'
+                  title='image details'
+                />
               </section>
             </OverlayTrigger>
           </Carousel.Item>
@@ -118,7 +121,7 @@ class BrandCarousel extends Component {
               {brand.pros && (<section className='pros-and-cons-bubble gray-bubble'>
                 <div className='bubble-header'>
                   <h4>Pros</h4>
-                  <div ref={this.proExpandBtn} className='expand-btn-container'>
+                  <div ref={this.proExpandBtn} className='expand-btn__container'>
                     <HiOutlineArrowsExpand className='expand-btn' onClick={() => this.handleExpand('pros', brand.pros)} />
                   </div>
                 </div>
@@ -133,7 +136,7 @@ class BrandCarousel extends Component {
               {brand.cons && (<section className='pros-and-cons-bubble gray-bubble'>
                 <div className='bubble-header'>
                   <h4>Cons</h4>
-                  <div ref={this.conExpandBtn} className='expand-btn-container'>
+                  <div ref={this.conExpandBtn} className='expand-btn__container'>
                     <HiOutlineArrowsExpand className='expand-btn' onClick={() => this.handleExpand('cons', brand.cons)} />
                   </div>
                 </div>

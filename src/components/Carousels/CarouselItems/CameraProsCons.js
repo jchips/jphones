@@ -14,7 +14,7 @@ const CameraProsCons = forwardRef((props, ref) => {
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Camera Pros:</h4>
-            <div ref={cameraProExpandBtn} className='expand-btn-container'>
+            <div ref={cameraProExpandBtn} className='expand-btn__container'>
               <HiOutlineArrowsExpand className='expand-btn' onClick={() => handleExpand('camera pros', phone.cameraPros)} />
             </div>
           </div>
@@ -28,7 +28,7 @@ const CameraProsCons = forwardRef((props, ref) => {
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Camera Cons:</h4>
-            <div ref={cameraConExpandBtn} className='expand-btn-container'>
+            <div ref={cameraConExpandBtn} className='expand-btn__container'>
               <HiOutlineArrowsExpand className='expand-btn' onClick={() => handleExpand('camera cons', phone.cameraCons)} />
             </div>
           </div>

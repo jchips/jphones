@@ -26,12 +26,16 @@ class ComparePhone extends Component {
           </p>
         </div>
         <Accordion>
-          {phoneA && phoneB && brandData && phoneA?.brand !== phoneB?.brand && (
-            <CompareBrand
-              brandData={brandData}
-              selectedCompany={selectedCompany}
-            />
-          )}
+          {phoneA &&
+            phoneB &&
+            brandData &&
+            phoneA?.brand !== phoneB?.brand &&
+            phone.brand === brandData.company && (
+              <CompareBrand
+                brandData={brandData}
+                selectedCompany={selectedCompany}
+              />
+            )}
           <CompareSpecs phone={phone} />
           <CompareColors phone={phone} />
           <CompareDisplay phone={phone} />

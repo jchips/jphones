@@ -12,7 +12,7 @@ const features = [
   'Headphone jack',
   'Storage type',
   'Expandable storage',
-  'Dual SIM support',
+  'Dual SIM',
   'Face unlock',
   'Fingerprint sensor',
   'Wireless charging',

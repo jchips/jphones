@@ -15,7 +15,7 @@ const ProsAndCons = forwardRef((props, ref) => {
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Pros</h4>
-            <div ref={proExpandBtn} className='expand-btn-container'>
+            <div ref={proExpandBtn} className='expand-btn__container'>
               <HiOutlineArrowsExpand className='expand-btn' onClick={() => handleExpand('pros', phone.pros)} />
             </div>
           </div>
@@ -26,7 +26,7 @@ const ProsAndCons = forwardRef((props, ref) => {
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Cons</h4>
-            <div ref={conExpandBtn} className='expand-btn-container'>
+            <div ref={conExpandBtn} className='expand-btn__container'>
               <HiOutlineArrowsExpand className='expand-btn' onClick={() => handleExpand('cons', phone.cons)} />
             </div>
           </div>
