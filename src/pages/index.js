@@ -92,7 +92,7 @@ class Home extends React.Component {
       ]);
 
       let data = [
-        { name: 'Pixel', rowData: rowData[0] },
+        { name: 'Google', rowData: rowData[0] },
         { name: 'Samsung S', rowData: rowData[1] },
         { name: 'Samsung A', rowData: rowData[2] },
         { name: 'Apple', rowData: rowData[3] },

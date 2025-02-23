@@ -14,7 +14,7 @@ import './ComparePhone.scss';
 
 class ComparePhone extends Component {
   render() {
-    const { phone, phoneA, phoneB, brandData, selectedCompany } = this.props;
+    const { index, phone, phoneA, phoneB, brandData, selectedCompany } = this.props;
     return (
       <Container className='compare-phone__container'>
         <div className='img__container'>
@@ -29,8 +29,9 @@ class ComparePhone extends Component {
           {phoneA &&
             phoneB &&
             brandData &&
-            phoneA?.brand !== phoneB?.brand &&
-            phone.brand === brandData.company && (
+            index === phone.selectIndex &&
+            phone.brand === brandData.company &&
+            phoneA.selectBrand !== phoneB.selectBrand && (
               <CompareBrand
                 brandData={brandData}
                 selectedCompany={selectedCompany}

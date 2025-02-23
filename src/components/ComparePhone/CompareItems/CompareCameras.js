@@ -50,21 +50,21 @@ class CompareCameras extends Component {
       },
       {
         title: 'Ultra-wide',
-        phone_data: phone.rearCameras.ultrawide,
+        phone_data: phone.rearCameras?.ultrawide,
         mm: uw?.mm,
         aperture: uw?.aperture,
         ois: uw?.ois,
         eis: uw?.eis,
         pdaf: uw?.pdaf,
         sub_data: uw
-          ? `${uw?.mm ? `${uw?.mm}mm` : ''}, ${uw?.aperture} ${uw?.ois && uw?.ois === 'yes' ? 'OIS' : ''
+          ? `${uw?.mm ? `${uw?.mm}mm,` : ''} ${uw?.aperture} ${uw?.ois && uw?.ois === 'yes' ? 'OIS' : ''
           } ${uw?.eis && uw?.eis === 'yes' && uw?.eis ? 'EIS' : ''} ${uw?.pdaf && uw?.pdaf === 'yes' ? 'PDAF' : ''
           }`
           : null,
       },
       {
         title: 'Telephoto',
-        phone_data: phone.rearCameras.telephoto,
+        phone_data: phone.rearCameras?.telephoto,
         paren_data: telephoto ? `${telephoto?.opt_zoom}` : null,
         mm: telephoto?.mm,
         opt_zoom: telephoto?.opt_zoom,
@@ -89,7 +89,7 @@ class CompareCameras extends Component {
         eis: periscope?.eis,
         pdaf: periscope?.pdaf,
         sub_data: periscope
-          ? `${periscope?.mm ? `${periscope?.mm}mm` : ''}, ${periscope?.aperture} ${periscope?.ois && periscope?.ois === 'yes' ? 'OIS' : ''
+          ? `${periscope?.mm ? `${periscope?.mm}mm,` : ''} ${periscope?.aperture} ${periscope?.ois && periscope?.ois === 'yes' ? 'OIS' : ''
           } ${periscope?.eis && periscope?.eis === 'yes' ? 'EIS' : ''} ${periscope?.pdaf && periscope?.pdaf === 'yes' ? 'PDAF' : ''
           }`
           : null,
@@ -134,8 +134,8 @@ class CompareCameras extends Component {
             <>
               <Container>
                 <Button
-                  className="ddBtn"
-                  variant="light"
+                  className='ddBtn'
+                  variant='light'
                   onClick={() => this.toggleShowCameraDetails()}
                 >
                   {showCameraDetails
@@ -143,85 +143,89 @@ class CompareCameras extends Component {
                     : `Compare camera details`}
                   <div>
                     {showCameraDetails ? (
-                      <HiChevronUp size={20} color="#424242" />
+                      <HiChevronUp size={20} color='#424242' />
                     ) : (
-                      <HiChevronDown size={20} color="#424242" />
+                      <HiChevronDown size={20} color='#424242' />
                     )}
                   </div>
                 </Button>
                 {showCameraDetails ? (
-                  <div className="light-gray-bg">
+                  <div className='light-gray-bg'>
                     {cameraData.map((item, index) =>
                       item.phone_data ? (
                         <ListGroupItem as={'div'} key={index} action>
-                          <Stack direction="horizontal">
-                            <div className="p-2 item-title">{item.title}:</div>
-                            <div className="p-2 data">{item.phone_data}</div>
+                          <Stack direction='horizontal'>
+                            <div className='p-2 item-title'>{item.title}:</div>
+                            <div className='p-2 data'>{item.phone_data}</div>
                             {item.opt_zoom && (
-                              <div className="p-2 data">{item.opt_zoom}</div>
+                              <div className='p-2 data'>{item.opt_zoom}</div>
                             )}
-                            <div className="p-2 data">
+                            <div className='p-2 data'>
                               {item.mm && (
-                                <span className="tag">{`${item.mm}mm,`}</span>
+                                <span className='tag'>{`${item.mm}mm,`}</span>
                               )}{' '}
                               {item.aperture && (
-                                <span className="tag">{`(${item.aperture})`}</span>
+                                <span className='tag'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
-                                <span className="tag">OIS</span>
+                                <span className='tag'>OIS</span>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <span className="tag">EIS</span>
+                                <span className='tag'>EIS</span>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
-                                <span className="tag">PDAF</span>
+                                <span className='tag'>PDAF</span>
                               )}
                             </div>
                           </Stack>
                         </ListGroupItem>
                       ) : null
                     )}
-                    <Stack direction="horizontal">
-                      <div className="p-2 item-title">
-                        Video recording (rear):
-                      </div>
-                      {rearCameras.video.map((quality) => (
-                        <div className="p-2 data" key={quality}>
-                          {quality}
+                    <ListGroupItem>
+                      <Stack direction='horizontal'>
+                        <div className='p-2 item-title'>
+                          Video recording (rear):
                         </div>
-                      ))}
-                    </Stack>
-                    <Stack direction="horizontal">
-                      <div className="p-2 item-title">
-                        Video recording (selfie):
-                      </div>
-                      {front.video.map((quality) => (
-                        <div className="p-2 data" key={quality}>
-                          {quality}
+                        {rearCameras.video.map((quality) => (
+                          <div className='p-2 data' key={quality}>
+                            {quality}
+                          </div>
+                        ))}
+                      </Stack>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                      <Stack direction='horizontal'>
+                        <div className='p-2 item-title'>
+                          Video recording (selfie):
                         </div>
-                      ))}
-                    </Stack>
+                        {front.video.map((quality) => (
+                          <div className='p-2 data' key={quality}>
+                            {quality}
+                          </div>
+                        ))}
+                      </Stack>
+                    </ListGroupItem>
                   </div>
                 ) : null}
               </Container>
             </>
           ) : null}
           {cameraData ? (
-            <ListGroup variant="flush">
+            <ListGroup variant='flush'>
               {cameraData.map((item, index) =>
                 item.phone_data ? (
                   <ListGroupItem as={'div'} key={index} action>
-                    <Stack direction="horizontal">
-                      <div className="p-2 item-title">{item.title}:</div>
-                      <div className="p-2 data">
+                    <Stack direction='horizontal'>
+                      <div className='p-2 item-title'>{item.title}:</div>
+                      <div className='p-2 data'>
                         {item.phone_data}{' '}
                         {item.paren_data ? (
-                          <span className="sub-data">
+                          <span className='sub-data'>
                             {`(${item.paren_data})`}{' '}
                           </span>
                         ) : null}
                         {item.sub_data ? (
-                          <span className="sub-data">{`${item.sub_data}`}</span>
+                          <span className='sub-data'>{`${item.sub_data}`}</span>
                         ) : null}
                       </div>
                     </Stack>
@@ -231,11 +235,11 @@ class CompareCameras extends Component {
             </ListGroup>
           ) : null}
           {cameraFeatures ? (
-            <ListGroup variant="flush">
+            <ListGroup variant='flush'>
               {cameraFeatures.map((item, index) => (
                 <ListGroupItem
                   as={'div'}
-                  className="list-item"
+                  className='list-item'
                   key={index}
                   action
                 >

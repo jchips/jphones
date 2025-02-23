@@ -47,11 +47,13 @@ class Compare extends Component {
 
   setSelectedPhone = (value) => {
     const { index, setPhoneA, setPhoneB } = this.props;
-    this.setState({ selectedPhone: value });
+    const { selectedCompany } = this.state;
+    const selectedPhone = { selectIndex: index, ...value };
+    this.setState({ selectedPhone });
     if (index === 'A') {
-      setPhoneA(value);
+      setPhoneA({ selectBrand: selectedCompany.company, ...value });
     } else if (index === 'B') {
-      setPhoneB(value);
+      setPhoneB({ selectBrand: selectedCompany.company, ...value });
     }
   };
 
@@ -126,6 +128,7 @@ class Compare extends Component {
             )}
             {selectedPhone.name ? (
               <ComparePhone
+                index={index}
                 phone={selectedPhone}
                 phoneA={phoneA}
                 phoneB={phoneB}

@@ -28,7 +28,7 @@ class Row extends Component {
         </div>
 
         {/* Show all phones toggle */}
-        <div className='form-container'>
+        <div className='filter__wrapper'>
           <FormCheck
             type='switch'
             id='row-toggle'
