@@ -16,14 +16,14 @@ class About extends Component {
             <section>
               <h4>Hi! :)</h4>
               <p>I'm Jaye. I am a phone geek, so I decided to make a site for phone shoppers to find the best phone for them.
-                I combine official specs with insightful comments from popular tech reviewers, such as Marques Brownlee and
+                I combine official specs with insightful comments from popular tech reviewers, including Marques Brownlee and
                 Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best
                 information in one place.
-                I am a full-stack software developer and can be contacted at{' '}
-                <a href='mailto:jrosecow@gmail.com'>Jrosecow@gmail.com</a>.
               </p>
               <p>This site is to compare phones and pick the best one for purchase.
-                It is made with React, Sass, and Bootstrap.</p>
+                It is based in the USA and is made using ReactJS, Sass, and Bootstrap.
+                I am a full-stack software developer and can be contacted at{' '}
+                <a href='mailto:jrosetech8@gmail.com'>jrosetech8@gmail.com</a>.</p>
               <br></br>
               <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger
                 swiping through the carousels on touchscreens because the carousels
