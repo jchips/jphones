@@ -41,19 +41,19 @@ class DisplayPhones extends React.Component {
       }
       if (activeFilters.find(filter => filter === '$600 or less')) {
         rowData = rowData.filter((phone) => {
-          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          const getNum = phone.prices[0].price.match(/\d+/g)[0];
           return phone.prices && getNum <= 600
         })
       }
       if (activeFilters.find(filter => filter === 'Less than $1000')) {
         rowData = rowData.filter((phone) => {
-          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          const getNum = phone.prices[0].price.match(/\d+/g)[0];
           return phone.prices && getNum < 1000
         })
       }
       if (activeFilters.find(filter => filter === '>$1000')) {
         rowData = rowData.filter((phone) => {
-          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          const getNum = phone.prices[0].price.match(/\d+/g)[0];
           return phone.prices && getNum >= 1000
         })
       }
