@@ -41,7 +41,7 @@ class Google extends Component {
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
         {!isLoading && (
           <div className='google company'>
-            <h2>Pixels</h2>
+            <h2>Google Pixels</h2>
             <Container>
               <BrandCarousel brand={brandData} />
             </Container>

@@ -19,7 +19,17 @@ form {
   border-radius: 5px;
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
 
-  .form-container {
+  .filter__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter-section-label {
+    color: $orange; // $off-black;
+    font-weight: 500;
+  }
+
+  .filter__wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -32,7 +42,7 @@ form {
   }
 
   .form-check-label {
-    margin: 5px; // 0 5px;
+    margin: 5px;
   }
 }
 
@@ -126,7 +136,7 @@ form {
     margin: 0 20px;
   }
 
-  .form-container {
+  .filter__wrapper {
     flex-direction: column;
   }
 

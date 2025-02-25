@@ -39,7 +39,7 @@ class Samsung extends Component {
 
   render() {
     let { samsungSData, samsungAData, noteData, foldableData, brandData, isLoading, error } = this.state;
-    let sPhones = ['S24', 'S23', 'S22', 'S21', 'S20', 'S10', 'S9'];
+    let sPhones = ['S25', 'S24', 'S23', 'S22', 'S21', 'S20', 'S10', 'S9'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}

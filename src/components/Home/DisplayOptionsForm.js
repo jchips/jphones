@@ -13,11 +13,12 @@ class DisplayOptionsForm extends React.Component {
     this.state = {
       showFilters: false,
     };
+    this.orange = '#ff6a00'
   }
 
   setShowFilters = () => {
     this.setState({ showFilters: !this.state.showFilters });
-  }
+  };
 
   /**
    * Toggle between showing current selling phones vs all phones on site.
@@ -49,8 +50,10 @@ class DisplayOptionsForm extends React.Component {
     const { id } = e.target;
     const { filters, setFilters } = this.props;
     setFilters(
-      filters.map((filters) => {
-        return filters.title === id ? { ...filters, checked: !filters.checked } : filters;
+      filters.map((filter) => {
+        return filter.title === id
+          ? { ...filter, checked: !filter.checked }
+          : filter;
       })
     );
   };
@@ -62,7 +65,7 @@ class DisplayOptionsForm extends React.Component {
       <section className='display-phones-options'>
         <form>
           <legend>Display options:</legend>
-          <div className='form-container'>
+          <div className='filter__wrapper'>
             <FormCheck
               type='switch'
               id='display-toggle'
@@ -78,23 +81,52 @@ class DisplayOptionsForm extends React.Component {
           </div>
           <div className='filters-btn' onClick={this.setShowFilters}>
             <p>{showFilters ? 'Hide filters' : 'Show filters'}</p>
-            <div style={{ margin: '0 3px 10px 3px' }}>{showFilters ? <HiChevronUp /> : <HiChevronDown />}</div>
+            <div style={{ margin: '0 3px 10px 3px' }}>
+              {showFilters ? <HiChevronUp /> : <HiChevronDown />}
+            </div>
           </div>
-          <div className='form-container' style={{ display: showFilters ? 'flex' : 'none' }}>
-            {filters
-              ? filters.map((filter, index) => (
-                <FormGroup key={index} controlId={`${filter.title}`}>
-                  <FormCheck
-                    key={index}
-                    type='checkbox'
-                    id={`${filter.title}`}
-                    label={`${filter.title}`}
-                    checked={filter.checked}
-                    onChange={this.handleCheck}
-                  />
-                </FormGroup>
-              ))
-              : null}
+          <div
+            className='filter__container'
+            style={{ display: showFilters ? 'flex' : 'none' }}
+          >
+            <p className='m-2 filter-section-label'>Companies</p>
+            <div className='filter__wrapper'>
+              {filters
+                ? filters
+                  .filter((filter, index) => filter.type === 'phone')
+                  .map((filter, index) => (
+                    <FormGroup key={index} controlId={`${filter.title}`}>
+                      <FormCheck
+                        key={index}
+                        type='checkbox'
+                        id={`${filter.title}`}
+                        label={`${filter.title}`}
+                        checked={filter.checked}
+                        onChange={this.handleCheck}
+                      />
+                    </FormGroup>
+                  ))
+                : null}
+            </div>
+            <p className='m-2 filter-section-label'>Add-on filters</p>
+            <div className='filter__wrapper'>
+              {filters
+                ? filters
+                  .filter((filter, index) => filter.type === 'add-on')
+                  .map((filter, index) => (
+                    <FormGroup key={index} controlId={`${filter.title}`}>
+                      <FormCheck
+                        key={index}
+                        type='checkbox'
+                        id={`${filter.title}`}
+                        label={`${filter.title}`}
+                        checked={filter.checked}
+                        onChange={this.handleCheck}
+                      />
+                    </FormGroup>
+                  ))
+                : null}
+            </div>
           </div>
         </form>
         <div className='search-box'>

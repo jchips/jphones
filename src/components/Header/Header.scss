@@ -30,7 +30,7 @@ $scrollAnimation: calc(var(--scroll) * -1s);
     font-size: 5rem;
     text-transform: uppercase;
     // color: $yellow;
-    color: $orange;
+    color: $orange-header;
     animation: reduce 0.1s ease-out;
     animation-play-state: paused;
     animation-delay: $scrollAnimation;

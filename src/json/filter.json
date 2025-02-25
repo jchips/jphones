@@ -1,38 +1,52 @@
 [
   {
-    "title": "Pixel",
+    "title": "Google",
+    "type": "phone",
     "checked": false
   },
   {
     "title": "Samsung",
+    "type": "phone",
     "checked": false
   },
   {
     "title": "Apple",
+    "type": "phone",
     "checked": false
   },
   {
     "title": "OnePlus",
-    "checked": false
-  },
-  {
-    "title": "Foldable",
+    "type": "phone",
     "checked": false
   },
   {
     "title": "Nothing",
+    "type": "phone",
     "checked": false
   },
   {
     "title": "Motorola",
+    "type": "phone",
+    "checked": false
+  },
+  {
+    "title": "Foldable",
+    "type": "add-on",
     "checked": false
   },
   {
     "title": "$600 or less",
+    "type": "add-on",
+    "checked": false
+  },
+  {
+    "title": "Less than $1000",
+    "type": "add-on",
     "checked": false
   },
   {
     "title": ">$1000",
+    "type": "add-on",
     "checked": false
   }
 ]

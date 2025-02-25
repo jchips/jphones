@@ -3,6 +3,7 @@
     "id": "google-pixel",
     "name": "Google Pixel",
     "brand": "pixel",
+    "company": "Google",
     "selected": false,
     "routes": [
       "pixels",
@@ -13,6 +14,7 @@
     "id": "samsung-galaxy",
     "name": "Samsung Galaxy",
     "brand": "galaxy",
+    "company": "Samsung",
     "selected": false,
     "routes": [
       "samsung-s",
@@ -26,6 +28,7 @@
     "id": "apple-iphone",
     "name": "Apple iPhone",
     "brand": "iphone",
+    "company": "Apple",
     "selected": false,
     "routes": [
       "iphones"
@@ -35,6 +38,7 @@
     "id": "oneplus",
     "name": "OnePlus",
     "brand": "oneplus",
+    "company": "OnePlus",
     "selected": false,
     "routes": [
       "oneplus",
@@ -44,6 +48,7 @@
   {
     "id": "motorola",
     "name": "Motorola",
+    "company": "Motorola",
     "selected": false,
     "routes": [
       "foldables?cat=razr"
@@ -52,6 +57,7 @@
   {
     "id": "asus",
     "name": "Asus",
+    "company": "Asus",
     "selected": false,
     "routes": [
       "asus"
@@ -61,6 +67,7 @@
     "id": "nothing-phone",
     "name": "Nothing Phone",
     "brand": "nothing",
+    "company": "Nothing",
     "selected": false,
     "routes": [
       "nothing"

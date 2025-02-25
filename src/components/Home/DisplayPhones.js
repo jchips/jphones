@@ -2,18 +2,11 @@ import React from 'react';
 import Row from '../Row/Row';
 import './DisplayPhones.scss';
 
-// Props (from index.js): {
-//   data,
-//   searchValue,
-//   mmToggle,
-//   displayAllPhones
-// }
-
 class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      rows: ['Pixel', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
+      rows: ['Google', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
     };
     this.year = 2023;
   }
@@ -50,6 +43,12 @@ class DisplayPhones extends React.Component {
         rowData = rowData.filter((phone) => {
           const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
           return phone.prices && getNum <= 600
+        })
+      }
+      if (activeFilters.find(filter => filter === 'Less than $1000')) {
+        rowData = rowData.filter((phone) => {
+          const getNum = phone.prices[phone.prices.length - 1].price.match(/\d+/g)[0];
+          return phone.prices && getNum < 1000
         })
       }
       if (activeFilters.find(filter => filter === '>$1000')) {
@@ -92,8 +91,8 @@ class DisplayPhones extends React.Component {
       return 'OnePlus';
     } else if (phoneName.includes('Nothing')) {
       return 'Nothing';
-    } else if (phoneName.includes('Pixel')) {
-      return 'Pixel';
+    } else if (phoneName.includes('Google')) {
+      return 'Google';
     } else if (phoneName.includes('Apple')) {
       return 'Apple';
     } else if (phoneName.includes('motorola')) {
