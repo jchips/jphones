@@ -128,7 +128,7 @@ class Home extends React.Component {
               displayAllPhones={this.state.displayAllPhones}
               searchValue={this.state.searchValue} />
             <section className='company-links'>
-              {/* Google */}<a href='https://store.google.com/us/category/phones' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/pixel-logo.webp' alt='Google logo' /></a>
+              {/* Google */}<a href='https://store.google.com/us/category/phones' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/google-logo.webp' alt='Google logo' /></a>
               {/* Apple */}<a href='https://www.apple.com/iphone/' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/apple-logo.webp' alt='Apple logo' /></a>
               {/* Samsung */}<a href='https://www.samsung.com/us/mobile/phones/all-phones/' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/samsung-logo.webp' alt='Samsung logo' /></a>
               {/* OnePlus */}<a href='https://www.oneplus.com' target='_blank' rel='noreferrer'><img src='assets/imgs/logos/oneplus-logo.webp' alt='OnePlus logo' /></a>
