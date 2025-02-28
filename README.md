@@ -2,11 +2,11 @@
 
 jPhones is a website for phone shoppers to compare phones and find the phone that suits them best. jPhones combines official phone specs with insightful observations and opinions from popular tech reviewers, including Marques Brownlee and Mrwhosetheboss. This aids active phone seekers in choosing the most suitable option by providing the best information in one place.
 
-[Click to view live site](https://jphones.netlify.app/)
+[Click to view live site](https://jphones.netlify.app)
 
 <center>
-<img src='./public/assets/imgs/jphones.png' alt='jphones logo' height='100px' width='100px'/>
-<img src='./public/assets/imgs/jphones-dark.png' alt='jphones dark logo' height='100px' width='100px'/>
+<img src='./public/assets/imgs/appIcon/jphones.png' alt='jphones logo' height='100px' width='100px'/>
+<img src='./public/assets/imgs/appIcon/jphones-dark.png' alt='jphones dark logo' height='100px' width='100px'/>
 </center>
 
 ## Author: Jelani R
@@ -45,15 +45,15 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Links & Resources
 
-- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Bootstrap](https://react-bootstrap.github.io)
 
 - [React Bootstrap Forms](https://react.dev/reference/react-dom/components/input)
 
-- [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
+- [Header scroll animation](https://css-tricks.com/books/greatest-css-tricks/scroll-animation)
 
 - [Lazy loading images](https://www.npmjs.com/package/react-lazy-load-image-component)
 
-- [React Icons (Search icon)](https://react-icons.github.io/react-icons/)
+- [React Icons (Search icon)](https://react-icons.github.io/react-icons)
 
 - [icons8 (carousel indicator and info icons)](https://icons8.com)
 
@@ -61,6 +61,6 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 - [HTML React Parser](https://www.npmjs.com/package/html-react-parser)
 
-- [Hero image credits (by Limon Das on Pexels.com)](https://www.pexels.com/photo/grey-scale-photo-of-person-holding-smartphone-1100447/)
+- [Hero image credits (by Limon Das on Pexels.com)](https://www.pexels.com/photo/grey-scale-photo-of-person-holding-smartphone-1100447)
 
 - ['Roboto' Google font by Christian Robertson](https://fonts.google.com/specimen/Roboto?query=Christian+Robertson)
