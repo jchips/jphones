@@ -91,7 +91,6 @@ section {
   .features-check-btn {
     margin-top: 5px;
     padding: 4px;
-    // background-color: $theme-blue;
     background-color: $very-light-gray;
     border-radius: 5px;
 
@@ -101,6 +100,8 @@ section {
     }
   }
 }
+
+/* ======== Carousel slides ======== */
 
 .colors {
   padding-bottom: 10px;
@@ -222,8 +223,9 @@ section {
 }
 
 .pros-and-cons {
-  // display: flex;
-  // flex-direction: column;
+  .no-data {
+    color: $gray-text;
+  }
 
   .scrollable ul {
     max-height: 97px;
@@ -233,13 +235,15 @@ section {
     display: block;
   }
 
-  ul {
+  ul,
+  .no-data {
     padding-left: 20px;
     margin-bottom: 5px;
     font-size: 0.9rem;
   }
 
-  li {
+  li,
+  .no-data {
     text-align: left;
   }
 }
@@ -266,6 +270,8 @@ section {
 .prices p {
   margin: $margin;
 }
+
+/* ======== Carousel controls and indicators ======== */
 
 .carousel-control-next,
 .carousel-control-prev {
