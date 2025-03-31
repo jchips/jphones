@@ -25,13 +25,7 @@ class HStackCompare extends Component {
                       <Stack direction='horizontal'>
                         <div className='p-2 item-title'>{item.title}:</div>
                         <div className='p-2 data'>
-                          {item.phone_data}{' '}
-                          {item.sub_data ? (
-                            <span className='sub-data'>{`${item.sub_data}`}</span>
-                          ) : null}
-                          {item.paren_data ? (
-                            <span className='sub-data'>{`(${item.paren_data})`}</span>
-                          ) : null}
+                          {item.phone_data}
                         </div>
                       </Stack>
                     </ListGroupItem>

@@ -8,19 +8,22 @@ class Groups extends Component {
    * @returns
    */
   displayGroupName = (route) => {
-    const { selectedCompany } = this.props;
+    const { index, selectedCompanyA, selectedCompanyB } = this.props;
     if (route === 'samsung-s') {
       return 'Samsung S series';
     } else if (route === 'samsung-a') {
       return 'Samsung A series';
     } else if (route.includes('Flip')) {
-      return selectedCompany.name + ' flip';
+      let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
+      return company += ' flip';
     } else if (route.includes('foldables')) {
-      return selectedCompany.name + ' foldables';
+      let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
+      return company += ' foldables';
     } else if (route === 'notes') {
-      return selectedCompany.name + ' Note series';
+      let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
+      return company += ' Note series';
     } else {
-      return selectedCompany.name;
+      return index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
     }
   }
 
@@ -29,9 +32,13 @@ class Groups extends Component {
    * @param {Event} e - Select event.
    */
   handleSelectDevice = (e) => {
-    const { setSelectedPhone } = this.props;
+    const { index, setSelectedPhoneA, setSelectedPhoneB } = this.props;
     let device = JSON.parse(e.target.value);
-    setSelectedPhone(device);
+    if (index === 'A') {
+      setSelectedPhoneA(device);
+    } else if (index === 'B') {
+      setSelectedPhoneB(device);
+    }
   }
 
   render() {

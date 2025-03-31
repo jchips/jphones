@@ -74,23 +74,6 @@
     font-weight: $boldFont;
   }
 
-  .data {
-    color: $orange;
-    font-weight: $boldFont;
-
-    .tag,
-    .sub-data {
-      color: $gray-text;
-      font-weight: $regularFont;
-      font-size: small;
-    }
-
-    .tag {
-      color: $orange;
-      font-weight: $boldFont;
-    }
-  }
-
   .color-sqr {
     width: 25%;
     border-radius: $borderRadiusSmall;
@@ -124,6 +107,8 @@
     }
   }
 
+  /* ========= Buy link ========== */
+
   @mixin buyLink {
     border: 1px solid #dee2e6; // bootstrap --bs-border-color
     background-color: #fff;
@@ -140,5 +125,52 @@
 
   .buy-link.active {
     @include buyLink();
+  }
+
+  /* ========= Camera Compare ========== */
+
+  .camera-details {
+    border-bottom: 4px $light-gray solid;
+  }
+
+  // .camera-features {
+  //   border-bottom: 2px $light-gray solid;
+  // }
+
+  .data {
+    color: $orange;
+    font-weight: $boldFont;
+    align-items: center;
+
+    .badge.ois {
+      background-color: #1589FF;
+    }
+
+    .badge.eis {
+      background-color: #16F529;
+    }
+
+    .badge.pdaf {
+      background-color: #FFFF33;
+    }
+
+    .sub-data {
+      color: $gray-text;
+      font-weight: $regularFont;
+      font-size: small;
+    }
+
+    .orange-tag {
+      color: $orange;
+      font-weight: $boldFont;
+      font-size: small;
+    }
+
+    .black-tag {
+      color: $off-black;
+      margin-left: 5px;
+      font-weight: $regularFont;
+      font-size: 0.9rem;
+    }
   }
 }

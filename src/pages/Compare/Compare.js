@@ -11,49 +11,41 @@ class Compare extends Component {
     this.state = {
       data: [],
       companies: compareOptions,
-      selectedPhone: {},
-      selectedCompany: {},
+      selectedPhoneA: {},
+      selectedPhoneB: {},
+      selectedCompanyA: {},
+      selectedCompanyB: {},
       brandData: {},
       error: '',
       isLoading: false,
     };
   }
 
-  /**
-   * Fetch all phones for selected phone company
-   * @param {Event} e - Check radio button event
-   */
-  handleSelect = async (e) => {
-    let company = JSON.parse(e.target.value);
-    this.setSelectedCompany(company);
-    try {
-      let promises = company.routes.map(async (route) => {
-        let res = await getData(route);
-        return { route, data: res };
-      });
-      const fetchedData = await Promise.all(promises);
-      const brandData = company.brand ? await getData(`brand-data?cat=${company.brand}`) : null;
-      this.setState({ data: [...fetchedData], isLoading: false });
-      this.setState({ brandData });
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      this.setState({ error: 'Failed to fetch phone data' });
+  setSelectedCompanyA = (value) => {
+    this.setState({ selectedCompanyA: value });
+  };
+
+  setSelectedCompanyB = (value) => {
+    this.setState({ selectedCompanyB: value });
+  };
+
+  setSelectedPhoneA = (value) => {
+    const { index, setPhoneA } = this.props;
+    const { selectedCompanyA } = this.state;
+    const selectedPhoneA = { selectIndex: index, ...value };
+    this.setState({ selectedPhoneA });
+    if (index === 'A') {
+      setPhoneA({ selectBrand: selectedCompanyA.company, ...value });
     }
   };
 
-  setSelectedCompany = (value) => {
-    this.setState({ selectedCompany: value });
-  };
-
-  setSelectedPhone = (value) => {
-    const { index, setPhoneA, setPhoneB } = this.props;
-    const { selectedCompany } = this.state;
-    const selectedPhone = { selectIndex: index, ...value };
-    this.setState({ selectedPhone });
-    if (index === 'A') {
-      setPhoneA({ selectBrand: selectedCompany.company, ...value });
-    } else if (index === 'B') {
-      setPhoneB({ selectBrand: selectedCompany.company, ...value });
+  setSelectedPhoneB = (value) => {
+    const { index, setPhoneB } = this.props;
+    const { selectedCompanyB } = this.state;
+    const selectedPhoneB = { selectIndex: index, ...value };
+    this.setState({ selectedPhoneB });
+    if (index === 'B') {
+      setPhoneB({ selectBrand: selectedCompanyB.company, ...value });
     }
   };
 
@@ -65,13 +57,44 @@ class Compare extends Component {
     this.setState({ isLoading: value });
   };
 
+  /**
+   * Fetch all phones for selected phone company
+   * @param {Event} e - Check radio button event
+   */
+  handleSelect = async (e) => {
+    const { index } = this.props;
+    let company = JSON.parse(e.target.value);
+    if (index === 'A') {
+      this.setSelectedCompanyA(company)
+    } else if (index === 'B') {
+      this.setSelectedCompanyB(company)
+    }
+    try {
+      let promises = company.routes.map(async (route) => {
+        let res = await getData(route);
+        return { route, data: res };
+      });
+      const fetchedData = await Promise.all(promises);
+      const brandData = company.brand
+        ? await getData(`brand-data?cat=${company.brand}`)
+        : null;
+      this.setState({ data: [...fetchedData], isLoading: false });
+      this.setState({ brandData });
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      this.setState({ error: 'Failed to fetch phone data' });
+    }
+  };
+
   render() {
     const { index, phoneA, phoneB } = this.props;
     const {
       data,
       companies,
-      selectedPhone,
-      selectedCompany,
+      selectedPhoneA,
+      selectedPhoneB,
+      selectedCompanyA,
+      selectedCompanyB,
       brandData,
       error,
       isLoading,
@@ -83,39 +106,61 @@ class Compare extends Component {
             <Accordion>
               <Accordion.Item eventKey={index}>
                 <Accordion.Header>
-                  {selectedPhone.name
-                    ? selectedPhone.offName
-                    : 'Select a phone...'}
+                  {index === 'A'
+                    ? selectedPhoneA.name
+                      ? selectedPhoneA.offName
+                      : 'Select a phone...'
+                    : selectedPhoneB.name
+                      ? selectedPhoneB.offName
+                      : 'Select a phone...'}
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className='radio-container'>
-                    {companies.map((company, index) => (
-                      <FormGroup key={index} controlId={`${company.id}`}>
+                    {companies.map((company, i) => (
+                      <FormGroup key={i} controlId={`${company.id}`}>
                         <FormCheck
                           value={JSON.stringify(company)}
                           type='radio'
                           id={`${company.id}-checkbox`}
                           label={`${company.name}`}
-                          checked={selectedCompany.name === company.name}
+                          checked={
+                            index === 'A'
+                              ? selectedCompanyA.name === company.name
+                              : selectedCompanyB.name === company.name
+                          }
                           onChange={this.handleSelect}
-                          key={index}
+                          key={i}
                         />
                       </FormGroup>
                     ))}
                   </div>
                   <Groups
                     data={data}
-                    selectedCompany={selectedCompany}
-                    selectedPhone={selectedPhone}
-                    setSelectedPhone={this.setSelectedPhone}
+                    index={index}
+                    selectedCompanyA={selectedCompanyA}
+                    selectedCompanyB={selectedCompanyB}
+                    selectedPhoneA={selectedPhoneA}
+                    selectedPhoneB={selectedPhoneB}
+                    setSelectedPhoneA={this.setSelectedPhoneA}
+                    setSelectedPhoneB={this.setSelectedPhoneB}
                   />
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            {selectedPhone.name ? (
+            {index === 'A' ? (
+              selectedPhoneA.name ? (
+                <div className='compare-header'>
+                  <p className='selected-phone-title'>
+                    {selectedPhoneA.offName ? `${selectedPhoneA.offName}` : ''}
+                  </p>
+                </div>
+              ) : (
+                <h1>Phone {index}</h1>
+              )
+            ) : selectedPhoneB.name ? (
               <div className='compare-header'>
                 <p className='selected-phone-title'>
-                  {selectedPhone.offName ? `${selectedPhone.offName}` : ''}
+                  {selectedPhoneB.offName ? `${selectedPhoneB.offName}` : ''}
                 </p>
               </div>
             ) : (
@@ -126,16 +171,27 @@ class Compare extends Component {
                 {error}
               </Alert>
             )}
-            {selectedPhone.name ? (
-              <ComparePhone
-                index={index}
-                phone={selectedPhone}
-                phoneA={phoneA}
-                phoneB={phoneB}
-                brandData={brandData}
-                selectedCompany={selectedCompany}
-              />
-            ) : null}
+            {index === 'A'
+              ? selectedPhoneA.name && (
+                <ComparePhone
+                  index={index}
+                  phone={selectedPhoneA}
+                  phoneA={phoneA}
+                  phoneB={phoneB}
+                  brandData={brandData}
+                  selectedCompany={selectedCompanyA}
+                />
+              )
+              : selectedPhoneB.name && (
+                <ComparePhone
+                  index={index}
+                  phone={selectedPhoneB}
+                  phoneA={phoneA}
+                  phoneB={phoneB}
+                  brandData={brandData}
+                  selectedCompany={selectedCompanyB}
+                />
+              )}
           </>
         ) : null}
       </div>
