@@ -20,7 +20,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Changelog
 
-- 2025-03-31 (1.4.7) - Fixed compare phones bug where one selection would sometimes change both selections, improved camera compare.
+- 2025-03-31 (1.4.7) - Fixed compare phones bug where one selection would sometimes change both selections, improved camera compare, minor ui improvements.
 - 2025-02-23 (1.4.6) - Improved filters layout, minor improvements/bug fixes, added jPhones logo.
 - 2025-02-16 (1.4.5) - Added Compare page.
 - 2025-02-10 (1.4.0) - Added more display options, filters.
@@ -36,7 +36,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 - 2023-08-15 (0.2.0) - Minor UI changes.
 - 2023-06-25 (0.1.0) - Initial commit.
 
-## Links & Resources
+## Resources
 
 - [React Bootstrap](https://react-bootstrap.github.io)
 

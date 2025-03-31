@@ -20,7 +20,9 @@ const ProsAndCons = forwardRef((props, ref) => {
             </div>
           </div>
           <div ref={proRef} className='scrollable'>
-            <ul>{phone.pros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
+            {phone.pros ?
+              <ul>{phone.pros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
+              : <p className='no-data'>None recorded</p>}
           </div>
         </section>
         <section className='pros-and-cons-bubble gray-bubble'>
@@ -31,7 +33,9 @@ const ProsAndCons = forwardRef((props, ref) => {
             </div>
           </div>
           <div ref={conRef} className='scrollable'>
-            <ul>{phone.cons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
+            {phone.cons ?
+              <ul>{phone.cons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
+              : <p className='no-data'>None recorded</p>}
           </div>
         </section>
       </div>
