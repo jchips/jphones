@@ -21,7 +21,7 @@ class Groups extends Component {
       return company += ' foldables';
     } else if (route === 'notes') {
       let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
-      return company += ' notes';
+      return company += ' Note series';
     } else {
       return index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
     }

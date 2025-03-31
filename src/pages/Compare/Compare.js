@@ -100,7 +100,7 @@ class Compare extends Component {
       isLoading,
     } = this.state;
     return (
-      <div className="compare_wrapper">
+      <div className='compare_wrapper'>
         {!isLoading ? (
           <>
             <Accordion>
@@ -115,12 +115,12 @@ class Compare extends Component {
                       : 'Select a phone...'}
                 </Accordion.Header>
                 <Accordion.Body>
-                  <div className="radio-container">
+                  <div className='radio-container'>
                     {companies.map((company, i) => (
                       <FormGroup key={i} controlId={`${company.id}`}>
                         <FormCheck
                           value={JSON.stringify(company)}
-                          type="radio"
+                          type='radio'
                           id={`${company.id}-checkbox`}
                           label={`${company.name}`}
                           checked={
@@ -149,8 +149,8 @@ class Compare extends Component {
             </Accordion>
             {index === 'A' ? (
               selectedPhoneA.name ? (
-                <div className="compare-header">
-                  <p className="selected-phone-title">
+                <div className='compare-header'>
+                  <p className='selected-phone-title'>
                     {selectedPhoneA.offName ? `${selectedPhoneA.offName}` : ''}
                   </p>
                 </div>
@@ -158,8 +158,8 @@ class Compare extends Component {
                 <h1>Phone {index}</h1>
               )
             ) : selectedPhoneB.name ? (
-              <div className="compare-header">
-                <p className="selected-phone-title">
+              <div className='compare-header'>
+                <p className='selected-phone-title'>
                   {selectedPhoneB.offName ? `${selectedPhoneB.offName}` : ''}
                 </p>
               </div>
@@ -167,7 +167,7 @@ class Compare extends Component {
               <h1>Phone {index}</h1>
             )}
             {error && (
-              <Alert variant="danger" className="m-3">
+              <Alert variant='danger' className='m-3'>
                 {error}
               </Alert>
             )}

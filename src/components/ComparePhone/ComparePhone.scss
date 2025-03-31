@@ -156,21 +156,20 @@
 
     .sub-data {
       color: $gray-text;
-      // color: $off-black;
       font-weight: $regularFont;
       font-size: small;
     }
 
-    .tag,
-    .blue-tag {
+    .orange-tag {
       color: $orange;
       font-weight: $boldFont;
       font-size: small;
     }
 
-    .blue-tag {
-      color: $bootstrap-blue;
+    .black-tag {
+      color: $off-black;
       margin-left: 5px;
+      font-weight: $regularFont;
       font-size: 0.9rem;
     }
   }

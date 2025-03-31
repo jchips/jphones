@@ -43,11 +43,6 @@ class CompareCameras extends Component {
         ois: primary?.ois,
         eis: primary?.eis,
         pdaf: primary?.pdaf,
-        sub_data: primary
-          ? `${primary?.mm}mm, ${primary?.aperture} ${primary?.ois && primary?.ois === 'yes' ? 'OIS' : ''
-          } ${primary?.eis && primary?.eis === 'yes' ? 'EIS' : ''} ${primary?.pdaf && primary?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
       {
         title: 'Ultra-wide',
@@ -57,11 +52,6 @@ class CompareCameras extends Component {
         ois: uw?.ois,
         eis: uw?.eis,
         pdaf: uw?.pdaf,
-        sub_data: uw
-          ? `${uw?.mm ? `${uw?.mm}mm,` : ''} ${uw?.aperture} ${uw?.ois && uw?.ois === 'yes' ? 'OIS' : ''
-          } ${uw?.eis && uw?.eis === 'yes' && uw?.eis ? 'EIS' : ''} ${uw?.pdaf && uw?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
       {
         title: 'Telephoto',
@@ -73,11 +63,6 @@ class CompareCameras extends Component {
         ois: telephoto?.ois,
         eis: telephoto?.eis,
         pdaf: telephoto?.pdaf,
-        sub_data: telephoto
-          ? `${telephoto?.mm}mm, ${telephoto?.aperture} ${telephoto?.ois && telephoto?.ois === 'yes' ? 'OIS' : ''
-          } ${telephoto?.eis && telephoto?.eis === 'yes' ? 'EIS' : ''} ${telephoto?.pdaf && telephoto?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
       {
         title: 'Periscope',
@@ -89,11 +74,6 @@ class CompareCameras extends Component {
         ois: periscope?.ois,
         eis: periscope?.eis,
         pdaf: periscope?.pdaf,
-        sub_data: periscope
-          ? `${periscope?.mm ? `${periscope?.mm}mm,` : ''} ${periscope?.aperture} ${periscope?.ois && periscope?.ois === 'yes' ? 'OIS' : ''
-          } ${periscope?.eis && periscope?.eis === 'yes' ? 'EIS' : ''} ${periscope?.pdaf && periscope?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
       {
         title: 'Macro',
@@ -103,11 +83,6 @@ class CompareCameras extends Component {
         ois: macro?.ois,
         eis: macro?.eis,
         pdaf: macro?.pdaf,
-        sub_data: macro
-          ? `${macro?.mm}mm, ${macro?.aperture} ${macro?.ois && macro?.ois === 'yes' ? 'OIS' : ''
-          } ${macro?.eis && macro?.eis === 'yes' ? 'EIS' : ''} ${macro?.pdaf && macro?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
       {
         title: 'Selfie (front)',
@@ -117,11 +92,6 @@ class CompareCameras extends Component {
         ois: front?.ois,
         eis: front?.eis,
         pdaf: front?.pdaf,
-        sub_data: front
-          ? `${front?.mm}mm, ${front?.aperture} ${front?.ois && front?.ois === 'yes' ? 'OIS' : ''
-          } ${front?.eis && front?.eis === 'yes' ? 'EIS' : ''} ${front?.pdaf && front?.pdaf === 'yes' ? 'PDAF' : ''
-          }`
-          : null,
       },
     ];
 
@@ -159,29 +129,41 @@ class CompareCameras extends Component {
                             <div className='p-2 item-title'>{item.title}:</div>
                             <div className='p-2 data'>{item.phone_data}</div>
                             {item.opt_zoom && (
-                              <div className='p-2 data'>{item.opt_zoom}</div>
+                              <div className='p-2 data'>{item.opt_zoom} optical zoom</div>
                             )}
-                            <div className='p-2 data'>
+                            <Stack className='p-2 data' direction='horizontal' gap={2}>
                               {item.mm && (
-                                <span className='tag'>{`${item.mm}mm`}</span>
+                                <span className='orange-tag'>{`${item.mm}mm`}</span>
                               )}{' '}
                               {item.aperture && (
-                                <span className='tag'>{`(${item.aperture})`}</span>
+                                <span className='orange-tag'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
                                 <Badge className='ois' bg=''>OIS</Badge>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <Badge className='eis' bg=''>EIS</Badge>
+                                <Badge className='eis' bg='' text='dark'>EIS</Badge>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
                                 <Badge className='pdaf' bg='' text='dark'>PDAF</Badge>
                               )}
-                            </div>
+                            </Stack>
                           </Stack>
                         </ListGroupItem>
                       ) : null
                     )}
+                    {rearCameras.digi_zoom !== '' &&
+                      <ListGroupItem>
+                        <Stack direction='horizontal'>
+                          <div className='p-2 item-title'>
+                            Digital zoom:
+                          </div>
+                          <div className='p-2 data'>
+                            {rearCameras.digi_zoom}
+                          </div>
+                        </Stack>
+                      </ListGroupItem>
+                    }
                     <ListGroupItem>
                       <Stack direction='horizontal'>
                         <div className='p-2 item-title'>
@@ -206,18 +188,6 @@ class CompareCameras extends Component {
                         ))}
                       </Stack>
                     </ListGroupItem>
-                    {rearCameras.digi_zoom !== '' &&
-                      <ListGroupItem>
-                        <Stack direction='horizontal'>
-                          <div className='p-2 item-title'>
-                            Digital zoom:
-                          </div>
-                          <div className='p-2 data'>
-                            {rearCameras.digi_zoom}
-                          </div>
-                        </Stack>
-                      </ListGroupItem>
-                    }
                   </div>
                 ) : null}
               </Container>
@@ -233,7 +203,7 @@ class CompareCameras extends Component {
                       <div className='p-2 data'>
                         {item.phone_data}{' '}
                         {item.opt_zoom && (
-                          <span className='blue-tag'>{item.opt_zoom}</span>
+                          <span className='black-tag'>{item.opt_zoom} optical zoom</span>
                         )}
                         {item.mm && (
                           <span className='p-2 sub-data'>{`${item.mm}mm`}</span>
@@ -242,13 +212,13 @@ class CompareCameras extends Component {
                           <span className='p-1 sub-data'>{`(${item.aperture})`}</span>
                         )}{' '}
                         {item.ois && item.ois === 'yes' && (
-                          <Badge className='ois' bg=''>OIS</Badge>
+                          <Badge bg='light' text='dark'>OIS</Badge>
                         )}{' '}
                         {item.eis && item.eis === 'yes' && (
-                          <Badge className='eis' bg='' text='dark'>EIS</Badge>
+                          <Badge bg='light' text='dark'>EIS</Badge>
                         )}{' '}
                         {item.pdaf && item.pdaf === 'yes' && (
-                          <Badge className='pdaf' bg='' text='dark'>PDAF</Badge>
+                          <Badge bg='light' text='dark'>PDAF</Badge>
                         )}
                       </div>
                     </Stack>
