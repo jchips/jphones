@@ -20,6 +20,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Changelog
 
+- 2025-03-31 (4.0.4) - Fixed compare phones bug where one selection would sometimes change both selections, improved camera compare.
 - 2025-02-23 (4.0.3) - Improved filters layout, minor improvements/bug fixes, added jPhones logo.
 - 2025-02-16 (4.0.2) - Added Compare page.
 - 2025-02-10 (4.0.1) - Added more display options, filters.

@@ -6,6 +6,7 @@ import {
   ListGroup,
   ListGroupItem,
   Stack,
+  Badge,
 } from 'react-bootstrap';
 import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 
@@ -162,19 +163,19 @@ class CompareCameras extends Component {
                             )}
                             <div className='p-2 data'>
                               {item.mm && (
-                                <span className='tag'>{`${item.mm}mm,`}</span>
+                                <span className='tag'>{`${item.mm}mm`}</span>
                               )}{' '}
                               {item.aperture && (
                                 <span className='tag'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
-                                <span className='tag'>OIS</span>
+                                <Badge className='ois' bg=''>OIS</Badge>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <span className='tag'>EIS</span>
+                                <Badge className='eis' bg=''>EIS</Badge>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
-                                <span className='tag'>PDAF</span>
+                                <Badge className='pdaf' bg='' text='dark'>PDAF</Badge>
                               )}
                             </div>
                           </Stack>
@@ -205,13 +206,25 @@ class CompareCameras extends Component {
                         ))}
                       </Stack>
                     </ListGroupItem>
+                    {rearCameras.digi_zoom !== '' &&
+                      <ListGroupItem>
+                        <Stack direction='horizontal'>
+                          <div className='p-2 item-title'>
+                            Digital zoom:
+                          </div>
+                          <div className='p-2 data'>
+                            {rearCameras.digi_zoom}
+                          </div>
+                        </Stack>
+                      </ListGroupItem>
+                    }
                   </div>
                 ) : null}
               </Container>
             </>
           ) : null}
           {cameraData ? (
-            <ListGroup variant='flush'>
+            <ListGroup variant='flush' className='camera-details'>
               {cameraData.map((item, index) =>
                 item.phone_data ? (
                   <ListGroupItem as={'div'} key={index} action>
@@ -219,14 +232,24 @@ class CompareCameras extends Component {
                       <div className='p-2 item-title'>{item.title}:</div>
                       <div className='p-2 data'>
                         {item.phone_data}{' '}
-                        {item.paren_data ? (
-                          <span className='sub-data'>
-                            {`(${item.paren_data})`}{' '}
-                          </span>
-                        ) : null}
-                        {item.sub_data ? (
-                          <span className='sub-data'>{`${item.sub_data}`}</span>
-                        ) : null}
+                        {item.opt_zoom && (
+                          <span className='blue-tag'>{item.opt_zoom}</span>
+                        )}
+                        {item.mm && (
+                          <span className='p-2 sub-data'>{`${item.mm}mm`}</span>
+                        )}{' '}
+                        {item.aperture && (
+                          <span className='p-1 sub-data'>{`(${item.aperture})`}</span>
+                        )}{' '}
+                        {item.ois && item.ois === 'yes' && (
+                          <Badge className='ois' bg=''>OIS</Badge>
+                        )}{' '}
+                        {item.eis && item.eis === 'yes' && (
+                          <Badge className='eis' bg='' text='dark'>EIS</Badge>
+                        )}{' '}
+                        {item.pdaf && item.pdaf === 'yes' && (
+                          <Badge className='pdaf' bg='' text='dark'>PDAF</Badge>
+                        )}
                       </div>
                     </Stack>
                   </ListGroupItem>
@@ -235,7 +258,7 @@ class CompareCameras extends Component {
             </ListGroup>
           ) : null}
           {cameraFeatures ? (
-            <ListGroup variant='flush'>
+            <ListGroup variant='flush' className='camera-features'>
               {cameraFeatures.map((item, index) => (
                 <ListGroupItem
                   as={'div'}
