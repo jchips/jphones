@@ -9,7 +9,15 @@ class MyNavbar extends React.Component {
         <Container>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav' className='justify-content-center'>
-            <Navbar.Brand href='/'>jPhones</Navbar.Brand>
+            <Navbar.Brand href='/'>
+              <img
+                alt="Logo"
+                src="/assets/imgs/appIcon/jphones2.png"
+                width="25"
+                height="25"
+                className="d-inline-block align-center mx-1"
+              />{' '}
+              jPhones</Navbar.Brand>
             <Nav activeKey={window.location.pathname}>
               <Nav.Link href='/'>Home</Nav.Link>
               <Nav.Link href='/compare'>Compare</Nav.Link>
