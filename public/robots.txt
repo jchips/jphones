@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Disallow: /apple
+Disallow: /asus
+Disallow: /google
+Disallow: /nothing
+Disallow: /oneplus
+Disallow: /samsung

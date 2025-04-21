@@ -15,8 +15,8 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 - Built with React and React Bootstrap.
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- Languages used: JavaScript and Sass.
-- Backend uses Nodejs and Express.
+- Languages used: JavaScript and SASS.
+- Backend made with Nodejs and Express.
 
 ## Changelog
 
@@ -36,7 +36,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 - 2023-08-15 (0.2.0) - Minor UI changes.
 - 2023-06-25 (0.1.0) - Initial commit.
 
-## Resources
+## Credits & Resources
 
 - [React Bootstrap](https://react-bootstrap.github.io)
 
