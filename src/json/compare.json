@@ -51,6 +51,7 @@
     "company": "Motorola",
     "selected": false,
     "routes": [
+      "moto-g-power",
       "foldables?cat=razr"
     ]
   },

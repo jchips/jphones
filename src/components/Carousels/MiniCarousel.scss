@@ -41,6 +41,12 @@
     font-weight: 600;
   }
 
+  .first-slide {
+    .scrollable {
+      max-height: 400px;
+    }
+  }
+
   .specs-slide {
     .scrollable {
       max-height: 319px;
