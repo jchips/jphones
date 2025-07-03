@@ -48,6 +48,7 @@
   {
     "id": "motorola",
     "name": "Motorola",
+    "brand": "motorola",
     "company": "Motorola",
     "selected": false,
     "routes": [
