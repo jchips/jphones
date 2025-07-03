@@ -14,6 +14,7 @@ import Samsung from './pages/Samsung';
 import OnePlus from './pages/OnePlus';
 import Google from './pages/Google';
 import Nothing from './pages/Nothing';
+import Motorola from './pages/Motorola';
 import Compare from './pages/Compare';
 import './styles/index.scss';
 
@@ -34,6 +35,7 @@ class App extends React.Component {
           <Route path='/oneplus' element={<OnePlus />} />
           <Route path='/samsung' element={<Samsung />} />
           <Route path='/nothing' element={<Nothing />} />
+          <Route path='/motorola' element={<Motorola />} />
         </Routes>
       </BrowserRouter>
     )

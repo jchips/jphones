@@ -48,9 +48,11 @@
   {
     "id": "motorola",
     "name": "Motorola",
+    "brand": "motorola",
     "company": "Motorola",
     "selected": false,
     "routes": [
+      "moto-g-power",
       "foldables?cat=razr"
     ]
   },

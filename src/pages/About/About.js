@@ -21,9 +21,9 @@ class About extends Component {
                 information in one place.
               </p>
               <p>This site is to compare phones and pick the best one for purchase.
-                It is based in the USA and is made using ReactJS, Sass, and Bootstrap.
+                It is based in the USA.
                 I am a full-stack software developer and can be contacted at{' '}
-                <a href='mailto:jrosetech8@gmail.com'>jrosetech8@gmail.com</a>.</p>
+                <a href='mailto:jrotech7@gmail.com'>jrotech7@gmail.com</a>.</p>
               <br></br>
               <p>FOR MOBILE USERS ONLY: On the main page, I disabled finger
                 swiping through the carousels on touchscreens because the carousels

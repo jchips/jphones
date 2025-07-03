@@ -87,12 +87,14 @@ class MiniCarousel extends React.Component {
           onSlide={this.enableExpand}
         >
           <Carousel.Item className='first-slide'>
-            <h2>{phone.name}</h2>
-            <h5>{phone.brand} / {phone.os}</h5>
-            <div className='img__container'>
-              <LazyLoadImage src={phone.img} alt={phone.name} />
+            <div className='scrollable'>
+              <h2>{phone.name}</h2>
+              <h5>{phone.brand} / {phone.os}</h5>
+              <div className='img__container'>
+                <LazyLoadImage src={phone.img} alt={phone.name} />
+              </div>
+              <h6>{phone.released}</h6>
             </div>
-            <h6>{phone.released}</h6>
           </Carousel.Item>
 
           {/* Phone specs */}

@@ -13,6 +13,8 @@ class Groups extends Component {
       return 'Samsung S series';
     } else if (route === 'samsung-a') {
       return 'Samsung A series';
+    } else if (route === 'moto-g-power') {
+      return 'Moto G Power series';
     } else if (route.includes('Flip')) {
       let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
       return company += ' flip';

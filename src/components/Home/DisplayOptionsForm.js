@@ -12,6 +12,9 @@ class DisplayOptionsForm extends React.Component {
     super(props);
     this.state = {
       showFilters: false,
+      checkAllFilter: {
+        "checked": false
+      },
     };
     this.orange = '#ff6a00'
   }
@@ -19,6 +22,14 @@ class DisplayOptionsForm extends React.Component {
   setShowFilters = () => {
     this.setState({ showFilters: !this.state.showFilters });
   };
+
+  setCheckAllFilter = () => {
+    this.setState({
+      checkAllFilter: {
+        checked: !this.state.checkAllFilter.checked
+      }
+    })
+  }
 
   /**
    * Toggle between showing current selling phones vs all phones on site.
@@ -58,6 +69,31 @@ class DisplayOptionsForm extends React.Component {
     );
   };
 
+  /**
+   * Handles toggling the filter to show all companies
+   */
+  handleCheckAll = (e) => {
+    const { filters, setFilters } = this.props;
+    this.setCheckAllFilter()
+    if (!this.state.checkAllFilter.checked) {
+      setFilters(
+        filters.map(filter => {
+          return filter.type === 'phone'
+            ? { ...filter, checked: true }
+            : filter;
+        })
+      )
+    } else {
+      setFilters(
+        filters.map(filter => {
+          return filter.type === 'phone'
+            ? { ...filter, checked: false }
+            : filter;
+        })
+      )
+    }
+  }
+
   render() {
     const { showFilters } = this.state;
     const { filters } = this.props;
@@ -91,6 +127,17 @@ class DisplayOptionsForm extends React.Component {
           >
             <p className='m-2 filter-section-label'>Companies</p>
             <div className='filter__wrapper'>
+              {/* Toggle all companies */}
+              <FormGroup controlId='check-all'>
+                <FormCheck
+                  type='checkbox'
+                  id='check-all'
+                  label='All companies'
+                  checked={this.state.checkAllFilter.checked}
+                  onChange={this.handleCheckAll}
+                />
+              </FormGroup>
+              {/* Phone filters */}
               {filters
                 ? filters
                   .filter((filter, index) => filter.type === 'phone')
@@ -108,8 +155,10 @@ class DisplayOptionsForm extends React.Component {
                   ))
                 : null}
             </div>
+
             <p className='m-2 filter-section-label'>Add-on filters</p>
             <div className='filter__wrapper'>
+              {/* Add-on filters */}
               {filters
                 ? filters
                   .filter((filter, index) => filter.type === 'add-on')

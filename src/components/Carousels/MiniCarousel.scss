@@ -41,6 +41,24 @@
     font-weight: 600;
   }
 
+  .first-slide {
+
+    .scrollable {
+      max-height: 400px;
+      /* Firefox */
+      scrollbar-width: none;
+      /* Internet Explorer 10+ */
+      -ms-overflow-style: none;
+
+      /* WebKit */
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    }
+
+  }
+
   .specs-slide {
     .scrollable {
       max-height: 319px;

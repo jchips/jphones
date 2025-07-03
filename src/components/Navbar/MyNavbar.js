@@ -25,6 +25,7 @@ class MyNavbar extends React.Component {
                 <NavDropdown.Item href='/apple'>Apple</NavDropdown.Item>
                 <NavDropdown.Item href='/asus'>Asus</NavDropdown.Item>
                 <NavDropdown.Item href='/google'>Google</NavDropdown.Item>
+                <NavDropdown.Item href='/motorola'>Motorola</NavDropdown.Item>
                 <NavDropdown.Item href='/nothing'>Nothing</NavDropdown.Item>
                 <NavDropdown.Item href='/oneplus'>OnePlus</NavDropdown.Item>
                 <NavDropdown.Item href='/samsung'>Samsung</NavDropdown.Item>
