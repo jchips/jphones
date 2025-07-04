@@ -120,6 +120,8 @@ class CompareCameras extends Component {
                     )}
                   </div>
                 </Button>
+
+                {/* Camera details dropdown */}
                 {showCameraDetails ? (
                   <div className='light-gray-bg'>
                     {cameraData.map((item, index) =>
@@ -193,6 +195,7 @@ class CompareCameras extends Component {
               </Container>
             </>
           ) : null}
+
           {cameraData ? (
             <ListGroup variant='flush' className='camera-details'>
               {cameraData.map((item, index) =>
