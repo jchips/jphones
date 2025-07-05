@@ -42,6 +42,7 @@ class CameraModal extends Component {
         title: 'Primary',
         phone_data: primary?.mp,
         mm: primary?.mm,
+        sensor_size: primary?.sensor_size,
         aperture: primary?.aperture,
         ois: primary?.ois,
         eis: primary?.eis,
@@ -51,6 +52,7 @@ class CameraModal extends Component {
         title: 'Ultra-wide',
         phone_data: uw?.mp,
         mm: uw?.mm,
+        sensor_size: uw?.sensor_size,
         aperture: uw?.aperture,
         ois: uw?.ois,
         eis: uw?.eis,
@@ -62,6 +64,7 @@ class CameraModal extends Component {
         paren_data: telephoto ? `${telephoto?.opt_zoom}` : null,
         mm: telephoto?.mm,
         opt_zoom: telephoto?.opt_zoom,
+        sensor_size: telephoto?.sensor_size,
         aperture: telephoto?.aperture,
         ois: telephoto?.ois,
         eis: telephoto?.eis,
@@ -73,6 +76,7 @@ class CameraModal extends Component {
         paren_data: periscope ? `${periscope?.opt_zoom}` : null,
         mm: periscope?.mm,
         opt_zoom: periscope?.opt_zoom,
+        sensor_size: periscope?.sensor_size,
         aperture: periscope?.aperture,
         ois: periscope?.ois,
         eis: periscope?.eis,
@@ -82,6 +86,7 @@ class CameraModal extends Component {
         title: 'Macro',
         phone_data: macro?.mp,
         mm: macro?.mm,
+        sensor_size: macro?.sensor_size,
         aperture: macro?.aperture,
         ois: macro?.ois,
         eis: macro?.eis,
@@ -91,6 +96,7 @@ class CameraModal extends Component {
         title: 'Selfie (front)',
         phone_data: front?.mp,
         mm: front?.mm,
+        sensor_size: front?.sensor_size,
         aperture: front?.aperture,
         ois: front?.ois,
         eis: front?.eis,
@@ -121,6 +127,9 @@ class CameraModal extends Component {
                     <Stack className='p-2 data' direction='horizontal' gap={2}>
                       {item.mm && (
                         <span className='sub-data'>{item.mm}mm</span>
+                      )}{' '}
+                      {item.sensor_size && (
+                        <span className='sub-data'>{item.sensor_size}"</span>
                       )}{' '}
                       {item.aperture && (
                         <span className='sub-data'>({item.aperture})</span>
