@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+@import '../../styles/default.styles';
+
+.cameras-modal {
+  $boldFont: 500;
+  $regularFont: 400;
+  max-width: 700px;
+
+  .item-title {
+    color: #000;
+    font-weight: $boldFont;
+  }
+
+  .data {
+    color: $orange;
+    font-weight: $boldFont;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .sub-data {
+    color: $gray-text;
+    font-weight: $regularFont;
+    font-size: small;
+  }
+
+  .orange-tag {
+    color: $orange;
+    font-weight: $boldFont;
+    font-size: small;
+  }
+
+  .black-tag {
+    color: $off-black;
+    margin-left: 5px;
+    font-weight: $regularFont;
+    font-size: 0.9rem;
+  }
+}
