@@ -72,6 +72,10 @@
     "expl": "Terabytes (unit)"
   },
   {
+    "abbr": "UDC",
+    "expl": "Under display camera"
+  },
+  {
     "abbr": "UI",
     "expl": "User interface"
   },

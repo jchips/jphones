@@ -36,7 +36,9 @@ class CameraModal extends Component {
     const telephoto = rearCameras?.telephoto;
     const periscope = rearCameras?.periscope;
     const macro = rearCameras?.macro;
-    const front = cameraDetails?.frontCameras;
+    const frontCameras = cameraDetails?.frontCameras;
+    const frontPrimary = frontCameras?.primary;
+    const frontSecondary = frontCameras?.secondary;
     const cameraData = [
       {
         title: 'Primary',
@@ -94,13 +96,23 @@ class CameraModal extends Component {
       },
       {
         title: 'Selfie (front)',
-        phone_data: front?.mp,
-        mm: front?.mm,
-        sensor_size: front?.sensor_size,
-        aperture: front?.aperture,
-        ois: front?.ois,
-        eis: front?.eis,
-        pdaf: front?.pdaf,
+        phone_data: frontPrimary?.mp,
+        mm: frontPrimary?.mm,
+        sensor_size: frontPrimary?.sensor_size,
+        aperture: frontPrimary?.aperture,
+        ois: frontPrimary?.ois,
+        eis: frontPrimary?.eis,
+        pdaf: frontPrimary?.pdaf,
+      },
+      {
+        title: 'Secondary Selfie (front)',
+        phone_data: frontSecondary?.mp,
+        mm: frontSecondary?.mm,
+        sensor_size: frontSecondary?.sensor_size,
+        aperture: frontSecondary?.aperture,
+        ois: frontSecondary?.ois,
+        eis: frontSecondary?.eis,
+        pdaf: frontSecondary?.pdaf,
       },
     ];
     return (
@@ -177,7 +189,7 @@ class CameraModal extends Component {
                 <div className='p-2 item-title'>
                   Video recording (selfie):
                 </div>
-                {front.video.map((quality) => (
+                {frontCameras.video.map((quality) => (
                   <div className='p-2 data' key={quality}>
                     {quality}
                   </div>
