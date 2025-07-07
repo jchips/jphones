@@ -75,7 +75,8 @@ section {
   }
 
   .expand-btn,
-  .features-check-btn {
+  .features-check-btn,
+  .camera-details-btn {
     display: flex;
     position: absolute;
     cursor: pointer;
@@ -88,7 +89,8 @@ section {
     z-index: 4;
   }
 
-  .features-check-btn {
+  .features-check-btn,
+  .camera-details-btn {
     margin-top: 5px;
     padding: 4px;
     background-color: $very-light-gray;
@@ -155,6 +157,20 @@ section {
   .display-size {
     font-weight: 600;
     color: $bootstrap-blue;
+  }
+}
+
+.features-slide,
+.cameras-slide {
+  img {
+    width: 23px !important;
+    height: 24px !important;
+    filter: none !important;
+    transition: transform 0.5s;
+  }
+
+  img:hover {
+    transform: scale(1.2); // Becomes larger when hovered over
   }
 }
 

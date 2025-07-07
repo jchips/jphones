@@ -39,6 +39,7 @@ class CompareCameras extends Component {
         title: 'Primary',
         phone_data: phone.rearCameras.primary,
         mm: primary?.mm,
+        sensor_size: primary?.sensor_size,
         aperture: primary?.aperture,
         ois: primary?.ois,
         eis: primary?.eis,
@@ -48,6 +49,7 @@ class CompareCameras extends Component {
         title: 'Ultra-wide',
         phone_data: phone.rearCameras?.ultrawide,
         mm: uw?.mm,
+        sensor_size: uw?.sensor_size,
         aperture: uw?.aperture,
         ois: uw?.ois,
         eis: uw?.eis,
@@ -59,6 +61,7 @@ class CompareCameras extends Component {
         paren_data: telephoto ? `${telephoto?.opt_zoom}` : null,
         mm: telephoto?.mm,
         opt_zoom: telephoto?.opt_zoom,
+        sensor_size: telephoto?.sensor_size,
         aperture: telephoto?.aperture,
         ois: telephoto?.ois,
         eis: telephoto?.eis,
@@ -70,6 +73,7 @@ class CompareCameras extends Component {
         paren_data: periscope ? `${periscope?.opt_zoom}` : null,
         mm: periscope?.mm,
         opt_zoom: periscope?.opt_zoom,
+        sensor_size: periscope?.sensor_size,
         aperture: periscope?.aperture,
         ois: periscope?.ois,
         eis: periscope?.eis,
@@ -79,6 +83,7 @@ class CompareCameras extends Component {
         title: 'Macro',
         phone_data: phone.rearCameras?.macro,
         mm: macro?.mm,
+        sensor_size: macro?.sensor_size,
         aperture: macro?.aperture,
         ois: macro?.ois,
         eis: macro?.eis,
@@ -88,6 +93,7 @@ class CompareCameras extends Component {
         title: 'Selfie (front)',
         phone_data: phone.frontCameras,
         mm: front?.mm,
+        sensor_size: front?.sensor_size,
         aperture: front?.aperture,
         ois: front?.ois,
         eis: front?.eis,
@@ -120,6 +126,8 @@ class CompareCameras extends Component {
                     )}
                   </div>
                 </Button>
+
+                {/* Camera details dropdown */}
                 {showCameraDetails ? (
                   <div className='light-gray-bg'>
                     {cameraData.map((item, index) =>
@@ -193,6 +201,7 @@ class CompareCameras extends Component {
               </Container>
             </>
           ) : null}
+
           {cameraData ? (
             <ListGroup variant='flush' className='camera-details'>
               {cameraData.map((item, index) =>
@@ -207,6 +216,9 @@ class CompareCameras extends Component {
                         )}
                         {item.mm && (
                           <span className='p-2 sub-data'>{`${item.mm}mm`}</span>
+                        )}{' '}
+                        {item.sensor_size && (
+                          <span className='p-1 sub-data'>{item.sensor_size}"</span>
                         )}{' '}
                         {item.aperture && (
                           <span className='p-1 sub-data'>{`(${item.aperture})`}</span>

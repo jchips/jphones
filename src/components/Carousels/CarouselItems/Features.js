@@ -4,6 +4,7 @@ import FeaturesModal from '../../FeaturesModal/FeaturesModal';
 const Features = (props) => {
   const { phone, carouselType } = props;
   const [showFeaturesModal, setShowFeaturesModal] = useState(false);
+
   const handleFeatures = () => {
     setShowFeaturesModal(true);
   };
@@ -11,6 +12,7 @@ const Features = (props) => {
   const handleCloseFeatures = () => {
     setShowFeaturesModal(false);
   };
+
   return (
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
