@@ -32,7 +32,9 @@ class CompareCameras extends Component {
     const telephoto = rearCameras?.telephoto;
     const periscope = rearCameras?.periscope;
     const macro = rearCameras?.macro;
-    const front = phone?.cameraDetails?.frontCameras;
+    const frontCameras = phone?.cameraDetails?.frontCameras;
+    const frontPrimary = frontCameras?.primary;
+    const frontSecondary = frontCameras?.secondary;
     const cameraFeatures = phone.cameraFeatures;
     const cameraData = [
       {
@@ -91,13 +93,23 @@ class CompareCameras extends Component {
       },
       {
         title: 'Selfie (front)',
-        phone_data: phone.frontCameras,
-        mm: front?.mm,
-        sensor_size: front?.sensor_size,
-        aperture: front?.aperture,
-        ois: front?.ois,
-        eis: front?.eis,
-        pdaf: front?.pdaf,
+        phone_data: frontPrimary?.mp && frontPrimary?.mp + ' MP',
+        mm: frontPrimary?.mm,
+        sensor_size: frontPrimary?.sensor_size,
+        aperture: frontPrimary?.aperture,
+        ois: frontPrimary?.ois,
+        eis: frontPrimary?.eis,
+        pdaf: frontPrimary?.pdaf,
+      },
+      {
+        title: 'Secondary Selfie (front)',
+        phone_data: frontSecondary?.mp && frontSecondary?.mp + ' MP',
+        mm: frontSecondary?.mm,
+        sensor_size: frontSecondary?.sensor_size,
+        aperture: frontSecondary?.aperture,
+        ois: frontSecondary?.ois,
+        eis: frontSecondary?.eis,
+        pdaf: frontSecondary?.pdaf,
       },
     ];
 
@@ -189,7 +201,7 @@ class CompareCameras extends Component {
                         <div className='p-2 item-title'>
                           Video recording (selfie):
                         </div>
-                        {front.video.map((quality) => (
+                        {frontCameras.video.map((quality) => (
                           <div className='p-2 data' key={quality}>
                             {quality}
                           </div>
@@ -239,6 +251,8 @@ class CompareCameras extends Component {
               )}
             </ListGroup>
           ) : null}
+
+          {/* Camera features */}
           {cameraFeatures ? (
             <ListGroup variant='flush' className='camera-features'>
               {cameraFeatures.map((item, index) => (

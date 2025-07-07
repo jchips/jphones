@@ -95,7 +95,7 @@ class DisplayPhones extends React.Component {
       return 'Google';
     } else if (phoneName.includes('Apple')) {
       return 'Apple';
-    } else if (phoneName.includes('motorola')) {
+    } else if (phoneName.includes('Motorola')) {
       return 'Motorola';
     } else {
       return rowTitle;

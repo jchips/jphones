@@ -7,3 +7,4 @@ Disallow: /google
 Disallow: /nothing
 Disallow: /oneplus
 Disallow: /samsung
+Disallow: /motorola
