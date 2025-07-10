@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FeaturesModal from '../../FeaturesModal/FeaturesModal';
+import FeaturesModal from '../../Modals/FeaturesModal/FeaturesModal';
 
 const Features = (props) => {
   const { phone, carouselType } = props;

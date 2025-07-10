@@ -134,7 +134,7 @@ class CameraModal extends Component {
                     <div className='p-2 item-title'>{item.title}:</div>
                     <div className='p-2 data'>{item.phone_data} MP</div>
                     {item.opt_zoom && (
-                      <div className='p-2 black-tag'>{item.opt_zoom} optical zoom</div>
+                      <div className='p-2 black-text'>{item.opt_zoom} optical zoom</div>
                     )}
                     <Stack className='p-2 data' direction='horizontal' gap={2}>
                       {item.mm && (
@@ -160,8 +160,9 @@ class CameraModal extends Component {
                 </ListGroupItem>
               ) : null
             )}
+            {/* Digital zoom */}
             {rearCameras.digi_zoom !== '' &&
-              <ListGroupItem>
+              <ListGroupItem as={'div'} action>
                 <Stack direction='horizontal'>
                   <div className='p-2 item-title'>
                     Digital zoom:
@@ -172,7 +173,8 @@ class CameraModal extends Component {
                 </Stack>
               </ListGroupItem>
             }
-            <ListGroupItem>
+            {/* Video recording details */}
+            <ListGroupItem as={'div'} action>
               <Stack direction='horizontal'>
                 <div className='p-2 item-title'>
                   Video recording (rear):
@@ -184,7 +186,7 @@ class CameraModal extends Component {
                 ))}
               </Stack>
             </ListGroupItem>
-            <ListGroupItem>
+            <ListGroupItem as={'div'} action>
               <Stack direction='horizontal'>
                 <div className='p-2 item-title'>
                   Video recording (selfie):

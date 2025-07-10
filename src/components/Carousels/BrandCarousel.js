@@ -2,7 +2,7 @@ import React, { Component, createRef } from 'react';
 import { Carousel, ListGroup, OverlayTrigger, Popover } from 'react-bootstrap';
 import { HiOutlineArrowsExpand } from 'react-icons/hi';
 import parse from 'html-react-parser';
-import ExpandModal from '../ExpandModal/ExpandModal';
+import ExpandModal from '../Modals/ExpandModal/ExpandModal';
 import checkHeight from '../../utils/checkHeight';
 
 class BrandCarousel extends Component {

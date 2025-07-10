@@ -153,19 +153,19 @@ class CompareCameras extends Component {
                             )}
                             <Stack className='p-2 data' direction='horizontal' gap={2}>
                               {item.mm && (
-                                <span className='orange-tag'>{`${item.mm}mm`}</span>
+                                <span className='orange-text'>{`${item.mm}mm`}</span>
                               )}{' '}
                               {item.aperture && (
-                                <span className='orange-tag'>{`(${item.aperture})`}</span>
+                                <span className='orange-text'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
-                                <Badge className='ois' bg=''>OIS</Badge>
+                                <Badge bg='dark'>OIS</Badge>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <Badge className='eis' bg='' text='dark'>EIS</Badge>
+                                <Badge className='blue'>EIS</Badge>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
-                                <Badge className='pdaf' bg='' text='dark'>PDAF</Badge>
+                                <Badge className='blue'>PDAF</Badge>
                               )}
                             </Stack>
                           </Stack>
@@ -184,6 +184,7 @@ class CompareCameras extends Component {
                         </Stack>
                       </ListGroupItem>
                     }
+                    {/* Video recording details */}
                     <ListGroupItem>
                       <Stack direction='horizontal'>
                         <div className='p-2 item-title'>
@@ -214,6 +215,7 @@ class CompareCameras extends Component {
             </>
           ) : null}
 
+          {/* Basic camera data */}
           {cameraData ? (
             <ListGroup variant='flush' className='camera-details'>
               {cameraData.map((item, index) =>
@@ -224,7 +226,7 @@ class CompareCameras extends Component {
                       <div className='p-2 data'>
                         {item.phone_data}{' '}
                         {item.opt_zoom && (
-                          <span className='black-tag'>{item.opt_zoom} optical zoom</span>
+                          <span className='black-text'>{item.opt_zoom} optical zoom</span>
                         )}
                         {item.mm && (
                           <span className='p-2 sub-data'>{`${item.mm}mm`}</span>

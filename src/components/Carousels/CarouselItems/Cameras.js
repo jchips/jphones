@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CameraModal from '../../CameraModal/CameraModal';
+import CameraModal from '../../Modals/CameraModal/CameraModal';
 
 const Cameras = (props) => {
   const { phone, carouselType } = props
