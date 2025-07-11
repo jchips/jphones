@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import parse from 'html-react-parser';
-import './ExpandModal.scss';
+import '../Modal.scss';
 
 class ExpandModal extends Component {
   constructor(props) {

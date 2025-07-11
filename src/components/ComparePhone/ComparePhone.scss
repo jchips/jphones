@@ -1,5 +1,6 @@
 @import '../../styles/colors';
 @import '../../styles/default.styles';
+@import '../../styles/mixins';
 
 .compare-phone__container {
   $boldFont: 500;
@@ -133,44 +134,11 @@
     border-bottom: 4px $light-gray solid;
   }
 
-  // .camera-features {
-  //   border-bottom: 2px $light-gray solid;
-  // }
+  @include cameraData;
 
   .data {
-    color: $orange;
-    font-weight: $boldFont;
-    align-items: center;
-
-    .badge.ois {
+    .badge.blue {
       background-color: #1589FF;
-    }
-
-    .badge.eis {
-      background-color: #16F529;
-    }
-
-    .badge.pdaf {
-      background-color: #FFFF33;
-    }
-
-    .sub-data {
-      color: $gray-text;
-      font-weight: $regularFont;
-      font-size: small;
-    }
-
-    .orange-tag {
-      color: $orange;
-      font-weight: $boldFont;
-      font-size: small;
-    }
-
-    .black-tag {
-      color: $off-black;
-      margin-left: 5px;
-      font-weight: $regularFont;
-      font-size: 0.9rem;
     }
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import { HiCheckCircle, HiXCircle } from 'react-icons/hi';
-import features from '../../utils/features';
+import features from '../../../utils/features';
 import './FeaturesModal.scss';
 
 class FeaturesModal extends Component {

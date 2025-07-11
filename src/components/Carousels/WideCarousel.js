@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import ExpandModal from '../ExpandModal/ExpandModal';
+import ExpandModal from '../Modals/ExpandModal/ExpandModal';
 import checkHeight from '../../utils/checkHeight';
 import { WideSpecs } from './CarouselItems/Specs';
 import Display from './CarouselItems/Display';

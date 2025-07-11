@@ -1,0 +1,34 @@
+@import 'colors';
+@import 'default.styles';
+
+$boldFont: 500;
+$regularFont: 400;
+
+/* ========= Camera ========== */
+@mixin cameraData {
+  .data {
+    color: $orange;
+    font-weight: $boldFont;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .sub-data {
+      color: $gray-text;
+      font-weight: $regularFont;
+      font-size: small;
+    }
+
+    .orange-text {
+      color: $orange;
+      font-weight: $boldFont;
+      font-size: small;
+    }
+  }
+
+  .black-text {
+    color: $off-black;
+    margin-left: 5px;
+    font-weight: $regularFont;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../../styles/colors';
+@import '../../../styles/default.styles';
+@import '../../../styles/mixins';
+
+.cameras-modal {
+  $boldFont: 500;
+  $regularFont: 400;
+  max-width: 700px;
+
+  .item-title {
+    color: #000;
+    font-weight: $boldFont;
+  }
+
+  @include cameraData;
+}
