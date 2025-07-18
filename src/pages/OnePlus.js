@@ -35,7 +35,7 @@ class OnePlus extends Component {
 
   render() {
     let { error, isLoading, oneplusData, brandData, foldableData } = this.state;
-    let series = ['12', '11', '10', '9', '8', '7', '6'];
+    let series = ['13', '12', '11', '10', '9', '8', '7', '6'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}

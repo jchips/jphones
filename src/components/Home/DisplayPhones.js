@@ -39,10 +39,10 @@ class DisplayPhones extends React.Component {
       if (activeFilters.find(filter => filter === 'Foldable')) {
         rowData = rowData.filter((phone) => phone.foldable);
       }
-      if (activeFilters.find(filter => filter === '$600 or less')) {
+      if (activeFilters.find(filter => filter === '$500 or less')) {
         rowData = rowData.filter((phone) => {
           const getNum = phone.prices[0].price.match(/\d+/g)[0];
-          return phone.prices && getNum <= 600
+          return phone.prices && getNum <= 500
         })
       }
       if (activeFilters.find(filter => filter === 'Less than $1000')) {

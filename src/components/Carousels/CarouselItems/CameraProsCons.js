@@ -10,7 +10,7 @@ const CameraProsCons = forwardRef((props, ref) => {
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Cameras - Pros & Cons</h3>
       {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
-      {phone.cameraPros && (
+      {phone.cameraPros ? (
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Camera Pros:</h4>
@@ -23,8 +23,8 @@ const CameraProsCons = forwardRef((props, ref) => {
             <ul>{phone.cameraPros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
           </div>
         </section>
-      )}
-      {phone.cameraCons && (
+      ) : <div className='no-data'><p>- No camera Pros recorded -</p></div>}
+      {phone.cameraCons ? (
         <section className='pros-and-cons-bubble gray-bubble'>
           <div className='bubble-header'>
             <h4>Camera Cons:</h4>
@@ -37,7 +37,7 @@ const CameraProsCons = forwardRef((props, ref) => {
             <ul>{phone.cameraCons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
           </div>
         </section>
-      )}
+      ) : <div className='no-data'><p>- No camera Cons recorded -</p></div>}
     </>
   );
 });

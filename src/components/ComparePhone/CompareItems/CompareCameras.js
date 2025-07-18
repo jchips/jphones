@@ -159,13 +159,13 @@ class CompareCameras extends Component {
                                 <span className='orange-text'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
-                                <Badge bg='dark'>OIS</Badge>
+                                <Badge bg='' className='black'>OIS</Badge>
                               )}{' '}
                               {item.eis && item.eis === 'yes' && (
-                                <Badge className='blue'>EIS</Badge>
+                                <Badge bg='' className='black'>EIS</Badge>
                               )}{' '}
                               {item.pdaf && item.pdaf === 'yes' && (
-                                <Badge className='blue'>PDAF</Badge>
+                                <Badge bg='' className='black'>PDAF</Badge>
                               )}
                             </Stack>
                           </Stack>
