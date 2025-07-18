@@ -26,7 +26,7 @@ class CompareTab extends Component {
     return (
       <div className='compare'>
         <Row>
-          <Col sm={12} md={6}>
+          <Col xs={12} sm={6} md={6}>
             <Compare
               index={'A'}
               phoneA={phoneA}
@@ -34,7 +34,7 @@ class CompareTab extends Component {
               setPhoneA={this.setPhoneA}
             />
           </Col>
-          <Col sm={12} md={6}>
+          <Col xs={12} sm={6} md={6}>
             <Compare
               index={'B'}
               phoneA={phoneA}

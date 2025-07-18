@@ -220,6 +220,10 @@ section {
 }
 
 .camera-pros-cons {
+  .no-data {
+    color: $gray-text;
+  }
+
   ul {
     font-size: 0.9rem;
   }
