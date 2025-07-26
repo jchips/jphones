@@ -1,0 +1,18 @@
+@import 'colors';
+
+$mainBackgroundColor: var(--background-color);
+$surfaceBg: var(--surface-bg-color);
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #{$lightThemeBg};
+    --surface-bg-color: #{$lightSurfaceBg};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #{$darkThemeBg};
+    --surface-bg-color: #{$darkSurfaceBg};
+  }
+}

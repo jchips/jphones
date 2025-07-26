@@ -13,20 +13,20 @@ class CompareSpecs extends Component {
           : `${phone.ui} / ${phone.os}`,
       },
       {
-        title: phone.foldable ? 'Main size (in)' : 'Size (in)',
-        phone_data: phone.foldable ? phone.openSize : phone.size,
-      },
-      {
-        title: phone.foldable ? 'Cover size (in)' : null,
-        phone_data: phone.foldable ? phone.closedSize : null,
-      },
-      {
         title: phone.foldable ? 'Main size (mm)' : 'Size (mm)',
         phone_data: phone.foldable ? phone.openSize_mm : phone.size_mm,
       },
       {
         title: phone.foldable ? 'Cover size (mm)' : null,
         phone_data: phone.foldable ? phone.closedSize_mm : null,
+      },
+      {
+        title: phone.foldable ? 'Main size (in)' : 'Size (in)',
+        phone_data: phone.foldable ? phone.openSize : phone.size,
+      },
+      {
+        title: phone.foldable ? 'Cover size (in)' : null,
+        phone_data: phone.foldable ? phone.closedSize : null,
       },
       {
         title: 'Weight',
