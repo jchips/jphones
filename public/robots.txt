@@ -8,3 +8,4 @@ Disallow: /nothing
 Disallow: /oneplus
 Disallow: /samsung
 Disallow: /motorola
+Disallow: /compare

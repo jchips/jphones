@@ -13,7 +13,7 @@ class Apple extends React.Component {
     this.state = {
       iPhoneData: [],
       brandData: {},
-      mmToggle: false,
+      mmToggle: true,
       error: '',
       isLoading: true
     }
@@ -46,7 +46,7 @@ class Apple extends React.Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={() => setMMToggle(this)}
             />
             {series.map((version, index) =>

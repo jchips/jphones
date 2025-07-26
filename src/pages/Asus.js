@@ -11,7 +11,7 @@ class Asus extends React.Component {
     super(props);
     this.state = {
       asusData: [],
-      mmToggle: false,
+      mmToggle: true,
       error: '',
       isLoading: true
     }
@@ -40,7 +40,7 @@ class Asus extends React.Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={() => setMMToggle(this)}
             />
             {series.map((version, index) =>

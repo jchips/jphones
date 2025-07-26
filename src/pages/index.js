@@ -14,7 +14,7 @@ class Home extends React.Component {
       filters: filters,
       error: '',
       searchValue: '',
-      mmToggle: false,
+      mmToggle: true,
       isLoading: true,
       displayAllPhones: false
     }

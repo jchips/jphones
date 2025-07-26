@@ -14,7 +14,7 @@ class Google extends Component {
       pixelData: [],
       brandData: {},
       foldableData: [],
-      mmToggle: false,
+      mmToggle: true,
       error: '',
       isLoading: true
     }
@@ -48,7 +48,7 @@ class Google extends Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={() => setMMToggle(this)}
             />
             {series.map((version, index) =>
