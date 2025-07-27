@@ -16,7 +16,7 @@ class Samsung extends Component {
       noteData: [],
       foldableData: [],
       brandData: {},
-      mmToggle: false,
+      mmToggle: true,
       error: '',
       isLoading: true
     }
@@ -52,7 +52,7 @@ class Samsung extends Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={() => setMMToggle(this)}
             />
             {sPhones.map((version, index) =>

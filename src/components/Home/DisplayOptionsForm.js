@@ -111,7 +111,7 @@ class DisplayOptionsForm extends React.Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={this.props.setMMToggle}
             />
           </div>

@@ -14,7 +14,7 @@ class Motorola extends Component {
       motoData: [],
       brandData: {},
       foldableData: [],
-      mmToggle: false,
+      mmToggle: true,
       error: '',
       isLoading: true
     }
@@ -48,7 +48,7 @@ class Motorola extends Component {
             <FormCheck
               type='switch'
               id='mm-toggle'
-              label='show milimeters'
+              label='show inches'
               onChange={() => setMMToggle(this)}
             />
             {series.map((version, index) =>
