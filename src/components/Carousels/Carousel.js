@@ -22,6 +22,7 @@ class MiniCarousel extends React.Component {
       expandData: [],
       showExpandModal: false,
       expandedBubbleType: null,
+      theme: 'light'
     }
     this.cameraProRef = createRef();
     this.cameraConRef = createRef();
@@ -31,6 +32,10 @@ class MiniCarousel extends React.Component {
     this.conRef = createRef();
     this.proExpandBtn = createRef();
     this.conExpandBtn = createRef();
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'light' : 'dark' }) // set carousel indicator color
   }
 
   // happens once componented is mounted
@@ -48,6 +53,12 @@ class MiniCarousel extends React.Component {
     } else {
       this.setState({ slides: allSlides });
     }
+
+    // Fetch color scheme for carousel indicators
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
   }
 
   /**
@@ -74,6 +85,7 @@ class MiniCarousel extends React.Component {
 
   render() {
     const { phone, mmToggle } = this.props;
+    console.log('this.state.theme', this.state.theme); // dl
     return (
       <>
         <Carousel
@@ -82,7 +94,8 @@ class MiniCarousel extends React.Component {
           interval={null}
           indicators={true}
           indicatorLabels={this.state.slides}
-          variant='dark'
+          variant={this.state.theme}
+          // variant='dark'
           touch={false}
           onSlide={this.enableExpand}
         >

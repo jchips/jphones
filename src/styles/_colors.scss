@@ -8,11 +8,41 @@ $note: $theme-blue;
 $off-black: #424242;
 $orange: #ff6a00;
 $orange-header: #ff710d;
+$white: #fff;
 
 /* LIGHT */
-$lightThemeBg: #fff;
+$lightThemeBg: $white;
+$lightText: #212529;
+$secondaryLightText: #000; // carousel row text
 $lightSurfaceBg: $very-light-gray; // #f8f9fa;
+$lightScrollbarTrack: $light-gray;
+$lightScrollbarThumb: #9a9a9a;
+$lightScrollbarThumbHover: #aaa;
+$lightToggleBg: $white;
+$lightBorder: rgba(0, 0, 0, 0.6);
+$lightBoxShadow: rgba(0, 0, 0, 0.2);
+$lightToggleBorder: rgba(0, 0, 0, .25);
+$lightSectionBg: $light-gray;
+$lightNavLink: rgba(0, 0, 0, .55);
+$lightActiveNavLink: rgba(0, 0, 0, .9);
+$lightNavbarBrand: rgba(0, 0, 0, .9);
+$lightCarouselBg: $white;
 
 /* DARK */
-$darkThemeBg: #1b1b1d;
-$darkSurfaceBg: #242526;
+$darkThemeBg: #1b1b1d; // #23272f; // rgb(33, 37, 41);
+$darkText: #e3e3e3;
+$secondaryDarkText: #e3e3e3;
+$darkSurfaceBg: rgb(33, 37, 41); // #242526; // #1b1b1d;
+$darkScrollbarTrack: #444;
+$darkScrollbarThumb: #222222; // #686868;
+$darkScrollbarThumbHover: #7a7a7a;
+$darkToggleBg: #808080; // #535353; // #686868;
+$darkBorder: rgba(100, 100, 100, 0.6);
+$darkBoxShadow: #474c57;
+$darkToggleBorder: rgb(100, 100, 100);
+$darkSectionBg: #121213; // #1b1b1d;
+$darkNavLink: #aaa;
+$darkActiveNavLink: #fff;
+$darkNavbarBrand: #fff;
+$darkCarouselBg: #121213;
+// $darkSectionBg: rgba(52, 58, 70, .8);

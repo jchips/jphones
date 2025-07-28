@@ -3,9 +3,29 @@ import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import './MyNavbar.scss';
 
 class MyNavbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      theme: 'light'
+    }
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' }) // set carousel indicator color
+  }
+
+  componentDidMount() {
+    // Fetch color scheme for carousel indicators
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+  }
+
   render() {
     return (
-      <Navbar bg='light' expand='lg'>
+      // <Navbar bg='light' expand='lg'>
+      <Navbar bg={this.state.theme} expand='lg'>
         <Container>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav' className='justify-content-center'>
