@@ -24,4 +24,8 @@
 a.navbar-brand {
   font-weight: 600;
   color: $navBrand;
+
+  &:hover {
+    color: $navBrand;
+  }
 }

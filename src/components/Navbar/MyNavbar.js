@@ -22,6 +22,16 @@ class MyNavbar extends React.Component {
     return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
   }
 
+  setLogoTheme = () => {
+    let theme;
+    if (this.state.theme === 'light') {
+      theme = '/assets/imgs/appIcon/jphones2.png';
+    } else {
+      theme = '/assets/imgs/appIcon/jphones_dark2.png';
+    }
+    return theme;
+  }
+
   render() {
     return (
       // <Navbar bg='light' expand='lg'>
@@ -31,8 +41,8 @@ class MyNavbar extends React.Component {
           <Navbar.Collapse id='basic-navbar-nav' className='justify-content-center'>
             <Navbar.Brand href='/'>
               <img
-                alt="Logo"
-                src="/assets/imgs/appIcon/jphones2.png"
+                alt="Jphones logo - a phone in the middle of a circle"
+                src={this.setLogoTheme()}
                 width="25"
                 height="25"
                 className="d-inline-block align-center mx-1"

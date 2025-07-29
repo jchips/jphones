@@ -38,11 +38,11 @@
   & img {
     height: 202px;
     width: 189px;
-    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(1px 1px 5px $dropShadow);
   }
 
   & span {
-    color: black;
+    color: $secondaryText;
     font-weight: 600;
   }
 

@@ -14,7 +14,8 @@ body {
   justify-content: center;
   align-content: space-around;
   align-items: center;
-  background-color: #fff;
+  background-color: $mainBackgroundColor;
+  // background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
 
@@ -22,7 +23,7 @@ body {
     margin: 20px;
     height: 76.8px;
     min-width: 72px;
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(5px 5px 10px $dropShadow);
     transition: transform 0.7s;
   }
 

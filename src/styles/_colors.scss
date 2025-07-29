@@ -27,6 +27,8 @@ $lightNavLink: rgba(0, 0, 0, .55);
 $lightActiveNavLink: rgba(0, 0, 0, .9);
 $lightNavbarBrand: rgba(0, 0, 0, .9);
 $lightCarouselBg: $white;
+$lightFooterText: rgb(66, 66, 66);
+$lightDropShadow: rgba(0, 0, 0, 0.4);
 
 /* DARK */
 $darkThemeBg: #1b1b1d; // #23272f; // rgb(33, 37, 41);
@@ -45,4 +47,6 @@ $darkNavLink: #aaa;
 $darkActiveNavLink: #fff;
 $darkNavbarBrand: #fff;
 $darkCarouselBg: #121213;
+$darkFooterText: rgb(150, 150, 150);
+$darkDropShadow: rgba(50, 50, 50, 0.4);
 // $darkSectionBg: rgba(52, 58, 70, .8);

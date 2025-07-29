@@ -13,6 +13,7 @@ import ProsAndCons from './CarouselItems/ProsAndCons';
 import Approbations from './CarouselItems/Approbations';
 import './Carousel.scss';
 import './MiniCarousel.scss';
+import './carousel-indicators.scss';
 
 class MiniCarousel extends React.Component {
   constructor(props) {
@@ -85,7 +86,6 @@ class MiniCarousel extends React.Component {
 
   render() {
     const { phone, mmToggle } = this.props;
-    console.log('this.state.theme', this.state.theme); // dl
     return (
       <>
         <Carousel

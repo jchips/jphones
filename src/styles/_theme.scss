@@ -16,6 +16,8 @@ $navLink: var(--nav-link);
 $navActiveLink: var(--nav-active-link);
 $navBrand: var(--nav-brand);
 $carouselBg: var(--carousel-bg);
+$footerText: var(--footer-text);
+$dropShadow: var(--drop-shadow);
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -35,6 +37,8 @@ $carouselBg: var(--carousel-bg);
     --nav-active-link: #{$lightActiveNavLink};
     --nav-brand: #{$lightNavbarBrand};
     --carousel-bg: #{$lightCarouselBg};
+    --footer-text: #{$lightFooterText};
+    --drop-shadow: #{$lightDropShadow};
   }
 }
 
@@ -56,5 +60,7 @@ $carouselBg: var(--carousel-bg);
     --nav-active-link: #{$darkActiveNavLink};
     --nav-brand: #{$darkNavbarBrand};
     --carousel-bg: #{$darkCarouselBg};
+    --footer-text: #{$darkFooterText};
+    --drop-shadow: #{$darkDropShadow};
   }
 }
