@@ -16,7 +16,20 @@ class CompareBrand extends Component {
       showBrandFeatures: false,
       showBrandCamera: false,
       showBrandPC: false,
+      theme: 'light'
     };
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' })
+  }
+
+  componentDidMount() {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
   }
 
   toggleShowBrandFeatures = () => {
@@ -45,7 +58,8 @@ class CompareBrand extends Component {
             {/* Features */}
             <Button
               className='ddBtn'
-              variant='light'
+              variant={this.state.theme}
+              // variant='light'
               onClick={() => this.toggleShowBrandFeatures()}
             >
               {showBrandFeatures
@@ -53,9 +67,10 @@ class CompareBrand extends Component {
                 : `${selectedCompany.name} features`}
               <div>
                 {showBrandFeatures ? (
-                  <HiChevronUp size={20} color='#424242' />
+                  <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 ) : (
-                  <HiChevronDown size={20} color='#424242' />
+                  <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
+                  // <HiChevronDown size={20} color='#424242' />
                 )}
               </div>
             </Button>
@@ -77,7 +92,8 @@ class CompareBrand extends Component {
             {/* Camera */}
             <Button
               className='ddBtn'
-              variant='light'
+              variant={this.state.theme}
+              // variant='light'
               onClick={() => this.toggleShowBrandCamera()}
             >
               {showBrandCamera
@@ -85,9 +101,9 @@ class CompareBrand extends Component {
                 : `${selectedCompany.name} camera`}
               <div>
                 {showBrandCamera ? (
-                  <HiChevronUp size={20} color='#424242' />
+                  <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 ) : (
-                  <HiChevronDown size={20} color='#424242' />
+                  <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 )}
               </div>
             </Button>
@@ -160,7 +176,8 @@ class CompareBrand extends Component {
             {/* Pros & Cons */}
             <Button
               className='ddBtn'
-              variant='light'
+              variant={this.state.theme}
+              // variant='light'
               onClick={() => this.toggleShowBrandPC()}
             >
               {showBrandPC
@@ -168,9 +185,9 @@ class CompareBrand extends Component {
                 : `${selectedCompany.name} pros & cons`}
               <div>
                 {showBrandPC ? (
-                  <HiChevronUp size={20} color='#424242' />
+                  <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 ) : (
-                  <HiChevronDown size={20} color='#424242' />
+                  <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 )}
               </div>
             </Button>

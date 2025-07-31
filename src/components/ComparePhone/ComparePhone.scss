@@ -1,6 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/default.styles';
 @import '../../styles/mixins';
+@import '../../styles/theme';
 
 .compare-phone__container {
   $boldFont: 500;
@@ -21,7 +22,8 @@
     justify-content: center;
 
     span {
-      color: #000;
+      color: $secondaryText;
+      // color: #000;
       font-weight: $boldFont;
     }
   }
@@ -36,7 +38,8 @@
 
     .accordion-header {
       button {
-        background-color: $very-light-gray;
+        background-color: $surfaceBg;
+        // background-color: $very-light-gray;
       }
     }
 
@@ -64,14 +67,20 @@
 
   .list-group-item {
     padding: 5px;
+    background-color: $mainBackgroundColor;
+    color: $textColor;
+    border-color: $borderColor;
   }
 
   .list-item {
     padding: $margin 15px;
+    background-color: $mainBackgroundColor;
+    color: $textColor;
   }
 
   .item-title {
-    color: #000;
+    color: $secondaryText;
+    // color: #000;
     font-weight: $boldFont;
   }
 
@@ -87,6 +96,8 @@
     align-items: center;
     width: 100%;
     margin-bottom: $margin;
+    background-color: $mainBackgroundColor;
+    color: $textColor;
 
     &>* {
       margin: 0 5px;
@@ -95,7 +106,8 @@
 
   .light-gray-bg {
     margin: 15px auto;
-    background-color: $very-light-gray;
+    background-color: $surfaceBg;
+    // background-color: $very-light-gray;
     border-radius: $borderRadius;
 
     .data {
