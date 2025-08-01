@@ -11,6 +11,10 @@ h4 {
 h5 {
   color: $theme-blue;
   font-size: 1rem;
+
+  @media (prefers-color-scheme: dark) {
+    color: $bootstrap-blue;
+  }
 }
 
 h6 {
@@ -54,6 +58,10 @@ section {
 
 .blue-text p {
   color: $bootstrap-blue;
+
+  @media (prefers-color-scheme: dark) {
+    color: $theme-blue;
+  }
 }
 
 .gray-bubble {
@@ -164,6 +172,10 @@ section {
   .display-size {
     font-weight: 600;
     color: $bootstrap-blue;
+
+    @media (prefers-color-scheme: dark) {
+      color: $theme-blue;
+    }
   }
 }
 
