@@ -20,6 +20,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Changelog
 
+- 2025-08-01 (1.5.0) - Added dark theme.
 - 2025-07-18 (1.4.11) - Better optimized for tablet screens.
 - 2025-07-09 (1.4.10) - Minor bug fixes.
 - 2025-07-03 (1.4.9) - Added camera details modal.

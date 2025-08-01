@@ -1,6 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/default.styles';
 @import '../../styles/mixins';
+@import '../../styles/theme';
 
 .compare-phone__container {
   $boldFont: 500;
@@ -21,7 +22,7 @@
     justify-content: center;
 
     span {
-      color: #000;
+      color: $secondaryText;
       font-weight: $boldFont;
     }
   }
@@ -36,7 +37,7 @@
 
     .accordion-header {
       button {
-        background-color: $very-light-gray;
+        background-color: $surfaceBg;
       }
     }
 
@@ -64,14 +65,19 @@
 
   .list-group-item {
     padding: 5px;
+    background-color: $mainBackgroundColor;
+    color: $textColor;
+    border-color: $secondaryBorder;
   }
 
   .list-item {
     padding: $margin 15px;
+    background-color: $mainBackgroundColor;
+    color: $textColor;
   }
 
   .item-title {
-    color: #000;
+    color: $secondaryText;
     font-weight: $boldFont;
   }
 
@@ -87,6 +93,14 @@
     align-items: center;
     width: 100%;
     margin-bottom: $margin;
+    background-color: $btnBg;
+    color: $textColor;
+
+    &:hover {
+      background-color: $btnHover;
+      border-color: $btnBorder;
+      color: $textColor;
+    }
 
     &>* {
       margin: 0 5px;
@@ -95,7 +109,7 @@
 
   .light-gray-bg {
     margin: 15px auto;
-    background-color: $very-light-gray;
+    background-color: $surfaceBg;
     border-radius: $borderRadius;
 
     .data {
@@ -111,8 +125,8 @@
   /* ========= Buy link ========== */
 
   @mixin buyLink {
-    border: 1px solid #dee2e6; // bootstrap --bs-border-color
-    background-color: #fff;
+    border: 1px solid $secondaryBorder; // bootstrap --bs-border-color
+    background-color: $mainBackgroundColor;
   }
 
   .buy-link {
@@ -131,7 +145,7 @@
   /* ========= Camera Compare ========== */
 
   .camera-details {
-    border-bottom: 4px $light-gray solid;
+    border-bottom: 4px $sectionBg solid;
   }
 
   @include cameraData;

@@ -1,8 +1,11 @@
 @import '../../styles/colors';
+@import '../../styles/theme';
 
 .footer {
-  background-color: $very-light-gray;
-  color: rgb(66, 66, 66);
+  background-color: $surfaceBg;
+  // background-color: $very-light-gray;
+  color: $footerText;
+  // color: rgb(66, 66, 66);
   padding: 10px;
   display: flex;
   flex-direction: column;

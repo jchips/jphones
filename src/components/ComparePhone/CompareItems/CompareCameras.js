@@ -15,12 +15,25 @@ class CompareCameras extends Component {
     super(props);
     this.state = {
       showCameraDetails: false,
+      theme: 'light'
     };
   }
 
   toggleShowCameraDetails = () => {
     this.setState({ showCameraDetails: !this.state.showCameraDetails });
   };
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' })
+  }
+
+  componentDidMount() {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+  }
 
   render() {
     const { phone } = this.props;
@@ -124,7 +137,7 @@ class CompareCameras extends Component {
               <Container>
                 <Button
                   className='ddBtn'
-                  variant='light'
+                  variant={this.state.theme}
                   onClick={() => this.toggleShowCameraDetails()}
                 >
                   {showCameraDetails
@@ -132,9 +145,9 @@ class CompareCameras extends Component {
                     : `Compare camera details`}
                   <div>
                     {showCameraDetails ? (
-                      <HiChevronUp size={20} color='#424242' />
+                      <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                     ) : (
-                      <HiChevronDown size={20} color='#424242' />
+                      <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                     )}
                   </div>
                 </Button>
@@ -238,13 +251,19 @@ class CompareCameras extends Component {
                           <span className='p-1 sub-data'>{`(${item.aperture})`}</span>
                         )}{' '}
                         {item.ois && item.ois === 'yes' && (
-                          <Badge bg='light' text='dark'>OIS</Badge>
+                          <Badge
+                            bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>OIS</Badge>
                         )}{' '}
                         {item.eis && item.eis === 'yes' && (
-                          <Badge bg='light' text='dark'>EIS</Badge>
+                          <Badge
+                            bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>EIS</Badge>
                         )}{' '}
                         {item.pdaf && item.pdaf === 'yes' && (
-                          <Badge bg='light' text='dark'>PDAF</Badge>
+                          <Badge
+                            bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>PDAF</Badge>
                         )}
                       </div>
                     </Stack>

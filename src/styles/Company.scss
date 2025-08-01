@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'theme';
 @import 'default.styles';
 
 .brand-img {
@@ -10,6 +11,7 @@
 }
 
 .brand-carousel {
+  color: $secondaryText;
   padding: 0 95px;
   height: 460px; // 440px
   max-width: 1000px;
@@ -63,8 +65,36 @@
 }
 
 .company {
+  color: $secondaryText;
+
+  .list-group-item {
+    background-color: $mainBackgroundColor;
+    color: $secondaryText;
+    border-color: $secondaryBorder;
+  }
+
   .form-check-label {
     margin: 0 $margin;
+  }
+
+  .accordion-body {
+    color: $secondaryText;
+  }
+
+  .accordion-button {
+    background-color: $mainBackgroundColor;
+    color: $secondaryText;
+
+
+    @media (prefers-color-scheme: dark) {
+      &::after {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236ea8fe' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+      }
+
+      &:not(.collapsed) {
+        box-shadow: 0 0px 1px $boxShadowColor;
+      }
+    }
   }
 }
 
@@ -75,10 +105,32 @@
 
 .accordion-header {
   margin: $margin;
+  background-color: $mainBackgroundColor;
+}
+
+.accordion-item {
+  background-color: $mainBackgroundColor;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $borderColor;
+  }
+}
+
+.popover {
+  background-color: $mainBackgroundColor;
+  border-color: $secondaryBorder;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .popover-arrow::after,
+  .popover-arrow::before {
+    border-top-color: $mainBackgroundColor !important;
+  }
 }
 
 .popover-body {
-  background-color: #e5effc;
+  background-color: $popover;
   margin: 10px;
   border-radius: 5px;
   color: $gray-text;

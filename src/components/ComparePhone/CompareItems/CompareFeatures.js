@@ -23,7 +23,12 @@ class CompareFeatures extends Component {
     this.state = {
       showFeaturesCheck: false,
       showAI: false,
+      theme: 'light'
     };
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' })
   }
 
   toggleShowFeaturesCheck = () => {
@@ -31,8 +36,16 @@ class CompareFeatures extends Component {
   };
 
   toggleShowAI = () => {
-    this.setState({ showAI: !this.state.showAI });
+    this.setState({ showAI: !this.state.showAI }); // Not using
   };
+
+  componentDidMount() {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+  }
 
   render() {
     const { phone } = this.props;
@@ -49,7 +62,7 @@ class CompareFeatures extends Component {
               <Container>
                 <Button
                   className='feature-check-btn'
-                  variant='light'
+                  variant={this.state.theme}
                   onClick={() => this.toggleShowFeaturesCheck()}
                 >
                   {showFeaturesCheck
@@ -57,9 +70,9 @@ class CompareFeatures extends Component {
                     : 'Compare basic features'}
                   <div>
                     {showFeaturesCheck ? (
-                      <HiChevronUp size={20} color='#424242' />
+                      <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                     ) : (
-                      <HiChevronDown size={20} color='#424242' />
+                      <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                     )}
                   </div>
                 </Button>

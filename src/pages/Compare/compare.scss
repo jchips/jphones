@@ -1,4 +1,5 @@
 @import '../../styles/colors';
+@import '../../styles/theme';
 @import '../../styles/default.styles';
 
 .compare {
@@ -33,6 +34,18 @@
     .accordion-body {
       padding: 0;
       padding-top: 10px;
+      color: $textColor;
+    }
+
+    .accordion-button {
+      background-color: $mainBackgroundColor;
+      color: $textColor;
+
+      @media (prefers-color-scheme: dark) {
+        &::after {
+          background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236ea8fe' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+        }
+      }
     }
 
     .accordion-button:not(.collapsed) {
@@ -54,15 +67,17 @@
       }
 
       .accordion-button:not(.collapsed) {
-        color: #000;
+        color: $secondaryText;
         border-radius: $borderRadiusSmall;
-        background-color: $very-light-gray;
+        background-color: $surfaceBg;
         box-shadow: none;
       }
 
       .form-select {
         margin-bottom: $margin;
         border-width: 0;
+        background-color: $mainBackgroundColor;
+        color: $textColor;
       }
     }
 

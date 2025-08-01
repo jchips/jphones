@@ -1,18 +1,84 @@
 @import 'colors';
 
 $mainBackgroundColor: var(--background-color);
+$textColor: var(--text-color);
+$secondaryText: var(--secondary-text-color);
 $surfaceBg: var(--surface-bg-color);
+$scrollbarTrackColor: var(--scrollbar-track-color);
+$scrollbarThumbColor: var(--scrollbar-thumb-color);
+$scrollbarThumbHoverColor: var(--scrollbar-thumb-hover-color);
+$toggleBg: var(--toggle-bg-color);
+$borderColor: var(--carousel-border);
+$secondaryBorder: var(--secondary-border);
+$boxShadowColor: var(--carousel-box);
+$toggleBorder: var(--toggle-border);
+$sectionBg: var(--section-bg-color);
+$navLink: var(--nav-link);
+$navActiveLink: var(--nav-active-link);
+$navBrand: var(--nav-brand);
+$carouselBg: var(--carousel-bg);
+$footerText: var(--footer-text);
+$dropShadow: var(--drop-shadow);
+$offColor: var(--off-color);
+$popover: var(--popover);
+$btnBg: var(--btn-bg);
+$btnHover: var(--btn-hover);
+$btnBorder: var(--btn-border);
 
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #{$lightThemeBg};
+    --text-color: #{$lightText};
+    --secondary-text-color: #{$secondaryLightText};
     --surface-bg-color: #{$lightSurfaceBg};
+    --scrollbar-track-color: #{$lightScrollbarTrack};
+    --scrollbar-thumb-color: #{$lightScrollbarThumb};
+    --scrollbar-thumb-hover-color: #{$lightScrollbarThumbHover};
+    --carousel-box: #{$lightBoxShadow};
+    --carousel-border: #{$lightBorder};
+    --secondary-border: #{$lightSecondaryBorder};
+    --section-bg-color: #{$lightSectionBg};
+    --toggle-border: #{$lightToggleBorder};
+    --toggle-bg-color: #{$lightToggleBg};
+    --nav-link: #{$lightNavLink};
+    --nav-active-link: #{$lightActiveNavLink};
+    --nav-brand: #{$lightNavbarBrand};
+    --carousel-bg: #{$lightCarouselBg};
+    --footer-text: #{$lightFooterText};
+    --drop-shadow: #{$lightDropShadow};
+    --off-color: #{$offBlack};
+    --popover: #{$lightPopover};
+    --btn-bg: #{$lightBtnBg};
+    --btn-hover: #{$lightBtnHover};
+    --btn-border: #{$lightBtnBorder};
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #{$darkThemeBg};
+    --text-color: #{$darkText};
+    --secondary-text-color: #{$secondaryDarkText};
     --surface-bg-color: #{$darkSurfaceBg};
+    --scrollbar-track-color: #{$darkScrollbarTrack};
+    --scrollbar-thumb-color: #{$darkScrollbarThumb};
+    --scrollbar-thumb-hover-color: #{$darkScrollbarThumbHover};
+    --carousel-box: #{$darkBoxShadow};
+    --carousel-border: #{$darkBorder};
+    --secondary-border: #{$darkSecondaryBorder};
+    --section-bg-color: #{$darkSectionBg};
+    --toggle-border: #{$darkToggleBorder};
+    --toggle-bg-color: #{$darkToggleBg};
+    --nav-link: #{$darkNavLink};
+    --nav-active-link: #{$darkActiveNavLink};
+    --nav-brand: #{$darkNavbarBrand};
+    --carousel-bg: #{$darkCarouselBg};
+    --footer-text: #{$darkFooterText};
+    --drop-shadow: #{$darkDropShadow};
+    --off-color: #{$offWhite};
+    --popover: #{$darkPopover};
+    --btn-bg: #{$darkBtnBg};
+    --btn-hover: #{$darkBtnHover};
+    --btn-border: #{$darkBtnBorder};
   }
 }

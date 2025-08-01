@@ -1,10 +1,42 @@
 @import '../../styles/colors';
+@import '../../styles/theme';
 
 #basic-navbar-nav.show,
 .navbar .collapsing {
   padding: 10px;
 }
 
+.navbar-nav {
+  .nav-link {
+    color: $navLink;
+
+    &:hover {
+      color: $textColor;
+    }
+  }
+
+  .nav-link.active {
+    color: $navActiveLink;
+  }
+
+  .dropdown-menu {
+    background-color: $mainBackgroundColor;
+  }
+
+  .dropdown-item {
+    color: $textColor;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
 a.navbar-brand {
   font-weight: 600;
+  color: $navBrand;
+
+  &:hover {
+    color: $navBrand;
+  }
 }
