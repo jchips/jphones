@@ -1,7 +1,10 @@
+@import '../../styles/theme';
+
 .about {
   h1 {
     text-align: center;
     margin: 20px 0;
+    color: $secondaryText;
   }
 
   img {
@@ -9,11 +12,34 @@
   }
 
   section {
-    border: 1px solid rgba(0,0,0,.175);
+    border: 1px solid rgba(0, 0, 0, .175);
     padding: 20px;
   }
 
   p span {
     font-weight: 600;
+  }
+
+  .accordion-item {
+    color: $textColor;
+  }
+
+  .accordion-button {
+    background-color: $mainBackgroundColor;
+    color: $textColor;
+
+    @media (prefers-color-scheme: dark) {
+      &::after {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236ea8fe' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+      }
+
+      &:not(.collapsed) {
+        box-shadow: 0 0px 1px $boxShadowColor;
+      }
+    }
+  }
+
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
   }
 }

@@ -1,4 +1,5 @@
 @import '../../../styles/colors';
+@import '../../../styles/theme';
 @import '../../../styles/default.styles';
 @import '../../../styles/mixins';
 
@@ -6,10 +7,16 @@
   $boldFont: 500;
   $regularFont: 400;
   max-width: 700px;
+  background-color: $mainBackgroundColor;
+  border-radius: 0.5rem;
 
   .item-title {
-    color: #000;
+    color: $secondaryText;
     font-weight: $boldFont;
+  }
+
+  .list-group-item {
+    background-color: $mainBackgroundColor;
   }
 
   @include cameraData;

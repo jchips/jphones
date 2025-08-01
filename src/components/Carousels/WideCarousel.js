@@ -20,6 +20,7 @@ class WideCarousel extends Component {
       expandData: [],
       showExpandModal: false,
       expandedBubbleType: null,
+      theme: 'light',
     }
     this.cameraProRef = createRef();
     this.cameraConRef = createRef();
@@ -29,6 +30,10 @@ class WideCarousel extends Component {
     this.conRef = createRef();
     this.proExpandBtn = createRef();
     this.conExpandBtn = createRef();
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'light' : 'dark' }) // set carousel indicator color
   }
 
   componentDidMount() {
@@ -45,6 +50,12 @@ class WideCarousel extends Component {
     } else {
       this.setState({ slides: allSlides });
     }
+
+    // Fetch color scheme for carousel indicators
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
   }
 
   /**
@@ -83,7 +94,7 @@ class WideCarousel extends Component {
             interval={null}
             indicators={true}
             indicatorLabels={this.state.slides}
-            variant='dark'
+            variant={this.state.theme}
             touch={false}
             onSlide={this.enableExpand}>
 

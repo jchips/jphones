@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CameraModal from '../../Modals/CameraModal/CameraModal';
 
 const Cameras = (props) => {
   const { phone, carouselType } = props
   const [showCameraDetailsModal, setShowCameraDetailsModal] = useState(false)
+  const [theme, setTheme] = useState('light');
 
   const handleCameraDetails = () => {
     setShowCameraDetailsModal(true)
@@ -12,6 +13,14 @@ const Cameras = (props) => {
   const handleCloseCameraDetails = () => {
     setShowCameraDetailsModal(false)
   }
+
+  useEffect(() => {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    setTheme(getTheme.matches ? 'dark' : 'light');
+    getTheme.addEventListener('change', () => setTheme(getTheme.matches ? 'dark' : 'light')); // watch for changes
+    return () => getTheme.removeEventListener('change', () => setTheme(getTheme.matches ? 'dark' : 'light'));
+  }, []);
 
   const telephotoOptZoom = phone?.cameraDetails?.rearCameras?.telephoto?.opt_zoom
   const macroOptZoom = phone?.cameraDetails?.rearCameras?.macro?.opt_zoom
@@ -26,7 +35,7 @@ const Cameras = (props) => {
           <img
             className='camera-details-btn'
             onClick={() => handleCameraDetails()}
-            src='https://img.icons8.com/material-outlined/24/bulleted-list.png'
+            src={`https://img.icons8.com/material-outlined/24/${theme === 'light' ? '000000' : 'ffffff'}/bulleted-list.png`}
             alt='camera-details-btn'
           />
         </div>

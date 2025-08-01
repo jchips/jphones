@@ -7,18 +7,32 @@ class CameraModal extends Component {
     super(props);
     this.state = {
       isMobile: false,
+      theme: 'light'
     };
   }
 
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' })
+  }
+
   componentDidMount() {
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
     const handleResize = () => {
       this.setState({ isMobile: window.innerWidth <= 640 });
     };
+    this.setTheme(getTheme);
 
     window.addEventListener('resize', handleResize);
+
+    // Fetch color scheme
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+
     handleResize();
 
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+    }
   }
 
 
@@ -147,13 +161,16 @@ class CameraModal extends Component {
                         <span className='sub-data'>({item.aperture})</span>
                       )}{' '}
                       {item.ois && item.ois === 'yes' && (
-                        <Badge bg='light' text='dark'>OIS</Badge>
+                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                          text={this.state.theme === 'light' ? 'dark' : 'light'}>OIS</Badge>
                       )}{' '}
                       {item.eis && item.eis === 'yes' && (
-                        <Badge bg='light' text='dark'>EIS</Badge>
+                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                          text={this.state.theme === 'light' ? 'dark' : 'light'}>EIS</Badge>
                       )}{' '}
                       {item.pdaf && item.pdaf === 'yes' && (
-                        <Badge bg='light' text='dark'>PDAF</Badge>
+                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                          text={this.state.theme === 'light' ? 'dark' : 'light'}>PDAF</Badge>
                       )}
                     </Stack>
                   </Stack>

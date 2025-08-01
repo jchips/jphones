@@ -34,7 +34,6 @@ class MyNavbar extends React.Component {
 
   render() {
     return (
-      // <Navbar bg='light' expand='lg'>
       <Navbar bg={this.state.theme} expand='lg'>
         <Container>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

@@ -95,7 +95,6 @@ class MiniCarousel extends React.Component {
           indicators={true}
           indicatorLabels={this.state.slides}
           variant={this.state.theme}
-          // variant='dark'
           touch={false}
           onSlide={this.enableExpand}
         >

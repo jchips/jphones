@@ -9,6 +9,7 @@ $scrollbarThumbColor: var(--scrollbar-thumb-color);
 $scrollbarThumbHoverColor: var(--scrollbar-thumb-hover-color);
 $toggleBg: var(--toggle-bg-color);
 $borderColor: var(--carousel-border);
+$secondaryBorder: var(--secondary-border);
 $boxShadowColor: var(--carousel-box);
 $toggleBorder: var(--toggle-border);
 $sectionBg: var(--section-bg-color);
@@ -18,6 +19,11 @@ $navBrand: var(--nav-brand);
 $carouselBg: var(--carousel-bg);
 $footerText: var(--footer-text);
 $dropShadow: var(--drop-shadow);
+$offColor: var(--off-color);
+$popover: var(--popover);
+$btnBg: var(--btn-bg);
+$btnHover: var(--btn-hover);
+$btnBorder: var(--btn-border);
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -30,6 +36,7 @@ $dropShadow: var(--drop-shadow);
     --scrollbar-thumb-hover-color: #{$lightScrollbarThumbHover};
     --carousel-box: #{$lightBoxShadow};
     --carousel-border: #{$lightBorder};
+    --secondary-border: #{$lightSecondaryBorder};
     --section-bg-color: #{$lightSectionBg};
     --toggle-border: #{$lightToggleBorder};
     --toggle-bg-color: #{$lightToggleBg};
@@ -39,6 +46,11 @@ $dropShadow: var(--drop-shadow);
     --carousel-bg: #{$lightCarouselBg};
     --footer-text: #{$lightFooterText};
     --drop-shadow: #{$lightDropShadow};
+    --off-color: #{$offBlack};
+    --popover: #{$lightPopover};
+    --btn-bg: #{$lightBtnBg};
+    --btn-hover: #{$lightBtnHover};
+    --btn-border: #{$lightBtnBorder};
   }
 }
 
@@ -53,6 +65,7 @@ $dropShadow: var(--drop-shadow);
     --scrollbar-thumb-hover-color: #{$darkScrollbarThumbHover};
     --carousel-box: #{$darkBoxShadow};
     --carousel-border: #{$darkBorder};
+    --secondary-border: #{$darkSecondaryBorder};
     --section-bg-color: #{$darkSectionBg};
     --toggle-border: #{$darkToggleBorder};
     --toggle-bg-color: #{$darkToggleBg};
@@ -62,5 +75,10 @@ $dropShadow: var(--drop-shadow);
     --carousel-bg: #{$darkCarouselBg};
     --footer-text: #{$darkFooterText};
     --drop-shadow: #{$darkDropShadow};
+    --off-color: #{$offWhite};
+    --popover: #{$darkPopover};
+    --btn-bg: #{$darkBtnBg};
+    --btn-hover: #{$darkBtnHover};
+    --btn-border: #{$darkBtnBorder};
   }
 }

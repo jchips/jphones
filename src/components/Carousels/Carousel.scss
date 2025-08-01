@@ -58,7 +58,6 @@ section {
 
 .gray-bubble {
   background-color: $surfaceBg;
-  // background-color: $very-light-gray;
   padding: 5px;
   border-radius: $borderRadius;
   margin: $margin;
@@ -95,12 +94,18 @@ section {
   .camera-details-btn {
     margin-top: 5px;
     padding: 4px;
-    background-color: $very-light-gray;
+    background-color: $surfaceBg;
     border-radius: 5px;
 
     &:hover {
       background-color: darken($very-light-gray, 3%);
-      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+      filter: drop-shadow(5px 5px 10px $boxShadowColor);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      &:hover {
+        background-color: darken($darkSurfaceBg, 3%);
+      }
     }
   }
 }

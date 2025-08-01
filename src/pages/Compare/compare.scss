@@ -64,15 +64,12 @@
 
       .accordion-body {
         padding-top: 0;
-        // color: $textColor;
       }
 
       .accordion-button:not(.collapsed) {
         color: $secondaryText;
-        // color: #000;
         border-radius: $borderRadiusSmall;
         background-color: $surfaceBg;
-        // background-color: $very-light-gray;
         box-shadow: none;
       }
 

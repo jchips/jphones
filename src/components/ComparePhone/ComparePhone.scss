@@ -23,7 +23,6 @@
 
     span {
       color: $secondaryText;
-      // color: #000;
       font-weight: $boldFont;
     }
   }
@@ -39,7 +38,6 @@
     .accordion-header {
       button {
         background-color: $surfaceBg;
-        // background-color: $very-light-gray;
       }
     }
 
@@ -69,7 +67,7 @@
     padding: 5px;
     background-color: $mainBackgroundColor;
     color: $textColor;
-    border-color: $borderColor;
+    border-color: $secondaryBorder;
   }
 
   .list-item {
@@ -80,7 +78,6 @@
 
   .item-title {
     color: $secondaryText;
-    // color: #000;
     font-weight: $boldFont;
   }
 
@@ -96,8 +93,15 @@
     align-items: center;
     width: 100%;
     margin-bottom: $margin;
-    background-color: $mainBackgroundColor;
+    // background-color: $mainBackgroundColor;
+    background-color: $btnBg;
     color: $textColor;
+
+    &:hover {
+      background-color: $btnHover;
+      border-color: $btnBorder;
+      color: $textColor;
+    }
 
     &>* {
       margin: 0 5px;
@@ -107,7 +111,6 @@
   .light-gray-bg {
     margin: 15px auto;
     background-color: $surfaceBg;
-    // background-color: $very-light-gray;
     border-radius: $borderRadius;
 
     .data {
@@ -123,8 +126,8 @@
   /* ========= Buy link ========== */
 
   @mixin buyLink {
-    border: 1px solid #dee2e6; // bootstrap --bs-border-color
-    background-color: #fff;
+    border: 1px solid $secondaryBorder; // bootstrap --bs-border-color
+    background-color: $mainBackgroundColor;
   }
 
   .buy-link {
@@ -143,7 +146,7 @@
   /* ========= Camera Compare ========== */
 
   .camera-details {
-    border-bottom: 4px $light-gray solid;
+    border-bottom: 4px $sectionBg solid;
   }
 
   @include cameraData;

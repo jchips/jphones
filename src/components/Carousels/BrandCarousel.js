@@ -13,11 +13,16 @@ class BrandCarousel extends Component {
       expandData: [],
       expandedBubbleType: null,
       slides: ['front', 'features', 'cameras', 'pros-cons'],
+      theme: 'light',
     }
     this.proRef = createRef();
     this.conRef = createRef();
     this.proExpandBtn = createRef();
     this.conExpandBtn = createRef();
+  }
+
+  setTheme = (getTheme) => {
+    this.setState({ theme: getTheme.matches ? 'dark' : 'light' })
   }
 
   /**
@@ -40,6 +45,14 @@ class BrandCarousel extends Component {
     checkHeight(this.proRef.current, this.proExpandBtn.current);
   }
 
+  componentDidMount() {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setTheme(getTheme);
+    getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
+    return () => getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+  }
+
   render() {
     const { brand } = this.props;
     const popover = (
@@ -57,7 +70,7 @@ class BrandCarousel extends Component {
         <Carousel
           className='brand-carousel'
           interval={null}
-          variant='dark'
+          variant={this.state.theme === 'light' ? 'dark' : 'light'}
           indicators={true}
           indicatorLabels={this.state.slides}
           onSlide={this.enableExpand}

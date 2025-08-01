@@ -93,7 +93,6 @@ class CompareBrand extends Component {
             <Button
               className='ddBtn'
               variant={this.state.theme}
-              // variant='light'
               onClick={() => this.toggleShowBrandCamera()}
             >
               {showBrandCamera

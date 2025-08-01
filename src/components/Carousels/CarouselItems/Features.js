@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import FeaturesModal from '../../Modals/FeaturesModal/FeaturesModal';
 
 const Features = (props) => {
   const { phone, carouselType } = props;
   const [showFeaturesModal, setShowFeaturesModal] = useState(false);
+  const [theme, setTheme] = useState('light');
 
   const handleFeatures = () => {
     setShowFeaturesModal(true);
@@ -13,6 +14,19 @@ const Features = (props) => {
     setShowFeaturesModal(false);
   };
 
+  useEffect(() => {
+    // Fetch color scheme
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    setTheme(getTheme.matches ? 'dark' : 'light');
+    getTheme.addEventListener('change', () => setTheme(getTheme.matches ? 'dark' : 'light')); // watch for changes
+    return () => getTheme.removeEventListener('change', () => setTheme(getTheme.matches ? 'dark' : 'light'));
+  }, []);
+
+  const lightIcon = 'https://img.icons8.com/material-outlined/24/ffffff/true-false.png';
+  const darkIcon = 'https://img.icons8.com/material-outlined/24/true-false.png';
+
+
+  console.log('theme', theme); // dl
   return (
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
@@ -22,7 +36,7 @@ const Features = (props) => {
           <img
             className='features-check-btn'
             onClick={() => handleFeatures()}
-            src='https://img.icons8.com/material-outlined/24/true-false.png'
+            src={theme === 'light' ? darkIcon : lightIcon}
             alt='features-check-btn'
           />
         </div>
