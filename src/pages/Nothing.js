@@ -33,7 +33,7 @@ class Nothing extends Component {
 
   render() {
     let { error, isLoading, nothingData, brandData } = this.state;
-    let series = ['Phone 2', 'Phone 1'];
+    let series = ['Phone 3', 'Phone 2', 'Phone 1'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}

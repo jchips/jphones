@@ -168,6 +168,9 @@ class CompareCameras extends Component {
                               {item.mm && (
                                 <span className='orange-text'>{`${item.mm}mm`}</span>
                               )}{' '}
+                              {item.sensor_size && (
+                                <span className='orange-text'>{item.sensor_size}"</span>
+                              )}{' '}
                               {item.aperture && (
                                 <span className='orange-text'>{`(${item.aperture})`}</span>
                               )}{' '}
