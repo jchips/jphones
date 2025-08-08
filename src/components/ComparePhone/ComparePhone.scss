@@ -120,6 +120,10 @@
     .data {
       font-size: 0.9rem;
     }
+
+    .list-group-item {
+      background-color: $surfaceBg;
+    }
   }
 
   /* ========= Buy link ========== */

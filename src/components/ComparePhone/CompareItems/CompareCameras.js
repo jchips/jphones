@@ -45,6 +45,7 @@ class CompareCameras extends Component {
     const telephoto = rearCameras?.telephoto;
     const periscope = rearCameras?.periscope;
     const macro = rearCameras?.macro;
+    const mainFrontCamera = phone?.frontCameras;
     const frontCameras = phone?.cameraDetails?.frontCameras;
     const frontPrimary = frontCameras?.primary;
     const frontSecondary = frontCameras?.secondary;
@@ -106,7 +107,7 @@ class CompareCameras extends Component {
       },
       {
         title: 'Selfie (front)',
-        phone_data: frontPrimary?.mp && frontPrimary?.mp + ' MP',
+        phone_data: (frontPrimary?.mp && frontPrimary?.mp + ' MP') || mainFrontCamera,
         mm: frontPrimary?.mm,
         sensor_size: frontPrimary?.sensor_size,
         aperture: frontPrimary?.aperture,
