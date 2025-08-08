@@ -4,7 +4,7 @@ import HStackCompare from './HStackCompare';
 class ComparePrice extends Component {
   render() {
     const { phone } = this.props;
-    const title = 'Retail Price';
+    const title = 'Retail Price (USD)';
     const prices = phone.prices.map(priceItem => ({
       title: priceItem.storage,
       phone_data: priceItem.price,

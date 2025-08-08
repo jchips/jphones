@@ -77,7 +77,7 @@ const Cameras = (props) => {
         <h4>Front Camera(s):</h4>
         <p><span>Primary: </span>{phone.frontCameras}</p>
         {phone.frontCameras.ultrawide && (
-          <p><span>Ultrawide: </span> {phone.frontCameras.ultrawide}</p>
+          <p><span>Ultrawide: </span> {phone.frontCameras.ultrawide}</p> // may not exist
         )}
       </div>
       {phone.cameraDetails && (
