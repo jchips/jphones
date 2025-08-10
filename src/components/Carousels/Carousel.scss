@@ -33,6 +33,8 @@ p {
   margin-bottom: $margin;
 }
 
+/* ================ CREDITS ================ */
+
 section {
   a {
     color: $note;
@@ -64,6 +66,8 @@ section {
   }
 }
 
+/* ================ SECTION ================ */
+
 .gray-bubble {
   background-color: $surfaceBg;
   padding: 5px;
@@ -75,6 +79,8 @@ section {
 .scrollable-long {
   overflow-y: auto;
 }
+
+/* ================ MODAL BUTTONS ================ */
 
 .bubble-header {
   position: relative;
@@ -118,7 +124,9 @@ section {
   }
 }
 
-/* ======== Carousel slides ======== */
+/* ============================ Carousel slides ============================ */
+
+/* ================ BUILD/COLORS ================ */
 
 .colors {
   padding-bottom: 10px;
@@ -151,9 +159,13 @@ section {
   }
 }
 
+/* ================ SPECS ================ */
+
 .specs-slide {
   @include p-margin-even;
 }
+
+/* ================ DISPLAY ================ */
 
 .display {
   @include p-margin-even;
@@ -178,6 +190,8 @@ section {
     }
   }
 }
+
+/* ================ FEATURES AND CAMERAS ================ */
 
 .features-slide,
 .cameras-slide {
@@ -218,6 +232,8 @@ section {
   margin: $margin 0px;
 }
 
+/* ================ CAMERA - PROS AND CONS ================ */
+
 .camera-features,
 .camera-pros-cons {
   section {
@@ -256,6 +272,8 @@ section {
   }
 }
 
+/* ================ PROS AND CONS ================ */
+
 .pros-and-cons-bubble {
   margin: 0;
   margin-bottom: $margin;
@@ -287,6 +305,8 @@ section {
   }
 }
 
+/* ================ APPROBATIONS ================ */
+
 .approbations {
   height: 300px;
   margin: 0 15px;
@@ -305,6 +325,8 @@ section {
     }
   }
 }
+
+/* ================ PRICES ================ */
 
 .prices p {
   margin: $margin;

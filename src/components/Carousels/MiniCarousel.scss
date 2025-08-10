@@ -45,7 +45,15 @@
   & span {
     color: $secondaryText;
     font-weight: 600;
+
+    &.orange {
+      color: $orange;
+      font-weight: 400;
+    }
   }
+
+
+  /* ================ FIRST SLIDE ================ */
 
   .first-slide {
     .scrollable {
@@ -61,14 +69,17 @@
         height: 0;
       }
     }
-
   }
+
+  /* ================ SPECS ================ */
 
   .specs-slide {
     .scrollable {
       max-height: 319px;
     }
   }
+
+  /* ================ DISPLAY ================ */
 
   .display-slide {
     .scrollable {
@@ -81,6 +92,8 @@
       padding: 0;
     }
   }
+
+  /* ================ BUILD ================ */
 
   .build-slide {
     display: flex;
@@ -111,9 +124,13 @@
     padding: 0 10px;
   }
 
+  /* ================ PRO AND CONS ================ */
+
   .pros-and-cons-container {
     margin-top: 10px;
   }
+
+  /* ================ PRICES ================ */
 
   .prices-slide {
     .btn {

@@ -54,19 +54,19 @@ const Cameras = (props) => {
         {phone.rearCameras.telephoto && (
           <p><span>Telephoto: </span> {phone.rearCameras.telephoto}
             {' '}
-            {telephotoOptZoom && `(${telephotoOptZoom})`}
+            <span className="orange">{telephotoOptZoom && `(${telephotoOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.periscope && (
           <p><span>Periscope: </span> {phone.rearCameras.periscope}
             {' '}
-            {periscopeOptZoom && `(${periscopeOptZoom})`}
+            <span className="orange">{periscopeOptZoom && `(${periscopeOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.macro && (
           <p><span>Macro: </span> {phone.rearCameras.macro}
             {' '}
-            {macroOptZoom && `(${macroOptZoom})`}
+            <span className="orange">{macroOptZoom && `(${macroOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.secondary && (
