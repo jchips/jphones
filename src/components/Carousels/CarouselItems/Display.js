@@ -7,7 +7,7 @@ const Display = (props) => {
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Display</h3>
       {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
-      <div className='display blue-text gray-bubble scrollable'>
+      <div className='display blue-text surface scrollable'>
         {!phone.foldable ? (
           <>
             <p><span className='display-size'>{phone.display.size}</span>, {phone.display.res}</p>

@@ -9,7 +9,7 @@ const Build = (props) => {
       <h3>Colors & Build</h3>
       {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
       <div className='build-slide'>
-        <div className='build blue-text gray-bubble'>
+        <div className='build blue-text surface'>
           <h4>Build</h4>
           {phone.build ? (
             <>
@@ -33,7 +33,7 @@ const Build = (props) => {
             <p>{phone.build}</p>
           }
         </div>
-        <div className='colors gray-bubble'>
+        <div className='colors surface'>
           <h4>Colors</h4>
           <ul>
             {phone.colors.map((phoneColor, index) =>

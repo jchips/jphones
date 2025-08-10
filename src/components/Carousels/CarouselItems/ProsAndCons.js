@@ -12,7 +12,7 @@ const ProsAndCons = forwardRef((props, ref) => {
       <div className='pros-and-cons'>
         <h3>Pros and Cons</h3>
         {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
-        <section className='pros-and-cons-bubble gray-bubble'>
+        <section className='pros-and-cons-bubble surface'>
           <div className='bubble-header'>
             <h4>Pros</h4>
             <div ref={proExpandBtn} className='expand-btn__container'>
@@ -25,7 +25,7 @@ const ProsAndCons = forwardRef((props, ref) => {
               : <p className='no-data'>None recorded</p>}
           </div>
         </section>
-        <section className='pros-and-cons-bubble gray-bubble'>
+        <section className='pros-and-cons-bubble surface'>
           <div className='bubble-header'>
             <h4>Cons</h4>
             <div ref={conExpandBtn} className='expand-btn__container'>

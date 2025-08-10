@@ -198,7 +198,7 @@ class MiniCarousel extends React.Component {
           <Carousel.Item className='prices-slide blue-text'>
             <h3>Starting Prices</h3>
             <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
-            <section className='prices gray-bubble'>
+            <section className='prices surface'>
               {phone.prices.map((prices, index) =>
                 <p key={index}><span>{prices.storage}: </span>{prices.price}</p>
               )}

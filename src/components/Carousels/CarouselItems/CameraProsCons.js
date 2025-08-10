@@ -11,7 +11,7 @@ const CameraProsCons = forwardRef((props, ref) => {
       <h3>Cameras - Pros & Cons</h3>
       {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
       {phone.cameraPros ? (
-        <section className='pros-and-cons-bubble gray-bubble'>
+        <section className='pros-and-cons-bubble surface'>
           <div className='bubble-header'>
             <h4>Camera Pros:</h4>
             <div ref={cameraProExpandBtn} className='expand-btn__container'>
@@ -25,7 +25,7 @@ const CameraProsCons = forwardRef((props, ref) => {
         </section>
       ) : <div className='no-data'><p>- No camera Pros recorded -</p></div>}
       {phone.cameraCons ? (
-        <section className='pros-and-cons-bubble gray-bubble'>
+        <section className='pros-and-cons-bubble surface'>
           <div className='bubble-header'>
             <h4>Camera Cons:</h4>
             <div ref={cameraConExpandBtn} className='expand-btn__container'>
