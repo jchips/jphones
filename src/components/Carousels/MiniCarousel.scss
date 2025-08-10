@@ -1,6 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/theme';
 @import '../../styles/default.styles';
+@import '../../styles/mixins';
 
 .mini-carousel {
   background-size: 100% 100%;
@@ -14,6 +15,10 @@
   height: 430px;
   max-width: 369px;
   font-size: 1rem;
+
+  @media screen and (max-width: 640px) {
+    margin-bottom: 5px; // vertical spacing for mobile view
+  }
 
   & h2,
   & h5 {
@@ -41,10 +46,14 @@
   & span {
     color: $secondaryText;
     font-weight: 600;
+
+    @include cameraData;
   }
 
-  .first-slide {
 
+  /* ================ FIRST SLIDE ================ */
+
+  .first-slide {
     .scrollable {
       max-height: 400px;
       /* Firefox */
@@ -58,14 +67,17 @@
         height: 0;
       }
     }
-
   }
+
+  /* ================ SPECS ================ */
 
   .specs-slide {
     .scrollable {
       max-height: 319px;
     }
   }
+
+  /* ================ DISPLAY ================ */
 
   .display-slide {
     .scrollable {
@@ -79,6 +91,8 @@
     }
   }
 
+  /* ================ BUILD ================ */
+
   .build-slide {
     display: flex;
     flex-direction: column;
@@ -88,7 +102,7 @@
       margin-top: 5px;
     }
 
-    .gray-bubble {
+    .surface {
       margin: 5px 10px;
     }
 
@@ -108,9 +122,13 @@
     padding: 0 10px;
   }
 
+  /* ================ PRO AND CONS ================ */
+
   .pros-and-cons-container {
     margin-top: 10px;
   }
+
+  /* ================ PRICES ================ */
 
   .prices-slide {
     .btn {

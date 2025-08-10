@@ -45,7 +45,7 @@ const Cameras = (props) => {
       {carouselType === 'mini' ? (
         <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
       ) : null}
-      <div id='rear-cameras' className='cameras gray-bubble'>
+      <div id='rear-cameras' className='cameras surface'>
         <h4>Rear Cameras:</h4>
         <p><span>Primary: </span>{phone.rearCameras.primary}</p>
         {phone.rearCameras.ultrawide && (
@@ -54,26 +54,26 @@ const Cameras = (props) => {
         {phone.rearCameras.telephoto && (
           <p><span>Telephoto: </span> {phone.rearCameras.telephoto}
             {' '}
-            {telephotoOptZoom && `(${telephotoOptZoom})`}
+            <span className="orange">{telephotoOptZoom && `(${telephotoOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.periscope && (
           <p><span>Periscope: </span> {phone.rearCameras.periscope}
             {' '}
-            {periscopeOptZoom && `(${periscopeOptZoom})`}
+            <span className="orange">{periscopeOptZoom && `(${periscopeOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.macro && (
           <p><span>Macro: </span> {phone.rearCameras.macro}
             {' '}
-            {macroOptZoom && `(${macroOptZoom})`}
+            <span className="orange">{macroOptZoom && `(${macroOptZoom})`}</span>
           </p>
         )}
         {phone.rearCameras.secondary && (
           <p><span>Secondary: </span> {phone.rearCameras.secondary}</p>
         )}
       </div>
-      <div id='front-cameras' className='cameras gray-bubble'>
+      <div id='front-cameras' className='cameras surface'>
         <h4>Front Camera(s):</h4>
         <p><span>Primary: </span>{phone.frontCameras}</p>
         {phone.frontCameras.ultrawide && (

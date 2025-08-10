@@ -1,6 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/theme';
 @import '../../styles/default.styles';
+@import '../../styles/mixins';
 
 .wide-phone-carousel {
   border-bottom: 2px solid black;
@@ -48,6 +49,8 @@
   span {
     color: $secondaryText;
     font-weight: 500;
+
+    @include cameraData;
   }
 
   .phone-colors {

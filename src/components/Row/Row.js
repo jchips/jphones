@@ -24,7 +24,7 @@ class Row extends Component {
         {/* Labels row and puts photo next to each title */}
         <div id={rowTitle.split(' ').join('-')} className='row-header'>
           <h2>{rowTitle} Phones</h2>
-          <img src={`assets/imgs/logos/${getLogoTitle(rowTitle)}-logo.webp`} alt={`${getLogoTitle(rowTitle)} logo`} />
+          <img src={`assets/imgs/logos/${getLogoTitle(rowTitle)}-logo.webp`} alt={`${getLogoTitle(rowTitle)} company logo`} />
         </div>
 
         {/* Show all phones toggle */}

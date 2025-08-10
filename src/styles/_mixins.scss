@@ -26,11 +26,17 @@ $regularFont: 400;
     }
   }
 
+  /* ====== Text colors ====== */
   .black-text {
     color: $offColor;
-    // color: $off-black;
     margin-left: 5px;
     font-weight: $regularFont;
     font-size: 0.9rem;
+  }
+
+  /* optical zoom */
+  &.orange {
+    color: $orange;
+    font-weight: 400;
   }
 }

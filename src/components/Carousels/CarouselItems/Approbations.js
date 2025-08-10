@@ -11,7 +11,7 @@ const Approbations = (props) => {
       <section className='approbations'>
         <ul>
           {phone.approbations.map((approbation, index) =>
-            <li key={index} className='gray-bubble'>{parse(approbation)}</li>
+            <li key={index} className='surface'>{parse(approbation)}</li>
           )}
         </ul>
       </section>

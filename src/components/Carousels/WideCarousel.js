@@ -112,7 +112,7 @@ class WideCarousel extends Component {
                     </div>
                   )}
                 </div>
-                <div className='prices blue-text gray-bubble'>
+                <div className='prices blue-text surface'>
                   <h3>Starting prices</h3>
                   {phone.prices.map((price, index) =>
                     <p key={index}><span>{price.storage}: </span>{price.price}</p>

@@ -131,7 +131,7 @@ class BrandCarousel extends Component {
           <Carousel.Item>
             <h3>Pros and Cons</h3>
             <div className='pros-and-cons'>
-              {brand.pros && (<section className='pros-and-cons-bubble gray-bubble'>
+              {brand.pros && (<section className='pros-and-cons-bubble surface'>
                 <div className='bubble-header'>
                   <h4>Pros</h4>
                   <div ref={this.proExpandBtn} className='expand-btn__container'>
@@ -146,7 +146,7 @@ class BrandCarousel extends Component {
                   </ul>
                 </div>
               </section>)}
-              {brand.cons && (<section className='pros-and-cons-bubble gray-bubble'>
+              {brand.cons && (<section className='pros-and-cons-bubble surface'>
                 <div className='bubble-header'>
                   <h4>Cons</h4>
                   <div ref={this.conExpandBtn} className='expand-btn__container'>
