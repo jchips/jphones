@@ -15,6 +15,10 @@
   max-width: 369px;
   font-size: 1rem;
 
+  @media screen and (max-width: 640px) {
+    margin-bottom: 5px; // vertical spacing for mobile view
+  }
+
   & h2,
   & h5 {
     padding: 10px;
@@ -44,7 +48,6 @@
   }
 
   .first-slide {
-
     .scrollable {
       max-height: 400px;
       /* Firefox */

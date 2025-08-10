@@ -25,8 +25,6 @@ const Features = (props) => {
   const lightIcon = 'https://img.icons8.com/material-outlined/24/ffffff/true-false.png';
   const darkIcon = 'https://img.icons8.com/material-outlined/24/true-false.png';
 
-
-  console.log('theme', theme); // dl
   return (
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}

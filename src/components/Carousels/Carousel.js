@@ -11,6 +11,7 @@ import Cameras from './CarouselItems/Cameras';
 import CameraProsCons from './CarouselItems/CameraProsCons';
 import ProsAndCons from './CarouselItems/ProsAndCons';
 import Approbations from './CarouselItems/Approbations';
+import { useFitText } from '../../utils/useFixText';
 import './Carousel.scss';
 import './MiniCarousel.scss';
 import './carousel-indicators.scss';
@@ -39,7 +40,6 @@ class MiniCarousel extends React.Component {
     this.setState({ theme: getTheme.matches ? 'light' : 'dark' }) // set carousel indicator color
   }
 
-  // happens once componented is mounted
   componentDidMount() {
     const allSlides = ['front', 'specs', 'display', 'build', 'features', 'cameras', 'camera-features', 'camera-pros-cons', 'pros-cons', 'approbations', 'price'];
     const eightSlidesIcons = ['front', 'specs', 'display', 'build', 'features', 'cameras', 'camera-features', 'pros-cons', 'price'];
@@ -84,6 +84,24 @@ class MiniCarousel extends React.Component {
     checkHeight(this.cameraConRef.current, this.cameraConExpandBtn.current);
   }
 
+  FitTextWrapper = ({ children, maxFontSize, minFontSize, style }) => {
+    const { ref, fontSize } = useFitText({ maxFontSize, minFontSize });
+    return (
+      <h2
+        ref={ref}
+        style={{
+          ...style,
+          fontSize,
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          transition: "font-size 0.1s ease-out",
+        }}
+      >
+        {children}
+      </h2>
+    );
+  }
+
   render() {
     const { phone, mmToggle } = this.props;
     return (
@@ -100,7 +118,7 @@ class MiniCarousel extends React.Component {
         >
           <Carousel.Item className='first-slide'>
             <div className='scrollable'>
-              <h2>{phone.name}</h2>
+              <this.FitTextWrapper>{phone.name}</this.FitTextWrapper> {/* dynamic header */}
               <h5>{phone.brand} / {phone.os}</h5>
               <div className='img__container'>
                 <LazyLoadImage src={phone.img} alt={phone.name} />
