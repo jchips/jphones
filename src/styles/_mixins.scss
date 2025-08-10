@@ -33,4 +33,9 @@ $regularFont: 400;
     font-weight: $regularFont;
     font-size: 0.9rem;
   }
+
+  &.orange {
+    color: $orange;
+    font-weight: 400;
+  }
 }

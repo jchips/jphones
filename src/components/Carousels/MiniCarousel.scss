@@ -1,6 +1,7 @@
 @import '../../styles/colors';
 @import '../../styles/theme';
 @import '../../styles/default.styles';
+@import '../../styles/mixins';
 
 .mini-carousel {
   background-size: 100% 100%;
@@ -46,10 +47,7 @@
     color: $secondaryText;
     font-weight: 600;
 
-    &.orange {
-      color: $orange;
-      font-weight: 400;
-    }
+    @include cameraData;
   }
 
 
