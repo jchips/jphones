@@ -20,7 +20,7 @@ const ProsAndCons = forwardRef((props, ref) => {
             </div>
           </div>
           <div ref={proRef} className='scrollable'>
-            {phone.pros ?
+            {phone.pros && phone.pros.length > 0 ?
               <ul>{phone.pros.map((pro, index) => <li key={index}>{parse(pro)}</li>)}</ul>
               : <p className='no-data'>None recorded</p>}
           </div>
@@ -33,7 +33,7 @@ const ProsAndCons = forwardRef((props, ref) => {
             </div>
           </div>
           <div ref={conRef} className='scrollable'>
-            {phone.cons ?
+            {phone.cons && phone.cons.length > 0 ?
               <ul>{phone.cons.map((con, index) => <li key={index}>{parse(con)}</li>)}</ul>
               : <p className='no-data'>None recorded</p>}
           </div>

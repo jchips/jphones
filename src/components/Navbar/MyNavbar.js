@@ -36,7 +36,7 @@ class MyNavbar extends React.Component {
     return (
       <Navbar bg={this.state.theme} expand='lg'>
         <Container>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Toggle aria-controls='basic-navbar-nav' label='Toggle navigation' />
           <Navbar.Collapse id='basic-navbar-nav' className='justify-content-center'>
             <Navbar.Brand href='/'>
               <img

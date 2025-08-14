@@ -9,6 +9,7 @@
   max-width: 700px;
   background-color: $mainBackgroundColor;
   border-radius: 0.5rem;
+  min-height: fit-content;
 
   .item-title {
     color: $secondaryText;
@@ -20,4 +21,9 @@
   }
 
   @include cameraData;
+
+  .camera-modal__container {
+    overflow-y: auto;
+    max-height: 75vh;
+  }
 }

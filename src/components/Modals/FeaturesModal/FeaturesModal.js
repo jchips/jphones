@@ -31,6 +31,7 @@ class FeaturesModal extends Component {
       showFeaturesModal,
     } = this.props;
     const { isMobile } = this.state;
+
     return (
       <Modal
         show={showFeaturesModal}
