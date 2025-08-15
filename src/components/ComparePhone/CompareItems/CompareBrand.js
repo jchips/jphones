@@ -198,7 +198,7 @@ class CompareBrand extends Component {
                   </Accordion.Header>
                   <Accordion.Body>
                     <ListGroup variant='flush'>
-                      {brandData.pros ? (
+                      {brandData.pros && brandData.pros.length > 0 ? (
                         brandData.pros.map((item, index) => (
                           <ListGroupItem
                             as={'div'}
@@ -211,7 +211,7 @@ class CompareBrand extends Component {
                         ))
                       ) : (
                         <div className='no-data'>
-                          <p>Nothing recorded</p>
+                          <p>None recorded</p>
                         </div>
                       )}
                     </ListGroup>
@@ -223,7 +223,7 @@ class CompareBrand extends Component {
                   </Accordion.Header>
                   <Accordion.Body>
                     <ListGroup variant='flush'>
-                      {brandData.cons ? (
+                      {brandData.cons && brandData.cons.length > 0 ? (
                         brandData.cons.map((item, index) => (
                           <ListGroupItem
                             as={'div'}
@@ -236,7 +236,7 @@ class CompareBrand extends Component {
                         ))
                       ) : (
                         <div className='no-data'>
-                          <p>Nothing recorded</p>
+                          <p>None recorded</p>
                         </div>
                       )}
                     </ListGroup>

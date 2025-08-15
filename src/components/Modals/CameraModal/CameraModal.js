@@ -16,22 +16,20 @@ class CameraModal extends Component {
   }
 
   componentDidMount() {
-    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
     const handleResize = () => {
       this.setState({ isMobile: window.innerWidth <= 640 });
     };
-    this.setTheme(getTheme);
-
     window.addEventListener('resize', handleResize);
+    handleResize();
+    const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     // Fetch color scheme
     getTheme.addEventListener('change', () => this.setTheme(getTheme)); // watch for changes
-
-    handleResize();
+    this.setTheme(getTheme);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
       getTheme.removeEventListener('change', () => this.setTheme(getTheme));
+      window.removeEventListener('resize', handleResize);
     }
   }
 
@@ -140,82 +138,84 @@ class CameraModal extends Component {
           <Modal.Title>{phoneName} Camera Details</Modal.Title>
         </Modal.Header>
         <Modal.Body className='camera-details'>
-          <ListGroup variant='flush'>
-            {cameraData.map((item, index) =>
-              item.phone_data ? (
-                <ListGroupItem as={'div'} key={index} action>
-                  <Stack direction='horizontal'>
-                    <div className='p-2 item-title'>{item.title}:</div>
-                    <div className='p-2 data'>{item.phone_data} MP</div>
-                    {item.opt_zoom && (
-                      <div className='p-2 black-text'>{item.opt_zoom} optical zoom</div>
-                    )}
-                    <Stack className='p-2 data' direction='horizontal' gap={2}>
-                      {item.mm && (
-                        <span className='sub-data'>{item.mm}mm</span>
-                      )}{' '}
-                      {item.sensor_size && (
-                        <span className='sub-data'>{item.sensor_size}"</span>
-                      )}{' '}
-                      {item.aperture && (
-                        <span className='sub-data'>({item.aperture})</span>
-                      )}{' '}
-                      {item.ois && item.ois === 'yes' && (
-                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
-                          text={this.state.theme === 'light' ? 'dark' : 'light'}>OIS</Badge>
-                      )}{' '}
-                      {item.eis && item.eis === 'yes' && (
-                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
-                          text={this.state.theme === 'light' ? 'dark' : 'light'}>EIS</Badge>
-                      )}{' '}
-                      {item.pdaf && item.pdaf === 'yes' && (
-                        <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
-                          text={this.state.theme === 'light' ? 'dark' : 'light'}>PDAF</Badge>
+          <div className="camera-modal__container">
+            <ListGroup variant='flush'>
+              {cameraData.map((item, index) =>
+                item.phone_data ? (
+                  <ListGroupItem as={'div'} key={index} action>
+                    <Stack direction='horizontal'>
+                      <div className='p-2 item-title'>{item.title}:</div>
+                      <div className='p-2 data'>{item.phone_data} MP</div>
+                      {item.opt_zoom && (
+                        <div className='p-2 black-text'>{item.opt_zoom} optical zoom</div>
                       )}
+                      <Stack className='p-2 data' direction='horizontal' gap={2}>
+                        {item.mm && (
+                          <span className='sub-data'>{item.mm}mm</span>
+                        )}{' '}
+                        {item.sensor_size && (
+                          <span className='sub-data'>{item.sensor_size}"</span>
+                        )}{' '}
+                        {item.aperture && (
+                          <span className='sub-data'>({item.aperture})</span>
+                        )}{' '}
+                        {item.ois && item.ois === 'yes' && (
+                          <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>OIS</Badge>
+                        )}{' '}
+                        {item.eis && item.eis === 'yes' && (
+                          <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>EIS</Badge>
+                        )}{' '}
+                        {item.pdaf && item.pdaf === 'yes' && (
+                          <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
+                            text={this.state.theme === 'light' ? 'dark' : 'light'}>PDAF</Badge>
+                        )}
+                      </Stack>
                     </Stack>
+                  </ListGroupItem>
+                ) : null
+              )}
+              {/* Digital zoom */}
+              {rearCameras.digi_zoom !== '' &&
+                <ListGroupItem as={'div'} action>
+                  <Stack direction='horizontal'>
+                    <div className='p-2 item-title'>
+                      Digital zoom:
+                    </div>
+                    <div className='p-2 data'>
+                      {rearCameras.digi_zoom}
+                    </div>
                   </Stack>
                 </ListGroupItem>
-              ) : null
-            )}
-            {/* Digital zoom */}
-            {rearCameras.digi_zoom !== '' &&
+              }
+              {/* Video recording details */}
               <ListGroupItem as={'div'} action>
                 <Stack direction='horizontal'>
                   <div className='p-2 item-title'>
-                    Digital zoom:
+                    Video recording (rear):
                   </div>
-                  <div className='p-2 data'>
-                    {rearCameras.digi_zoom}
-                  </div>
+                  {rearCameras.video.map((quality) => (
+                    <div className='p-2 data' key={quality}>
+                      {quality}
+                    </div>
+                  ))}
                 </Stack>
               </ListGroupItem>
-            }
-            {/* Video recording details */}
-            <ListGroupItem as={'div'} action>
-              <Stack direction='horizontal'>
-                <div className='p-2 item-title'>
-                  Video recording (rear):
-                </div>
-                {rearCameras.video.map((quality) => (
-                  <div className='p-2 data' key={quality}>
-                    {quality}
+              <ListGroupItem as={'div'} action>
+                <Stack direction='horizontal'>
+                  <div className='p-2 item-title'>
+                    Video recording (selfie):
                   </div>
-                ))}
-              </Stack>
-            </ListGroupItem>
-            <ListGroupItem as={'div'} action>
-              <Stack direction='horizontal'>
-                <div className='p-2 item-title'>
-                  Video recording (selfie):
-                </div>
-                {frontCameras.video.map((quality) => (
-                  <div className='p-2 data' key={quality}>
-                    {quality}
-                  </div>
-                ))}
-              </Stack>
-            </ListGroupItem>
-          </ListGroup>
+                  {frontCameras.video.map((quality) => (
+                    <div className='p-2 data' key={quality}>
+                      {quality}
+                    </div>
+                  ))}
+                </Stack>
+              </ListGroupItem>
+            </ListGroup>
+          </div>
         </Modal.Body>
       </Modal>
     );

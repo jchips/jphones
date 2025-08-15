@@ -11,9 +11,9 @@ class HStackCompare extends Component {
           {phone.offName} {title}
         </Accordion.Header>
         <Accordion.Body>
-          {!data && !listData && (
+          {(!data && (!listData || (listData && listData.length < 1))) && (
             <div className='no-data'>
-              <p>Nothing recorded</p>
+              <p>None recorded</p>
             </div>
           )}
           {data ? (
