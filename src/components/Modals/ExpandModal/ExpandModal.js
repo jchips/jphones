@@ -28,7 +28,7 @@ class ExpandModal extends Component {
           <Modal.Title>{bubble}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className='ul-container'>
+          <div className='modal-surface__container--list'>
             <ul>
               {expandData.map((li, index) => (
                 <li key={index}>{parse(li)}</li>

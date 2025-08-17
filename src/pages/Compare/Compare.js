@@ -100,7 +100,7 @@ class Compare extends Component {
       isLoading,
     } = this.state;
     return (
-      <div className='compare_wrapper'>
+      <div className='compare__wrapper'>
         {!isLoading ? (
           <>
             <Accordion>

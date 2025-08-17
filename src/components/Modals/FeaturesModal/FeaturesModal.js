@@ -42,8 +42,8 @@ class FeaturesModal extends Component {
         <Modal.Header closeButton>
           <Modal.Title>{phoneName} Features</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='features-check'>
-          <div className='ul-container'>
+        <Modal.Body className='features-modal__main'>
+          <div className='modal-surface__container--list'>
             <ul>
               {Object.values(featuresCheckData).map((value, index) => (
                 <div key={index}>

@@ -23,8 +23,8 @@ class HStackCompare extends Component {
                   {item.phone_data ? (
                     <ListGroupItem as={'div'} action>
                       <Stack direction='horizontal'>
-                        <div className='p-2 item-title'>{item.title}:</div>
-                        <div className='p-2 data'>
+                        <div className='p-2 list-item-title-text'>{item.title}:</div>
+                        <div className='p-2 data-text'>
                           {item.phone_data}
                         </div>
                       </Stack>

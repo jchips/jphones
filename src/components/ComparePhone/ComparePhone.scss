@@ -76,7 +76,7 @@
     color: $textColor;
   }
 
-  .item-title {
+  .list-item-title-text {
     color: $secondaryText;
     font-weight: $boldFont;
   }
@@ -112,12 +112,12 @@
     background-color: $surfaceBg;
     border-radius: $borderRadius;
 
-    .data {
+    .data-text {
       color: $bootstrap-blue;
     }
 
-    .item-title,
-    .data {
+    .list-item-title-text,
+    .data-text {
       font-size: 0.9rem;
     }
 
@@ -148,13 +148,13 @@
 
   /* ========= Camera Compare ========== */
 
-  .camera-details {
+  .camera-details-list__container {
     border-bottom: 4px $sectionBg solid;
   }
 
   @include cameraData;
 
-  .data {
+  .data-text {
     .badge.blue {
       background-color: #1589FF;
     }

@@ -33,8 +33,9 @@ p {
   margin-bottom: $margin;
 }
 
-/* ================ CREDITS ================ */
+/* ================ CREDITS / SOURCES ================ */
 
+/* section links */
 section {
   a {
     color: $note;
@@ -58,7 +59,7 @@ section {
   width: fit-content;
 }
 
-.surface_text--rg--blue p {
+.surface-text--rg--blue p {
   color: $bootstrap-blue;
 
   @media (prefers-color-scheme: dark) {
@@ -143,7 +144,7 @@ section {
 }
 
 // The individual colors each model comes in displayed
-.color {
+.phone-color-item {
   padding: 10px;
   border-radius: 100%;
   width: 10px;
@@ -167,10 +168,10 @@ section {
 
 /* ================ DISPLAY ================ */
 
-.display {
+.display__container {
   @include p-margin-even;
 
-  .foldable-display p {
+  .display__wrapper--foldable p {
     margin: $p-margin-v-small;
   }
 
@@ -181,7 +182,7 @@ section {
     font-weight: 600;
   }
 
-  .display-size {
+  .display-size-text {
     font-weight: 600;
     color: $bootstrap-blue;
 
@@ -208,7 +209,7 @@ section {
 }
 
 .features-slide,
-.camera-features {
+.camera-features-slide {
   padding: 0 5px;
 
   section {
@@ -234,7 +235,7 @@ section {
 
 /* ================ CAMERA - PROS AND CONS ================ */
 
-.camera-features,
+.camera-features-slide,
 .camera-pc-slide {
   section {
     margin-bottom: $margin;
@@ -328,6 +329,6 @@ section {
 
 /* ================ PRICES ================ */
 
-.prices p {
+.prices__container p {
   margin: $margin;
 }

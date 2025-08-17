@@ -3,7 +3,7 @@
 @import '../../styles/default.styles';
 @import '../../styles/mixins';
 
-.mini-carousel {
+.carousel--mini {
   background-size: 100% 100%;
   background-color: $carouselBg;
   padding: 0 25px;
@@ -85,7 +85,7 @@
     }
   }
 
-  .display {
+  .display__container {
     h5 {
       padding: 0;
     }
@@ -117,7 +117,7 @@
     @include texture;
   }
 
-  .display p,
+  .display__container p,
   .build p {
     padding: 0 10px;
   }

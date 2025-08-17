@@ -5,7 +5,7 @@
   max-width: 700px;
 }
 
-.features-check {
+.features-modal__main {
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .features-check {
+  .features-modal__main {
     ul {
       display: flex;
       flex-direction: column;
