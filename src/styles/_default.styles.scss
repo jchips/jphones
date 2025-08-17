@@ -15,7 +15,7 @@ $p-margin-v-small: 5px 0;
 }
 
 @mixin texture {
-  .texture {
+  .build-texture-text {
     color: $gray-text;
     font-size: small;
     font-weight: 500;

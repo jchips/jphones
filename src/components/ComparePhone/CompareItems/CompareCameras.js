@@ -96,20 +96,20 @@ class CompareCameras extends Component {
                       item.phone_data ? (
                         <ListGroupItem as={'div'} key={index} action>
                           <Stack direction='horizontal'>
-                            <div className='p-2 item-title'>{item.title}:</div>
-                            <div className='p-2 data'>{item.phone_data}</div>
+                            <div className='p-2 list-item-title-text'>{item.title}:</div>
+                            <div className='p-2 data-text'>{item.phone_data}</div>
                             {item.opt_zoom && (
-                              <div className='p-2 data'>{item.opt_zoom} optical zoom</div>
+                              <div className='p-2 data-text'>{item.opt_zoom} optical zoom</div>
                             )}
-                            <Stack className='p-2 data' direction='horizontal' gap={2}>
+                            <Stack className='p-2 data-text' direction='horizontal' gap={2}>
                               {item.mm && (
-                                <span className='orange-text'>{`${item.mm}mm`}</span>
+                                <span className='data-text--orange'>{`${item.mm}mm`}</span>
                               )}{' '}
                               {item.sensor_size && (
-                                <span className='orange-text'>{item.sensor_size}"</span>
+                                <span className='data-text--orange'>{item.sensor_size}"</span>
                               )}{' '}
                               {item.aperture && (
-                                <span className='orange-text'>{`(${item.aperture})`}</span>
+                                <span className='data-text--orange'>{`(${item.aperture})`}</span>
                               )}{' '}
                               {item.ois && item.ois === 'yes' && (
                                 <Badge bg='' className='black'>OIS</Badge>
@@ -128,10 +128,10 @@ class CompareCameras extends Component {
                     {rearCameras.digi_zoom !== '' &&
                       <ListGroupItem>
                         <Stack direction='horizontal'>
-                          <div className='p-2 item-title'>
+                          <div className='p-2 list-item-title-text'>
                             Digital zoom:
                           </div>
-                          <div className='p-2 data'>
+                          <div className='p-2 data-text'>
                             {rearCameras.digi_zoom}
                           </div>
                         </Stack>
@@ -140,11 +140,11 @@ class CompareCameras extends Component {
                     {/* Video recording details */}
                     <ListGroupItem>
                       <Stack direction='horizontal'>
-                        <div className='p-2 item-title'>
+                        <div className='p-2 list-item-title-text'>
                           Video recording (rear):
                         </div>
                         {rearCameras.video.map((quality) => (
-                          <div className='p-2 data' key={quality}>
+                          <div className='p-2 data-text' key={quality}>
                             {quality}
                           </div>
                         ))}
@@ -152,11 +152,11 @@ class CompareCameras extends Component {
                     </ListGroupItem>
                     <ListGroupItem>
                       <Stack direction='horizontal'>
-                        <div className='p-2 item-title'>
+                        <div className='p-2 list-item-title-text'>
                           Video recording (selfie):
                         </div>
                         {frontCameras.video.map((quality) => (
-                          <div className='p-2 data' key={quality}>
+                          <div className='p-2 data-text' key={quality}>
                             {quality}
                           </div>
                         ))}
@@ -170,25 +170,25 @@ class CompareCameras extends Component {
 
           {/* Basic camera data */}
           {cameraData ? (
-            <ListGroup variant='flush' className='camera-details'>
+            <ListGroup variant='flush' className='camera-details-list__container'>
               {cameraData.map((item, index) =>
                 item.phone_data ? (
                   <ListGroupItem as={'div'} key={index} action>
                     <Stack direction='horizontal'>
-                      <div className='p-2 item-title'>{item.title}:</div>
-                      <div className='p-2 data'>
+                      <div className='p-2 list-item-title-text'>{item.title}:</div>
+                      <div className='p-2 data-text'>
                         {item.phone_data}{' '}
                         {item.opt_zoom && (
-                          <span className='black-text'>{item.opt_zoom} optical zoom</span>
+                          <span className='data-text--black'>{item.opt_zoom} optical zoom</span>
                         )}
                         {item.mm && (
-                          <span className='p-2 sub-data'>{`${item.mm}mm`}</span>
+                          <span className='p-2 data-text--gray'>{`${item.mm}mm`}</span>
                         )}{' '}
                         {item.sensor_size && (
-                          <span className='p-1 sub-data'>{item.sensor_size}"</span>
+                          <span className='p-1 data-text--gray'>{item.sensor_size}"</span>
                         )}{' '}
                         {item.aperture && (
-                          <span className='p-1 sub-data'>{`(${item.aperture})`}</span>
+                          <span className='p-1 data-text--gray'>{`(${item.aperture})`}</span>
                         )}{' '}
                         {item.ois && item.ois === 'yes' && (
                           <Badge

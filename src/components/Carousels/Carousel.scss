@@ -33,8 +33,9 @@ p {
   margin-bottom: $margin;
 }
 
-/* ================ CREDITS ================ */
+/* ================ CREDITS / SOURCES ================ */
 
+/* section links */
 section {
   a {
     color: $note;
@@ -48,17 +49,17 @@ section {
     }
   }
 
-  &.approbations a {
+  &.approbations__main a {
     font-style: italic;
   }
 }
 
-.phone-title {
+.phone-title-text {
   margin: 5px auto;
   width: fit-content;
 }
 
-.blue-text p {
+.surface-text--rg--blue p {
   color: $bootstrap-blue;
 
   @media (prefers-color-scheme: dark) {
@@ -76,13 +77,13 @@ section {
 }
 
 .scrollable,
-.scrollable-long {
+.scrollable--long {
   overflow-y: auto;
 }
 
 /* ================ MODAL BUTTONS ================ */
 
-.bubble-header {
+.surface__header {
   position: relative;
 
   .expand-btn__container {
@@ -128,7 +129,7 @@ section {
 
 /* ================ BUILD/COLORS ================ */
 
-.colors {
+.phone-colors-surface__container {
   padding-bottom: 10px;
 
   & ul {
@@ -137,20 +138,20 @@ section {
     margin: 0 auto;
   }
 
-  & .phone-color li {
+  & .phone-color__container li {
     text-align: left;
   }
 }
 
 // The individual colors each model comes in displayed
-.color {
+.phone-color-item {
   padding: 10px;
   border-radius: 100%;
   width: 10px;
   height: 10px;
 }
 
-.phone-color {
+.phone-color__container {
   display: flex;
   align-items: center;
 
@@ -167,10 +168,10 @@ section {
 
 /* ================ DISPLAY ================ */
 
-.display {
+.display__container {
   @include p-margin-even;
 
-  .foldable-display p {
+  .display__wrapper--foldable p {
     margin: $p-margin-v-small;
   }
 
@@ -181,7 +182,7 @@ section {
     font-weight: 600;
   }
 
-  .display-size {
+  .display-size-text {
     font-weight: 600;
     color: $bootstrap-blue;
 
@@ -208,7 +209,7 @@ section {
 }
 
 .features-slide,
-.camera-features {
+.camera-features-slide {
   padding: 0 5px;
 
   section {
@@ -234,8 +235,8 @@ section {
 
 /* ================ CAMERA - PROS AND CONS ================ */
 
-.camera-features,
-.camera-pros-cons {
+.camera-features-slide,
+.camera-pc-slide {
   section {
     margin-bottom: $margin;
   }
@@ -254,8 +255,8 @@ section {
   }
 }
 
-.camera-pros-cons {
-  .no-data {
+.camera-pc-slide {
+  .no-data-text {
     color: $gray-text;
   }
 
@@ -267,20 +268,20 @@ section {
     max-height: 87px; // 90px
   }
 
-  .scrollable-long ul {
+  .scrollable--long ul {
     max-height: 240px;
   }
 }
 
 /* ================ PROS AND CONS ================ */
 
-.pros-and-cons-bubble {
+.pc-surface__container {
   margin: 0;
   margin-bottom: $margin;
 }
 
-.pros-and-cons {
-  .no-data {
+.pc__section {
+  .no-data-text {
     color: $gray-text;
   }
 
@@ -293,21 +294,21 @@ section {
   }
 
   ul,
-  .no-data {
+  .no-data-text {
     padding-left: 20px;
     margin-bottom: 5px;
     font-size: 0.9rem;
   }
 
   li,
-  .no-data {
+  .no-data-text {
     text-align: left;
   }
 }
 
 /* ================ APPROBATIONS ================ */
 
-.approbations {
+.approbations__main {
   height: 300px;
   margin: 0 15px;
   overflow-y: auto;
@@ -328,6 +329,6 @@ section {
 
 /* ================ PRICES ================ */
 
-.prices p {
+.prices__container p {
   margin: $margin;
 }

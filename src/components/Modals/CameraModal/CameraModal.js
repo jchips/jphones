@@ -137,27 +137,27 @@ class CameraModal extends Component {
         <Modal.Header closeButton>
           <Modal.Title>{phoneName} Camera Details</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='camera-details'>
+        <Modal.Body>
           <div className="camera-modal__container">
             <ListGroup variant='flush'>
               {cameraData.map((item, index) =>
                 item.phone_data ? (
                   <ListGroupItem as={'div'} key={index} action>
                     <Stack direction='horizontal'>
-                      <div className='p-2 item-title'>{item.title}:</div>
-                      <div className='p-2 data'>{item.phone_data} MP</div>
+                      <div className='p-2 list-item-title-text'>{item.title}:</div>
+                      <div className='p-2 data-text'>{item.phone_data} MP</div>
                       {item.opt_zoom && (
-                        <div className='p-2 black-text'>{item.opt_zoom} optical zoom</div>
+                        <div className='p-2 data-text--black'>{item.opt_zoom} optical zoom</div>
                       )}
-                      <Stack className='p-2 data' direction='horizontal' gap={2}>
+                      <Stack className='p-2 data-text' direction='horizontal' gap={2}>
                         {item.mm && (
-                          <span className='sub-data'>{item.mm}mm</span>
+                          <span className='data-text--gray'>{item.mm}mm</span>
                         )}{' '}
                         {item.sensor_size && (
-                          <span className='sub-data'>{item.sensor_size}"</span>
+                          <span className='data-text--gray'>{item.sensor_size}"</span>
                         )}{' '}
                         {item.aperture && (
-                          <span className='sub-data'>({item.aperture})</span>
+                          <span className='data-text--gray'>({item.aperture})</span>
                         )}{' '}
                         {item.ois && item.ois === 'yes' && (
                           <Badge bg={this.state.theme === 'light' ? 'light' : 'dark'}
@@ -180,10 +180,10 @@ class CameraModal extends Component {
               {rearCameras.digi_zoom !== '' &&
                 <ListGroupItem as={'div'} action>
                   <Stack direction='horizontal'>
-                    <div className='p-2 item-title'>
+                    <div className='p-2 list-item-title-text'>
                       Digital zoom:
                     </div>
-                    <div className='p-2 data'>
+                    <div className='p-2 data-text'>
                       {rearCameras.digi_zoom}
                     </div>
                   </Stack>
@@ -192,11 +192,11 @@ class CameraModal extends Component {
               {/* Video recording details */}
               <ListGroupItem as={'div'} action>
                 <Stack direction='horizontal'>
-                  <div className='p-2 item-title'>
+                  <div className='p-2 list-item-title-text'>
                     Video recording (rear):
                   </div>
                   {rearCameras.video.map((quality) => (
-                    <div className='p-2 data' key={quality}>
+                    <div className='p-2 data-text' key={quality}>
                       {quality}
                     </div>
                   ))}
@@ -204,11 +204,11 @@ class CameraModal extends Component {
               </ListGroupItem>
               <ListGroupItem as={'div'} action>
                 <Stack direction='horizontal'>
-                  <div className='p-2 item-title'>
+                  <div className='p-2 list-item-title-text'>
                     Video recording (selfie):
                   </div>
                   {frontCameras.video.map((quality) => (
-                    <div className='p-2 data' key={quality}>
+                    <div className='p-2 data-text' key={quality}>
                       {quality}
                     </div>
                   ))}

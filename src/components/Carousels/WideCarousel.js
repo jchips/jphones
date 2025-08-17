@@ -84,13 +84,13 @@ class WideCarousel extends Component {
     const { phone, mmToggle } = this.props;
 
     return (
-      <div className='row wide-phone-carousel'>
+      <div className='row phone-row--wide'>
         <div className='col-xl-4 col-lg-4 col-md-4 col-sm-3 col-12 img__container'>
           <LazyLoadImage className='img img-fluid' src={phone.img} alt={phone.name} />
         </div>
         <div className='col-xl-8 col-lg-8 col-md-8 col-sm-9 col-12'>
           <Carousel
-            className='wide-carousel'
+            className='carousel--wide'
             interval={null}
             indicators={true}
             indicatorLabels={this.state.slides}
@@ -102,17 +102,17 @@ class WideCarousel extends Component {
             <Carousel.Item>
               <h2>{phone.name}</h2>
               <h5>{phone.brand} / {phone.os}</h5>
-              <div className='wide-first-slide'>
-                <div className='phone-colors'>
-                  <p id='colors-title'>Colors:</p>
+              <div className='first-slide--wide'>
+                <div className='phones-colors__wrapper'>
+                  <p id='phone-colors-title'>Colors:</p>
                   {phone.colors.map(color =>
                     <div style={{ display: 'flex', alignItems: 'center' }} key={color.tag}>
                       <p>{color.color}</p>
-                      <div className={`color ${color.tag}`} key={color.tag}></div>
+                      <div className={`phone-color-item ${color.tag}`} key={color.tag}></div>
                     </div>
                   )}
                 </div>
-                <div className='prices blue-text surface'>
+                <div className='prices__container surface-text--rg--blue surface'>
                   <h3>Starting prices</h3>
                   {phone.prices.map((price, index) =>
                     <p key={index}><span>{price.storage}: </span>{price.price}</p>
@@ -123,33 +123,33 @@ class WideCarousel extends Component {
             </Carousel.Item>
 
             {/* Phone specs */}
-            <Carousel.Item className='wide-slide specs-slide blue-text'>
+            <Carousel.Item className='slide--wide specs-slide surface-text--rg--blue'>
               <WideSpecs phone={phone} mmToggle={mmToggle} />
             </Carousel.Item>
 
-            <Carousel.Item className='wide-slide'>
+            <Carousel.Item className='slide--wide'>
               <Display phone={phone} carouselType={'wide'} />
             </Carousel.Item>
 
             {/* Features */}
-            <Carousel.Item className='wide-slide features-slide'>
+            <Carousel.Item className='slide--wide features-slide'>
               <Features phone={phone} carouselType={'wide'} />
             </Carousel.Item>
 
             {/* Cameras */}
-            <Carousel.Item className='wide-slide cameras-slide blue-text'>
+            <Carousel.Item className='slide--wide cameras-slide surface-text--rg--blue'>
               <Cameras phone={phone} carouselType={'wide'} />
             </Carousel.Item>
 
             {/* Camera Features */}
-            <Carousel.Item className='wide-slide camera-features'>
+            <Carousel.Item className='slide--wide camera-features-slide'>
               <CameraFeatures phone={phone} carouselType={'wide'} />
             </Carousel.Item>
 
             {/* Camera pros and cons */}
             {/* Only displays if phone has either camera pros or camera cons. */}
             {(phone.cameraPros || phone.cameraCons) && (
-              <Carousel.Item className='wide-slide camera-pros-cons'>
+              <Carousel.Item className='slide--wide camera-pc-slide'>
                 <CameraProsCons
                   phone={phone}
                   handleExpand={this.handleExpand}
@@ -164,7 +164,7 @@ class WideCarousel extends Component {
             )}
 
             {/* Pros and Cons */}
-            <Carousel.Item className='wide-slide pros-and-cons-slide'>
+            <Carousel.Item className='slide--wide pros-and-cons-slide'>
               <ProsAndCons
                 phone={phone}
                 handleExpand={this.handleExpand}
@@ -179,7 +179,7 @@ class WideCarousel extends Component {
 
             {/* Approbations */}
             {phone.approbations && (
-              <Carousel.Item className='wide-slide'>
+              <Carousel.Item className='slide--wide'>
                 <Approbations phone={phone} carouselType={'wide'} />
               </Carousel.Item>
             )}

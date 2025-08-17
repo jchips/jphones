@@ -3,12 +3,12 @@
 @import '../../styles/default.styles';
 @import '../../styles/mixins';
 
-.wide-phone-carousel {
+.phone-row--wide {
   border-bottom: 2px solid black;
 }
 
-.wide-phone-carousel .img__container,
-.wide-carousel {
+.phone-row--wide .img__container,
+.carousel--wide {
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
   -webkit-box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
 }
@@ -23,7 +23,7 @@
   }
 }
 
-.wide-carousel {
+.carousel--wide {
   @include texture;
   width: 100%;
   height: 455px;
@@ -53,7 +53,7 @@
     @include cameraData;
   }
 
-  .phone-colors {
+  .phones-colors__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -62,17 +62,17 @@
     width: 85%;
   }
 
-  #colors-title {
+  #phone-colors-title {
     margin-right: 7px;
     font-weight: 600;
   }
 
-  .color {
+  .phone-color-item {
     padding: 10px;
     margin: 0 20px 10px 7px;
   }
 
-  .prices {
+  .prices__container {
     max-width: 260px;
     text-align: center;
     margin: auto auto;
@@ -80,7 +80,7 @@
     font-size: 13px;
   }
 
-  .wide-first-slide {
+  .first-slide--wide {
     h3 {
       margin-top: 10px;
     }
@@ -95,12 +95,12 @@
     }
   }
 
-  .display {
+  .display__container {
     text-align: center;
   }
 
   .features-slide,
-  .camera-features {
+  .camera-features-slide {
     .scrollable ul {
       max-height: 285px;
     }
@@ -110,7 +110,7 @@
     font-weight: 400;
   }
 
-  .wide-slide {
+  .slide--wide {
     padding: 0 64px;
   }
 
@@ -119,26 +119,26 @@
   }
 
   .display,
-  .pros-and-cons-bubble {
+  .pc-surface__container {
     padding: 10px 20px;
   }
 
-  .pros-and-cons-bubble h4 {
+  .pc-surface__container h4 {
     text-align: center;
     margin-top: 0;
   }
 
-  .pros-and-cons-bubble .scrollable ul {
+  .pc-surface__container .scrollable ul {
     max-height: 100px; // 105px
   }
 }
 
 @media screen and (max-width: 900px) {
-  .wide-carousel .wide-slide {
+  .carousel--wide .slide--wide {
     padding: 0 20px;
   }
 
-  .wide-first-slide {
+  .first-slide--wide {
     height: 340px;
     overflow-y: auto;
   }

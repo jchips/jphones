@@ -7,9 +7,9 @@ const Build = (props) => {
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Colors & Build</h3>
-      {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
+      {carouselType === 'mini' ? (<h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>) : null}
       <div className='build-slide'>
-        <div className='build blue-text surface'>
+        <div className='build__container surface-text--rg--blue surface'>
           <h4>Build</h4>
           {phone.build ? (
             <>
@@ -19,13 +19,13 @@ const Build = (props) => {
                 {phone.build.back_texture && (
                   <>
                     {phone.build.back_texture.length > 6 && phone.build.back.length > 16 ? <br /> : null}
-                    <span className='texture'>({phone.build.back_texture})</span>
+                    <span className='build-texture-text'>({phone.build.back_texture})</span>
                   </>
                 )}
               </p>
               <p>
                 <span>Frame: </span>{phone.build.frame}{' '}
-                {phone.build.frame_texture && <span className='texture'>({phone.build.frame_texture})</span>}
+                {phone.build.frame_texture && <span className='build-texture-text'>({phone.build.frame_texture})</span>}
               </p>
               {phone.build.hinge && <p><span>Hinge: </span>{phone.build.hinge}</p>}
             </>
@@ -33,13 +33,13 @@ const Build = (props) => {
             <p>{phone.build}</p>
           }
         </div>
-        <div className='colors surface'>
+        <div className='phone-colors-surface__container surface'>
           <h4>Colors</h4>
           <ul>
             {phone.colors.map((phoneColor, index) =>
-              <div className='phone-color' key={index}>
+              <div className='phone-color__container' key={index}>
                 {phoneColor.tag && (
-                  <div className={`color ${phoneColor.tag}`}></div>
+                  <div className={`phone-color-item ${phoneColor.tag}`}></div>
                 )}
                 <li>{phoneColor.color}</li>
               </div>

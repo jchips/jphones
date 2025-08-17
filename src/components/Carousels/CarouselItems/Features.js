@@ -29,7 +29,7 @@ const Features = (props) => {
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       {phone.featuresCheck ? (
-        <div className='bubble-header'>
+        <div className='surface__header'>
           <h3>Features</h3>
           <img
             className='features-check-btn'
@@ -42,7 +42,7 @@ const Features = (props) => {
         <h3>Features</h3>
       )}
       {carouselType === 'mini' ? (
-        <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+        <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
       ) : null}
       <div className='phones-features scrollable'>
         <ul>
@@ -70,7 +70,7 @@ const CameraFeatures = (props) => {
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Cameras - Features</h3>
       {carouselType === 'mini' ? (
-        <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+        <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
       ) : null}
       <section className='scrollable'>
         <ul>

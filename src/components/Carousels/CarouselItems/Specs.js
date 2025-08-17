@@ -6,7 +6,7 @@ const Specs = (props) => {
   return (
     <>
       <h3>Phone specs</h3>
-      <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+      <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
       <div className='scrollable'>
         <p style={{ marginTop: '0px' }}><span>UI: </span>{phone.ui}</p><hr />
         {!phone.foldable && (<p><span>Size: </span>{mmToggle ? phone.size_mm : phone.size}</p>)}
@@ -42,10 +42,10 @@ const WideSpecs = (props) => {
           <ListGroup.Item>
             <p><span>Front: </span>{phone.build.front}</p>
             <p><span>Back: </span>{phone.build.back}{' '}
-              {phone.build.back_texture && <span className='texture'>({phone.build.back_texture})</span>}</p>
+              {phone.build.back_texture && <span className='build-texture-text'>({phone.build.back_texture})</span>}</p>
             <p>
               <span>Frame: </span>{phone.build.frame}{' '}
-              {phone.build.frame_texture && <span className='texture'>({phone.build.frame_texture})</span>}
+              {phone.build.frame_texture && <span className='build-texture-text'>({phone.build.frame_texture})</span>}
             </p>
             {phone.build.hinge && <p><span>Hinge: </span>{phone.build.hinge}</p>}
           </ListGroup.Item>

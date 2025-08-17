@@ -86,10 +86,10 @@ class CompareFeatures extends Component {
                           ) : (
                             <HiCheckCircle style={{ color: 'green' }} />
                           )}
-                          <div className='p-1 item-title'>
+                          <div className='p-1 list-item-title-text'>
                             {features[index]}:
                           </div>
-                          <div className='p-1 data'>{value}</div>
+                          <div className='p-1 data-text'>{value}</div>
                         </Stack>
                       </Col>
                     ))}

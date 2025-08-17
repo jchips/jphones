@@ -75,6 +75,8 @@ class BrandCarousel extends Component {
           indicatorLabels={this.state.slides}
           onSlide={this.enableExpand}
         >
+
+          {/* hero */}
           <Carousel.Item className='brand-img text-center'>
             <img src={brand.img} alt={brand.name} />
             <OverlayTrigger trigger='click' placement='top' overlay={popover}>
@@ -87,6 +89,8 @@ class BrandCarousel extends Component {
               </section>
             </OverlayTrigger>
           </Carousel.Item>
+
+          {/* Features */}
           <Carousel.Item>
             <h3>Features</h3>
             <div className='brands-scrollable'>
@@ -97,6 +101,8 @@ class BrandCarousel extends Component {
               </ListGroup>
             </div>
           </Carousel.Item>
+
+          {/* Cameras */}
           <Carousel.Item>
             <h3>Camera Features</h3>
             <div className='brands-scrollable'>
@@ -128,11 +134,13 @@ class BrandCarousel extends Component {
                 </div>)}
             </div>
           </Carousel.Item>
+
+          {/* Pros and Cons */}
           <Carousel.Item>
             <h3>Pros and Cons</h3>
-            <div className='pros-and-cons'>
-              {brand.pros && (<section className='pros-and-cons-bubble surface'>
-                <div className='bubble-header'>
+            <div className='pc__section'>
+              {brand.pros && (<section className='pc-surface__container surface'>
+                <div className='surface__header'>
                   <h4>Pros</h4>
                   <div ref={this.proExpandBtn} className='expand-btn__container'>
                     <HiOutlineArrowsExpand className='expand-btn' onClick={() => this.handleExpand('pros', brand.pros)} />
@@ -146,8 +154,8 @@ class BrandCarousel extends Component {
                   </ul>
                 </div>
               </section>)}
-              {brand.cons && (<section className='pros-and-cons-bubble surface'>
-                <div className='bubble-header'>
+              {brand.cons && (<section className='pc-surface__container surface'>
+                <div className='surface__header'>
                   <h4>Cons</h4>
                   <div ref={this.conExpandBtn} className='expand-btn__container'>
                     <HiOutlineArrowsExpand className='expand-btn' onClick={() => this.handleExpand('cons', brand.cons)} />

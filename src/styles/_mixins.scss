@@ -7,19 +7,19 @@ $regularFont: 400;
 
 /* ========= Camera ========== */
 @mixin cameraData {
-  .data {
+  .data-text {
     color: $orange;
     font-weight: $boldFont;
     align-items: center;
     flex-wrap: wrap;
 
-    .sub-data {
+    .data-text--gray {
       color: $gray-text;
       font-weight: $regularFont;
       font-size: small;
     }
 
-    .orange-text {
+    .data-text--orange {
       color: $orange;
       font-weight: $boldFont;
       font-size: small;
@@ -27,7 +27,7 @@ $regularFont: 400;
   }
 
   /* ====== Text colors ====== */
-  .black-text {
+  .data-text--black {
     color: $offColor;
     margin-left: 5px;
     font-weight: $regularFont;
