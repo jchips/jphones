@@ -128,7 +128,7 @@ class MiniCarousel extends React.Component {
           </Carousel.Item>
 
           {/* Phone specs */}
-          <Carousel.Item className='specs-slide blue-text'>
+          <Carousel.Item className='specs-slide surface_text--rg--blue'>
             <Specs phone={phone} mmToggle={mmToggle} />
           </Carousel.Item>
 
@@ -147,7 +147,7 @@ class MiniCarousel extends React.Component {
           </Carousel.Item>
 
           {/* Cameras */}
-          <Carousel.Item className='cameras-slide blue-text'>
+          <Carousel.Item className='cameras-slide surface_text--rg--blue'>
             <Cameras phone={phone} carouselType={'mini'} />
           </Carousel.Item>
 
@@ -159,7 +159,7 @@ class MiniCarousel extends React.Component {
           {/* Camera Pros and Cons */}
           {/* Only displays if phone has either camera pros or camera cons. */}
           {(phone.cameraPros || phone.cameraCons) && (
-            <Carousel.Item className='camera-pros-cons'>
+            <Carousel.Item className='camera-pc-slide'>
               <CameraProsCons
                 phone={phone}
                 handleExpand={this.handleExpand}
@@ -195,9 +195,9 @@ class MiniCarousel extends React.Component {
           )}
 
           {/* Prices */}
-          <Carousel.Item className='prices-slide blue-text'>
+          <Carousel.Item className='prices-slide surface_text--rg--blue'>
             <h3>Starting Prices</h3>
-            <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+            <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
             <section className='prices surface'>
               {phone.prices.map((prices, index) =>
                 <p key={index}><span>{prices.storage}: </span>{prices.price}</p>

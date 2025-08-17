@@ -210,7 +210,7 @@ class CompareBrand extends Component {
                           </ListGroupItem>
                         ))
                       ) : (
-                        <div className='no-data'>
+                        <div className='no-data-text'>
                           <p>None recorded</p>
                         </div>
                       )}
@@ -235,7 +235,7 @@ class CompareBrand extends Component {
                           </ListGroupItem>
                         ))
                       ) : (
-                        <div className='no-data'>
+                        <div className='no-data-text'>
                           <p>None recorded</p>
                         </div>
                       )}

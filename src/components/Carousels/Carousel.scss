@@ -48,7 +48,7 @@ section {
     }
   }
 
-  &.approbations a {
+  &.approbations__main a {
     font-style: italic;
   }
 }
@@ -58,7 +58,7 @@ section {
   width: fit-content;
 }
 
-.blue-text p {
+.surface_text--rg--blue p {
   color: $bootstrap-blue;
 
   @media (prefers-color-scheme: dark) {
@@ -76,13 +76,13 @@ section {
 }
 
 .scrollable,
-.scrollable-long {
+.scrollable--long {
   overflow-y: auto;
 }
 
 /* ================ MODAL BUTTONS ================ */
 
-.bubble-header {
+.surface__header {
   position: relative;
 
   .expand-btn__container {
@@ -235,7 +235,7 @@ section {
 /* ================ CAMERA - PROS AND CONS ================ */
 
 .camera-features,
-.camera-pros-cons {
+.camera-pc-slide {
   section {
     margin-bottom: $margin;
   }
@@ -254,8 +254,8 @@ section {
   }
 }
 
-.camera-pros-cons {
-  .no-data {
+.camera-pc-slide {
+  .no-data-text {
     color: $gray-text;
   }
 
@@ -267,20 +267,20 @@ section {
     max-height: 87px; // 90px
   }
 
-  .scrollable-long ul {
+  .scrollable--long ul {
     max-height: 240px;
   }
 }
 
 /* ================ PROS AND CONS ================ */
 
-.pros-and-cons-bubble {
+.pc-surface__container {
   margin: 0;
   margin-bottom: $margin;
 }
 
-.pros-and-cons {
-  .no-data {
+.pc__section {
+  .no-data-text {
     color: $gray-text;
   }
 
@@ -293,21 +293,21 @@ section {
   }
 
   ul,
-  .no-data {
+  .no-data-text {
     padding-left: 20px;
     margin-bottom: 5px;
     font-size: 0.9rem;
   }
 
   li,
-  .no-data {
+  .no-data-text {
     text-align: left;
   }
 }
 
 /* ================ APPROBATIONS ================ */
 
-.approbations {
+.approbations__main {
   height: 300px;
   margin: 0 15px;
   overflow-y: auto;

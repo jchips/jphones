@@ -7,9 +7,9 @@ const Build = (props) => {
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       <h3>Colors & Build</h3>
-      {carouselType === 'mini' ? (<h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>) : null}
+      {carouselType === 'mini' ? (<h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>) : null}
       <div className='build-slide'>
-        <div className='build blue-text surface'>
+        <div className='build surface_text--rg--blue surface'>
           <h4>Build</h4>
           {phone.build ? (
             <>

@@ -150,7 +150,7 @@ class Compare extends Component {
             {index === 'A' ? (
               selectedPhoneA.name ? (
                 <div className='compare-header'>
-                  <p className='selected-phone-title'>
+                  <p className='selected-phone-title-text'>
                     {selectedPhoneA.offName ? `${selectedPhoneA.offName}` : ''}
                   </p>
                 </div>
@@ -159,7 +159,7 @@ class Compare extends Component {
               )
             ) : selectedPhoneB.name ? (
               <div className='compare-header'>
-                <p className='selected-phone-title'>
+                <p className='selected-phone-title-text'>
                   {selectedPhoneB.offName ? `${selectedPhoneB.offName}` : ''}
                 </p>
               </div>

@@ -6,7 +6,7 @@ const Specs = (props) => {
   return (
     <>
       <h3>Phone specs</h3>
-      <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+      <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
       <div className='scrollable'>
         <p style={{ marginTop: '0px' }}><span>UI: </span>{phone.ui}</p><hr />
         {!phone.foldable && (<p><span>Size: </span>{mmToggle ? phone.size_mm : phone.size}</p>)}

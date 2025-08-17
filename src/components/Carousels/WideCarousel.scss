@@ -119,16 +119,16 @@
   }
 
   .display,
-  .pros-and-cons-bubble {
+  .pc-surface__container {
     padding: 10px 20px;
   }
 
-  .pros-and-cons-bubble h4 {
+  .pc-surface__container h4 {
     text-align: center;
     margin-top: 0;
   }
 
-  .pros-and-cons-bubble .scrollable ul {
+  .pc-surface__container .scrollable ul {
     max-height: 100px; // 105px
   }
 }

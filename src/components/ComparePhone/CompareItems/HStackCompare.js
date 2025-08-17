@@ -12,7 +12,7 @@ class HStackCompare extends Component {
         </Accordion.Header>
         <Accordion.Body>
           {(!data && (!listData || (listData && listData.length < 1))) && (
-            <div className='no-data'>
+            <div className='no-data-text'>
               <p>None recorded</p>
             </div>
           )}

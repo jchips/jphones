@@ -30,7 +30,7 @@ const Cameras = (props) => {
     <>
       {carouselType === 'wide' ? <h2>{phone.name}</h2> : null}
       {phone.cameraDetails ? (
-        <div className='bubble-header'>
+        <div className='surface__header'>
           <h3>Cameras</h3>
           <img
             className='camera-details-btn'
@@ -43,7 +43,7 @@ const Cameras = (props) => {
         <h3>Cameras</h3>
       )}
       {carouselType === 'mini' ? (
-        <h6 className='phone-title'>&mdash; {phone.name} &mdash;</h6>
+        <h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>
       ) : null}
       <div id='rear-cameras' className='cameras surface'>
         <h4>Rear Cameras:</h4>

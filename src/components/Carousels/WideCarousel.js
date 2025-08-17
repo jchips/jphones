@@ -112,7 +112,7 @@ class WideCarousel extends Component {
                     </div>
                   )}
                 </div>
-                <div className='prices blue-text surface'>
+                <div className='prices surface_text--rg--blue surface'>
                   <h3>Starting prices</h3>
                   {phone.prices.map((price, index) =>
                     <p key={index}><span>{price.storage}: </span>{price.price}</p>
@@ -123,7 +123,7 @@ class WideCarousel extends Component {
             </Carousel.Item>
 
             {/* Phone specs */}
-            <Carousel.Item className='wide-slide specs-slide blue-text'>
+            <Carousel.Item className='wide-slide specs-slide surface_text--rg--blue'>
               <WideSpecs phone={phone} mmToggle={mmToggle} />
             </Carousel.Item>
 
@@ -137,7 +137,7 @@ class WideCarousel extends Component {
             </Carousel.Item>
 
             {/* Cameras */}
-            <Carousel.Item className='wide-slide cameras-slide blue-text'>
+            <Carousel.Item className='wide-slide cameras-slide surface_text--rg--blue'>
               <Cameras phone={phone} carouselType={'wide'} />
             </Carousel.Item>
 
@@ -149,7 +149,7 @@ class WideCarousel extends Component {
             {/* Camera pros and cons */}
             {/* Only displays if phone has either camera pros or camera cons. */}
             {(phone.cameraPros || phone.cameraCons) && (
-              <Carousel.Item className='wide-slide camera-pros-cons'>
+              <Carousel.Item className='wide-slide camera-pc-slide'>
                 <CameraProsCons
                   phone={phone}
                   handleExpand={this.handleExpand}
