@@ -106,19 +106,19 @@
       margin: 5px 10px;
     }
 
-    .colors {
+    .phone-colors-surface__container {
       flex-grow: 1;
       overflow-y: auto;
     }
   }
 
-  .build {
+  .build__container {
     @include p-margin-even;
     @include texture;
   }
 
   .display__container p,
-  .build p {
+  .build__container p {
     padding: 0 10px;
   }
 

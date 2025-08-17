@@ -54,7 +54,7 @@ section {
   }
 }
 
-.phone-title {
+.phone-title-text {
   margin: 5px auto;
   width: fit-content;
 }
@@ -129,7 +129,7 @@ section {
 
 /* ================ BUILD/COLORS ================ */
 
-.colors {
+.phone-colors-surface__container {
   padding-bottom: 10px;
 
   & ul {
@@ -138,7 +138,7 @@ section {
     margin: 0 auto;
   }
 
-  & .phone-color li {
+  & .phone-color__container li {
     text-align: left;
   }
 }
@@ -151,7 +151,7 @@ section {
   height: 10px;
 }
 
-.phone-color {
+.phone-color__container {
   display: flex;
   align-items: center;
 
