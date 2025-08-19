@@ -13,7 +13,7 @@ h5 {
   font-size: 1rem;
 
   @media (prefers-color-scheme: dark) {
-    color: $bootstrap-blue;
+    color: $dark-blue;
   }
 }
 
@@ -60,7 +60,7 @@ section {
 }
 
 .surface-text--rg--blue p {
-  color: $bootstrap-blue;
+  color: $dark-blue;
 
   @media (prefers-color-scheme: dark) {
     color: $theme-blue;
@@ -184,7 +184,7 @@ section {
 
   .display-size-text {
     font-weight: 600;
-    color: $bootstrap-blue;
+    color: $dark-blue;
 
     @media (prefers-color-scheme: dark) {
       color: $theme-blue;

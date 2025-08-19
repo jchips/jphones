@@ -133,4 +133,12 @@
       background-image: url('https://img.icons8.com/material-outlined/24/#{$darkThemeLabel}/price-tag-usd.png');
     }
   }
+
+  button[aria-label='ai'] {
+    background-image: url('https://img.icons8.com/material-outlined/24/bard--v2.png');
+
+    @media (prefers-color-scheme: dark) {
+      background-image: url('https://img.icons8.com/material-outlined/24/#{$darkThemeLabel}/bard--v2.png');
+    }
+  }
 }

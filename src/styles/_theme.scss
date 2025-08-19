@@ -24,6 +24,7 @@ $popover: var(--popover);
 $btnBg: var(--btn-bg);
 $btnHover: var(--btn-hover);
 $btnBorder: var(--btn-border);
+$aiText: var(--ai-text);
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -51,6 +52,7 @@ $btnBorder: var(--btn-border);
     --btn-bg: #{$lightBtnBg};
     --btn-hover: #{$lightBtnHover};
     --btn-border: #{$lightBtnBorder};
+    --ai-text: #{$dark-blue};
   }
 }
 
@@ -80,5 +82,6 @@ $btnBorder: var(--btn-border);
     --btn-bg: #{$darkBtnBg};
     --btn-hover: #{$darkBtnHover};
     --btn-border: #{$darkBtnBorder};
+    --ai-text: #{$orange};
   }
 }
