@@ -46,6 +46,16 @@ class BrandCarousel extends Component {
   }
 
   componentDidMount() {
+    const { brand } = this.props;
+    const withoutAISlide = ['front', 'features', 'cameras', 'pros-cons'];
+    const withAISlide = ['front', 'features', 'cameras', 'ai', 'pros-cons'];
+
+    if (!brand.ai) {
+      this.setState({ slides: withoutAISlide });
+    } else {
+      this.setState({ slides: withAISlide });
+    }
+
     // Fetch color scheme
     const getTheme = window.matchMedia('(prefers-color-scheme: dark)');
     this.setTheme(getTheme);
@@ -134,6 +144,40 @@ class BrandCarousel extends Component {
                 </div>)}
             </div>
           </Carousel.Item>
+
+          {/* AI */}
+          {brand.ai && <Carousel.Item>
+            <h3>{brand.ai.name}</h3>
+            <div className='ai__wrapper'>
+              <section className='ai-info'>
+                <p><span>AI Assistant:</span> {brand.ai.assistant}</p>
+                <a href={brand.ai.learn} target='_blank' rel='noreferrer'>Click here to learn more about {brand.ai.name}</a>
+              </section>
+              {/* <hr /> */}
+              <section className='ai-features__container'>
+                {brand.ai.features &&
+                  <div>
+                    <h4>Features</h4>
+                    <ul>
+                      {brand.ai.features.map(feat => (
+                        <li key={feat}>{parse(feat)}</li>
+                      ))}
+                    </ul>
+                  </div>
+                }
+                {brand.ai.photo &&
+                  <div>
+                    <h4>AI Photography Features</h4>
+                    <ul>
+                      {brand.ai.photo.map(feat => (
+                        <li key={feat}>{parse(feat)}</li>
+                      ))}
+                    </ul>
+                  </div>
+                }
+              </section>
+            </div>
+          </Carousel.Item>}
 
           {/* Pros and Cons */}
           <Carousel.Item>

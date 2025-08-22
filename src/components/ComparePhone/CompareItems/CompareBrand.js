@@ -55,11 +55,11 @@ class CompareBrand extends Component {
         <Accordion.Body>
           {/* TODO: Make Buttons more DRY */}
           <Container>
-            {/* Features */}
+
+            {/* Features dropdown btn */}
             <Button
               className='ddBtn'
               variant={this.state.theme}
-              // variant='light'
               onClick={() => this.toggleShowBrandFeatures()}
             >
               {showBrandFeatures
@@ -70,10 +70,11 @@ class CompareBrand extends Component {
                   <HiChevronUp size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
                 ) : (
                   <HiChevronDown size={20} color={this.state.theme === 'light' ? '#424242' : '#969696'} />
-                  // <HiChevronDown size={20} color='#424242' />
                 )}
               </div>
             </Button>
+
+            {/* Features section */}
             {showBrandFeatures ? (
               <ListGroup variant='flush'>
                 {brandData.phoneFeatures.map((item, index) => (
@@ -89,7 +90,7 @@ class CompareBrand extends Component {
               </ListGroup>
             ) : null}
 
-            {/* Camera */}
+            {/* Cameras dropdown btn */}
             <Button
               className='ddBtn'
               variant={this.state.theme}
@@ -106,6 +107,8 @@ class CompareBrand extends Component {
                 )}
               </div>
             </Button>
+
+            {/* Cameras section */}
             {showBrandCamera ? (
               <Accordion>
                 <Accordion.Item eventKey='camera-features'>
@@ -172,11 +175,10 @@ class CompareBrand extends Component {
               </Accordion>
             ) : null}
 
-            {/* Pros & Cons */}
+            {/* Pros & Cons dropdown btn */}
             <Button
               className='ddBtn'
               variant={this.state.theme}
-              // variant='light'
               onClick={() => this.toggleShowBrandPC()}
             >
               {showBrandPC
@@ -190,6 +192,8 @@ class CompareBrand extends Component {
                 )}
               </div>
             </Button>
+
+            {/* Pros & Cons section */}
             {showBrandPC ? (
               <Accordion>
                 <Accordion.Item eventKey='pros'>
