@@ -148,7 +148,7 @@ class BrandCarousel extends Component {
           {/* AI */}
           {brand.ai && <Carousel.Item>
             <h3>{brand.ai.name}</h3>
-            <div className='ai__wrapper'>
+            <div className='ai__wrapper ai-scrollable'>
               <section className='ai-info'>
                 <p><span>AI Assistant:</span> {brand.ai.assistant}</p>
                 <a href={brand.ai.learn} target='_blank' rel='noreferrer'>Click here to learn more about {brand.ai.name}</a>

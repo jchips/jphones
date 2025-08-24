@@ -22,6 +22,11 @@
     overflow-y: auto;
   }
 
+  .ai-scrollable {
+    height: 380px;
+    overflow-y: auto;
+  }
+
   .side-note {
     @include side-note;
   }
