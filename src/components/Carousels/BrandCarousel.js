@@ -151,10 +151,11 @@ class BrandCarousel extends Component {
             <div className='ai__wrapper ai-scrollable'>
               <section className='ai-info'>
                 <p><span>AI Assistant:</span> {brand.ai.assistant}</p>
-                <a href={brand.ai.learn} target='_blank' rel='noreferrer'>Click here to learn more about {brand.ai.name}</a>
+                <a href={brand.ai.learn} target='_blank' rel='noreferrer'>Click <strong>here</strong> to learn more about{' '}
+                  {brand.ai.name}
+                </a>
               </section>
-              {/* <hr /> */}
-              <section className='ai-features__container'>
+              <section className='ai-features__container surface'>
                 {brand.ai.features &&
                   <div>
                     <h4>Features</h4>
