@@ -33,7 +33,7 @@ class Apple extends React.Component {
 
   render() {
     let { error, isLoading, iPhoneData, brandData } = this.state;
-    let series = ['16', '15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
+    let series = ['17', 'Air', '16', '15', '14', '13', '12', '11', 'XS', 'X', 'SE'];
     return (
       <>
         {error && <Alert variant='danger' className='m-3'>{error}</Alert>}
