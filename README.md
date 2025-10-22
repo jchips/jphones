@@ -20,7 +20,7 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 
 ## Changelog
 
-- 2025-10-21 (1.5.2) - Improved AI slide.
+- 2025-10-21 (1.5.2) - Improved AI slide, added more filter options.
 - 2025-08-10 (1.5.1) - Optimized main page carousel headers.
 - 2025-08-01 (1.5.0) - Added dark theme.
 - 2025-07-18 (1.4.11) - Better optimized for tablet screens.
