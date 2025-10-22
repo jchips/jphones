@@ -29,9 +29,21 @@ form {
     flex-direction: column;
   }
 
-  .filter-section-label {
-    color: $orange; // $off-black;
+  .filter-company-label {
+    color: $orange;
     font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .filter-section-label {
+    color: $orange;
+    font-weight: 500;
+  }
+
+  .filter-type-label {
+    color: $theme-blue;
+    font-weight: 500;
+    font-size: 0.9rem;
   }
 
   .filter__wrapper {

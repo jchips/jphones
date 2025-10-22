@@ -39,6 +39,8 @@ class DisplayPhones extends React.Component {
       if (activeFilters.find(filter => filter === 'Foldable')) {
         rowData = rowData.filter((phone) => phone.foldable);
       }
+
+      // Cost filters
       if (activeFilters.find(filter => filter === '$500 or less')) {
         rowData = rowData.filter((phone) => {
           const getNum = phone.prices[0].price.match(/\d+/g)[0];
@@ -57,6 +59,37 @@ class DisplayPhones extends React.Component {
           return phone.prices && getNum >= 1000
         })
       }
+
+      // Year filters
+      if (activeFilters.find(filter => filter.match(/\d+/g))) {
+        let yearFilter = [];
+        if (activeFilters.find(filter => filter === '2025')) {
+          let rows = rowData.filter((phone) => phone.year === 2025);
+          yearFilter.push(...rows);
+        }
+        if (activeFilters.find(filter => filter === '2024')) {
+          let rows = rowData.filter((phone) => phone.year === 2024);
+          yearFilter.push(...rows)
+        }
+        if (activeFilters.find(filter => filter === '2023')) {
+          let rows = rowData.filter((phone) => phone.year === 2023);
+          yearFilter.push(...rows)
+        }
+        if (activeFilters.find(filter => filter === '2022')) {
+          let rows = rowData.filter((phone) => phone.year === 2022);
+          yearFilter.push(...rows)
+        }
+        if (activeFilters.find(filter => filter === '2021')) {
+          let rows = rowData.filter((phone) => phone.year === 2021);
+          yearFilter.push(...rows)
+        }
+        if (activeFilters.find(filter => filter === '2020')) {
+          let rows = rowData.filter((phone) => phone.year === 2020);
+          yearFilter.push(...rows)
+        }
+        rowData = yearFilter
+      }
+
       rowData = rowData.filter((phone) => activeFilters.includes(this.determinePhoneFilter(phone, rowTitle)))
     }
     if (this.props.displayAllPhones === true) {
@@ -69,9 +102,9 @@ class DisplayPhones extends React.Component {
       );
     } else {
       return rowData
-        .filter((phone) => parseInt(phone.year) >= this.year)
+        .filter((phone) => parseInt(phone.year) >= this.year) // 2 years recent filter
         .filter((phone) =>
-          this.searchPattern(search).test(phone.offName.toLowerCase())
+          this.searchPattern(search).test(phone.offName.toLowerCase()) // search filter
         );
     }
   };

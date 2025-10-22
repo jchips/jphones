@@ -125,18 +125,20 @@ class DisplayOptionsForm extends React.Component {
             className='filter__container'
             style={{ display: showFilters ? 'flex' : 'none' }}
           >
-            <p className='m-2 filter-section-label'>Companies</p>
+            {/* Company filters */}
+            <p className='m-2 filter-company-label'>Company</p>
             <div className='filter__wrapper'>
               {/* Toggle all companies */}
               <FormGroup controlId='check-all'>
                 <FormCheck
                   type='checkbox'
                   id='check-all'
-                  label='All companies'
+                  label='Select all'
                   checked={this.state.checkAllFilter.checked}
                   onChange={this.handleCheckAll}
                 />
               </FormGroup>
+
               {/* Phone filters */}
               {filters
                 ? filters
@@ -156,12 +158,36 @@ class DisplayOptionsForm extends React.Component {
                 : null}
             </div>
 
+            {/* Add-on filters */}
             <p className='m-2 filter-section-label'>Add-on filters</p>
+
+            {/* Cost filters */}
+            <p className='m-2 filter-type-label'>Starting cost</p>
             <div className='filter__wrapper'>
-              {/* Add-on filters */}
               {filters
                 ? filters
                   .filter((filter, index) => filter.type === 'add-on')
+                  .map((filter, index) => (
+                    <FormGroup key={index} controlId={`${filter.title}`}>
+                      <FormCheck
+                        key={index}
+                        type='checkbox'
+                        id={`${filter.title}`}
+                        label={`${filter.title}`}
+                        checked={filter.checked}
+                        onChange={this.handleCheck}
+                      />
+                    </FormGroup>
+                  ))
+                : null}
+            </div>
+
+            {/* Year filters */}
+            <p className='m-2 filter-type-label'>Release year</p>
+            <div className='filter__wrapper'>
+              {filters
+                ? filters
+                  .filter((filter, index) => filter.type === 'year')
                   .map((filter, index) => (
                     <FormGroup key={index} controlId={`${filter.title}`}>
                       <FormCheck
