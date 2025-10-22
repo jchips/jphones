@@ -176,6 +176,27 @@ class DisplayOptionsForm extends React.Component {
                   ))
                 : null}
             </div>
+
+            <p className='m-2 filter-section-label'>Year filters</p>
+            <div className='filter__wrapper'>
+              {/* Year filters */}
+              {filters
+                ? filters
+                  .filter((filter, index) => filter.type === 'year')
+                  .map((filter, index) => (
+                    <FormGroup key={index} controlId={`${filter.title}`}>
+                      <FormCheck
+                        key={index}
+                        type='checkbox'
+                        id={`${filter.title}`}
+                        label={`${filter.title}`}
+                        checked={filter.checked}
+                        onChange={this.handleCheck}
+                      />
+                    </FormGroup>
+                  ))
+                : null}
+            </div>
           </div>
         </form>
         <div className='search-box'>

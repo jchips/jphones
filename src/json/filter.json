@@ -48,5 +48,35 @@
     "title": ">$1000",
     "type": "add-on",
     "checked": false
+  },
+  {
+    "title": "2025",
+    "type": "year",
+    "checked": false
+  },
+  {
+    "title": "2024",
+    "type": "year",
+    "checked": false
+  },
+  {
+    "title": "2023",
+    "type": "year",
+    "checked": false
+  },
+  {
+    "title": "2022",
+    "type": "year",
+    "checked": false
+  },
+  {
+    "title": "2021",
+    "type": "year",
+    "checked": false
+  },
+  {
+    "title": "2020",
+    "type": "year",
+    "checked": false
   }
 ]

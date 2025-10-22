@@ -34,6 +34,11 @@ form {
     font-weight: 500;
   }
 
+  .filter-type-label {
+    color: $orange;
+    font-weight: 400;
+  }
+
   .filter__wrapper {
     display: flex;
     align-items: center;
