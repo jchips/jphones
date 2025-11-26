@@ -60,9 +60,9 @@ class DisplayPhones extends React.Component {
         })
       }
 
-      // Year filters
+      // Year filters (2020 - 2025)
       if (activeFilters.find(filter => filter.match(/\d+/g))) {
-        let yearFilter = [];
+        let yearFilter = []; // all filtered years
         if (activeFilters.find(filter => filter === '2025')) {
           let rows = rowData.filter((phone) => phone.year === 2025);
           yearFilter.push(...rows);
