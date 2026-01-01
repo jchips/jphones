@@ -61,6 +61,7 @@ class Samsung extends Component {
             <ModelAccordion data={samsungAData} category='A' mmToggle={this.state.mmToggle} />
             <ModelAccordion data={foldableData} category='Z Fold' mmToggle={this.state.mmToggle} />
             <ModelAccordion data={foldableData} category='Z Flip' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={foldableData} category='Z TriFold' mmToggle={this.state.mmToggle} />
             <ModelAccordion data={noteData} category='Note' mmToggle={this.state.mmToggle} />
           </div>
         )}
