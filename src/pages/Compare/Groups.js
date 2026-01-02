@@ -17,10 +17,13 @@ class Groups extends Component {
       return 'Moto G Power series';
     } else if (route.includes('Flip')) {
       let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
-      return company += ' flip';
+      return company += ' Flips';
+    } else if (route.includes('TriFold')) {
+      let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
+      return company += ' TriFolds';
     } else if (route.includes('foldables')) {
       let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
-      return company += ' foldables';
+      return company += ' Folds';
     } else if (route === 'notes') {
       let company = index === 'A' ? selectedCompanyA.name : selectedCompanyB.name;
       return company += ' Note series';
