@@ -8,7 +8,7 @@ class DisplayPhones extends React.Component {
     this.state = {
       rows: ['Google', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
     };
-    this.year = 2023;
+    this.year = 2024;
   }
 
   /**
@@ -60,9 +60,13 @@ class DisplayPhones extends React.Component {
         })
       }
 
-      // Year filters (2020 - 2025)
+      // Year filters (2020 - 2026)
       if (activeFilters.find(filter => filter.match(/\d+/g))) {
         let yearFilter = []; // all filtered years
+        if (activeFilters.find(filter => filter === '2026')) {
+          let rows = rowData.filter((phone) => phone.year === 2026);
+          yearFilter.push(...rows);
+        }
         if (activeFilters.find(filter => filter === '2025')) {
           let rows = rowData.filter((phone) => phone.year === 2025);
           yearFilter.push(...rows);
