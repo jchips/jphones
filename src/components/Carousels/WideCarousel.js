@@ -86,7 +86,10 @@ class WideCarousel extends Component {
     return (
       <div className='row phone-row--wide'>
         <div className='col-xl-4 col-lg-4 col-md-4 col-sm-3 col-12 img__container'>
-          <LazyLoadImage className='img img-fluid' src={phone.img} alt={phone.name} />
+          {phone.img ?
+            <LazyLoadImage className='img img-fluid' src={phone.img} alt={phone.name} /> :
+            <p style={{ fontWeight: 'bold' }}>Photo coming soon.</p>
+          }
         </div>
         <div className='col-xl-8 col-lg-8 col-md-8 col-sm-9 col-12'>
           <Carousel
