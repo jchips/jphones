@@ -9,19 +9,30 @@ const Display = (props) => {
       {carouselType === 'mini' ? (<h6 className='phone-title-text'>&mdash; {phone.name} &mdash;</h6>) : null}
       <div className='display__container surface-text--rg--blue surface scrollable'>
 
-        {/* Slab or foldable */}
+        {/* Slab or foldable (display size, resolution, display type, ppi) */}
         {!phone.foldable ? (
+          // slab
           <>
             <p><span className='display-size-text'>{phone.display.size}</span>, {phone.display.res}</p>
             <p>{phone.display.type}</p>
+            <p>{phone.display.ppi && `~${phone.display.ppi} ppi`}</p>
           </>
         ) :
+          // foldable
           <div className='display__wrapper--foldable'>
             <h5 style={{ marginTop: '5px' }}>Main</h5>
-            <p><span className='display-size-text'>{phone.display.innerSize}</span>, {phone.display.innerRes}</p>
+            <p>
+              <span className='display-size-text'>{phone.display.innerSize}</span>,{' '}
+              {phone.display.innerRes}
+              {phone.display.innerPPI && `, ~${phone.display.innerPPI} ppi`}
+            </p>
             <p>{phone.display.innerType}</p><hr />
             <h5>Cover</h5>
-            <p><span className='display-size-text'>{phone.display.outerSize}</span>, {phone.display.outerRes}</p>
+            <p>
+              <span className='display-size-text'>{phone.display.outerSize}</span>,{' '}
+              {phone.display.outerRes}
+              {phone.display.outerPPI && `, ~${phone.display.outerPPI} ppi`}
+            </p>
             <p>{phone.display.outerType}</p><hr />
           </div>
         }

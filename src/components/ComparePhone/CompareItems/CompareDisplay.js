@@ -27,6 +27,16 @@ class CompareDisplay extends Component {
             ${phone.display.type}`,
       },
       {
+        title: phone.foldable
+          ? 'Main PPI (inner)'
+          : 'PPI',
+        phone_data: phone.foldable
+          ? ((phone?.display?.innerPPI && `~${phone?.display?.innerPPI} ppi`)
+            || 'coming soon...') // PPI check (foldable)
+          : ((phone?.display?.ppi && `~${phone?.display?.ppi} ppi`)
+            || 'coming soon...'), // PPI check (slab)
+      },
+      {
         title: phone.foldable ? 'Cover display size (outer)' : null,
         phone_data: phone.foldable ? phone.display.outerSize : null,
       },
@@ -39,6 +49,13 @@ class CompareDisplay extends Component {
         phone_data: phone.foldable
           ? `${phone?.display?.outerDef ? phone.display.outerDef : ''}
             ${phone.display.outerType}`
+          : null,
+      },
+      {
+        title: phone.foldable ? 'Cover PPI (outer)' : null,
+        phone_data: phone.foldable
+          ? ((phone?.display?.outerPPI && `~${phone?.display?.outerPPI} ppi`)
+            || 'coming soon...') // PPI check (foldable)
           : null,
       },
       {

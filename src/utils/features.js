@@ -1,6 +1,7 @@
 const features = [
   '5G support',
   'Wi-Fi',
+  // 'Bluetooth', TODO
   'HDR support',
   'Always-on display (AOD)',
   'Mute switch',
