@@ -30,7 +30,8 @@ class Samsung extends Component {
       let noteData = await getData('notes');
       let brandData = await getData('brand-data?cat=galaxy');
       let foldableData = await getData('foldables');
-      this.setState({ samsungSData, samsungAData, noteData, foldableData, brandData, isLoading: false });
+      let flipData = await getData('flips');
+      this.setState({ samsungSData, samsungAData, noteData, foldableData, flipData, brandData, isLoading: false }); // TODO: add when flips.json is ready
     } catch (error) {
       console.error(error);
       this.setState({ error: 'Sorry, there has been an error fetching Samsung data. Please try again later.' })
@@ -38,7 +39,7 @@ class Samsung extends Component {
   }
 
   render() {
-    let { samsungSData, samsungAData, noteData, foldableData, brandData, isLoading, error } = this.state;
+    let { samsungSData, samsungAData, noteData, foldableData, flipData, brandData, isLoading, error } = this.state;
     let sPhones = ['S26', 'S25', 'S24', 'S23', 'S22', 'S21', 'S20', 'S10', 'S9'];
     return (
       <>
@@ -55,13 +56,14 @@ class Samsung extends Component {
               label='show inches'
               onChange={() => setMMToggle(this)}
             />
+            <ModelAccordion data={foldableData} category='Z Fold' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={foldableData} category='Z TriFold' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={flipData} category='Z Flip' mmToggle={this.state.mmToggle} />
             {sPhones.map((version, index) =>
               <ModelAccordion data={samsungSData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
             <ModelAccordion data={samsungAData} category='A' mmToggle={this.state.mmToggle} />
-            <ModelAccordion data={foldableData} category='Z Fold' mmToggle={this.state.mmToggle} />
-            <ModelAccordion data={foldableData} category='Z Flip' mmToggle={this.state.mmToggle} />
-            <ModelAccordion data={foldableData} category='Z TriFold' mmToggle={this.state.mmToggle} />
+            {/* <ModelAccordion data={foldableData} category='Z Flip' mmToggle={this.state.mmToggle} /> */}
             <ModelAccordion data={noteData} category='Note' mmToggle={this.state.mmToggle} />
           </div>
         )}

@@ -26,7 +26,8 @@ class Motorola extends Component {
       let motoData = await getData('moto-g-power');
       let brandData = await getData('brand-data?cat=motorola');
       let foldableData = await getData('foldables');
-      this.setState({ motoData, foldableData, brandData, isLoading: false });
+      let flipData = await getData('flips');
+      this.setState({ motoData, foldableData, flipData, brandData, isLoading: false });
     } catch (error) {
       console.error(error);
       this.setState({ error: 'Sorry, there has been an error fetching Motorola data. Please try again later.' })
@@ -34,7 +35,7 @@ class Motorola extends Component {
   }
 
   render() {
-    let { error, isLoading, motoData, brandData, foldableData } = this.state;
+    let { error, isLoading, motoData, brandData, foldableData, flipData } = this.state;
     let series = ['G Power'];
     return (
       <>
@@ -54,7 +55,8 @@ class Motorola extends Component {
             {series.map((version, index) =>
               <ModelAccordion data={motoData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={foldableData} category='razr' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={foldableData} category='razr fold' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={flipData} category='razr' mmToggle={this.state.mmToggle} />
           </div>
         )}
         <Footer />
