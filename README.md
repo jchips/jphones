@@ -18,9 +18,15 @@ jPhones is a website for phone shoppers to compare phones and find the phone tha
 - Languages used: JavaScript and SASS.
 - Backend made with Nodejs and Express.
 
+## Set up
+
+- navigate to project folder
+- run `npm start`
+
 ## Changelog
 
-- 2025-01-03 (1.5.3) - Added 2026 filter, added Z TriFold dropdown to Samsung page, improved footer.
+- 2026-04-10 (1.5.4) - Added PPI.
+- 2026-01-03 (1.5.3) - Added 2026 filter, added Z TriFold dropdown to Samsung page, improved footer.
 - 2025-10-21 (1.5.2) - Improved AI slide, added more filter options.
 - 2025-08-10 (1.5.1) - Optimized main page carousel headers.
 - 2025-08-01 (1.5.0) - Added dark theme.
