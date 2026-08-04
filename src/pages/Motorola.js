@@ -52,11 +52,11 @@ class Motorola extends Component {
               label='show inches'
               onChange={() => setMMToggle(this)}
             />
+            <ModelAccordion data={foldableData} category='razr Fold' mmToggle={this.state.mmToggle} />
+            <ModelAccordion data={flipData} category='razr' mmToggle={this.state.mmToggle} />
             {series.map((version, index) =>
               <ModelAccordion data={motoData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={foldableData} category='razr fold' mmToggle={this.state.mmToggle} />
-            <ModelAccordion data={flipData} category='razr' mmToggle={this.state.mmToggle} />
           </div>
         )}
         <Footer />
