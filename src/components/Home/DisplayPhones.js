@@ -8,7 +8,7 @@ class DisplayPhones extends React.Component {
     this.state = {
       rows: ['Google', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
     };
-    this.year = 2024;
+    this.year = 2025; // devices are still considered new from this year on
   }
 
   /**
