@@ -91,8 +91,9 @@ class Home extends React.Component {
         getData('samsung-s'),
         getData('samsung-a'),
         getData('iphones'),
-        getData('oneplus'),
+        // getData('oneplus'),
         getData('foldables'),
+        getData('flips'),
         getData('nothing'),
         getData('moto-g-power')
       ]);
@@ -102,8 +103,9 @@ class Home extends React.Component {
         { name: 'Samsung S', rowData: rowData[1] },
         { name: 'Samsung A', rowData: rowData[2] },
         { name: 'Apple', rowData: rowData[3] },
-        { name: 'OnePlus', rowData: rowData[4] },
-        { name: 'Foldable', rowData: rowData[5] },
+        // { name: 'OnePlus', rowData: rowData[4] },
+        { name: 'Foldable', rowData: rowData[4] },
+        { name: 'Flip', rowData: rowData[5] },
         { name: 'Nothing', rowData: rowData[6] },
         { name: 'Moto G Power', rowData: rowData[7] },
       ];

@@ -6,7 +6,7 @@ class DisplayPhones extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      rows: ['Google', 'Samsung S', 'Apple', 'OnePlus', 'Foldable', 'Nothing', 'Budget']
+      rows: ['Google', 'Samsung S', 'Apple', 'Foldable', 'Flip', 'Nothing', 'Budget']
     };
     this.year = 2025; // devices are still considered new from this year on
   }
@@ -38,6 +38,10 @@ class DisplayPhones extends React.Component {
     if (activeFilters.length) {
       if (activeFilters.find(filter => filter === 'Foldable')) {
         rowData = rowData.filter((phone) => phone.foldable);
+      }
+
+      if (activeFilters.find(filter => filter === 'Flip')) {
+        rowData = rowData.filter((phone) => phone.flip);
       }
 
       // Cost filters
@@ -106,7 +110,7 @@ class DisplayPhones extends React.Component {
       );
     } else {
       return rowData
-        .filter((phone) => parseInt(phone.year) >= this.year) // 2 years recent filter
+        .filter((phone) => parseInt(phone.year) >= this.year) // 1-2 years recent filter
         .filter((phone) =>
           this.searchPattern(search).test(phone.offName.toLowerCase()) // search filter
         );

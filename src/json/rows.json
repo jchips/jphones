@@ -15,12 +15,11 @@
     "filter_title": "Apple"
   },
   {
-    "title": "OnePlus",
-    "filter": false,
-    "filter_title": "OnePlus"
+    "title": "Foldable",
+    "filter": false
   },
   {
-    "title": "Foldable",
+    "title": "Flip",
     "filter": false
   },
   {

@@ -4,6 +4,10 @@
     "expl": "Always On Display - a feature the latest phones have where the phone always has something displaying"
   },
   {
+    "abbr": "AF",
+    "expl": "Autofocus"
+  },
+  {
     "abbr": "build",
     "expl": "What the phone was built with - listed as front (screen) / back. If there's no '/', this means the build is the same for front and back"
   },

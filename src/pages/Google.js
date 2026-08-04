@@ -51,10 +51,10 @@ class Google extends Component {
               label='show inches'
               onChange={() => setMMToggle(this)}
             />
+            <ModelAccordion data={foldableData} category='Fold' mmToggle={this.state.mmToggle} />
             {series.map((version, index) =>
               <ModelAccordion data={pixelData} category={version} mmToggle={this.state.mmToggle} key={index} />
             )}
-            <ModelAccordion data={foldableData} category='Fold' mmToggle={this.state.mmToggle} />
           </div>
         )}
         <Footer />

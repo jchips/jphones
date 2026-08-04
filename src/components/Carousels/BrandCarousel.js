@@ -65,16 +65,16 @@ class BrandCarousel extends Component {
 
   render() {
     const { brand } = this.props;
-    const popover = (
-      <Popover id='popover-basic'>
+    const popover =
+      brand.imgAttr && (<Popover id='popover-basic'>
         <Popover.Body>
-          <a href={brand.imgAttr.source} target='_blank' rel='noreferrer'>{brand.imgAttr.title}</a>
-          {' '}by {brand.imgAttr.author} is licensed by{' '}
-          <a href={brand.imgAttr.licenseLink} target='_blank' rel='noreferrer'>{brand.imgAttr.license}</a>.
-          <br /><span className='mods'>Modifications: {brand.imgAttr.mods}</span>.
+          <a href={brand?.imgAttr?.source} target='_blank' rel='noreferrer'>{brand?.imgAttr?.title}</a>
+          {' '}by {brand?.imgAttr?.author} is licensed by{' '}
+          <a href={brand?.imgAttr?.licenseLink} target='_blank' rel='noreferrer'>{brand?.imgAttr?.license}</a>.
+          <br /><span className='mods'>Modifications: {brand?.imgAttr?.mods}</span>.
         </Popover.Body>
-      </Popover>
-    );
+      </Popover>)
+    // );
     return (
       <>
         <Carousel
@@ -87,17 +87,21 @@ class BrandCarousel extends Component {
         >
 
           {/* hero */}
-          <Carousel.Item className='brand-img text-center'>
-            <img src={brand.img} alt={brand.name} />
-            <OverlayTrigger trigger='click' placement='top' overlay={popover}>
-              <section className='img-attr'>
-                <img
-                  src='https://img.icons8.com/fluency-systems-regular/48/777777/info--v1.png'
-                  alt='info--v1'
-                  title='image details'
-                />
-              </section>
-            </OverlayTrigger>
+          <Carousel.Item className=' text-center'>
+            <div className='center-img'>
+              {(this.state.theme === 'dark' && brand?.imgDark)
+                ? <img src={brand.imgDark} alt={brand.name} />
+                : <img src={brand.img} alt={brand.name} />}
+              {brand?.imgAttr ? <OverlayTrigger trigger='click' placement='top' overlay={popover}>
+                <section className='img-attr'>
+                  <img
+                    src='https://img.icons8.com/fluency-systems-regular/48/777777/info--v1.png'
+                    alt='info--v1'
+                    title='image details'
+                  />
+                </section>
+              </OverlayTrigger> : null}
+            </div>
           </Carousel.Item>
 
           {/* Features */}

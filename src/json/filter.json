@@ -15,11 +15,6 @@
     "checked": false
   },
   {
-    "title": "OnePlus",
-    "type": "phone",
-    "checked": false
-  },
-  {
     "title": "Nothing",
     "type": "phone",
     "checked": false
@@ -31,6 +26,11 @@
   },
   {
     "title": "Foldable",
+    "type": "add-on",
+    "checked": false
+  },
+  {
+    "title": "Flip",
     "type": "add-on",
     "checked": false
   },
